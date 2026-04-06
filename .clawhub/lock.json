@@ -1,0 +1,177 @@
+{
+  "version": 1,
+  "skills": {
+    "tavily-search": {
+      "version": "1.0.0",
+      "installedAt": 1774313539719
+    },
+    "summarize": {
+      "version": "1.0.0",
+      "installedAt": 1774313540055
+    },
+    "agent-browser": {
+      "version": "0.2.0",
+      "installedAt": 1774313540401
+    },
+    "find-skills": {
+      "version": "0.1.0",
+      "installedAt": 1774313540691
+    },
+    "github": {
+      "version": "1.0.0",
+      "installedAt": 1774313541035
+    },
+    "obsidian": {
+      "version": "1.0.0",
+      "installedAt": 1774313541358
+    },
+    "weather": {
+      "version": "1.0.0",
+      "installedAt": 1774313541689
+    },
+    "tencentcloud-lighthouse-skill": {
+      "version": "1.0.0",
+      "installedAt": 1772979775049
+    },
+    "tencent-docs": {
+      "version": "1.0.4",
+      "installedAt": 1772979777037
+    },
+    "tencent-cos-skill": {
+      "version": "1.0.6",
+      "installedAt": 1772979779532
+    },
+    "t-web-searcher": {
+      "version": "1.0.0",
+      "installedAt": 1773299907436
+    },
+    "web-search-ex-skill": {
+      "version": "1.3.0",
+      "installedAt": 1773299946263
+    },
+    "skill-creator-latest": {
+      "version": "2.0.0",
+      "installedAt": 1773300029371
+    },
+    "skill-security-review": {
+      "version": "1.0.0",
+      "installedAt": 1773300031670
+    },
+    "web-fetcher": {
+      "version": "0.1.1",
+      "installedAt": 1773300035790
+    },
+    "playwright-browser-automation": {
+      "version": "2.0.0",
+      "installedAt": 1773929392539
+    },
+    "qqbot-prompt-optimizer": {
+      "version": "1.0.0",
+      "installedAt": 1773301734869
+    },
+    "wechat-reader": {
+      "version": "1.0.0",
+      "installedAt": 1773301742349
+    },
+    "wechat-articles": {
+      "version": "1.0.1",
+      "installedAt": 1773301745477
+    },
+    "napcat-qq-bridge-installer": {
+      "version": "1.0.1",
+      "installedAt": 1773301749743
+    },
+    "official-doc": {
+      "version": "1.1.1",
+      "installedAt": 1773302307327
+    },
+    "docx-formatter": {
+      "version": "1.0.1",
+      "installedAt": 1773302312327
+    },
+    "chinese-writing-assistant": {
+      "version": "1.0.0",
+      "installedAt": 1773302319029
+    },
+    "openclaw-cron-setup": {
+      "version": "1.0.0",
+      "installedAt": 1773315362689
+    },
+    "multi-search-engine": {
+      "version": "2.0.1",
+      "installedAt": 1773494924420
+    },
+    "xiucheng-self-improving-agent": {
+      "version": "1.0.0",
+      "installedAt": 1773494927440
+    },
+    "office-automation-test": {
+      "version": "1.0.0",
+      "installedAt": 1773494931792
+    },
+    "wangziiiii": {
+      "version": "1.0.0",
+      "installedAt": 1773893068672
+    },
+    "cutmv": {
+      "version": "1.0.0",
+      "installedAt": 1773893069170
+    },
+    "video": {
+      "version": "",
+      "installedAt": 1773893069708
+    },
+    "agent-browser-clawdbot": {
+      "version": "0.1.0",
+      "installedAt": 1774313821798
+    },
+    "ai-humanizer": {
+      "version": "2.1.0",
+      "installedAt": 1774313897572
+    },
+    "proactive-agent-skill": {
+      "version": "1.0.0",
+      "installedAt": 1774313942830
+    },
+    "calendar": {
+      "version": "1.0.0",
+      "installedAt": 1774569672253
+    },
+    "reminder": {
+      "version": "0.1.1",
+      "installedAt": 1774569721285
+    },
+    "personal-productivity": {
+      "version": "1.0.0",
+      "installedAt": 1774569846918
+    },
+    "gcalcli-calendar": {
+      "version": "3.0.0",
+      "installedAt": 1774569901549
+    },
+    "wps": {
+      "version": "1.0.0",
+      "installedAt": 1774574041888
+    },
+    "bb-browser-sites": {
+      "version": "0.1.0",
+      "installedAt": 1774689666731
+    },
+    "bb-browser": {
+      "version": "0.6.0",
+      "installedAt": 1774690681806
+    },
+    "skill-vetter": {
+      "version": "1.0.0",
+      "installedAt": 1774843166115
+    },
+    "nidhov01-skill-vetter": {
+      "version": "1.0.0",
+      "installedAt": 1774843547952
+    },
+    "bibigpt-skill": {
+      "version": "1.0.0",
+      "installedAt": 1774845292073
+    }
+  }
+}
