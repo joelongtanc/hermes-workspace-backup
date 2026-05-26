@@ -1,0 +1,41 @@
+Hermes Agent Backup Summary
+===========================
+Date: 2026-05-26
+Time: 2026-05-26T15:01:37Z (UTC)
+
+Backup Contents:
+----------------
+1. /opt/data/home/.hermes/ - Hermes config directory
+   - .env (API keys replaced with BACKUP_KEY placeholders)
+   - config.yaml
+   - backup-latest-summary.txt
+
+2. /opt/data/skills/ - Skills directory
+   - 28 skill categories
+   - skills-core (core bundled skills)
+   - skills-user (symlinks to .agents/skills)
+
+3. /opt/data/.agents/ - User skills directory
+   - lark-* skills (Feishu/Lark integration)
+   - 26 user-defined skills
+
+4. /opt/data/memories/ - Memory files
+   - MEMORY.md
+   - USER.md
+
+Backup Stats:
+------------
+Archive: backup-2026-05-26.tar.gz
+Size: 11,311,912 bytes (~10.8 MB)
+Format: tar.gz
+SHA: c29c8148f4461fddd06f17afbc15e72e0652740e
+
+GitHub Upload:
+--------------
+Status: SUCCESS
+Commit: 5924075874326faba60f5d9fcec1f40174a51fb0
+URL: https://github.com/joelongtanc/hermes-workspace-backup/commit/5924075874326faba60f5d9fcec1f40174a51fb0
+
+Local Backup:
+-------------
+Path: /opt/data/home/backup-2026-05-26.tar.gz
