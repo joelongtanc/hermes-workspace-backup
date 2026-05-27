@@ -1,0 +1,28 @@
+=== Hermes Workspace Backup Summary ===
+Date: 2026-05-27
+Status: SUCCESS (GitHub upload completed)
+
+Backed up directories:
+- /opt/data/.hermes/ (Hermes config)
+- /opt/data/.agents/ (Skills)
+- /opt/data/memories/ (Memory files)
+- /opt/data/home/.env.sanitized (Env vars, keys redacted)
+
+Backed up files:
+- SOUL.md
+- config.yaml
+- auth.json
+
+Excluded (size/sensitivity):
+- .cache, cache/, node_modules/
+- *.db, *.db-shm, *.db-wal (state, kanban, response_store)
+- image_cache/, audio_cache/, logs/
+- sessions/, cron/, models_dev_cache.json
+- _skills_prompt_snapshot.json, workspace/
+
+GitHub Upload: SUCCESS
+Repo: joelongtanc/hermes-workspace-backup
+File: backup-2026-05-27.tar.gz
+
+Local backup: /opt/data/home/backup-2026-05-27.tar.gz
+Backup size: 4.2M
