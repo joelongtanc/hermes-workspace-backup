@@ -1,5 +1,0 @@
-platforms:
-  feishu:
-    enabled: true
-    extra:
-      connection_mode: websocket
