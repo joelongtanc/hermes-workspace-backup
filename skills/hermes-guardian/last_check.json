@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-05-29T04:00:02+0800",
+  "previous_status": "WARNING",
+  "hermes_running": "yes",
+  "hermes_pid": "3527387",
+  "openclaw_running": "no",
+  "openclaw_pid": "none",
+  "feishu_last_connect": "none",
+  "has_feishu_conflict": 0,
+  "restarts_last_5min": 0,
+  "status": "WARNING",
+  "severity": "WARNING",
+  "message": "openclaw-gateway 离线（备用系统）"
+}

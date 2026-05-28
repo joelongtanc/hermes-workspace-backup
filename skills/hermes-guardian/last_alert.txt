@@ -1,0 +1,5 @@
+[Hermes Guardian 04:00:02]
+【WARNING】hermes-gateway
+openclaw-gateway 离线（备用系统）
+进程: yes（PID 3527387）
+openclaw: no（PID N/A）
