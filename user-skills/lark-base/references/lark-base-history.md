@@ -1,16 +1,1 @@
-# base history shortcuts
-
-> **前置条件：** 先阅读 [`../lark-shared/SKILL.md`](../../lark-shared/SKILL.md) 了解认证、全局参数和安全规则。
-
-history 相关命令索引。
-
-## 命令导航
-
-| 文档 | 命令 | 说明 |
-|------|------|------|
-| [lark-base-record-history-list.md](lark-base-record-history-list.md) | `+record-history-list` | 按 `table-id + record-id` 查询记录变更历史 |
-
-## 说明
-
-- 聚合页只保留目录职责；每个命令的详细说明请进入对应单命令文档。
-- 所有 `+xxx-list` 调用都必须串行执行；若要批量跑多个 list 请求，只能串行执行。
+IyBiYXNlIGhpc3Rvcnkgc2hvcnRjdXRzCgo+ICoq5YmN572u5p2h5Lu277yaKiog5YWI6ZiF6K+7IFtgLi4vbGFyay1zaGFyZWQvU0tJTEwubWRgXSguLi8uLi9sYXJrLXNoYXJlZC9TS0lMTC5tZCkg5LqG6Kej6K6k6K+B44CB5YWo5bGA5Y+C5pWw5ZKM5a6J5YWo6KeE5YiZ44CCCgpoaXN0b3J5IOebuOWFs+WRveS7pOe0ouW8leOAggoKIyMg5ZG95Luk5a+86IiqCgp8IOaWh+ahoyB8IOWRveS7pCB8IOivtOaYjiB8CnwtLS0tLS18LS0tLS0tfC0tLS0tLXwKfCBbbGFyay1iYXNlLXJlY29yZC1oaXN0b3J5LWxpc3QubWRdKGxhcmstYmFzZS1yZWNvcmQtaGlzdG9yeS1saXN0Lm1kKSB8IGArcmVjb3JkLWhpc3RvcnktbGlzdGAgfCDmjIkgYHRhYmxlLWlkICsgcmVjb3JkLWlkYCDmn6Xor6LorrDlvZXlj5jmm7Tljoblj7IgfAoKIyMg6K+05piOCgotIOiBmuWQiOmhteWPquS/neeVmeebruW9leiBjOi0o++8m+avj+S4quWRveS7pOeahOivpue7huivtOaYjuivt+i/m+WFpeWvueW6lOWNleWRveS7pOaWh+aho+OAggotIOaJgOaciSBgK3h4eC1saXN0YCDosIPnlKjpg73lv4XpobvkuLLooYzmiafooYzvvJvoi6XopoHmibnph4/ot5HlpJrkuKogbGlzdCDor7fmsYLvvIzlj6rog73kuLLooYzmiafooYzjgIIK

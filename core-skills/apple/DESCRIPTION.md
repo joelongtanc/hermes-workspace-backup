@@ -1,2 +1,1 @@
-Apple / macOS skills — tools that interact with the Mac desktop (Finder,
-native apps) or system features (accessibility, screenshots).
+QXBwbGUgLyBtYWNPUyBza2lsbHMg4oCUIHRvb2xzIHRoYXQgaW50ZXJhY3Qgd2l0aCB0aGUgTWFjIGRlc2t0b3AgKEZpbmRlciwKbmF0aXZlIGFwcHMpIG9yIHN5c3RlbSBmZWF0dXJlcyAoYWNjZXNzaWJpbGl0eSwgc2NyZWVuc2hvdHMpLgo=
