@@ -1,3 +1,1 @@
-# Template
-
-Template and style files for CoLM 2025
+IyBUZW1wbGF0ZQoKVGVtcGxhdGUgYW5kIHN0eWxlIGZpbGVzIGZvciBDb0xNIDIwMjUK

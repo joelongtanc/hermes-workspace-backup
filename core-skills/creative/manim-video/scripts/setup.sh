@@ -1,14 +1,1 @@
-#!/usr/bin/env bash
-set -euo pipefail
-G="\033[0;32m"; R="\033[0;31m"; N="\033[0m"
-ok() { echo -e "  ${G}+${N} $1"; }
-fail() { echo -e "  ${R}x${N} $1"; }
-echo ""; echo "Manim Video Skill — Setup Check"; echo ""
-errors=0
-command -v python3 &>/dev/null && ok "Python $(python3 --version 2>&1 | awk '{print $2}')" || { fail "Python 3 not found"; errors=$((errors+1)); }
-python3 -c "import manim" 2>/dev/null && ok "Manim $(manim --version 2>&1 | head -1)" || { fail "Manim not installed: pip install manim"; errors=$((errors+1)); }
-command -v pdflatex &>/dev/null && ok "LaTeX (pdflatex)" || { fail "LaTeX not found (macOS: brew install --cask mactex-no-gui)"; errors=$((errors+1)); }
-command -v ffmpeg &>/dev/null && ok "ffmpeg" || { fail "ffmpeg not found"; errors=$((errors+1)); }
-echo ""
-[ $errors -eq 0 ] && echo -e "${G}All prerequisites satisfied.${N}" || echo -e "${R}$errors prerequisite(s) missing.${N}"
-echo ""
+IyEvdXNyL2Jpbi9lbnYgYmFzaApzZXQgLWV1byBwaXBlZmFpbApHPSJcMDMzWzA7MzJtIjsgUj0iXDAzM1swOzMxbSI7IE49IlwwMzNbMG0iCm9rKCkgeyBlY2hvIC1lICIgICR7R30rJHtOfSAkMSI7IH0KZmFpbCgpIHsgZWNobyAtZSAiICAke1J9eCR7Tn0gJDEiOyB9CmVjaG8gIiI7IGVjaG8gIk1hbmltIFZpZGVvIFNraWxsIOKAlCBTZXR1cCBDaGVjayI7IGVjaG8gIiIKZXJyb3JzPTAKY29tbWFuZCAtdiBweXRob24zICY+L2Rldi9udWxsICYmIG9rICJQeXRob24gJChweXRob24zIC0tdmVyc2lvbiAyPiYxIHwgYXdrICd7cHJpbnQgJDJ9JykiIHx8IHsgZmFpbCAiUHl0aG9uIDMgbm90IGZvdW5kIjsgZXJyb3JzPSQoKGVycm9ycysxKSk7IH0KcHl0aG9uMyAtYyAiaW1wb3J0IG1hbmltIiAyPi9kZXYvbnVsbCAmJiBvayAiTWFuaW0gJChtYW5pbSAtLXZlcnNpb24gMj4mMSB8IGhlYWQgLTEpIiB8fCB7IGZhaWwgIk1hbmltIG5vdCBpbnN0YWxsZWQ6IHBpcCBpbnN0YWxsIG1hbmltIjsgZXJyb3JzPSQoKGVycm9ycysxKSk7IH0KY29tbWFuZCAtdiBwZGZsYXRleCAmPi9kZXYvbnVsbCAmJiBvayAiTGFUZVggKHBkZmxhdGV4KSIgfHwgeyBmYWlsICJMYVRlWCBub3QgZm91bmQgKG1hY09TOiBicmV3IGluc3RhbGwgLS1jYXNrIG1hY3RleC1uby1ndWkpIjsgZXJyb3JzPSQoKGVycm9ycysxKSk7IH0KY29tbWFuZCAtdiBmZm1wZWcgJj4vZGV2L251bGwgJiYgb2sgImZmbXBlZyIgfHwgeyBmYWlsICJmZm1wZWcgbm90IGZvdW5kIjsgZXJyb3JzPSQoKGVycm9ycysxKSk7IH0KZWNobyAiIgpbICRlcnJvcnMgLWVxIDAgXSAmJiBlY2hvIC1lICIke0d9QWxsIHByZXJlcXVpc2l0ZXMgc2F0aXNmaWVkLiR7Tn0iIHx8IGVjaG8gLWUgIiR7Un0kZXJyb3JzIHByZXJlcXVpc2l0ZShzKSBtaXNzaW5nLiR7Tn0iCmVjaG8gIiIK

@@ -1,3 +1,1 @@
----
-description: Skills for document creation, presentations, spreadsheets, and other productivity workflows.
----
+LS0tCmRlc2NyaXB0aW9uOiBTa2lsbHMgZm9yIGRvY3VtZW50IGNyZWF0aW9uLCBwcmVzZW50YXRpb25zLCBzcHJlYWRzaGVldHMsIGFuZCBvdGhlciBwcm9kdWN0aXZpdHkgd29ya2Zsb3dzLgotLS0K

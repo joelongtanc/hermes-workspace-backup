@@ -1,3 +1,1 @@
----
-description: Skills for academic research, paper discovery, literature review, domain reconnaissance, market data, content monitoring, and scientific knowledge retrieval.
----
+LS0tCmRlc2NyaXB0aW9uOiBTa2lsbHMgZm9yIGFjYWRlbWljIHJlc2VhcmNoLCBwYXBlciBkaXNjb3ZlcnksIGxpdGVyYXR1cmUgcmV2aWV3LCBkb21haW4gcmVjb25uYWlzc2FuY2UsIG1hcmtldCBkYXRhLCBjb250ZW50IG1vbml0b3JpbmcsIGFuZCBzY2llbnRpZmljIGtub3dsZWRnZSByZXRyaWV2YWwuCi0tLQo=

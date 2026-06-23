@@ -1,3 +1,1 @@
----
-description: Skills for controlling smart home devices — lights, switches, sensors, and home automation systems.
----
+LS0tCmRlc2NyaXB0aW9uOiBTa2lsbHMgZm9yIGNvbnRyb2xsaW5nIHNtYXJ0IGhvbWUgZGV2aWNlcyDigJQgbGlnaHRzLCBzd2l0Y2hlcywgc2Vuc29ycywgYW5kIGhvbWUgYXV0b21hdGlvbiBzeXN0ZW1zLgotLS0K

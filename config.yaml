@@ -1,13 +1,1 @@
-platforms:
-  feishu:
-    enabled: true
-    extra:
-      connection_mode: websocket
-
-mcp_servers:
-  kwiki:
-    url: "https://zhishi.wps.cn/personalwiki/kwiki_mcp/mcp"
-    headers:
-      X-Kwiki-Auth: "9dEIo2l/QYACRw/KbTgC3GoaVqM2kK0JejtNcowyTIdvXa1t36c8OJ/elXXcrp5gCyd8e0hZjNAwyntRYpmaFAPkwIbHd/To9RKVpLdSlRyqyFHm09fbBJQGlZTzepnXbg1POdISZcsjO+/g8Q=="
-      X-Skill-Version: "1.0.0"
-    timeout: 120
+cGxhdGZvcm1zOgogIGZlaXNodToKICAgIGVuYWJsZWQ6IHRydWUKICAgIGV4dHJhOgogICAgICBjb25uZWN0aW9uX21vZGU6IHdlYnNvY2tldAoKbWNwX3NlcnZlcnM6CiAga3dpa2k6CiAgICB1cmw6ICJodHRwczovL3poaXNoaS53cHMuY24vcGVyc29uYWx3aWtpL2t3aWtpX21jcC9tY3AiCiAgICBoZWFkZXJzOgogICAgICBYLUt3aWtpLUF1dGg6ICI5ZEVJbzJsL1FZQUNSdy9LYlRnQzNHb2FWcU0ya0swSmVqdE5jb3d5VElkdlhhMXQzNmM4T0ovZWxYWGNycDVnQ3lkOGUwaFpqTkF3eW50UllwbWFGQVBrd0liSGQvVG85UktWcExkU2xSeXF5RkhtMDlmYkJKUUdsWlR6ZXBuWGJnMVBPZElTWmNzak8rL2c4UT09IgogICAgICBYLVNraWxsLVZlcnNpb246ICIxLjAuMCIKICAgIHRpbWVvdXQ6IDEyMAo=
