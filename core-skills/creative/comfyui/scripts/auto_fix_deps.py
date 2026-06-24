@@ -1,1 +1,225 @@
-IyEvdXNyL2Jpbi9lbnYgcHl0aG9uMwoiIiIKYXV0b19maXhfZGVwcy5weSDigJQgUnVuIGNoZWNrX2RlcHMucHksIHRoZW4gYXR0ZW1wdCB0byBpbnN0YWxsIHdoYXRldmVyIGlzIG1pc3NpbmcuCgpGb3IgbG9jYWwgc2VydmVyczoKICAtIE1pc3NpbmcgY3VzdG9tIG5vZGVzIOKGkiBgY29tZnkgbm9kZSBpbnN0YWxsIDxwYWNrYWdlPmAKICAtIE1pc3NpbmcgbW9kZWxzIOKGkiBgY29tZnkgbW9kZWwgZG93bmxvYWRgIChvbmx5IGlmIGEgVVJMIGlzIHN1cHBsaWVkIHZpYQogICAgLS1tb2RlbC1zb3VyY2UtZmlsZSBvciBkZXRlY3RlZCB2aWEgd2VsbC1rbm93biBuYW1lcykKCkZvciBjbG91ZDogcHJpbnRzIHdoYXQgd291bGQgYmUgbmVlZGVkIGJ1dCBjYW5ub3QgaW5zdGFsbCAoY2xvdWQgcHJlaW5zdGFsbHMKY3VzdG9tIG5vZGVzIGFuZCBtb3N0IG1vZGVscyBzZXJ2ZXItc2lkZTsgaWYgc29tZXRoaW5nIGdlbnVpbmVseSBpc24ndCB0aGVyZSwKYXNrIENvbWZ5IHN1cHBvcnQpLgoKVGhpcyBpcyBjb25zZXJ2YXRpdmU6IGl0IG5ldmVyIGluc3RhbGxzIHdpdGhvdXQgYW4gZXhwbGljaXQgVVJMIGZvciBtb2RlbHMKKGRvd25sb2FkaW5nIHRoZSB3cm9uZyBtb2RlbCBpcyBoYXJkIHRvIHVuZG8pLiBDdXN0b20gbm9kZXMgZnJvbSB0aGUgcmVnaXN0cnkKYXJlIGF1dG8taW5zdGFsbGVkIGJ5IG5hbWUuCgpVc2FnZToKICAgIHB5dGhvbjMgYXV0b19maXhfZGVwcy5weSB3b3JrZmxvd19hcGkuanNvbgogICAgcHl0aG9uMyBhdXRvX2ZpeF9kZXBzLnB5IHdvcmtmbG93X2FwaS5qc29uIC0tbW9kZWxzLWZyb20tZmlsZSB1cmxzLmpzb24KICAgIHB5dGhvbjMgYXV0b19maXhfZGVwcy5weSB3b3JrZmxvd19hcGkuanNvbiAtLWRyeS1ydW4KIiIiCgpmcm9tIF9fZnV0dXJlX18gaW1wb3J0IGFubm90YXRpb25zCgppbXBvcnQgYXJncGFyc2UKaW1wb3J0IGpzb24KaW1wb3J0IHNodXRpbAppbXBvcnQgc3VicHJvY2VzcwppbXBvcnQgc3lzCmZyb20gcGF0aGxpYiBpbXBvcnQgUGF0aAoKc3lzLnBhdGguaW5zZXJ0KDAsIHN0cihQYXRoKF9fZmlsZV9fKS5yZXNvbHZlKCkucGFyZW50KSkKZnJvbSBfY29tbW9uIGltcG9ydCAoICAjIG5vcWE6IEU0MDIKICAgIERFRkFVTFRfTE9DQUxfSE9TVCwgRU5WX0FQSV9LRVksIGVtaXRfanNvbiwgbG9nLCByZXNvbHZlX2FwaV9rZXksCikKZnJvbSBjaGVja19kZXBzIGltcG9ydCBjaGVja19kZXBzICAjIG5vcWE6IEU0MDIKZnJvbSBfY29tbW9uIGltcG9ydCB1bndyYXBfd29ya2Zsb3cgICMgbm9xYTogRTQwMgoKCmRlZiBjb21meV9jbGlfYXZhaWxhYmxlKCkgLT4gc3RyIHwgTm9uZToKICAgICIiIlJldHVybiBjb21tYW5kIHByZWZpeCBmb3IgY29tZnktY2xpLCBvciBOb25lLiIiIgogICAgaWYgc2h1dGlsLndoaWNoKCJjb21meSIpOgogICAgICAgIHJldHVybiAiY29tZnkiCiAgICBpZiBzaHV0aWwud2hpY2goInV2eCIpOgogICAgICAgIHJldHVybiAidXZ4IC0tZnJvbSBjb21meS1jbGkgY29tZnkiCiAgICByZXR1cm4gTm9uZQoKCmRlZiBydW5fY21kKGNtZDogbGlzdFtzdHJdLCAqLCBkcnlfcnVuOiBib29sID0gRmFsc2UpIC0+IHR1cGxlW2ludCwgc3RyXToKICAgIGlmIGRyeV9ydW46CiAgICAgICAgcmV0dXJuIDAsICJbZHJ5LXJ1bl0iCiAgICBsb2coZiIkIHsnICcuam9pbihjbWQpfSIpCiAgICBwcm9jID0gc3VicHJvY2Vzcy5ydW4oY21kLCBjYXB0dXJlX291dHB1dD1UcnVlLCB0ZXh0PVRydWUsIGNoZWNrPUZhbHNlKQogICAgb3V0ID0gKHByb2Muc3Rkb3V0IG9yICIiKSArIChwcm9jLnN0ZGVyciBvciAiIikKICAgIHJldHVybiBwcm9jLnJldHVybmNvZGUsIG91dAoKCmRlZiBpbnN0YWxsX25vZGUocGFja2FnZTogc3RyLCAqLCBkcnlfcnVuOiBib29sID0gRmFsc2UsIGNvbWZ5X2NtZDogc3RyID0gImNvbWZ5IikgLT4gYm9vbDoKICAgIGNtZCA9IGNvbWZ5X2NtZC5zcGxpdCgpICsgWyItLXNraXAtcHJvbXB0IiwgIm5vZGUiLCAiaW5zdGFsbCIsIHBhY2thZ2VdCiAgICBjb2RlLCBfID0gcnVuX2NtZChjbWQsIGRyeV9ydW49ZHJ5X3J1bikKICAgIHJldHVybiBjb2RlID09IDAKCgpkZWYgaW5zdGFsbF9tb2RlbCh1cmw6IHN0ciwgZm9sZGVyOiBzdHIsIGZpbGVuYW1lOiBzdHIgfCBOb25lID0gTm9uZSwKICAgICAgICAgICAgICAgICAgKiwgZHJ5X3J1bjogYm9vbCA9IEZhbHNlLCBjb21meV9jbWQ6IHN0ciA9ICJjb21meSIsCiAgICAgICAgICAgICAgICAgIGhmX3Rva2VuOiBzdHIgfCBOb25lID0gTm9uZSwgY2l2aXRhaV90b2tlbjogc3RyIHwgTm9uZSA9IE5vbmUpIC0+IGJvb2w6CiAgICBjbWQgPSBjb21meV9jbWQuc3BsaXQoKSArIFsKICAgICAgICAiLS1za2lwLXByb21wdCIsICJtb2RlbCIsICJkb3dubG9hZCIsCiAgICAgICAgIi0tdXJsIiwgdXJsLAogICAgICAgICItLXJlbGF0aXZlLXBhdGgiLCBmIm1vZGVscy97Zm9sZGVyfSIsCiAgICBdCiAgICBpZiBmaWxlbmFtZToKICAgICAgICBjbWQuZXh0ZW5kKFsiLS1maWxlbmFtZSIsIGZpbGVuYW1lXSkKICAgIGlmIGhmX3Rva2VuOgogICAgICAgIGNtZC5leHRlbmQoWyItLXNldC1oZi1hcGktdG9rZW4iLCBoZl90b2tlbl0pCiAgICBpZiBjaXZpdGFpX3Rva2VuOgogICAgICAgIGNtZC5leHRlbmQoWyItLXNldC1jaXZpdGFpLWFwaS10b2tlbiIsIGNpdml0YWlfdG9rZW5dKQogICAgY29kZSwgXyA9IHJ1bl9jbWQoY21kLCBkcnlfcnVuPWRyeV9ydW4pCiAgICByZXR1cm4gY29kZSA9PSAwCgoKZGVmIG1haW4oYXJndjogbGlzdFtzdHJdIHwgTm9uZSA9IE5vbmUpIC0+IGludDoKICAgIHAgPSBhcmdwYXJzZS5Bcmd1bWVudFBhcnNlcihkZXNjcmlwdGlvbj0iUnVuIGNoZWNrX2RlcHMgYW5kIGluc3RhbGwgd2hhdGV2ZXIgaXMgbWlzc2luZyIpCiAgICBwLmFkZF9hcmd1bWVudCgid29ya2Zsb3ciKQogICAgcC5hZGRfYXJndW1lbnQoIi0taG9zdCIsIGRlZmF1bHQ9REVGQVVMVF9MT0NBTF9IT1NUKQogICAgcC5hZGRfYXJndW1lbnQoIi0tYXBpLWtleSIsIGhlbHA9ZiJvciBzZXQgJHtFTlZfQVBJX0tFWX0iKQogICAgcC5hZGRfYXJndW1lbnQoIi0tbW9kZWxzLWZyb20tZmlsZSIsCiAgICAgICAgICAgICAgICAgICBoZWxwPSJKU09OIGZpbGUgbWFwcGluZyB7bW9kZWxfZmlsZW5hbWU6IGRvd25sb2FkX3VybH0gZm9yIG1vZGVscyB0aGF0IG5lZWQgaW5zdGFsbCIpCiAgICBwLmFkZF9hcmd1bWVudCgiLS1oZi10b2tlbiIsIGhlbHA9Ikh1Z2dpbmdGYWNlIHRva2VuIGZvciBkb3dubG9hZHMiKQogICAgcC5hZGRfYXJndW1lbnQoIi0tY2l2aXRhaS10b2tlbiIsIGhlbHA9IkNpdml0QUkgdG9rZW4gZm9yIGRvd25sb2FkcyIpCiAgICBwLmFkZF9hcmd1bWVudCgiLS1kcnktcnVuIiwgYWN0aW9uPSJzdG9yZV90cnVlIiwKICAgICAgICAgICAgICAgICAgIGhlbHA9IlNob3cgd2hhdCB3b3VsZCBiZSBpbnN0YWxsZWQgd2l0aG91dCBkb2luZyBpdCIpCiAgICBwLmFkZF9hcmd1bWVudCgiLS1uby1yZXN0YXJ0IiwgYWN0aW9uPSJzdG9yZV90cnVlIiwKICAgICAgICAgICAgICAgICAgIGhlbHA9IkRvbid0IHN1Z2dlc3QgcmVzdGFydGluZyB0aGUgc2VydmVyIGFmdGVyIG5vZGUgaW5zdGFsbCIpCiAgICBhcmdzID0gcC5wYXJzZV9hcmdzKGFyZ3YpCgogICAgYXBpX2tleSA9IHJlc29sdmVfYXBpX2tleShhcmdzLmFwaV9rZXkpCgogICAgd2ZfcGF0aCA9IFBhdGgoYXJncy53b3JrZmxvdykuZXhwYW5kdXNlcigpCiAgICBpZiBub3Qgd2ZfcGF0aC5leGlzdHMoKToKICAgICAgICBlbWl0X2pzb24oeyJlcnJvciI6IGYiV29ya2Zsb3cgbm90IGZvdW5kOiB7YXJncy53b3JrZmxvd30ifSkKICAgICAgICByZXR1cm4gMQogICAgdHJ5OgogICAgICAgIHdpdGggd2ZfcGF0aC5vcGVuKCkgYXMgZjoKICAgICAgICAgICAgd29ya2Zsb3cgPSB1bndyYXBfd29ya2Zsb3coanNvbi5sb2FkKGYpKQogICAgZXhjZXB0IChWYWx1ZUVycm9yLCBqc29uLkpTT05EZWNvZGVFcnJvcikgYXMgZToKICAgICAgICBlbWl0X2pzb24oeyJlcnJvciI6IHN0cihlKX0pCiAgICAgICAgcmV0dXJuIDEKCiAgICByZXBvcnQgPSBjaGVja19kZXBzKHdvcmtmbG93LCBob3N0PWFyZ3MuaG9zdCwgYXBpX2tleT1hcGlfa2V5KQoKICAgIGlmIHJlcG9ydFsiaXNfcmVhZHkiXToKICAgICAgICBlbWl0X2pzb24oeyJzdGF0dXMiOiAicmVhZHkiLCAicmVwb3J0IjogcmVwb3J0fSkKICAgICAgICByZXR1cm4gMAoKICAgIGlmIHJlcG9ydFsiaXNfY2xvdWQiXToKICAgICAgICBlbWl0X2pzb24oewogICAgICAgICAgICAic3RhdHVzIjogImNhbm5vdF9maXhfY2xvdWQiLAogICAgICAgICAgICAicmVhc29uIjogIkNvbWZ5IENsb3VkIHByZWluc3RhbGxzIG5vZGVzOyBpZiBzb21ldGhpbmcgaXMgZ2VudWluZWx5IG1pc3NpbmcsIGNvbnRhY3Qgc3VwcG9ydC4iLAogICAgICAgICAgICAicmVwb3J0IjogcmVwb3J0LAogICAgICAgIH0pCiAgICAgICAgcmV0dXJuIDEKCiAgICBjb21meV9jbWQgPSBjb21meV9jbGlfYXZhaWxhYmxlKCkKICAgIGlmIG5vdCBjb21meV9jbWQ6CiAgICAgICAgZW1pdF9qc29uKHsKICAgICAgICAgICAgInN0YXR1cyI6ICJjYW5ub3RfZml4IiwKICAgICAgICAgICAgInJlYXNvbiI6ICJjb21meS1jbGkgbm90IG9uIFBBVEg7IGluc3RhbGwgd2l0aCBgcGlwIGluc3RhbGwgY29tZnktY2xpYCBvciBgcGlweCBpbnN0YWxsIGNvbWZ5LWNsaWAiLAogICAgICAgICAgICAicmVwb3J0IjogcmVwb3J0LAogICAgICAgIH0pCiAgICAgICAgcmV0dXJuIDEKCiAgICBhY3Rpb25zOiBsaXN0W2RpY3RdID0gW10KICAgIGZhaWx1cmVzOiBsaXN0W2RpY3RdID0gW10KCiAgICAjIC0tLS0gSW5zdGFsbCBtaXNzaW5nIGN1c3RvbSBub2RlcyAtLS0tCiAgICBzZWVuX3BhY2thZ2VzOiBzZXRbc3RyXSA9IHNldCgpCiAgICBmb3IgZW50cnkgaW4gcmVwb3J0WyJtaXNzaW5nX25vZGVzIl06CiAgICAgICAgY21kID0gZW50cnkuZ2V0KCJmaXhfY29tbWFuZCIsICIiKQogICAgICAgIGlmIGNtZC5zdGFydHN3aXRoKCJjb21meSBub2RlIGluc3RhbGwgIik6CiAgICAgICAgICAgIHBhY2thZ2UgPSBjbWQuc3BsaXQoIiAiKVstMV0KICAgICAgICAgICAgaWYgcGFja2FnZSBpbiBzZWVuX3BhY2thZ2VzOgogICAgICAgICAgICAgICAgY29udGludWUKICAgICAgICAgICAgc2Vlbl9wYWNrYWdlcy5hZGQocGFja2FnZSkKICAgICAgICAgICAgb2sgPSBpbnN0YWxsX25vZGUocGFja2FnZSwgZHJ5X3J1bj1hcmdzLmRyeV9ydW4sIGNvbWZ5X2NtZD1jb21meV9jbWQpCiAgICAgICAgICAgIChhY3Rpb25zIGlmIG9rIGVsc2UgZmFpbHVyZXMpLmFwcGVuZCh7CiAgICAgICAgICAgICAgICAia2luZCI6ICJub2RlIiwgInBhY2thZ2UiOiBwYWNrYWdlLCAibm9kZV9jbGFzcyI6IGVudHJ5WyJjbGFzc190eXBlIl0sCiAgICAgICAgICAgICAgICAib2siOiBvaywKICAgICAgICAgICAgfSkKICAgICAgICBlbHNlOgogICAgICAgICAgICBmYWlsdXJlcy5hcHBlbmQoewogICAgICAgICAgICAgICAgImtpbmQiOiAibm9kZSIsICJub2RlX2NsYXNzIjogZW50cnlbImNsYXNzX3R5cGUiXSwKICAgICAgICAgICAgICAgICJvayI6IEZhbHNlLCAicmVhc29uIjogIk5vIHJlZ2lzdHJ5IG1hcHBpbmcga25vd24uICIgKyBlbnRyeS5nZXQoImZpeF9oaW50IiwgIiIpLAogICAgICAgICAgICB9KQoKICAgICMgLS0tLSBJbnN0YWxsIG1pc3NpbmcgbW9kZWxzIChvbmx5IHdoZW4gVVJMIHByb3ZpZGVkKSAtLS0tCiAgICBzb3VyY2VzOiBkaWN0W3N0ciwgc3RyXSA9IHt9CiAgICBpZiBhcmdzLm1vZGVsc19mcm9tX2ZpbGU6CiAgICAgICAgdHJ5OgogICAgICAgICAgICBzb3VyY2VzID0ganNvbi5sb2FkcyhQYXRoKGFyZ3MubW9kZWxzX2Zyb21fZmlsZSkucmVhZF90ZXh0KCkpCiAgICAgICAgZXhjZXB0IChPU0Vycm9yLCBqc29uLkpTT05EZWNvZGVFcnJvcikgYXMgZToKICAgICAgICAgICAgbG9nKGYiQ291bGQgbm90IHJlYWQgLS1tb2RlbHMtZnJvbS1maWxlOiB7ZX0iKQoKICAgIGZvciBlbnRyeSBpbiByZXBvcnRbIm1pc3NpbmdfbW9kZWxzIl06CiAgICAgICAgZmlsZW5hbWUgPSBlbnRyeVsidmFsdWUiXQogICAgICAgIHVybCA9IHNvdXJjZXMuZ2V0KGZpbGVuYW1lKQogICAgICAgIGlmIG5vdCB1cmw6CiAgICAgICAgICAgIGZhaWx1cmVzLmFwcGVuZCh7CiAgICAgICAgICAgICAgICAia2luZCI6ICJtb2RlbCIsICJmaWxlbmFtZSI6IGZpbGVuYW1lLCAiZm9sZGVyIjogZW50cnlbImZvbGRlciJdLAogICAgICAgICAgICAgICAgIm9rIjogRmFsc2UsICJyZWFzb24iOiAiTm8gVVJMIHByb3ZpZGVkIGluIC0tbW9kZWxzLWZyb20tZmlsZS4gIgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAiUmVmdXNpbmcgdG8gZ3Vlc3MuIiwKICAgICAgICAgICAgfSkKICAgICAgICAgICAgY29udGludWUKICAgICAgICBvayA9IGluc3RhbGxfbW9kZWwoCiAgICAgICAgICAgIHVybCwgZW50cnlbImZvbGRlciJdLCBmaWxlbmFtZSwKICAgICAgICAgICAgZHJ5X3J1bj1hcmdzLmRyeV9ydW4sIGNvbWZ5X2NtZD1jb21meV9jbWQsCiAgICAgICAgICAgIGhmX3Rva2VuPWFyZ3MuaGZfdG9rZW4sIGNpdml0YWlfdG9rZW49YXJncy5jaXZpdGFpX3Rva2VuLAogICAgICAgICkKICAgICAgICAoYWN0aW9ucyBpZiBvayBlbHNlIGZhaWx1cmVzKS5hcHBlbmQoewogICAgICAgICAgICAia2luZCI6ICJtb2RlbCIsICJmaWxlbmFtZSI6IGZpbGVuYW1lLCAiZm9sZGVyIjogZW50cnlbImZvbGRlciJdLAogICAgICAgICAgICAidXJsIjogdXJsLCAib2siOiBvaywKICAgICAgICB9KQoKICAgICMgLS0tLSBFbWJlZGRpbmdzIC0tLS0KICAgIGZvciBlbnRyeSBpbiByZXBvcnRbIm1pc3NpbmdfZW1iZWRkaW5ncyJdOgogICAgICAgIGVtYl9uYW1lID0gZW50cnlbImVtYmVkZGluZ19uYW1lIl0KICAgICAgICAjIFRyeSBjb21tb24gZXh0ZW5zaW9ucyBpbiB1c2VyLXN1cHBsaWVkIHNvdXJjZSBtYXAKICAgICAgICB1cmwgPSAoc291cmNlcy5nZXQoZiJ7ZW1iX25hbWV9LnB0IikKICAgICAgICAgICAgICAgb3Igc291cmNlcy5nZXQoZiJ7ZW1iX25hbWV9LnNhZmV0ZW5zb3JzIikKICAgICAgICAgICAgICAgb3Igc291cmNlcy5nZXQoZW1iX25hbWUpKQogICAgICAgIGlmIG5vdCB1cmw6CiAgICAgICAgICAgIGZhaWx1cmVzLmFwcGVuZCh7CiAgICAgICAgICAgICAgICAia2luZCI6ICJlbWJlZGRpbmciLCAibmFtZSI6IGVtYl9uYW1lLAogICAgICAgICAgICAgICAgIm9rIjogRmFsc2UsICJyZWFzb24iOiAiTm8gVVJMIHByb3ZpZGVkIGluIC0tbW9kZWxzLWZyb20tZmlsZS4iLAogICAgICAgICAgICB9KQogICAgICAgICAgICBjb250aW51ZQogICAgICAgIHRhcmdldF9maWxlbmFtZSA9ICgKICAgICAgICAgICAgZiJ7ZW1iX25hbWV9LnNhZmV0ZW5zb3JzIiBpZiB1cmwuZW5kc3dpdGgoIi5zYWZldGVuc29ycyIpCiAgICAgICAgICAgIGVsc2UgZiJ7ZW1iX25hbWV9LnB0IgogICAgICAgICkKICAgICAgICBvayA9IGluc3RhbGxfbW9kZWwoCiAgICAgICAgICAgIHVybCwgImVtYmVkZGluZ3MiLCB0YXJnZXRfZmlsZW5hbWUsCiAgICAgICAgICAgIGRyeV9ydW49YXJncy5kcnlfcnVuLCBjb21meV9jbWQ9Y29tZnlfY21kLAogICAgICAgICAgICBoZl90b2tlbj1hcmdzLmhmX3Rva2VuLCBjaXZpdGFpX3Rva2VuPWFyZ3MuY2l2aXRhaV90b2tlbiwKICAgICAgICApCiAgICAgICAgKGFjdGlvbnMgaWYgb2sgZWxzZSBmYWlsdXJlcykuYXBwZW5kKHsKICAgICAgICAgICAgImtpbmQiOiAiZW1iZWRkaW5nIiwgIm5hbWUiOiBlbWJfbmFtZSwgInVybCI6IHVybCwgIm9rIjogb2ssCiAgICAgICAgfSkKCiAgICBuZWVkc19yZXN0YXJ0ID0gYW55KGFbImtpbmQiXSA9PSAibm9kZSIgYW5kIGEuZ2V0KCJvayIpIGZvciBhIGluIGFjdGlvbnMpCgogICAgZW1pdF9qc29uKHsKICAgICAgICAic3RhdHVzIjogImZpeGVkIiBpZiBub3QgZmFpbHVyZXMgZWxzZSAicGFydGlhbCIsCiAgICAgICAgImFjdGlvbnNfdGFrZW4iOiBhY3Rpb25zLAogICAgICAgICJmYWlsdXJlcyI6IGZhaWx1cmVzLAogICAgICAgICJuZWVkc19zZXJ2ZXJfcmVzdGFydCI6IG5lZWRzX3Jlc3RhcnQgYW5kIG5vdCBhcmdzLm5vX3Jlc3RhcnQsCiAgICAgICAgInJlc3RhcnRfaGludCI6ICJjb21meSBzdG9wICYmIGNvbWZ5IGxhdW5jaCAtLWJhY2tncm91bmQiLAogICAgICAgICJkcnlfcnVuIjogYXJncy5kcnlfcnVuLAogICAgfSkKICAgIHJldHVybiAwIGlmIG5vdCBmYWlsdXJlcyBlbHNlIDEKCgppZiBfX25hbWVfXyA9PSAiX19tYWluX18iOgogICAgc3lzLmV4aXQobWFpbigpKQo=
+#!/usr/bin/env python3
+"""
+auto_fix_deps.py — Run check_deps.py, then attempt to install whatever is missing.
+
+For local servers:
+  - Missing custom nodes → `comfy node install <package>`
+  - Missing models → `comfy model download` (only if a URL is supplied via
+    --model-source-file or detected via well-known names)
+
+For cloud: prints what would be needed but cannot install (cloud preinstalls
+custom nodes and most models server-side; if something genuinely isn't there,
+ask Comfy support).
+
+This is conservative: it never installs without an explicit URL for models
+(downloading the wrong model is hard to undo). Custom nodes from the registry
+are auto-installed by name.
+
+Usage:
+    python3 auto_fix_deps.py workflow_api.json
+    python3 auto_fix_deps.py workflow_api.json --models-from-file urls.json
+    python3 auto_fix_deps.py workflow_api.json --dry-run
+"""
+
+from __future__ import annotations
+
+import argparse
+import json
+import shutil
+import subprocess
+import sys
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from _common import (  # noqa: E402
+    DEFAULT_LOCAL_HOST, ENV_API_KEY, emit_json, log, resolve_api_key,
+)
+from check_deps import check_deps  # noqa: E402
+from _common import unwrap_workflow  # noqa: E402
+
+
+def comfy_cli_available() -> str | None:
+    """Return command prefix for comfy-cli, or None."""
+    if shutil.which("comfy"):
+        return "comfy"
+    if shutil.which("uvx"):
+        return "uvx --from comfy-cli comfy"
+    return None
+
+
+def run_cmd(cmd: list[str], *, dry_run: bool = False) -> tuple[int, str]:
+    if dry_run:
+        return 0, "[dry-run]"
+    log(f"$ {' '.join(cmd)}")
+    proc = subprocess.run(cmd, capture_output=True, text=True, check=False)
+    out = (proc.stdout or "") + (proc.stderr or "")
+    return proc.returncode, out
+
+
+def install_node(package: str, *, dry_run: bool = False, comfy_cmd: str = "comfy") -> bool:
+    cmd = comfy_cmd.split() + ["--skip-prompt", "node", "install", package]
+    code, _ = run_cmd(cmd, dry_run=dry_run)
+    return code == 0
+
+
+def install_model(url: str, folder: str, filename: str | None = None,
+                  *, dry_run: bool = False, comfy_cmd: str = "comfy",
+                  hf_token: str | None = None, civitai_token: str | None = None) -> bool:
+    cmd = comfy_cmd.split() + [
+        "--skip-prompt", "model", "download",
+        "--url", url,
+        "--relative-path", f"models/{folder}",
+    ]
+    if filename:
+        cmd.extend(["--filename", filename])
+    if hf_token:
+        cmd.extend(["--set-hf-api-token", hf_token])
+    if civitai_token:
+        cmd.extend(["--set-civitai-api-token", civitai_token])
+    code, _ = run_cmd(cmd, dry_run=dry_run)
+    return code == 0
+
+
+def main(argv: list[str] | None = None) -> int:
+    p = argparse.ArgumentParser(description="Run check_deps and install whatever is missing")
+    p.add_argument("workflow")
+    p.add_argument("--host", default=DEFAULT_LOCAL_HOST)
+    p.add_argument("--api-key", help=f"or set ${ENV_API_KEY}")
+    p.add_argument("--models-from-file",
+                   help="JSON file mapping {model_filename: download_url} for models that need install")
+    p.add_argument("--hf-token", help="HuggingFace token for downloads")
+    p.add_argument("--civitai-token", help="CivitAI token for downloads")
+    p.add_argument("--dry-run", action="store_true",
+                   help="Show what would be installed without doing it")
+    p.add_argument("--no-restart", action="store_true",
+                   help="Don't suggest restarting the server after node install")
+    args = p.parse_args(argv)
+
+    api_key = resolve_api_key(args.api_key)
+
+    wf_path = Path(args.workflow).expanduser()
+    if not wf_path.exists():
+        emit_json({"error": f"Workflow not found: {args.workflow}"})
+        return 1
+    try:
+        with wf_path.open() as f:
+            workflow = unwrap_workflow(json.load(f))
+    except (ValueError, json.JSONDecodeError) as e:
+        emit_json({"error": str(e)})
+        return 1
+
+    report = check_deps(workflow, host=args.host, api_key=api_key)
+
+    if report["is_ready"]:
+        emit_json({"status": "ready", "report": report})
+        return 0
+
+    if report["is_cloud"]:
+        emit_json({
+            "status": "cannot_fix_cloud",
+            "reason": "Comfy Cloud preinstalls nodes; if something is genuinely missing, contact support.",
+            "report": report,
+        })
+        return 1
+
+    comfy_cmd = comfy_cli_available()
+    if not comfy_cmd:
+        emit_json({
+            "status": "cannot_fix",
+            "reason": "comfy-cli not on PATH; install with `pip install comfy-cli` or `pipx install comfy-cli`",
+            "report": report,
+        })
+        return 1
+
+    actions: list[dict] = []
+    failures: list[dict] = []
+
+    # ---- Install missing custom nodes ----
+    seen_packages: set[str] = set()
+    for entry in report["missing_nodes"]:
+        cmd = entry.get("fix_command", "")
+        if cmd.startswith("comfy node install "):
+            package = cmd.split(" ")[-1]
+            if package in seen_packages:
+                continue
+            seen_packages.add(package)
+            ok = install_node(package, dry_run=args.dry_run, comfy_cmd=comfy_cmd)
+            (actions if ok else failures).append({
+                "kind": "node", "package": package, "node_class": entry["class_type"],
+                "ok": ok,
+            })
+        else:
+            failures.append({
+                "kind": "node", "node_class": entry["class_type"],
+                "ok": False, "reason": "No registry mapping known. " + entry.get("fix_hint", ""),
+            })
+
+    # ---- Install missing models (only when URL provided) ----
+    sources: dict[str, str] = {}
+    if args.models_from_file:
+        try:
+            sources = json.loads(Path(args.models_from_file).read_text())
+        except (OSError, json.JSONDecodeError) as e:
+            log(f"Could not read --models-from-file: {e}")
+
+    for entry in report["missing_models"]:
+        filename = entry["value"]
+        url = sources.get(filename)
+        if not url:
+            failures.append({
+                "kind": "model", "filename": filename, "folder": entry["folder"],
+                "ok": False, "reason": "No URL provided in --models-from-file. "
+                                       "Refusing to guess.",
+            })
+            continue
+        ok = install_model(
+            url, entry["folder"], filename,
+            dry_run=args.dry_run, comfy_cmd=comfy_cmd,
+            hf_token=args.hf_token, civitai_token=args.civitai_token,
+        )
+        (actions if ok else failures).append({
+            "kind": "model", "filename": filename, "folder": entry["folder"],
+            "url": url, "ok": ok,
+        })
+
+    # ---- Embeddings ----
+    for entry in report["missing_embeddings"]:
+        emb_name = entry["embedding_name"]
+        # Try common extensions in user-supplied source map
+        url = (sources.get(f"{emb_name}.pt")
+               or sources.get(f"{emb_name}.safetensors")
+               or sources.get(emb_name))
+        if not url:
+            failures.append({
+                "kind": "embedding", "name": emb_name,
+                "ok": False, "reason": "No URL provided in --models-from-file.",
+            })
+            continue
+        target_filename = (
+            f"{emb_name}.safetensors" if url.endswith(".safetensors")
+            else f"{emb_name}.pt"
+        )
+        ok = install_model(
+            url, "embeddings", target_filename,
+            dry_run=args.dry_run, comfy_cmd=comfy_cmd,
+            hf_token=args.hf_token, civitai_token=args.civitai_token,
+        )
+        (actions if ok else failures).append({
+            "kind": "embedding", "name": emb_name, "url": url, "ok": ok,
+        })
+
+    needs_restart = any(a["kind"] == "node" and a.get("ok") for a in actions)
+
+    emit_json({
+        "status": "fixed" if not failures else "partial",
+        "actions_taken": actions,
+        "failures": failures,
+        "needs_server_restart": needs_restart and not args.no_restart,
+        "restart_hint": "comfy stop && comfy launch --background",
+        "dry_run": args.dry_run,
+    })
+    return 0 if not failures else 1
+
+
+if __name__ == "__main__":
+    sys.exit(main())

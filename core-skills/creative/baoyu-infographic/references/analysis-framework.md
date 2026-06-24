@@ -1,1 +1,182 @@
-IyBJbmZvZ3JhcGhpYyBDb250ZW50IEFuYWx5c2lzIEZyYW1ld29yawoKRGVlcCBhbmFseXNpcyBmcmFtZXdvcmsgYXBwbHlpbmcgaW5zdHJ1Y3Rpb25hbCBkZXNpZ24gcHJpbmNpcGxlcyB0byBpbmZvZ3JhcGhpYyBjcmVhdGlvbi4KCiMjIFB1cnBvc2UKCkJlZm9yZSBjcmVhdGluZyBhbiBpbmZvZ3JhcGhpYywgdGhvcm91Z2hseSBhbmFseXplIHRoZSBzb3VyY2UgbWF0ZXJpYWwgdG86Ci0gVW5kZXJzdGFuZCB0aGUgY29udGVudCBhdCBhIGRlZXAgbGV2ZWwKLSBJZGVudGlmeSBjbGVhciBsZWFybmluZyBvYmplY3RpdmVzIGZvciB0aGUgdmlld2VyCi0gU3RydWN0dXJlIGluZm9ybWF0aW9uIGZvciBtYXhpbXVtIGNsYXJpdHkgYW5kIHJldGVudGlvbgotIE1hdGNoIGNvbnRlbnQgdG8gb3B0aW1hbCBsYXlvdXTDl3N0eWxlIGNvbWJpbmF0aW9ucwotIFByZXNlcnZlIGFsbCBzb3VyY2UgZGF0YSB2ZXJiYXRpbQoKIyMgSW5zdHJ1Y3Rpb25hbCBEZXNpZ24gTWluZHNldAoKQXBwcm9hY2ggY29udGVudCBhbmFseXNpcyBhcyBhICoqd29ybGQtY2xhc3MgaW5zdHJ1Y3Rpb25hbCBkZXNpZ25lcioqOgoKfCBQcmluY2lwbGUgfCBBcHBsaWNhdGlvbiB8CnwtLS0tLS0tLS0tLXwtLS0tLS0tLS0tLS0tfAp8ICoqRGVlcCBVbmRlcnN0YW5kaW5nKiogfCBSZWFkIHRoZSBlbnRpcmUgZG9jdW1lbnQgYmVmb3JlIGFuYWx5emluZyBhbnkgcGFydCB8CnwgKipMZWFybmVyLUNlbnRlcmVkKiogfCBGb2N1cyBvbiB3aGF0IHRoZSB2aWV3ZXIgbmVlZHMgdG8gdW5kZXJzdGFuZCB8CnwgKipWaXN1YWwgU3Rvcnl0ZWxsaW5nKiogfCBVc2UgdmlzdWFscyB0byBjb21tdW5pY2F0ZSwgbm90IGp1c3QgZGVjb3JhdGUgfAp8ICoqQ29nbml0aXZlIExvYWQqKiB8IFNpbXBsaWZ5IGNvbXBsZXggaWRlYXMgd2l0aG91dCBsb3NpbmcgYWNjdXJhY3kgfAp8ICoqRGF0YSBJbnRlZ3JpdHkqKiB8IE5ldmVyIGFsdGVyLCBzdW1tYXJpemUsIG9yIHBhcmFwaHJhc2Ugc291cmNlIGZhY3RzIHwKCiMjIEFuYWx5c2lzIERpbWVuc2lvbnMKCiMjIyAxLiBDb250ZW50IFR5cGUgQ2xhc3NpZmljYXRpb24KCnwgVHlwZSB8IENoYXJhY3RlcmlzdGljcyB8IEJlc3QgTGF5b3V0IHwgQmVzdCBTdHlsZSB8CnwtLS0tLS18LS0tLS0tLS0tLS0tLS0tLS18LS0tLS0tLS0tLS0tLXwtLS0tLS0tLS0tLS18CnwgKipUaW1lbGluZS9IaXN0b3J5KiogfCBTZXF1ZW50aWFsIGV2ZW50cywgZGF0ZXMsIHByb2dyZXNzaW9uIHwgbGluZWFyLXByb2dyZXNzaW9uIHwgY3JhZnQtaGFuZG1hZGUsIGFnZWQtYWNhZGVtaWEgfAp8ICoqUHJvY2Vzcy9UdXRvcmlhbCoqIHwgU3RlcC1ieS1zdGVwIGluc3RydWN0aW9ucywgaG93LXRvIHwgbGluZWFyLXByb2dyZXNzaW9uLCB3aW5kaW5nLXJvYWRtYXAgfCBpa2VhLW1hbnVhbCwgdGVjaG5pY2FsLXNjaGVtYXRpYyB8CnwgKipDb21wYXJpc29uKiogfCBBIHZzIEIsIHByb3MvY29ucywgYmVmb3JlLWFmdGVyIHwgYmluYXJ5LWNvbXBhcmlzb24sIGNvbXBhcmlzb24tbWF0cml4IHwgY29ycG9yYXRlLW1lbXBoaXMsIGJvbGQtZ3JhcGhpYyB8CnwgKipIaWVyYXJjaHkqKiB8IExldmVscywgcHJpb3JpdGllcywgcHlyYW1pZHMgfCBoaWVyYXJjaGljYWwtbGF5ZXJzLCB0cmVlLWJyYW5jaGluZyB8IGNyYWZ0LWhhbmRtYWRlLCBjb3Jwb3JhdGUtbWVtcGhpcyB8CnwgKipSZWxhdGlvbnNoaXBzKiogfCBDb25uZWN0aW9ucywgb3ZlcmxhcHMsIGluZmx1ZW5jZXMgfCB2ZW5uLWRpYWdyYW0sIGh1Yi1zcG9rZSwgamlnc2F3IHwgY3JhZnQtaGFuZG1hZGUsIHN1YndheS1tYXAgfAp8ICoqRGF0YS9NZXRyaWNzKiogfCBTdGF0aXN0aWNzLCBLUElzLCBtZWFzdXJlbWVudHMgfCBkYXNoYm9hcmQsIHBlcmlvZGljLXRhYmxlIHwgY29ycG9yYXRlLW1lbXBoaXMsIHRlY2huaWNhbC1zY2hlbWF0aWMgfAp8ICoqQ3ljbGUvTG9vcCoqIHwgUmVjdXJyaW5nIHByb2Nlc3NlcywgZmVlZGJhY2sgbG9vcHMgfCBjaXJjdWxhci1mbG93IHwgY3JhZnQtaGFuZG1hZGUsIHRlY2huaWNhbC1zY2hlbWF0aWMgfAp8ICoqU3lzdGVtL1N0cnVjdHVyZSoqIHwgQ29tcG9uZW50cywgYXJjaGl0ZWN0dXJlLCBhbmF0b215IHwgc3RydWN0dXJhbC1icmVha2Rvd24sIGJlbnRvLWdyaWQgfCB0ZWNobmljYWwtc2NoZW1hdGljLCBpa2VhLW1hbnVhbCB8CnwgKipKb3VybmV5L05hcnJhdGl2ZSoqIHwgU3RvcmllcywgdXNlciBmbG93cywgbWlsZXN0b25lcyB8IHdpbmRpbmctcm9hZG1hcCwgc3RvcnktbW91bnRhaW4gfCBzdG9yeWJvb2std2F0ZXJjb2xvciwgY29taWMtc3RyaXAgfAp8ICoqT3ZlcnZpZXcvU3VtbWFyeSoqIHwgTXVsdGlwbGUgdG9waWNzLCBmZWF0dXJlIGhpZ2hsaWdodHMgfCBiZW50by1ncmlkLCBwZXJpb2RpYy10YWJsZSwgZGVuc2UtbW9kdWxlcyB8IGNoYWxrYm9hcmQsIGJvbGQtZ3JhcGhpYyB8CnwgKipQcm9kdWN0L0J1eWluZyBHdWlkZSoqIHwgTXVsdGktZGltZW5zaW9uIGNvbXBhcmlzb25zLCBzcGVjcywgcGl0ZmFsbHMgfCBkZW5zZS1tb2R1bGVzIHwgbW9yYW5kaS1qb3VybmFsLCBwb3AtbGFib3JhdG9yeSwgcmV0cm8tcG9wLWdyaWQgfAoKIyMjIDIuIExlYXJuaW5nIE9iamVjdGl2ZSBJZGVudGlmaWNhdGlvbgoKRXZlcnkgaW5mb2dyYXBoaWMgc2hvdWxkIGhhdmUgMS0zIGNsZWFyIGxlYXJuaW5nIG9iamVjdGl2ZXMuCgoqKkdvb2QgTGVhcm5pbmcgT2JqZWN0aXZlcyoqOgotIFNwZWNpZmljIGFuZCBtZWFzdXJhYmxlCi0gRm9jdXMgb24gd2hhdCB0aGUgdmlld2VyIHdpbGwgdW5kZXJzdGFuZCwgbm90IGp1c3Qgc2VlCi0gV3JpdHRlbiBmcm9tIHRoZSB2aWV3ZXIncyBwZXJzcGVjdGl2ZQoKKipGb3JtYXQqKjogIkFmdGVyIHZpZXdpbmcgdGhpcyBpbmZvZ3JhcGhpYywgdGhlIHZpZXdlciB3aWxsIHVuZGVyc3RhbmQuLi4iCgp8IENvbnRlbnQgQXNwZWN0IHwgT2JqZWN0aXZlIFR5cGUgfAp8LS0tLS0tLS0tLS0tLS0tLXwtLS0tLS0tLS0tLS0tLS0tfAp8IENvcmUgY29uY2VwdCB8ICIuLi53aGF0IFt0b3BpY10gaXMgYW5kIHdoeSBpdCBtYXR0ZXJzIiB8CnwgUHJvY2VzcyB8ICIuLi5ob3cgdG8gW2FjY29tcGxpc2ggc29tZXRoaW5nXSIgfAp8IENvbXBhcmlzb24gfCAiLi4udGhlIGtleSBkaWZmZXJlbmNlcyBiZXR3ZWVuIFtBXSBhbmQgW0JdIiB8CnwgUmVsYXRpb25zaGlwcyB8ICIuLi5ob3cgW2VsZW1lbnRzXSBjb25uZWN0IHRvIGVhY2ggb3RoZXIiIHwKfCBEYXRhIHwgIi4uLnRoZSBzaWduaWZpY2FuY2Ugb2YgW2tleSBzdGF0aXN0aWNzXSIgfAoKIyMjIDMuIEF1ZGllbmNlIEFuYWx5c2lzCgp8IEZhY3RvciB8IFF1ZXN0aW9ucyB8IEltcGFjdCB8CnwtLS0tLS0tLXwtLS0tLS0tLS0tLXwtLS0tLS0tLXwKfCAqKktub3dsZWRnZSBMZXZlbCoqIHwgV2hhdCBkbyB0aGV5IGFscmVhZHkga25vdz8gfCBEZXRlcm1pbmVzIGNvbXBsZXhpdHkgZGVwdGggfAp8ICoqQ29udGV4dCoqIHwgV2h5IGFyZSB0aGV5IHZpZXdpbmcgdGhpcz8gfCBEZXRlcm1pbmVzIGVtcGhhc2lzIHBvaW50cyB8CnwgKipFeHBlY3RhdGlvbnMqKiB8IFdoYXQgZG8gdGhleSBob3BlIHRvIGxlYXJuPyB8IERldGVybWluZXMgc3VjY2VzcyBjcml0ZXJpYSB8CnwgKipWaXN1YWwgUHJlZmVyZW5jZXMqKiB8IFByb2Zlc3Npb25hbCwgcGxheWZ1bCwgdGVjaG5pY2FsPyB8IEluZmx1ZW5jZXMgc3R5bGUgY2hvaWNlIHwKCiMjIyA0LiBDb21wbGV4aXR5IEFzc2Vzc21lbnQKCnwgTGV2ZWwgfCBJbmRpY2F0b3JzIHwgTGF5b3V0IFJlY29tbWVuZGF0aW9uIHwKfC0tLS0tLS18LS0tLS0tLS0tLS0tfC0tLS0tLS0tLS0tLS0tLS0tLS0tLS18CnwgKipTaW1wbGUqKiAoMy01IHBvaW50cykgfCBGZXcgbWFpbiBjb25jZXB0cywgY2xlYXIgcmVsYXRpb25zaGlwcyB8IHNwYXJzZSBsYXlvdXRzLCBzaW5nbGUgZm9jdXMgfAp8ICoqTW9kZXJhdGUqKiAoNi04IHBvaW50cykgfCBNdWx0aXBsZSBjb25jZXB0cywgc29tZSByZWxhdGlvbnNoaXBzIHwgYmFsYW5jZWQgbGF5b3V0cywgY2xlYXIgc2VjdGlvbnMgfAp8ICoqQ29tcGxleCoqICg5KyBwb2ludHMpIHwgTWFueSBjb25jZXB0cywgaW50cmljYXRlIHJlbGF0aW9uc2hpcHMgfCBkZW5zZSBsYXlvdXRzLCBtdWx0aXBsZSBzZWN0aW9ucyB8CgojIyMgNS4gVmlzdWFsIE9wcG9ydHVuaXR5IE1hcHBpbmcKCklkZW50aWZ5IHdoYXQgY2FuIGJlIHNob3duIHJhdGhlciB0aGFuIHRvbGQ6Cgp8IENvbnRlbnQgRWxlbWVudCB8IFZpc3VhbCBUcmVhdG1lbnQgfAp8LS0tLS0tLS0tLS0tLS0tLS18LS0tLS0tLS0tLS0tLS0tLS0tfAp8IE51bWJlcnMvU3RhdGlzdGljcyB8IExhcmdlLCBoaWdobGlnaHRlZCBudW1lcmFscyB8CnwgQ29tcGFyaXNvbnMgfCBTaWRlLWJ5LXNpZGUsIHNwbGl0IHNjcmVlbiB8CnwgUHJvY2Vzc2VzIHwgQXJyb3dzLCBudW1iZXJlZCBzdGVwcywgZmxvdyB8CnwgSGllcmFyY2hpZXMgfCBQeXJhbWlkcywgbGF5ZXJzLCBzaXplIGRpZmZlcmVuY2VzIHwKfCBSZWxhdGlvbnNoaXBzIHwgTGluZXMsIGNvbm5lY3Rpb25zLCBvdmVybGFwcGluZyBzaGFwZXMgfAp8IENhdGVnb3JpZXMgfCBDb2xvciBjb2RpbmcsIGdyb3VwaW5nLCBzZWN0aW9ucyB8CnwgVGltZWxpbmVzIHwgSG9yaXpvbnRhbC92ZXJ0aWNhbCBwcm9ncmVzc2lvbiB8CnwgUXVvdGVzIHwgQ2FsbG91dCBib3hlcywgcXVvdGF0aW9uIG1hcmtzIHwKCiMjIyA2LiBEYXRhIFZlcmJhdGltIEV4dHJhY3Rpb24KCioqQ3JpdGljYWwqKjogQWxsIGZhY3R1YWwgaW5mb3JtYXRpb24gbXVzdCBiZSBwcmVzZXJ2ZWQgZXhhY3RseSBhcyB3cml0dGVuIGluIHRoZSBzb3VyY2UuCgp8IERhdGEgVHlwZSB8IEhhbmRsaW5nIFJ1bGUgfAp8LS0tLS0tLS0tLS18LS0tLS0tLS0tLS0tLS0tfAp8ICoqU3RhdGlzdGljcyoqIHwgQ29weSBleGFjdGx5OiAiNzMlIiBub3QgImFib3V0IDcwJSIgfAp8ICoqUXVvdGVzKiogfCBDb3B5IHdvcmQtZm9yLXdvcmQgd2l0aCBhdHRyaWJ1dGlvbiB8CnwgKipOYW1lcyoqIHwgUHJlc2VydmUgZXhhY3Qgc3BlbGxpbmcgfAp8ICoqRGF0ZXMqKiB8IEtlZXAgb3JpZ2luYWwgZm9ybWF0IHwKfCAqKlRlY2huaWNhbCBUZXJtcyoqIHwgRG8gbm90IHNpbXBsaWZ5IG9yIHN1YnN0aXR1dGUgfAp8ICoqTGlzdHMqKiB8IFByZXNlcnZlIG9yZGVyIGFuZCB3b3JkaW5nIHwKCioqTmV2ZXIqKjoKLSBSb3VuZCBudW1iZXJzCi0gUGFyYXBocmFzZSBxdW90ZXMKLSBTdWJzdGl0dXRlIHNpbXBsZXIgd29yZHMKLSBBZGQgaW1wbGllZCBpbmZvcm1hdGlvbgotIFJlbW92ZSBjb250ZXh0IHRoYXQgYWZmZWN0cyBtZWFuaW5nCgojIyBPdXRwdXQgRm9ybWF0CgpTYXZlIGFuYWx5c2lzIHJlc3VsdHMgdG8gYGFuYWx5c2lzLm1kYDoKCmBgYHlhbWwKLS0tCnRpdGxlOiAiW01haW4gdG9waWMgdGl0bGVdIgp0b3BpYzogIltlZHVjYXRpb25hbC90ZWNobmljYWwvYnVzaW5lc3MvY3JlYXRpdmUvZXRjLl0iCmRhdGFfdHlwZTogIlt0aW1lbGluZS9oaWVyYXJjaHkvY29tcGFyaXNvbi9wcm9jZXNzL2V0Yy5dIgpjb21wbGV4aXR5OiAiW3NpbXBsZS9tb2RlcmF0ZS9jb21wbGV4XSIKcG9pbnRfY291bnQ6IFtudW1iZXIgb2YgbWFpbiBwb2ludHNdCnNvdXJjZV9sYW5ndWFnZTogIltkZXRlY3RlZCBsYW5ndWFnZV0iCnVzZXJfbGFuZ3VhZ2U6ICJbdXNlcidzIGxhbmd1YWdlXSIKLS0tCgojIyBNYWluIFRvcGljClsxLTIgc2VudGVuY2Ugc3VtbWFyeSBvZiB3aGF0IHRoaXMgY29udGVudCBpcyBhYm91dF0KCiMjIExlYXJuaW5nIE9iamVjdGl2ZXMKQWZ0ZXIgdmlld2luZyB0aGlzIGluZm9ncmFwaGljLCB0aGUgdmlld2VyIHNob3VsZCB1bmRlcnN0YW5kOgoxLiBbUHJpbWFyeSBvYmplY3RpdmVdCjIuIFtTZWNvbmRhcnkgb2JqZWN0aXZlXQozLiBbVGVydGlhcnkgb2JqZWN0aXZlIGlmIGFwcGxpY2FibGVdCgojIyBUYXJnZXQgQXVkaWVuY2UKLSAqKktub3dsZWRnZSBMZXZlbCoqOiBbQmVnaW5uZXIvSW50ZXJtZWRpYXRlL0V4cGVydF0KLSAqKkNvbnRleHQqKjogW1doeSB0aGV5J3JlIHZpZXdpbmcgdGhpc10KLSAqKkV4cGVjdGF0aW9ucyoqOiBbV2hhdCB0aGV5IGhvcGUgdG8gbGVhcm5dCgojIyBDb250ZW50IFR5cGUgQW5hbHlzaXMKLSAqKkRhdGEgU3RydWN0dXJlKio6IFtIb3cgaW5mb3JtYXRpb24gcmVsYXRlcyB0byBpdHNlbGZdCi0gKipLZXkgUmVsYXRpb25zaGlwcyoqOiBbV2hhdCBjb25uZWN0cyB0byB3aGF0XQotICoqVmlzdWFsIE9wcG9ydHVuaXRpZXMqKjogW1doYXQgY2FuIGJlIHNob3duIHJhdGhlciB0aGFuIHRvbGRdCgojIyBLZXkgRGF0YSBQb2ludHMgKFZlcmJhdGltKQpbQWxsIHN0YXRpc3RpY3MsIHF1b3RlcywgYW5kIGNyaXRpY2FsIGZhY3RzIGV4YWN0bHkgYXMgdGhleSBhcHBlYXIgaW4gc291cmNlXQotICJbRXhhY3QgZGF0YSBwb2ludCAxXSIKLSAiW0V4YWN0IGRhdGEgcG9pbnQgMl0iCi0gIltFeGFjdCBxdW90ZSB3aXRoIGF0dHJpYnV0aW9uXSIKCiMjIExheW91dCDDlyBTdHlsZSBTaWduYWxzCi0gQ29udGVudCB0eXBlOiBbdHlwZV0g4oaSIHN1Z2dlc3RzIFtsYXlvdXRdCi0gVG9uZTogW3RvbmVdIOKGkiBzdWdnZXN0cyBbc3R5bGVdCi0gQXVkaWVuY2U6IFthdWRpZW5jZV0g4oaSIHN1Z2dlc3RzIFtzdHlsZV0KLSBDb21wbGV4aXR5OiBbbGV2ZWxdIOKGkiBzdWdnZXN0cyBbbGF5b3V0IGRlbnNpdHldCgojIyBEZXNpZ24gSW5zdHJ1Y3Rpb25zIChmcm9tIHVzZXIgaW5wdXQpCltBbnkgc3R5bGUsIGNvbG9yLCBsYXlvdXQsIG9yIHZpc3VhbCBwcmVmZXJlbmNlcyBleHRyYWN0ZWQgZnJvbSB1c2VyJ3Mgc3RlZXJpbmcgcHJvbXB0XQoKIyMgUmVjb21tZW5kZWQgQ29tYmluYXRpb25zCjEuICoqW0xheW91dF0gKyBbU3R5bGVdKiogKFJlY29tbWVuZGVkKTogW0JyaWVmIHJhdGlvbmFsZV0KMi4gKipbTGF5b3V0XSArIFtTdHlsZV0qKjogW0JyaWVmIHJhdGlvbmFsZV0KMy4gKipbTGF5b3V0XSArIFtTdHlsZV0qKjogW0JyaWVmIHJhdGlvbmFsZV0KYGBgCgojIyBBbmFseXNpcyBDaGVja2xpc3QKCkJlZm9yZSBwcm9jZWVkaW5nIHRvIHN0cnVjdHVyZWQgY29udGVudCBnZW5lcmF0aW9uOgoKLSBbIF0gSGF2ZSBJIHJlYWQgdGhlIGVudGlyZSBzb3VyY2UgZG9jdW1lbnQ/Ci0gWyBdIENhbiBJIHN1bW1hcml6ZSB0aGUgbWFpbiB0b3BpYyBpbiAxLTIgc2VudGVuY2VzPwotIFsgXSBIYXZlIEkgaWRlbnRpZmllZCAxLTMgY2xlYXIgbGVhcm5pbmcgb2JqZWN0aXZlcz8KLSBbIF0gRG8gSSB1bmRlcnN0YW5kIHRoZSB0YXJnZXQgYXVkaWVuY2U/Ci0gWyBdIEhhdmUgSSBjbGFzc2lmaWVkIHRoZSBjb250ZW50IHR5cGUgY29ycmVjdGx5PwotIFsgXSBIYXZlIEkgZXh0cmFjdGVkIGFsbCBkYXRhIHBvaW50cyB2ZXJiYXRpbT8KLSBbIF0gSGF2ZSBJIGlkZW50aWZpZWQgdmlzdWFsIG9wcG9ydHVuaXRpZXM/Ci0gWyBdIEhhdmUgSSBleHRyYWN0ZWQgZGVzaWduIGluc3RydWN0aW9ucyBmcm9tIHVzZXIgaW5wdXQ/Ci0gWyBdIEhhdmUgSSByZWNvbW1lbmRlZCAzIGxheW91dMOXc3R5bGUgY29tYmluYXRpb25zPwo=
+# Infographic Content Analysis Framework
+
+Deep analysis framework applying instructional design principles to infographic creation.
+
+## Purpose
+
+Before creating an infographic, thoroughly analyze the source material to:
+- Understand the content at a deep level
+- Identify clear learning objectives for the viewer
+- Structure information for maximum clarity and retention
+- Match content to optimal layout×style combinations
+- Preserve all source data verbatim
+
+## Instructional Design Mindset
+
+Approach content analysis as a **world-class instructional designer**:
+
+| Principle | Application |
+|-----------|-------------|
+| **Deep Understanding** | Read the entire document before analyzing any part |
+| **Learner-Centered** | Focus on what the viewer needs to understand |
+| **Visual Storytelling** | Use visuals to communicate, not just decorate |
+| **Cognitive Load** | Simplify complex ideas without losing accuracy |
+| **Data Integrity** | Never alter, summarize, or paraphrase source facts |
+
+## Analysis Dimensions
+
+### 1. Content Type Classification
+
+| Type | Characteristics | Best Layout | Best Style |
+|------|-----------------|-------------|------------|
+| **Timeline/History** | Sequential events, dates, progression | linear-progression | craft-handmade, aged-academia |
+| **Process/Tutorial** | Step-by-step instructions, how-to | linear-progression, winding-roadmap | ikea-manual, technical-schematic |
+| **Comparison** | A vs B, pros/cons, before-after | binary-comparison, comparison-matrix | corporate-memphis, bold-graphic |
+| **Hierarchy** | Levels, priorities, pyramids | hierarchical-layers, tree-branching | craft-handmade, corporate-memphis |
+| **Relationships** | Connections, overlaps, influences | venn-diagram, hub-spoke, jigsaw | craft-handmade, subway-map |
+| **Data/Metrics** | Statistics, KPIs, measurements | dashboard, periodic-table | corporate-memphis, technical-schematic |
+| **Cycle/Loop** | Recurring processes, feedback loops | circular-flow | craft-handmade, technical-schematic |
+| **System/Structure** | Components, architecture, anatomy | structural-breakdown, bento-grid | technical-schematic, ikea-manual |
+| **Journey/Narrative** | Stories, user flows, milestones | winding-roadmap, story-mountain | storybook-watercolor, comic-strip |
+| **Overview/Summary** | Multiple topics, feature highlights | bento-grid, periodic-table, dense-modules | chalkboard, bold-graphic |
+| **Product/Buying Guide** | Multi-dimension comparisons, specs, pitfalls | dense-modules | morandi-journal, pop-laboratory, retro-pop-grid |
+
+### 2. Learning Objective Identification
+
+Every infographic should have 1-3 clear learning objectives.
+
+**Good Learning Objectives**:
+- Specific and measurable
+- Focus on what the viewer will understand, not just see
+- Written from the viewer's perspective
+
+**Format**: "After viewing this infographic, the viewer will understand..."
+
+| Content Aspect | Objective Type |
+|----------------|----------------|
+| Core concept | "...what [topic] is and why it matters" |
+| Process | "...how to [accomplish something]" |
+| Comparison | "...the key differences between [A] and [B]" |
+| Relationships | "...how [elements] connect to each other" |
+| Data | "...the significance of [key statistics]" |
+
+### 3. Audience Analysis
+
+| Factor | Questions | Impact |
+|--------|-----------|--------|
+| **Knowledge Level** | What do they already know? | Determines complexity depth |
+| **Context** | Why are they viewing this? | Determines emphasis points |
+| **Expectations** | What do they hope to learn? | Determines success criteria |
+| **Visual Preferences** | Professional, playful, technical? | Influences style choice |
+
+### 4. Complexity Assessment
+
+| Level | Indicators | Layout Recommendation |
+|-------|------------|----------------------|
+| **Simple** (3-5 points) | Few main concepts, clear relationships | sparse layouts, single focus |
+| **Moderate** (6-8 points) | Multiple concepts, some relationships | balanced layouts, clear sections |
+| **Complex** (9+ points) | Many concepts, intricate relationships | dense layouts, multiple sections |
+
+### 5. Visual Opportunity Mapping
+
+Identify what can be shown rather than told:
+
+| Content Element | Visual Treatment |
+|-----------------|------------------|
+| Numbers/Statistics | Large, highlighted numerals |
+| Comparisons | Side-by-side, split screen |
+| Processes | Arrows, numbered steps, flow |
+| Hierarchies | Pyramids, layers, size differences |
+| Relationships | Lines, connections, overlapping shapes |
+| Categories | Color coding, grouping, sections |
+| Timelines | Horizontal/vertical progression |
+| Quotes | Callout boxes, quotation marks |
+
+### 6. Data Verbatim Extraction
+
+**Critical**: All factual information must be preserved exactly as written in the source.
+
+| Data Type | Handling Rule |
+|-----------|---------------|
+| **Statistics** | Copy exactly: "73%" not "about 70%" |
+| **Quotes** | Copy word-for-word with attribution |
+| **Names** | Preserve exact spelling |
+| **Dates** | Keep original format |
+| **Technical Terms** | Do not simplify or substitute |
+| **Lists** | Preserve order and wording |
+
+**Never**:
+- Round numbers
+- Paraphrase quotes
+- Substitute simpler words
+- Add implied information
+- Remove context that affects meaning
+
+## Output Format
+
+Save analysis results to `analysis.md`:
+
+```yaml
+---
+title: "[Main topic title]"
+topic: "[educational/technical/business/creative/etc.]"
+data_type: "[timeline/hierarchy/comparison/process/etc.]"
+complexity: "[simple/moderate/complex]"
+point_count: [number of main points]
+source_language: "[detected language]"
+user_language: "[user's language]"
+---
+
+## Main Topic
+[1-2 sentence summary of what this content is about]
+
+## Learning Objectives
+After viewing this infographic, the viewer should understand:
+1. [Primary objective]
+2. [Secondary objective]
+3. [Tertiary objective if applicable]
+
+## Target Audience
+- **Knowledge Level**: [Beginner/Intermediate/Expert]
+- **Context**: [Why they're viewing this]
+- **Expectations**: [What they hope to learn]
+
+## Content Type Analysis
+- **Data Structure**: [How information relates to itself]
+- **Key Relationships**: [What connects to what]
+- **Visual Opportunities**: [What can be shown rather than told]
+
+## Key Data Points (Verbatim)
+[All statistics, quotes, and critical facts exactly as they appear in source]
+- "[Exact data point 1]"
+- "[Exact data point 2]"
+- "[Exact quote with attribution]"
+
+## Layout × Style Signals
+- Content type: [type] → suggests [layout]
+- Tone: [tone] → suggests [style]
+- Audience: [audience] → suggests [style]
+- Complexity: [level] → suggests [layout density]
+
+## Design Instructions (from user input)
+[Any style, color, layout, or visual preferences extracted from user's steering prompt]
+
+## Recommended Combinations
+1. **[Layout] + [Style]** (Recommended): [Brief rationale]
+2. **[Layout] + [Style]**: [Brief rationale]
+3. **[Layout] + [Style]**: [Brief rationale]
+```
+
+## Analysis Checklist
+
+Before proceeding to structured content generation:
+
+- [ ] Have I read the entire source document?
+- [ ] Can I summarize the main topic in 1-2 sentences?
+- [ ] Have I identified 1-3 clear learning objectives?
+- [ ] Do I understand the target audience?
+- [ ] Have I classified the content type correctly?
+- [ ] Have I extracted all data points verbatim?
+- [ ] Have I identified visual opportunities?
+- [ ] Have I extracted design instructions from user input?
+- [ ] Have I recommended 3 layout×style combinations?

@@ -1,1 +1,130 @@
-LS0tCm5hbWU6IGFwcGxlLXJlbWluZGVycwpkZXNjcmlwdGlvbjogIkFwcGxlIFJlbWluZGVycyB2aWEgcmVtaW5kY3RsOiBhZGQsIGxpc3QsIGNvbXBsZXRlLiIKdmVyc2lvbjogMS4wLjAKYXV0aG9yOiBIZXJtZXMgQWdlbnQKbGljZW5zZTogTUlUCnBsYXRmb3JtczogW21hY29zXQptZXRhZGF0YToKICBoZXJtZXM6CiAgICB0YWdzOiBbUmVtaW5kZXJzLCB0YXNrcywgdG9kbywgbWFjT1MsIEFwcGxlXQpwcmVyZXF1aXNpdGVzOgogIGNvbW1hbmRzOiBbcmVtaW5kY3RsXQotLS0KCiMgQXBwbGUgUmVtaW5kZXJzCgpVc2UgYHJlbWluZGN0bGAgdG8gbWFuYWdlIEFwcGxlIFJlbWluZGVycyBkaXJlY3RseSBmcm9tIHRoZSB0ZXJtaW5hbC4gVGFza3Mgc3luYyBhY3Jvc3MgYWxsIEFwcGxlIGRldmljZXMgdmlhIGlDbG91ZC4KCiMjIFByZXJlcXVpc2l0ZXMKCi0gKiptYWNPUyoqIHdpdGggUmVtaW5kZXJzLmFwcAotIEluc3RhbGw6IGBicmV3IGluc3RhbGwgc3RlaXBldGUvdGFwL3JlbWluZGN0bGAKLSBHcmFudCBSZW1pbmRlcnMgcGVybWlzc2lvbiB3aGVuIHByb21wdGVkCi0gQ2hlY2s6IGByZW1pbmRjdGwgc3RhdHVzYCAvIFJlcXVlc3Q6IGByZW1pbmRjdGwgYXV0aG9yaXplYAoKIyMgV2hlbiB0byBVc2UKCi0gVXNlciBtZW50aW9ucyAicmVtaW5kZXIiIG9yICJSZW1pbmRlcnMgYXBwIgotIENyZWF0aW5nIHBlcnNvbmFsIHRvLWRvcyB3aXRoIGR1ZSBkYXRlcyB0aGF0IHN5bmMgdG8gaU9TCi0gTWFuYWdpbmcgQXBwbGUgUmVtaW5kZXJzIGxpc3RzCi0gVXNlciB3YW50cyB0YXNrcyB0byBhcHBlYXIgb24gdGhlaXIgaVBob25lL2lQYWQKCiMjIFdoZW4gTk9UIHRvIFVzZQoKLSBTY2hlZHVsaW5nIGFnZW50IGFsZXJ0cyDihpIgdXNlIHRoZSBjcm9uam9iIHRvb2wgaW5zdGVhZAotIENhbGVuZGFyIGV2ZW50cyDihpIgdXNlIEFwcGxlIENhbGVuZGFyIG9yIEdvb2dsZSBDYWxlbmRhcgotIFByb2plY3QgdGFzayBtYW5hZ2VtZW50IOKGkiB1c2UgR2l0SHViIElzc3VlcywgTm90aW9uLCBldGMuCi0gSWYgdXNlciBzYXlzICJyZW1pbmQgbWUiIGJ1dCBtZWFucyBhbiBhZ2VudCBhbGVydCDihpIgY2xhcmlmeSBmaXJzdAoKIyMgUXVpY2sgUmVmZXJlbmNlCgojIyMgVmlldyBSZW1pbmRlcnMKCmBgYGJhc2gKcmVtaW5kY3RsICAgICAgICAgICAgICAgICAgICAjIFRvZGF5J3MgcmVtaW5kZXJzCnJlbWluZGN0bCB0b2RheSAgICAgICAgICAgICAgIyBUb2RheQpyZW1pbmRjdGwgdG9tb3Jyb3cgICAgICAgICAgICMgVG9tb3Jyb3cKcmVtaW5kY3RsIHdlZWsgICAgICAgICAgICAgICAjIFRoaXMgd2VlawpyZW1pbmRjdGwgb3ZlcmR1ZSAgICAgICAgICAgICMgUGFzdCBkdWUKcmVtaW5kY3RsIGFsbCAgICAgICAgICAgICAgICAjIEV2ZXJ5dGhpbmcKcmVtaW5kY3RsIDIwMjYtMDEtMDQgICAgICAgICAjIFNwZWNpZmljIGRhdGUKYGBgCgojIyMgTWFuYWdlIExpc3RzCgpgYGBiYXNoCnJlbWluZGN0bCBsaXN0ICAgICAgICAgICAgICAgIyBMaXN0IGFsbCBsaXN0cwpyZW1pbmRjdGwgbGlzdCBXb3JrICAgICAgICAgICMgU2hvdyBzcGVjaWZpYyBsaXN0CnJlbWluZGN0bCBsaXN0IFByb2plY3RzIC0tY3JlYXRlICAgICMgQ3JlYXRlIGxpc3QKcmVtaW5kY3RsIGxpc3QgV29yayAtLWRlbGV0ZSAgICAgICAgIyBEZWxldGUgbGlzdApgYGAKCiMjIyBDcmVhdGUgUmVtaW5kZXJzCgpgYGBiYXNoCnJlbWluZGN0bCBhZGQgIkJ1eSBtaWxrIgpyZW1pbmRjdGwgYWRkIC0tdGl0bGUgIkNhbGwgbW9tIiAtLWxpc3QgUGVyc29uYWwgLS1kdWUgdG9tb3Jyb3cKcmVtaW5kY3RsIGFkZCAtLXRpdGxlICJNZWV0aW5nIHByZXAiIC0tZHVlICIyMDI2LTAyLTE1IDA5OjAwIgpgYGAKCiMjIyBEdWUgVGltZSB2cyBBbGFybSAvIEVhcmx5IE51ZGdlCgpgLS1kdWVgIGFuZCBgLS1hbGFybWAgYXJlIGRpZmZlcmVudCBmaWVsZHM6CgotIGAtLWR1ZWAgc2V0cyB0aGUgcmVtaW5kZXIncyBkdWUgZGF0ZS90aW1lLgotIGAtLWFsYXJtYCBzZXRzIHRoZSBFdmVudEtpdCBhbGFybS9ub3RpZmljYXRpb24gdHJpZ2dlci4gVGltZWQgZHVlIHJlbWluZGVycyBtYXkgZGVmYXVsdCB0byBhbiBhbGFybSBhdCB0aGUgZHVlIHRpbWUsIGJ1dCBwYXNzIGAtLWFsYXJtYCBleHBsaWNpdGx5IHdoZW4gdGhlIHVzZXIgYXNrcyBmb3IgYW4gZWFybGllciBudWRnZS4KCkZvciBhIHJlbWluZGVyIGR1ZSBhdCAyOjAwIFBNIHdpdGggYSBub3RpZmljYXRpb24gMzAgbWludXRlcyBlYXJsaWVyOgoKYGBgYmFzaApyZW1pbmRjdGwgYWRkIC0tdGl0bGUgIkhhaXJkcmVzc2VyIiAtLWR1ZSAiMjAyNi0wNS0xNSAxNDowMCIgLS1hbGFybSAiMjAyNi0wNS0xNSAxMzozMCIKYGBgCgpUbyBlZGl0IGFuIGV4aXN0aW5nIHJlbWluZGVyOgoKYGBgYmFzaApyZW1pbmRjdGwgZWRpdCA4NzM1NCAtLWR1ZSAiMjAyNi0wNS0xNSAxNDowMCIgLS1hbGFybSAiMjAyNi0wNS0xNSAxMzozMCIKYGBgCgpUaGUgUmVtaW5kZXJzIFVJIG1heSBzaG93IG9yIGdyb3VwIHRoZSBpdGVtIGJ5IHRoZSBhbGFybSB0aW1lIGJlY2F1c2UgdGhhdCBpcyB3aGVuIHRoZSBub3RpZmljYXRpb24gZmlyZXMuIFZlcmlmeSB3aXRoIEpTT04gaW5zdGVhZCBvZiBhc3N1bWluZyB0aGUgZHVlIHRpbWUgbW92ZWQ6CgpgYGBiYXNoCnJlbWluZGN0bCB0b2RheSAtLWpzb24KYGBgCgpFeHBlY3RlZCBzaGFwZToKCi0gYGR1ZURhdGVgOiBhY3R1YWwgZHVlIHRpbWUKLSBgYWxhcm1EYXRlYDogbm90aWZpY2F0aW9uIC8gZWFybHkgbnVkZ2UgdGltZQoKQXBwbGUncyBwdWJsaWMgYEVLUmVtaW5kZXJgIGRvY3MgbGlzdCBvbmx5IHJlbWluZGVyLXNwZWNpZmljIHByb3BlcnRpZXMuIEFsYXJtIHN1cHBvcnQgY29tZXMgZnJvbSBpbmhlcml0ZWQgYEVLQ2FsZW5kYXJJdGVtYCBiZWhhdmlvciBleHBvc2VkIGJ5IHJlbWluZGN0bCdzIGAtLWFsYXJtYCBmbGFnLgoKIyMjIENvbXBsZXRlIC8gRGVsZXRlCgpgYGBiYXNoCnJlbWluZGN0bCBjb21wbGV0ZSAxIDIgMyAgICAgICAgICAjIENvbXBsZXRlIGJ5IElECnJlbWluZGN0bCBkZWxldGUgNEE4MyAtLWZvcmNlICAgICAjIERlbGV0ZSBieSBJRApgYGAKCiMjIyBPdXRwdXQgRm9ybWF0cwoKYGBgYmFzaApyZW1pbmRjdGwgdG9kYXkgLS1qc29uICAgICAgICMgSlNPTiBmb3Igc2NyaXB0aW5nCnJlbWluZGN0bCB0b2RheSAtLXBsYWluICAgICAgIyBUU1YgZm9ybWF0CnJlbWluZGN0bCB0b2RheSAtLXF1aWV0ICAgICAgIyBDb3VudHMgb25seQpgYGAKCiMjIERhdGUgRm9ybWF0cwoKQWNjZXB0ZWQgYnkgYC0tZHVlYCBhbmQgZGF0ZSBmaWx0ZXJzOgotIGB0b2RheWAsIGB0b21vcnJvd2AsIGB5ZXN0ZXJkYXlgCi0gYFlZWVktTU0tRERgCi0gYFlZWVktTU0tREQgSEg6bW1gCi0gSVNPIDg2MDEgKGAyMDI2LTAxLTA0VDEyOjM0OjU2WmApCgojIyBSdWxlcwoKMS4gV2hlbiB1c2VyIHNheXMgInJlbWluZCBtZSIsIGNsYXJpZnk6IEFwcGxlIFJlbWluZGVycyAoc3luY3MgdG8gcGhvbmUpIHZzIGFnZW50IGNyb25qb2IgYWxlcnQKMi4gQWx3YXlzIGNvbmZpcm0gcmVtaW5kZXIgY29udGVudCBhbmQgZHVlIGRhdGUgYmVmb3JlIGNyZWF0aW5nCjMuIFVzZSBgLS1qc29uYCBmb3IgcHJvZ3JhbW1hdGljIHBhcnNpbmcK
+---
+name: apple-reminders
+description: "Apple Reminders via remindctl: add, list, complete."
+version: 1.0.0
+author: Hermes Agent
+license: MIT
+platforms: [macos]
+metadata:
+  hermes:
+    tags: [Reminders, tasks, todo, macOS, Apple]
+prerequisites:
+  commands: [remindctl]
+---
+
+# Apple Reminders
+
+Use `remindctl` to manage Apple Reminders directly from the terminal. Tasks sync across all Apple devices via iCloud.
+
+## Prerequisites
+
+- **macOS** with Reminders.app
+- Install: `brew install steipete/tap/remindctl`
+- Grant Reminders permission when prompted
+- Check: `remindctl status` / Request: `remindctl authorize`
+
+## When to Use
+
+- User mentions "reminder" or "Reminders app"
+- Creating personal to-dos with due dates that sync to iOS
+- Managing Apple Reminders lists
+- User wants tasks to appear on their iPhone/iPad
+
+## When NOT to Use
+
+- Scheduling agent alerts → use the cronjob tool instead
+- Calendar events → use Apple Calendar or Google Calendar
+- Project task management → use GitHub Issues, Notion, etc.
+- If user says "remind me" but means an agent alert → clarify first
+
+## Quick Reference
+
+### View Reminders
+
+```bash
+remindctl                    # Today's reminders
+remindctl today              # Today
+remindctl tomorrow           # Tomorrow
+remindctl week               # This week
+remindctl overdue            # Past due
+remindctl all                # Everything
+remindctl 2026-01-04         # Specific date
+```
+
+### Manage Lists
+
+```bash
+remindctl list               # List all lists
+remindctl list Work          # Show specific list
+remindctl list Projects --create    # Create list
+remindctl list Work --delete        # Delete list
+```
+
+### Create Reminders
+
+```bash
+remindctl add "Buy milk"
+remindctl add --title "Call mom" --list Personal --due tomorrow
+remindctl add --title "Meeting prep" --due "2026-02-15 09:00"
+```
+
+### Due Time vs Alarm / Early Nudge
+
+`--due` and `--alarm` are different fields:
+
+- `--due` sets the reminder's due date/time.
+- `--alarm` sets the EventKit alarm/notification trigger. Timed due reminders may default to an alarm at the due time, but pass `--alarm` explicitly when the user asks for an earlier nudge.
+
+For a reminder due at 2:00 PM with a notification 30 minutes earlier:
+
+```bash
+remindctl add --title "Hairdresser" --due "2026-05-15 14:00" --alarm "2026-05-15 13:30"
+```
+
+To edit an existing reminder:
+
+```bash
+remindctl edit 87354 --due "2026-05-15 14:00" --alarm "2026-05-15 13:30"
+```
+
+The Reminders UI may show or group the item by the alarm time because that is when the notification fires. Verify with JSON instead of assuming the due time moved:
+
+```bash
+remindctl today --json
+```
+
+Expected shape:
+
+- `dueDate`: actual due time
+- `alarmDate`: notification / early nudge time
+
+Apple's public `EKReminder` docs list only reminder-specific properties. Alarm support comes from inherited `EKCalendarItem` behavior exposed by remindctl's `--alarm` flag.
+
+### Complete / Delete
+
+```bash
+remindctl complete 1 2 3          # Complete by ID
+remindctl delete 4A83 --force     # Delete by ID
+```
+
+### Output Formats
+
+```bash
+remindctl today --json       # JSON for scripting
+remindctl today --plain      # TSV format
+remindctl today --quiet      # Counts only
+```
+
+## Date Formats
+
+Accepted by `--due` and date filters:
+- `today`, `tomorrow`, `yesterday`
+- `YYYY-MM-DD`
+- `YYYY-MM-DD HH:mm`
+- ISO 8601 (`2026-01-04T12:34:56Z`)
+
+## Rules
+
+1. When user says "remind me", clarify: Apple Reminders (syncs to phone) vs agent cronjob alert
+2. Always confirm reminder content and due date before creating
+3. Use `--json` for programmatic parsing

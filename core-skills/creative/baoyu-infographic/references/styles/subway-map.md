@@ -1,1 +1,29 @@
-IyBzdWJ3YXktbWFwCgpUcmFuc2l0IGRpYWdyYW0gc3R5bGUgd2l0aCBjb2xvcmVkIGxpbmVzIGFuZCBzdGF0aW9ucwoKIyMgQ29sb3IgUGFsZXR0ZQoKLSBQcmltYXJ5OiBUcmFuc2l0IGxpbmUgY29sb3JzIC0gcmVkLCBibHVlLCBncmVlbiwgeWVsbG93LCBvcmFuZ2UKLSBCYWNrZ3JvdW5kOiBXaGl0ZSBvciBsaWdodCBncmF5Ci0gQWNjZW50czogU3RhdGlvbiBkb3RzLCBpbnRlcmNoYW5nZSBtYXJrZXJzCgojIyBWaXN1YWwgRWxlbWVudHMKCi0gQ29sb3JlZCByb3V0ZSBsaW5lcwotIDQ1wrAgYW5kIDkwwrAgYW5nbGVzIG9ubHkKLSBTdGF0aW9uIGNpcmNsZSBtYXJrZXJzCi0gSW50ZXJjaGFuZ2Ugc3ltYm9scwotIFNpbXBsaWZpZWQgZ2VvZ3JhcGh5Ci0gTGluZSB0aGlja25lc3MgaGllcmFyY2h5CgojIyBUeXBvZ3JhcGh5CgotIENsZWFuIHNhbnMtc2VyaWYKLSBTdGF0aW9uIG5hbWUgbGFiZWxzCi0gTGluZSBudW1iZXIvbmFtZSBiYWRnZXMKLSBIb3Jpem9udGFsIG9yIGFuZ2xlZCB0ZXh0CgojIyBCZXN0IEZvcgoKSm91cm5leSBtYXBzLCBwcm9jZXNzIGZsb3dzLCBuZXR3b3JrIGRpYWdyYW1zLCByb3V0ZSBleHBsYW5hdGlvbnMK
+# subway-map
+
+Transit diagram style with colored lines and stations
+
+## Color Palette
+
+- Primary: Transit line colors - red, blue, green, yellow, orange
+- Background: White or light gray
+- Accents: Station dots, interchange markers
+
+## Visual Elements
+
+- Colored route lines
+- 45° and 90° angles only
+- Station circle markers
+- Interchange symbols
+- Simplified geography
+- Line thickness hierarchy
+
+## Typography
+
+- Clean sans-serif
+- Station name labels
+- Line number/name badges
+- Horizontal or angled text
+
+## Best For
+
+Journey maps, process flows, network diagrams, route explanations

@@ -1,1 +1,226 @@
-IyBDb21meVVJIFdvcmtmbG93IEpTT04gRm9ybWF0CgojIyBUd28gRm9ybWF0cyDigJQgT25seSBBUEkgRm9ybWF0IElzIEV4ZWN1dGFibGUKCioqQVBJIGZvcm1hdCoqIGlzIHJlcXVpcmVkIGZvciBgL2FwaS9wcm9tcHRgIGFuZCBldmVyeSBzY3JpcHQgaW4gdGhpcyBza2lsbC4KVGhlIHdlYiBVSSBhbHNvIHByb2R1Y2VzIGFuICJlZGl0b3IgZm9ybWF0IiB1c2VkIGZvciB2aXN1YWwgZWRpdGluZywgd2hpY2gKKipjYW5ub3QqKiBiZSBzdWJtaXR0ZWQgZGlyZWN0bHkuCgojIyMgQVBJIEZvcm1hdAoKVG9wLWxldmVsIGtleXMgYXJlIHN0cmluZyBub2RlIElEcy4gRWFjaCBub2RlIGhhcyBgY2xhc3NfdHlwZWAgYW5kIGBpbnB1dHNgOgoKYGBganNvbgp7CiAgIjMiOiB7CiAgICAiY2xhc3NfdHlwZSI6ICJLU2FtcGxlciIsCiAgICAiaW5wdXRzIjogewogICAgICAic2VlZCI6IDE1NjY4MDIwODcwMDI4NiwKICAgICAgInN0ZXBzIjogMjAsCiAgICAgICJjZmciOiA4LAogICAgICAic2FtcGxlcl9uYW1lIjogImV1bGVyIiwKICAgICAgInNjaGVkdWxlciI6ICJub3JtYWwiLAogICAgICAiZGVub2lzZSI6IDEuMCwKICAgICAgIm1vZGVsIjogWyI0IiwgMF0sCiAgICAgICJwb3NpdGl2ZSI6IFsiNiIsIDBdLAogICAgICAibmVnYXRpdmUiOiBbIjciLCAwXSwKICAgICAgImxhdGVudF9pbWFnZSI6IFsiNSIsIDBdCiAgICB9LAogICAgIl9tZXRhIjogeyJ0aXRsZSI6ICJLU2FtcGxlciJ9CiAgfSwKICAiNCI6IHsKICAgICJjbGFzc190eXBlIjogIkNoZWNrcG9pbnRMb2FkZXJTaW1wbGUiLAogICAgImlucHV0cyI6IHsiY2twdF9uYW1lIjogInYxLTUtcHJ1bmVkLWVtYW9ubHkuc2FmZXRlbnNvcnMifQogIH0KfQpgYGAKCioqRGV0ZWN0aW9uOioqIGV2ZXJ5IHRvcC1sZXZlbCB2YWx1ZSBoYXMgYGNsYXNzX3R5cGVgLiBUaGUgc2tpbGwncwpgX2NvbW1vbi5pc19hcGlfZm9ybWF0KClgIGRvZXMgdGhpcyBjaGVjay4KCiMjIyBFZGl0b3IgRm9ybWF0IChub3QgZGlyZWN0bHkgZXhlY3V0YWJsZSkKCkhhcyBgbm9kZXNbXWAgYW5kIGBsaW5rc1tdYCBhcnJheXMg4oCUIHRoZSB2aXN1YWwgZ3JhcGguIFRvIGNvbnZlcnQ6IG9wZW4gaW4KQ29tZnlVSSdzIHdlYiBVSSBhbmQgdXNlICoqV29ya2Zsb3cg4oaSIEV4cG9ydCAoQVBJKSoqIChuZXdlciBVSSkgb3IgdGhlCiJTYXZlIChBUEkgRm9ybWF0KSIgYnV0dG9uIChvbGRlciBVSSkuCgoqKkRldGVjdGlvbjoqKiB0b3AtbGV2ZWwgaGFzIGAibm9kZXMiYCBhbmQgYCJsaW5rcyJgIGtleXMuCgojIyBJbnB1dHM6IExpdGVyYWxzIHZzIExpbmtzCgpgYGBqc29uCiJpbnB1dHMiOiB7CiAgInRleHQiOiAiYSBjYXQiLCAgICAgICAgIC8vIGxpdGVyYWwg4oCUIG1vZGlmaWFibGUKICAic2VlZCI6IDQyLCAgICAgICAgICAgICAgLy8gbGl0ZXJhbCDigJQgbW9kaWZpYWJsZQogICJjbGlwIjogWyI0IiwgMV0gICAgICAgICAvLyBsaW5rIOKAlCB3aXJpbmc7IGRvIE5PVCBvdmVyd3JpdGUKfQpgYGAKCkxpbmtzIGFyZSBsZW5ndGgtMiBhcnJheXMgb2YgYFt1cHN0cmVhbV9ub2RlX2lkLCBvdXRwdXRfc2xvdF1gLiBUaGUgc2tpbGwncwpwYXJhbWV0ZXIgaW5qZWN0b3IgcmVmdXNlcyB0byBvdmVyd3JpdGUgYSBsaW5rIHdpdGggYSBsaXRlcmFsIChsb2dzIGEKd2FybmluZyBhbmQgc2tpcHMpLgoKIyMgQ29tbW9uIE5vZGUgVHlwZXMgYW5kIFRoZWlyIENvbnRyb2xsYWJsZSBQYXJhbWV0ZXJzCgpUaGUgZnVsbCBjYXRhbG9nIGxpdmVzIGluIGBzY3JpcHRzL19jb21tb24ucHlgIChgUEFSQU1fUEFUVEVSTlNgIGFuZApgTU9ERUxfTE9BREVSU2ApLiBIaWdobGlnaHRzOgoKIyMjIFRleHQgUHJvbXB0cwoKfCBOb2RlIENsYXNzIHwgS2V5IEZpZWxkcyB8CnwtLS0tLS0tLS0tLS18LS0tLS0tLS0tLS0tfAp8IGBDTElQVGV4dEVuY29kZWAgfCBgdGV4dGAgfAp8IGBDTElQVGV4dEVuY29kZVNEWExgIHwgYHRleHRfZ2AsIGB0ZXh0X2xgLCBgd2lkdGhgLCBgaGVpZ2h0YCB8CnwgYENMSVBUZXh0RW5jb2RlRmx1eGAgfCBgY2xpcF9sYCwgYHQ1eHhsYCwgYGd1aWRhbmNlYCB8CgpUbyBkaXN0aW5ndWlzaCBwb3NpdGl2ZSBmcm9tIG5lZ2F0aXZlIHRoZSBza2lsbCB0cmFjZXMgYEtTYW1wbGVyLm5lZ2F0aXZlYApiYWNrIHRocm91Z2ggUmVyb3V0ZSAvIFByaW1pdGl2ZSBub2RlcyB0byB0aGUgc291cmNlIENMSVBUZXh0RW5jb2RlLiBGYWxscwpiYWNrIHRvIGBfbWV0YS50aXRsZWAgaGV1cmlzdGljcyAoIm5lZ2F0aXZlIiwgIm5lZyIsICJhbnRpIikuCgojIyMgU2FtcGxpbmcKCnwgTm9kZSBDbGFzcyB8IEtleSBGaWVsZHMgfAp8LS0tLS0tLS0tLS0tfC0tLS0tLS0tLS0tLXwKfCBgS1NhbXBsZXJgIHwgYHNlZWRgLCBgc3RlcHNgLCBgY2ZnYCwgYHNhbXBsZXJfbmFtZWAsIGBzY2hlZHVsZXJgLCBgZGVub2lzZWAgfAp8IGBLU2FtcGxlckFkdmFuY2VkYCB8IGBub2lzZV9zZWVkYCwgYHN0ZXBzYCwgYGNmZ2AsIGBzdGFydF9hdF9zdGVwYCwgYGVuZF9hdF9zdGVwYCB8CnwgYFNhbXBsZXJDdXN0b21gIHwgYG5vaXNlX3NlZWRgLCBgY2ZnYCwgYHNhbXBsZXJgLCBgc2lnbWFzYCB8CnwgYFNhbXBsZXJDdXN0b21BZHZhbmNlZGAgfCBgbm9pc2Vfc2VlZGAgKHZpYSBSYW5kb21Ob2lzZSBpbnB1dCkgfAp8IGBSYW5kb21Ob2lzZWAgfCBgbm9pc2Vfc2VlZGAgfAp8IGBCYXNpY1NjaGVkdWxlcmAgfCBgc3RlcHNgLCBgc2NoZWR1bGVyYCwgYGRlbm9pc2VgIHwKfCBgS1NhbXBsZXJTZWxlY3RgIHwgYHNhbXBsZXJfbmFtZWAgfAp8IGBCYXNpY0d1aWRlcmAgLyBgQ0ZHR3VpZGVyYCB8IGBjZmdgIHwKfCBgTW9kZWxTYW1wbGluZ0ZsdXhgIHwgYG1heF9zaGlmdGAsIGBiYXNlX3NoaWZ0YCwgYHdpZHRoYCwgYGhlaWdodGAgfAp8IGBTRFR1cmJvU2NoZWR1bGVyYCB8IGBzdGVwc2AsIGBkZW5vaXNlYCB8CgojIyMgTGF0ZW50IC8gRGltZW5zaW9ucwoKfCBOb2RlIENsYXNzIHwgS2V5IEZpZWxkcyB8CnwtLS0tLS0tLS0tLS18LS0tLS0tLS0tLS0tfAp8IGBFbXB0eUxhdGVudEltYWdlYCB8IGB3aWR0aGAsIGBoZWlnaHRgLCBgYmF0Y2hfc2l6ZWAgfAp8IGBFbXB0eVNEM0xhdGVudEltYWdlYCB8IGB3aWR0aGAsIGBoZWlnaHRgLCBgYmF0Y2hfc2l6ZWAgfAp8IGBFbXB0eUh1bnl1YW5MYXRlbnRWaWRlb2AgfCBgd2lkdGhgLCBgaGVpZ2h0YCwgYGxlbmd0aGAsIGBiYXRjaF9zaXplYCB8CnwgYEVtcHR5TW9jaGlMYXRlbnRWaWRlb2AgfCBgd2lkdGhgLCBgaGVpZ2h0YCwgYGxlbmd0aGAsIGBiYXRjaF9zaXplYCB8CnwgYEVtcHR5TFRYVkxhdGVudFZpZGVvYCB8IGB3aWR0aGAsIGBoZWlnaHRgLCBgbGVuZ3RoYCwgYGJhdGNoX3NpemVgIHwKCiMjIyBNb2RlbCBMb2FkaW5nCgp8IE5vZGUgQ2xhc3MgfCBLZXkgRmllbGRzIHwgRm9sZGVyIHwKfC0tLS0tLS0tLS0tLXwtLS0tLS0tLS0tLS18LS0tLS0tLS18CnwgYENoZWNrcG9pbnRMb2FkZXJTaW1wbGVgIHwgYGNrcHRfbmFtZWAgfCBgY2hlY2twb2ludHNgIHwKfCBgTG9yYUxvYWRlcmAgfCBgbG9yYV9uYW1lYCwgYHN0cmVuZ3RoX21vZGVsYCwgYHN0cmVuZ3RoX2NsaXBgIHwgYGxvcmFzYCB8CnwgYExvcmFMb2FkZXJNb2RlbE9ubHlgIHwgYGxvcmFfbmFtZWAsIGBzdHJlbmd0aF9tb2RlbGAgfCBgbG9yYXNgIHwKfCBgVkFFTG9hZGVyYCB8IGB2YWVfbmFtZWAgfCBgdmFlYCB8CnwgYENvbnRyb2xOZXRMb2FkZXJgIHwgYGNvbnRyb2xfbmV0X25hbWVgIHwgYGNvbnRyb2xuZXRgIHwKfCBgQ0xJUExvYWRlcmAgfCBgY2xpcF9uYW1lYCB8IGBjbGlwYCB8CnwgYER1YWxDTElQTG9hZGVyYCB8IGBjbGlwX25hbWUxYCwgYGNsaXBfbmFtZTJgIHwgYGNsaXBgIHwKfCBgVHJpcGxlQ0xJUExvYWRlcmAgfCBgY2xpcF9uYW1lMS8yLzNgIHwgYGNsaXBgIHwKfCBgVU5FVExvYWRlcmAgfCBgdW5ldF9uYW1lYCB8IGB1bmV0YCB8CnwgYERpZmZ1c2lvbk1vZGVsTG9hZGVyYCB8IGBtb2RlbF9uYW1lYCB8IGBkaWZmdXNpb25fbW9kZWxzYCB8CnwgYFVwc2NhbGVNb2RlbExvYWRlcmAgfCBgbW9kZWxfbmFtZWAgfCBgdXBzY2FsZV9tb2RlbHNgIHwKfCBgSVBBZGFwdGVyTW9kZWxMb2FkZXJgIHwgYGlwYWRhcHRlcl9maWxlYCB8IGBpcGFkYXB0ZXJgIHwKfCBgQURFX0FuaW1hdGVEaWZmTG9hZGVyV2l0aENvbnRleHRgIHwgYG1vZGVsX25hbWVgLCBgbW90aW9uX3NjYWxlYCB8IGBhbmltYXRlZGlmZl9tb2RlbHNgIHwKCiMjIyBJbWFnZSBJbnB1dC9PdXRwdXQKCnwgTm9kZSBDbGFzcyB8IEtleSBGaWVsZHMgfAp8LS0tLS0tLS0tLS0tfC0tLS0tLS0tLS0tLXwKfCBgTG9hZEltYWdlYCB8IGBpbWFnZWAgKHNlcnZlci1zaWRlIGZpbGVuYW1lLCBhZnRlciB1cGxvYWQpIHwKfCBgTG9hZEltYWdlTWFza2AgfCBgaW1hZ2VgLCBgY2hhbm5lbGAgKGByZWRgIC8gYGdyZWVuYCAvIGBibHVlYCAvIGBhbHBoYWApIHwKfCBgVkFFRW5jb2RlYCAvIGBWQUVEZWNvZGVgIHwgKG5vIGNvbnRyb2xsYWJsZSBmaWVsZHMpIHwKfCBgVkFFRW5jb2RlRm9ySW5wYWludGAgfCBgZ3Jvd19tYXNrX2J5YCB8CnwgYFNhdmVJbWFnZWAgfCBgZmlsZW5hbWVfcHJlZml4YCB8CnwgYFZIU19WaWRlb0NvbWJpbmVgIHwgYGZyYW1lX3JhdGVgLCBgZm9ybWF0YCwgYGZpbGVuYW1lX3ByZWZpeGAsIGBsb29wX2NvdW50YCwgYHBpbmdwb25nYCB8CgojIyMgQ29udHJvbE5ldAoKfCBOb2RlIENsYXNzIHwgS2V5IEZpZWxkcyB8CnwtLS0tLS0tLS0tLS18LS0tLS0tLS0tLS0tfAp8IGBDb250cm9sTmV0QXBwbHlgIHwgYHN0cmVuZ3RoYCB8CnwgYENvbnRyb2xOZXRBcHBseUFkdmFuY2VkYCB8IGBzdHJlbmd0aGAsIGBzdGFydF9wZXJjZW50YCwgYGVuZF9wZXJjZW50YCB8CgojIyMgSVBBZGFwdGVyIChjb21tdW5pdHkgcGFjayBgY29tZnl1aV9pcGFkYXB0ZXJfcGx1c2ApCgp8IE5vZGUgQ2xhc3MgfCBLZXkgRmllbGRzIHwKfC0tLS0tLS0tLS0tLXwtLS0tLS0tLS0tLS18CnwgYElQQWRhcHRlckFkdmFuY2VkYCB8IGB3ZWlnaHRgLCBgc3RhcnRfYXRgLCBgZW5kX2F0YCB8CnwgYElQQWRhcHRlcmAgfCBgd2VpZ2h0YCB8CgojIyMgRW1iZWRkaW5ncyAocmVmZXJlbmNlZCBpbnNpZGUgcHJvbXB0IHN0cmluZ3MpCgpDb21meVVJIHNjYW5zIHByb21wdCB0ZXh0IGZvciBgZW1iZWRkaW5nOk5BTUVgIHN5bnRheC4gVGhlIHNraWxsJ3MKYF9jb21tb24uaXRlcl9lbWJlZGRpbmdfcmVmcygpYCBleHRyYWN0cyB0aGVzZSBhcyBtb2RlbCBkZXBlbmRlbmNpZXMuCgpgYGB0ZXh0CiJhIGJlYXV0aWZ1bCBjYXQsIGVtYmVkZGluZzpnb29kdmliZXM6MS4yLCBlbWJlZGRpbmc6YXJ0LXN0eWxlIgpgYGAKCmBleHRyYWN0X3NjaGVtYS5weWAgYW5kIGBjaGVja19kZXBzLnB5YCBzdXJmYWNlIHRoZXNlIGluCmBlbWJlZGRpbmdfZGVwZW5kZW5jaWVzYCAvIGBtaXNzaW5nX2VtYmVkZGluZ3NgLgoKIyMgUGFyYW1ldGVyIEluamVjdGlvbiBQYXR0ZXJuCgpgYGBweXRob24KaW1wb3J0IGpzb24sIGNvcHkKCndpdGggb3Blbigid29ya2Zsb3dfYXBpLmpzb24iKSBhcyBmOgogICAgd29ya2Zsb3cgPSBqc29uLmxvYWQoZikKCndmID0gY29weS5kZWVwY29weSh3b3JrZmxvdykKd2ZbIjYiXVsiaW5wdXRzIl1bInRleHQiXSA9ICJhIGJlYXV0aWZ1bCBzdW5zZXQiCndmWyI3Il1bImlucHV0cyJdWyJ0ZXh0Il0gPSAidWdseSwgYmx1cnJ5Igp3ZlsiMyJdWyJpbnB1dHMiXVsic2VlZCJdID0gNDIKd2ZbIjMiXVsiaW5wdXRzIl1bInN0ZXBzIl0gPSAzMAp3ZlsiNSJdWyJpbnB1dHMiXVsid2lkdGgiXSA9IDEwMjQKd2ZbIjUiXVsiaW5wdXRzIl1bImhlaWdodCJdID0gMTAyNApgYGAKCmBzY3JpcHRzL2V4dHJhY3Rfc2NoZW1hLnB5YCBhdXRvbWF0ZXMgZGlzY292ZXJpbmcgd2hpY2ggbm9kZSBJRHMvZmllbGRzCmNvcnJlc3BvbmQgdG8gd2hpY2ggdXNlci1mYWNpbmcgcGFyYW1ldGVycy4gSXQgcmV0dXJucyBhIGBwYXJhbWV0ZXJzYCBkaWN0CnRoYXQgYHJ1bl93b3JrZmxvdy5weWAgcmVhZHMgdG8gaW5qZWN0IHZhbHVlcyBmcm9tIGAtLWFyZ3NgLgoKIyMgSWRlbnRpZnlpbmcgQ29udHJvbGxhYmxlIFBhcmFtZXRlcnMgKEhldXJpc3RpY3MpCgpGb3IgdW5rbm93biB3b3JrZmxvd3M6CgoxLiAqKlByb21wdCB0ZXh0Kiog4oCUIGFueSBgQ0xJUFRleHRFbmNvZGUudGV4dGAuIFVzZSBjb25uZWN0aW9uIHRyYWNpbmcgYmFjawogICBmcm9tIGBLU2FtcGxlci5wb3NpdGl2ZWAgLyBgLm5lZ2F0aXZlYCB0byBkaXNhbWJpZ3VhdGUgKGRvbid0IHRydXN0CiAgIG1ldGEtdGl0bGUgYWxvbmUpLgoyLiAqKlNlZWQqKiDigJQgYEtTYW1wbGVyLnNlZWRgIC8gYEtTYW1wbGVyQWR2YW5jZWQubm9pc2Vfc2VlZGAgLyBgUmFuZG9tTm9pc2Uubm9pc2Vfc2VlZGAuCjMuICoqRGltZW5zaW9ucyoqIOKAlCBgRW1wdHkqTGF0ZW50SW1hZ2Uud2lkdGgvaGVpZ2h0YCAobXVzdCBiZSBtdWx0aXBsZXMgb2YgOCkuCjQuICoqU3RlcHMgLyBDRkcqKiDigJQgYEtTYW1wbGVyLnN0ZXBzYCwgYEtTYW1wbGVyLmNmZ2AuIFN0ZXBzIDIw4oCTNTAgdHlwaWNhbC4KICAgQ0ZHIDXigJMxNSB0eXBpY2FsIChGbHV4IHVzZXMgZ3VpZGFuY2UsIG5vdCBDRkcpLgo1LiAqKk1vZGVsIC8gY2hlY2twb2ludCoqIOKAlCBgQ2hlY2twb2ludExvYWRlclNpbXBsZS5ja3B0X25hbWVgLiBGaWxlbmFtZSBtdXN0CiAgIG1hdGNoIGFuIGluc3RhbGxlZCBmaWxlICpleGFjdGx5Ki4KNi4gKipMb1JBKiog4oCUIGBMb3JhTG9hZGVyLmxvcmFfbmFtZWAsIGAuc3RyZW5ndGhfbW9kZWxgLgo3LiAqKkltYWdlcyBmb3IgaW1nMmltZyAvIGlucGFpbnQqKiDigJQgYExvYWRJbWFnZS5pbWFnZWAuIFNlcnZlci1zaWRlIGZpbGVuYW1lCiAgIGFmdGVyIHVwbG9hZC4KOC4gKipEZW5vaXNlKiog4oCUIGBLU2FtcGxlci5kZW5vaXNlYC4gMC4w4oCTMS4wOyAxLjAgPSBpZ25vcmUgaW5wdXQgaW1hZ2UsCiAgIDAuMCA9IHBhc3MgdGhyb3VnaC4gU3dlZXQgc3BvdCBmb3IgaW1nMmltZzogMC404oCTMC43LgoKIyMgT3V0cHV0IE5vZGVzCgpPdXRwdXQgaXMgcHJvZHVjZWQgYnkgdGhlc2Ugbm9kZSB0eXBlcy4gVGhlIHNraWxsJ3MgYE9VVFBVVF9OT0RFU2Agc2V0CmV4dGVuZHMgdG8gY29tbW9uIGNvbW11bml0eSBwYWNrcy4KCnwgTm9kZSB8IE91dHB1dCBLZXkgfCBDb250ZW50IHwKfC0tLS0tLXwtLS0tLS0tLS0tLXwtLS0tLS0tLS18CnwgYFNhdmVJbWFnZWAgfCBgaW1hZ2VzYCB8IExpc3Qgb2YgYHtmaWxlbmFtZSwgc3ViZm9sZGVyLCB0eXBlfWAgfAp8IGBQcmV2aWV3SW1hZ2VgIHwgYGltYWdlc2AgfCBUZW1wb3JhcnkgcHJldmlldyAobm90IHNhdmVkKSB8CnwgYFZIU19WaWRlb0NvbWJpbmVgIHwgYGdpZnNgIChvbGRlcikgb3IgYHZpZGVvc2AvYHZpZGVvYCAobmV3ZXIgY2xvdWQpIHwgVmlkZW8gZmlsZSByZWZzIHwKfCBgU2F2ZUF1ZGlvYCB8IGBhdWRpb2AgfCBBdWRpbyBmaWxlIHJlZnMgfAp8IGBTYXZlQW5pbWF0ZWRXRUJQYCAvIGBTYXZlQW5pbWF0ZWRQTkdgIHwgYGltYWdlc2AgfCBBbmltYXRlZCBpbWFnZXMgfAp8IGBTYXZlM0RgIHwgYDNkYCB8IDNEIGFzc2V0IHJlZnMgfAoKQWZ0ZXIgZXhlY3V0aW9uLCBmZXRjaCBvdXRwdXRzIGZyb20gYC9oaXN0b3J5L3twcm9tcHRfaWR9YCAobG9jYWwpIG9yCmAvYXBpL2pvYnMve3Byb21wdF9pZH1gIChjbG91ZCkg4oaSIGBvdXRwdXRzYCDihpIgYHtub2RlX2lkfWAg4oaSIGB7a2V5fWAuCgojIyBXcmFwcGVyIFZhcmlhbnRzCgpTb21lIHNhdmVkIEpTT04gZmlsZXMgd3JhcCB0aGUgd29ya2Zsb3cgdW5kZXIgYSBgInByb21wdCJgIGtleSAobWF0Y2hpbmcKdGhlIGAvYXBpL3Byb21wdGAgcGF5bG9hZCBzaGFwZSkuIFRoZSBza2lsbCdzIGBfY29tbW9uLnVud3JhcF93b3JrZmxvdygpYApoYW5kbGVzIHRoaXMg4oCUIHBhc3MgYW55IG9mOgoKLSByYXcgQVBJIGZvcm1hdDogYHsiMyI6IHsuLi59LCAiNCI6IHsuLi59fWAKLSB3cmFwcGVkOiBgeyJwcm9tcHQiOiB7IjMiOiB7Li4ufX0sICJjbGllbnRfaWQiOiAiLi4uIn1gCgpJdCByZWplY3RzIGVkaXRvciBmb3JtYXQgd2l0aCBhIGNsZWFyIGVycm9yIGFuZCBhIHJlLWV4cG9ydCBpbnN0cnVjdGlvbi4K
+# ComfyUI Workflow JSON Format
+
+## Two Formats — Only API Format Is Executable
+
+**API format** is required for `/api/prompt` and every script in this skill.
+The web UI also produces an "editor format" used for visual editing, which
+**cannot** be submitted directly.
+
+### API Format
+
+Top-level keys are string node IDs. Each node has `class_type` and `inputs`:
+
+```json
+{
+  "3": {
+    "class_type": "KSampler",
+    "inputs": {
+      "seed": 156680208700286,
+      "steps": 20,
+      "cfg": 8,
+      "sampler_name": "euler",
+      "scheduler": "normal",
+      "denoise": 1.0,
+      "model": ["4", 0],
+      "positive": ["6", 0],
+      "negative": ["7", 0],
+      "latent_image": ["5", 0]
+    },
+    "_meta": {"title": "KSampler"}
+  },
+  "4": {
+    "class_type": "CheckpointLoaderSimple",
+    "inputs": {"ckpt_name": "v1-5-pruned-emaonly.safetensors"}
+  }
+}
+```
+
+**Detection:** every top-level value has `class_type`. The skill's
+`_common.is_api_format()` does this check.
+
+### Editor Format (not directly executable)
+
+Has `nodes[]` and `links[]` arrays — the visual graph. To convert: open in
+ComfyUI's web UI and use **Workflow → Export (API)** (newer UI) or the
+"Save (API Format)" button (older UI).
+
+**Detection:** top-level has `"nodes"` and `"links"` keys.
+
+## Inputs: Literals vs Links
+
+```json
+"inputs": {
+  "text": "a cat",         // literal — modifiable
+  "seed": 42,              // literal — modifiable
+  "clip": ["4", 1]         // link — wiring; do NOT overwrite
+}
+```
+
+Links are length-2 arrays of `[upstream_node_id, output_slot]`. The skill's
+parameter injector refuses to overwrite a link with a literal (logs a
+warning and skips).
+
+## Common Node Types and Their Controllable Parameters
+
+The full catalog lives in `scripts/_common.py` (`PARAM_PATTERNS` and
+`MODEL_LOADERS`). Highlights:
+
+### Text Prompts
+
+| Node Class | Key Fields |
+|------------|------------|
+| `CLIPTextEncode` | `text` |
+| `CLIPTextEncodeSDXL` | `text_g`, `text_l`, `width`, `height` |
+| `CLIPTextEncodeFlux` | `clip_l`, `t5xxl`, `guidance` |
+
+To distinguish positive from negative the skill traces `KSampler.negative`
+back through Reroute / Primitive nodes to the source CLIPTextEncode. Falls
+back to `_meta.title` heuristics ("negative", "neg", "anti").
+
+### Sampling
+
+| Node Class | Key Fields |
+|------------|------------|
+| `KSampler` | `seed`, `steps`, `cfg`, `sampler_name`, `scheduler`, `denoise` |
+| `KSamplerAdvanced` | `noise_seed`, `steps`, `cfg`, `start_at_step`, `end_at_step` |
+| `SamplerCustom` | `noise_seed`, `cfg`, `sampler`, `sigmas` |
+| `SamplerCustomAdvanced` | `noise_seed` (via RandomNoise input) |
+| `RandomNoise` | `noise_seed` |
+| `BasicScheduler` | `steps`, `scheduler`, `denoise` |
+| `KSamplerSelect` | `sampler_name` |
+| `BasicGuider` / `CFGGuider` | `cfg` |
+| `ModelSamplingFlux` | `max_shift`, `base_shift`, `width`, `height` |
+| `SDTurboScheduler` | `steps`, `denoise` |
+
+### Latent / Dimensions
+
+| Node Class | Key Fields |
+|------------|------------|
+| `EmptyLatentImage` | `width`, `height`, `batch_size` |
+| `EmptySD3LatentImage` | `width`, `height`, `batch_size` |
+| `EmptyHunyuanLatentVideo` | `width`, `height`, `length`, `batch_size` |
+| `EmptyMochiLatentVideo` | `width`, `height`, `length`, `batch_size` |
+| `EmptyLTXVLatentVideo` | `width`, `height`, `length`, `batch_size` |
+
+### Model Loading
+
+| Node Class | Key Fields | Folder |
+|------------|------------|--------|
+| `CheckpointLoaderSimple` | `ckpt_name` | `checkpoints` |
+| `LoraLoader` | `lora_name`, `strength_model`, `strength_clip` | `loras` |
+| `LoraLoaderModelOnly` | `lora_name`, `strength_model` | `loras` |
+| `VAELoader` | `vae_name` | `vae` |
+| `ControlNetLoader` | `control_net_name` | `controlnet` |
+| `CLIPLoader` | `clip_name` | `clip` |
+| `DualCLIPLoader` | `clip_name1`, `clip_name2` | `clip` |
+| `TripleCLIPLoader` | `clip_name1/2/3` | `clip` |
+| `UNETLoader` | `unet_name` | `unet` |
+| `DiffusionModelLoader` | `model_name` | `diffusion_models` |
+| `UpscaleModelLoader` | `model_name` | `upscale_models` |
+| `IPAdapterModelLoader` | `ipadapter_file` | `ipadapter` |
+| `ADE_AnimateDiffLoaderWithContext` | `model_name`, `motion_scale` | `animatediff_models` |
+
+### Image Input/Output
+
+| Node Class | Key Fields |
+|------------|------------|
+| `LoadImage` | `image` (server-side filename, after upload) |
+| `LoadImageMask` | `image`, `channel` (`red` / `green` / `blue` / `alpha`) |
+| `VAEEncode` / `VAEDecode` | (no controllable fields) |
+| `VAEEncodeForInpaint` | `grow_mask_by` |
+| `SaveImage` | `filename_prefix` |
+| `VHS_VideoCombine` | `frame_rate`, `format`, `filename_prefix`, `loop_count`, `pingpong` |
+
+### ControlNet
+
+| Node Class | Key Fields |
+|------------|------------|
+| `ControlNetApply` | `strength` |
+| `ControlNetApplyAdvanced` | `strength`, `start_percent`, `end_percent` |
+
+### IPAdapter (community pack `comfyui_ipadapter_plus`)
+
+| Node Class | Key Fields |
+|------------|------------|
+| `IPAdapterAdvanced` | `weight`, `start_at`, `end_at` |
+| `IPAdapter` | `weight` |
+
+### Embeddings (referenced inside prompt strings)
+
+ComfyUI scans prompt text for `embedding:NAME` syntax. The skill's
+`_common.iter_embedding_refs()` extracts these as model dependencies.
+
+```text
+"a beautiful cat, embedding:goodvibes:1.2, embedding:art-style"
+```
+
+`extract_schema.py` and `check_deps.py` surface these in
+`embedding_dependencies` / `missing_embeddings`.
+
+## Parameter Injection Pattern
+
+```python
+import json, copy
+
+with open("workflow_api.json") as f:
+    workflow = json.load(f)
+
+wf = copy.deepcopy(workflow)
+wf["6"]["inputs"]["text"] = "a beautiful sunset"
+wf["7"]["inputs"]["text"] = "ugly, blurry"
+wf["3"]["inputs"]["seed"] = 42
+wf["3"]["inputs"]["steps"] = 30
+wf["5"]["inputs"]["width"] = 1024
+wf["5"]["inputs"]["height"] = 1024
+```
+
+`scripts/extract_schema.py` automates discovering which node IDs/fields
+correspond to which user-facing parameters. It returns a `parameters` dict
+that `run_workflow.py` reads to inject values from `--args`.
+
+## Identifying Controllable Parameters (Heuristics)
+
+For unknown workflows:
+
+1. **Prompt text** — any `CLIPTextEncode.text`. Use connection tracing back
+   from `KSampler.positive` / `.negative` to disambiguate (don't trust
+   meta-title alone).
+2. **Seed** — `KSampler.seed` / `KSamplerAdvanced.noise_seed` / `RandomNoise.noise_seed`.
+3. **Dimensions** — `Empty*LatentImage.width/height` (must be multiples of 8).
+4. **Steps / CFG** — `KSampler.steps`, `KSampler.cfg`. Steps 20–50 typical.
+   CFG 5–15 typical (Flux uses guidance, not CFG).
+5. **Model / checkpoint** — `CheckpointLoaderSimple.ckpt_name`. Filename must
+   match an installed file *exactly*.
+6. **LoRA** — `LoraLoader.lora_name`, `.strength_model`.
+7. **Images for img2img / inpaint** — `LoadImage.image`. Server-side filename
+   after upload.
+8. **Denoise** — `KSampler.denoise`. 0.0–1.0; 1.0 = ignore input image,
+   0.0 = pass through. Sweet spot for img2img: 0.4–0.7.
+
+## Output Nodes
+
+Output is produced by these node types. The skill's `OUTPUT_NODES` set
+extends to common community packs.
+
+| Node | Output Key | Content |
+|------|-----------|---------|
+| `SaveImage` | `images` | List of `{filename, subfolder, type}` |
+| `PreviewImage` | `images` | Temporary preview (not saved) |
+| `VHS_VideoCombine` | `gifs` (older) or `videos`/`video` (newer cloud) | Video file refs |
+| `SaveAudio` | `audio` | Audio file refs |
+| `SaveAnimatedWEBP` / `SaveAnimatedPNG` | `images` | Animated images |
+| `Save3D` | `3d` | 3D asset refs |
+
+After execution, fetch outputs from `/history/{prompt_id}` (local) or
+`/api/jobs/{prompt_id}` (cloud) → `outputs` → `{node_id}` → `{key}`.
+
+## Wrapper Variants
+
+Some saved JSON files wrap the workflow under a `"prompt"` key (matching
+the `/api/prompt` payload shape). The skill's `_common.unwrap_workflow()`
+handles this — pass any of:
+
+- raw API format: `{"3": {...}, "4": {...}}`
+- wrapped: `{"prompt": {"3": {...}}, "client_id": "..."}`
+
+It rejects editor format with a clear error and a re-export instruction.

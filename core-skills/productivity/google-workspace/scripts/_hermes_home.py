@@ -1,1 +1,42 @@
-IiIiUmVzb2x2ZSBIRVJNRVNfSE9NRSBmb3Igc3RhbmRhbG9uZSBza2lsbCBzY3JpcHRzLgoKU2tpbGwgc2NyaXB0cyBtYXkgcnVuIG91dHNpZGUgdGhlIEhlcm1lcyBwcm9jZXNzIChlLmcuIHN5c3RlbSBQeXRob24sCm5peCBlbnYsIENJKSB3aGVyZSBgYGhlcm1lc19jb25zdGFudHNgYCBpcyBub3QgaW1wb3J0YWJsZS4gIFRoaXMgbW9kdWxlCnByb3ZpZGVzIHRoZSBzYW1lIGBgZ2V0X2hlcm1lc19ob21lKClgYCBhbmQgYGBkaXNwbGF5X2hlcm1lc19ob21lKClgYApjb250cmFjdHMgYXMgYGBoZXJtZXNfY29uc3RhbnRzYGAgd2l0aG91dCByZXF1aXJpbmcgaXQgb24gYGBzeXMucGF0aGBgLgoKV2hlbiBgYGhlcm1lc19jb25zdGFudHNgYCBJUyBhdmFpbGFibGUgaXQgaXMgdXNlZCBkaXJlY3RseSBzbyB0aGF0IGFueQpmdXR1cmUgZW5oYW5jZW1lbnRzIChwcm9maWxlIHJlc29sdXRpb24sIERvY2tlciBkZXRlY3Rpb24sIGV0Yy4pIGFyZQpwaWNrZWQgdXAgYXV0b21hdGljYWxseS4gIFRoZSBmYWxsYmFjayBwYXRoIHJlcGxpY2F0ZXMgdGhlIGNvcmUgbG9naWMKZnJvbSBgYGhlcm1lc19jb25zdGFudHMucHlgYCB1c2luZyBvbmx5IHRoZSBzdGRsaWIuCgpBbGwgc2NyaXB0cyB1bmRlciBgYGdvb2dsZS13b3Jrc3BhY2Uvc2NyaXB0cy9gYCBzaG91bGQgaW1wb3J0IGZyb20gaGVyZQppbnN0ZWFkIG9mIGR1cGxpY2F0aW5nIHRoZSBgYEhFUk1FU19IT01FID0gUGF0aChvcy5nZXRlbnYoLi4uKSlgYCBwYXR0ZXJuLgoiIiIKCmZyb20gX19mdXR1cmVfXyBpbXBvcnQgYW5ub3RhdGlvbnMKCmltcG9ydCBvcwpmcm9tIHBhdGhsaWIgaW1wb3J0IFBhdGgKCnRyeToKICAgIGZyb20gaGVybWVzX2NvbnN0YW50cyBpbXBvcnQgZGlzcGxheV9oZXJtZXNfaG9tZSBhcyBkaXNwbGF5X2hlcm1lc19ob21lCiAgICBmcm9tIGhlcm1lc19jb25zdGFudHMgaW1wb3J0IGdldF9oZXJtZXNfaG9tZSBhcyBnZXRfaGVybWVzX2hvbWUKZXhjZXB0IChNb2R1bGVOb3RGb3VuZEVycm9yLCBJbXBvcnRFcnJvcik6CgogICAgZGVmIGdldF9oZXJtZXNfaG9tZSgpIC0+IFBhdGg6CiAgICAgICAgIiIiUmV0dXJuIHRoZSBIZXJtZXMgaG9tZSBkaXJlY3RvcnkgKGRlZmF1bHQ6IH4vLmhlcm1lcykuCgogICAgICAgIE1pcnJvcnMgYGBoZXJtZXNfY29uc3RhbnRzLmdldF9oZXJtZXNfaG9tZSgpYGAuIiIiCiAgICAgICAgdmFsID0gb3MuZW52aXJvbi5nZXQoIkhFUk1FU19IT01FIiwgIiIpLnN0cmlwKCkKICAgICAgICByZXR1cm4gUGF0aCh2YWwpIGlmIHZhbCBlbHNlIFBhdGguaG9tZSgpIC8gIi5oZXJtZXMiCgogICAgZGVmIGRpc3BsYXlfaGVybWVzX2hvbWUoKSAtPiBzdHI6CiAgICAgICAgIiIiUmV0dXJuIGEgdXNlci1mcmllbmRseSBgYH4vYGAtc2hvcnRlbmVkIGRpc3BsYXkgc3RyaW5nLgoKICAgICAgICBNaXJyb3JzIGBgaGVybWVzX2NvbnN0YW50cy5kaXNwbGF5X2hlcm1lc19ob21lKClgYC4iIiIKICAgICAgICBob21lID0gZ2V0X2hlcm1lc19ob21lKCkKICAgICAgICB0cnk6CiAgICAgICAgICAgIHJldHVybiAifi8iICsgc3RyKGhvbWUucmVsYXRpdmVfdG8oUGF0aC5ob21lKCkpKQogICAgICAgIGV4Y2VwdCBWYWx1ZUVycm9yOgogICAgICAgICAgICByZXR1cm4gc3RyKGhvbWUpCg==
+"""Resolve HERMES_HOME for standalone skill scripts.
+
+Skill scripts may run outside the Hermes process (e.g. system Python,
+nix env, CI) where ``hermes_constants`` is not importable.  This module
+provides the same ``get_hermes_home()`` and ``display_hermes_home()``
+contracts as ``hermes_constants`` without requiring it on ``sys.path``.
+
+When ``hermes_constants`` IS available it is used directly so that any
+future enhancements (profile resolution, Docker detection, etc.) are
+picked up automatically.  The fallback path replicates the core logic
+from ``hermes_constants.py`` using only the stdlib.
+
+All scripts under ``google-workspace/scripts/`` should import from here
+instead of duplicating the ``HERMES_HOME = Path(os.getenv(...))`` pattern.
+"""
+
+from __future__ import annotations
+
+import os
+from pathlib import Path
+
+try:
+    from hermes_constants import display_hermes_home as display_hermes_home
+    from hermes_constants import get_hermes_home as get_hermes_home
+except (ModuleNotFoundError, ImportError):
+
+    def get_hermes_home() -> Path:
+        """Return the Hermes home directory (default: ~/.hermes).
+
+        Mirrors ``hermes_constants.get_hermes_home()``."""
+        val = os.environ.get("HERMES_HOME", "").strip()
+        return Path(val) if val else Path.home() / ".hermes"
+
+    def display_hermes_home() -> str:
+        """Return a user-friendly ``~/``-shortened display string.
+
+        Mirrors ``hermes_constants.display_hermes_home()``."""
+        home = get_hermes_home()
+        try:
+            return "~/" + str(home.relative_to(Path.home()))
+        except ValueError:
+            return str(home)

@@ -1,1 +1,197 @@
-IiIiU2ltcGxpZnkgdHJhY2tlZCBjaGFuZ2VzIGJ5IG1lcmdpbmcgYWRqYWNlbnQgdzppbnMgb3IgdzpkZWwgZWxlbWVudHMuCgpNZXJnZXMgYWRqYWNlbnQgPHc6aW5zPiBlbGVtZW50cyBmcm9tIHRoZSBzYW1lIGF1dGhvciBpbnRvIGEgc2luZ2xlIGVsZW1lbnQuClNhbWUgZm9yIDx3OmRlbD4gZWxlbWVudHMuIFRoaXMgbWFrZXMgaGVhdmlseS1yZWRsaW5lZCBkb2N1bWVudHMgZWFzaWVyIHRvCndvcmsgd2l0aCBieSByZWR1Y2luZyB0aGUgbnVtYmVyIG9mIHRyYWNrZWQgY2hhbmdlIHdyYXBwZXJzLgoKUnVsZXM6Ci0gT25seSBtZXJnZXMgdzppbnMgd2l0aCB3OmlucywgdzpkZWwgd2l0aCB3OmRlbCAoc2FtZSBlbGVtZW50IHR5cGUpCi0gT25seSBtZXJnZXMgaWYgc2FtZSBhdXRob3IgKGlnbm9yZXMgdGltZXN0YW1wIGRpZmZlcmVuY2VzKQotIE9ubHkgbWVyZ2VzIGlmIHRydWx5IGFkamFjZW50IChvbmx5IHdoaXRlc3BhY2UgYmV0d2VlbiB0aGVtKQoiIiIKCmltcG9ydCB4bWwuZXRyZWUuRWxlbWVudFRyZWUgYXMgRVQKaW1wb3J0IHppcGZpbGUKZnJvbSBwYXRobGliIGltcG9ydCBQYXRoCgppbXBvcnQgZGVmdXNlZHhtbC5taW5pZG9tCgpXT1JEX05TID0gImh0dHA6Ly9zY2hlbWFzLm9wZW54bWxmb3JtYXRzLm9yZy93b3JkcHJvY2Vzc2luZ21sLzIwMDYvbWFpbiIKCgpkZWYgc2ltcGxpZnlfcmVkbGluZXMoaW5wdXRfZGlyOiBzdHIpIC0+IHR1cGxlW2ludCwgc3RyXToKICAgIGRvY194bWwgPSBQYXRoKGlucHV0X2RpcikgLyAid29yZCIgLyAiZG9jdW1lbnQueG1sIgoKICAgIGlmIG5vdCBkb2NfeG1sLmV4aXN0cygpOgogICAgICAgIHJldHVybiAwLCBmIkVycm9yOiB7ZG9jX3htbH0gbm90IGZvdW5kIgoKICAgIHRyeToKICAgICAgICBkb20gPSBkZWZ1c2VkeG1sLm1pbmlkb20ucGFyc2VTdHJpbmcoZG9jX3htbC5yZWFkX3RleHQoZW5jb2Rpbmc9InV0Zi04IikpCiAgICAgICAgcm9vdCA9IGRvbS5kb2N1bWVudEVsZW1lbnQKCiAgICAgICAgbWVyZ2VfY291bnQgPSAwCgogICAgICAgIGNvbnRhaW5lcnMgPSBfZmluZF9lbGVtZW50cyhyb290LCAicCIpICsgX2ZpbmRfZWxlbWVudHMocm9vdCwgInRjIikKCiAgICAgICAgZm9yIGNvbnRhaW5lciBpbiBjb250YWluZXJzOgogICAgICAgICAgICBtZXJnZV9jb3VudCArPSBfbWVyZ2VfdHJhY2tlZF9jaGFuZ2VzX2luKGNvbnRhaW5lciwgImlucyIpCiAgICAgICAgICAgIG1lcmdlX2NvdW50ICs9IF9tZXJnZV90cmFja2VkX2NoYW5nZXNfaW4oY29udGFpbmVyLCAiZGVsIikKCiAgICAgICAgZG9jX3htbC53cml0ZV9ieXRlcyhkb20udG94bWwoZW5jb2Rpbmc9IlVURi04IikpCiAgICAgICAgcmV0dXJuIG1lcmdlX2NvdW50LCBmIlNpbXBsaWZpZWQge21lcmdlX2NvdW50fSB0cmFja2VkIGNoYW5nZXMiCgogICAgZXhjZXB0IEV4Y2VwdGlvbiBhcyBlOgogICAgICAgIHJldHVybiAwLCBmIkVycm9yOiB7ZX0iCgoKZGVmIF9tZXJnZV90cmFja2VkX2NoYW5nZXNfaW4oY29udGFpbmVyLCB0YWc6IHN0cikgLT4gaW50OgogICAgbWVyZ2VfY291bnQgPSAwCgogICAgdHJhY2tlZCA9IFsKICAgICAgICBjaGlsZAogICAgICAgIGZvciBjaGlsZCBpbiBjb250YWluZXIuY2hpbGROb2RlcwogICAgICAgIGlmIGNoaWxkLm5vZGVUeXBlID09IGNoaWxkLkVMRU1FTlRfTk9ERSBhbmQgX2lzX2VsZW1lbnQoY2hpbGQsIHRhZykKICAgIF0KCiAgICBpZiBsZW4odHJhY2tlZCkgPCAyOgogICAgICAgIHJldHVybiAwCgogICAgaSA9IDAKICAgIHdoaWxlIGkgPCBsZW4odHJhY2tlZCkgLSAxOgogICAgICAgIGN1cnIgPSB0cmFja2VkW2ldCiAgICAgICAgbmV4dF9lbGVtID0gdHJhY2tlZFtpICsgMV0KCiAgICAgICAgaWYgX2Nhbl9tZXJnZV90cmFja2VkKGN1cnIsIG5leHRfZWxlbSk6CiAgICAgICAgICAgIF9tZXJnZV90cmFja2VkX2NvbnRlbnQoY3VyciwgbmV4dF9lbGVtKQogICAgICAgICAgICBjb250YWluZXIucmVtb3ZlQ2hpbGQobmV4dF9lbGVtKQogICAgICAgICAgICB0cmFja2VkLnBvcChpICsgMSkKICAgICAgICAgICAgbWVyZ2VfY291bnQgKz0gMQogICAgICAgIGVsc2U6CiAgICAgICAgICAgIGkgKz0gMQoKICAgIHJldHVybiBtZXJnZV9jb3VudAoKCmRlZiBfaXNfZWxlbWVudChub2RlLCB0YWc6IHN0cikgLT4gYm9vbDoKICAgIG5hbWUgPSBub2RlLmxvY2FsTmFtZSBvciBub2RlLnRhZ05hbWUKICAgIHJldHVybiBuYW1lID09IHRhZyBvciBuYW1lLmVuZHN3aXRoKGYiOnt0YWd9IikKCgpkZWYgX2dldF9hdXRob3IoZWxlbSkgLT4gc3RyOgogICAgYXV0aG9yID0gZWxlbS5nZXRBdHRyaWJ1dGUoInc6YXV0aG9yIikKICAgIGlmIG5vdCBhdXRob3I6CiAgICAgICAgZm9yIGF0dHIgaW4gZWxlbS5hdHRyaWJ1dGVzLnZhbHVlcygpOgogICAgICAgICAgICBpZiBhdHRyLmxvY2FsTmFtZSA9PSAiYXV0aG9yIiBvciBhdHRyLm5hbWUuZW5kc3dpdGgoIjphdXRob3IiKToKICAgICAgICAgICAgICAgIHJldHVybiBhdHRyLnZhbHVlCiAgICByZXR1cm4gYXV0aG9yCgoKZGVmIF9jYW5fbWVyZ2VfdHJhY2tlZChlbGVtMSwgZWxlbTIpIC0+IGJvb2w6CiAgICBpZiBfZ2V0X2F1dGhvcihlbGVtMSkgIT0gX2dldF9hdXRob3IoZWxlbTIpOgogICAgICAgIHJldHVybiBGYWxzZQoKICAgIG5vZGUgPSBlbGVtMS5uZXh0U2libGluZwogICAgd2hpbGUgbm9kZSBhbmQgbm9kZSAhPSBlbGVtMjoKICAgICAgICBpZiBub2RlLm5vZGVUeXBlID09IG5vZGUuRUxFTUVOVF9OT0RFOgogICAgICAgICAgICByZXR1cm4gRmFsc2UKICAgICAgICBpZiBub2RlLm5vZGVUeXBlID09IG5vZGUuVEVYVF9OT0RFIGFuZCBub2RlLmRhdGEuc3RyaXAoKToKICAgICAgICAgICAgcmV0dXJuIEZhbHNlCiAgICAgICAgbm9kZSA9IG5vZGUubmV4dFNpYmxpbmcKCiAgICByZXR1cm4gVHJ1ZQoKCmRlZiBfbWVyZ2VfdHJhY2tlZF9jb250ZW50KHRhcmdldCwgc291cmNlKToKICAgIHdoaWxlIHNvdXJjZS5maXJzdENoaWxkOgogICAgICAgIGNoaWxkID0gc291cmNlLmZpcnN0Q2hpbGQKICAgICAgICBzb3VyY2UucmVtb3ZlQ2hpbGQoY2hpbGQpCiAgICAgICAgdGFyZ2V0LmFwcGVuZENoaWxkKGNoaWxkKQoKCmRlZiBfZmluZF9lbGVtZW50cyhyb290LCB0YWc6IHN0cikgLT4gbGlzdDoKICAgIHJlc3VsdHMgPSBbXQoKICAgIGRlZiB0cmF2ZXJzZShub2RlKToKICAgICAgICBpZiBub2RlLm5vZGVUeXBlID09IG5vZGUuRUxFTUVOVF9OT0RFOgogICAgICAgICAgICBuYW1lID0gbm9kZS5sb2NhbE5hbWUgb3Igbm9kZS50YWdOYW1lCiAgICAgICAgICAgIGlmIG5hbWUgPT0gdGFnIG9yIG5hbWUuZW5kc3dpdGgoZiI6e3RhZ30iKToKICAgICAgICAgICAgICAgIHJlc3VsdHMuYXBwZW5kKG5vZGUpCiAgICAgICAgICAgIGZvciBjaGlsZCBpbiBub2RlLmNoaWxkTm9kZXM6CiAgICAgICAgICAgICAgICB0cmF2ZXJzZShjaGlsZCkKCiAgICB0cmF2ZXJzZShyb290KQogICAgcmV0dXJuIHJlc3VsdHMKCgpkZWYgZ2V0X3RyYWNrZWRfY2hhbmdlX2F1dGhvcnMoZG9jX3htbF9wYXRoOiBQYXRoKSAtPiBkaWN0W3N0ciwgaW50XToKICAgIGlmIG5vdCBkb2NfeG1sX3BhdGguZXhpc3RzKCk6CiAgICAgICAgcmV0dXJuIHt9CgogICAgdHJ5OgogICAgICAgIHRyZWUgPSBFVC5wYXJzZShkb2NfeG1sX3BhdGgpCiAgICAgICAgcm9vdCA9IHRyZWUuZ2V0cm9vdCgpCiAgICBleGNlcHQgRVQuUGFyc2VFcnJvcjoKICAgICAgICByZXR1cm4ge30KCiAgICBuYW1lc3BhY2VzID0geyJ3IjogV09SRF9OU30KICAgIGF1dGhvcl9hdHRyID0gZiJ7e3tXT1JEX05TfX19YXV0aG9yIgoKICAgIGF1dGhvcnM6IGRpY3Rbc3RyLCBpbnRdID0ge30KICAgIGZvciB0YWcgaW4gWyJpbnMiLCAiZGVsIl06CiAgICAgICAgZm9yIGVsZW0gaW4gcm9vdC5maW5kYWxsKGYiLi8vdzp7dGFnfSIsIG5hbWVzcGFjZXMpOgogICAgICAgICAgICBhdXRob3IgPSBlbGVtLmdldChhdXRob3JfYXR0cikKICAgICAgICAgICAgaWYgYXV0aG9yOgogICAgICAgICAgICAgICAgYXV0aG9yc1thdXRob3JdID0gYXV0aG9ycy5nZXQoYXV0aG9yLCAwKSArIDEKCiAgICByZXR1cm4gYXV0aG9ycwoKCmRlZiBfZ2V0X2F1dGhvcnNfZnJvbV9kb2N4KGRvY3hfcGF0aDogUGF0aCkgLT4gZGljdFtzdHIsIGludF06CiAgICB0cnk6CiAgICAgICAgd2l0aCB6aXBmaWxlLlppcEZpbGUoZG9jeF9wYXRoLCAiciIpIGFzIHpmOgogICAgICAgICAgICBpZiAid29yZC9kb2N1bWVudC54bWwiIG5vdCBpbiB6Zi5uYW1lbGlzdCgpOgogICAgICAgICAgICAgICAgcmV0dXJuIHt9CiAgICAgICAgICAgIHdpdGggemYub3Blbigid29yZC9kb2N1bWVudC54bWwiKSBhcyBmOgogICAgICAgICAgICAgICAgdHJlZSA9IEVULnBhcnNlKGYpCiAgICAgICAgICAgICAgICByb290ID0gdHJlZS5nZXRyb290KCkKCiAgICAgICAgICAgICAgICBuYW1lc3BhY2VzID0geyJ3IjogV09SRF9OU30KICAgICAgICAgICAgICAgIGF1dGhvcl9hdHRyID0gZiJ7e3tXT1JEX05TfX19YXV0aG9yIgoKICAgICAgICAgICAgICAgIGF1dGhvcnM6IGRpY3Rbc3RyLCBpbnRdID0ge30KICAgICAgICAgICAgICAgIGZvciB0YWcgaW4gWyJpbnMiLCAiZGVsIl06CiAgICAgICAgICAgICAgICAgICAgZm9yIGVsZW0gaW4gcm9vdC5maW5kYWxsKGYiLi8vdzp7dGFnfSIsIG5hbWVzcGFjZXMpOgogICAgICAgICAgICAgICAgICAgICAgICBhdXRob3IgPSBlbGVtLmdldChhdXRob3JfYXR0cikKICAgICAgICAgICAgICAgICAgICAgICAgaWYgYXV0aG9yOgogICAgICAgICAgICAgICAgICAgICAgICAgICAgYXV0aG9yc1thdXRob3JdID0gYXV0aG9ycy5nZXQoYXV0aG9yLCAwKSArIDEKICAgICAgICAgICAgICAgIHJldHVybiBhdXRob3JzCiAgICBleGNlcHQgKHppcGZpbGUuQmFkWmlwRmlsZSwgRVQuUGFyc2VFcnJvcik6CiAgICAgICAgcmV0dXJuIHt9CgoKZGVmIGluZmVyX2F1dGhvcihtb2RpZmllZF9kaXI6IFBhdGgsIG9yaWdpbmFsX2RvY3g6IFBhdGgsIGRlZmF1bHQ6IHN0ciA9ICJDbGF1ZGUiKSAtPiBzdHI6CiAgICBtb2RpZmllZF94bWwgPSBtb2RpZmllZF9kaXIgLyAid29yZCIgLyAiZG9jdW1lbnQueG1sIgogICAgbW9kaWZpZWRfYXV0aG9ycyA9IGdldF90cmFja2VkX2NoYW5nZV9hdXRob3JzKG1vZGlmaWVkX3htbCkKCiAgICBpZiBub3QgbW9kaWZpZWRfYXV0aG9yczoKICAgICAgICByZXR1cm4gZGVmYXVsdAoKICAgIG9yaWdpbmFsX2F1dGhvcnMgPSBfZ2V0X2F1dGhvcnNfZnJvbV9kb2N4KG9yaWdpbmFsX2RvY3gpCgogICAgbmV3X2NoYW5nZXM6IGRpY3Rbc3RyLCBpbnRdID0ge30KICAgIGZvciBhdXRob3IsIGNvdW50IGluIG1vZGlmaWVkX2F1dGhvcnMuaXRlbXMoKToKICAgICAgICBvcmlnaW5hbF9jb3VudCA9IG9yaWdpbmFsX2F1dGhvcnMuZ2V0KGF1dGhvciwgMCkKICAgICAgICBkaWZmID0gY291bnQgLSBvcmlnaW5hbF9jb3VudAogICAgICAgIGlmIGRpZmYgPiAwOgogICAgICAgICAgICBuZXdfY2hhbmdlc1thdXRob3JdID0gZGlmZgoKICAgIGlmIG5vdCBuZXdfY2hhbmdlczoKICAgICAgICByZXR1cm4gZGVmYXVsdAoKICAgIGlmIGxlbihuZXdfY2hhbmdlcykgPT0gMToKICAgICAgICByZXR1cm4gbmV4dChpdGVyKG5ld19jaGFuZ2VzKSkKCiAgICByYWlzZSBWYWx1ZUVycm9yKAogICAgICAgIGYiTXVsdGlwbGUgYXV0aG9ycyBhZGRlZCBuZXcgY2hhbmdlczoge25ld19jaGFuZ2VzfS4gIgogICAgICAgICJDYW5ub3QgaW5mZXIgd2hpY2ggYXV0aG9yIHRvIHZhbGlkYXRlLiIKICAgICkK
+"""Simplify tracked changes by merging adjacent w:ins or w:del elements.
+
+Merges adjacent <w:ins> elements from the same author into a single element.
+Same for <w:del> elements. This makes heavily-redlined documents easier to
+work with by reducing the number of tracked change wrappers.
+
+Rules:
+- Only merges w:ins with w:ins, w:del with w:del (same element type)
+- Only merges if same author (ignores timestamp differences)
+- Only merges if truly adjacent (only whitespace between them)
+"""
+
+import xml.etree.ElementTree as ET
+import zipfile
+from pathlib import Path
+
+import defusedxml.minidom
+
+WORD_NS = "http://schemas.openxmlformats.org/wordprocessingml/2006/main"
+
+
+def simplify_redlines(input_dir: str) -> tuple[int, str]:
+    doc_xml = Path(input_dir) / "word" / "document.xml"
+
+    if not doc_xml.exists():
+        return 0, f"Error: {doc_xml} not found"
+
+    try:
+        dom = defusedxml.minidom.parseString(doc_xml.read_text(encoding="utf-8"))
+        root = dom.documentElement
+
+        merge_count = 0
+
+        containers = _find_elements(root, "p") + _find_elements(root, "tc")
+
+        for container in containers:
+            merge_count += _merge_tracked_changes_in(container, "ins")
+            merge_count += _merge_tracked_changes_in(container, "del")
+
+        doc_xml.write_bytes(dom.toxml(encoding="UTF-8"))
+        return merge_count, f"Simplified {merge_count} tracked changes"
+
+    except Exception as e:
+        return 0, f"Error: {e}"
+
+
+def _merge_tracked_changes_in(container, tag: str) -> int:
+    merge_count = 0
+
+    tracked = [
+        child
+        for child in container.childNodes
+        if child.nodeType == child.ELEMENT_NODE and _is_element(child, tag)
+    ]
+
+    if len(tracked) < 2:
+        return 0
+
+    i = 0
+    while i < len(tracked) - 1:
+        curr = tracked[i]
+        next_elem = tracked[i + 1]
+
+        if _can_merge_tracked(curr, next_elem):
+            _merge_tracked_content(curr, next_elem)
+            container.removeChild(next_elem)
+            tracked.pop(i + 1)
+            merge_count += 1
+        else:
+            i += 1
+
+    return merge_count
+
+
+def _is_element(node, tag: str) -> bool:
+    name = node.localName or node.tagName
+    return name == tag or name.endswith(f":{tag}")
+
+
+def _get_author(elem) -> str:
+    author = elem.getAttribute("w:author")
+    if not author:
+        for attr in elem.attributes.values():
+            if attr.localName == "author" or attr.name.endswith(":author"):
+                return attr.value
+    return author
+
+
+def _can_merge_tracked(elem1, elem2) -> bool:
+    if _get_author(elem1) != _get_author(elem2):
+        return False
+
+    node = elem1.nextSibling
+    while node and node != elem2:
+        if node.nodeType == node.ELEMENT_NODE:
+            return False
+        if node.nodeType == node.TEXT_NODE and node.data.strip():
+            return False
+        node = node.nextSibling
+
+    return True
+
+
+def _merge_tracked_content(target, source):
+    while source.firstChild:
+        child = source.firstChild
+        source.removeChild(child)
+        target.appendChild(child)
+
+
+def _find_elements(root, tag: str) -> list:
+    results = []
+
+    def traverse(node):
+        if node.nodeType == node.ELEMENT_NODE:
+            name = node.localName or node.tagName
+            if name == tag or name.endswith(f":{tag}"):
+                results.append(node)
+            for child in node.childNodes:
+                traverse(child)
+
+    traverse(root)
+    return results
+
+
+def get_tracked_change_authors(doc_xml_path: Path) -> dict[str, int]:
+    if not doc_xml_path.exists():
+        return {}
+
+    try:
+        tree = ET.parse(doc_xml_path)
+        root = tree.getroot()
+    except ET.ParseError:
+        return {}
+
+    namespaces = {"w": WORD_NS}
+    author_attr = f"{{{WORD_NS}}}author"
+
+    authors: dict[str, int] = {}
+    for tag in ["ins", "del"]:
+        for elem in root.findall(f".//w:{tag}", namespaces):
+            author = elem.get(author_attr)
+            if author:
+                authors[author] = authors.get(author, 0) + 1
+
+    return authors
+
+
+def _get_authors_from_docx(docx_path: Path) -> dict[str, int]:
+    try:
+        with zipfile.ZipFile(docx_path, "r") as zf:
+            if "word/document.xml" not in zf.namelist():
+                return {}
+            with zf.open("word/document.xml") as f:
+                tree = ET.parse(f)
+                root = tree.getroot()
+
+                namespaces = {"w": WORD_NS}
+                author_attr = f"{{{WORD_NS}}}author"
+
+                authors: dict[str, int] = {}
+                for tag in ["ins", "del"]:
+                    for elem in root.findall(f".//w:{tag}", namespaces):
+                        author = elem.get(author_attr)
+                        if author:
+                            authors[author] = authors.get(author, 0) + 1
+                return authors
+    except (zipfile.BadZipFile, ET.ParseError):
+        return {}
+
+
+def infer_author(modified_dir: Path, original_docx: Path, default: str = "Claude") -> str:
+    modified_xml = modified_dir / "word" / "document.xml"
+    modified_authors = get_tracked_change_authors(modified_xml)
+
+    if not modified_authors:
+        return default
+
+    original_authors = _get_authors_from_docx(original_docx)
+
+    new_changes: dict[str, int] = {}
+    for author, count in modified_authors.items():
+        original_count = original_authors.get(author, 0)
+        diff = count - original_count
+        if diff > 0:
+            new_changes[author] = diff
+
+    if not new_changes:
+        return default
+
+    if len(new_changes) == 1:
+        return next(iter(new_changes))
+
+    raise ValueError(
+        f"Multiple authors added new changes: {new_changes}. "
+        "Cannot infer which author to validate."
+    )

@@ -1,1 +1,131 @@
-IyBMYXlvdXQgQ29tcG9zaXRvciBSZWZlcmVuY2UKClBhdHRlcm5zIGZvciBidWlsZGluZyBtb2R1bGFyIG11bHRpLXBhbmVsIGdyaWRzIOKAlCB1c2VmdWwgZm9yIEhVRCBpbnRlcmZhY2VzLCBkYXRhIGRhc2hib2FyZHMsIGFuZCBtdWx0aS1zb3VyY2UgdmlzdWFsIGNvbXBvc2l0ZXMuCgojIyBMYXlvdXQgQXBwcm9hY2hlcwoKfCBBcHByb2FjaCB8IEJlc3QgRm9yIHwgTm90ZXMgfAp8LS0tLS0tLS0tLXwtLS0tLS0tLS0tfC0tLS0tLS18CnwgYGxheW91dFRPUGAgfCBGaXhlZCBncmlkLCBxdWljayBzZXR1cCB8IEdQVSwgc2ltcGxlIHRpbGluZyB8CnwgQ29udGFpbmVyIENPTVAgKyBgb3ZlclRPUGAgfCBGdWxsIGNvbnRyb2wsIG1peGVkLXNpemUgcGFuZWxzIHwgTW9yZSBzZXR1cCwgdmVyeSBmbGV4aWJsZSB8CnwgR0xTTCBjb21wb3NpdG9yIHwgUHJvY2VkdXJhbCAvIEJTUC1zdHlsZSB8IE1vc3QgcG93ZXJmdWwsIG1vcmUgY29tcGxleCB8CgotLS0KCiMjIGxheW91dFRPUAoKQnVpbHQtaW4gZ3JpZCBjb21wb3NpdG9yIOKAlCBmYXN0ZXN0IHBhdGggZm9yIHVuaWZvcm0gdGlsZSBncmlkcy4KCmBgYHB5dGhvbgpsYXlvdXQgPSByb290LmNyZWF0ZShsYXlvdXRUT1AsICdsYXlvdXQxJykKbGF5b3V0LnBhci5yZXNvbHV0aW9udyA9IDE5MjAKbGF5b3V0LnBhci5yZXNvbHV0aW9uaCA9IDEwODAKbGF5b3V0LnBhci5jb2xzID0gMwpsYXlvdXQucGFyLnJvd3MgPSAyCmxheW91dC5wYXIuZ2FwID0gNApgYGAKCkNvbm5lY3QgaW5wdXRzICh1cCB0byBjb2xzw5dyb3dzKToKYGBgcHl0aG9uCmxheW91dC5pbnB1dENvbm5lY3RvcnNbMF0uY29ubmVjdChvcCgncGFuZWxfcmFkYXInKSkKbGF5b3V0LmlucHV0Q29ubmVjdG9yc1sxXS5jb25uZWN0KG9wKCdwYW5lbF93YXZlJykpCmxheW91dC5pbnB1dENvbm5lY3RvcnNbMl0uY29ubmVjdChvcCgncGFuZWxfZGF0YScpKQpgYGAKCioqVmFyaWFibGUtd2lkdGggY29sdW1uczoqKiBOb3QgZGlyZWN0bHkgc3VwcG9ydGVkLiBVc2Ugb3ZlclRPUCBhcHByb2FjaCBmb3Igbm9uLXVuaWZvcm0gZ3JpZHMuCgotLS0KCiMjIENvbnRhaW5lciBDT01QIEdyaWQKCkJ1aWxkIGVhY2ggZWxlbWVudCBhcyBpdHMgb3duIGBjb250YWluZXJDT01QYC4gQ29tcG9zZSB3aXRoIGBvdmVyVE9QYDoKCmBgYHB5dGhvbgpkZWYgY3JlYXRlX3BhbmVsKHJvb3QsIG5hbWUsIHdpZHRoLCBoZWlnaHQsIHg9MCwgeT0wKToKICAgIHBhbmVsID0gcm9vdC5jcmVhdGUoY29udGFpbmVyQ09NUCwgbmFtZSkKICAgIHBhbmVsLnBhci53ID0gd2lkdGgKICAgIHBhbmVsLnBhci5oID0gaGVpZ2h0CiAgICBwYW5lbC52aWV3ZXIgPSBUcnVlCiAgICByZXR1cm4gcGFuZWwKCiMgQ29tcG9zaXRlIHdpdGggb3ZlclRPUCBjaGFpbgpvdmVyMSA9IHJvb3QuY3JlYXRlKG92ZXJUT1AsICdvdmVyMScpCm92ZXIxLmlucHV0Q29ubmVjdG9yc1swXS5jb25uZWN0KHBhbmVsX3JhZGFyKQpvdmVyMS5pbnB1dENvbm5lY3RvcnNbMV0uY29ubmVjdChwYW5lbF93YXZlKQpvdmVyMS5wYXIudG9weDIgPSAwCm92ZXIxLnBhci50b3B5MiA9IDUxMgpgYGAKCioqVGlwOioqIFVzZSBhIGByZXNvbHV0aW9uVE9QYCBiZWZvcmUgZWFjaCBgb3ZlclRPUGAgaW5wdXQgaWYgcGFuZWxzIGFyZSBkaWZmZXJlbnQgc2l6ZXMuCgotLS0KCiMjIFBhbmVsIERpdmlkZXJzIChHTFNMKQoKYGBgZ2xzbApvdXQgdmVjNCBmcmFnQ29sb3I7CnVuaWZvcm0gdmVjMiB1R3JpZERpdmlzaW9uczsgICAvLyBlLmcuIHZlYzIoMywgMikgZm9yIDMgY29scywgMiByb3dzCnVuaWZvcm0gZmxvYXQgdUxpbmVXaWR0aDsgICAgICAvLyBwaXhlbHMKdW5pZm9ybSB2ZWM0IHVMaW5lQ29sb3I7ICAgICAgIC8vIGUuZy4gdmVjNCgwLjAsIDEuMCwgMC44LCAwLjYpIGZvciBjeWFuCgp2b2lkIG1haW4oKSB7CiAgICB2ZWMyIHJlcyA9IHVURE91dHB1dEluZm8ucmVzLnp3OwogICAgdmVjMiB1diA9IHZVVi5zdDsKICAgIHZlYzQgYmcgPSB0ZXh0dXJlKHNURDJESW5wdXRzWzBdLCB1dik7CgogICAgZmxvYXQgbGluZVcgPSB1TGluZVdpZHRoIC8gcmVzLng7CiAgICBmbG9hdCBsaW5lSCA9IHVMaW5lV2lkdGggLyByZXMueTsKCiAgICBmbG9hdCB2RGl2ID0gMC4wOwogICAgZm9yIChmbG9hdCBpID0gMS4wOyBpIDwgdUdyaWREaXZpc2lvbnMueDsgaSsrKSB7CiAgICAgICAgZmxvYXQgeCA9IGkgLyB1R3JpZERpdmlzaW9ucy54OwogICAgICAgIHZEaXYgPSBtYXgodkRpdiwgc3RlcChhYnModXYueCAtIHgpLCBsaW5lVykpOwogICAgfQoKICAgIGZsb2F0IGhEaXYgPSAwLjA7CiAgICBmb3IgKGZsb2F0IGkgPSAxLjA7IGkgPCB1R3JpZERpdmlzaW9ucy55OyBpKyspIHsKICAgICAgICBmbG9hdCB5ID0gaSAvIHVHcmlkRGl2aXNpb25zLnk7CiAgICAgICAgaERpdiA9IG1heChoRGl2LCBzdGVwKGFicyh1di55IC0geSksIGxpbmVIKSk7CiAgICB9CgogICAgZmxvYXQgbGluZSA9IG1heCh2RGl2LCBoRGl2KTsKICAgIHZlYzQgcmVzdWx0ID0gbWl4KGJnLCB1TGluZUNvbG9yLCBsaW5lICogdUxpbmVDb2xvci5hKTsKICAgIGZyYWdDb2xvciA9IFRET3V0cHV0U3dpenpsZShyZXN1bHQpOwp9CmBgYAoKLS0tCgojIyBFbGVtZW50IExpYnJhcnkgUGF0dGVybgoKRWFjaCB2aXN1YWwgZWxlbWVudCBsaXZlcyBpbiBpdHMgb3duIGBiYXNlQ09NUGAgYXMgYSByZXVzYWJsZSBgLnRveGA6CgojIyMgU3RhbmRhcmQgSW50ZXJmYWNlCmBgYAppbnB1dHM6CiAgLSBpbl9hdWRpbyAgIChDSE9QKSAg4oCUIGF1ZGlvIGVudmVsb3BlIC8gYmVhdCBkYXRhCiAgLSBpbl9kYXRhICAgIChDSE9QKSAg4oCUIG9wdGlvbmFsIGRhdGEgc3RyZWFtCiAgLSBpbl9jb250cm9sIChDSE9QKSAg4oCUIGludGVuc2l0eSwgY29sb3IsIHNwZWVkIHBhcmFtcwoKb3V0cHV0czoKICAtIG91dF90b3AgICAgKFRPUCkgICDigJQgcmVuZGVyZWQgZWxlbWVudApgYGAKCiMjIyBOZXR3b3JrIFN0cnVjdHVyZQpgYGAKL3Byb2plY3QxLwogIGF1ZGlvX2J1cy8gICAgICAgICAg4oaQIGFsbCBhdWRpbyBhbmFseXNpcyAoc2VlIGF1ZGlvLXJlYWN0aXZlLm1kKQogIGVsZW1lbnRzLwogICAgZWxlbV9yYWRhci8gICAgICAg4oaQIGJhc2VDT01QIHdpdGggb3V0X3RvcAogICAgZWxlbV93YXZlLwogICAgZWxlbV9kYXRhLwogIGNvbXBvc2l0b3IvCiAgICBsYXlvdXQxICAgICAgICAgICDihpAgbGF5b3V0VE9QIG9yIG92ZXJUT1AgY2hhaW4KICAgIGRpdmlkZXJzMSAgICAgICAgIOKGkCBHTFNMIGRpdmlkZXIgbGluZXMKICAgIHBvc3RmeC8gICAgICAgICAgIOKGkCBibG9vbSDihpIgY2hyb20g4oaSIENSVCBzdGFjayAoc2VlIHBvc3RmeC5tZCkKICAgICAgbnVsbF9vdXQgICAgICAgIOKGkCBmaW5hbCBvdXRwdXQKICBvdXRwdXQvCiAgICB3aW5kb3dDT01QICAgICAgICDihpAgZnVsbC1zY3JlZW4gb3V0cHV0CmBgYAoKKipLZXkgcHJpbmNpcGxlOioqIEVsZW1lbnRzIGRvbid0IGtub3cgYWJvdXQgZWFjaCBvdGhlci4gVGhlIGNvbXBvc2l0b3IgYXNzZW1ibGVzIHRoZW0uIEF1ZGlvIGJ1cyBpcyByZWZlcmVuY2VkIGJ5IGFsbCBlbGVtZW50cyBidXQgbGl2ZXMgc2VwYXJhdGVseS4K
+# Layout Compositor Reference
+
+Patterns for building modular multi-panel grids — useful for HUD interfaces, data dashboards, and multi-source visual composites.
+
+## Layout Approaches
+
+| Approach | Best For | Notes |
+|----------|----------|-------|
+| `layoutTOP` | Fixed grid, quick setup | GPU, simple tiling |
+| Container COMP + `overTOP` | Full control, mixed-size panels | More setup, very flexible |
+| GLSL compositor | Procedural / BSP-style | Most powerful, more complex |
+
+---
+
+## layoutTOP
+
+Built-in grid compositor — fastest path for uniform tile grids.
+
+```python
+layout = root.create(layoutTOP, 'layout1')
+layout.par.resolutionw = 1920
+layout.par.resolutionh = 1080
+layout.par.cols = 3
+layout.par.rows = 2
+layout.par.gap = 4
+```
+
+Connect inputs (up to cols×rows):
+```python
+layout.inputConnectors[0].connect(op('panel_radar'))
+layout.inputConnectors[1].connect(op('panel_wave'))
+layout.inputConnectors[2].connect(op('panel_data'))
+```
+
+**Variable-width columns:** Not directly supported. Use overTOP approach for non-uniform grids.
+
+---
+
+## Container COMP Grid
+
+Build each element as its own `containerCOMP`. Compose with `overTOP`:
+
+```python
+def create_panel(root, name, width, height, x=0, y=0):
+    panel = root.create(containerCOMP, name)
+    panel.par.w = width
+    panel.par.h = height
+    panel.viewer = True
+    return panel
+
+# Composite with overTOP chain
+over1 = root.create(overTOP, 'over1')
+over1.inputConnectors[0].connect(panel_radar)
+over1.inputConnectors[1].connect(panel_wave)
+over1.par.topx2 = 0
+over1.par.topy2 = 512
+```
+
+**Tip:** Use a `resolutionTOP` before each `overTOP` input if panels are different sizes.
+
+---
+
+## Panel Dividers (GLSL)
+
+```glsl
+out vec4 fragColor;
+uniform vec2 uGridDivisions;   // e.g. vec2(3, 2) for 3 cols, 2 rows
+uniform float uLineWidth;      // pixels
+uniform vec4 uLineColor;       // e.g. vec4(0.0, 1.0, 0.8, 0.6) for cyan
+
+void main() {
+    vec2 res = uTDOutputInfo.res.zw;
+    vec2 uv = vUV.st;
+    vec4 bg = texture(sTD2DInputs[0], uv);
+
+    float lineW = uLineWidth / res.x;
+    float lineH = uLineWidth / res.y;
+
+    float vDiv = 0.0;
+    for (float i = 1.0; i < uGridDivisions.x; i++) {
+        float x = i / uGridDivisions.x;
+        vDiv = max(vDiv, step(abs(uv.x - x), lineW));
+    }
+
+    float hDiv = 0.0;
+    for (float i = 1.0; i < uGridDivisions.y; i++) {
+        float y = i / uGridDivisions.y;
+        hDiv = max(hDiv, step(abs(uv.y - y), lineH));
+    }
+
+    float line = max(vDiv, hDiv);
+    vec4 result = mix(bg, uLineColor, line * uLineColor.a);
+    fragColor = TDOutputSwizzle(result);
+}
+```
+
+---
+
+## Element Library Pattern
+
+Each visual element lives in its own `baseCOMP` as a reusable `.tox`:
+
+### Standard Interface
+```
+inputs:
+  - in_audio   (CHOP)  — audio envelope / beat data
+  - in_data    (CHOP)  — optional data stream
+  - in_control (CHOP)  — intensity, color, speed params
+
+outputs:
+  - out_top    (TOP)   — rendered element
+```
+
+### Network Structure
+```
+/project1/
+  audio_bus/          ← all audio analysis (see audio-reactive.md)
+  elements/
+    elem_radar/       ← baseCOMP with out_top
+    elem_wave/
+    elem_data/
+  compositor/
+    layout1           ← layoutTOP or overTOP chain
+    dividers1         ← GLSL divider lines
+    postfx/           ← bloom → chrom → CRT stack (see postfx.md)
+      null_out        ← final output
+  output/
+    windowCOMP        ← full-screen output
+```
+
+**Key principle:** Elements don't know about each other. The compositor assembles them. Audio bus is referenced by all elements but lives separately.

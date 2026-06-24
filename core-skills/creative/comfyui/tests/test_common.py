@@ -1,1 +1,443 @@
-IiIiVW5pdCB0ZXN0cyBmb3IgX2NvbW1vbi5weSDigJQgcHVyZSBsb2dpYyBvbmx5LCBubyBuZXR3b3JrLiIiIgoKZnJvbSBfX2Z1dHVyZV9fIGltcG9ydCBhbm5vdGF0aW9ucwoKCmltcG9ydCBweXRlc3QKCmZyb20gX2NvbW1vbiBpbXBvcnQgKAogICAgRU1CRURESU5HX1JFR0VYLAogICAgY2xvdWRfZW5kcG9pbnQsCiAgICBjb2VyY2Vfc2VlZCwKICAgIGZvbGRlcl9hbGlhc2VzX2ZvciwKICAgIGlzX2FwaV9mb3JtYXQsCiAgICBpc19jbG91ZF9ob3N0LAogICAgaXNfbGluaywKICAgIGl0ZXJfZW1iZWRkaW5nX3JlZnMsCiAgICBpdGVyX21vZGVsX2RlcHMsCiAgICBpdGVyX25vZGVzLAogICAgbG9va3NfbGlrZV92aWRlb193b3JrZmxvdywKICAgIG1lZGlhX3R5cGVfZnJvbV9maWxlbmFtZSwKICAgIHBhcnNlX21vZGVsX2xpc3QsCiAgICByZXNvbHZlX3VybCwKICAgIHNhZmVfcGF0aF9qb2luLAogICAgdW53cmFwX3dvcmtmbG93LAopCgoKIyA9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PQojIENsb3VkIGRldGVjdGlvbiAvIFVSTCByb3V0aW5nCiMgPT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0KCmNsYXNzIFRlc3RDbG91ZERldGVjdGlvbjoKICAgIGRlZiB0ZXN0X2Nsb3VkX2hvc3RfZXhhY3Qoc2VsZik6CiAgICAgICAgYXNzZXJ0IGlzX2Nsb3VkX2hvc3QoImh0dHBzOi8vY2xvdWQuY29tZnkub3JnIikgaXMgVHJ1ZQogICAgICAgIGFzc2VydCBpc19jbG91ZF9ob3N0KCJodHRwczovL2Nsb3VkLmNvbWZ5Lm9yZy9mb28vYmFyIikgaXMgVHJ1ZQoKICAgIGRlZiB0ZXN0X2Nsb3VkX2hvc3Rfc3ViZG9tYWluKHNlbGYpOgogICAgICAgIGFzc2VydCBpc19jbG91ZF9ob3N0KCJodHRwczovL3N0YWdpbmcuY2xvdWQuY29tZnkub3JnIikgaXMgVHJ1ZQogICAgICAgIGFzc2VydCBpc19jbG91ZF9ob3N0KCJodHRwczovL2FwaS5jbG91ZC5jb21meS5vcmciKSBpcyBUcnVlCgogICAgZGVmIHRlc3RfbG9jYWxfbm90X2Nsb3VkKHNlbGYpOgogICAgICAgIGFzc2VydCBpc19jbG91ZF9ob3N0KCJodHRwOi8vMTI3LjAuMC4xOjgxODgiKSBpcyBGYWxzZQogICAgICAgIGFzc2VydCBpc19jbG91ZF9ob3N0KCJodHRwOi8vbG9jYWxob3N0OjgxODgiKSBpcyBGYWxzZQogICAgICAgIGFzc2VydCBpc19jbG91ZF9ob3N0KCJodHRwOi8vbXktc2VydmVyLmxvY2FsOjgxODgiKSBpcyBGYWxzZQoKICAgIGRlZiB0ZXN0X25vX3NjaGVtZShzZWxmKToKICAgICAgICAjIERlZmF1bHRzIHRvIGh0dHA6Ly8KICAgICAgICBhc3NlcnQgaXNfY2xvdWRfaG9zdCgiY2xvdWQuY29tZnkub3JnIikgaXMgVHJ1ZQogICAgICAgIGFzc2VydCBpc19jbG91ZF9ob3N0KCIxMjcuMC4wLjE6ODE4OCIpIGlzIEZhbHNlCgoKY2xhc3MgVGVzdENsb3VkRW5kcG9pbnRSZW5hbWU6CiAgICBkZWYgdGVzdF9oaXN0b3J5X3JlbmFtZWQoc2VsZik6CiAgICAgICAgYXNzZXJ0IGNsb3VkX2VuZHBvaW50KCIvaGlzdG9yeSIpID09ICIvaGlzdG9yeV92MiIKICAgICAgICBhc3NlcnQgY2xvdWRfZW5kcG9pbnQoIi9oaXN0b3J5L2FiYy0xMjMiKSA9PSAiL2hpc3RvcnlfdjIvYWJjLTEyMyIKCiAgICBkZWYgdGVzdF9oaXN0b3J5X3YyX3ByZXNlcnZlZChzZWxmKToKICAgICAgICBhc3NlcnQgY2xvdWRfZW5kcG9pbnQoIi9oaXN0b3J5X3YyIikgPT0gIi9oaXN0b3J5X3YyIgoKICAgIGRlZiB0ZXN0X21vZGVsc19yZW5hbWVkKHNlbGYpOgogICAgICAgIGFzc2VydCBjbG91ZF9lbmRwb2ludCgiL21vZGVscyIpID09ICIvZXhwZXJpbWVudC9tb2RlbHMiCiAgICAgICAgYXNzZXJ0IGNsb3VkX2VuZHBvaW50KCIvbW9kZWxzL2NoZWNrcG9pbnRzIikgPT0gIi9leHBlcmltZW50L21vZGVscy9jaGVja3BvaW50cyIKICAgICAgICBhc3NlcnQgY2xvdWRfZW5kcG9pbnQoIi9tb2RlbHMvbG9yYXMiKSA9PSAiL2V4cGVyaW1lbnQvbW9kZWxzL2xvcmFzIgoKICAgIGRlZiB0ZXN0X290aGVyX3BhdGhzX3VuY2hhbmdlZChzZWxmKToKICAgICAgICBhc3NlcnQgY2xvdWRfZW5kcG9pbnQoIi9wcm9tcHQiKSA9PSAiL3Byb21wdCIKICAgICAgICBhc3NlcnQgY2xvdWRfZW5kcG9pbnQoIi9xdWV1ZSIpID09ICIvcXVldWUiCgoKY2xhc3MgVGVzdFJlc29sdmVVUkw6CiAgICBkZWYgdGVzdF9sb2NhbF9ub19wcmVmaXgoc2VsZik6CiAgICAgICAgYXNzZXJ0IHJlc29sdmVfdXJsKCJodHRwOi8vMTI3LjAuMC4xOjgxODgiLCAiL3Byb21wdCIpID09ICJodHRwOi8vMTI3LjAuMC4xOjgxODgvcHJvbXB0IgoKICAgIGRlZiB0ZXN0X2Nsb3VkX2FkZHNfYXBpX3ByZWZpeChzZWxmKToKICAgICAgICBhc3NlcnQgcmVzb2x2ZV91cmwoImh0dHBzOi8vY2xvdWQuY29tZnkub3JnIiwgIi9wcm9tcHQiKSA9PSAiaHR0cHM6Ly9jbG91ZC5jb21meS5vcmcvYXBpL3Byb21wdCIKCiAgICBkZWYgdGVzdF9jbG91ZF9oaXN0b3J5X3JlbmFtZWQoc2VsZik6CiAgICAgICAgYXNzZXJ0IHJlc29sdmVfdXJsKCJodHRwczovL2Nsb3VkLmNvbWZ5Lm9yZyIsICIvaGlzdG9yeS9hYmMiKSA9PSAiaHR0cHM6Ly9jbG91ZC5jb21meS5vcmcvYXBpL2hpc3RvcnlfdjIvYWJjIgoKICAgIGRlZiB0ZXN0X2Nsb3VkX21vZGVsc19yZW5hbWVkKHNlbGYpOgogICAgICAgIGFzc2VydCByZXNvbHZlX3VybCgiaHR0cHM6Ly9jbG91ZC5jb21meS5vcmciLCAiL21vZGVscy9sb3JhcyIpID09ICJodHRwczovL2Nsb3VkLmNvbWZ5Lm9yZy9hcGkvZXhwZXJpbWVudC9tb2RlbHMvbG9yYXMiCgogICAgZGVmIHRlc3RfY2xvdWRfYWxyZWFkeV9oYXNfYXBpKHNlbGYpOgogICAgICAgICMgRG9uJ3QgZG91YmxlLXByZWZpeAogICAgICAgIGFzc2VydCByZXNvbHZlX3VybCgiaHR0cHM6Ly9jbG91ZC5jb21meS5vcmciLCAiL2FwaS9wcm9tcHQiKSA9PSAiaHR0cHM6Ly9jbG91ZC5jb21meS5vcmcvYXBpL3Byb21wdCIKCiAgICBkZWYgdGVzdF90cmFpbGluZ19zbGFzaF9zdHJpcHBlZChzZWxmKToKICAgICAgICBhc3NlcnQgcmVzb2x2ZV91cmwoImh0dHA6Ly8xMjcuMC4wLjE6ODE4OC8iLCAiL3Byb21wdCIpID09ICJodHRwOi8vMTI3LjAuMC4xOjgxODgvcHJvbXB0IgoKCiMgPT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0KIyBXb3JrZmxvdyB2YWxpZGF0aW9uCiMgPT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0KCmNsYXNzIFRlc3RBUElGb3JtYXREZXRlY3Rpb246CiAgICBkZWYgdGVzdF92YWxpZF9hcGkoc2VsZiwgc2QxNV93b3JrZmxvdyk6CiAgICAgICAgYXNzZXJ0IGlzX2FwaV9mb3JtYXQoc2QxNV93b3JrZmxvdykgaXMgVHJ1ZQoKICAgIGRlZiB0ZXN0X2VkaXRvcl9mb3JtYXRfcmVqZWN0ZWQoc2VsZik6CiAgICAgICAgZWRpdG9yID0geyJub2RlcyI6IFtdLCAibGlua3MiOiBbXSwgInZlcnNpb24iOiAwLjR9CiAgICAgICAgYXNzZXJ0IGlzX2FwaV9mb3JtYXQoZWRpdG9yKSBpcyBGYWxzZQoKICAgIGRlZiB0ZXN0X2VtcHR5X2RpY3Qoc2VsZik6CiAgICAgICAgYXNzZXJ0IGlzX2FwaV9mb3JtYXQoe30pIGlzIEZhbHNlCgogICAgZGVmIHRlc3Rfbm9uX2RpY3Qoc2VsZik6CiAgICAgICAgYXNzZXJ0IGlzX2FwaV9mb3JtYXQoW10pIGlzIEZhbHNlCiAgICAgICAgYXNzZXJ0IGlzX2FwaV9mb3JtYXQoTm9uZSkgaXMgRmFsc2UKICAgICAgICBhc3NlcnQgaXNfYXBpX2Zvcm1hdCgic3RyaW5nIikgaXMgRmFsc2UKCiAgICBkZWYgdGVzdF9ub2RlX3dpdGhfY2xhc3NfdHlwZShzZWxmKToKICAgICAgICB3ZiA9IHsiMyI6IHsiY2xhc3NfdHlwZSI6ICJLU2FtcGxlciIsICJpbnB1dHMiOiB7fX19CiAgICAgICAgYXNzZXJ0IGlzX2FwaV9mb3JtYXQod2YpIGlzIFRydWUKCgpjbGFzcyBUZXN0VW53cmFwV29ya2Zsb3c6CiAgICBkZWYgdGVzdF9wYXNzdGhyb3VnaF9hcGlfZm9ybWF0KHNlbGYsIHNkMTVfd29ya2Zsb3cpOgogICAgICAgIHJlc3VsdCA9IHVud3JhcF93b3JrZmxvdyhzZDE1X3dvcmtmbG93KQogICAgICAgIGFzc2VydCByZXN1bHQgaXMgc2QxNV93b3JrZmxvdwoKICAgIGRlZiB0ZXN0X3Vud3JhcF9wcm9tcHRfa2V5KHNlbGYsIHNkMTVfd29ya2Zsb3cpOgogICAgICAgIHdyYXBwZWQgPSB7InByb21wdCI6IHNkMTVfd29ya2Zsb3csICJjbGllbnRfaWQiOiAiYWJjIn0KICAgICAgICByZXN1bHQgPSB1bndyYXBfd29ya2Zsb3cod3JhcHBlZCkKICAgICAgICBhc3NlcnQgcmVzdWx0IGlzIHNkMTVfd29ya2Zsb3cKCiAgICBkZWYgdGVzdF9lZGl0b3JfZm9ybWF0X3JhaXNlcyhzZWxmKToKICAgICAgICB3aXRoIHB5dGVzdC5yYWlzZXMoVmFsdWVFcnJvciwgbWF0Y2g9ImVkaXRvciBmb3JtYXQiKToKICAgICAgICAgICAgdW53cmFwX3dvcmtmbG93KHsibm9kZXMiOiBbXSwgImxpbmtzIjogW119KQoKICAgIGRlZiB0ZXN0X2dhcmJhZ2VfcmFpc2VzKHNlbGYpOgogICAgICAgIHdpdGggcHl0ZXN0LnJhaXNlcyhWYWx1ZUVycm9yKToKICAgICAgICAgICAgdW53cmFwX3dvcmtmbG93KHsiZm9vIjogImJhciJ9KQoKCmNsYXNzIFRlc3RJc0xpbms6CiAgICBkZWYgdGVzdF92YWxpZF9saW5rKHNlbGYpOgogICAgICAgIGFzc2VydCBpc19saW5rKFsiMyIsIDBdKSBpcyBUcnVlCiAgICAgICAgYXNzZXJ0IGlzX2xpbmsoWyIxMCIsIDFdKSBpcyBUcnVlCgogICAgZGVmIHRlc3Rfbm9uX2xpbmsoc2VsZik6CiAgICAgICAgYXNzZXJ0IGlzX2xpbmsoInN0cmluZyIpIGlzIEZhbHNlCiAgICAgICAgYXNzZXJ0IGlzX2xpbmsoNDIpIGlzIEZhbHNlCiAgICAgICAgYXNzZXJ0IGlzX2xpbmsoW10pIGlzIEZhbHNlCiAgICAgICAgYXNzZXJ0IGlzX2xpbmsoWyIzIl0pIGlzIEZhbHNlICAjIG1pc3Npbmcgc2xvdAogICAgICAgIGFzc2VydCBpc19saW5rKFsiMyIsICIwIl0pIGlzIEZhbHNlICAjIHNsb3QgbXVzdCBiZSBpbnQKICAgICAgICBhc3NlcnQgaXNfbGluayhbMywgMF0pIGlzIEZhbHNlICAjIG5vZGVfaWQgbXVzdCBiZSBzdHJpbmcKCgojID09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09CiMgV29ya2Zsb3cgaXRlcmF0b3JzCiMgPT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0KCmNsYXNzIFRlc3RJdGVyYXRvcnM6CiAgICBkZWYgdGVzdF9pdGVyX25vZGVzKHNlbGYsIHNkMTVfd29ya2Zsb3cpOgogICAgICAgIG5vZGVzID0gZGljdChpdGVyX25vZGVzKHNkMTVfd29ya2Zsb3cpKQogICAgICAgIGFzc2VydCAiMyIgaW4gbm9kZXMKICAgICAgICBhc3NlcnQgbm9kZXNbIjMiXVsiY2xhc3NfdHlwZSJdID09ICJLU2FtcGxlciIKCiAgICBkZWYgdGVzdF9pdGVyX25vZGVzX3NraXBzX2NvbW1lbnRzKHNlbGYsIHNkMTVfd29ya2Zsb3cpOgogICAgICAgICMgX2NvbW1lbnQgaXMgbm90IGEgbm9kZQogICAgICAgIG5vZGVzID0gZGljdChpdGVyX25vZGVzKHNkMTVfd29ya2Zsb3cpKQogICAgICAgIGFzc2VydCAiX2NvbW1lbnQiIG5vdCBpbiBub2RlcwoKICAgIGRlZiB0ZXN0X2l0ZXJfbW9kZWxfZGVwcyhzZWxmLCBzZDE1X3dvcmtmbG93KToKICAgICAgICBkZXBzID0gbGlzdChpdGVyX21vZGVsX2RlcHMoc2QxNV93b3JrZmxvdykpCiAgICAgICAgbmFtZXMgPSBbZFsidmFsdWUiXSBmb3IgZCBpbiBkZXBzXQogICAgICAgIGFzc2VydCAidjEtNS1wcnVuZWQtZW1hb25seS5zYWZldGVuc29ycyIgaW4gbmFtZXMKCiAgICBkZWYgdGVzdF9pdGVyX21vZGVsX2RlcHNfZmx1eChzZWxmLCBmbHV4X3dvcmtmbG93KToKICAgICAgICBkZXBzID0gbGlzdChpdGVyX21vZGVsX2RlcHMoZmx1eF93b3JrZmxvdykpCiAgICAgICAgbmFtZXMgPSB7ZFsidmFsdWUiXTogZFsiZm9sZGVyIl0gZm9yIGQgaW4gZGVwc30KICAgICAgICBhc3NlcnQgbmFtZXNbImZsdXgxLWRldi5zYWZldGVuc29ycyJdID09ICJ1bmV0IgogICAgICAgIGFzc2VydCBuYW1lc1sidDV4eGxfZnAxNi5zYWZldGVuc29ycyJdID09ICJjbGlwIgogICAgICAgIGFzc2VydCBuYW1lc1siY2xpcF9sLnNhZmV0ZW5zb3JzIl0gPT0gImNsaXAiCiAgICAgICAgYXNzZXJ0IG5hbWVzWyJhZS5zYWZldGVuc29ycyJdID09ICJ2YWUiCgoKIyA9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PQojIEVtYmVkZGluZyBleHRyYWN0aW9uCiMgPT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0KCmNsYXNzIFRlc3RFbWJlZGRpbmdSZWdleDoKICAgIGRlZiB0ZXN0X2Jhc2ljX2VtYmVkZGluZyhzZWxmKToKICAgICAgICBtID0gRU1CRURESU5HX1JFR0VYLnNlYXJjaCgiYSBjYXQsIGVtYmVkZGluZzpnb29kdmliZXMsIG1vcmUgdGV4dCIpCiAgICAgICAgYXNzZXJ0IG0gaXMgbm90IE5vbmUKICAgICAgICBhc3NlcnQgbS5ncm91cCgxKSA9PSAiZ29vZHZpYmVzIgoKICAgIGRlZiB0ZXN0X2VtYmVkZGluZ193aXRoX3N0cmVuZ3RoKHNlbGYpOgogICAgICAgIG0gPSBFTUJFRERJTkdfUkVHRVguc2VhcmNoKCJlbWJlZGRpbmc6YmFkLWhhbmRzLTU6MS4yIikKICAgICAgICBhc3NlcnQgbSBpcyBub3QgTm9uZQogICAgICAgIGFzc2VydCBtLmdyb3VwKDEpID09ICJiYWQtaGFuZHMtNSIKCiAgICBkZWYgdGVzdF9lbWJlZGRpbmdfd2l0aF9leHRlbnNpb24oc2VsZik6CiAgICAgICAgIyBTdHJpcHMgLnB0IC8gLnNhZmV0ZW5zb3JzIC8gLmJpbgogICAgICAgIG0gPSBFTUJFRERJTkdfUkVHRVguc2VhcmNoKCJlbWJlZGRpbmc6bXktZW1iLnB0IikKICAgICAgICBhc3NlcnQgbSBpcyBub3QgTm9uZQogICAgICAgIGFzc2VydCBtLmdyb3VwKDEpID09ICJteS1lbWIiCgogICAgZGVmIHRlc3RfZW1iZWRkaW5nX2luX3BhcmVucyhzZWxmKToKICAgICAgICBtID0gRU1CRURESU5HX1JFR0VYLnNlYXJjaCgiKGVtYmVkZGluZzpmb286MC44KSIpCiAgICAgICAgYXNzZXJ0IG0gaXMgbm90IE5vbmUKICAgICAgICBhc3NlcnQgbS5ncm91cCgxKSA9PSAiZm9vIgoKICAgIGRlZiB0ZXN0X211bHRpcGxlX2luX29uZV9zdHJpbmcoc2VsZik6CiAgICAgICAgdGV4dCA9ICJhIGNhdCwgZW1iZWRkaW5nOmZvbzoxLjIsIGFuZCBlbWJlZGRpbmc6YmFyIgogICAgICAgIG1hdGNoZXMgPSBbbS5ncm91cCgxKSBmb3IgbSBpbiBFTUJFRERJTkdfUkVHRVguZmluZGl0ZXIodGV4dCldCiAgICAgICAgYXNzZXJ0IG1hdGNoZXMgPT0gWyJmb28iLCAiYmFyIl0KCiAgICBkZWYgdGVzdF9ub19mYWxzZV9wb3NpdGl2ZV9vbl93b3JkX2VtYmVkZGluZyhzZWxmKToKICAgICAgICAjICJlbWJlZGRpbmcgIiAod2l0aCBzcGFjZSwgbm8gY29sb24pIHNob3VsZCBub3QgbWF0Y2gKICAgICAgICBtID0gRU1CRURESU5HX1JFR0VYLnNlYXJjaCgidGhlIGVtYmVkZGluZyBpcyBncmVhdCIpCiAgICAgICAgYXNzZXJ0IG0gaXMgTm9uZQoKCmNsYXNzIFRlc3RJdGVyRW1iZWRkaW5nUmVmczoKICAgIGRlZiB0ZXN0X2ZpbmRzX2luX2NsaXBfdGV4dF9lbmNvZGUoc2VsZik6CiAgICAgICAgd2YgPSB7CiAgICAgICAgICAgICIxIjogeyJjbGFzc190eXBlIjogIkNMSVBUZXh0RW5jb2RlIiwKICAgICAgICAgICAgICAgICAgImlucHV0cyI6IHsidGV4dCI6ICJlbWJlZGRpbmc6Zm9vLCBlbWJlZGRpbmc6YmFyOjAuNSIsICJjbGlwIjogWyIyIiwgMF19fSwKICAgICAgICAgICAgIjIiOiB7ImNsYXNzX3R5cGUiOiAiQ2hlY2twb2ludExvYWRlclNpbXBsZSIsICJpbnB1dHMiOiB7ImNrcHRfbmFtZSI6ICJ4In19LAogICAgICAgIH0KICAgICAgICByZWZzID0gbGlzdChpdGVyX2VtYmVkZGluZ19yZWZzKHdmKSkKICAgICAgICBuYW1lcyA9IFtuYW1lIGZvciBfLCBuYW1lIGluIHJlZnNdCiAgICAgICAgYXNzZXJ0IG5hbWVzID09IFsiZm9vIiwgImJhciJdCgogICAgZGVmIHRlc3RfaWdub3Jlc19ub25fcHJvbXB0X2ZpZWxkcyhzZWxmKToKICAgICAgICB3ZiA9IHsKICAgICAgICAgICAgIjEiOiB7ImNsYXNzX3R5cGUiOiAiQ2hlY2twb2ludExvYWRlclNpbXBsZSIsCiAgICAgICAgICAgICAgICAgICJpbnB1dHMiOiB7ImNrcHRfbmFtZSI6ICJlbWJlZGRpbmc6Zm9vLnNhZmV0ZW5zb3JzIn19LAogICAgICAgIH0KICAgICAgICByZWZzID0gbGlzdChpdGVyX2VtYmVkZGluZ19yZWZzKHdmKSkKICAgICAgICAjIGNrcHRfbmFtZSBpcyBub3QgYSBwcm9tcHQgZmllbGQg4oCUIGlnbm9yZWQKICAgICAgICBhc3NlcnQgcmVmcyA9PSBbXQoKCiMgPT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0KIyBQYXRoIHNhZmV0eQojID09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09CgpjbGFzcyBUZXN0U2FmZVBhdGhKb2luOgogICAgZGVmIHRlc3Rfbm9ybWFsX2pvaW4oc2VsZiwgdG1wX3BhdGgpOgogICAgICAgIHAgPSBzYWZlX3BhdGhfam9pbih0bXBfcGF0aCwgInN1YmRpciIsICJmaWxlLnBuZyIpCiAgICAgICAgYXNzZXJ0IHAuaXNfcmVsYXRpdmVfdG8odG1wX3BhdGgpCgogICAgZGVmIHRlc3RfYmxvY2tzX3RyYXZlcnNhbChzZWxmLCB0bXBfcGF0aCk6CiAgICAgICAgd2l0aCBweXRlc3QucmFpc2VzKFZhbHVlRXJyb3IsIG1hdGNoPSJwYXRoIHRyYXZlcnNhbCIpOgogICAgICAgICAgICBzYWZlX3BhdGhfam9pbih0bXBfcGF0aCwgIi4uIiwgIi4uIiwgImV0YyIsICJwYXNzd2QiKQoKICAgIGRlZiB0ZXN0X2Jsb2Nrc19hYnNvbHV0ZShzZWxmLCB0bXBfcGF0aCk6CiAgICAgICAgd2l0aCBweXRlc3QucmFpc2VzKFZhbHVlRXJyb3IpOgogICAgICAgICAgICBzYWZlX3BhdGhfam9pbih0bXBfcGF0aCwgIi9ldGMvcGFzc3dkIikKCiAgICBkZWYgdGVzdF9zdWJmb2xkZXJfd2l0aF9maWxlbmFtZShzZWxmLCB0bXBfcGF0aCk6CiAgICAgICAgcCA9IHNhZmVfcGF0aF9qb2luKHRtcF9wYXRoLCAib3V0cHV0cyIsICJpbWcucG5nIikKICAgICAgICBhc3NlcnQgcC5uYW1lID09ICJpbWcucG5nIgogICAgICAgIGFzc2VydCBwLnBhcmVudC5uYW1lID09ICJvdXRwdXRzIgoKCiMgPT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0KIyBTZWVkIGNvZXJjaW9uCiMgPT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0KCmNsYXNzIFRlc3RDb2VyY2VTZWVkOgogICAgZGVmIHRlc3RfZXhwbGljaXRfaW50KHNlbGYpOgogICAgICAgIGFzc2VydCBjb2VyY2Vfc2VlZCg0MikgPT0gNDIKICAgICAgICBhc3NlcnQgY29lcmNlX3NlZWQoMCkgPT0gMAoKICAgIGRlZiB0ZXN0X21pbnVzX29uZV9yYW5kb21pemVzKHNlbGYpOgogICAgICAgIHMgPSBjb2VyY2Vfc2VlZCgtMSkKICAgICAgICBhc3NlcnQgaXNpbnN0YW5jZShzLCBpbnQpCiAgICAgICAgYXNzZXJ0IDAgPD0gcyA8IDIqKjYzCgogICAgZGVmIHRlc3Rfbm9uZV9yYW5kb21pemVzKHNlbGYpOgogICAgICAgIHMgPSBjb2VyY2Vfc2VlZChOb25lKQogICAgICAgIGFzc2VydCBpc2luc3RhbmNlKHMsIGludCkKCiAgICBkZWYgdGVzdF9zdHJpbmdfaW50KHNlbGYpOgogICAgICAgICMgc3RyKCkgdGhhdCBjb252ZXJ0cyBjbGVhbmx5IGlzIGFsbG93ZWQgKHJlbGF4ZWQpCiAgICAgICAgYXNzZXJ0IGNvZXJjZV9zZWVkKCIxMjM0NSIpID09IDEyMzQ1CgogICAgZGVmIHRlc3Rfc3RyaW5nX21pbnVzX29uZV9yYW5kb21pemVzKHNlbGYpOgogICAgICAgICMgQ0xJIC8gSlNPTiBzb21ldGltZXMgY2FycmllcyBzZWVkIGFzIGEgc3RyaW5nLgogICAgICAgIHMgPSBjb2VyY2Vfc2VlZCgiLTEiKQogICAgICAgIGFzc2VydCBpc2luc3RhbmNlKHMsIGludCkKICAgICAgICBhc3NlcnQgMCA8PSBzIDwgMioqNjMKICAgICAgICAjIEFuZCB3aGl0ZXNwYWNlIHRvbGVyYXRlZAogICAgICAgIHMyID0gY29lcmNlX3NlZWQoIiAtMSAiKQogICAgICAgIGFzc2VydCBpc2luc3RhbmNlKHMyLCBpbnQpCiAgICAgICAgYXNzZXJ0IDAgPD0gczIgPCAyKio2MwoKCiMgPT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0KIyBNb2RlbCBsaXN0IG5vcm1hbGl6YXRpb24gKGNsb3VkIGZvcm1hdCkKIyA9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PQoKY2xhc3MgVGVzdFBhcnNlTW9kZWxMaXN0OgogICAgZGVmIHRlc3RfbG9jYWxfZm9ybWF0X3N0cmluZ3Moc2VsZik6CiAgICAgICAgcmVzdWx0ID0gcGFyc2VfbW9kZWxfbGlzdChbImEuc2FmZXRlbnNvcnMiLCAiYi5zYWZldGVuc29ycyJdKQogICAgICAgIGFzc2VydCByZXN1bHQgPT0geyJhLnNhZmV0ZW5zb3JzIiwgImIuc2FmZXRlbnNvcnMifQoKICAgIGRlZiB0ZXN0X2Nsb3VkX2Zvcm1hdF9kaWN0cyhzZWxmKToKICAgICAgICByZXN1bHQgPSBwYXJzZV9tb2RlbF9saXN0KFsKICAgICAgICAgICAgeyJuYW1lIjogImEuc2FmZXRlbnNvcnMiLCAicGF0aEluZGV4IjogMH0sCiAgICAgICAgICAgIHsibmFtZSI6ICJiLnNhZmV0ZW5zb3JzIiwgInBhdGhJbmRleCI6IDF9LAogICAgICAgIF0pCiAgICAgICAgYXNzZXJ0IHJlc3VsdCA9PSB7ImEuc2FmZXRlbnNvcnMiLCAiYi5zYWZldGVuc29ycyJ9CgogICAgZGVmIHRlc3RfZW1wdHkoc2VsZik6CiAgICAgICAgYXNzZXJ0IHBhcnNlX21vZGVsX2xpc3QoW10pID09IHNldCgpCgogICAgZGVmIHRlc3RfZ2FyYmFnZShzZWxmKToKICAgICAgICBhc3NlcnQgcGFyc2VfbW9kZWxfbGlzdCgibm90IGEgbGlzdCIpID09IHNldCgpCiAgICAgICAgYXNzZXJ0IHBhcnNlX21vZGVsX2xpc3QoTm9uZSkgPT0gc2V0KCkKCiAgICBkZWYgdGVzdF9taXhlZF9mb3JtYXQoc2VsZik6CiAgICAgICAgcmVzdWx0ID0gcGFyc2VfbW9kZWxfbGlzdChbCiAgICAgICAgICAgICJzdHJpbmctZm9ybS5zYWZldGVuc29ycyIsCiAgICAgICAgICAgIHsibmFtZSI6ICJkaWN0LWZvcm0uc2FmZXRlbnNvcnMifSwKICAgICAgICBdKQogICAgICAgIGFzc2VydCByZXN1bHQgPT0geyJzdHJpbmctZm9ybS5zYWZldGVuc29ycyIsICJkaWN0LWZvcm0uc2FmZXRlbnNvcnMifQoKCiMgPT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0KIyBGb2xkZXIgYWxpYXNlcwojID09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09CgpjbGFzcyBUZXN0Rm9sZGVyQWxpYXNlczoKICAgIGRlZiB0ZXN0X3VuZXRfYWxpYXNlc19kaWZmdXNpb25fbW9kZWxzKHNlbGYpOgogICAgICAgIGFsaWFzZXMgPSBmb2xkZXJfYWxpYXNlc19mb3IoInVuZXQiKQogICAgICAgIGFzc2VydCAidW5ldCIgaW4gYWxpYXNlcwogICAgICAgIGFzc2VydCAiZGlmZnVzaW9uX21vZGVscyIgaW4gYWxpYXNlcwoKICAgIGRlZiB0ZXN0X2NsaXBfYWxpYXNlc190ZXh0X2VuY29kZXJzKHNlbGYpOgogICAgICAgIGFsaWFzZXMgPSBmb2xkZXJfYWxpYXNlc19mb3IoImNsaXAiKQogICAgICAgIGFzc2VydCAiY2xpcCIgaW4gYWxpYXNlcwogICAgICAgIGFzc2VydCAidGV4dF9lbmNvZGVycyIgaW4gYWxpYXNlcwoKICAgIGRlZiB0ZXN0X3Vua25vd25fZm9sZGVyX3JldHVybnNfc2VsZihzZWxmKToKICAgICAgICBhc3NlcnQgZm9sZGVyX2FsaWFzZXNfZm9yKCJjaGVja3BvaW50cyIpID09IFsiY2hlY2twb2ludHMiXQoKICAgIGRlZiB0ZXN0X3ByaW1hcnlfZmlyc3Qoc2VsZik6CiAgICAgICAgIyBPcmRlciBtYXR0ZXJzOiBwcmltYXJ5IHNob3VsZCBiZSBmaXJzdCBmb3IgaHVtYW4tZnJpZW5kbHkgZml4IGhpbnRzCiAgICAgICAgYXNzZXJ0IGZvbGRlcl9hbGlhc2VzX2ZvcigidW5ldCIpWzBdID09ICJ1bmV0IgogICAgICAgIGFzc2VydCBmb2xkZXJfYWxpYXNlc19mb3IoImRpZmZ1c2lvbl9tb2RlbHMiKVswXSA9PSAiZGlmZnVzaW9uX21vZGVscyIKCgojID09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09CiMgTWVkaWEtdHlwZSBkZXRlY3Rpb24KIyA9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PQoKY2xhc3MgVGVzdE1lZGlhVHlwZToKICAgIGRlZiB0ZXN0X3ZpZGVvX2V4dGVuc2lvbnMoc2VsZik6CiAgICAgICAgYXNzZXJ0IG1lZGlhX3R5cGVfZnJvbV9maWxlbmFtZSgidmlkLm1wNCIpID09ICJ2aWRlbyIKICAgICAgICBhc3NlcnQgbWVkaWFfdHlwZV9mcm9tX2ZpbGVuYW1lKCJmb28ud2VibSIpID09ICJ2aWRlbyIKICAgICAgICBhc3NlcnQgbWVkaWFfdHlwZV9mcm9tX2ZpbGVuYW1lKCJiYXIuZ2lmIikgPT0gInZpZGVvIgoKICAgIGRlZiB0ZXN0X2F1ZGlvX2V4dGVuc2lvbnMoc2VsZik6CiAgICAgICAgYXNzZXJ0IG1lZGlhX3R5cGVfZnJvbV9maWxlbmFtZSgic29uZy53YXYiKSA9PSAiYXVkaW8iCiAgICAgICAgYXNzZXJ0IG1lZGlhX3R5cGVfZnJvbV9maWxlbmFtZSgibXVzaWMubXAzIikgPT0gImF1ZGlvIgoKICAgIGRlZiB0ZXN0X2ltYWdlX2RlZmF1bHQoc2VsZik6CiAgICAgICAgYXNzZXJ0IG1lZGlhX3R5cGVfZnJvbV9maWxlbmFtZSgicGljLnBuZyIpID09ICJpbWFnZSIKICAgICAgICBhc3NlcnQgbWVkaWFfdHlwZV9mcm9tX2ZpbGVuYW1lKCJpbWFnZS5qcGciKSA9PSAiaW1hZ2UiCiAgICAgICAgYXNzZXJ0IG1lZGlhX3R5cGVfZnJvbV9maWxlbmFtZSgidW5rbm93bi54eXoiKSA9PSAiaW1hZ2UiCgogICAgZGVmIHRlc3RfM2Qoc2VsZik6CiAgICAgICAgYXNzZXJ0IG1lZGlhX3R5cGVfZnJvbV9maWxlbmFtZSgibW9kZWwuZ2xiIikgPT0gIjNkIgogICAgICAgIGFzc2VydCBtZWRpYV90eXBlX2Zyb21fZmlsZW5hbWUoInNjZW5lLmdsdGYiKSA9PSAiM2QiCgoKIyA9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PQojIENyb3NzLWhvc3QgaGVhZGVyIHN0cmlwcGluZyAoc2VjdXJpdHkpCiMgPT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0KCmNsYXNzIFRlc3RSZWRpcmVjdEhlYWRlclN0cmlwcGluZzoKICAgICIiIlZlcmlmeSBYLUFQSS1LZXkgaXMgZHJvcHBlZCB3aGVuIHJlZGlyZWN0IGNyb3NzZXMgdG8gYSBkaWZmZXJlbnQgaG9zdAogICAgKGUuZy4gY2xvdWQgL2FwaS92aWV3IOKGkiBTMyBzaWduZWQgVVJMKS4gQ3JpdGljYWwgdG8gcHJldmVudCBsZWFraW5nIGF1dGgKICAgIHRva2VucyB0byB0aGUgc3RvcmFnZSBiYWNrZW5kLgogICAgIiIiCgogICAgZGVmIF9idWlsZF9zZXNzaW9uKHNlbGYpOgogICAgICAgIGZyb20gX2NvbW1vbiBpbXBvcnQgX1N0cmlwU2Vuc2l0aXZlT25SZWRpcmVjdFNlc3Npb24sIEhBU19SRVFVRVNUUwogICAgICAgIGlmIG5vdCBIQVNfUkVRVUVTVFM6CiAgICAgICAgICAgIGltcG9ydCBweXRlc3QKICAgICAgICAgICAgcHl0ZXN0LnNraXAoInJlcXVlc3RzIG5vdCBpbnN0YWxsZWQiKQogICAgICAgIHJldHVybiBfU3RyaXBTZW5zaXRpdmVPblJlZGlyZWN0U2Vzc2lvbigpCgogICAgZGVmIHRlc3Rfc3RyaXBzX3hfYXBpX2tleV9jcm9zc19ob3N0KHNlbGYpOgogICAgICAgIGltcG9ydCByZXF1ZXN0cwogICAgICAgIHMgPSBzZWxmLl9idWlsZF9zZXNzaW9uKCkKICAgICAgICBwcmVwID0gcmVxdWVzdHMuUHJlcGFyZWRSZXF1ZXN0KCkKICAgICAgICBwcmVwLnByZXBhcmUobWV0aG9kPSJHRVQiLCB1cmw9Imh0dHBzOi8vb3RoZXIuZXhhbXBsZS5jb20vZmlsZSIsCiAgICAgICAgICAgICAgICAgICAgIGhlYWRlcnM9eyJYLUFQSS1LZXkiOiAibGVhayIsICJBdXRob3JpemF0aW9uIjogIkJlYXJlciB4In0pCiAgICAgICAgcmVzcCA9IHJlcXVlc3RzLlJlc3BvbnNlKCkKICAgICAgICBvcmlnID0gcmVxdWVzdHMuUHJlcGFyZWRSZXF1ZXN0KCkKICAgICAgICBvcmlnLnByZXBhcmUobWV0aG9kPSJHRVQiLCB1cmw9Imh0dHBzOi8vY2xvdWQuY29tZnkub3JnL2FwaS92aWV3IiwgaGVhZGVycz17fSkKICAgICAgICByZXNwLnJlcXVlc3QgPSBvcmlnCiAgICAgICAgcy5yZWJ1aWxkX2F1dGgocHJlcCwgcmVzcCkKICAgICAgICBhc3NlcnQgIlgtQVBJLUtleSIgbm90IGluIHByZXAuaGVhZGVycwogICAgICAgIGFzc2VydCAiQXV0aG9yaXphdGlvbiIgbm90IGluIHByZXAuaGVhZGVycwoKICAgIGRlZiB0ZXN0X3ByZXNlcnZlc194X2FwaV9rZXlfc2FtZV9ob3N0KHNlbGYpOgogICAgICAgIGltcG9ydCByZXF1ZXN0cwogICAgICAgIHMgPSBzZWxmLl9idWlsZF9zZXNzaW9uKCkKICAgICAgICBwcmVwID0gcmVxdWVzdHMuUHJlcGFyZWRSZXF1ZXN0KCkKICAgICAgICBwcmVwLnByZXBhcmUobWV0aG9kPSJHRVQiLCB1cmw9Imh0dHBzOi8vY2xvdWQuY29tZnkub3JnL2ZvbyIsCiAgICAgICAgICAgICAgICAgICAgIGhlYWRlcnM9eyJYLUFQSS1LZXkiOiAia2VlcCJ9KQogICAgICAgIHJlc3AgPSByZXF1ZXN0cy5SZXNwb25zZSgpCiAgICAgICAgb3JpZyA9IHJlcXVlc3RzLlByZXBhcmVkUmVxdWVzdCgpCiAgICAgICAgb3JpZy5wcmVwYXJlKG1ldGhvZD0iR0VUIiwgdXJsPSJodHRwczovL2Nsb3VkLmNvbWZ5Lm9yZy9iYXIiLCBoZWFkZXJzPXt9KQogICAgICAgIHJlc3AucmVxdWVzdCA9IG9yaWcKICAgICAgICBzLnJlYnVpbGRfYXV0aChwcmVwLCByZXNwKQogICAgICAgIGFzc2VydCBwcmVwLmhlYWRlcnMuZ2V0KCJYLUFQSS1LZXkiKSA9PSAia2VlcCIKCiAgICBkZWYgdGVzdF9zdHJpcHNfY29va2llX2Nyb3NzX2hvc3Qoc2VsZik6CiAgICAgICAgaW1wb3J0IHJlcXVlc3RzCiAgICAgICAgcyA9IHNlbGYuX2J1aWxkX3Nlc3Npb24oKQogICAgICAgIHByZXAgPSByZXF1ZXN0cy5QcmVwYXJlZFJlcXVlc3QoKQogICAgICAgIHByZXAucHJlcGFyZShtZXRob2Q9IkdFVCIsIHVybD0iaHR0cHM6Ly9vdGhlci5leGFtcGxlLmNvbS94IiwKICAgICAgICAgICAgICAgICAgICAgaGVhZGVycz17IkNvb2tpZSI6ICJzZXNzaW9uPXNlY3JldCJ9KQogICAgICAgIHJlc3AgPSByZXF1ZXN0cy5SZXNwb25zZSgpCiAgICAgICAgb3JpZyA9IHJlcXVlc3RzLlByZXBhcmVkUmVxdWVzdCgpCiAgICAgICAgb3JpZy5wcmVwYXJlKG1ldGhvZD0iR0VUIiwgdXJsPSJodHRwczovL2Nsb3VkLmNvbWZ5Lm9yZy9mb28iLCBoZWFkZXJzPXt9KQogICAgICAgIHJlc3AucmVxdWVzdCA9IG9yaWcKICAgICAgICBzLnJlYnVpbGRfYXV0aChwcmVwLCByZXNwKQogICAgICAgIGFzc2VydCAiQ29va2llIiBub3QgaW4gcHJlcC5oZWFkZXJzCgoKIyA9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PQojIFZpZGVvIHdvcmtmbG93IGRldGVjdGlvbgojID09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09CgpjbGFzcyBUZXN0VmlkZW9Xb3JrZmxvdzoKICAgIGRlZiB0ZXN0X2ltYWdlX3dvcmtmbG93KHNlbGYsIHNkMTVfd29ya2Zsb3cpOgogICAgICAgIGFzc2VydCBsb29rc19saWtlX3ZpZGVvX3dvcmtmbG93KHNkMTVfd29ya2Zsb3cpIGlzIEZhbHNlCgogICAgZGVmIHRlc3RfYW5pbWF0ZWRpZmZfd29ya2Zsb3coc2VsZiwgd29ya2Zsb3dzX2Rpcik6CiAgICAgICAgaW1wb3J0IGpzb24KICAgICAgICB3ZiA9IGpzb24ubG9hZHMoKHdvcmtmbG93c19kaXIgLyAiYW5pbWF0ZWRpZmZfdmlkZW8uanNvbiIpLnJlYWRfdGV4dCgpKQogICAgICAgIGFzc2VydCBsb29rc19saWtlX3ZpZGVvX3dvcmtmbG93KHdmKSBpcyBUcnVlCgogICAgZGVmIHRlc3Rfd2FuX3dvcmtmbG93KHNlbGYsIHZpZGVvX3dvcmtmbG93KToKICAgICAgICBhc3NlcnQgbG9va3NfbGlrZV92aWRlb193b3JrZmxvdyh2aWRlb193b3JrZmxvdykgaXMgVHJ1ZQo=
+"""Unit tests for _common.py — pure logic only, no network."""
+
+from __future__ import annotations
+
+
+import pytest
+
+from _common import (
+    EMBEDDING_REGEX,
+    cloud_endpoint,
+    coerce_seed,
+    folder_aliases_for,
+    is_api_format,
+    is_cloud_host,
+    is_link,
+    iter_embedding_refs,
+    iter_model_deps,
+    iter_nodes,
+    looks_like_video_workflow,
+    media_type_from_filename,
+    parse_model_list,
+    resolve_url,
+    safe_path_join,
+    unwrap_workflow,
+)
+
+
+# =============================================================================
+# Cloud detection / URL routing
+# =============================================================================
+
+class TestCloudDetection:
+    def test_cloud_host_exact(self):
+        assert is_cloud_host("https://cloud.comfy.org") is True
+        assert is_cloud_host("https://cloud.comfy.org/foo/bar") is True
+
+    def test_cloud_host_subdomain(self):
+        assert is_cloud_host("https://staging.cloud.comfy.org") is True
+        assert is_cloud_host("https://api.cloud.comfy.org") is True
+
+    def test_local_not_cloud(self):
+        assert is_cloud_host("http://127.0.0.1:8188") is False
+        assert is_cloud_host("http://localhost:8188") is False
+        assert is_cloud_host("http://my-server.local:8188") is False
+
+    def test_no_scheme(self):
+        # Defaults to http://
+        assert is_cloud_host("cloud.comfy.org") is True
+        assert is_cloud_host("127.0.0.1:8188") is False
+
+
+class TestCloudEndpointRename:
+    def test_history_renamed(self):
+        assert cloud_endpoint("/history") == "/history_v2"
+        assert cloud_endpoint("/history/abc-123") == "/history_v2/abc-123"
+
+    def test_history_v2_preserved(self):
+        assert cloud_endpoint("/history_v2") == "/history_v2"
+
+    def test_models_renamed(self):
+        assert cloud_endpoint("/models") == "/experiment/models"
+        assert cloud_endpoint("/models/checkpoints") == "/experiment/models/checkpoints"
+        assert cloud_endpoint("/models/loras") == "/experiment/models/loras"
+
+    def test_other_paths_unchanged(self):
+        assert cloud_endpoint("/prompt") == "/prompt"
+        assert cloud_endpoint("/queue") == "/queue"
+
+
+class TestResolveURL:
+    def test_local_no_prefix(self):
+        assert resolve_url("http://127.0.0.1:8188", "/prompt") == "http://127.0.0.1:8188/prompt"
+
+    def test_cloud_adds_api_prefix(self):
+        assert resolve_url("https://cloud.comfy.org", "/prompt") == "https://cloud.comfy.org/api/prompt"
+
+    def test_cloud_history_renamed(self):
+        assert resolve_url("https://cloud.comfy.org", "/history/abc") == "https://cloud.comfy.org/api/history_v2/abc"
+
+    def test_cloud_models_renamed(self):
+        assert resolve_url("https://cloud.comfy.org", "/models/loras") == "https://cloud.comfy.org/api/experiment/models/loras"
+
+    def test_cloud_already_has_api(self):
+        # Don't double-prefix
+        assert resolve_url("https://cloud.comfy.org", "/api/prompt") == "https://cloud.comfy.org/api/prompt"
+
+    def test_trailing_slash_stripped(self):
+        assert resolve_url("http://127.0.0.1:8188/", "/prompt") == "http://127.0.0.1:8188/prompt"
+
+
+# =============================================================================
+# Workflow validation
+# =============================================================================
+
+class TestAPIFormatDetection:
+    def test_valid_api(self, sd15_workflow):
+        assert is_api_format(sd15_workflow) is True
+
+    def test_editor_format_rejected(self):
+        editor = {"nodes": [], "links": [], "version": 0.4}
+        assert is_api_format(editor) is False
+
+    def test_empty_dict(self):
+        assert is_api_format({}) is False
+
+    def test_non_dict(self):
+        assert is_api_format([]) is False
+        assert is_api_format(None) is False
+        assert is_api_format("string") is False
+
+    def test_node_with_class_type(self):
+        wf = {"3": {"class_type": "KSampler", "inputs": {}}}
+        assert is_api_format(wf) is True
+
+
+class TestUnwrapWorkflow:
+    def test_passthrough_api_format(self, sd15_workflow):
+        result = unwrap_workflow(sd15_workflow)
+        assert result is sd15_workflow
+
+    def test_unwrap_prompt_key(self, sd15_workflow):
+        wrapped = {"prompt": sd15_workflow, "client_id": "abc"}
+        result = unwrap_workflow(wrapped)
+        assert result is sd15_workflow
+
+    def test_editor_format_raises(self):
+        with pytest.raises(ValueError, match="editor format"):
+            unwrap_workflow({"nodes": [], "links": []})
+
+    def test_garbage_raises(self):
+        with pytest.raises(ValueError):
+            unwrap_workflow({"foo": "bar"})
+
+
+class TestIsLink:
+    def test_valid_link(self):
+        assert is_link(["3", 0]) is True
+        assert is_link(["10", 1]) is True
+
+    def test_non_link(self):
+        assert is_link("string") is False
+        assert is_link(42) is False
+        assert is_link([]) is False
+        assert is_link(["3"]) is False  # missing slot
+        assert is_link(["3", "0"]) is False  # slot must be int
+        assert is_link([3, 0]) is False  # node_id must be string
+
+
+# =============================================================================
+# Workflow iterators
+# =============================================================================
+
+class TestIterators:
+    def test_iter_nodes(self, sd15_workflow):
+        nodes = dict(iter_nodes(sd15_workflow))
+        assert "3" in nodes
+        assert nodes["3"]["class_type"] == "KSampler"
+
+    def test_iter_nodes_skips_comments(self, sd15_workflow):
+        # _comment is not a node
+        nodes = dict(iter_nodes(sd15_workflow))
+        assert "_comment" not in nodes
+
+    def test_iter_model_deps(self, sd15_workflow):
+        deps = list(iter_model_deps(sd15_workflow))
+        names = [d["value"] for d in deps]
+        assert "v1-5-pruned-emaonly.safetensors" in names
+
+    def test_iter_model_deps_flux(self, flux_workflow):
+        deps = list(iter_model_deps(flux_workflow))
+        names = {d["value"]: d["folder"] for d in deps}
+        assert names["flux1-dev.safetensors"] == "unet"
+        assert names["t5xxl_fp16.safetensors"] == "clip"
+        assert names["clip_l.safetensors"] == "clip"
+        assert names["ae.safetensors"] == "vae"
+
+
+# =============================================================================
+# Embedding extraction
+# =============================================================================
+
+class TestEmbeddingRegex:
+    def test_basic_embedding(self):
+        m = EMBEDDING_REGEX.search("a cat, embedding:goodvibes, more text")
+        assert m is not None
+        assert m.group(1) == "goodvibes"
+
+    def test_embedding_with_strength(self):
+        m = EMBEDDING_REGEX.search("embedding:bad-hands-5:1.2")
+        assert m is not None
+        assert m.group(1) == "bad-hands-5"
+
+    def test_embedding_with_extension(self):
+        # Strips .pt / .safetensors / .bin
+        m = EMBEDDING_REGEX.search("embedding:my-emb.pt")
+        assert m is not None
+        assert m.group(1) == "my-emb"
+
+    def test_embedding_in_parens(self):
+        m = EMBEDDING_REGEX.search("(embedding:foo:0.8)")
+        assert m is not None
+        assert m.group(1) == "foo"
+
+    def test_multiple_in_one_string(self):
+        text = "a cat, embedding:foo:1.2, and embedding:bar"
+        matches = [m.group(1) for m in EMBEDDING_REGEX.finditer(text)]
+        assert matches == ["foo", "bar"]
+
+    def test_no_false_positive_on_word_embedding(self):
+        # "embedding " (with space, no colon) should not match
+        m = EMBEDDING_REGEX.search("the embedding is great")
+        assert m is None
+
+
+class TestIterEmbeddingRefs:
+    def test_finds_in_clip_text_encode(self):
+        wf = {
+            "1": {"class_type": "CLIPTextEncode",
+                  "inputs": {"text": "embedding:foo, embedding:bar:0.5", "clip": ["2", 0]}},
+            "2": {"class_type": "CheckpointLoaderSimple", "inputs": {"ckpt_name": "x"}},
+        }
+        refs = list(iter_embedding_refs(wf))
+        names = [name for _, name in refs]
+        assert names == ["foo", "bar"]
+
+    def test_ignores_non_prompt_fields(self):
+        wf = {
+            "1": {"class_type": "CheckpointLoaderSimple",
+                  "inputs": {"ckpt_name": "embedding:foo.safetensors"}},
+        }
+        refs = list(iter_embedding_refs(wf))
+        # ckpt_name is not a prompt field — ignored
+        assert refs == []
+
+
+# =============================================================================
+# Path safety
+# =============================================================================
+
+class TestSafePathJoin:
+    def test_normal_join(self, tmp_path):
+        p = safe_path_join(tmp_path, "subdir", "file.png")
+        assert p.is_relative_to(tmp_path)
+
+    def test_blocks_traversal(self, tmp_path):
+        with pytest.raises(ValueError, match="path traversal"):
+            safe_path_join(tmp_path, "..", "..", "etc", "passwd")
+
+    def test_blocks_absolute(self, tmp_path):
+        with pytest.raises(ValueError):
+            safe_path_join(tmp_path, "/etc/passwd")
+
+    def test_subfolder_with_filename(self, tmp_path):
+        p = safe_path_join(tmp_path, "outputs", "img.png")
+        assert p.name == "img.png"
+        assert p.parent.name == "outputs"
+
+
+# =============================================================================
+# Seed coercion
+# =============================================================================
+
+class TestCoerceSeed:
+    def test_explicit_int(self):
+        assert coerce_seed(42) == 42
+        assert coerce_seed(0) == 0
+
+    def test_minus_one_randomizes(self):
+        s = coerce_seed(-1)
+        assert isinstance(s, int)
+        assert 0 <= s < 2**63
+
+    def test_none_randomizes(self):
+        s = coerce_seed(None)
+        assert isinstance(s, int)
+
+    def test_string_int(self):
+        # str() that converts cleanly is allowed (relaxed)
+        assert coerce_seed("12345") == 12345
+
+    def test_string_minus_one_randomizes(self):
+        # CLI / JSON sometimes carries seed as a string.
+        s = coerce_seed("-1")
+        assert isinstance(s, int)
+        assert 0 <= s < 2**63
+        # And whitespace tolerated
+        s2 = coerce_seed(" -1 ")
+        assert isinstance(s2, int)
+        assert 0 <= s2 < 2**63
+
+
+# =============================================================================
+# Model list normalization (cloud format)
+# =============================================================================
+
+class TestParseModelList:
+    def test_local_format_strings(self):
+        result = parse_model_list(["a.safetensors", "b.safetensors"])
+        assert result == {"a.safetensors", "b.safetensors"}
+
+    def test_cloud_format_dicts(self):
+        result = parse_model_list([
+            {"name": "a.safetensors", "pathIndex": 0},
+            {"name": "b.safetensors", "pathIndex": 1},
+        ])
+        assert result == {"a.safetensors", "b.safetensors"}
+
+    def test_empty(self):
+        assert parse_model_list([]) == set()
+
+    def test_garbage(self):
+        assert parse_model_list("not a list") == set()
+        assert parse_model_list(None) == set()
+
+    def test_mixed_format(self):
+        result = parse_model_list([
+            "string-form.safetensors",
+            {"name": "dict-form.safetensors"},
+        ])
+        assert result == {"string-form.safetensors", "dict-form.safetensors"}
+
+
+# =============================================================================
+# Folder aliases
+# =============================================================================
+
+class TestFolderAliases:
+    def test_unet_aliases_diffusion_models(self):
+        aliases = folder_aliases_for("unet")
+        assert "unet" in aliases
+        assert "diffusion_models" in aliases
+
+    def test_clip_aliases_text_encoders(self):
+        aliases = folder_aliases_for("clip")
+        assert "clip" in aliases
+        assert "text_encoders" in aliases
+
+    def test_unknown_folder_returns_self(self):
+        assert folder_aliases_for("checkpoints") == ["checkpoints"]
+
+    def test_primary_first(self):
+        # Order matters: primary should be first for human-friendly fix hints
+        assert folder_aliases_for("unet")[0] == "unet"
+        assert folder_aliases_for("diffusion_models")[0] == "diffusion_models"
+
+
+# =============================================================================
+# Media-type detection
+# =============================================================================
+
+class TestMediaType:
+    def test_video_extensions(self):
+        assert media_type_from_filename("vid.mp4") == "video"
+        assert media_type_from_filename("foo.webm") == "video"
+        assert media_type_from_filename("bar.gif") == "video"
+
+    def test_audio_extensions(self):
+        assert media_type_from_filename("song.wav") == "audio"
+        assert media_type_from_filename("music.mp3") == "audio"
+
+    def test_image_default(self):
+        assert media_type_from_filename("pic.png") == "image"
+        assert media_type_from_filename("image.jpg") == "image"
+        assert media_type_from_filename("unknown.xyz") == "image"
+
+    def test_3d(self):
+        assert media_type_from_filename("model.glb") == "3d"
+        assert media_type_from_filename("scene.gltf") == "3d"
+
+
+# =============================================================================
+# Cross-host header stripping (security)
+# =============================================================================
+
+class TestRedirectHeaderStripping:
+    """Verify X-API-Key is dropped when redirect crosses to a different host
+    (e.g. cloud /api/view → S3 signed URL). Critical to prevent leaking auth
+    tokens to the storage backend.
+    """
+
+    def _build_session(self):
+        from _common import _StripSensitiveOnRedirectSession, HAS_REQUESTS
+        if not HAS_REQUESTS:
+            import pytest
+            pytest.skip("requests not installed")
+        return _StripSensitiveOnRedirectSession()
+
+    def test_strips_x_api_key_cross_host(self):
+        import requests
+        s = self._build_session()
+        prep = requests.PreparedRequest()
+        prep.prepare(method="GET", url="https://other.example.com/file",
+                     headers={"X-API-Key": "leak", "Authorization": "Bearer x"})
+        resp = requests.Response()
+        orig = requests.PreparedRequest()
+        orig.prepare(method="GET", url="https://cloud.comfy.org/api/view", headers={})
+        resp.request = orig
+        s.rebuild_auth(prep, resp)
+        assert "X-API-Key" not in prep.headers
+        assert "Authorization" not in prep.headers
+
+    def test_preserves_x_api_key_same_host(self):
+        import requests
+        s = self._build_session()
+        prep = requests.PreparedRequest()
+        prep.prepare(method="GET", url="https://cloud.comfy.org/foo",
+                     headers={"X-API-Key": "keep"})
+        resp = requests.Response()
+        orig = requests.PreparedRequest()
+        orig.prepare(method="GET", url="https://cloud.comfy.org/bar", headers={})
+        resp.request = orig
+        s.rebuild_auth(prep, resp)
+        assert prep.headers.get("X-API-Key") == "keep"
+
+    def test_strips_cookie_cross_host(self):
+        import requests
+        s = self._build_session()
+        prep = requests.PreparedRequest()
+        prep.prepare(method="GET", url="https://other.example.com/x",
+                     headers={"Cookie": "session=secret"})
+        resp = requests.Response()
+        orig = requests.PreparedRequest()
+        orig.prepare(method="GET", url="https://cloud.comfy.org/foo", headers={})
+        resp.request = orig
+        s.rebuild_auth(prep, resp)
+        assert "Cookie" not in prep.headers
+
+
+# =============================================================================
+# Video workflow detection
+# =============================================================================
+
+class TestVideoWorkflow:
+    def test_image_workflow(self, sd15_workflow):
+        assert looks_like_video_workflow(sd15_workflow) is False
+
+    def test_animatediff_workflow(self, workflows_dir):
+        import json
+        wf = json.loads((workflows_dir / "animatediff_video.json").read_text())
+        assert looks_like_video_workflow(wf) is True
+
+    def test_wan_workflow(self, video_workflow):
+        assert looks_like_video_workflow(video_workflow) is True

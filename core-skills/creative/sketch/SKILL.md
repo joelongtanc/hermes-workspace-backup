@@ -1,1 +1,218 @@
-LS0tCm5hbWU6IHNrZXRjaApkZXNjcmlwdGlvbjogIlRocm93YXdheSBIVE1MIG1vY2t1cHM6IDItMyBkZXNpZ24gdmFyaWFudHMgdG8gY29tcGFyZS4iCnZlcnNpb246IDEuMC4wCmF1dGhvcjogSGVybWVzIEFnZW50IChhZGFwdGVkIGZyb20gZ3NkLWJ1aWxkL2dldC1zaGl0LWRvbmUpCmxpY2Vuc2U6IE1JVApwbGF0Zm9ybXM6IFtsaW51eCwgbWFjb3MsIHdpbmRvd3NdCm1ldGFkYXRhOgogIGhlcm1lczoKICAgIHRhZ3M6IFtza2V0Y2gsIG1vY2t1cCwgZGVzaWduLCB1aSwgcHJvdG90eXBlLCBodG1sLCB2YXJpYW50cywgZXhwbG9yYXRpb24sIHdpcmVmcmFtZSwgY29tcGFyaXNvbl0KICAgIHJlbGF0ZWRfc2tpbGxzOiBbc3Bpa2UsIGNsYXVkZS1kZXNpZ24sIHBvcHVsYXItd2ViLWRlc2lnbnMsIGV4Y2FsaWRyYXddCi0tLQoKIyBTa2V0Y2gKClVzZSB0aGlzIHNraWxsIHdoZW4gdGhlIHVzZXIgd2FudHMgdG8gKipzZWUgYSBkZXNpZ24gZGlyZWN0aW9uIGJlZm9yZSBjb21taXR0aW5nKiogdG8gb25lIOKAlCBleHBsb3JpbmcgYSBVSS9VWCBpZGVhIGFzIGRpc3Bvc2FibGUgSFRNTCBtb2NrdXBzLiBUaGUgcG9pbnQgaXMgdG8gZ2VuZXJhdGUgMi0zIGludGVyYWN0aXZlIHZhcmlhbnRzIHNvIHRoZSB1c2VyIGNhbiBjb21wYXJlIHZpc3VhbCBkaXJlY3Rpb25zIHNpZGUtYnktc2lkZSwgbm90IHRvIHByb2R1Y2Ugc2hpcHBhYmxlIGNvZGUuCgpMb2FkIHRoaXMgd2hlbiB0aGUgdXNlciBzYXlzIHRoaW5ncyBsaWtlICJza2V0Y2ggdGhpcyBzY3JlZW4iLCAic2hvdyBtZSB3aGF0IFggY291bGQgbG9vayBsaWtlIiwgImNvbXBhcmUgbGF5b3V0IEEgdnMgQiIsICJnaXZlIG1lIDItMyB0YWtlcyBvbiB0aGlzIFVJIiwgImxldCBtZSBzZWUgc29tZSB2YXJpYW50cyIsICJtb2NrdXAgdGhpcyBiZWZvcmUgSSBidWlsZCIuCgojIyBXaGVuIE5PVCB0byB1c2UgdGhpcwoKLSBVc2VyIHdhbnRzIGEgcHJvZHVjdGlvbiBjb21wb25lbnQg4oCUIHVzZSBgY2xhdWRlLWRlc2lnbmAgb3IgYnVpbGQgaXQgcHJvcGVybHkKLSBVc2VyIHdhbnRzIGEgcG9saXNoZWQgb25lLW9mZiBIVE1MIGFydGlmYWN0IChsYW5kaW5nIHBhZ2UsIGRlY2spIOKAlCBgY2xhdWRlLWRlc2lnbmAKLSBVc2VyIHdhbnRzIGEgZGlhZ3JhbSDigJQgYGV4Y2FsaWRyYXdgLCBgYXJjaGl0ZWN0dXJlLWRpYWdyYW1gCi0gVGhlIGRlc2lnbiBpcyBhbHJlYWR5IGxvY2tlZCDigJQganVzdCBidWlsZCBpdAoKIyMgSWYgdGhlIHVzZXIgaGFzIHRoZSBmdWxsIEdTRCBzeXN0ZW0gaW5zdGFsbGVkCgpJZiBgZ3NkLXNrZXRjaGAgc2hvd3MgdXAgYXMgYSBzaWJsaW5nIHNraWxsIChpbnN0YWxsZWQgdmlhIGBucHggZ2V0LXNoaXQtZG9uZS1jYyAtLWhlcm1lc2ApLCBwcmVmZXIgKipgZ3NkLXNrZXRjaGAqKiBmb3IgdGhlIGZ1bGwgd29ya2Zsb3c6IHBlcnNpc3RlbnQgYC5wbGFubmluZy9za2V0Y2hlcy9gIHdpdGggTUFOSUZFU1QsIGZyb250aWVyIG1vZGUgYW5hbHlzaXMsIGNvbnNpc3RlbmN5IGF1ZGl0cyBhY3Jvc3MgcGFzdCBza2V0Y2hlcywgYW5kIGludGVncmF0aW9uIHdpdGggdGhlIHJlc3Qgb2YgR1NELiBUaGlzIHNraWxsIGlzIHRoZSBsaWdodHdlaWdodCBzdGFuZGFsb25lIHZlcnNpb24g4oCUIG9uZS1vZmYgc2tldGNoaW5nIHdpdGhvdXQgdGhlIHN0YXRlIG1hY2hpbmVyeS4KCiMjIENvcmUgbWV0aG9kCgpgYGAKaW50YWtlICDihpIgIHZhcmlhbnRzICDihpIgIGhlYWQtdG8taGVhZCAg4oaSICBwaWNrIHdpbm5lciAob3IgaXRlcmF0ZSkKYGBgCgojIyMgMS4gSW50YWtlIChza2lwIGlmIHRoZSB1c2VyIGFscmVhZHkgZ2F2ZSB5b3UgZW5vdWdoKQoKQmVmb3JlIGdlbmVyYXRpbmcgdmFyaWFudHMsIGdldCB0aHJlZSB0aGluZ3Mg4oCUIG9uZSBxdWVzdGlvbiBhdCBhIHRpbWUsIG5vdCBhbGwgYXQgb25jZToKCjEuICoqRmVlbC4qKiAiV2hhdCBzaG91bGQgdGhpcyBmZWVsIGxpa2U/IEFkamVjdGl2ZXMsIGVtb3Rpb25zLCBhIHZpYmUuIiDigJQgKiJjYWxtLCBlZGl0b3JpYWwsIGxpa2UgTGluZWFyIiogdGVsbHMgeW91IG1vcmUgdGhhbiAqIm1pbmltYWwiKi4KMi4gKipSZWZlcmVuY2VzLioqICJXaGF0IGFwcHMsIHNpdGVzLCBvciBwcm9kdWN0cyBjYXB0dXJlIHRoZSBmZWVsIHlvdSdyZSBpbWFnaW5pbmc/IiDigJQgYWN0dWFsIHJlZmVyZW5jZXMgYmVhdCBhYnN0cmFjdCBkZXNjcmlwdGlvbnMuCjMuICoqQ29yZSBhY3Rpb24uKiogIldoYXQncyB0aGUgc2luZ2xlIG1vc3QgaW1wb3J0YW50IHRoaW5nIGEgdXNlciBkb2VzIG9uIHRoaXMgc2NyZWVuPyIg4oCUIHRoZSB2YXJpYW50cyBzaG91bGQgYWxsIHNlcnZlIHRoaXMgd2VsbDsgaWYgdGhleSBkb24ndCwgdGhleSdyZSBqdXN0IGRlY29yYXRpb24uCgpSZWZsZWN0IGVhY2ggYW5zd2VyIGJyaWVmbHkgYmVmb3JlIHRoZSBuZXh0IHF1ZXN0aW9uLiBJZiB0aGUgdXNlciBhbHJlYWR5IGdhdmUgeW91IGFsbCB0aHJlZSB1cGZyb250LCBza2lwIHN0cmFpZ2h0IHRvIHZhcmlhbnRzLgoKIyMjIDIuIFZhcmlhbnRzICgyLTMsIG5ldmVyIDEsIHJhcmVseSA0KykKClByb2R1Y2UgKioyLTMgdmFyaWFudHMqKiBpbiBvbmUgZ28uIEVhY2ggdmFyaWFudCBpcyBhIGNvbXBsZXRlLCBzdGFuZGFsb25lIEhUTUwgZmlsZS4gRG9uJ3QgZGVzY3JpYmUgdmFyaWFudHMg4oCUIGJ1aWxkIHRoZW0uIFRoZSBwb2ludCBpcyBjb21wYXJpc29uLgoKRWFjaCB2YXJpYW50IHNob3VsZCB0YWtlIGEgKipkaWZmZXJlbnQgZGVzaWduIHN0YW5jZSoqLCBub3QgZGlmZmVyZW50IHBpeGVsIHZhbHVlcy4gVGhyZWUgZ29vZCB2YXJpYW50IGF4ZXM6CgotICoqRGVuc2l0eToqKiBjb21wYWN0IC8gYWlyeSAvIHVsdHJhLWRlbnNlIChwaWNrIHR3byBjb250cmFzdGluZyBwb2xlcykKLSAqKkVtcGhhc2lzOioqIGNvbnRlbnQtZmlyc3QgLyBhY3Rpb24tZmlyc3QgLyB0b29sLWZpcnN0Ci0gKipBZXN0aGV0aWM6KiogZWRpdG9yaWFsIC8gdXRpbGl0YXJpYW4gLyBwbGF5ZnVsCi0gKipMYXlvdXQ6Kiogc2luZ2xlLWNvbHVtbiAvIHNpZGViYXIgLyBzcGxpdC1wYW5lCi0gKipHcm91bmRpbmc6KiogY2FyZC1iYXNlZCAvIGJhcmUtY29udGVudCAvIGRvY3VtZW50LXN0eWxlCgpQaWNrIG9uZSBheGlzIGFuZCBwdWxsIGFwYXJ0IGZyb20gaXQuIFR3byB2YXJpYW50cyB0aGF0IGRpZmZlciBvbmx5IGluIGFjY2VudCBjb2xvciBhcmUgd2FzdGVkIGVmZm9ydCDigJQgdGhlIHVzZXIgY2FuJ3QgZGlzdGluZ3Vpc2ggdGhlbS4KCioqVmFyaWFudCBuYW1pbmc6KiogZGVzY3JpYmUgdGhlIHN0YW5jZSwgbm90IHRoZSBudW1iZXIuCgpgYGAKc2tldGNoZXMvCuKUnOKUgOKUgCAwMDEtY2FsbS1lZGl0b3JpYWwvCuKUgiAgIOKUnOKUgOKUgCBpbmRleC5odG1sCuKUgiAgIOKUlOKUgOKUgCBSRUFETUUubWQK4pSc4pSA4pSAIDAwMS11dGlsaXRhcmlhbi1kZW5zZS8K4pSCICAg4pSc4pSA4pSAIGluZGV4Lmh0bWwK4pSCICAg4pSU4pSA4pSAIFJFQURNRS5tZArilJTilIDilIAgMDAxLXBsYXlmdWwtc3BsaXQvCiAgICDilJzilIDilIAgaW5kZXguaHRtbAogICAg4pSU4pSA4pSAIFJFQURNRS5tZApgYGAKCiMjIyAzLiBNYWtlIHRoZW0gcmVhbCBIVE1MCgpFYWNoIHZhcmlhbnQgaXMgYSAqKnNpbmdsZSBzZWxmLWNvbnRhaW5lZCBIVE1MIGZpbGUqKjoKCi0gSW5saW5lIGA8c3R5bGU+YCDigJQgbm8gYnVpbGQgc3RlcCwgbm8gZXh0ZXJuYWwgQ1NTCi0gU3lzdGVtIGZvbnRzIG9yIG9uZSBHb29nbGUgRm9udCB2aWEgYDxsaW5rPmAKLSBUYWlsd2luZCB2aWEgQ0ROIChgPHNjcmlwdCBzcmM9Imh0dHBzOi8vY2RuLnRhaWx3aW5kY3NzLmNvbSI+PC9zY3JpcHQ+YCkgaXMgZmluZQotIFJlYWxpc3RpYyBmYWtlIGNvbnRlbnQg4oCUIGFjdHVhbCBzZW50ZW5jZXMsIGFjdHVhbCBuYW1lcywgbm90ICJMb3JlbSBpcHN1bSIKLSAqKkludGVyYWN0aXZlKio6IGxpbmtzIGNsaWNrYWJsZSwgaG92ZXJzIHJlYWwsIGF0IGxlYXN0IG9uZSBzdGF0ZSB0cmFuc2l0aW9uIChvcGVuL2Nsb3NlLCBmaWx0ZXIsIHRvZ2dsZSkuIEEgZnJvemVuIHN0YXRpYyBpbWFnZSBpcyBhIHdvcnNlIHNwaWtlIHRoYW4gYSBzbG9wcHkgYW5pbWF0ZWQgb25lLgoKT3BlbiBpdCBpbiBhIGJyb3dzZXIuIElmIGl0IGxvb2tzIGJyb2tlbiwgZml4IGl0IGJlZm9yZSBzaG93aW5nIHRoZSB1c2VyLgoKKipWZXJpZnkgdmFyaWFudHMgdmlzdWFsbHkg4oCUIHVzZSBIZXJtZXMnIGJyb3dzZXIgdG9vbHMuKiogRG9uJ3QganVzdCB3cml0ZSBIVE1MIGFuZCBob3BlIGl0IHJlbmRlcnM7IGxvYWQgZWFjaCB2YXJpYW50IGFuZCBsb29rIGF0IGl0OgoKYGBgCmJyb3dzZXJfbmF2aWdhdGUodXJsPSJmaWxlOi8vL2Fic29sdXRlL3BhdGgvdG8vc2tldGNoZXMvMDAxLWNhbG0tZWRpdG9yaWFsL2luZGV4Lmh0bWwiKQpicm93c2VyX3Zpc2lvbihxdWVzdGlvbj0iRG9lcyB0aGlzIGxheW91dCBsb29rIGNsZWFuIGFuZCByZWFkYWJsZT8gQW55IHZpc2libGUgYnVncyAob3ZlcmxhcHBpbmcgdGV4dCwgdW5zdHlsZWQgZWxlbWVudHMsIGJyb2tlbiBpbWFnZXMpPyIpCmBgYAoKYGJyb3dzZXJfdmlzaW9uYCByZXR1cm5zIGFuIEFJIGRlc2NyaXB0aW9uIG9mIHdoYXQncyBhY3R1YWxseSBvbiB0aGUgcGFnZSBwbHVzIGEgc2NyZWVuc2hvdCBwYXRoIOKAlCBjYXRjaGVzIGxheW91dCBidWdzIHRoYXQgcHVyZSBzb3VyY2UgaW5zcGVjdGlvbiBtaXNzZXMgKGUuZy4gYSBmb250IGltcG9ydCB0aGF0IHNpbGVudGx5IGZhaWxlZCwgYSBmbGV4IGNvbnRhaW5lciB0aGF0IGNvbGxhcHNlZCkuIEZpeCBhbmQgcmUtbmF2aWdhdGUgdW50aWwgZWFjaCB2YXJpYW50IGxvb2tzIHJpZ2h0LgoKKipEZWZhdWx0IENTUyByZXNldCArIHN5c3RlbSBmb250IHN0YWNrKiogZm9yIGZhc3Qgc3RhcnRzOgoKYGBgaHRtbAo8c3R5bGU+CiAgKiB7IGJveC1zaXppbmc6IGJvcmRlci1ib3g7IG1hcmdpbjogMDsgcGFkZGluZzogMDsgfQogIGJvZHkgewogICAgZm9udC1mYW1pbHk6IC1hcHBsZS1zeXN0ZW0sIEJsaW5rTWFjU3lzdGVtRm9udCwgIlNlZ29lIFVJIiwgUm9ib3RvLAogICAgICAgICAgICAgICAgICJIZWx2ZXRpY2EgTmV1ZSIsIEFyaWFsLCBzYW5zLXNlcmlmOwogICAgLXdlYmtpdC1mb250LXNtb290aGluZzogYW50aWFsaWFzZWQ7CiAgICBjb2xvcjogIzFhMWExYTsKICAgIGJhY2tncm91bmQ6ICNmYWZhZmE7CiAgICBsaW5lLWhlaWdodDogMS41OwogIH0KPC9zdHlsZT4KYGBgCgojIyMgNC4gVmFyaWFudCBSRUFETUUKCkVhY2ggdmFyaWFudCdzIGBSRUFETUUubWRgIGFuc3dlcnM6CgpgYGBtYXJrZG93bgojIyBWYXJpYW50OiB7c3RhbmNlIG5hbWV9CgojIyMgRGVzaWduIHN0YW5jZQpPbmUgc2VudGVuY2Ugb24gdGhlIHByaW5jaXBsZSBkcml2aW5nIHRoaXMgdmFyaWFudC4KCiMjIyBLZXkgY2hvaWNlcwotIExheW91dDogLi4uCi0gVHlwb2dyYXBoeTogLi4uCi0gQ29sb3I6IC4uLgotIEludGVyYWN0aW9uOiAuLi4KCiMjIyBUcmFkZS1vZmZzCi0gU3Ryb25nIGF0OiAuLi4KLSBXZWFrIGF0OiAuLi4KCiMjIyBCZXN0IGZvcgotIFRoZSBraW5kIG9mIHVzZXIgb3IgdXNlIGNhc2UgdGhpcyB2YXJpYW50IGFjdHVhbGx5IHNlcnZlcwpgYGAKCiMjIyA1LiBIZWFkLXRvLWhlYWQKCkFmdGVyIGFsbCB2YXJpYW50cyBhcmUgYnVpbHQsIHByZXNlbnQgdGhlbSBhcyBhIGNvbXBhcmlzb24uIERvbid0IGp1c3QgbGlzdCDigJQgKipvcGluaW9uYXRlKio6CgpgYGBtYXJrZG93bgojIyBUaHJlZSB0YWtlcyBvbiB0aGUgaG9tZSBzY3JlZW4KCnwgRGltZW5zaW9uIHwgQ2FsbSBlZGl0b3JpYWwgfCBVdGlsaXRhcmlhbiBkZW5zZSB8IFBsYXlmdWwgc3BsaXQgfAp8LS0tLS0tLS0tLS18LS0tLS0tLS0tLS0tLS0tLXwtLS0tLS0tLS0tLS0tLS0tLS0tfC0tLS0tLS0tLS0tLS0tLXwKfCBEZW5zaXR5ICAgfCBMb3cgICAgICAgICAgICB8IEhpZ2ggICAgICAgICAgICAgIHwgTWVkaXVtICAgICAgICB8CnwgUHJpbWFyeSBhY3Rpb24gdmlzaWJpbGl0eSB8IExvdyB8IEhpZ2ggfCBNZWRpdW0gfAp8IFNjYW4tYWJpbGl0eSB8IEhpZ2ggfCBNZWRpdW0gfCBMb3cgfAp8IEZlZWwgfCBDYWxtLCB0cnVzdGVkIHwgU2hhcnAsIHRvb2wtbGlrZSB8IEludml0aW5nLCBlbmVyZ2V0aWMgfAoKKipNeSB0YWtlOioqIFV0aWxpdGFyaWFuIGRlbnNlIGZvciBwb3dlciB1c2VycywgY2FsbSBlZGl0b3JpYWwgZm9yIGNvbnRlbnQtZm9yd2FyZCBhdWRpZW5jZXMuIFBsYXlmdWwgc3BsaXQgaXMgd2Vha2VzdCDigJQgdHJpZXMgdG8gZG8gYm90aCBhbmQgY29tbWl0cyB0byBuZWl0aGVyLgpgYGAKCkxldCB0aGUgdXNlciBwaWNrIGEgd2lubmVyLCBvciBjb21iaW5lIHR3byBpbnRvIGEgaHlicmlkLCBvciBhc2sgZm9yIGFub3RoZXIgcm91bmQuCgojIyBUaGVtaW5nICh3aGVuIHRoZSBwcm9qZWN0IGhhcyBhIHZpc3VhbCBpZGVudGl0eSkKCklmIHRoZSB1c2VyIGhhcyBhbiBleGlzdGluZyB0aGVtZSAoY29sb3JzLCBmb250cywgdG9rZW5zKSwgcHV0IHNoYXJlZCB0b2tlbnMgaW4gYHNrZXRjaGVzL3RoZW1lcy90b2tlbnMuY3NzYCBhbmQgYEBpbXBvcnRgIHRoZW0gaW4gZWFjaCB2YXJpYW50LiBLZWVwIHRva2VucyBtaW5pbWFsOgoKYGBgY3NzCi8qIHNrZXRjaGVzL3RoZW1lcy90b2tlbnMuY3NzICovCjpyb290IHsKICAtLWNvbG9yLWJnOiAjZmFmYWZhOwogIC0tY29sb3ItZmc6ICMxYTFhMWE7CiAgLS1jb2xvci1hY2NlbnQ6ICMwMDY2ZmY7CiAgLS1jb2xvci1tdXRlZDogIzY2NjsKICAtLXJhZGl1czogOHB4OwogIC0tZm9udC1kaXNwbGF5OiAiSW50ZXIiLCBzYW5zLXNlcmlmOwogIC0tZm9udC1ib2R5OiAtYXBwbGUtc3lzdGVtLCBCbGlua01hY1N5c3RlbUZvbnQsIHNhbnMtc2VyaWY7Cn0KYGBgCgpEb24ndCBvdmVyLXRva2VuaXplIGEgdGhyb3dhd2F5IHNrZXRjaCDigJQgdGhyZWUgY29sb3JzIGFuZCBvbmUgZm9udCBpcyB1c3VhbGx5IGVub3VnaC4KCiMjIEludGVyYWN0aXZpdHkgYmFyCgpBIHNrZXRjaCBpcyBpbnRlcmFjdGl2ZSBlbm91Z2ggd2hlbiB0aGUgdXNlciBjYW46CgoxLiAqKkNsaWNrIGEgcHJpbWFyeSBhY3Rpb24qKiBhbmQgc29tZXRoaW5nIHZpc2libGUgaGFwcGVucyAoc3RhdGUgY2hhbmdlLCBtb2RhbCwgdG9hc3QsIG5hdmlnYXRpb24gZmVpbnQpCjIuICoqU2VlIG9uZSBtZWFuaW5nZnVsIHN0YXRlIHRyYW5zaXRpb24qKiAoZmlsdGVyIGEgbGlzdCwgdG9nZ2xlIGEgbW9kZSwgb3Blbi9jbG9zZSBhIHBhbmVsKQozLiAqKkhvdmVyIHJlY29nbml6YWJsZSBhZmZvcmRhbmNlcyoqIChidXR0b25zLCByb3dzLCB0YWJzKQoKTW9yZSB0aGFuIHRoYXQgaXMgb3Zlci1lbmdpbmVlcmluZyBhIHRocm93YXdheS4gTGVzcyB0aGFuIHRoYXQgaXMgYSBzY3JlZW5zaG90LgoKIyMgRnJvbnRpZXIgbW9kZSAocGlja2luZyB3aGF0IHRvIHNrZXRjaCBuZXh0KQoKSWYgc2tldGNoZXMgYWxyZWFkeSBleGlzdCBhbmQgdGhlIHVzZXIgc2F5cyAid2hhdCBzaG91bGQgSSBza2V0Y2ggbmV4dD8iOgoKLSAqKkNvbnNpc3RlbmN5IGdhcHMqKiDigJQgdHdvIHdpbm5pbmcgdmFyaWFudHMgZnJvbSBkaWZmZXJlbnQgc2tldGNoZXMgbWFkZSBpbmRlcGVuZGVudCBjaG9pY2VzIHRoYXQgaGF2ZW4ndCBiZWVuIGNvbXBvc2VkIHRvZ2V0aGVyIHlldAotICoqVW5za2V0Y2hlZCBzY3JlZW5zKiog4oCUIHJlZmVyZW5jZWQgYnV0IG5ldmVyIGV4cGxvcmVkCi0gKipTdGF0ZSBjb3ZlcmFnZSoqIOKAlCBoYXBweSBwYXRoIHNrZXRjaGVkLCBidXQgbm90IGVtcHR5IC8gbG9hZGluZyAvIGVycm9yIC8gMTAwMC1pdGVtcwotICoqUmVzcG9uc2l2ZSBnYXBzKiog4oCUIHZhbGlkYXRlZCBhdCBvbmUgdmlld3BvcnQ7IGRvZXMgaXQgaG9sZCBhdCBtb2JpbGUgLyB1bHRyYXdpZGU/Ci0gKipJbnRlcmFjdGlvbiBwYXR0ZXJucyoqIOKAlCBzdGF0aWMgbGF5b3V0cyBleGlzdDsgdHJhbnNpdGlvbnMsIGRyYWcsIHNjcm9sbCBiZWhhdmlvciBkb24ndAoKUHJvcG9zZSAyLTQgbmFtZWQgY2FuZGlkYXRlcy4gTGV0IHRoZSB1c2VyIHBpY2suCgojIyBPdXRwdXQKCi0gQ3JlYXRlIGBza2V0Y2hlcy9gIChvciBgLnBsYW5uaW5nL3NrZXRjaGVzL2AgaWYgdGhlIHVzZXIgaXMgdXNpbmcgR1NEIGNvbnZlbnRpb25zKSBpbiB0aGUgcmVwbyByb290Ci0gT25lIHN1YmRpciBwZXIgdmFyaWFudDogYE5OTi1zdGFuY2UtbmFtZS9pbmRleC5odG1sYCArIGBSRUFETUUubWRgCi0gVGVsbCB0aGUgdXNlciBob3cgdG8gb3BlbiB0aGVtOiBgb3BlbiBza2V0Y2hlcy8wMDEtY2FsbS1lZGl0b3JpYWwvaW5kZXguaHRtbGAgb24gbWFjT1MsIGB4ZGctb3BlbmAgb24gTGludXgsIGBzdGFydGAgb24gV2luZG93cwotIEtlZXAgdmFyaWFudHMgZGlzcG9zYWJsZSDigJQgYSBza2V0Y2ggdGhhdCB5b3UgZmVsdCB0aGUgbmVlZCB0byBwcmVzZXJ2ZSBzaG91bGQgYmUgcHJvbW90ZWQgaW50byByZWFsIHByb2plY3QgY29kZSwgbm90IGN1cmF0ZWQgYXMgYW4gYXNzZXQKCioqVHlwaWNhbCB0b29sIHNlcXVlbmNlIGZvciBvbmUgdmFyaWFudDoqKgoKYGBgCnRlcm1pbmFsKCJta2RpciAtcCBza2V0Y2hlcy8wMDEtY2FsbS1lZGl0b3JpYWwiKQp3cml0ZV9maWxlKCJza2V0Y2hlcy8wMDEtY2FsbS1lZGl0b3JpYWwvaW5kZXguaHRtbCIsICI8IWRvY3R5cGUgaHRtbD4uLi4iKQp3cml0ZV9maWxlKCJza2V0Y2hlcy8wMDEtY2FsbS1lZGl0b3JpYWwvUkVBRE1FLm1kIiwgIiMjIFZhcmlhbnQ6IENhbG0gZWRpdG9yaWFsXG4uLi4iKQpicm93c2VyX25hdmlnYXRlKHVybD0iZmlsZTovLyQocHdkKS9za2V0Y2hlcy8wMDEtY2FsbS1lZGl0b3JpYWwvaW5kZXguaHRtbCIpCmJyb3dzZXJfdmlzaW9uKHF1ZXN0aW9uPSJIb3cgZG9lcyB0aGlzIGxvb2s/IEFueSBvYnZpb3VzIGxheW91dCBpc3N1ZXM/IikKYGBgCgpSZXBlYXQgZm9yIGVhY2ggdmFyaWFudCwgdGhlbiBwcmVzZW50IHRoZSBjb21wYXJpc29uIHRhYmxlLgoKIyMgQXR0cmlidXRpb24KCkFkYXB0ZWQgZnJvbSB0aGUgR1NEIChHZXQgU2hpdCBEb25lKSBwcm9qZWN0J3MgYC9nc2Qtc2tldGNoYCB3b3JrZmxvdyDigJQgTUlUIMKpIDIwMjUgTGV4IENocmlzdG9waGVyc29uIChbZ3NkLWJ1aWxkL2dldC1zaGl0LWRvbmVdKGh0dHBzOi8vZ2l0aHViLmNvbS9nc2QtYnVpbGQvZ2V0LXNoaXQtZG9uZSkpLiBUaGUgZnVsbCBHU0Qgc3lzdGVtIHNoaXBzIHBlcnNpc3RlbnQgc2tldGNoIHN0YXRlLCB0aGVtZS92YXJpYW50IHBhdHRlcm4gcmVmZXJlbmNlcywgYW5kIGNvbnNpc3RlbmN5LWF1ZGl0IHdvcmtmbG93czsgaW5zdGFsbCB3aXRoIGBucHggZ2V0LXNoaXQtZG9uZS1jYyAtLWhlcm1lcyAtLWdsb2JhbGAuCg==
+---
+name: sketch
+description: "Throwaway HTML mockups: 2-3 design variants to compare."
+version: 1.0.0
+author: Hermes Agent (adapted from gsd-build/get-shit-done)
+license: MIT
+platforms: [linux, macos, windows]
+metadata:
+  hermes:
+    tags: [sketch, mockup, design, ui, prototype, html, variants, exploration, wireframe, comparison]
+    related_skills: [spike, claude-design, popular-web-designs, excalidraw]
+---
+
+# Sketch
+
+Use this skill when the user wants to **see a design direction before committing** to one — exploring a UI/UX idea as disposable HTML mockups. The point is to generate 2-3 interactive variants so the user can compare visual directions side-by-side, not to produce shippable code.
+
+Load this when the user says things like "sketch this screen", "show me what X could look like", "compare layout A vs B", "give me 2-3 takes on this UI", "let me see some variants", "mockup this before I build".
+
+## When NOT to use this
+
+- User wants a production component — use `claude-design` or build it properly
+- User wants a polished one-off HTML artifact (landing page, deck) — `claude-design`
+- User wants a diagram — `excalidraw`, `architecture-diagram`
+- The design is already locked — just build it
+
+## If the user has the full GSD system installed
+
+If `gsd-sketch` shows up as a sibling skill (installed via `npx get-shit-done-cc --hermes`), prefer **`gsd-sketch`** for the full workflow: persistent `.planning/sketches/` with MANIFEST, frontier mode analysis, consistency audits across past sketches, and integration with the rest of GSD. This skill is the lightweight standalone version — one-off sketching without the state machinery.
+
+## Core method
+
+```
+intake  →  variants  →  head-to-head  →  pick winner (or iterate)
+```
+
+### 1. Intake (skip if the user already gave you enough)
+
+Before generating variants, get three things — one question at a time, not all at once:
+
+1. **Feel.** "What should this feel like? Adjectives, emotions, a vibe." — *"calm, editorial, like Linear"* tells you more than *"minimal"*.
+2. **References.** "What apps, sites, or products capture the feel you're imagining?" — actual references beat abstract descriptions.
+3. **Core action.** "What's the single most important thing a user does on this screen?" — the variants should all serve this well; if they don't, they're just decoration.
+
+Reflect each answer briefly before the next question. If the user already gave you all three upfront, skip straight to variants.
+
+### 2. Variants (2-3, never 1, rarely 4+)
+
+Produce **2-3 variants** in one go. Each variant is a complete, standalone HTML file. Don't describe variants — build them. The point is comparison.
+
+Each variant should take a **different design stance**, not different pixel values. Three good variant axes:
+
+- **Density:** compact / airy / ultra-dense (pick two contrasting poles)
+- **Emphasis:** content-first / action-first / tool-first
+- **Aesthetic:** editorial / utilitarian / playful
+- **Layout:** single-column / sidebar / split-pane
+- **Grounding:** card-based / bare-content / document-style
+
+Pick one axis and pull apart from it. Two variants that differ only in accent color are wasted effort — the user can't distinguish them.
+
+**Variant naming:** describe the stance, not the number.
+
+```
+sketches/
+├── 001-calm-editorial/
+│   ├── index.html
+│   └── README.md
+├── 001-utilitarian-dense/
+│   ├── index.html
+│   └── README.md
+└── 001-playful-split/
+    ├── index.html
+    └── README.md
+```
+
+### 3. Make them real HTML
+
+Each variant is a **single self-contained HTML file**:
+
+- Inline `<style>` — no build step, no external CSS
+- System fonts or one Google Font via `<link>`
+- Tailwind via CDN (`<script src="https://cdn.tailwindcss.com"></script>`) is fine
+- Realistic fake content — actual sentences, actual names, not "Lorem ipsum"
+- **Interactive**: links clickable, hovers real, at least one state transition (open/close, filter, toggle). A frozen static image is a worse spike than a sloppy animated one.
+
+Open it in a browser. If it looks broken, fix it before showing the user.
+
+**Verify variants visually — use Hermes' browser tools.** Don't just write HTML and hope it renders; load each variant and look at it:
+
+```
+browser_navigate(url="file:///absolute/path/to/sketches/001-calm-editorial/index.html")
+browser_vision(question="Does this layout look clean and readable? Any visible bugs (overlapping text, unstyled elements, broken images)?")
+```
+
+`browser_vision` returns an AI description of what's actually on the page plus a screenshot path — catches layout bugs that pure source inspection misses (e.g. a font import that silently failed, a flex container that collapsed). Fix and re-navigate until each variant looks right.
+
+**Default CSS reset + system font stack** for fast starts:
+
+```html
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+                 "Helvetica Neue", Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    color: #1a1a1a;
+    background: #fafafa;
+    line-height: 1.5;
+  }
+</style>
+```
+
+### 4. Variant README
+
+Each variant's `README.md` answers:
+
+```markdown
+## Variant: {stance name}
+
+### Design stance
+One sentence on the principle driving this variant.
+
+### Key choices
+- Layout: ...
+- Typography: ...
+- Color: ...
+- Interaction: ...
+
+### Trade-offs
+- Strong at: ...
+- Weak at: ...
+
+### Best for
+- The kind of user or use case this variant actually serves
+```
+
+### 5. Head-to-head
+
+After all variants are built, present them as a comparison. Don't just list — **opinionate**:
+
+```markdown
+## Three takes on the home screen
+
+| Dimension | Calm editorial | Utilitarian dense | Playful split |
+|-----------|----------------|-------------------|---------------|
+| Density   | Low            | High              | Medium        |
+| Primary action visibility | Low | High | Medium |
+| Scan-ability | High | Medium | Low |
+| Feel | Calm, trusted | Sharp, tool-like | Inviting, energetic |
+
+**My take:** Utilitarian dense for power users, calm editorial for content-forward audiences. Playful split is weakest — tries to do both and commits to neither.
+```
+
+Let the user pick a winner, or combine two into a hybrid, or ask for another round.
+
+## Theming (when the project has a visual identity)
+
+If the user has an existing theme (colors, fonts, tokens), put shared tokens in `sketches/themes/tokens.css` and `@import` them in each variant. Keep tokens minimal:
+
+```css
+/* sketches/themes/tokens.css */
+:root {
+  --color-bg: #fafafa;
+  --color-fg: #1a1a1a;
+  --color-accent: #0066ff;
+  --color-muted: #666;
+  --radius: 8px;
+  --font-display: "Inter", sans-serif;
+  --font-body: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+```
+
+Don't over-tokenize a throwaway sketch — three colors and one font is usually enough.
+
+## Interactivity bar
+
+A sketch is interactive enough when the user can:
+
+1. **Click a primary action** and something visible happens (state change, modal, toast, navigation feint)
+2. **See one meaningful state transition** (filter a list, toggle a mode, open/close a panel)
+3. **Hover recognizable affordances** (buttons, rows, tabs)
+
+More than that is over-engineering a throwaway. Less than that is a screenshot.
+
+## Frontier mode (picking what to sketch next)
+
+If sketches already exist and the user says "what should I sketch next?":
+
+- **Consistency gaps** — two winning variants from different sketches made independent choices that haven't been composed together yet
+- **Unsketched screens** — referenced but never explored
+- **State coverage** — happy path sketched, but not empty / loading / error / 1000-items
+- **Responsive gaps** — validated at one viewport; does it hold at mobile / ultrawide?
+- **Interaction patterns** — static layouts exist; transitions, drag, scroll behavior don't
+
+Propose 2-4 named candidates. Let the user pick.
+
+## Output
+
+- Create `sketches/` (or `.planning/sketches/` if the user is using GSD conventions) in the repo root
+- One subdir per variant: `NNN-stance-name/index.html` + `README.md`
+- Tell the user how to open them: `open sketches/001-calm-editorial/index.html` on macOS, `xdg-open` on Linux, `start` on Windows
+- Keep variants disposable — a sketch that you felt the need to preserve should be promoted into real project code, not curated as an asset
+
+**Typical tool sequence for one variant:**
+
+```
+terminal("mkdir -p sketches/001-calm-editorial")
+write_file("sketches/001-calm-editorial/index.html", "<!doctype html>...")
+write_file("sketches/001-calm-editorial/README.md", "## Variant: Calm editorial\n...")
+browser_navigate(url="file://$(pwd)/sketches/001-calm-editorial/index.html")
+browser_vision(question="How does this look? Any obvious layout issues?")
+```
+
+Repeat for each variant, then present the comparison table.
+
+## Attribution
+
+Adapted from the GSD (Get Shit Done) project's `/gsd-sketch` workflow — MIT © 2025 Lex Christopherson ([gsd-build/get-shit-done](https://github.com/gsd-build/get-shit-done)). The full GSD system ships persistent sketch state, theme/variant pattern references, and consistency-audit workflows; install with `npx get-shit-done-cc --hermes --global`.

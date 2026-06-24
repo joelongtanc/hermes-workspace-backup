@@ -1,1 +1,28 @@
-IyEvYmluL2Jhc2gKIyBwNS5qcyBTa2lsbCDigJQgTG9jYWwgRGV2ZWxvcG1lbnQgU2VydmVyCiMgU2VydmVzIHRoZSBjdXJyZW50IGRpcmVjdG9yeSBvdmVyIEhUVFAgZm9yIGxvYWRpbmcgbG9jYWwgYXNzZXRzIChmb250cywgaW1hZ2VzKQojCiMgVXNhZ2U6CiMgICBiYXNoIHNjcmlwdHMvc2VydmUuc2ggW3BvcnRdIFtkaXJlY3RvcnldCiMKIyBFeGFtcGxlczoKIyAgIGJhc2ggc2NyaXB0cy9zZXJ2ZS5zaCAgICAgICAgICAgICAgICAgICAgIyBzZXJ2ZSBDV0Qgb24gcG9ydCA4MDgwCiMgICBiYXNoIHNjcmlwdHMvc2VydmUuc2ggMzAwMCAgICAgICAgICAgICAgICMgc2VydmUgQ1dEIG9uIHBvcnQgMzAwMAojICAgYmFzaCBzY3JpcHRzL3NlcnZlLnNoIDgwODAgLi9teS1wcm9qZWN0ICAjIHNlcnZlIHNwZWNpZmljIGRpcmVjdG9yeQoKUE9SVD0iJHsxOi04MDgwfSIKRElSPSIkezI6LS59IgoKZWNobyAiPT09IHA1LmpzIERldiBTZXJ2ZXIgPT09IgplY2hvICJTZXJ2aW5nOiAkKGNkICIkRElSIiAmJiBwd2QpIgplY2hvICJVUkw6ICAgICBodHRwOi8vbG9jYWxob3N0OiRQT1JUIgplY2hvICJQcmVzcyBDdHJsK0MgdG8gc3RvcCIKZWNobyAiIgoKY2QgIiRESVIiICYmIHB5dGhvbjMgLW0gaHR0cC5zZXJ2ZXIgIiRQT1JUIiAyPi9kZXYvbnVsbCB8fCB7CiAgZWNobyAiUHl0aG9uMyBub3QgZm91bmQuIFRyeWluZyBOb2RlLmpzLi4uIgogIG5weCBzZXJ2ZSAtbCAiJFBPUlQiICIkRElSIiAyPi9kZXYvbnVsbCB8fCB7CiAgICBlY2hvICJFcnJvcjogTmVlZCBweXRob24zIG9yIG5weCAoTm9kZS5qcykgZm9yIGxvY2FsIHNlcnZlciIKICAgIGV4aXQgMQogIH0KfQo=
+#!/bin/bash
+# p5.js Skill — Local Development Server
+# Serves the current directory over HTTP for loading local assets (fonts, images)
+#
+# Usage:
+#   bash scripts/serve.sh [port] [directory]
+#
+# Examples:
+#   bash scripts/serve.sh                    # serve CWD on port 8080
+#   bash scripts/serve.sh 3000               # serve CWD on port 3000
+#   bash scripts/serve.sh 8080 ./my-project  # serve specific directory
+
+PORT="${1:-8080}"
+DIR="${2:-.}"
+
+echo "=== p5.js Dev Server ==="
+echo "Serving: $(cd "$DIR" && pwd)"
+echo "URL:     http://localhost:$PORT"
+echo "Press Ctrl+C to stop"
+echo ""
+
+cd "$DIR" && python3 -m http.server "$PORT" 2>/dev/null || {
+  echo "Python3 not found. Trying Node.js..."
+  npx serve -l "$PORT" "$DIR" 2>/dev/null || {
+    echo "Error: Need python3 or npx (Node.js) for local server"
+    exit 1
+  }
+}

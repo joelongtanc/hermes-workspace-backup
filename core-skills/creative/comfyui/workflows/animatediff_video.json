@@ -1,1 +1,64 @@
-ewogICJfY29tbWVudCI6ICJBbmltYXRlRGlmZiB0ZXh0LXRvLXZpZGVvIGF0IDE2IGZyYW1lcy4gUmVxdWlyZWQ6IGNvbWZ5dWktYW5pbWF0ZWRpZmYtZXZvbHZlZCArIGNvbWZ5dWktdmlkZW9oZWxwZXJzdWl0ZSBjdXN0b20gbm9kZXM7IFNEMS41IGNoZWNrcG9pbnQ7IEFuaW1hdGVEaWZmIG1vdGlvbiBtb2R1bGUgKGUuZy4gbW1fc2RfdjE1X3YyLmNrcHQgaW4gbW9kZWxzL2FuaW1hdGVkaWZmX21vZGVscy8pLiBPdXRwdXRzIGEgd2VicCBhbmltYXRpb24uIiwKICAiMyI6IHsKICAgICJjbGFzc190eXBlIjogIktTYW1wbGVyIiwKICAgICJfbWV0YSI6IHsidGl0bGUiOiAiS1NhbXBsZXIifSwKICAgICJpbnB1dHMiOiB7CiAgICAgICJzZWVkIjogNDIsICJzdGVwcyI6IDI1LCAiY2ZnIjogNy41LAogICAgICAic2FtcGxlcl9uYW1lIjogImRwbXBwX3NkZSIsICJzY2hlZHVsZXIiOiAia2FycmFzIiwgImRlbm9pc2UiOiAxLjAsCiAgICAgICJtb2RlbCI6IFsiMTAiLCAwXSwKICAgICAgInBvc2l0aXZlIjogWyI2IiwgMF0sCiAgICAgICJuZWdhdGl2ZSI6IFsiNyIsIDBdLAogICAgICAibGF0ZW50X2ltYWdlIjogWyI1IiwgMF0KICAgIH0KICB9LAogICI0IjogewogICAgImNsYXNzX3R5cGUiOiAiQ2hlY2twb2ludExvYWRlclNpbXBsZSIsCiAgICAiX21ldGEiOiB7InRpdGxlIjogIkNoZWNrcG9pbnQifSwKICAgICJpbnB1dHMiOiB7ImNrcHRfbmFtZSI6ICJ2MS01LXBydW5lZC1lbWFvbmx5LnNhZmV0ZW5zb3JzIn0KICB9LAogICI1IjogewogICAgImNsYXNzX3R5cGUiOiAiRW1wdHlMYXRlbnRJbWFnZSIsCiAgICAiX21ldGEiOiB7InRpdGxlIjogIkxhdGVudCAoMTYgZnJhbWVzKSJ9LAogICAgImlucHV0cyI6IHsid2lkdGgiOiA1MTIsICJoZWlnaHQiOiA1MTIsICJiYXRjaF9zaXplIjogMTZ9CiAgfSwKICAiNiI6IHsKICAgICJjbGFzc190eXBlIjogIkNMSVBUZXh0RW5jb2RlIiwKICAgICJfbWV0YSI6IHsidGl0bGUiOiAiUG9zaXRpdmUgUHJvbXB0In0sCiAgICAiaW5wdXRzIjogeyJ0ZXh0IjogImEgaG90IGFpciBiYWxsb29uIGRyaWZ0aW5nIG92ZXIgYSBtb3VudGFpbiB2YWxsZXksIHN1bnNldCwgY2luZW1hdGljIiwgImNsaXAiOiBbIjQiLCAxXX0KICB9LAogICI3IjogewogICAgImNsYXNzX3R5cGUiOiAiQ0xJUFRleHRFbmNvZGUiLAogICAgIl9tZXRhIjogeyJ0aXRsZSI6ICJOZWdhdGl2ZSBQcm9tcHQifSwKICAgICJpbnB1dHMiOiB7InRleHQiOiAibG93IHF1YWxpdHksIGJsdXJyeSwgZGVmb3JtZWQsIHdhdGVybWFyayIsICJjbGlwIjogWyI0IiwgMV19CiAgfSwKICAiOCI6IHsKICAgICJjbGFzc190eXBlIjogIlZBRURlY29kZSIsCiAgICAiX21ldGEiOiB7InRpdGxlIjogIlZBRSBEZWNvZGUifSwKICAgICJpbnB1dHMiOiB7InNhbXBsZXMiOiBbIjMiLCAwXSwgInZhZSI6IFsiNCIsIDJdfQogIH0sCiAgIjkiOiB7CiAgICAiY2xhc3NfdHlwZSI6ICJWSFNfVmlkZW9Db21iaW5lIiwKICAgICJfbWV0YSI6IHsidGl0bGUiOiAiVmlkZW8gQ29tYmluZSJ9LAogICAgImlucHV0cyI6IHsKICAgICAgImZyYW1lX3JhdGUiOiA4LjAsCiAgICAgICJsb29wX2NvdW50IjogMCwKICAgICAgImZpbGVuYW1lX3ByZWZpeCI6ICJhbmltYXRlZGlmZiIsCiAgICAgICJmb3JtYXQiOiAidmlkZW8vaDI2NC1tcDQiLAogICAgICAicGluZ3BvbmciOiBmYWxzZSwKICAgICAgInNhdmVfb3V0cHV0IjogdHJ1ZSwKICAgICAgImltYWdlcyI6IFsiOCIsIDBdCiAgICB9CiAgfSwKICAiMTAiOiB7CiAgICAiY2xhc3NfdHlwZSI6ICJBREVfQW5pbWF0ZURpZmZMb2FkZXJXaXRoQ29udGV4dCIsCiAgICAiX21ldGEiOiB7InRpdGxlIjogIkFuaW1hdGVEaWZmIExvYWRlciJ9LAogICAgImlucHV0cyI6IHsKICAgICAgIm1vZGVsIjogWyI0IiwgMF0sCiAgICAgICJtb2RlbF9uYW1lIjogIm1tX3NkX3YxNV92Mi5ja3B0IiwKICAgICAgImJldGFfc2NoZWR1bGUiOiAic3FydF9saW5lYXIgKEFuaW1hdGVEaWZmKSIsCiAgICAgICJtb3Rpb25fc2NhbGUiOiAxLjAsCiAgICAgICJhcHBseV92Ml9tb2RlbHNfcHJvcGVybHkiOiB0cnVlCiAgICB9CiAgfQp9Cg==
+{
+  "_comment": "AnimateDiff text-to-video at 16 frames. Required: comfyui-animatediff-evolved + comfyui-videohelpersuite custom nodes; SD1.5 checkpoint; AnimateDiff motion module (e.g. mm_sd_v15_v2.ckpt in models/animatediff_models/). Outputs a webp animation.",
+  "3": {
+    "class_type": "KSampler",
+    "_meta": {"title": "KSampler"},
+    "inputs": {
+      "seed": 42, "steps": 25, "cfg": 7.5,
+      "sampler_name": "dpmpp_sde", "scheduler": "karras", "denoise": 1.0,
+      "model": ["10", 0],
+      "positive": ["6", 0],
+      "negative": ["7", 0],
+      "latent_image": ["5", 0]
+    }
+  },
+  "4": {
+    "class_type": "CheckpointLoaderSimple",
+    "_meta": {"title": "Checkpoint"},
+    "inputs": {"ckpt_name": "v1-5-pruned-emaonly.safetensors"}
+  },
+  "5": {
+    "class_type": "EmptyLatentImage",
+    "_meta": {"title": "Latent (16 frames)"},
+    "inputs": {"width": 512, "height": 512, "batch_size": 16}
+  },
+  "6": {
+    "class_type": "CLIPTextEncode",
+    "_meta": {"title": "Positive Prompt"},
+    "inputs": {"text": "a hot air balloon drifting over a mountain valley, sunset, cinematic", "clip": ["4", 1]}
+  },
+  "7": {
+    "class_type": "CLIPTextEncode",
+    "_meta": {"title": "Negative Prompt"},
+    "inputs": {"text": "low quality, blurry, deformed, watermark", "clip": ["4", 1]}
+  },
+  "8": {
+    "class_type": "VAEDecode",
+    "_meta": {"title": "VAE Decode"},
+    "inputs": {"samples": ["3", 0], "vae": ["4", 2]}
+  },
+  "9": {
+    "class_type": "VHS_VideoCombine",
+    "_meta": {"title": "Video Combine"},
+    "inputs": {
+      "frame_rate": 8.0,
+      "loop_count": 0,
+      "filename_prefix": "animatediff",
+      "format": "video/h264-mp4",
+      "pingpong": false,
+      "save_output": true,
+      "images": ["8", 0]
+    }
+  },
+  "10": {
+    "class_type": "ADE_AnimateDiffLoaderWithContext",
+    "_meta": {"title": "AnimateDiff Loader"},
+    "inputs": {
+      "model": ["4", 0],
+      "model_name": "mm_sd_v15_v2.ckpt",
+      "beta_schedule": "sqrt_linear (AnimateDiff)",
+      "motion_scale": 1.0,
+      "apply_v2_models_properly": true
+    }
+  }
+}

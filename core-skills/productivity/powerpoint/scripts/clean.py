@@ -1,1 +1,286 @@
-IiIiUmVtb3ZlIHVucmVmZXJlbmNlZCBmaWxlcyBmcm9tIGFuIHVucGFja2VkIFBQVFggZGlyZWN0b3J5LgoKVXNhZ2U6IHB5dGhvbiBjbGVhbi5weSA8dW5wYWNrZWRfZGlyPgoKRXhhbXBsZToKICAgIHB5dGhvbiBjbGVhbi5weSB1bnBhY2tlZC8KClRoaXMgc2NyaXB0IHJlbW92ZXM6Ci0gT3JwaGFuZWQgc2xpZGVzIChub3QgaW4gc2xkSWRMc3QpIGFuZCB0aGVpciByZWxhdGlvbnNoaXBzCi0gW3RyYXNoXSBkaXJlY3RvcnkgKHVucmVmZXJlbmNlZCBmaWxlcykKLSBPcnBoYW5lZCAucmVscyBmaWxlcyBmb3IgZGVsZXRlZCByZXNvdXJjZXMKLSBVbnJlZmVyZW5jZWQgbWVkaWEsIGVtYmVkZGluZ3MsIGNoYXJ0cywgZGlhZ3JhbXMsIGRyYXdpbmdzLCBpbmsgZmlsZXMKLSBVbnJlZmVyZW5jZWQgdGhlbWUgZmlsZXMKLSBVbnJlZmVyZW5jZWQgbm90ZXMgc2xpZGVzCi0gQ29udGVudC1UeXBlIG92ZXJyaWRlcyBmb3IgZGVsZXRlZCBmaWxlcwoiIiIKCmltcG9ydCBzeXMKZnJvbSBwYXRobGliIGltcG9ydCBQYXRoCgppbXBvcnQgZGVmdXNlZHhtbC5taW5pZG9tCgoKaW1wb3J0IHJlCgoKZGVmIGdldF9zbGlkZXNfaW5fc2xkaWRsc3QodW5wYWNrZWRfZGlyOiBQYXRoKSAtPiBzZXRbc3RyXToKICAgIHByZXNfcGF0aCA9IHVucGFja2VkX2RpciAvICJwcHQiIC8gInByZXNlbnRhdGlvbi54bWwiCiAgICBwcmVzX3JlbHNfcGF0aCA9IHVucGFja2VkX2RpciAvICJwcHQiIC8gIl9yZWxzIiAvICJwcmVzZW50YXRpb24ueG1sLnJlbHMiCgogICAgaWYgbm90IHByZXNfcGF0aC5leGlzdHMoKSBvciBub3QgcHJlc19yZWxzX3BhdGguZXhpc3RzKCk6CiAgICAgICAgcmV0dXJuIHNldCgpCgogICAgcmVsc19kb20gPSBkZWZ1c2VkeG1sLm1pbmlkb20ucGFyc2Uoc3RyKHByZXNfcmVsc19wYXRoKSkKICAgIHJpZF90b19zbGlkZSA9IHt9CiAgICBmb3IgcmVsIGluIHJlbHNfZG9tLmdldEVsZW1lbnRzQnlUYWdOYW1lKCJSZWxhdGlvbnNoaXAiKToKICAgICAgICByaWQgPSByZWwuZ2V0QXR0cmlidXRlKCJJZCIpCiAgICAgICAgdGFyZ2V0ID0gcmVsLmdldEF0dHJpYnV0ZSgiVGFyZ2V0IikKICAgICAgICByZWxfdHlwZSA9IHJlbC5nZXRBdHRyaWJ1dGUoIlR5cGUiKQogICAgICAgIGlmICJzbGlkZSIgaW4gcmVsX3R5cGUgYW5kIHRhcmdldC5zdGFydHN3aXRoKCJzbGlkZXMvIik6CiAgICAgICAgICAgIHJpZF90b19zbGlkZVtyaWRdID0gdGFyZ2V0LnJlcGxhY2UoInNsaWRlcy8iLCAiIikKCiAgICBwcmVzX2NvbnRlbnQgPSBwcmVzX3BhdGgucmVhZF90ZXh0KGVuY29kaW5nPSJ1dGYtOCIpCiAgICByZWZlcmVuY2VkX3JpZHMgPSBzZXQocmUuZmluZGFsbChyJzxwOnNsZElkW14+XSpyOmlkPSIoW14iXSspIicsIHByZXNfY29udGVudCkpCgogICAgcmV0dXJuIHtyaWRfdG9fc2xpZGVbcmlkXSBmb3IgcmlkIGluIHJlZmVyZW5jZWRfcmlkcyBpZiByaWQgaW4gcmlkX3RvX3NsaWRlfQoKCmRlZiByZW1vdmVfb3JwaGFuZWRfc2xpZGVzKHVucGFja2VkX2RpcjogUGF0aCkgLT4gbGlzdFtzdHJdOgogICAgc2xpZGVzX2RpciA9IHVucGFja2VkX2RpciAvICJwcHQiIC8gInNsaWRlcyIKICAgIHNsaWRlc19yZWxzX2RpciA9IHNsaWRlc19kaXIgLyAiX3JlbHMiCiAgICBwcmVzX3JlbHNfcGF0aCA9IHVucGFja2VkX2RpciAvICJwcHQiIC8gIl9yZWxzIiAvICJwcmVzZW50YXRpb24ueG1sLnJlbHMiCgogICAgaWYgbm90IHNsaWRlc19kaXIuZXhpc3RzKCk6CiAgICAgICAgcmV0dXJuIFtdCgogICAgcmVmZXJlbmNlZF9zbGlkZXMgPSBnZXRfc2xpZGVzX2luX3NsZGlkbHN0KHVucGFja2VkX2RpcikKICAgIHJlbW92ZWQgPSBbXQoKICAgIGZvciBzbGlkZV9maWxlIGluIHNsaWRlc19kaXIuZ2xvYigic2xpZGUqLnhtbCIpOgogICAgICAgIGlmIHNsaWRlX2ZpbGUubmFtZSBub3QgaW4gcmVmZXJlbmNlZF9zbGlkZXM6CiAgICAgICAgICAgIHJlbF9wYXRoID0gc2xpZGVfZmlsZS5yZWxhdGl2ZV90byh1bnBhY2tlZF9kaXIpCiAgICAgICAgICAgIHNsaWRlX2ZpbGUudW5saW5rKCkKICAgICAgICAgICAgcmVtb3ZlZC5hcHBlbmQoc3RyKHJlbF9wYXRoKSkKCiAgICAgICAgICAgIHJlbHNfZmlsZSA9IHNsaWRlc19yZWxzX2RpciAvIGYie3NsaWRlX2ZpbGUubmFtZX0ucmVscyIKICAgICAgICAgICAgaWYgcmVsc19maWxlLmV4aXN0cygpOgogICAgICAgICAgICAgICAgcmVsc19maWxlLnVubGluaygpCiAgICAgICAgICAgICAgICByZW1vdmVkLmFwcGVuZChzdHIocmVsc19maWxlLnJlbGF0aXZlX3RvKHVucGFja2VkX2RpcikpKQoKICAgIGlmIHJlbW92ZWQgYW5kIHByZXNfcmVsc19wYXRoLmV4aXN0cygpOgogICAgICAgIHJlbHNfZG9tID0gZGVmdXNlZHhtbC5taW5pZG9tLnBhcnNlKHN0cihwcmVzX3JlbHNfcGF0aCkpCiAgICAgICAgY2hhbmdlZCA9IEZhbHNlCgogICAgICAgIGZvciByZWwgaW4gbGlzdChyZWxzX2RvbS5nZXRFbGVtZW50c0J5VGFnTmFtZSgiUmVsYXRpb25zaGlwIikpOgogICAgICAgICAgICB0YXJnZXQgPSByZWwuZ2V0QXR0cmlidXRlKCJUYXJnZXQiKQogICAgICAgICAgICBpZiB0YXJnZXQuc3RhcnRzd2l0aCgic2xpZGVzLyIpOgogICAgICAgICAgICAgICAgc2xpZGVfbmFtZSA9IHRhcmdldC5yZXBsYWNlKCJzbGlkZXMvIiwgIiIpCiAgICAgICAgICAgICAgICBpZiBzbGlkZV9uYW1lIG5vdCBpbiByZWZlcmVuY2VkX3NsaWRlczoKICAgICAgICAgICAgICAgICAgICBpZiByZWwucGFyZW50Tm9kZToKICAgICAgICAgICAgICAgICAgICAgICAgcmVsLnBhcmVudE5vZGUucmVtb3ZlQ2hpbGQocmVsKQogICAgICAgICAgICAgICAgICAgICAgICBjaGFuZ2VkID0gVHJ1ZQoKICAgICAgICBpZiBjaGFuZ2VkOgogICAgICAgICAgICB3aXRoIG9wZW4ocHJlc19yZWxzX3BhdGgsICJ3YiIpIGFzIGY6CiAgICAgICAgICAgICAgICBmLndyaXRlKHJlbHNfZG9tLnRveG1sKGVuY29kaW5nPSJ1dGYtOCIpKQoKICAgIHJldHVybiByZW1vdmVkCgoKZGVmIHJlbW92ZV90cmFzaF9kaXJlY3RvcnkodW5wYWNrZWRfZGlyOiBQYXRoKSAtPiBsaXN0W3N0cl06CiAgICB0cmFzaF9kaXIgPSB1bnBhY2tlZF9kaXIgLyAiW3RyYXNoXSIKICAgIHJlbW92ZWQgPSBbXQoKICAgIGlmIHRyYXNoX2Rpci5leGlzdHMoKSBhbmQgdHJhc2hfZGlyLmlzX2RpcigpOgogICAgICAgIGZvciBmaWxlX3BhdGggaW4gdHJhc2hfZGlyLml0ZXJkaXIoKToKICAgICAgICAgICAgaWYgZmlsZV9wYXRoLmlzX2ZpbGUoKToKICAgICAgICAgICAgICAgIHJlbF9wYXRoID0gZmlsZV9wYXRoLnJlbGF0aXZlX3RvKHVucGFja2VkX2RpcikKICAgICAgICAgICAgICAgIHJlbW92ZWQuYXBwZW5kKHN0cihyZWxfcGF0aCkpCiAgICAgICAgICAgICAgICBmaWxlX3BhdGgudW5saW5rKCkKICAgICAgICB0cmFzaF9kaXIucm1kaXIoKQoKICAgIHJldHVybiByZW1vdmVkCgoKZGVmIGdldF9zbGlkZV9yZWZlcmVuY2VkX2ZpbGVzKHVucGFja2VkX2RpcjogUGF0aCkgLT4gc2V0OgogICAgcmVmZXJlbmNlZCA9IHNldCgpCiAgICBzbGlkZXNfcmVsc19kaXIgPSB1bnBhY2tlZF9kaXIgLyAicHB0IiAvICJzbGlkZXMiIC8gIl9yZWxzIgoKICAgIGlmIG5vdCBzbGlkZXNfcmVsc19kaXIuZXhpc3RzKCk6CiAgICAgICAgcmV0dXJuIHJlZmVyZW5jZWQKCiAgICBmb3IgcmVsc19maWxlIGluIHNsaWRlc19yZWxzX2Rpci5nbG9iKCIqLnJlbHMiKToKICAgICAgICBkb20gPSBkZWZ1c2VkeG1sLm1pbmlkb20ucGFyc2Uoc3RyKHJlbHNfZmlsZSkpCiAgICAgICAgZm9yIHJlbCBpbiBkb20uZ2V0RWxlbWVudHNCeVRhZ05hbWUoIlJlbGF0aW9uc2hpcCIpOgogICAgICAgICAgICB0YXJnZXQgPSByZWwuZ2V0QXR0cmlidXRlKCJUYXJnZXQiKQogICAgICAgICAgICBpZiBub3QgdGFyZ2V0OgogICAgICAgICAgICAgICAgY29udGludWUKICAgICAgICAgICAgdGFyZ2V0X3BhdGggPSAocmVsc19maWxlLnBhcmVudC5wYXJlbnQgLyB0YXJnZXQpLnJlc29sdmUoKQogICAgICAgICAgICB0cnk6CiAgICAgICAgICAgICAgICByZWZlcmVuY2VkLmFkZCh0YXJnZXRfcGF0aC5yZWxhdGl2ZV90byh1bnBhY2tlZF9kaXIucmVzb2x2ZSgpKSkKICAgICAgICAgICAgZXhjZXB0IFZhbHVlRXJyb3I6CiAgICAgICAgICAgICAgICBwYXNzCgogICAgcmV0dXJuIHJlZmVyZW5jZWQKCgpkZWYgcmVtb3ZlX29ycGhhbmVkX3JlbHNfZmlsZXModW5wYWNrZWRfZGlyOiBQYXRoKSAtPiBsaXN0W3N0cl06CiAgICByZXNvdXJjZV9kaXJzID0gWyJjaGFydHMiLCAiZGlhZ3JhbXMiLCAiZHJhd2luZ3MiXQogICAgcmVtb3ZlZCA9IFtdCiAgICBzbGlkZV9yZWZlcmVuY2VkID0gZ2V0X3NsaWRlX3JlZmVyZW5jZWRfZmlsZXModW5wYWNrZWRfZGlyKQoKICAgIGZvciBkaXJfbmFtZSBpbiByZXNvdXJjZV9kaXJzOgogICAgICAgIHJlbHNfZGlyID0gdW5wYWNrZWRfZGlyIC8gInBwdCIgLyBkaXJfbmFtZSAvICJfcmVscyIKICAgICAgICBpZiBub3QgcmVsc19kaXIuZXhpc3RzKCk6CiAgICAgICAgICAgIGNvbnRpbnVlCgogICAgICAgIGZvciByZWxzX2ZpbGUgaW4gcmVsc19kaXIuZ2xvYigiKi5yZWxzIik6CiAgICAgICAgICAgIHJlc291cmNlX2ZpbGUgPSByZWxzX2Rpci5wYXJlbnQgLyByZWxzX2ZpbGUubmFtZS5yZXBsYWNlKCIucmVscyIsICIiKQogICAgICAgICAgICB0cnk6CiAgICAgICAgICAgICAgICByZXNvdXJjZV9yZWxfcGF0aCA9IHJlc291cmNlX2ZpbGUucmVzb2x2ZSgpLnJlbGF0aXZlX3RvKHVucGFja2VkX2Rpci5yZXNvbHZlKCkpCiAgICAgICAgICAgIGV4Y2VwdCBWYWx1ZUVycm9yOgogICAgICAgICAgICAgICAgY29udGludWUKCiAgICAgICAgICAgIGlmIG5vdCByZXNvdXJjZV9maWxlLmV4aXN0cygpIG9yIHJlc291cmNlX3JlbF9wYXRoIG5vdCBpbiBzbGlkZV9yZWZlcmVuY2VkOgogICAgICAgICAgICAgICAgcmVsc19maWxlLnVubGluaygpCiAgICAgICAgICAgICAgICByZWxfcGF0aCA9IHJlbHNfZmlsZS5yZWxhdGl2ZV90byh1bnBhY2tlZF9kaXIpCiAgICAgICAgICAgICAgICByZW1vdmVkLmFwcGVuZChzdHIocmVsX3BhdGgpKQoKICAgIHJldHVybiByZW1vdmVkCgoKZGVmIGdldF9yZWZlcmVuY2VkX2ZpbGVzKHVucGFja2VkX2RpcjogUGF0aCkgLT4gc2V0OgogICAgcmVmZXJlbmNlZCA9IHNldCgpCgogICAgZm9yIHJlbHNfZmlsZSBpbiB1bnBhY2tlZF9kaXIucmdsb2IoIioucmVscyIpOgogICAgICAgIGRvbSA9IGRlZnVzZWR4bWwubWluaWRvbS5wYXJzZShzdHIocmVsc19maWxlKSkKICAgICAgICBmb3IgcmVsIGluIGRvbS5nZXRFbGVtZW50c0J5VGFnTmFtZSgiUmVsYXRpb25zaGlwIik6CiAgICAgICAgICAgIHRhcmdldCA9IHJlbC5nZXRBdHRyaWJ1dGUoIlRhcmdldCIpCiAgICAgICAgICAgIGlmIG5vdCB0YXJnZXQ6CiAgICAgICAgICAgICAgICBjb250aW51ZQogICAgICAgICAgICB0YXJnZXRfcGF0aCA9IChyZWxzX2ZpbGUucGFyZW50LnBhcmVudCAvIHRhcmdldCkucmVzb2x2ZSgpCiAgICAgICAgICAgIHRyeToKICAgICAgICAgICAgICAgIHJlZmVyZW5jZWQuYWRkKHRhcmdldF9wYXRoLnJlbGF0aXZlX3RvKHVucGFja2VkX2Rpci5yZXNvbHZlKCkpKQogICAgICAgICAgICBleGNlcHQgVmFsdWVFcnJvcjoKICAgICAgICAgICAgICAgIHBhc3MKCiAgICByZXR1cm4gcmVmZXJlbmNlZAoKCmRlZiByZW1vdmVfb3JwaGFuZWRfZmlsZXModW5wYWNrZWRfZGlyOiBQYXRoLCByZWZlcmVuY2VkOiBzZXQpIC0+IGxpc3Rbc3RyXToKICAgIHJlc291cmNlX2RpcnMgPSBbIm1lZGlhIiwgImVtYmVkZGluZ3MiLCAiY2hhcnRzIiwgImRpYWdyYW1zIiwgInRhZ3MiLCAiZHJhd2luZ3MiLCAiaW5rIl0KICAgIHJlbW92ZWQgPSBbXQoKICAgIGZvciBkaXJfbmFtZSBpbiByZXNvdXJjZV9kaXJzOgogICAgICAgIGRpcl9wYXRoID0gdW5wYWNrZWRfZGlyIC8gInBwdCIgLyBkaXJfbmFtZQogICAgICAgIGlmIG5vdCBkaXJfcGF0aC5leGlzdHMoKToKICAgICAgICAgICAgY29udGludWUKCiAgICAgICAgZm9yIGZpbGVfcGF0aCBpbiBkaXJfcGF0aC5nbG9iKCIqIik6CiAgICAgICAgICAgIGlmIG5vdCBmaWxlX3BhdGguaXNfZmlsZSgpOgogICAgICAgICAgICAgICAgY29udGludWUKICAgICAgICAgICAgcmVsX3BhdGggPSBmaWxlX3BhdGgucmVsYXRpdmVfdG8odW5wYWNrZWRfZGlyKQogICAgICAgICAgICBpZiByZWxfcGF0aCBub3QgaW4gcmVmZXJlbmNlZDoKICAgICAgICAgICAgICAgIGZpbGVfcGF0aC51bmxpbmsoKQogICAgICAgICAgICAgICAgcmVtb3ZlZC5hcHBlbmQoc3RyKHJlbF9wYXRoKSkKCiAgICB0aGVtZV9kaXIgPSB1bnBhY2tlZF9kaXIgLyAicHB0IiAvICJ0aGVtZSIKICAgIGlmIHRoZW1lX2Rpci5leGlzdHMoKToKICAgICAgICBmb3IgZmlsZV9wYXRoIGluIHRoZW1lX2Rpci5nbG9iKCJ0aGVtZSoueG1sIik6CiAgICAgICAgICAgIHJlbF9wYXRoID0gZmlsZV9wYXRoLnJlbGF0aXZlX3RvKHVucGFja2VkX2RpcikKICAgICAgICAgICAgaWYgcmVsX3BhdGggbm90IGluIHJlZmVyZW5jZWQ6CiAgICAgICAgICAgICAgICBmaWxlX3BhdGgudW5saW5rKCkKICAgICAgICAgICAgICAgIHJlbW92ZWQuYXBwZW5kKHN0cihyZWxfcGF0aCkpCiAgICAgICAgICAgICAgICB0aGVtZV9yZWxzID0gdGhlbWVfZGlyIC8gIl9yZWxzIiAvIGYie2ZpbGVfcGF0aC5uYW1lfS5yZWxzIgogICAgICAgICAgICAgICAgaWYgdGhlbWVfcmVscy5leGlzdHMoKToKICAgICAgICAgICAgICAgICAgICB0aGVtZV9yZWxzLnVubGluaygpCiAgICAgICAgICAgICAgICAgICAgcmVtb3ZlZC5hcHBlbmQoc3RyKHRoZW1lX3JlbHMucmVsYXRpdmVfdG8odW5wYWNrZWRfZGlyKSkpCgogICAgbm90ZXNfZGlyID0gdW5wYWNrZWRfZGlyIC8gInBwdCIgLyAibm90ZXNTbGlkZXMiCiAgICBpZiBub3Rlc19kaXIuZXhpc3RzKCk6CiAgICAgICAgZm9yIGZpbGVfcGF0aCBpbiBub3Rlc19kaXIuZ2xvYigiKi54bWwiKToKICAgICAgICAgICAgaWYgbm90IGZpbGVfcGF0aC5pc19maWxlKCk6CiAgICAgICAgICAgICAgICBjb250aW51ZQogICAgICAgICAgICByZWxfcGF0aCA9IGZpbGVfcGF0aC5yZWxhdGl2ZV90byh1bnBhY2tlZF9kaXIpCiAgICAgICAgICAgIGlmIHJlbF9wYXRoIG5vdCBpbiByZWZlcmVuY2VkOgogICAgICAgICAgICAgICAgZmlsZV9wYXRoLnVubGluaygpCiAgICAgICAgICAgICAgICByZW1vdmVkLmFwcGVuZChzdHIocmVsX3BhdGgpKQoKICAgICAgICBub3Rlc19yZWxzX2RpciA9IG5vdGVzX2RpciAvICJfcmVscyIKICAgICAgICBpZiBub3Rlc19yZWxzX2Rpci5leGlzdHMoKToKICAgICAgICAgICAgZm9yIGZpbGVfcGF0aCBpbiBub3Rlc19yZWxzX2Rpci5nbG9iKCIqLnJlbHMiKToKICAgICAgICAgICAgICAgIG5vdGVzX2ZpbGUgPSBub3Rlc19kaXIgLyBmaWxlX3BhdGgubmFtZS5yZXBsYWNlKCIucmVscyIsICIiKQogICAgICAgICAgICAgICAgaWYgbm90IG5vdGVzX2ZpbGUuZXhpc3RzKCk6CiAgICAgICAgICAgICAgICAgICAgZmlsZV9wYXRoLnVubGluaygpCiAgICAgICAgICAgICAgICAgICAgcmVtb3ZlZC5hcHBlbmQoc3RyKGZpbGVfcGF0aC5yZWxhdGl2ZV90byh1bnBhY2tlZF9kaXIpKSkKCiAgICByZXR1cm4gcmVtb3ZlZAoKCmRlZiB1cGRhdGVfY29udGVudF90eXBlcyh1bnBhY2tlZF9kaXI6IFBhdGgsIHJlbW92ZWRfZmlsZXM6IGxpc3Rbc3RyXSkgLT4gTm9uZToKICAgIGN0X3BhdGggPSB1bnBhY2tlZF9kaXIgLyAiW0NvbnRlbnRfVHlwZXNdLnhtbCIKICAgIGlmIG5vdCBjdF9wYXRoLmV4aXN0cygpOgogICAgICAgIHJldHVybgoKICAgIGRvbSA9IGRlZnVzZWR4bWwubWluaWRvbS5wYXJzZShzdHIoY3RfcGF0aCkpCiAgICBjaGFuZ2VkID0gRmFsc2UKCiAgICBmb3Igb3ZlcnJpZGUgaW4gbGlzdChkb20uZ2V0RWxlbWVudHNCeVRhZ05hbWUoIk92ZXJyaWRlIikpOgogICAgICAgIHBhcnRfbmFtZSA9IG92ZXJyaWRlLmdldEF0dHJpYnV0ZSgiUGFydE5hbWUiKS5sc3RyaXAoIi8iKQogICAgICAgIGlmIHBhcnRfbmFtZSBpbiByZW1vdmVkX2ZpbGVzOgogICAgICAgICAgICBpZiBvdmVycmlkZS5wYXJlbnROb2RlOgogICAgICAgICAgICAgICAgb3ZlcnJpZGUucGFyZW50Tm9kZS5yZW1vdmVDaGlsZChvdmVycmlkZSkKICAgICAgICAgICAgICAgIGNoYW5nZWQgPSBUcnVlCgogICAgaWYgY2hhbmdlZDoKICAgICAgICB3aXRoIG9wZW4oY3RfcGF0aCwgIndiIikgYXMgZjoKICAgICAgICAgICAgZi53cml0ZShkb20udG94bWwoZW5jb2Rpbmc9InV0Zi04IikpCgoKZGVmIGNsZWFuX3VudXNlZF9maWxlcyh1bnBhY2tlZF9kaXI6IFBhdGgpIC0+IGxpc3Rbc3RyXToKICAgIGFsbF9yZW1vdmVkID0gW10KCiAgICBzbGlkZXNfcmVtb3ZlZCA9IHJlbW92ZV9vcnBoYW5lZF9zbGlkZXModW5wYWNrZWRfZGlyKQogICAgYWxsX3JlbW92ZWQuZXh0ZW5kKHNsaWRlc19yZW1vdmVkKQoKICAgIHRyYXNoX3JlbW92ZWQgPSByZW1vdmVfdHJhc2hfZGlyZWN0b3J5KHVucGFja2VkX2RpcikKICAgIGFsbF9yZW1vdmVkLmV4dGVuZCh0cmFzaF9yZW1vdmVkKQoKICAgIHdoaWxlIFRydWU6CiAgICAgICAgcmVtb3ZlZF9yZWxzID0gcmVtb3ZlX29ycGhhbmVkX3JlbHNfZmlsZXModW5wYWNrZWRfZGlyKQogICAgICAgIHJlZmVyZW5jZWQgPSBnZXRfcmVmZXJlbmNlZF9maWxlcyh1bnBhY2tlZF9kaXIpCiAgICAgICAgcmVtb3ZlZF9maWxlcyA9IHJlbW92ZV9vcnBoYW5lZF9maWxlcyh1bnBhY2tlZF9kaXIsIHJlZmVyZW5jZWQpCgogICAgICAgIHRvdGFsX3JlbW92ZWQgPSByZW1vdmVkX3JlbHMgKyByZW1vdmVkX2ZpbGVzCiAgICAgICAgaWYgbm90IHRvdGFsX3JlbW92ZWQ6CiAgICAgICAgICAgIGJyZWFrCgogICAgICAgIGFsbF9yZW1vdmVkLmV4dGVuZCh0b3RhbF9yZW1vdmVkKQoKICAgIGlmIGFsbF9yZW1vdmVkOgogICAgICAgIHVwZGF0ZV9jb250ZW50X3R5cGVzKHVucGFja2VkX2RpciwgYWxsX3JlbW92ZWQpCgogICAgcmV0dXJuIGFsbF9yZW1vdmVkCgoKaWYgX19uYW1lX18gPT0gIl9fbWFpbl9fIjoKICAgIGlmIGxlbihzeXMuYXJndikgIT0gMjoKICAgICAgICBwcmludCgiVXNhZ2U6IHB5dGhvbiBjbGVhbi5weSA8dW5wYWNrZWRfZGlyPiIsIGZpbGU9c3lzLnN0ZGVycikKICAgICAgICBwcmludCgiRXhhbXBsZTogcHl0aG9uIGNsZWFuLnB5IHVucGFja2VkLyIsIGZpbGU9c3lzLnN0ZGVycikKICAgICAgICBzeXMuZXhpdCgxKQoKICAgIHVucGFja2VkX2RpciA9IFBhdGgoc3lzLmFyZ3ZbMV0pCgogICAgaWYgbm90IHVucGFja2VkX2Rpci5leGlzdHMoKToKICAgICAgICBwcmludChmIkVycm9yOiB7dW5wYWNrZWRfZGlyfSBub3QgZm91bmQiLCBmaWxlPXN5cy5zdGRlcnIpCiAgICAgICAgc3lzLmV4aXQoMSkKCiAgICByZW1vdmVkID0gY2xlYW5fdW51c2VkX2ZpbGVzKHVucGFja2VkX2RpcikKCiAgICBpZiByZW1vdmVkOgogICAgICAgIHByaW50KGYiUmVtb3ZlZCB7bGVuKHJlbW92ZWQpfSB1bnJlZmVyZW5jZWQgZmlsZXM6IikKICAgICAgICBmb3IgZiBpbiByZW1vdmVkOgogICAgICAgICAgICBwcmludChmIiAge2Z9IikKICAgIGVsc2U6CiAgICAgICAgcHJpbnQoIk5vIHVucmVmZXJlbmNlZCBmaWxlcyBmb3VuZCIpCg==
+"""Remove unreferenced files from an unpacked PPTX directory.
+
+Usage: python clean.py <unpacked_dir>
+
+Example:
+    python clean.py unpacked/
+
+This script removes:
+- Orphaned slides (not in sldIdLst) and their relationships
+- [trash] directory (unreferenced files)
+- Orphaned .rels files for deleted resources
+- Unreferenced media, embeddings, charts, diagrams, drawings, ink files
+- Unreferenced theme files
+- Unreferenced notes slides
+- Content-Type overrides for deleted files
+"""
+
+import sys
+from pathlib import Path
+
+import defusedxml.minidom
+
+
+import re
+
+
+def get_slides_in_sldidlst(unpacked_dir: Path) -> set[str]:
+    pres_path = unpacked_dir / "ppt" / "presentation.xml"
+    pres_rels_path = unpacked_dir / "ppt" / "_rels" / "presentation.xml.rels"
+
+    if not pres_path.exists() or not pres_rels_path.exists():
+        return set()
+
+    rels_dom = defusedxml.minidom.parse(str(pres_rels_path))
+    rid_to_slide = {}
+    for rel in rels_dom.getElementsByTagName("Relationship"):
+        rid = rel.getAttribute("Id")
+        target = rel.getAttribute("Target")
+        rel_type = rel.getAttribute("Type")
+        if "slide" in rel_type and target.startswith("slides/"):
+            rid_to_slide[rid] = target.replace("slides/", "")
+
+    pres_content = pres_path.read_text(encoding="utf-8")
+    referenced_rids = set(re.findall(r'<p:sldId[^>]*r:id="([^"]+)"', pres_content))
+
+    return {rid_to_slide[rid] for rid in referenced_rids if rid in rid_to_slide}
+
+
+def remove_orphaned_slides(unpacked_dir: Path) -> list[str]:
+    slides_dir = unpacked_dir / "ppt" / "slides"
+    slides_rels_dir = slides_dir / "_rels"
+    pres_rels_path = unpacked_dir / "ppt" / "_rels" / "presentation.xml.rels"
+
+    if not slides_dir.exists():
+        return []
+
+    referenced_slides = get_slides_in_sldidlst(unpacked_dir)
+    removed = []
+
+    for slide_file in slides_dir.glob("slide*.xml"):
+        if slide_file.name not in referenced_slides:
+            rel_path = slide_file.relative_to(unpacked_dir)
+            slide_file.unlink()
+            removed.append(str(rel_path))
+
+            rels_file = slides_rels_dir / f"{slide_file.name}.rels"
+            if rels_file.exists():
+                rels_file.unlink()
+                removed.append(str(rels_file.relative_to(unpacked_dir)))
+
+    if removed and pres_rels_path.exists():
+        rels_dom = defusedxml.minidom.parse(str(pres_rels_path))
+        changed = False
+
+        for rel in list(rels_dom.getElementsByTagName("Relationship")):
+            target = rel.getAttribute("Target")
+            if target.startswith("slides/"):
+                slide_name = target.replace("slides/", "")
+                if slide_name not in referenced_slides:
+                    if rel.parentNode:
+                        rel.parentNode.removeChild(rel)
+                        changed = True
+
+        if changed:
+            with open(pres_rels_path, "wb") as f:
+                f.write(rels_dom.toxml(encoding="utf-8"))
+
+    return removed
+
+
+def remove_trash_directory(unpacked_dir: Path) -> list[str]:
+    trash_dir = unpacked_dir / "[trash]"
+    removed = []
+
+    if trash_dir.exists() and trash_dir.is_dir():
+        for file_path in trash_dir.iterdir():
+            if file_path.is_file():
+                rel_path = file_path.relative_to(unpacked_dir)
+                removed.append(str(rel_path))
+                file_path.unlink()
+        trash_dir.rmdir()
+
+    return removed
+
+
+def get_slide_referenced_files(unpacked_dir: Path) -> set:
+    referenced = set()
+    slides_rels_dir = unpacked_dir / "ppt" / "slides" / "_rels"
+
+    if not slides_rels_dir.exists():
+        return referenced
+
+    for rels_file in slides_rels_dir.glob("*.rels"):
+        dom = defusedxml.minidom.parse(str(rels_file))
+        for rel in dom.getElementsByTagName("Relationship"):
+            target = rel.getAttribute("Target")
+            if not target:
+                continue
+            target_path = (rels_file.parent.parent / target).resolve()
+            try:
+                referenced.add(target_path.relative_to(unpacked_dir.resolve()))
+            except ValueError:
+                pass
+
+    return referenced
+
+
+def remove_orphaned_rels_files(unpacked_dir: Path) -> list[str]:
+    resource_dirs = ["charts", "diagrams", "drawings"]
+    removed = []
+    slide_referenced = get_slide_referenced_files(unpacked_dir)
+
+    for dir_name in resource_dirs:
+        rels_dir = unpacked_dir / "ppt" / dir_name / "_rels"
+        if not rels_dir.exists():
+            continue
+
+        for rels_file in rels_dir.glob("*.rels"):
+            resource_file = rels_dir.parent / rels_file.name.replace(".rels", "")
+            try:
+                resource_rel_path = resource_file.resolve().relative_to(unpacked_dir.resolve())
+            except ValueError:
+                continue
+
+            if not resource_file.exists() or resource_rel_path not in slide_referenced:
+                rels_file.unlink()
+                rel_path = rels_file.relative_to(unpacked_dir)
+                removed.append(str(rel_path))
+
+    return removed
+
+
+def get_referenced_files(unpacked_dir: Path) -> set:
+    referenced = set()
+
+    for rels_file in unpacked_dir.rglob("*.rels"):
+        dom = defusedxml.minidom.parse(str(rels_file))
+        for rel in dom.getElementsByTagName("Relationship"):
+            target = rel.getAttribute("Target")
+            if not target:
+                continue
+            target_path = (rels_file.parent.parent / target).resolve()
+            try:
+                referenced.add(target_path.relative_to(unpacked_dir.resolve()))
+            except ValueError:
+                pass
+
+    return referenced
+
+
+def remove_orphaned_files(unpacked_dir: Path, referenced: set) -> list[str]:
+    resource_dirs = ["media", "embeddings", "charts", "diagrams", "tags", "drawings", "ink"]
+    removed = []
+
+    for dir_name in resource_dirs:
+        dir_path = unpacked_dir / "ppt" / dir_name
+        if not dir_path.exists():
+            continue
+
+        for file_path in dir_path.glob("*"):
+            if not file_path.is_file():
+                continue
+            rel_path = file_path.relative_to(unpacked_dir)
+            if rel_path not in referenced:
+                file_path.unlink()
+                removed.append(str(rel_path))
+
+    theme_dir = unpacked_dir / "ppt" / "theme"
+    if theme_dir.exists():
+        for file_path in theme_dir.glob("theme*.xml"):
+            rel_path = file_path.relative_to(unpacked_dir)
+            if rel_path not in referenced:
+                file_path.unlink()
+                removed.append(str(rel_path))
+                theme_rels = theme_dir / "_rels" / f"{file_path.name}.rels"
+                if theme_rels.exists():
+                    theme_rels.unlink()
+                    removed.append(str(theme_rels.relative_to(unpacked_dir)))
+
+    notes_dir = unpacked_dir / "ppt" / "notesSlides"
+    if notes_dir.exists():
+        for file_path in notes_dir.glob("*.xml"):
+            if not file_path.is_file():
+                continue
+            rel_path = file_path.relative_to(unpacked_dir)
+            if rel_path not in referenced:
+                file_path.unlink()
+                removed.append(str(rel_path))
+
+        notes_rels_dir = notes_dir / "_rels"
+        if notes_rels_dir.exists():
+            for file_path in notes_rels_dir.glob("*.rels"):
+                notes_file = notes_dir / file_path.name.replace(".rels", "")
+                if not notes_file.exists():
+                    file_path.unlink()
+                    removed.append(str(file_path.relative_to(unpacked_dir)))
+
+    return removed
+
+
+def update_content_types(unpacked_dir: Path, removed_files: list[str]) -> None:
+    ct_path = unpacked_dir / "[Content_Types].xml"
+    if not ct_path.exists():
+        return
+
+    dom = defusedxml.minidom.parse(str(ct_path))
+    changed = False
+
+    for override in list(dom.getElementsByTagName("Override")):
+        part_name = override.getAttribute("PartName").lstrip("/")
+        if part_name in removed_files:
+            if override.parentNode:
+                override.parentNode.removeChild(override)
+                changed = True
+
+    if changed:
+        with open(ct_path, "wb") as f:
+            f.write(dom.toxml(encoding="utf-8"))
+
+
+def clean_unused_files(unpacked_dir: Path) -> list[str]:
+    all_removed = []
+
+    slides_removed = remove_orphaned_slides(unpacked_dir)
+    all_removed.extend(slides_removed)
+
+    trash_removed = remove_trash_directory(unpacked_dir)
+    all_removed.extend(trash_removed)
+
+    while True:
+        removed_rels = remove_orphaned_rels_files(unpacked_dir)
+        referenced = get_referenced_files(unpacked_dir)
+        removed_files = remove_orphaned_files(unpacked_dir, referenced)
+
+        total_removed = removed_rels + removed_files
+        if not total_removed:
+            break
+
+        all_removed.extend(total_removed)
+
+    if all_removed:
+        update_content_types(unpacked_dir, all_removed)
+
+    return all_removed
+
+
+if __name__ == "__main__":
+    if len(sys.argv) != 2:
+        print("Usage: python clean.py <unpacked_dir>", file=sys.stderr)
+        print("Example: python clean.py unpacked/", file=sys.stderr)
+        sys.exit(1)
+
+    unpacked_dir = Path(sys.argv[1])
+
+    if not unpacked_dir.exists():
+        print(f"Error: {unpacked_dir} not found", file=sys.stderr)
+        sys.exit(1)
+
+    removed = clean_unused_files(unpacked_dir)
+
+    if removed:
+        print(f"Removed {len(removed)} unreferenced files:")
+        for f in removed:
+            print(f"  {f}")
+    else:
+        print("No unreferenced files found")

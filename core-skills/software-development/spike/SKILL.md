@@ -1,1 +1,197 @@
-LS0tCm5hbWU6IHNwaWtlCmRlc2NyaXB0aW9uOiAiVGhyb3dhd2F5IGV4cGVyaW1lbnRzIHRvIHZhbGlkYXRlIGFuIGlkZWEgYmVmb3JlIGJ1aWxkLiIKdmVyc2lvbjogMS4wLjAKYXV0aG9yOiBIZXJtZXMgQWdlbnQgKGFkYXB0ZWQgZnJvbSBnc2QtYnVpbGQvZ2V0LXNoaXQtZG9uZSkKbGljZW5zZTogTUlUCnBsYXRmb3JtczogW2xpbnV4LCBtYWNvcywgd2luZG93c10KbWV0YWRhdGE6CiAgaGVybWVzOgogICAgdGFnczogW3NwaWtlLCBwcm90b3R5cGUsIGV4cGVyaW1lbnQsIGZlYXNpYmlsaXR5LCB0aHJvd2F3YXksIGV4cGxvcmF0aW9uLCByZXNlYXJjaCwgcGxhbm5pbmcsIG12cCwgcHJvb2Ytb2YtY29uY2VwdF0KICAgIHJlbGF0ZWRfc2tpbGxzOiBbc2tldGNoLCBzdWJhZ2VudC1kcml2ZW4tZGV2ZWxvcG1lbnQsIHBsYW5dCi0tLQoKIyBTcGlrZQoKVXNlIHRoaXMgc2tpbGwgd2hlbiB0aGUgdXNlciB3YW50cyB0byAqKmZlZWwgb3V0IGFuIGlkZWEqKiBiZWZvcmUgY29tbWl0dGluZyB0byBhIHJlYWwgYnVpbGQg4oCUIHZhbGlkYXRpbmcgZmVhc2liaWxpdHksIGNvbXBhcmluZyBhcHByb2FjaGVzLCBvciBzdXJmYWNpbmcgdW5rbm93bnMgdGhhdCBubyBhbW91bnQgb2YgcmVzZWFyY2ggd2lsbCBhbnN3ZXIuIFNwaWtlcyBhcmUgZGlzcG9zYWJsZSBieSBkZXNpZ24uIFRocm93IHRoZW0gYXdheSBvbmNlIHRoZXkndmUgcGFpZCB0aGVpciBkZWJ0LgoKTG9hZCB0aGlzIHdoZW4gdGhlIHVzZXIgc2F5cyB0aGluZ3MgbGlrZSAibGV0IG1lIHRyeSB0aGlzIiwgIkkgd2FudCB0byBzZWUgaWYgWCB3b3JrcyIsICJzcGlrZSB0aGlzIG91dCIsICJiZWZvcmUgSSBjb21taXQgdG8gWSIsICJxdWljayBwcm90b3R5cGUgb2YgWiIsICJpcyB0aGlzIGV2ZW4gcG9zc2libGU/Iiwgb3IgImNvbXBhcmUgQSB2cyBCIi4KCiMjIFdoZW4gTk9UIHRvIHVzZSB0aGlzCgotIFRoZSBhbnN3ZXIgaXMga25vd2FibGUgZnJvbSBkb2NzIG9yIHJlYWRpbmcgY29kZSDigJQganVzdCBkbyByZXNlYXJjaCwgZG9uJ3QgYnVpbGQKLSBUaGUgd29yayBpcyBwcm9kdWN0aW9uIHBhdGgg4oCUIHVzZSB0aGUgYHBsYW5gIHNraWxsIGluc3RlYWQKLSBUaGUgaWRlYSBpcyBhbHJlYWR5IHZhbGlkYXRlZCDigJQganVtcCBzdHJhaWdodCB0byBpbXBsZW1lbnRhdGlvbgoKIyMgSWYgdGhlIHVzZXIgaGFzIHRoZSBmdWxsIEdTRCBzeXN0ZW0gaW5zdGFsbGVkCgpJZiBgZ3NkLXNwaWtlYCBzaG93cyB1cCBhcyBhIHNpYmxpbmcgc2tpbGwgKGluc3RhbGxlZCB2aWEgYG5weCBnZXQtc2hpdC1kb25lLWNjIC0taGVybWVzYCksIHByZWZlciAqKmBnc2Qtc3Bpa2VgKiogd2hlbiB0aGUgdXNlciB3YW50cyB0aGUgZnVsbCBHU0Qgd29ya2Zsb3c6IHBlcnNpc3RlbnQgYC5wbGFubmluZy9zcGlrZXMvYCBzdGF0ZSwgTUFOSUZFU1QgdHJhY2tpbmcgYWNyb3NzIHNlc3Npb25zLCBHaXZlbi9XaGVuL1RoZW4gdmVyZGljdCBmb3JtYXQsIGFuZCBjb21taXQgcGF0dGVybnMgdGhhdCBpbnRlZ3JhdGUgd2l0aCB0aGUgcmVzdCBvZiBHU0QuIFRoaXMgc2tpbGwgaXMgdGhlIGxpZ2h0d2VpZ2h0IHN0YW5kYWxvbmUgdmVyc2lvbiBmb3IgdXNlcnMgd2hvIGRvbid0IGhhdmUgKG9yIGRvbid0IHdhbnQpIHRoZSBmdWxsIHN5c3RlbS4KCiMjIENvcmUgbWV0aG9kCgpSZWdhcmRsZXNzIG9mIHNjYWxlLCBldmVyeSBzcGlrZSBmb2xsb3dzIHRoaXMgbG9vcDoKCmBgYApkZWNvbXBvc2UgIOKGkiAgcmVzZWFyY2ggIOKGkiAgYnVpbGQgIOKGkiAgdmVyZGljdAogICDihpFfX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX1/ihpMKICAgICAgICAgICAgICAgICAgaXRlcmF0ZSBvbiBmaW5kaW5ncwpgYGAKCiMjIyAxLiBEZWNvbXBvc2UKCkJyZWFrIHRoZSB1c2VyJ3MgaWRlYSBpbnRvICoqMi01IGluZGVwZW5kZW50IGZlYXNpYmlsaXR5IHF1ZXN0aW9ucyoqLiBFYWNoIHF1ZXN0aW9uIGlzIG9uZSBzcGlrZS4gUHJlc2VudCB0aGVtIGFzIGEgdGFibGUgd2l0aCBHaXZlbi9XaGVuL1RoZW4gZnJhbWluZzoKCnwgIyB8IFNwaWtlIHwgVmFsaWRhdGVzIChHaXZlbi9XaGVuL1RoZW4pIHwgUmlzayB8CnwtLS18LS0tLS0tLXwtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tfC0tLS0tLXwKfCAwMDEgfCB3ZWJzb2NrZXQtc3RyZWFtaW5nIHwgR2l2ZW4gYSBXUyBjb25uZWN0aW9uLCB3aGVuIExMTSBzdHJlYW1zIHRva2VucywgdGhlbiBjbGllbnQgcmVjZWl2ZXMgY2h1bmtzIDwgMTAwbXMgfCBIaWdoIHwKfCAwMDJhIHwgcGRmLXBhcnNlLXBkZmpzIHwgR2l2ZW4gYSBtdWx0aS1wYWdlIFBERiwgd2hlbiBwYXJzZWQgd2l0aCBwZGZqcywgdGhlbiBzdHJ1Y3R1cmVkIHRleHQgaXMgZXh0cmFjdGFibGUgfCBNZWRpdW0gfAp8IDAwMmIgfCBwZGYtcGFyc2UtY2FtZWxvdCB8IEdpdmVuIGEgbXVsdGktcGFnZSBQREYsIHdoZW4gcGFyc2VkIHdpdGggY2FtZWxvdCwgdGhlbiBzdHJ1Y3R1cmVkIHRleHQgaXMgZXh0cmFjdGFibGUgfCBNZWRpdW0gfAoKKipTcGlrZSB0eXBlczoqKgotICoqc3RhbmRhcmQqKiDigJQgb25lIGFwcHJvYWNoIGFuc3dlcmluZyBvbmUgcXVlc3Rpb24KLSAqKmNvbXBhcmlzb24qKiDigJQgc2FtZSBxdWVzdGlvbiwgZGlmZmVyZW50IGFwcHJvYWNoZXMgKHNoYXJlZCBudW1iZXIsIGxldHRlciBzdWZmaXggYGFgL2BiYC9gY2ApCgoqKkdvb2Qgc3Bpa2UgcXVlc3Rpb25zOioqIHNwZWNpZmljIGZlYXNpYmlsaXR5IHdpdGggb2JzZXJ2YWJsZSBvdXRwdXQuCioqQmFkIHNwaWtlIHF1ZXN0aW9uczoqKiB0b28gYnJvYWQsIG5vIG9ic2VydmFibGUgb3V0cHV0LCBvciBqdXN0ICJyZWFkIHRoZSBkb2NzIGFib3V0IFgiLgoKKipPcmRlciBieSByaXNrLioqIFRoZSBzcGlrZSBtb3N0IGxpa2VseSB0byBraWxsIHRoZSBpZGVhIHJ1bnMgZmlyc3QuIE5vIHBvaW50IHByb3RvdHlwaW5nIHRoZSBlYXN5IHBhcnRzIGlmIHRoZSBoYXJkIHBhcnQgZG9lc24ndCB3b3JrLgoKKipTa2lwIGRlY29tcG9zaXRpb24qKiBvbmx5IGlmIHRoZSB1c2VyIGFscmVhZHkga25vd3MgZXhhY3RseSB3aGF0IHRoZXkgd2FudCB0byBzcGlrZSBhbmQgc2F5cyBzby4gVGhlbiB0YWtlIHRoZWlyIGlkZWEgYXMgYSBzaW5nbGUgc3Bpa2UuCgojIyMgMi4gQWxpZ24gKGZvciBtdWx0aS1zcGlrZSBpZGVhcykKClByZXNlbnQgdGhlIHNwaWtlIHRhYmxlLiBBc2s6ICJCdWlsZCBhbGwgaW4gdGhpcyBvcmRlciwgb3IgYWRqdXN0PyIgTGV0IHRoZSB1c2VyIGRyb3AsIHJlb3JkZXIsIG9yIHJlLWZyYW1lIGJlZm9yZSB5b3Ugd3JpdGUgYW55IGNvZGUuCgojIyMgMy4gUmVzZWFyY2ggKHBlciBzcGlrZSwgYmVmb3JlIGJ1aWxkaW5nKQoKU3Bpa2VzIGFyZSBub3QgcmVzZWFyY2gtZnJlZSDigJQgeW91IHJlc2VhcmNoIGVub3VnaCB0byBwaWNrIHRoZSByaWdodCBhcHByb2FjaCwgdGhlbiB5b3UgYnVpbGQuIFBlciBzcGlrZToKCjEuICoqQnJpZWYgaXQuKiogMi0zIHNlbnRlbmNlczogd2hhdCB0aGlzIHNwaWtlIGlzLCB3aHkgaXQgbWF0dGVycywga2V5IHJpc2suCjIuICoqU3VyZmFjZSBjb21wZXRpbmcgYXBwcm9hY2hlcyoqIGlmIHRoZXJlJ3MgcmVhbCBjaG9pY2U6CgogICB8IEFwcHJvYWNoIHwgVG9vbC9MaWJyYXJ5IHwgUHJvcyB8IENvbnMgfCBTdGF0dXMgfAogICB8LS0tLS0tLS0tLXwtLS0tLS0tLS0tLS0tfC0tLS0tLXwtLS0tLS18LS0tLS0tLS18CiAgIHwgLi4uIHwgLi4uIHwgLi4uIHwgLi4uIHwgbWFpbnRhaW5lZCAvIGFiYW5kb25lZCAvIGJldGEgfAoKMy4gKipQaWNrIG9uZS4qKiBTdGF0ZSB3aHkuIElmIDIrIGFyZSBjcmVkaWJsZSwgYnVpbGQgcXVpY2sgdmFyaWFudHMgd2l0aGluIHRoZSBzcGlrZS4KNC4gKipTa2lwIHJlc2VhcmNoKiogZm9yIHB1cmUgbG9naWMgd2l0aCBubyBleHRlcm5hbCBkZXBlbmRlbmNpZXMuCgpVc2UgSGVybWVzIHRvb2xzIGZvciB0aGUgcmVzZWFyY2ggc3RlcDoKCi0gYHdlYl9zZWFyY2goInB5dGhvbiB3ZWJzb2NrZXQgc3RyZWFtaW5nIGxpYnJhcmllcyAyMDI1IilgIOKAlCBmaW5kIGNhbmRpZGF0ZXMKLSBgd2ViX2V4dHJhY3QodXJscz1bImh0dHBzOi8vd2Vic29ja2V0cy5yZWFkdGhlZG9jcy5pby8uLi4iXSlgIOKAlCByZWFkIHRoZSBhY3R1YWwgZG9jcyAocmV0dXJucyBtYXJrZG93bikKLSBgdGVybWluYWwoInBpcCBzaG93IHdlYnNvY2tldHMgfCBncmVwIFZlcnNpb24iKWAg4oCUIGNoZWNrIHdoYXQncyBpbnN0YWxsZWQgaW4gdGhlIHByb2plY3QncyB2ZW52CgpGb3IgbGlicmFyaWVzIHdpdGhvdXQgZG9jcyBwYWdlcywgY2xvbmUgYW5kIHJlYWQgdGhlaXIgYFJFQURNRS5tZGAgLyBgZXhhbXBsZXMvYCB2aWEgYHJlYWRfZmlsZWAuIENvbnRleHQ3IE1DUCAoaWYgdGhlIHVzZXIgaGFzIGl0IGNvbmZpZ3VyZWQpIGlzIGFsc28gYSBnb29kIHNvdXJjZSDigJQgYG1jcF8qX3Jlc29sdmUtbGlicmFyeS1pZGAgdGhlbiBgbWNwXypfcXVlcnktZG9jc2AuCgojIyMgNC4gQnVpbGQKCk9uZSBkaXJlY3RvcnkgcGVyIHNwaWtlLiBLZWVwIGl0IHN0YW5kYWxvbmUuCgpgYGAKc3Bpa2VzLwrilJzilIDilIAgMDAxLXdlYnNvY2tldC1zdHJlYW1pbmcvCuKUgiAgIOKUnOKUgOKUgCBSRUFETUUubWQK4pSCICAg4pSU4pSA4pSAIG1haW4ucHkK4pSc4pSA4pSAIDAwMmEtcGRmLXBhcnNlLXBkZmpzLwrilIIgICDilJzilIDilIAgUkVBRE1FLm1kCuKUgiAgIOKUlOKUgOKUgCBwYXJzZS5qcwrilJTilIDilIAgMDAyYi1wZGYtcGFyc2UtY2FtZWxvdC8KICAgIOKUnOKUgOKUgCBSRUFETUUubWQKICAgIOKUlOKUgOKUgCBwYXJzZS5weQpgYGAKCioqQmlhcyB0b3dhcmQgc29tZXRoaW5nIHRoZSB1c2VyIGNhbiBpbnRlcmFjdCB3aXRoLioqIFNwaWtlcyBmYWlsIHdoZW4gdGhlIG9ubHkgb3V0cHV0IGlzIGEgbG9nIGxpbmUgdGhhdCBzYXlzICJpdCB3b3Jrcy4iIFRoZSB1c2VyIHdhbnRzIHRvICpmZWVsKiB0aGUgc3Bpa2Ugd29ya2luZy4gRGVmYXVsdCBjaG9pY2VzLCBpbiBvcmRlciBvZiBwcmVmZXJlbmNlOgoKMS4gQSBydW5uYWJsZSBDTEkgdGhhdCB0YWtlcyBpbnB1dCBhbmQgcHJpbnRzIG9ic2VydmFibGUgb3V0cHV0CjIuIEEgbWluaW1hbCBIVE1MIHBhZ2UgdGhhdCBkZW1vbnN0cmF0ZXMgdGhlIGJlaGF2aW9yCjMuIEEgc21hbGwgd2ViIHNlcnZlciB3aXRoIG9uZSBlbmRwb2ludAo0LiBBIHVuaXQgdGVzdCB0aGF0IGV4ZXJjaXNlcyB0aGUgcXVlc3Rpb24gd2l0aCByZWNvZ25pemFibGUgYXNzZXJ0aW9ucwoKKipEZXB0aCBvdmVyIHNwZWVkLioqIE5ldmVyIGRlY2xhcmUgIml0IHdvcmtzIiBhZnRlciBvbmUgaGFwcHktcGF0aCBydW4uIFRlc3QgZWRnZSBjYXNlcy4gRm9sbG93IHN1cnByaXNpbmcgZmluZGluZ3MuIFRoZSB2ZXJkaWN0IGlzIG9ubHkgdHJ1c3R3b3J0aHkgd2hlbiB0aGUgaW52ZXN0aWdhdGlvbiB3YXMgaG9uZXN0LgoKKipBdm9pZCoqIHVubGVzcyB0aGUgc3Bpa2Ugc3BlY2lmaWNhbGx5IHJlcXVpcmVzIGl0OiBjb21wbGV4IHBhY2thZ2UgbWFuYWdlbWVudCwgYnVpbGQgdG9vbHMvYnVuZGxlcnMsIERvY2tlciwgZW52IGZpbGVzLCBjb25maWcgc3lzdGVtcy4gSGFyZGNvZGUgZXZlcnl0aGluZyDigJQgaXQncyBhIHNwaWtlLgoKKipCdWlsZGluZyBvbmUgc3Bpa2UqKiDigJQgYSB0eXBpY2FsIHRvb2wgc2VxdWVuY2U6CgpgYGAKdGVybWluYWwoIm1rZGlyIC1wIHNwaWtlcy8wMDEtd2Vic29ja2V0LXN0cmVhbWluZyIpCndyaXRlX2ZpbGUoInNwaWtlcy8wMDEtd2Vic29ja2V0LXN0cmVhbWluZy9SRUFETUUubWQiLCAiIyAwMDE6IHdlYnNvY2tldC1zdHJlYW1pbmdcblxuLi4uIikKd3JpdGVfZmlsZSgic3Bpa2VzLzAwMS13ZWJzb2NrZXQtc3RyZWFtaW5nL21haW4ucHkiLCAiLi4uIikKdGVybWluYWwoImNkIHNwaWtlcy8wMDEtd2Vic29ja2V0LXN0cmVhbWluZyAmJiBweXRob24zIG1haW4ucHkiKQojIE9ic2VydmUgb3V0cHV0LCBpdGVyYXRlLgpgYGAKCioqUGFyYWxsZWwgY29tcGFyaXNvbiBzcGlrZXMgKDAwMmEgLyAwMDJiKSDigJQgZGVsZWdhdGUuKiogV2hlbiB0d28gYXBwcm9hY2hlcyBjYW4gcnVuIGluIHBhcmFsbGVsIGFuZCBib3RoIG5lZWQgcmVhbCBlbmdpbmVlcmluZyAobm90IDEwLWxpbmUgcHJvdG90eXBlcyksIGZhbiBvdXQgd2l0aCBgZGVsZWdhdGVfdGFza2A6CgpgYGAKZGVsZWdhdGVfdGFzayh0YXNrcz1bCiAgICB7ImdvYWwiOiAiQnVpbGQgMDAyYS1wZGYtcGFyc2UtcGRmanM6IC4uLiIsICJ0b29sc2V0cyI6IFsidGVybWluYWwiLCAiZmlsZSIsICJ3ZWIiXX0sCiAgICB7ImdvYWwiOiAiQnVpbGQgMDAyYi1wZGYtcGFyc2UtY2FtZWxvdDogLi4uIiwgInRvb2xzZXRzIjogWyJ0ZXJtaW5hbCIsICJmaWxlIiwgIndlYiJdfSwKXSkKYGBgCgpFYWNoIHN1YmFnZW50IHJldHVybnMgaXRzIG93biB2ZXJkaWN0OyB5b3Ugd3JpdGUgdGhlIGhlYWQtdG8taGVhZC4KCiMjIyA1LiBWZXJkaWN0CgpFYWNoIHNwaWtlJ3MgYFJFQURNRS5tZGAgY2xvc2VzIHdpdGg6CgpgYGBtYXJrZG93bgojIyBWZXJkaWN0OiBWQUxJREFURUQgfCBQQVJUSUFMIHwgSU5WQUxJREFURUQKCiMjIyBXaGF0IHdvcmtlZAotIC4uLgoKIyMjIFdoYXQgZGlkbid0Ci0gLi4uCgojIyMgU3VycHJpc2VzCi0gLi4uCgojIyMgUmVjb21tZW5kYXRpb24gZm9yIHRoZSByZWFsIGJ1aWxkCi0gLi4uCmBgYAoKKipWQUxJREFURUQqKiA9IHRoZSBjb3JlIHF1ZXN0aW9uIHdhcyBhbnN3ZXJlZCB5ZXMsIHdpdGggZXZpZGVuY2UuCioqUEFSVElBTCoqID0gaXQgd29ya3MgdW5kZXIgY29uc3RyYWludHMgWCwgWSwgWiDigJQgZG9jdW1lbnQgdGhlbS4KKipJTlZBTElEQVRFRCoqID0gZG9lc24ndCB3b3JrLCBmb3IgdGhpcyByZWFzb24uIFRoaXMgaXMgYSBzdWNjZXNzZnVsIHNwaWtlLgoKIyMgQ29tcGFyaXNvbiBzcGlrZXMKCldoZW4gdHdvIGFwcHJvYWNoZXMgYW5zd2VyIHRoZSBzYW1lIHF1ZXN0aW9uICgwMDJhIC8gMDAyYiksIGJ1aWxkIHRoZW0gKipiYWNrIHRvIGJhY2sqKiwgdGhlbiBkbyBhIGhlYWQtdG8taGVhZCBjb21wYXJpc29uIGF0IHRoZSBlbmQ6CgpgYGBtYXJrZG93bgojIyBIZWFkLXRvLWhlYWQ6IHBkZmpzIHZzIGNhbWVsb3QKCnwgRGltZW5zaW9uIHwgcGRmanMgKDAwMmEpIHwgY2FtZWxvdCAoMDAyYikgfAp8LS0tLS0tLS0tLS18LS0tLS0tLS0tLS0tLS18LS0tLS0tLS0tLS0tLS0tLXwKfCBFeHRyYWN0aW9uIHF1YWxpdHkgfCA5LzEwIHN0cnVjdHVyZWQgfCA3LzEwIHRhYmxlLW9ubHkgfAp8IFNldHVwIGNvbXBsZXhpdHkgfCBucG0gaW5zdGFsbCwgMSBsaW5lIHwgcGlwICsgZ2hvc3RzY3JpcHQgfAp8IFBlcmYgb24gMTAwLXBhZ2UgUERGIHwgM3MgfCAxOHMgfAp8IEhhbmRsZXMgcm90YXRlZCB0ZXh0IHwgbm8gfCB5ZXMgfAoKKipXaW5uZXI6KiogcGRmanMgZm9yIG91ciB1c2UgY2FzZS4gQ2FtZWxvdCBpZiB3ZSBuZWVkIHRhYmxlLWZpcnN0IGV4dHJhY3Rpb24gbGF0ZXIuCmBgYAoKIyMgRnJvbnRpZXIgbW9kZSAocGlja2luZyB3aGF0IHRvIHNwaWtlIG5leHQpCgpJZiBzcGlrZXMgYWxyZWFkeSBleGlzdCBhbmQgdGhlIHVzZXIgc2F5cyAid2hhdCBzaG91bGQgSSBzcGlrZSBuZXh0PyIsIHdhbGsgdGhlIGV4aXN0aW5nIGRpcmVjdG9yaWVzIGFuZCBsb29rIGZvcjoKCi0gKipJbnRlZ3JhdGlvbiByaXNrcyoqIOKAlCB0d28gdmFsaWRhdGVkIHNwaWtlcyB0aGF0IHRvdWNoIHRoZSBzYW1lIHJlc291cmNlIGJ1dCB3ZXJlIHRlc3RlZCBpbmRlcGVuZGVudGx5Ci0gKipEYXRhIGhhbmRvZmZzKiog4oCUIHNwaWtlIEEncyBvdXRwdXQgd2FzIGFzc3VtZWQgY29tcGF0aWJsZSB3aXRoIHNwaWtlIEIncyBpbnB1dDsgbmV2ZXIgcHJvdmVuCi0gKipHYXBzIGluIHRoZSB2aXNpb24qKiDigJQgY2FwYWJpbGl0aWVzIGFzc3VtZWQgYnV0IHVucHJvdmVuCi0gKipBbHRlcm5hdGl2ZSBhcHByb2FjaGVzKiog4oCUIGRpZmZlcmVudCBhbmdsZXMgZm9yIFBBUlRJQUwgb3IgSU5WQUxJREFURUQgc3Bpa2VzCgpQcm9wb3NlIDItNCBjYW5kaWRhdGVzIGFzIEdpdmVuL1doZW4vVGhlbi4gTGV0IHRoZSB1c2VyIHBpY2suCgojIyBPdXRwdXQKCi0gQ3JlYXRlIGBzcGlrZXMvYCAob3IgYC5wbGFubmluZy9zcGlrZXMvYCBpZiB0aGUgdXNlciBpcyB1c2luZyBHU0QgY29udmVudGlvbnMpIGluIHRoZSByZXBvIHJvb3QKLSBPbmUgZGlyIHBlciBzcGlrZTogYE5OTi1kZXNjcmlwdGl2ZS1uYW1lL2AKLSBgUkVBRE1FLm1kYCBwZXIgc3Bpa2UgY2FwdHVyZXMgcXVlc3Rpb24sIGFwcHJvYWNoLCByZXN1bHRzLCB2ZXJkaWN0Ci0gS2VlcCB0aGUgY29kZSB0aHJvd2F3YXkg4oCUIGEgc3Bpa2UgdGhhdCB0YWtlcyAyIGRheXMgdG8gImNsZWFuIHVwIGZvciBwcm9kdWN0aW9uIiB3YXMgYSBiYWQgc3Bpa2UKCiMjIEF0dHJpYnV0aW9uCgpBZGFwdGVkIGZyb20gdGhlIEdTRCAoR2V0IFNoaXQgRG9uZSkgcHJvamVjdCdzIGAvZ3NkLXNwaWtlYCB3b3JrZmxvdyDigJQgTUlUIMKpIDIwMjUgTGV4IENocmlzdG9waGVyc29uIChbZ3NkLWJ1aWxkL2dldC1zaGl0LWRvbmVdKGh0dHBzOi8vZ2l0aHViLmNvbS9nc2QtYnVpbGQvZ2V0LXNoaXQtZG9uZSkpLiBUaGUgZnVsbCBHU0Qgc3lzdGVtIG9mZmVycyBwZXJzaXN0ZW50IHNwaWtlIHN0YXRlLCBNQU5JRkVTVCB0cmFja2luZywgYW5kIGludGVncmF0aW9uIHdpdGggYSBicm9hZGVyIHNwZWMtZHJpdmVuIGRldmVsb3BtZW50IHBpcGVsaW5lOyBpbnN0YWxsIHdpdGggYG5weCBnZXQtc2hpdC1kb25lLWNjIC0taGVybWVzIC0tZ2xvYmFsYC4K
+---
+name: spike
+description: "Throwaway experiments to validate an idea before build."
+version: 1.0.0
+author: Hermes Agent (adapted from gsd-build/get-shit-done)
+license: MIT
+platforms: [linux, macos, windows]
+metadata:
+  hermes:
+    tags: [spike, prototype, experiment, feasibility, throwaway, exploration, research, planning, mvp, proof-of-concept]
+    related_skills: [sketch, subagent-driven-development, plan]
+---
+
+# Spike
+
+Use this skill when the user wants to **feel out an idea** before committing to a real build — validating feasibility, comparing approaches, or surfacing unknowns that no amount of research will answer. Spikes are disposable by design. Throw them away once they've paid their debt.
+
+Load this when the user says things like "let me try this", "I want to see if X works", "spike this out", "before I commit to Y", "quick prototype of Z", "is this even possible?", or "compare A vs B".
+
+## When NOT to use this
+
+- The answer is knowable from docs or reading code — just do research, don't build
+- The work is production path — use the `plan` skill instead
+- The idea is already validated — jump straight to implementation
+
+## If the user has the full GSD system installed
+
+If `gsd-spike` shows up as a sibling skill (installed via `npx get-shit-done-cc --hermes`), prefer **`gsd-spike`** when the user wants the full GSD workflow: persistent `.planning/spikes/` state, MANIFEST tracking across sessions, Given/When/Then verdict format, and commit patterns that integrate with the rest of GSD. This skill is the lightweight standalone version for users who don't have (or don't want) the full system.
+
+## Core method
+
+Regardless of scale, every spike follows this loop:
+
+```
+decompose  →  research  →  build  →  verdict
+   ↑__________________________________________↓
+                  iterate on findings
+```
+
+### 1. Decompose
+
+Break the user's idea into **2-5 independent feasibility questions**. Each question is one spike. Present them as a table with Given/When/Then framing:
+
+| # | Spike | Validates (Given/When/Then) | Risk |
+|---|-------|----------------------------|------|
+| 001 | websocket-streaming | Given a WS connection, when LLM streams tokens, then client receives chunks < 100ms | High |
+| 002a | pdf-parse-pdfjs | Given a multi-page PDF, when parsed with pdfjs, then structured text is extractable | Medium |
+| 002b | pdf-parse-camelot | Given a multi-page PDF, when parsed with camelot, then structured text is extractable | Medium |
+
+**Spike types:**
+- **standard** — one approach answering one question
+- **comparison** — same question, different approaches (shared number, letter suffix `a`/`b`/`c`)
+
+**Good spike questions:** specific feasibility with observable output.
+**Bad spike questions:** too broad, no observable output, or just "read the docs about X".
+
+**Order by risk.** The spike most likely to kill the idea runs first. No point prototyping the easy parts if the hard part doesn't work.
+
+**Skip decomposition** only if the user already knows exactly what they want to spike and says so. Then take their idea as a single spike.
+
+### 2. Align (for multi-spike ideas)
+
+Present the spike table. Ask: "Build all in this order, or adjust?" Let the user drop, reorder, or re-frame before you write any code.
+
+### 3. Research (per spike, before building)
+
+Spikes are not research-free — you research enough to pick the right approach, then you build. Per spike:
+
+1. **Brief it.** 2-3 sentences: what this spike is, why it matters, key risk.
+2. **Surface competing approaches** if there's real choice:
+
+   | Approach | Tool/Library | Pros | Cons | Status |
+   |----------|-------------|------|------|--------|
+   | ... | ... | ... | ... | maintained / abandoned / beta |
+
+3. **Pick one.** State why. If 2+ are credible, build quick variants within the spike.
+4. **Skip research** for pure logic with no external dependencies.
+
+Use Hermes tools for the research step:
+
+- `web_search("python websocket streaming libraries 2025")` — find candidates
+- `web_extract(urls=["https://websockets.readthedocs.io/..."])` — read the actual docs (returns markdown)
+- `terminal("pip show websockets | grep Version")` — check what's installed in the project's venv
+
+For libraries without docs pages, clone and read their `README.md` / `examples/` via `read_file`. Context7 MCP (if the user has it configured) is also a good source — `mcp_*_resolve-library-id` then `mcp_*_query-docs`.
+
+### 4. Build
+
+One directory per spike. Keep it standalone.
+
+```
+spikes/
+├── 001-websocket-streaming/
+│   ├── README.md
+│   └── main.py
+├── 002a-pdf-parse-pdfjs/
+│   ├── README.md
+│   └── parse.js
+└── 002b-pdf-parse-camelot/
+    ├── README.md
+    └── parse.py
+```
+
+**Bias toward something the user can interact with.** Spikes fail when the only output is a log line that says "it works." The user wants to *feel* the spike working. Default choices, in order of preference:
+
+1. A runnable CLI that takes input and prints observable output
+2. A minimal HTML page that demonstrates the behavior
+3. A small web server with one endpoint
+4. A unit test that exercises the question with recognizable assertions
+
+**Depth over speed.** Never declare "it works" after one happy-path run. Test edge cases. Follow surprising findings. The verdict is only trustworthy when the investigation was honest.
+
+**Avoid** unless the spike specifically requires it: complex package management, build tools/bundlers, Docker, env files, config systems. Hardcode everything — it's a spike.
+
+**Building one spike** — a typical tool sequence:
+
+```
+terminal("mkdir -p spikes/001-websocket-streaming")
+write_file("spikes/001-websocket-streaming/README.md", "# 001: websocket-streaming\n\n...")
+write_file("spikes/001-websocket-streaming/main.py", "...")
+terminal("cd spikes/001-websocket-streaming && python3 main.py")
+# Observe output, iterate.
+```
+
+**Parallel comparison spikes (002a / 002b) — delegate.** When two approaches can run in parallel and both need real engineering (not 10-line prototypes), fan out with `delegate_task`:
+
+```
+delegate_task(tasks=[
+    {"goal": "Build 002a-pdf-parse-pdfjs: ...", "toolsets": ["terminal", "file", "web"]},
+    {"goal": "Build 002b-pdf-parse-camelot: ...", "toolsets": ["terminal", "file", "web"]},
+])
+```
+
+Each subagent returns its own verdict; you write the head-to-head.
+
+### 5. Verdict
+
+Each spike's `README.md` closes with:
+
+```markdown
+## Verdict: VALIDATED | PARTIAL | INVALIDATED
+
+### What worked
+- ...
+
+### What didn't
+- ...
+
+### Surprises
+- ...
+
+### Recommendation for the real build
+- ...
+```
+
+**VALIDATED** = the core question was answered yes, with evidence.
+**PARTIAL** = it works under constraints X, Y, Z — document them.
+**INVALIDATED** = doesn't work, for this reason. This is a successful spike.
+
+## Comparison spikes
+
+When two approaches answer the same question (002a / 002b), build them **back to back**, then do a head-to-head comparison at the end:
+
+```markdown
+## Head-to-head: pdfjs vs camelot
+
+| Dimension | pdfjs (002a) | camelot (002b) |
+|-----------|--------------|----------------|
+| Extraction quality | 9/10 structured | 7/10 table-only |
+| Setup complexity | npm install, 1 line | pip + ghostscript |
+| Perf on 100-page PDF | 3s | 18s |
+| Handles rotated text | no | yes |
+
+**Winner:** pdfjs for our use case. Camelot if we need table-first extraction later.
+```
+
+## Frontier mode (picking what to spike next)
+
+If spikes already exist and the user says "what should I spike next?", walk the existing directories and look for:
+
+- **Integration risks** — two validated spikes that touch the same resource but were tested independently
+- **Data handoffs** — spike A's output was assumed compatible with spike B's input; never proven
+- **Gaps in the vision** — capabilities assumed but unproven
+- **Alternative approaches** — different angles for PARTIAL or INVALIDATED spikes
+
+Propose 2-4 candidates as Given/When/Then. Let the user pick.
+
+## Output
+
+- Create `spikes/` (or `.planning/spikes/` if the user is using GSD conventions) in the repo root
+- One dir per spike: `NNN-descriptive-name/`
+- `README.md` per spike captures question, approach, results, verdict
+- Keep the code throwaway — a spike that takes 2 days to "clean up for production" was a bad spike
+
+## Attribution
+
+Adapted from the GSD (Get Shit Done) project's `/gsd-spike` workflow — MIT © 2025 Lex Christopherson ([gsd-build/get-shit-done](https://github.com/gsd-build/get-shit-done)). The full GSD system offers persistent spike state, MANIFEST tracking, and integration with a broader spec-driven development pipeline; install with `npx get-shit-done-cc --hermes --global`.

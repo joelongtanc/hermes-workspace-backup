@@ -1,1 +1,41 @@
-IyB3aW5kaW5nLXJvYWRtYXAKCkN1cnZlZCBwYXRoIHNob3dpbmcgam91cm5leSB3aXRoIG1pbGVzdG9uZXMgYW5kIGNoZWNrcG9pbnRzLgoKIyMgU3RydWN0dXJlCgotIFMtY3VydmUgb3Igd2luZGluZyBwYXRoCi0gTWlsZXN0b25lcyBhbG9uZyB0aGUgcGF0aAotIFN0YXJ0IGFuZCBkZXN0aW5hdGlvbiBwb2ludHMKLSBTaWRlIGVsZW1lbnRzIChvYnN0YWNsZXMsIGhlbHBlcnMpCi0gUHJvZ3Jlc3MgaW5kaWNhdG9ycwoKIyMgQmVzdCBGb3IKCi0gUHJvamVjdCByb2FkbWFwcwotIENhcmVlciBwYXRocwotIEN1c3RvbWVyIGpvdXJuZXlzCi0gTGVhcm5pbmcgcGF0aHMKLSBTdHJhdGVneSB0aW1lbGluZXMKCiMjIFZpc3VhbCBFbGVtZW50cwoKLSBDdXJ2aW5nIHJvYWQgb3Igcml2ZXIKLSBNaWxlc3RvbmUgbWFya2Vycy9mbGFncwotIFNjZW5lIGVsZW1lbnRzIGFsb25nIHBhdGgKLSBWZWhpY2xlL2NoYXJhY3RlciBvbiBqb3VybmV5Ci0gRGVzdGluYXRpb24gbGFuZG1hcmsKCiMjIFRleHQgUGxhY2VtZW50CgotIFRpdGxlIGF0IHRvcAotIE1pbGVzdG9uZSBsYWJlbHMgYXQgZWFjaCBwb2ludAotIFBhdGggc2VjdGlvbiBuYW1lcwotIERlc3RpbmF0aW9uIGRlc2NyaXB0aW9uCi0gT3B0aW9uYWwgdGltZWxpbmUgaW5kaWNhdG9ycwoKIyMgUmVjb21tZW5kZWQgUGFpcmluZ3MKCi0gYHN0b3J5Ym9vay13YXRlcmNvbG9yYDogV2hpbXNpY2FsIGpvdXJuZXlzCi0gYGNhcnRvb24taGFuZC1kcmF3bmA6IEZyaWVuZGx5IHJvYWRtYXBzCi0gYGlzb21ldHJpYy0zZGA6IFRlY2huaWNhbCBwcm9qZWN0IHBhdGhzCg==
+# winding-roadmap
+
+Curved path showing journey with milestones and checkpoints.
+
+## Structure
+
+- S-curve or winding path
+- Milestones along the path
+- Start and destination points
+- Side elements (obstacles, helpers)
+- Progress indicators
+
+## Best For
+
+- Project roadmaps
+- Career paths
+- Customer journeys
+- Learning paths
+- Strategy timelines
+
+## Visual Elements
+
+- Curving road or river
+- Milestone markers/flags
+- Scene elements along path
+- Vehicle/character on journey
+- Destination landmark
+
+## Text Placement
+
+- Title at top
+- Milestone labels at each point
+- Path section names
+- Destination description
+- Optional timeline indicators
+
+## Recommended Pairings
+
+- `storybook-watercolor`: Whimsical journeys
+- `cartoon-hand-drawn`: Friendly roadmaps
+- `isometric-3d`: Technical project paths

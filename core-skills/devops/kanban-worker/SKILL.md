@@ -1,1 +1,193 @@
-LS0tCm5hbWU6IGthbmJhbi13b3JrZXIKZGVzY3JpcHRpb246IFBpdGZhbGxzLCBleGFtcGxlcywgYW5kIGVkZ2UgY2FzZXMgZm9yIEhlcm1lcyBLYW5iYW4gd29ya2Vycy4gVGhlIGxpZmVjeWNsZSBpdHNlbGYgaXMgYXV0by1pbmplY3RlZCBpbnRvIGV2ZXJ5IHdvcmtlcidzIHN5c3RlbSBwcm9tcHQgYXMgS0FOQkFOX0dVSURBTkNFIChmcm9tIGFnZW50L3Byb21wdF9idWlsZGVyLnB5KTsgdGhpcyBza2lsbCBpcyB3aGF0IHlvdSBsb2FkIHdoZW4geW91IHdhbnQgZGVlcGVyIGRldGFpbCBvbiBzcGVjaWZpYyBzY2VuYXJpb3MuCnZlcnNpb246IDIuMC4wCnBsYXRmb3JtczogW2xpbnV4LCBtYWNvcywgd2luZG93c10KZW52aXJvbm1lbnRzOiBba2FuYmFuXQptZXRhZGF0YToKICBoZXJtZXM6CiAgICB0YWdzOiBba2FuYmFuLCBtdWx0aS1hZ2VudCwgY29sbGFib3JhdGlvbiwgd29ya2Zsb3csIHBpdGZhbGxzXQogICAgcmVsYXRlZF9za2lsbHM6IFtrYW5iYW4tb3JjaGVzdHJhdG9yXQotLS0KCiMgS2FuYmFuIFdvcmtlciDigJQgUGl0ZmFsbHMgYW5kIEV4YW1wbGVzCgo+IFlvdSdyZSBzZWVpbmcgdGhpcyBza2lsbCBiZWNhdXNlIHRoZSBIZXJtZXMgS2FuYmFuIGRpc3BhdGNoZXIgc3Bhd25lZCB5b3UgYXMgYSB3b3JrZXIgd2l0aCBgLS1za2lsbHMga2FuYmFuLXdvcmtlcmAg4oCUIGl0J3MgbG9hZGVkIGF1dG9tYXRpY2FsbHkgZm9yIGV2ZXJ5IGRpc3BhdGNoZWQgd29ya2VyLiBUaGUgKipsaWZlY3ljbGUqKiAoNiBzdGVwczogb3JpZW50IOKGkiB3b3JrIOKGkiBoZWFydGJlYXQg4oaSIGJsb2NrL2NvbXBsZXRlKSBhbHNvIGxpdmVzIGluIHRoZSBgS0FOQkFOX0dVSURBTkNFYCBibG9jayB0aGF0J3MgYXV0by1pbmplY3RlZCBpbnRvIHlvdXIgc3lzdGVtIHByb21wdC4gVGhpcyBza2lsbCBpcyB0aGUgZGVlcGVyIGRldGFpbDogZ29vZCBoYW5kb2ZmIHNoYXBlcywgcmV0cnkgZGlhZ25vc3RpY3MsIGVkZ2UgY2FzZXMuCgojIyBXb3Jrc3BhY2UgaGFuZGxpbmcKCllvdXIgd29ya3NwYWNlIGtpbmQgZGV0ZXJtaW5lcyBob3cgeW91IHNob3VsZCBiZWhhdmUgaW5zaWRlIGAkSEVSTUVTX0tBTkJBTl9XT1JLU1BBQ0VgOgoKfCBLaW5kIHwgV2hhdCBpdCBpcyB8IEhvdyB0byB3b3JrIHwKfC0tLXwtLS18LS0tfAp8IGBzY3JhdGNoYCB8IEZyZXNoIHRtcCBkaXIsIHlvdXJzIGFsb25lIHwgUmVhZC93cml0ZSBmcmVlbHk7IGl0IGdldHMgR0MnZCB3aGVuIHRoZSB0YXNrIGlzIGFyY2hpdmVkLiB8CnwgYGRpcjo8cGF0aD5gIHwgU2hhcmVkIHBlcnNpc3RlbnQgZGlyZWN0b3J5IHwgT3RoZXIgcnVucyB3aWxsIHJlYWQgd2hhdCB5b3Ugd3JpdGUuIFRyZWF0IGl0IGxpa2UgbG9uZy1saXZlZCBzdGF0ZS4gUGF0aCBpcyBndWFyYW50ZWVkIGFic29sdXRlICh0aGUga2VybmVsIHJlamVjdHMgcmVsYXRpdmUgcGF0aHMpLiB8CnwgYHdvcmt0cmVlYCB8IEdpdCB3b3JrdHJlZSBhdCB0aGUgcmVzb2x2ZWQgcGF0aCB8IElmIGAuZ2l0YCBkb2Vzbid0IGV4aXN0LCBydW4gYGdpdCB3b3JrdHJlZSBhZGQgPHBhdGg+ICR7SEVSTUVTX0tBTkJBTl9CUkFOQ0g6LXd0LyRIRVJNRVNfS0FOQkFOX1RBU0t9YCBmcm9tIHRoZSBtYWluIHJlcG8gZmlyc3QsIHRoZW4gY2QgYW5kIHdvcmsgbm9ybWFsbHkuIENvbW1pdCB3b3JrIGhlcmUuIHwKCiMjIFRlbmFudCBpc29sYXRpb24KCklmIGAkSEVSTUVTX1RFTkFOVGAgaXMgc2V0LCB0aGUgdGFzayBiZWxvbmdzIHRvIGEgdGVuYW50IG5hbWVzcGFjZS4gV2hlbiByZWFkaW5nIG9yIHdyaXRpbmcgcGVyc2lzdGVudCBtZW1vcnksIHByZWZpeCBtZW1vcnkgZW50cmllcyB3aXRoIHRoZSB0ZW5hbnQgc28gY29udGV4dCBkb2Vzbid0IGxlYWsgYWNyb3NzIHRlbmFudHM6CgotIEdvb2Q6IGBidXNpbmVzcy1hOiBBY21lIGlzIG91ciBiaWdnZXN0IGN1c3RvbWVyYAotIEJhZCAobGVha3MpOiBgQWNtZSBpcyBvdXIgYmlnZ2VzdCBjdXN0b21lcmAKCiMjIEdvb2Qgc3VtbWFyeSArIG1ldGFkYXRhIHNoYXBlcwoKVGhlIGBrYW5iYW5fY29tcGxldGUoc3VtbWFyeT0uLi4sIG1ldGFkYXRhPS4uLilgIGhhbmRvZmYgaXMgaG93IGRvd25zdHJlYW0gd29ya2VycyByZWFkIHdoYXQgeW91IGRpZC4gUGF0dGVybnMgdGhhdCB3b3JrOgoKKipDb2RpbmcgdGFzazoqKgpgYGBweXRob24Ka2FuYmFuX2NvbXBsZXRlKAogICAgc3VtbWFyeT0ic2hpcHBlZCByYXRlIGxpbWl0ZXIg4oCUIHRva2VuIGJ1Y2tldCwga2V5cyBvbiB1c2VyX2lkIHdpdGggSVAgZmFsbGJhY2ssIDE0IHRlc3RzIHBhc3MiLAogICAgbWV0YWRhdGE9ewogICAgICAgICJjaGFuZ2VkX2ZpbGVzIjogWyJyYXRlX2xpbWl0ZXIucHkiLCAidGVzdHMvdGVzdF9yYXRlX2xpbWl0ZXIucHkiXSwKICAgICAgICAidGVzdHNfcnVuIjogMTQsCiAgICAgICAgInRlc3RzX3Bhc3NlZCI6IDE0LAogICAgICAgICJkZWNpc2lvbnMiOiBbInVzZXJfaWQgcHJpbWFyeSwgSVAgZmFsbGJhY2sgZm9yIHVuYXV0aGVudGljYXRlZCByZXF1ZXN0cyJdLAogICAgfSwKKQpgYGAKCioqQ29kaW5nIHRhc2sgdGhhdCBuZWVkcyBodW1hbiByZXZpZXcgKHJldmlldy1yZXF1aXJlZCk6KioKCkZvciBtb3N0IGNvZGUtY2hhbmdpbmcgdGFza3MsIHRoZSB3b3JrIGlzbid0IHRydWx5ICpkb25lKiB1bnRpbCBhIGh1bWFuIHJldmlld2VyIGhhcyBleWVzIG9uIGl0LiBCbG9jayBpbnN0ZWFkIG9mIGNvbXBsZXRlLCB3aXRoIGByZWFzb25gIHByZWZpeGVkIGByZXZpZXctcmVxdWlyZWQ6IGAgc28gdGhlIGRhc2hib2FyZCBzdXJmYWNlcyB0aGUgcm93IGFzIG5lZWRpbmcgcmV2aWV3LiBEcm9wIHRoZSBzdHJ1Y3R1cmVkIG1ldGFkYXRhIChjaGFuZ2VkIGZpbGVzLCB0ZXN0IGNvdW50cywgZGlmZi9QUiB1cmwpIGludG8gYSBjb21tZW50IGZpcnN0LCBzaW5jZSBga2FuYmFuX2Jsb2NrYCBvbmx5IGNhcnJpZXMgdGhlIGh1bWFuLXJlYWRhYmxlIHJlYXNvbiDigJQgY29tbWVudHMgYXJlIHRoZSBkdXJhYmxlIGFubm90YXRpb24gY2hhbm5lbC4gUmV2aWV3ZXIgZWl0aGVyIGFwcHJvdmVzIGFuZCBydW5zIGBoZXJtZXMga2FuYmFuIHVuYmxvY2sgPGlkPmAgKHdoaWNoIHJlLXNwYXducyB5b3Ugd2l0aCB0aGUgY29tbWVudCB0aHJlYWQgZm9yIGFueSBmb2xsb3ctdXBzKSBvciBhc2tzIGZvciBjaGFuZ2VzIHZpYSBhbm90aGVyIGNvbW1lbnQuCgpgYGBweXRob24KaW1wb3J0IGpzb24KCmthbmJhbl9jb21tZW50KAogICAgYm9keT0icmV2aWV3LXJlcXVpcmVkIGhhbmRvZmY6XG4iICsganNvbi5kdW1wcyh7CiAgICAgICAgImNoYW5nZWRfZmlsZXMiOiBbInJhdGVfbGltaXRlci5weSIsICJ0ZXN0cy90ZXN0X3JhdGVfbGltaXRlci5weSJdLAogICAgICAgICJ0ZXN0c19ydW4iOiAxNCwKICAgICAgICAidGVzdHNfcGFzc2VkIjogMTQsCiAgICAgICAgImRpZmZfcGF0aCI6ICIvcGF0aC90by93b3JrdHJlZSIsICAjIG9yIFBSIHVybCBpZiBwdXNoZWQKICAgICAgICAiZGVjaXNpb25zIjogWyJ1c2VyX2lkIHByaW1hcnksIElQIGZhbGxiYWNrIGZvciB1bmF1dGhlbnRpY2F0ZWQgcmVxdWVzdHMiXSwKICAgIH0sIGluZGVudD0yKSwKKQprYW5iYW5fYmxvY2soCiAgICByZWFzb249InJldmlldy1yZXF1aXJlZDogcmF0ZSBsaW1pdGVyIHNoaXBwZWQsIDE0LzE0IHRlc3RzIHBhc3Mg4oCUIG5lZWRzIGV5ZXMgb24gdGhlIHVzZXJfaWQvSVAgZmFsbGJhY2sgY2hvaWNlIGJlZm9yZSBtZXJnaW5nIiwKKQpgYGAKClVzZSBga2FuYmFuX2NvbXBsZXRlYCBvbmx5IHdoZW4gdGhlIHRhc2sgaXMgZ2VudWluZWx5IHRlcm1pbmFsIOKAlCBlLmcuIGEgb25lLWxpbmUgdHlwbyBmaXgsIGEgZG9jcyBjaGFuZ2Ugd2l0aCBubyBmdW5jdGlvbmFsIGNvbnNlcXVlbmNlcywgb3IgYSByZXNlYXJjaCB0YXNrIHdoZXJlIHRoZSBhcnRpZmFjdCBJUyB0aGUgd3JpdGV1cCBpdHNlbGYuCgoqKlJlc2VhcmNoIHRhc2s6KioKYGBgcHl0aG9uCmthbmJhbl9jb21wbGV0ZSgKICAgIHN1bW1hcnk9IjMgY29tcGV0aW5nIGxpYnJhcmllcyByZXZpZXdlZDsgdkxMTSB3aW5zIG9uIHRocm91Z2hwdXQsIFNHTGFuZyBvbiBsYXRlbmN5LCBUZW5zb3JydC1MTE0gb24gbWVtb3J5IGVmZmljaWVuY3kiLAogICAgbWV0YWRhdGE9ewogICAgICAgICJzb3VyY2VzX3JlYWQiOiAxMiwKICAgICAgICAicmVjb21tZW5kYXRpb24iOiAidkxMTSIsCiAgICAgICAgImJlbmNobWFya3MiOiB7InZsbG0iOiAxLjAsICJzZ2xhbmciOiAwLjg3LCAidHJ0bGxtIjogMC43Mn0sCiAgICB9LAopCmBgYAoKKipSZXZpZXcgdGFzazoqKgpgYGBweXRob24Ka2FuYmFuX2NvbXBsZXRlKAogICAgc3VtbWFyeT0icmV2aWV3ZWQgUFIgIzEyMzsgMiBibG9ja2luZyBpc3N1ZXMgZm91bmQgKFNRTCBpbmplY3Rpb24gaW4gL3NlYXJjaCwgbWlzc2luZyBDU1JGIG9uIC9zZXR0aW5ncykiLAogICAgbWV0YWRhdGE9ewogICAgICAgICJwcl9udW1iZXIiOiAxMjMsCiAgICAgICAgImZpbmRpbmdzIjogWwogICAgICAgICAgICB7InNldmVyaXR5IjogImNyaXRpY2FsIiwgImZpbGUiOiAiYXBpL3NlYXJjaC5weSIsICJsaW5lIjogNDIsICJpc3N1ZSI6ICJyYXcgU1FMIGNvbmNhdCJ9LAogICAgICAgICAgICB7InNldmVyaXR5IjogImhpZ2giLCAiZmlsZSI6ICJhcGkvc2V0dGluZ3MucHkiLCAiaXNzdWUiOiAibWlzc2luZyBDU1JGIG1pZGRsZXdhcmUifSwKICAgICAgICBdLAogICAgICAgICJhcHByb3ZlZCI6IEZhbHNlLAogICAgfSwKKQpgYGAKClNoYXBlIGBtZXRhZGF0YWAgc28gZG93bnN0cmVhbSBwYXJzZXJzIChyZXZpZXdlcnMsIGFnZ3JlZ2F0b3JzLCBzY2hlZHVsZXJzKSBjYW4gdXNlIGl0IHdpdGhvdXQgcmUtcmVhZGluZyB5b3VyIHByb3NlLgoKIyMgQ2xhaW1pbmcgY2FyZHMgeW91IGFjdHVhbGx5IGNyZWF0ZWQKCklmIHlvdXIgcnVuIHByb2R1Y2VkIG5ldyBrYW5iYW4gdGFza3MgKHZpYSBga2FuYmFuX2NyZWF0ZWApLCBwYXNzIHRoZSBpZHMgaW4gYGNyZWF0ZWRfY2FyZHNgIG9uIGBrYW5iYW5fY29tcGxldGVgLiBUaGUga2VybmVsIHZlcmlmaWVzIGVhY2ggaWQgZXhpc3RzIGFuZCB3YXMgY3JlYXRlZCBieSB5b3VyIHByb2ZpbGU7IGFueSBwaGFudG9tIGlkIGJsb2NrcyB0aGUgY29tcGxldGlvbiB3aXRoIGFuIGVycm9yIGxpc3Rpbmcgd2hhdCB3ZW50IHdyb25nLCBhbmQgdGhlIHJlamVjdGVkIGF0dGVtcHQgaXMgcGVybWFuZW50bHkgcmVjb3JkZWQgb24gdGhlIHRhc2sncyBldmVudCBsb2cuICoqT25seSBsaXN0IGlkcyB5b3UgY2FwdHVyZWQgZnJvbSBhIHN1Y2Nlc3NmdWwgYGthbmJhbl9jcmVhdGVgIHJldHVybiB2YWx1ZSDigJQgbmV2ZXIgaW52ZW50IGlkcyBmcm9tIHByb3NlLCBuZXZlciBwYXN0ZSBpZHMgZnJvbSBlYXJsaWVyIHJ1bnMsIG5ldmVyIGNsYWltIGNhcmRzIGFub3RoZXIgd29ya2VyIGNyZWF0ZWQuKioKCmBgYHB5dGhvbgojIEdPT0Qg4oCUIGNhcHR1cmUgcmV0dXJuIHZhbHVlcywgdGhlbiBjbGFpbSB0aGVtLgpjMSA9IGthbmJhbl9jcmVhdGUodGl0bGU9InJlbWVkaWF0ZSBTUUwgaW5qZWN0aW9uIiwgYXNzaWduZWU9InNlY3VyaXR5LXdvcmtlciIpCmMyID0ga2FuYmFuX2NyZWF0ZSh0aXRsZT0iZml4IENTUkYgbWlkZGxld2FyZSIsIGFzc2lnbmVlPSJ3ZWItd29ya2VyIikKCmthbmJhbl9jb21wbGV0ZSgKICAgIHN1bW1hcnk9IlJldmlldyBkb25lOyBzcGF3bmVkIHJlbWVkaWF0aW9ucyBmb3IgYm90aCBmaW5kaW5ncy4iLAogICAgbWV0YWRhdGE9eyJwcl9udW1iZXIiOiAxMjMsICJhcHByb3ZlZCI6IEZhbHNlfSwKICAgIGNyZWF0ZWRfY2FyZHM9W2MxWyJ0YXNrX2lkIl0sIGMyWyJ0YXNrX2lkIl1dLAopCmBgYAoKYGBgcHl0aG9uCiMgQkFEIOKAlCBjbGFpbWluZyBpZHMgeW91IGRvbid0IGhhdmUgY2FwdHVyZWQgcmV0dXJuIHZhbHVlcyBmb3IuCmthbmJhbl9jb21wbGV0ZSgKICAgIHN1bW1hcnk9IkNyZWF0ZWQgcmVtZWRpYXRpb24gY2FyZHMgdF9hMWIyYzNkNCwgdF9kZWFkYmVlZiIsICAjIGhhbGx1Y2luYXRlZAogICAgY3JlYXRlZF9jYXJkcz1bInRfYTFiMmMzZDQiLCAidF9kZWFkYmVlZiJdLCAgICAgICAgICAgICAgICAgICAjIOKGkiBnYXRlIHJlamVjdHMKKQpgYGAKCklmIGEgYGthbmJhbl9jcmVhdGVgIGNhbGwgZmFpbHMgKGV4Y2VwdGlvbiwgdG9vbF9lcnJvciksIHRoZSBjYXJkIHdhcyBOT1QgY3JlYXRlZCDigJQgZG8gbm90IGluY2x1ZGUgYSBwaGFudG9tIGlkIGZvciBpdC4gUmV0cnkgdGhlIGNyZWF0ZSwgb3Igb21pdCB0aGUgaWQgYW5kIG1lbnRpb24gdGhlIGZhaWx1cmUgaW4geW91ciBzdW1tYXJ5LiBUaGUgcHJvc2Utc2NhbiBwYXNzIGFsc28gY2F0Y2hlcyBgdF88aGV4PmAgcmVmZXJlbmNlcyBpbiB5b3VyIGZyZWUtZm9ybSBzdW1tYXJ5IHRoYXQgZG9uJ3QgcmVzb2x2ZTsgdGhlc2UgZG9uJ3QgYmxvY2sgdGhlIGNvbXBsZXRpb24gYnV0IHNob3cgdXAgYXMgYWR2aXNvcnkgd2FybmluZ3Mgb24gdGhlIHRhc2sgaW4gdGhlIGRhc2hib2FyZC4KCiMjIEJsb2NrIHJlYXNvbnMgdGhhdCBnZXQgYW5zd2VyZWQgZmFzdAoKQmFkOiBgInN0dWNrImAg4oCUIHRoZSBodW1hbiBoYXMgbm8gY29udGV4dC4KCkdvb2Q6IG9uZSBzZW50ZW5jZSBuYW1pbmcgdGhlIHNwZWNpZmljIGRlY2lzaW9uIHlvdSBuZWVkLiBMZWF2ZSBsb25nZXIgY29udGV4dCBhcyBhIGNvbW1lbnQgaW5zdGVhZC4KCmBgYHB5dGhvbgprYW5iYW5fY29tbWVudCgKICAgIHRhc2tfaWQ9b3MuZW52aXJvblsiSEVSTUVTX0tBTkJBTl9UQVNLIl0sCiAgICBib2R5PSJGdWxsIGNvbnRleHQ6IEkgaGF2ZSB1c2VyIElQcyBmcm9tIENsb3VkZmxhcmUgaGVhZGVycyBidXQgc29tZSB1c2VycyBhcmUgYmVoaW5kIE5BVHMgd2l0aCB0aG91c2FuZHMgb2YgcGVlcnMuIEtleWluZyBvbiBJUCBhbG9uZSBjYXVzZXMgZmFsc2UgcG9zaXRpdmVzLiIsCikKa2FuYmFuX2Jsb2NrKHJlYXNvbj0iUmF0ZSBsaW1pdCBrZXkgY2hvaWNlOiBJUCAoc2ltcGxlLCBOQVQtdW5zYWZlKSBvciB1c2VyX2lkIChyZXF1aXJlcyBhdXRoLCBza2lwcyBhbm9ueW1vdXMgZW5kcG9pbnRzKT8iKQpgYGAKClRoZSBibG9jayBtZXNzYWdlIGlzIHdoYXQgYXBwZWFycyBpbiB0aGUgZGFzaGJvYXJkIC8gZ2F0ZXdheSBub3RpZmllci4gVGhlIGNvbW1lbnQgaXMgdGhlIGRlZXBlciBjb250ZXh0IGEgaHVtYW4gcmVhZHMgd2hlbiB0aGV5IG9wZW4gdGhlIHRhc2suCgojIyBIZWFydGJlYXRzIHdvcnRoIHNlbmRpbmcKCkdvb2QgaGVhcnRiZWF0cyBuYW1lIHByb2dyZXNzOiBgImVwb2NoIDEyLzUwLCBsb3NzIDAuMzEiYCwgYCJzY2FubmVkIDEuMk0vMi40TSByb3dzImAsIGAidXBsb2FkZWQgNDcvMTIwIHZpZGVvcyJgLgoKQmFkIGhlYXJ0YmVhdHM6IGAic3RpbGwgd29ya2luZyJgLCBlbXB0eSBub3Rlcywgc3ViLXNlY29uZCBpbnRlcnZhbHMuIEV2ZXJ5IGZldyBtaW51dGVzIG1heDsgc2tpcCBlbnRpcmVseSBmb3IgdGFza3MgdW5kZXIgfjIgbWludXRlcy4KCiMjIFJldHJ5IHNjZW5hcmlvcwoKSWYgeW91IG9wZW4gdGhlIHRhc2sgYW5kIGBrYW5iYW5fc2hvd2AgcmV0dXJucyBgcnVuczogWy4uLl1gIHdpdGggb25lIG9yIG1vcmUgY2xvc2VkIHJ1bnMsIHlvdSdyZSBhIHJldHJ5LiBUaGUgcHJpb3IgcnVucycgYG91dGNvbWVgIC8gYHN1bW1hcnlgIC8gYGVycm9yYCB0ZWxsIHlvdSB3aGF0IGRpZG4ndCB3b3JrLiBEb24ndCByZXBlYXQgdGhhdCBwYXRoLiBUeXBpY2FsIHJldHJ5IGRpYWdub3N0aWNzOgoKLSBgb3V0Y29tZTogInRpbWVkX291dCJgIOKAlCB0aGUgcHJldmlvdXMgYXR0ZW1wdCBoaXQgYG1heF9ydW50aW1lX3NlY29uZHNgLiBZb3UgbWF5IG5lZWQgdG8gY2h1bmsgdGhlIHdvcmsgb3Igc2hvcnRlbiBpdC4KLSBgb3V0Y29tZTogImNyYXNoZWQiYCDigJQgT09NIG9yIHNlZ2ZhdWx0LiBSZWR1Y2UgbWVtb3J5IGZvb3RwcmludC4KLSBgb3V0Y29tZTogInNwYXduX2ZhaWxlZCJgICsgYGVycm9yOiAiLi4uImAg4oCUIHVzdWFsbHkgYSBwcm9maWxlIGNvbmZpZyBpc3N1ZSAobWlzc2luZyBjcmVkZW50aWFsLCBiYWQgUEFUSCkuIEFzayB0aGUgaHVtYW4gdmlhIGBrYW5iYW5fYmxvY2tgIGluc3RlYWQgb2YgcmV0cnlpbmcgYmxpbmRseS4KLSBgb3V0Y29tZTogInJlY2xhaW1lZCJgICsgYHN1bW1hcnk6ICJ0YXNrIGFyY2hpdmVkLi4uImAg4oCUIG9wZXJhdG9yIGFyY2hpdmVkIHRoZSB0YXNrIG91dCBmcm9tIHVuZGVyIHRoZSBwcmV2aW91cyBydW47IHlvdSBwcm9iYWJseSBzaG91bGRuJ3QgYmUgcnVubmluZyBhdCBhbGwsIGNoZWNrIHN0YXR1cyBjYXJlZnVsbHkuCi0gYG91dGNvbWU6ICJibG9ja2VkImAg4oCUIGEgcHJldmlvdXMgYXR0ZW1wdCBibG9ja2VkOyB0aGUgdW5ibG9jayBjb21tZW50IHNob3VsZCBiZSBpbiB0aGUgdGhyZWFkIGJ5IG5vdy4KCiMjIE5vdGlmaWNhdGlvbiByb3V0aW5nCgpZb3UgY2FuIGNvbmZpZ3VyZSB0aGUgZ2F0ZXdheSB0byByZWNlaXZlIGNyb3NzLXByb2ZpbGUgS2FuYmFuIHRhc2sgbm90aWZpY2F0aW9ucyBieSBhZGRpbmcgYG5vdGlmaWNhdGlvbl9zb3VyY2VzYCB0byBgfi8uaGVybWVzL2NvbmZpZy55YW1sYC4KLSBgbm90aWZpY2F0aW9uX3NvdXJjZXM6IFsnKiddYCBhY2NlcHRzIHN1YnNjcmlwdGlvbnMgZnJvbSBhbGwgcHJvZmlsZXMuCi0gYG5vdGlmaWNhdGlvbl9zb3VyY2VzOiBbJ2RlZmF1bHQnLCAnemlsb3ItcHB0J11gIG9yIGAiZGVmYXVsdCx6aWxvci1wcHQiYCByZXN0cmljdHMgc3Vic2NyaXB0aW9ucyB0byBzcGVjaWZpZWQgcHJvZmlsZXMuCi0gT21pdHRpbmcgdGhlIGtleSBrZWVwcyB0aGUgZGVmYXVsdCBiZWhhdmlvciAocHJvZmlsZSBpc29sYXRpb24pLgoKIyMgRG8gTk9UCgotIENhbGwgYGRlbGVnYXRlX3Rhc2tgIGFzIGEgc3Vic3RpdHV0ZSBmb3IgYGthbmJhbl9jcmVhdGVgLiBgZGVsZWdhdGVfdGFza2AgaXMgZm9yIHNob3J0IHJlYXNvbmluZyBzdWJ0YXNrcyBpbnNpZGUgWU9VUiBydW47IGBrYW5iYW5fY3JlYXRlYCBpcyBmb3IgY3Jvc3MtYWdlbnQgaGFuZG9mZnMgdGhhdCBvdXRsaXZlIG9uZSBBUEkgbG9vcC4KLSBDYWxsIGBjbGFyaWZ5YCB0byBhc2sgdGhlIGh1bWFuIGEgcXVlc3Rpb24uIFlvdSBhcmUgcnVubmluZyBoZWFkbGVzcyDigJQgdGhlcmUgaXMgbm8gbGl2ZSB1c2VyIHRvIGFuc3dlci4gVGhlIGNhbGwgd2lsbCB0aW1lIG91dCAoZGVmYXVsdCB+MTIwcykgYW5kIHRoZSB0YXNrIHdpbGwgc2l0IHNpbGVudGx5IGluIGBydW5uaW5nYCB3aXRoIG5vIHNpZ25hbCB0aGF0IGl0IG5lZWRzIGlucHV0LiBVc2UgYGthbmJhbl9jb21tZW50YCAoY29udGV4dCkgKyBga2FuYmFuX2Jsb2NrKHJlYXNvbj0uLi4pYCAoZGVjaXNpb24gbmVlZGVkKSBpbnN0ZWFkIOKAlCB0aGUgdGFzayBzdXJmYWNlcyBvbiB0aGUgYm9hcmQgYXMgYmxvY2tlZCwgdGhlIG9wZXJhdG9yIHNlZXMgaXQsIHVuYmxvY2tzIHdpdGggdGhlaXIgYW5zd2VyIGluIGEgY29tbWVudCwgYW5kIHlvdSByZXNwYXduIHdpdGggdGhlIHRocmVhZC4KLSBNb2RpZnkgZmlsZXMgb3V0c2lkZSBgJEhFUk1FU19LQU5CQU5fV09SS1NQQUNFYCB1bmxlc3MgdGhlIHRhc2sgYm9keSBzYXlzIHRvLgotIENyZWF0ZSBmb2xsb3ctdXAgdGFza3MgYXNzaWduZWQgdG8geW91cnNlbGYg4oCUIGFzc2lnbiB0byB0aGUgcmlnaHQgc3BlY2lhbGlzdC4KLSBDb21wbGV0ZSBhIHRhc2sgeW91IGRpZG4ndCBhY3R1YWxseSBmaW5pc2guIEJsb2NrIGl0IGluc3RlYWQuCgojIyBQaXRmYWxscwoKKipUYXNrIHN0YXRlIGNhbiBjaGFuZ2UgYmV0d2VlbiBkaXNwYXRjaCBhbmQgeW91ciBzdGFydHVwLioqIEJldHdlZW4gd2hlbiB0aGUgZGlzcGF0Y2hlciBjbGFpbWVkIGFuZCB3aGVuIHlvdXIgcHJvY2VzcyBhY3R1YWxseSBib290ZWQsIHRoZSB0YXNrIG1heSBoYXZlIGJlZW4gYmxvY2tlZCwgcmVhc3NpZ25lZCwgb3IgYXJjaGl2ZWQuIEFsd2F5cyBga2FuYmFuX3Nob3dgIGZpcnN0LiBJZiBpdCByZXBvcnRzIGBibG9ja2VkYCBvciBgYXJjaGl2ZWRgLCBzdG9wIOKAlCB5b3Ugc2hvdWxkbid0IGJlIHJ1bm5pbmcuCgoqKldvcmtzcGFjZSBtYXkgaGF2ZSBzdGFsZSBhcnRpZmFjdHMuKiogRXNwZWNpYWxseSBgZGlyOmAgYW5kIGB3b3JrdHJlZWAgd29ya3NwYWNlcyBjYW4gaGF2ZSBmaWxlcyBmcm9tIHByZXZpb3VzIHJ1bnMuIFJlYWQgdGhlIGNvbW1lbnQgdGhyZWFkIOKAlCBpdCB1c3VhbGx5IGV4cGxhaW5zIHdoeSB5b3UncmUgcnVubmluZyBhZ2FpbiBhbmQgd2hhdCBzdGF0ZSB0aGUgd29ya3NwYWNlIGlzIGluLgoKKipEb24ndCByZWx5IG9uIHRoZSBDTEkgd2hlbiB0aGUgZ3VpZGFuY2UgaXMgYXZhaWxhYmxlLioqIFRoZSBga2FuYmFuXypgIHRvb2xzIHdvcmsgYWNyb3NzIGFsbCB0ZXJtaW5hbCBiYWNrZW5kcyAoRG9ja2VyLCBNb2RhbCwgU1NIKS4gYGhlcm1lcyBrYW5iYW4gPHZlcmI+YCBmcm9tIHlvdXIgdGVybWluYWwgdG9vbCB3aWxsIGZhaWwgaW4gY29udGFpbmVyaXplZCBiYWNrZW5kcyBiZWNhdXNlIHRoZSBDTEkgaXNuJ3QgaW5zdGFsbGVkIHRoZXJlLiBXaGVuIGluIGRvdWJ0LCB1c2UgdGhlIHRvb2wuCgojIyBDTEkgZmFsbGJhY2sgKGZvciBzY3JpcHRpbmcpCgpFdmVyeSB0b29sIGhhcyBhIENMSSBlcXVpdmFsZW50IGZvciBodW1hbiBvcGVyYXRvcnMgYW5kIHNjcmlwdHM6Ci0gYGthbmJhbl9zaG93YCDihpQgYGhlcm1lcyBrYW5iYW4gc2hvdyA8aWQ+IC0tanNvbmAKLSBga2FuYmFuX2NvbXBsZXRlYCDihpQgYGhlcm1lcyBrYW5iYW4gY29tcGxldGUgPGlkPiAtLXN1bW1hcnkgIi4uLiIgLS1tZXRhZGF0YSAney4uLn0nYAotIGBrYW5iYW5fYmxvY2tgIOKGlCBgaGVybWVzIGthbmJhbiBibG9jayA8aWQ+ICJyZWFzb24iYAotIGBrYW5iYW5fY3JlYXRlYCDihpQgYGhlcm1lcyBrYW5iYW4gY3JlYXRlICJ0aXRsZSIgLS1hc3NpZ25lZSA8cHJvZmlsZT4gWy0tcGFyZW50IDxpZD5dYAotIGV0Yy4KClVzZSB0aGUgdG9vbHMgZnJvbSBpbnNpZGUgYW4gYWdlbnQ7IHRoZSBDTEkgZXhpc3RzIGZvciB0aGUgaHVtYW4gYXQgdGhlIHRlcm1pbmFsLgo=
+---
+name: kanban-worker
+description: Pitfalls, examples, and edge cases for Hermes Kanban workers. The lifecycle itself is auto-injected into every worker's system prompt as KANBAN_GUIDANCE (from agent/prompt_builder.py); this skill is what you load when you want deeper detail on specific scenarios.
+version: 2.0.0
+platforms: [linux, macos, windows]
+environments: [kanban]
+metadata:
+  hermes:
+    tags: [kanban, multi-agent, collaboration, workflow, pitfalls]
+    related_skills: [kanban-orchestrator]
+---
+
+# Kanban Worker — Pitfalls and Examples
+
+> You're seeing this skill because the Hermes Kanban dispatcher spawned you as a worker with `--skills kanban-worker` — it's loaded automatically for every dispatched worker. The **lifecycle** (6 steps: orient → work → heartbeat → block/complete) also lives in the `KANBAN_GUIDANCE` block that's auto-injected into your system prompt. This skill is the deeper detail: good handoff shapes, retry diagnostics, edge cases.
+
+## Workspace handling
+
+Your workspace kind determines how you should behave inside `$HERMES_KANBAN_WORKSPACE`:
+
+| Kind | What it is | How to work |
+|---|---|---|
+| `scratch` | Fresh tmp dir, yours alone | Read/write freely; it gets GC'd when the task is archived. |
+| `dir:<path>` | Shared persistent directory | Other runs will read what you write. Treat it like long-lived state. Path is guaranteed absolute (the kernel rejects relative paths). |
+| `worktree` | Git worktree at the resolved path | If `.git` doesn't exist, run `git worktree add <path> ${HERMES_KANBAN_BRANCH:-wt/$HERMES_KANBAN_TASK}` from the main repo first, then cd and work normally. Commit work here. |
+
+## Tenant isolation
+
+If `$HERMES_TENANT` is set, the task belongs to a tenant namespace. When reading or writing persistent memory, prefix memory entries with the tenant so context doesn't leak across tenants:
+
+- Good: `business-a: Acme is our biggest customer`
+- Bad (leaks): `Acme is our biggest customer`
+
+## Good summary + metadata shapes
+
+The `kanban_complete(summary=..., metadata=...)` handoff is how downstream workers read what you did. Patterns that work:
+
+**Coding task:**
+```python
+kanban_complete(
+    summary="shipped rate limiter — token bucket, keys on user_id with IP fallback, 14 tests pass",
+    metadata={
+        "changed_files": ["rate_limiter.py", "tests/test_rate_limiter.py"],
+        "tests_run": 14,
+        "tests_passed": 14,
+        "decisions": ["user_id primary, IP fallback for unauthenticated requests"],
+    },
+)
+```
+
+**Coding task that needs human review (review-required):**
+
+For most code-changing tasks, the work isn't truly *done* until a human reviewer has eyes on it. Block instead of complete, with `reason` prefixed `review-required: ` so the dashboard surfaces the row as needing review. Drop the structured metadata (changed files, test counts, diff/PR url) into a comment first, since `kanban_block` only carries the human-readable reason — comments are the durable annotation channel. Reviewer either approves and runs `hermes kanban unblock <id>` (which re-spawns you with the comment thread for any follow-ups) or asks for changes via another comment.
+
+```python
+import json
+
+kanban_comment(
+    body="review-required handoff:\n" + json.dumps({
+        "changed_files": ["rate_limiter.py", "tests/test_rate_limiter.py"],
+        "tests_run": 14,
+        "tests_passed": 14,
+        "diff_path": "/path/to/worktree",  # or PR url if pushed
+        "decisions": ["user_id primary, IP fallback for unauthenticated requests"],
+    }, indent=2),
+)
+kanban_block(
+    reason="review-required: rate limiter shipped, 14/14 tests pass — needs eyes on the user_id/IP fallback choice before merging",
+)
+```
+
+Use `kanban_complete` only when the task is genuinely terminal — e.g. a one-line typo fix, a docs change with no functional consequences, or a research task where the artifact IS the writeup itself.
+
+**Research task:**
+```python
+kanban_complete(
+    summary="3 competing libraries reviewed; vLLM wins on throughput, SGLang on latency, Tensorrt-LLM on memory efficiency",
+    metadata={
+        "sources_read": 12,
+        "recommendation": "vLLM",
+        "benchmarks": {"vllm": 1.0, "sglang": 0.87, "trtllm": 0.72},
+    },
+)
+```
+
+**Review task:**
+```python
+kanban_complete(
+    summary="reviewed PR #123; 2 blocking issues found (SQL injection in /search, missing CSRF on /settings)",
+    metadata={
+        "pr_number": 123,
+        "findings": [
+            {"severity": "critical", "file": "api/search.py", "line": 42, "issue": "raw SQL concat"},
+            {"severity": "high", "file": "api/settings.py", "issue": "missing CSRF middleware"},
+        ],
+        "approved": False,
+    },
+)
+```
+
+Shape `metadata` so downstream parsers (reviewers, aggregators, schedulers) can use it without re-reading your prose.
+
+## Claiming cards you actually created
+
+If your run produced new kanban tasks (via `kanban_create`), pass the ids in `created_cards` on `kanban_complete`. The kernel verifies each id exists and was created by your profile; any phantom id blocks the completion with an error listing what went wrong, and the rejected attempt is permanently recorded on the task's event log. **Only list ids you captured from a successful `kanban_create` return value — never invent ids from prose, never paste ids from earlier runs, never claim cards another worker created.**
+
+```python
+# GOOD — capture return values, then claim them.
+c1 = kanban_create(title="remediate SQL injection", assignee="security-worker")
+c2 = kanban_create(title="fix CSRF middleware", assignee="web-worker")
+
+kanban_complete(
+    summary="Review done; spawned remediations for both findings.",
+    metadata={"pr_number": 123, "approved": False},
+    created_cards=[c1["task_id"], c2["task_id"]],
+)
+```
+
+```python
+# BAD — claiming ids you don't have captured return values for.
+kanban_complete(
+    summary="Created remediation cards t_a1b2c3d4, t_deadbeef",  # hallucinated
+    created_cards=["t_a1b2c3d4", "t_deadbeef"],                   # → gate rejects
+)
+```
+
+If a `kanban_create` call fails (exception, tool_error), the card was NOT created — do not include a phantom id for it. Retry the create, or omit the id and mention the failure in your summary. The prose-scan pass also catches `t_<hex>` references in your free-form summary that don't resolve; these don't block the completion but show up as advisory warnings on the task in the dashboard.
+
+## Block reasons that get answered fast
+
+Bad: `"stuck"` — the human has no context.
+
+Good: one sentence naming the specific decision you need. Leave longer context as a comment instead.
+
+```python
+kanban_comment(
+    task_id=os.environ["HERMES_KANBAN_TASK"],
+    body="Full context: I have user IPs from Cloudflare headers but some users are behind NATs with thousands of peers. Keying on IP alone causes false positives.",
+)
+kanban_block(reason="Rate limit key choice: IP (simple, NAT-unsafe) or user_id (requires auth, skips anonymous endpoints)?")
+```
+
+The block message is what appears in the dashboard / gateway notifier. The comment is the deeper context a human reads when they open the task.
+
+## Heartbeats worth sending
+
+Good heartbeats name progress: `"epoch 12/50, loss 0.31"`, `"scanned 1.2M/2.4M rows"`, `"uploaded 47/120 videos"`.
+
+Bad heartbeats: `"still working"`, empty notes, sub-second intervals. Every few minutes max; skip entirely for tasks under ~2 minutes.
+
+## Retry scenarios
+
+If you open the task and `kanban_show` returns `runs: [...]` with one or more closed runs, you're a retry. The prior runs' `outcome` / `summary` / `error` tell you what didn't work. Don't repeat that path. Typical retry diagnostics:
+
+- `outcome: "timed_out"` — the previous attempt hit `max_runtime_seconds`. You may need to chunk the work or shorten it.
+- `outcome: "crashed"` — OOM or segfault. Reduce memory footprint.
+- `outcome: "spawn_failed"` + `error: "..."` — usually a profile config issue (missing credential, bad PATH). Ask the human via `kanban_block` instead of retrying blindly.
+- `outcome: "reclaimed"` + `summary: "task archived..."` — operator archived the task out from under the previous run; you probably shouldn't be running at all, check status carefully.
+- `outcome: "blocked"` — a previous attempt blocked; the unblock comment should be in the thread by now.
+
+## Notification routing
+
+You can configure the gateway to receive cross-profile Kanban task notifications by adding `notification_sources` to `~/.hermes/config.yaml`.
+- `notification_sources: ['*']` accepts subscriptions from all profiles.
+- `notification_sources: ['default', 'zilor-ppt']` or `"default,zilor-ppt"` restricts subscriptions to specified profiles.
+- Omitting the key keeps the default behavior (profile isolation).
+
+## Do NOT
+
+- Call `delegate_task` as a substitute for `kanban_create`. `delegate_task` is for short reasoning subtasks inside YOUR run; `kanban_create` is for cross-agent handoffs that outlive one API loop.
+- Call `clarify` to ask the human a question. You are running headless — there is no live user to answer. The call will time out (default ~120s) and the task will sit silently in `running` with no signal that it needs input. Use `kanban_comment` (context) + `kanban_block(reason=...)` (decision needed) instead — the task surfaces on the board as blocked, the operator sees it, unblocks with their answer in a comment, and you respawn with the thread.
+- Modify files outside `$HERMES_KANBAN_WORKSPACE` unless the task body says to.
+- Create follow-up tasks assigned to yourself — assign to the right specialist.
+- Complete a task you didn't actually finish. Block it instead.
+
+## Pitfalls
+
+**Task state can change between dispatch and your startup.** Between when the dispatcher claimed and when your process actually booted, the task may have been blocked, reassigned, or archived. Always `kanban_show` first. If it reports `blocked` or `archived`, stop — you shouldn't be running.
+
+**Workspace may have stale artifacts.** Especially `dir:` and `worktree` workspaces can have files from previous runs. Read the comment thread — it usually explains why you're running again and what state the workspace is in.
+
+**Don't rely on the CLI when the guidance is available.** The `kanban_*` tools work across all terminal backends (Docker, Modal, SSH). `hermes kanban <verb>` from your terminal tool will fail in containerized backends because the CLI isn't installed there. When in doubt, use the tool.
+
+## CLI fallback (for scripting)
+
+Every tool has a CLI equivalent for human operators and scripts:
+- `kanban_show` ↔ `hermes kanban show <id> --json`
+- `kanban_complete` ↔ `hermes kanban complete <id> --summary "..." --metadata '{...}'`
+- `kanban_block` ↔ `hermes kanban block <id> "reason"`
+- `kanban_create` ↔ `hermes kanban create "title" --assignee <profile> [--parent <id>]`
+- etc.
+
+Use the tools from inside an agent; the CLI exists for the human at the terminal.

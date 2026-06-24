@@ -1,1 +1,244 @@
-IyBUb3VjaERlc2lnbmVyIFRyb3VibGVzaG9vdGluZyAodHdvemVybyBNQ1ApCgo+IFNlZSBgcmVmZXJlbmNlcy9waXRmYWxscy5tZGAgZm9yIHRoZSBjb21wcmVoZW5zaXZlIGxlc3NvbnMtbGVhcm5lZCBsaXN0LgoKIyMgMS4gQ29ubmVjdGlvbiBJc3N1ZXMKCiMjIyBQb3J0IDQwNDA0IG5vdCByZXNwb25kaW5nCgpDaGVjayB0aGVzZSBpbiBvcmRlcjoKCjEuIElzIFRvdWNoRGVzaWduZXIgcnVubmluZz8KICAgYGBgYmFzaAogICBwZ3JlcCBUb3VjaERlc2lnbmVyCiAgIGBgYAoKMWIuIFF1aWNrIGh1YiBoZWFsdGggY2hlY2sgKG5vIEpTT04tUlBDIG5lZWRlZCk6CiAgIEEgcGxhaW4gR0VUIHRvIHRoZSBNQ1AgVVJMIHJldHVybnMgaW5zdGFuY2UgaW5mbzoKICAgYGBgCiAgIGN1cmwgLXMgaHR0cDovL2xvY2FsaG9zdDo0MDQwNC9tY3AKICAgYGBgCiAgIFJldHVybnM6IGB7Imh1YiI6IHRydWUsICJwaWQiOiAuLi4sICJpbnN0YW5jZXMiOiB7IjEyNy4wLjAuMV9QSUQiOiB7InByb2plY3QiOiAiLi4uIiwgInRkVmVyc2lvbiI6ICIuLi4iLCAuLi59fX1gCiAgIElmIHRoaXMgcmV0dXJucyBKU09OIGJ1dCBgaW5zdGFuY2VzYCBpcyBlbXB0eSwgVEQgaXMgcnVubmluZyBidXQgdHdvemVybyBoYXNuJ3QgcmVnaXN0ZXJlZCB5ZXQuCgoyLiBJcyB0d296ZXJvIGluc3RhbGxlZCBpbiBURD8KICAgT3BlbiBURCBQYWxldHRlIEJyb3dzZXIgPiB0d296ZXJvIHNob3VsZCBiZSBsaXN0ZWQuIElmIG5vdCwgaW5zdGFsbCBpdC4KCjMuIElzIE1DUCBlbmFibGVkIGluIHR3b3plcm8gc2V0dGluZ3M/CiAgIEluIFRELCBvcGVuIHR3b3plcm8gcHJlZmVyZW5jZXMgYW5kIGNvbmZpcm0gTUNQIHNlcnZlciBpcyB0b2dnbGVkIE9OLgoKNC4gVGVzdCB0aGUgcG9ydCBkaXJlY3RseToKICAgYGBgYmFzaAogICBuYyAteiAxMjcuMC4wLjEgNDA0MDQKICAgYGBgCgo1LiBUZXN0IHRoZSBNQ1AgZW5kcG9pbnQ6CiAgIGBgYGJhc2gKICAgY3VybCAtcyBodHRwOi8vbG9jYWxob3N0OjQwNDA0L21jcAogICBgYGAKICAgU2hvdWxkIHJldHVybiBKU09OIHdpdGggaHViIGluZm8uIElmIGl0IGRvZXMsIHRoZSBzZXJ2ZXIgaXMgcnVubmluZy4KCiMjIyBIdWIgcmVzcG9uZHMgYnV0IG5vIFREIGluc3RhbmNlcwoKVGhlIHR3b3plcm8gTUNQIGh1YiBpcyBydW5uaW5nIGJ1dCBURCBoYXNuJ3QgcmVnaXN0ZXJlZC4gQ2F1c2VzOgotIFREIHByb2plY3Qgbm90IGxvYWRlZCB5ZXQgKHN0aWxsIG9uIHNwbGFzaCBzY3JlZW4pCi0gdHdvemVybyBDT01QIG5vdCBpbml0aWFsaXplZCBpbiB0aGUgY3VycmVudCBwcm9qZWN0Ci0gdHdvemVybyB2ZXJzaW9uIG1pc21hdGNoCgpGaXg6IE9wZW4vcmVsb2FkIGEgVEQgcHJvamVjdCB0aGF0IGNvbnRhaW5zIHRoZSB0d296ZXJvIENPTVAuIFVzZSB0ZF9saXN0X2luc3RhbmNlcwp0byBjaGVjayB3aGljaCBURCBpbnN0YW5jZXMgYXJlIHJlZ2lzdGVyZWQuCgojIyMgTXVsdGktaW5zdGFuY2Ugc2V0dXAKCnR3b3plcm8gYXV0by1hc3NpZ25zIHBvcnRzIGZvciBtdWx0aXBsZSBURCBpbnN0YW5jZXM6Ci0gRmlyc3QgaW5zdGFuY2U6IDQwNDA0Ci0gU2Vjb25kIGluc3RhbmNlOiA0MDQwNQotIFRoaXJkIGluc3RhbmNlOiA0MDQwNgotIGV0Yy4KClVzZSBgdGRfbGlzdF9pbnN0YW5jZXNgIHRvIGRpc2NvdmVyIGFsbCBydW5uaW5nIGluc3RhbmNlcyBhbmQgdGhlaXIgcG9ydHMuCgojIyAyLiBNQ1AgVG9vbCBFcnJvcnMKCiMjIyB0ZF9leGVjdXRlX3B5dGhvbiByZXR1cm5zIGVycm9yCgpUaGUgZXJyb3IgbWVzc2FnZSBmcm9tIHRkX2V4ZWN1dGVfcHl0aG9uIG9mdGVuIGNvbnRhaW5zIHRoZSBQeXRob24gdHJhY2ViYWNrLgpJZiBpdCdzIHVuY2xlYXIsIHVzZSBgdGRfcmVhZF90ZXh0cG9ydGAgdG8gc2VlIHRoZSBmdWxsIFREIGNvbnNvbGUgb3V0cHV0IOKAlApQeXRob24gZXhjZXB0aW9ucyBhcmUgYWx3YXlzIHByaW50ZWQgdGhlcmUuCgpDb21tb24gY2F1c2VzOgotIFN5bnRheCBlcnJvciBpbiB0aGUgc2NyaXB0Ci0gUmVmZXJlbmNpbmcgYSBub2RlIHRoYXQgZG9lc24ndCBleGlzdCAob3AoKSByZXR1cm5zIE5vbmUsIHRoZW4geW91IGNhbGwgLnBhciBvbiBOb25lKQotIFVzaW5nIHdyb25nIHBhcmFtZXRlciBuYW1lcyAoc2VlIHBpdGZhbGxzLm1kKQoKIyMjIHRkX3NldF9vcGVyYXRvcl9wYXJzIGZhaWxzCgpQYXJhbWV0ZXIgbmFtZSBtaXNtYXRjaCBpcyB0aGUgIzEgY2F1c2UuIFRoZSB0b29sIHZhbGlkYXRlcyBwYXJhbSBuYW1lcyBhbmQKcmV0dXJucyBjbGVhciBlcnJvcnMsIGJ1dCB5b3UgbXVzdCB1c2UgZXhhY3QgbmFtZXMuCgpGaXg6IEFMV0FZUyBjYWxsIGB0ZF9nZXRfcGFyX2luZm9gIGZpcnN0IHRvIGRpc2NvdmVyIHRoZSByZWFsIHBhcmFtZXRlciBuYW1lczoKYGBgCnRkX2dldF9wYXJfaW5mbyhvcF90eXBlPSdnbHNsVE9QJykKdGRfZ2V0X3Bhcl9pbmZvKG9wX3R5cGU9J25vaXNlVE9QJykKYGBgCgojIyMgdGRfY3JlYXRlX29wZXJhdG9yIHR5cGUgbmFtZSBlcnJvcnMKCk9wZXJhdG9yIHR5cGUgbmFtZXMgdXNlIGNhbWVsQ2FzZSB3aXRoIGZhbWlseSBzdWZmaXg6Ci0gQ09SUkVDVDogbm9pc2VUT1AsIGdsc2xUT1AsIGxldmVsVE9QLCBjb21wb3NpdGVUT1AsIGF1ZGlvc3BlY3RydW1DSE9QCi0gV1JPTkc6ICAgTm9pc2VUT1AsIG5vaXNlX3RvcCwgTk9JU0UgVE9QLCBOb2lzZQoKIyMjIHRkX2dldF9vcGVyYXRvcl9pbmZvIGZvciBkZWVwIGluc3BlY3Rpb24KCklmIHVuc3VyZSBhYm91dCBhbnkgYXNwZWN0IG9mIGFuIG9wZXJhdG9yIChwYXJhbXMsIGlucHV0cywgb3V0cHV0cywgc3RhdGUpOgpgYGAKdGRfZ2V0X29wZXJhdG9yX2luZm8ocGF0aD0nL3Byb2plY3QxL25vaXNlMScsIGRldGFpbD0nZnVsbCcpCmBgYAoKIyMgMy4gUGFyYW1ldGVyIERpc2NvdmVyeQoKQ1JJVElDQUw6IEFMV0FZUyB1c2UgdGRfZ2V0X3Bhcl9pbmZvIHRvIGRpc2NvdmVyIHBhcmFtZXRlciBuYW1lcy4KClRoZSBhZ2VudCdzIExMTSB0cmFpbmluZyBkYXRhIGNvbnRhaW5zIFdST05HIHBhcmFtZXRlciBuYW1lcyBmb3IgVG91Y2hEZXNpZ25lci4KRG8gbm90IHRydXN0IHRoZW0uIEtub3duIHdyb25nIG5hbWVzIGluY2x1ZGUgZGF0IHZzIHBpeGVsZGF0LCBjb2xvcmEgdnMgYWxwaGEsCnNpemV4IHZzIHNpemUsIGFuZCBtYW55IG1vcmUuIFNlZSBwaXRmYWxscy5tZCBmb3IgdGhlIGZ1bGwgbGlzdC4KCldvcmtmbG93OgoxLiB0ZF9nZXRfcGFyX2luZm8ob3BfdHlwZT0nZ2xzbFRPUCcpIOKAlCBnZXQgYWxsIHBhcmFtcyBmb3IgYSB0eXBlCjIuIHRkX2dldF9vcGVyYXRvcl9pbmZvKHBhdGg9Jy9wcm9qZWN0MS9teW5vZGUnLCBkZXRhaWw9J2Z1bGwnKSDigJQgZ2V0IHBhcmFtcyBmb3IgYSBzcGVjaWZpYyBpbnN0YW5jZQozLiBVc2UgT05MWSB0aGUgbmFtZXMgcmV0dXJuZWQgYnkgdGhlc2UgdG9vbHMKCiMjIDQuIFBlcmZvcm1hbmNlCgojIyMgRGlhZ25vc2luZyBzbG93IHBlcmZvcm1hbmNlCgpVc2UgYHRkX2dldF9wZXJmYCB0byBzZWUgd2hpY2ggb3BlcmF0b3JzIGFyZSBzbG93LiBMb29rIGF0IGNvb2sgdGltZXMg4oCUCmFueXRoaW5nIG92ZXIgMW1zIHBlciBmcmFtZSBpcyB3b3J0aCBpbnZlc3RpZ2F0aW5nLgoKQ29tbW9uIGNhdXNlczoKLSBSZXNvbHV0aW9uIHRvbyBoaWdoIChlc3BlY2lhbGx5IG9uIE5vbi1Db21tZXJjaWFsKQotIENvbXBsZXggR0xTTCBzaGFkZXJzCi0gVG9vIG1hbnkgVE9QLXRvLUNIT1Agb3IgQ0hPUC10by1UT1AgdHJhbnNmZXJzIChHUFUtQ1BVIG1lbW9yeSBjb3BpZXMpCi0gRmVlZGJhY2sgbG9vcHMgd2l0aG91dCBkZWNheSAodmFsdWVzIGFjY3VtdWxhdGUsIG1lbW9yeSBncm93cykKCiMjIyBOb24tQ29tbWVyY2lhbCBsaWNlbnNlIHJlc3RyaWN0aW9ucwoKLSBSZXNvbHV0aW9uIGNhcDogMTI4MHgxMjgwLiBTZXR0aW5nIHJlc29sdXRpb253PTE5MjAgc2lsZW50bHkgY2xhbXBzIHRvIDEyODAuCi0gSC4yNjQvSC4yNjUvQVYxIGVuY29kaW5nIHJlcXVpcmVzIENvbW1lcmNpYWwgbGljZW5zZS4gVXNlIFByb1JlcyBvciBIYXAgaW5zdGVhZC4KLSBObyBjb21tZXJjaWFsIHVzZSBvZiBvdXRwdXQuCgpBbHdheXMgY2hlY2sgZWZmZWN0aXZlIHJlc29sdXRpb24gYWZ0ZXIgY3JlYXRpb246CmBgYHB5dGhvbgpuLmNvb2soZm9yY2U9VHJ1ZSkKYWN0dWFsID0gc3RyKG4ud2lkdGgpICsgJ3gnICsgc3RyKG4uaGVpZ2h0KQpgYGAKCiMjIDUuIEhlcm1lcyBDb25maWd1cmF0aW9uCgojIyMgQ29uZmlnIGxvY2F0aW9uCgpgJEhFUk1FU19IT01FL2NvbmZpZy55YW1sYCAoZGVmYXVsdHMgdG8gYH4vLmhlcm1lcy9jb25maWcueWFtbGAgd2hlbiBgSEVSTUVTX0hPTUVgIGlzIHVuc2V0KQoKIyMjIE1DUCBlbnRyeSBmb3JtYXQKClRoZSB0d296ZXJvIFREIGVudHJ5IHNob3VsZCBsb29rIGxpa2U6CmBgYHlhbWwKbWNwU2VydmVyczoKICB0d296ZXJvX3RkOgogICAgdXJsOiBodHRwOi8vbG9jYWxob3N0OjQwNDA0L21jcApgYGAKCiMjIyBBZnRlciBjb25maWcgY2hhbmdlcwoKUmVzdGFydCB0aGUgSGVybWVzIHNlc3Npb24gZm9yIGNoYW5nZXMgdG8gdGFrZSBlZmZlY3QuIFRoZSBNQ1AgY29ubmVjdGlvbiBpcwplc3RhYmxpc2hlZCBhdCBzZXNzaW9uIHN0YXJ0dXAuCgojIyMgVmVyaWZ5aW5nIE1DUCB0b29scyBhcmUgYXZhaWxhYmxlCgpBZnRlciByZXN0YXJ0aW5nLCB0aGUgc2Vzc2lvbiBsb2cgc2hvdWxkIHNob3cgdHdvemVybyBNQ1AgdG9vbHMgcmVnaXN0ZXJlZC4KSWYgdG9vbHMgc2hvdyBhcyByZWdpc3RlcmVkIGJ1dCBhcmVuJ3QgY2FsbGFibGUsIGNoZWNrOgotIFRoZSB0d296ZXJvIE1DUCBodWIgaXMgc3RpbGwgcnVubmluZyAoY3VybCB0ZXN0IGFib3ZlKQotIFREIGlzIHN0aWxsIHJ1bm5pbmcgd2l0aCBhIHByb2plY3QgbG9hZGVkCi0gTm8gZmlyZXdhbGwgYmxvY2tpbmcgbG9jYWxob3N0OjQwNDA0CgojIyA2LiBOb2RlIENyZWF0aW9uIElzc3VlcwoKIyMjICJOb2RlIHR5cGUgbm90IGZvdW5kIiBlcnJvcgoKV3JvbmcgdHlwZSBzdHJpbmcuIFVzZSBjYW1lbENhc2Ugd2l0aCBmYW1pbHkgc3VmZml4OgotIFdyb25nOiBOb2lzZVRvcCwgbm9pc2VfdG9wLCBOT0lTRSBUT1AKLSBSaWdodDogbm9pc2VUT1AKCiMjIyBOb2RlIGNyZWF0ZWQgYnV0IG5vdCB2aXNpYmxlCgpDaGVjayBwYXJlbnRQYXRoIOKAlCB1c2UgYWJzb2x1dGUgcGF0aHMgbGlrZSAvcHJvamVjdDEuIFRoZSBkZWZhdWx0IHByb2plY3QKcm9vdCBpcyAvcHJvamVjdDEuIFN5c3RlbSBub2RlcyBsaXZlIGF0IC8sIC91aSwgL3N5cywgL2xvY2FsLCAvcGVyZm9ybS4KRG9uJ3QgY3JlYXRlIHVzZXIgbm9kZXMgb3V0c2lkZSAvcHJvamVjdDEuCgojIyMgQ2Fubm90IGNyZWF0ZSBub2RlIGluc2lkZSBhIG5vbi1DT01QCgpPbmx5IENPTVAgb3BlcmF0b3JzIChDb250YWluZXIsIEJhc2UsIEdlb21ldHJ5LCBldGMuKSBjYW4gY29udGFpbiBjaGlsZHJlbi4KWW91IGNhbm5vdCBjcmVhdGUgbm9kZXMgaW5zaWRlIGEgVE9QLCBDSE9QLCBTT1AsIERBVCwgb3IgTUFULgoKIyMgNy4gV2lyaW5nIElzc3VlcwoKIyMjIENyb3NzLWZhbWlseSB3aXJpbmcKClRPUHMgY29ubmVjdCB0byBUT1BzLCBDSE9QcyB0byBDSE9QcywgU09QcyB0byBTT1BzLCBEQVRzIHRvIERBVHMuClVzZSBjb252ZXJ0ZXIgb3BlcmF0b3JzIHRvIGJyaWRnZTogY2hvcHRvVE9QLCB0b3BUb0NIT1AsIHNvcHRvREFULCBldGMuCgpOb3RlOiBjaG9wdG9UT1AgaGFzIE5PIGlucHV0IGNvbm5lY3RvcnMuIFVzZSBwYXIuY2hvcCByZWZlcmVuY2UgaW5zdGVhZDoKYGBgcHl0aG9uCnNwZWNfdGV4LnBhci5jaG9wID0gcmVzYW1wbGVfbm9kZSAgIyBjb3JyZWN0CiMgTk9UOiByZXNhbXBsZS5vdXRwdXRDb25uZWN0b3JzWzBdLmNvbm5lY3Qoc3BlY190ZXguaW5wdXRDb25uZWN0b3JzWzBdKQpgYGAKCiMjIyBGZWVkYmFjayBsb29wcwoKTmV2ZXIgY3JlYXRlIEEgLT4gQiAtPiBBIGRpcmVjdGx5LiBVc2UgYSBGZWVkYmFjayBUT1A6CmBgYHB5dGhvbgpmYiA9IHJvb3QuY3JlYXRlKGZlZWRiYWNrVE9QLCAnZmInKQpmYi5wYXIudG9wID0gY29tcC5wYXRoICAgICAgICAgICMgcmVmZXJlbmNlIG9ubHksIG5vIHdpcmUgdG8gZmIgaW5wdXQKZmIub3V0cHV0Q29ubmVjdG9yc1swXS5jb25uZWN0KG5leHRfbm9kZSkKYGBgCiJDb29rIGRlcGVuZGVuY3kgbG9vcCBkZXRlY3RlZCIgd2FybmluZyBvbiB0aGUgY2hhaW4gaXMgZXhwZWN0ZWQgYW5kIGNvcnJlY3QuCgojIyA4LiBHTFNMIElzc3VlcwoKIyMjIFNoYWRlciBjb21waWxhdGlvbiBlcnJvcnMgYXJlIHNpbGVudAoKR0xTTCBUT1Agc2hvd3MgYSB5ZWxsb3cgd2FybmluZyBpbiB0aGUgVUkgYnV0IG5vZGUuZXJyb3JzKCkgbWF5IHJldHVybiBlbXB0eS4KQ2hlY2sgbm9kZS53YXJuaW5ncygpIHRvby4gQ3JlYXRlIGFuIEluZm8gREFUIHBvaW50ZWQgYXQgdGhlIEdMU0wgVE9QIGZvcgpmdWxsIGNvbXBpbGVyIG91dHB1dC4KCiMjIyBURCBHTFNMIHNwZWNpZmljcwoKLSBVc2VzIEdMU0wgNC42MCAoVnVsa2FuIGJhY2tlbmQpLiBHTFNMIDMuMzAgYW5kIGVhcmxpZXIgcmVtb3ZlZC4KLSBVViBjb29yZGluYXRlczogdlVWLnN0IChub3QgZ2xfRnJhZ0Nvb3JkKQotIElucHV0IHRleHR1cmVzOiBzVEQyRElucHV0c1swXQotIE91dHB1dDogbGF5b3V0KGxvY2F0aW9uID0gMCkgb3V0IHZlYzQgZnJhZ0NvbG9yCi0gbWFjT1MgQ1JJVElDQUw6IEFsd2F5cyB3cmFwIG91dHB1dCB3aXRoIFRET3V0cHV0U3dpenpsZShjb2xvcikKLSBObyBidWlsdC1pbiB0aW1lIHVuaWZvcm0uIFBhc3MgdGltZSB2aWEgR0xTTCBUT1AgVmFsdWVzIHBhZ2Ugb3IgQ29uc3RhbnQgVE9QLgoKIyMgOS4gUmVjb3JkaW5nIElzc3VlcwoKIyMjIEguMjY0L0guMjY1L0FWMSByZXF1aXJlcyBDb21tZXJjaWFsIGxpY2Vuc2UKClVzZSBBcHBsZSBQcm9SZXMgb24gbWFjT1MgKGhhcmR3YXJlIGFjY2VsZXJhdGVkLCBub3QgbGljZW5zZS1yZXN0cmljdGVkKToKYGBgcHl0aG9uCnJlYy5wYXIudmlkZW9jb2RlYyA9ICdwcm9yZXMnICAjIFByZWZlcnJlZCBvbiBtYWNPUyDigJQgbG9zc2xlc3MsIE5vbi1Db21tZXJjaWFsIE9LCiMgcmVjLnBhci52aWRlb2NvZGVjID0gJ21qcGEnICAjIEZhbGxiYWNrIOKAlCBsb3NzeSwgd29ya3MgZXZlcnl3aGVyZQpgYGAKCiMjIyBNb3ZpZUZpbGVPdXQgaGFzIG5vIC5yZWNvcmQoKSBtZXRob2QKClVzZSB0aGUgdG9nZ2xlIHBhcmFtZXRlcjoKYGBgcHl0aG9uCnJlYy5wYXIucmVjb3JkID0gVHJ1ZSAgICMgc3RhcnQKcmVjLnBhci5yZWNvcmQgPSBGYWxzZSAgIyBzdG9wCmBgYAoKIyMjIEFsbCBleHBvcnRlZCBmcmFtZXMgaWRlbnRpY2FsCgpUT1Auc2F2ZSgpIGNhcHR1cmVzIHNhbWUgZnJhbWUgd2hlbiBjYWxsZWQgcmFwaWRseS4gVXNlIE1vdmllRmlsZU91dCBmb3IKcmVhbC10aW1lIHJlY29yZGluZy4gU2V0IHByb2plY3QucmVhbFRpbWUgPSBGYWxzZSBmb3IgZnJhbWUtYWNjdXJhdGUgb3V0cHV0Lgo=
+# TouchDesigner Troubleshooting (twozero MCP)
+
+> See `references/pitfalls.md` for the comprehensive lessons-learned list.
+
+## 1. Connection Issues
+
+### Port 40404 not responding
+
+Check these in order:
+
+1. Is TouchDesigner running?
+   ```bash
+   pgrep TouchDesigner
+   ```
+
+1b. Quick hub health check (no JSON-RPC needed):
+   A plain GET to the MCP URL returns instance info:
+   ```
+   curl -s http://localhost:40404/mcp
+   ```
+   Returns: `{"hub": true, "pid": ..., "instances": {"127.0.0.1_PID": {"project": "...", "tdVersion": "...", ...}}}`
+   If this returns JSON but `instances` is empty, TD is running but twozero hasn't registered yet.
+
+2. Is twozero installed in TD?
+   Open TD Palette Browser > twozero should be listed. If not, install it.
+
+3. Is MCP enabled in twozero settings?
+   In TD, open twozero preferences and confirm MCP server is toggled ON.
+
+4. Test the port directly:
+   ```bash
+   nc -z 127.0.0.1 40404
+   ```
+
+5. Test the MCP endpoint:
+   ```bash
+   curl -s http://localhost:40404/mcp
+   ```
+   Should return JSON with hub info. If it does, the server is running.
+
+### Hub responds but no TD instances
+
+The twozero MCP hub is running but TD hasn't registered. Causes:
+- TD project not loaded yet (still on splash screen)
+- twozero COMP not initialized in the current project
+- twozero version mismatch
+
+Fix: Open/reload a TD project that contains the twozero COMP. Use td_list_instances
+to check which TD instances are registered.
+
+### Multi-instance setup
+
+twozero auto-assigns ports for multiple TD instances:
+- First instance: 40404
+- Second instance: 40405
+- Third instance: 40406
+- etc.
+
+Use `td_list_instances` to discover all running instances and their ports.
+
+## 2. MCP Tool Errors
+
+### td_execute_python returns error
+
+The error message from td_execute_python often contains the Python traceback.
+If it's unclear, use `td_read_textport` to see the full TD console output —
+Python exceptions are always printed there.
+
+Common causes:
+- Syntax error in the script
+- Referencing a node that doesn't exist (op() returns None, then you call .par on None)
+- Using wrong parameter names (see pitfalls.md)
+
+### td_set_operator_pars fails
+
+Parameter name mismatch is the #1 cause. The tool validates param names and
+returns clear errors, but you must use exact names.
+
+Fix: ALWAYS call `td_get_par_info` first to discover the real parameter names:
+```
+td_get_par_info(op_type='glslTOP')
+td_get_par_info(op_type='noiseTOP')
+```
+
+### td_create_operator type name errors
+
+Operator type names use camelCase with family suffix:
+- CORRECT: noiseTOP, glslTOP, levelTOP, compositeTOP, audiospectrumCHOP
+- WRONG:   NoiseTOP, noise_top, NOISE TOP, Noise
+
+### td_get_operator_info for deep inspection
+
+If unsure about any aspect of an operator (params, inputs, outputs, state):
+```
+td_get_operator_info(path='/project1/noise1', detail='full')
+```
+
+## 3. Parameter Discovery
+
+CRITICAL: ALWAYS use td_get_par_info to discover parameter names.
+
+The agent's LLM training data contains WRONG parameter names for TouchDesigner.
+Do not trust them. Known wrong names include dat vs pixeldat, colora vs alpha,
+sizex vs size, and many more. See pitfalls.md for the full list.
+
+Workflow:
+1. td_get_par_info(op_type='glslTOP') — get all params for a type
+2. td_get_operator_info(path='/project1/mynode', detail='full') — get params for a specific instance
+3. Use ONLY the names returned by these tools
+
+## 4. Performance
+
+### Diagnosing slow performance
+
+Use `td_get_perf` to see which operators are slow. Look at cook times —
+anything over 1ms per frame is worth investigating.
+
+Common causes:
+- Resolution too high (especially on Non-Commercial)
+- Complex GLSL shaders
+- Too many TOP-to-CHOP or CHOP-to-TOP transfers (GPU-CPU memory copies)
+- Feedback loops without decay (values accumulate, memory grows)
+
+### Non-Commercial license restrictions
+
+- Resolution cap: 1280x1280. Setting resolutionw=1920 silently clamps to 1280.
+- H.264/H.265/AV1 encoding requires Commercial license. Use ProRes or Hap instead.
+- No commercial use of output.
+
+Always check effective resolution after creation:
+```python
+n.cook(force=True)
+actual = str(n.width) + 'x' + str(n.height)
+```
+
+## 5. Hermes Configuration
+
+### Config location
+
+`$HERMES_HOME/config.yaml` (defaults to `~/.hermes/config.yaml` when `HERMES_HOME` is unset)
+
+### MCP entry format
+
+The twozero TD entry should look like:
+```yaml
+mcpServers:
+  twozero_td:
+    url: http://localhost:40404/mcp
+```
+
+### After config changes
+
+Restart the Hermes session for changes to take effect. The MCP connection is
+established at session startup.
+
+### Verifying MCP tools are available
+
+After restarting, the session log should show twozero MCP tools registered.
+If tools show as registered but aren't callable, check:
+- The twozero MCP hub is still running (curl test above)
+- TD is still running with a project loaded
+- No firewall blocking localhost:40404
+
+## 6. Node Creation Issues
+
+### "Node type not found" error
+
+Wrong type string. Use camelCase with family suffix:
+- Wrong: NoiseTop, noise_top, NOISE TOP
+- Right: noiseTOP
+
+### Node created but not visible
+
+Check parentPath — use absolute paths like /project1. The default project
+root is /project1. System nodes live at /, /ui, /sys, /local, /perform.
+Don't create user nodes outside /project1.
+
+### Cannot create node inside a non-COMP
+
+Only COMP operators (Container, Base, Geometry, etc.) can contain children.
+You cannot create nodes inside a TOP, CHOP, SOP, DAT, or MAT.
+
+## 7. Wiring Issues
+
+### Cross-family wiring
+
+TOPs connect to TOPs, CHOPs to CHOPs, SOPs to SOPs, DATs to DATs.
+Use converter operators to bridge: choptoTOP, topToCHOP, soptoDAT, etc.
+
+Note: choptoTOP has NO input connectors. Use par.chop reference instead:
+```python
+spec_tex.par.chop = resample_node  # correct
+# NOT: resample.outputConnectors[0].connect(spec_tex.inputConnectors[0])
+```
+
+### Feedback loops
+
+Never create A -> B -> A directly. Use a Feedback TOP:
+```python
+fb = root.create(feedbackTOP, 'fb')
+fb.par.top = comp.path          # reference only, no wire to fb input
+fb.outputConnectors[0].connect(next_node)
+```
+"Cook dependency loop detected" warning on the chain is expected and correct.
+
+## 8. GLSL Issues
+
+### Shader compilation errors are silent
+
+GLSL TOP shows a yellow warning in the UI but node.errors() may return empty.
+Check node.warnings() too. Create an Info DAT pointed at the GLSL TOP for
+full compiler output.
+
+### TD GLSL specifics
+
+- Uses GLSL 4.60 (Vulkan backend). GLSL 3.30 and earlier removed.
+- UV coordinates: vUV.st (not gl_FragCoord)
+- Input textures: sTD2DInputs[0]
+- Output: layout(location = 0) out vec4 fragColor
+- macOS CRITICAL: Always wrap output with TDOutputSwizzle(color)
+- No built-in time uniform. Pass time via GLSL TOP Values page or Constant TOP.
+
+## 9. Recording Issues
+
+### H.264/H.265/AV1 requires Commercial license
+
+Use Apple ProRes on macOS (hardware accelerated, not license-restricted):
+```python
+rec.par.videocodec = 'prores'  # Preferred on macOS — lossless, Non-Commercial OK
+# rec.par.videocodec = 'mjpa'  # Fallback — lossy, works everywhere
+```
+
+### MovieFileOut has no .record() method
+
+Use the toggle parameter:
+```python
+rec.par.record = True   # start
+rec.par.record = False  # stop
+```
+
+### All exported frames identical
+
+TOP.save() captures same frame when called rapidly. Use MovieFileOut for
+real-time recording. Set project.realTime = False for frame-accurate output.

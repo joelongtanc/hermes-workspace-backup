@@ -1,1 +1,244 @@
-IyBTdHJ1Y3R1cmVkIENvbnRlbnQgVGVtcGxhdGUKClRlbXBsYXRlIGZvciBnZW5lcmF0aW5nIHN0cnVjdHVyZWQgaW5mb2dyYXBoaWMgY29udGVudCB0aGF0IGluZm9ybXMgdGhlIHZpc3VhbCBkZXNpZ25lci4KCiMjIFB1cnBvc2UKClRoaXMgZG9jdW1lbnQgYnJpZGdlcyBjb250ZW50IGFuYWx5c2lzIGFuZCB2aXN1YWwgZGVzaWduOgotIFRyYW5zZm9ybXMgc291cmNlIG1hdGVyaWFsIGludG8gZGVzaWduZXItcmVhZHkgZm9ybWF0Ci0gT3JnYW5pemVzIGxlYXJuaW5nIG9iamVjdGl2ZXMgaW50byB2aXN1YWwgc2VjdGlvbnMKLSBQcmVzZXJ2ZXMgYWxsIHNvdXJjZSBkYXRhIHZlcmJhdGltCi0gU2VwYXJhdGVzIGNvbnRlbnQgZnJvbSBkZXNpZ24gaW5zdHJ1Y3Rpb25zCgojIyBJbnN0cnVjdGlvbmFsIERlc2lnbiBQcm9jZXNzCgojIyMgUGhhc2UgMTogSGlnaC1MZXZlbCBPdXRsaW5lCgoxLiAqKlRpdGxlKio6IENhcHR1cmUgdGhlIGVzc2VuY2UgaW4gYSBjb21wZWxsaW5nIGhlYWRsaW5lCjIuICoqT3ZlcnZpZXcqKjogQnJpZWYgZGVzY3JpcHRpb24gKDEtMiBzZW50ZW5jZXMpCjMuICoqTGVhcm5pbmcgT2JqZWN0aXZlcyoqOiBMaXN0IHdoYXQgdGhlIHZpZXdlciB3aWxsIHVuZGVyc3RhbmQKCiMjIyBQaGFzZSAyOiBTZWN0aW9uIERldmVsb3BtZW50CgpGb3IgZWFjaCBsZWFybmluZyBvYmplY3RpdmU6CgoxLiAqKktleSBDb25jZXB0Kio6IE9uZS1zZW50ZW5jZSBzdW1tYXJ5IG9mIHRoZSBzZWN0aW9uCjIuICoqQ29udGVudCoqOiBQb2ludHMgZXh0cmFjdGVkIHZlcmJhdGltIGZyb20gc291cmNlCjMuICoqVmlzdWFsIEVsZW1lbnQqKjogV2hhdCBzaG91bGQgYmUgc2hvd24gdmlzdWFsbHkKNC4gKipUZXh0IExhYmVscyoqOiBFeGFjdCB0ZXh0IGZvciBoZWFkbGluZXMsIHN1YmhlYWRzLCBsYWJlbHMKCiMjIyBQaGFzZSAzOiBEYXRhIEludGVncml0eSBDaGVjawoKVmVyaWZ5IGFsbCBzb3VyY2UgZGF0YSBpczoKLSBDb3BpZWQgZXhhY3RseSAobm8gcGFyYXBocmFzaW5nKQotIEF0dHJpYnV0ZWQgY29ycmVjdGx5IChmb3IgcXVvdGVzKQotIEZvcm1hdHRlZCBjb25zaXN0ZW50bHkKCiMjIENyaXRpY2FsIFJ1bGVzCgp8IFJ1bGUgfCBSZXF1aXJlbWVudCB8IEV4YW1wbGUgfAp8LS0tLS0tfC0tLS0tLS0tLS0tLS18LS0tLS0tLS0tfAp8ICoqT3V0cHV0IGZvcm1hdCoqIHwgTWFya2Rvd24gb25seSB8IFVzZSBwcm9wZXIgaGVhZGVycywgbGlzdHMsIGNvZGUgYmxvY2tzIHwKfCAqKlRvbmUqKiB8IEV4cGVydCB0cmFpbmVyIHwgS25vd2xlZGdlYWJsZSwgY2xlYXIsIGVuY291cmFnaW5nIHwKfCAqKk5vIG5ldyBpbmZvcm1hdGlvbioqIHwgT25seSBzb3VyY2UgY29udGVudCB8IERvbid0IGFkZCBleGFtcGxlcyBub3QgaW4gc291cmNlIHwKfCAqKlZlcmJhdGltIGRhdGEqKiB8IEV4YWN0IGNvcGllcyB8ICI3MyUgaW5jcmVhc2UiIG5vdCAic2lnbmlmaWNhbnQgaW5jcmVhc2UiIHwKCiMjIFN0cnVjdHVyZWQgQ29udGVudCBGb3JtYXQKCmBgYG1hcmtkb3duCiMgW0luZm9ncmFwaGljIFRpdGxlXQoKIyMgT3ZlcnZpZXcKW0JyaWVmIGRlc2NyaXB0aW9uIG9mIHdoYXQgdGhpcyBpbmZvZ3JhcGhpYyBjb252ZXlzIC0gMS0yIHNlbnRlbmNlc10KCiMjIExlYXJuaW5nIE9iamVjdGl2ZXMKVGhlIHZpZXdlciB3aWxsIHVuZGVyc3RhbmQ6CjEuIFtQcmltYXJ5IG9iamVjdGl2ZV0KMi4gW1NlY29uZGFyeSBvYmplY3RpdmVdCjMuIFtUZXJ0aWFyeSBvYmplY3RpdmUgaWYgYXBwbGljYWJsZV0KCi0tLQoKIyMgU2VjdGlvbiAxOiBbU2VjdGlvbiBUaXRsZV0KCioqS2V5IENvbmNlcHQqKjogW09uZS1zZW50ZW5jZSBzdW1tYXJ5IG9mIHRoaXMgc2VjdGlvbl0KCioqQ29udGVudCoqOgotIFtQb2ludCAxIC0gdmVyYmF0aW0gZnJvbSBzb3VyY2VdCi0gW1BvaW50IDIgLSB2ZXJiYXRpbSBmcm9tIHNvdXJjZV0KLSBbUG9pbnQgMyAtIHZlcmJhdGltIGZyb20gc291cmNlXQoKKipWaXN1YWwgRWxlbWVudCoqOiBbRGVzY3JpcHRpb24gb2Ygd2hhdCB0byBzaG93IHZpc3VhbGx5XQotIFR5cGU6IFtpY29uL2NoYXJ0L2lsbHVzdHJhdGlvbi9kaWFncmFtL3Bob3RvXQotIFN1YmplY3Q6IFt3aGF0IGl0IGRlcGljdHNdCi0gVHJlYXRtZW50OiBbaG93IGl0IHNob3VsZCBiZSBwcmVzZW50ZWRdCgoqKlRleHQgTGFiZWxzKio6Ci0gSGVhZGxpbmU6ICJbRXhhY3QgdGV4dCBmb3IgaGVhZGxpbmVdIgotIFN1YmhlYWQ6ICJbRXhhY3QgdGV4dCBmb3Igc3ViaGVhZF0iCi0gTGFiZWxzOiAiW0xhYmVsIDFdIiwgIltMYWJlbCAyXSIsICJbTGFiZWwgM10iCgotLS0KCiMjIFNlY3Rpb24gMjogW1NlY3Rpb24gVGl0bGVdCgoqKktleSBDb25jZXB0Kio6IFtPbmUtc2VudGVuY2Ugc3VtbWFyeV0KCioqQ29udGVudCoqOgotIFtQb2ludCAxXQotIFtQb2ludCAyXQoKKipWaXN1YWwgRWxlbWVudCoqOiBbRGVzY3JpcHRpb25dCgoqKlRleHQgTGFiZWxzKio6Ci0gSGVhZGxpbmU6ICJbdGV4dF0iCi0gTGFiZWxzOiAiW0xhYmVsIDFdIiwgIltMYWJlbCAyXSIKCi0tLQoKW0NvbnRpbnVlIGZvciBlYWNoIHNlY3Rpb24uLi5dCgotLS0KCiMjIERhdGEgUG9pbnRzIChWZXJiYXRpbSkKCkFsbCBzdGF0aXN0aWNzLCBudW1iZXJzLCBhbmQgcXVvdGVzIGV4YWN0bHkgYXMgdGhleSBhcHBlYXIgaW4gc291cmNlOgoKIyMjIFN0YXRpc3RpY3MKLSAiW0V4YWN0IHN0YXRpc3RpYyAxXSIKLSAiW0V4YWN0IHN0YXRpc3RpYyAyXSIKLSAiW0V4YWN0IHN0YXRpc3RpYyAzXSIKCiMjIyBRdW90ZXMKLSAiW0V4YWN0IHF1b3RlXSIg4oCUIFtBdHRyaWJ1dGlvbl0KCiMjIyBLZXkgVGVybXMKLSAqKltUZXJtIDFdKio6IFtEZWZpbml0aW9uIGZyb20gc291cmNlXQotICoqW1Rlcm0gMl0qKjogW0RlZmluaXRpb24gZnJvbSBzb3VyY2VdCgotLS0KCiMjIERlc2lnbiBJbnN0cnVjdGlvbnMKCkV4dHJhY3RlZCBmcm9tIHVzZXIncyBzdGVlcmluZyBwcm9tcHQ6CgojIyMgU3R5bGUgUHJlZmVyZW5jZXMKLSBbQW55IGNvbG9yIHByZWZlcmVuY2VzXQotIFtBbnkgbW9vZC9hZXN0aGV0aWMgcHJlZmVyZW5jZXNdCi0gW0FueSBhcnRpc3RpYyBzdHlsZSBwcmVmZXJlbmNlc10KCiMjIyBMYXlvdXQgUHJlZmVyZW5jZXMKLSBbQW55IHN0cnVjdHVyZSBwcmVmZXJlbmNlc10KLSBbQW55IG9yZ2FuaXphdGlvbiBwcmVmZXJlbmNlc10KCiMjIyBPdGhlciBSZXF1aXJlbWVudHMKLSBbQW55IG90aGVyIHZpc3VhbCByZXF1aXJlbWVudHMgZnJvbSB1c2VyXQotIFtUYXJnZXQgcGxhdGZvcm0gaWYgc3BlY2lmaWVkXQotIFtCcmFuZCBndWlkZWxpbmVzIGlmIGFueV0KYGBgCgojIyBTZWN0aW9uIFR5cGVzIGJ5IENvbnRlbnQKCiMjIyBGb3IgUHJvY2Vzcy9TdGVwcwoKYGBgbWFya2Rvd24KIyMgU2VjdGlvbiBOOiBTdGVwIE4gLSBbU3RlcCBUaXRsZV0KCioqS2V5IENvbmNlcHQqKjogW1doYXQgdGhpcyBzdGVwIGFjY29tcGxpc2hlc10KCioqQ29udGVudCoqOgotIEFjdGlvbjogW1doYXQgdG8gZG9dCi0gRGV0YWlsczogW0hvdyB0byBkbyBpdF0KLSBOb3RlOiBbSW1wb3J0YW50IGNvbnNpZGVyYXRpb25dCgoqKlZpc3VhbCBFbGVtZW50Kio6Ci0gVHlwZTogbnVtYmVyZWQgc3RlcCBpY29uCi0gU3ViamVjdDogW3Zpc3VhbCByZXByZXNlbnRpbmcgdGhlIGFjdGlvbl0KLSBBcnJvdzogbGVhZHMgdG8gbmV4dCBzdGVwCgoqKlRleHQgTGFiZWxzKio6Ci0gSGVhZGxpbmU6ICJTdGVwIE46IFtUaXRsZV0iCi0gQWN0aW9uOiAiW0ltcGVyYXRpdmUgdmVyYiArIG9iamVjdF0iCmBgYAoKIyMjIEZvciBDb21wYXJpc29uCgpgYGBtYXJrZG93bgojIyBTZWN0aW9uIE46IFtJdGVtIEFdIHZzIFtJdGVtIEJdCgoqKktleSBDb25jZXB0Kio6IFtXaGF0IGRpc3Rpbmd1aXNoZXMgdGhlbV0KCioqQ29udGVudCoqOgp8IEFzcGVjdCB8IFtJdGVtIEFdIHwgW0l0ZW0gQl0gfAp8LS0tLS0tLS18LS0tLS0tLS0tLXwtLS0tLS0tLS0tfAp8IFtGYWN0b3IgMV0gfCBbVmFsdWVdIHwgW1ZhbHVlXSB8CnwgW0ZhY3RvciAyXSB8IFtWYWx1ZV0gfCBbVmFsdWVdIHwKCioqVmlzdWFsIEVsZW1lbnQqKjoKLSBUeXBlOiBzcGxpdCBjb21wYXJpc29uCi0gTGVmdDogW0l0ZW0gQSByZXByZXNlbnRhdGlvbl0KLSBSaWdodDogW0l0ZW0gQiByZXByZXNlbnRhdGlvbl0KCioqVGV4dCBMYWJlbHMqKjoKLSBIZWFkbGluZTogIltJdGVtIEFdIHZzIFtJdGVtIEJdIgotIExlZnQgbGFiZWw6ICJbSXRlbSBBIG5hbWVdIgotIFJpZ2h0IGxhYmVsOiAiW0l0ZW0gQiBuYW1lXSIKYGBgCgojIyMgRm9yIEhpZXJhcmNoeQoKYGBgbWFya2Rvd24KIyMgU2VjdGlvbiBOOiBbTGV2ZWwgTmFtZV0KCioqS2V5IENvbmNlcHQqKjogW1doYXQgdGhpcyBsZXZlbCByZXByZXNlbnRzXQoKKipDb250ZW50Kio6Ci0gUG9zaXRpb246IFtUb3AvTWlkZGxlL0JvdHRvbV0KLSBQcmlvcml0eTogW0ltcG9ydGFuY2UgbGV2ZWxdCi0gQ29udGFpbnM6IFtFbGVtZW50cyBhdCB0aGlzIGxldmVsXQoKKipWaXN1YWwgRWxlbWVudCoqOgotIFR5cGU6IGxheWVyL3RpZXIKLSBTaXplOiBbcmVsYXRpdmUgdG8gb3RoZXIgbGV2ZWxzXQotIFBvc2l0aW9uOiBbd2hlcmUgaW4gaGllcmFyY2h5XQoKKipUZXh0IExhYmVscyoqOgotIExldmVsIHRpdGxlOiAiW05hbWVdIgotIERlc2NyaXB0aW9uOiAiW0JyaWVmIGRlc2NyaXB0aW9uXSIKYGBgCgojIyMgRm9yIERhdGEvU3RhdGlzdGljcwoKYGBgbWFya2Rvd24KIyMgU2VjdGlvbiBOOiBbTWV0cmljIE5hbWVdCgoqKktleSBDb25jZXB0Kio6IFtXaGF0IHRoaXMgZGF0YSBzaG93c10KCioqQ29udGVudCoqOgotIFZhbHVlOiBbRXhhY3QgbnVtYmVyL3BlcmNlbnRhZ2VdCi0gQ29udGV4dDogW1doYXQgaXQgbWVhbnNdCi0gQ29tcGFyaXNvbjogW0JlbmNobWFyayBpZiBhbnldCgoqKlZpc3VhbCBFbGVtZW50Kio6Ci0gVHlwZTogW2NoYXJ0L251bWJlciBoaWdobGlnaHQvZ2F1Z2VdCi0gRW1waGFzaXM6IFtob3cgdG8gZHJhdyBhdHRlbnRpb25dCgoqKlRleHQgTGFiZWxzKio6Ci0gTWFpbiBudW1iZXI6ICJbRXhhY3QgdmFsdWVdIgotIExhYmVsOiAiW01ldHJpYyBuYW1lXSIKLSBDb250ZXh0OiAiW0JyaWVmIGNvbnRleHRdIgpgYGAKCiMjIFF1YWxpdHkgQ2hlY2tsaXN0CgpCZWZvcmUgZmluYWxpemluZyBzdHJ1Y3R1cmVkIGNvbnRlbnQ6CgotIFsgXSBUaXRsZSBjYXB0dXJlcyB0aGUgbWFpbiBtZXNzYWdlCi0gWyBdIExlYXJuaW5nIG9iamVjdGl2ZXMgYXJlIGNsZWFyIGFuZCBtZWFzdXJhYmxlCi0gWyBdIEVhY2ggc2VjdGlvbiBtYXBzIHRvIGFuIG9iamVjdGl2ZQotIFsgXSBBbGwgY29udGVudCBpcyB2ZXJiYXRpbSBmcm9tIHNvdXJjZQotIFsgXSBWaXN1YWwgZWxlbWVudHMgYXJlIGNsZWFybHkgZGVzY3JpYmVkCi0gWyBdIFRleHQgbGFiZWxzIGFyZSBzcGVjaWZpZWQgZXhhY3RseQotIFsgXSBEYXRhIHBvaW50cyBhcmUgY29sbGVjdGVkIGFuZCB2ZXJpZmllZAotIFsgXSBEZXNpZ24gaW5zdHJ1Y3Rpb25zIGFyZSBzZXBhcmF0ZWQKLSBbIF0gTm8gbmV3IGluZm9ybWF0aW9uIGhhcyBiZWVuIGFkZGVkCg==
+# Structured Content Template
+
+Template for generating structured infographic content that informs the visual designer.
+
+## Purpose
+
+This document bridges content analysis and visual design:
+- Transforms source material into designer-ready format
+- Organizes learning objectives into visual sections
+- Preserves all source data verbatim
+- Separates content from design instructions
+
+## Instructional Design Process
+
+### Phase 1: High-Level Outline
+
+1. **Title**: Capture the essence in a compelling headline
+2. **Overview**: Brief description (1-2 sentences)
+3. **Learning Objectives**: List what the viewer will understand
+
+### Phase 2: Section Development
+
+For each learning objective:
+
+1. **Key Concept**: One-sentence summary of the section
+2. **Content**: Points extracted verbatim from source
+3. **Visual Element**: What should be shown visually
+4. **Text Labels**: Exact text for headlines, subheads, labels
+
+### Phase 3: Data Integrity Check
+
+Verify all source data is:
+- Copied exactly (no paraphrasing)
+- Attributed correctly (for quotes)
+- Formatted consistently
+
+## Critical Rules
+
+| Rule | Requirement | Example |
+|------|-------------|---------|
+| **Output format** | Markdown only | Use proper headers, lists, code blocks |
+| **Tone** | Expert trainer | Knowledgeable, clear, encouraging |
+| **No new information** | Only source content | Don't add examples not in source |
+| **Verbatim data** | Exact copies | "73% increase" not "significant increase" |
+
+## Structured Content Format
+
+```markdown
+# [Infographic Title]
+
+## Overview
+[Brief description of what this infographic conveys - 1-2 sentences]
+
+## Learning Objectives
+The viewer will understand:
+1. [Primary objective]
+2. [Secondary objective]
+3. [Tertiary objective if applicable]
+
+---
+
+## Section 1: [Section Title]
+
+**Key Concept**: [One-sentence summary of this section]
+
+**Content**:
+- [Point 1 - verbatim from source]
+- [Point 2 - verbatim from source]
+- [Point 3 - verbatim from source]
+
+**Visual Element**: [Description of what to show visually]
+- Type: [icon/chart/illustration/diagram/photo]
+- Subject: [what it depicts]
+- Treatment: [how it should be presented]
+
+**Text Labels**:
+- Headline: "[Exact text for headline]"
+- Subhead: "[Exact text for subhead]"
+- Labels: "[Label 1]", "[Label 2]", "[Label 3]"
+
+---
+
+## Section 2: [Section Title]
+
+**Key Concept**: [One-sentence summary]
+
+**Content**:
+- [Point 1]
+- [Point 2]
+
+**Visual Element**: [Description]
+
+**Text Labels**:
+- Headline: "[text]"
+- Labels: "[Label 1]", "[Label 2]"
+
+---
+
+[Continue for each section...]
+
+---
+
+## Data Points (Verbatim)
+
+All statistics, numbers, and quotes exactly as they appear in source:
+
+### Statistics
+- "[Exact statistic 1]"
+- "[Exact statistic 2]"
+- "[Exact statistic 3]"
+
+### Quotes
+- "[Exact quote]" — [Attribution]
+
+### Key Terms
+- **[Term 1]**: [Definition from source]
+- **[Term 2]**: [Definition from source]
+
+---
+
+## Design Instructions
+
+Extracted from user's steering prompt:
+
+### Style Preferences
+- [Any color preferences]
+- [Any mood/aesthetic preferences]
+- [Any artistic style preferences]
+
+### Layout Preferences
+- [Any structure preferences]
+- [Any organization preferences]
+
+### Other Requirements
+- [Any other visual requirements from user]
+- [Target platform if specified]
+- [Brand guidelines if any]
+```
+
+## Section Types by Content
+
+### For Process/Steps
+
+```markdown
+## Section N: Step N - [Step Title]
+
+**Key Concept**: [What this step accomplishes]
+
+**Content**:
+- Action: [What to do]
+- Details: [How to do it]
+- Note: [Important consideration]
+
+**Visual Element**:
+- Type: numbered step icon
+- Subject: [visual representing the action]
+- Arrow: leads to next step
+
+**Text Labels**:
+- Headline: "Step N: [Title]"
+- Action: "[Imperative verb + object]"
+```
+
+### For Comparison
+
+```markdown
+## Section N: [Item A] vs [Item B]
+
+**Key Concept**: [What distinguishes them]
+
+**Content**:
+| Aspect | [Item A] | [Item B] |
+|--------|----------|----------|
+| [Factor 1] | [Value] | [Value] |
+| [Factor 2] | [Value] | [Value] |
+
+**Visual Element**:
+- Type: split comparison
+- Left: [Item A representation]
+- Right: [Item B representation]
+
+**Text Labels**:
+- Headline: "[Item A] vs [Item B]"
+- Left label: "[Item A name]"
+- Right label: "[Item B name]"
+```
+
+### For Hierarchy
+
+```markdown
+## Section N: [Level Name]
+
+**Key Concept**: [What this level represents]
+
+**Content**:
+- Position: [Top/Middle/Bottom]
+- Priority: [Importance level]
+- Contains: [Elements at this level]
+
+**Visual Element**:
+- Type: layer/tier
+- Size: [relative to other levels]
+- Position: [where in hierarchy]
+
+**Text Labels**:
+- Level title: "[Name]"
+- Description: "[Brief description]"
+```
+
+### For Data/Statistics
+
+```markdown
+## Section N: [Metric Name]
+
+**Key Concept**: [What this data shows]
+
+**Content**:
+- Value: [Exact number/percentage]
+- Context: [What it means]
+- Comparison: [Benchmark if any]
+
+**Visual Element**:
+- Type: [chart/number highlight/gauge]
+- Emphasis: [how to draw attention]
+
+**Text Labels**:
+- Main number: "[Exact value]"
+- Label: "[Metric name]"
+- Context: "[Brief context]"
+```
+
+## Quality Checklist
+
+Before finalizing structured content:
+
+- [ ] Title captures the main message
+- [ ] Learning objectives are clear and measurable
+- [ ] Each section maps to an objective
+- [ ] All content is verbatim from source
+- [ ] Visual elements are clearly described
+- [ ] Text labels are specified exactly
+- [ ] Data points are collected and verified
+- [ ] Design instructions are separated
+- [ ] No new information has been added

@@ -1,1 +1,44 @@
-IyBjcmFmdC1oYW5kbWFkZSAoREVGQVVMVCkKCkhhbmQtZHJhd24gYW5kIHBhcGVyIGNyYWZ0IGFlc3RoZXRpYyB3aXRoIHdhcm0sIG9yZ2FuaWMgZmVlbC4KCiMjIENvbG9yIFBhbGV0dGUKCi0gUHJpbWFyeTogV2FybSBwYXN0ZWxzLCBzb2Z0IHNhdHVyYXRlZCBjb2xvcnMsIGNyYWZ0IHBhcGVyIHRvbmVzCi0gQmFja2dyb3VuZDogTGlnaHQgY3JlYW0gKCNGRkY4RjApLCB0ZXh0dXJlZCBwYXBlciAoI0Y1RjBFNikKLSBBY2NlbnRzOiBCb2xkIGhpZ2hsaWdodHMsIGNvbnN0cnVjdGlvbiBwYXBlciBjb2xvcnMKCiMjIFZhcmlhbnRzCgp8IFZhcmlhbnQgfCBGb2N1cyB8IFZpc3VhbCBFbXBoYXNpcyB8CnwtLS0tLS0tLS18LS0tLS0tLXwtLS0tLS0tLS0tLS0tLS0tLXwKfCAqKkhhbmQtZHJhd24qKiB8IENhcnRvb24gaWxsdXN0cmF0aW9uIHwgU2ltcGxlIGljb25zLCBzbGlnaHRseSBpbXBlcmZlY3QgbGluZXMgfAp8ICoqUGFwZXItY3V0b3V0KiogfCBMYXllcmVkIHBhcGVyIGNyYWZ0IHwgRHJvcCBzaGFkb3dzLCB0b3JuIGVkZ2VzLCB0ZXh0dXJlIHwKCiMjIFZpc3VhbCBFbGVtZW50cwoKLSBIYW5kLWRyYXduIG9yIGN1dC1wYXBlciBxdWFsaXR5Ci0gT3JnYW5pYywgc2xpZ2h0bHkgaW1wZXJmZWN0IHNoYXBlcwotIExheWVyZWQgZGVwdGggd2l0aCBzaGFkb3dzIChwYXBlciB2YXJpYW50KQotIFNpbXBsZSBjYXJ0b29uIGVsZW1lbnRzIGFuZCBpY29ucwotIENoYXJhY3RlciBpbGx1c3RyYXRpb25zIChwZW9wbGUsIHBlcnNvbmFsaXRpZXMgaW4gY2FydG9vbiBmb3JtKQotIEFtcGxlIHdoaXRlc3BhY2UsIGNsZWFuIGNvbXBvc2l0aW9uCi0gS2V5d29yZHMgYW5kIGNvcmUgY29uY2VwdHMgaGlnaGxpZ2h0ZWQKLSAqKlN0cmljdGx5IGhhbmQtZHJhd27igJRubyByZWFsaXN0aWMgb3IgcGhvdG9ncmFwaGljIGVsZW1lbnRzKioKCiMjIFN0eWxlIEVuZm9yY2VtZW50CgotIEFsbCBpbWFnZXJ5IG11c3QgbWFpbnRhaW4gY2FydG9vbi9pbGx1c3RyYXRlZCBhZXN0aGV0aWMKLSBSZXBsYWNlIHJlYWwgcGhvdG9zIG9yIHJlYWxpc3RpYyBmaWd1cmVzIHdpdGggaGFuZC1kcmF3biBlcXVpdmFsZW50cwotIE1haW50YWluIGNvbnNpc3RlbnQgbGluZSB3ZWlnaHQgYW5kIGlsbHVzdHJhdGlvbiBzdHlsZSB0aHJvdWdob3V0CgojIyBUeXBvZ3JhcGh5CgotIEhhbmQtZHJhd24gb3IgY2FzdWFsIGZvbnQgc3R5bGUKLSBDbGVhciwgcmVhZGFibGUgbGFiZWxzCi0gS2V5d29yZHMgZW1waGFzaXplZCB3aXRoIGxhcmdlci9ib2xkZXIgdGV4dAotIEN1dC1vdXQgbGV0dGVyIHN0eWxlIGZvciBwYXBlciB2YXJpYW50CgojIyBCZXN0IEZvcgoKRWR1Y2F0aW9uYWwgY29udGVudCwgZ2VuZXJhbCBleHBsYW5hdGlvbnMsIGZyaWVuZGx5IGluZm9ncmFwaGljcywgY2hpbGRyZW4ncyBjb250ZW50LCBwbGF5ZnVsIGhpZXJhcmNoaWVzCg==
+# craft-handmade (DEFAULT)
+
+Hand-drawn and paper craft aesthetic with warm, organic feel.
+
+## Color Palette
+
+- Primary: Warm pastels, soft saturated colors, craft paper tones
+- Background: Light cream (#FFF8F0), textured paper (#F5F0E6)
+- Accents: Bold highlights, construction paper colors
+
+## Variants
+
+| Variant | Focus | Visual Emphasis |
+|---------|-------|-----------------|
+| **Hand-drawn** | Cartoon illustration | Simple icons, slightly imperfect lines |
+| **Paper-cutout** | Layered paper craft | Drop shadows, torn edges, texture |
+
+## Visual Elements
+
+- Hand-drawn or cut-paper quality
+- Organic, slightly imperfect shapes
+- Layered depth with shadows (paper variant)
+- Simple cartoon elements and icons
+- Character illustrations (people, personalities in cartoon form)
+- Ample whitespace, clean composition
+- Keywords and core concepts highlighted
+- **Strictly hand-drawn—no realistic or photographic elements**
+
+## Style Enforcement
+
+- All imagery must maintain cartoon/illustrated aesthetic
+- Replace real photos or realistic figures with hand-drawn equivalents
+- Maintain consistent line weight and illustration style throughout
+
+## Typography
+
+- Hand-drawn or casual font style
+- Clear, readable labels
+- Keywords emphasized with larger/bolder text
+- Cut-out letter style for paper variant
+
+## Best For
+
+Educational content, general explanations, friendly infographics, children's content, playful hierarchies

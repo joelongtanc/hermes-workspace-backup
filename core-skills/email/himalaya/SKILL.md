@@ -1,1 +1,304 @@
-LS0tCm5hbWU6IGhpbWFsYXlhCmRlc2NyaXB0aW9uOiAiSGltYWxheWEgQ0xJOiBJTUFQL1NNVFAgZW1haWwgZnJvbSB0ZXJtaW5hbC4iCnZlcnNpb246IDEuMS4wCmF1dGhvcjogY29tbXVuaXR5CmxpY2Vuc2U6IE1JVApwbGF0Zm9ybXM6IFtsaW51eCwgbWFjb3MsIHdpbmRvd3NdCm1ldGFkYXRhOgogIGhlcm1lczoKICAgIHRhZ3M6IFtFbWFpbCwgSU1BUCwgU01UUCwgQ0xJLCBDb21tdW5pY2F0aW9uXQogICAgaG9tZXBhZ2U6IGh0dHBzOi8vZ2l0aHViLmNvbS9waW1hbGF5YS9oaW1hbGF5YQpwcmVyZXF1aXNpdGVzOgogIGNvbW1hbmRzOiBbaGltYWxheWFdCi0tLQoKIyBIaW1hbGF5YSBFbWFpbCBDTEkKCkhpbWFsYXlhIGlzIGEgQ0xJIGVtYWlsIGNsaWVudCB0aGF0IGxldHMgeW91IG1hbmFnZSBlbWFpbHMgZnJvbSB0aGUgdGVybWluYWwgdXNpbmcgSU1BUCwgU01UUCwgTm90bXVjaCwgb3IgU2VuZG1haWwgYmFja2VuZHMuCgpUaGlzIHNraWxsIGlzIHNlcGFyYXRlIGZyb20gdGhlIEhlcm1lcyBFbWFpbCBnYXRld2F5IGFkYXB0ZXIuIFRoZSBnYXRld2F5CmFkYXB0ZXIgbGV0cyBwZW9wbGUgZW1haWwgdGhlIGFnZW50IGFuZCB1c2VzIEhlcm1lcycgYnVpbHQtaW4gSU1BUC9TTVRQCmFkYXB0ZXI7IHRoaXMgc2tpbGwgbGV0cyB0aGUgYWdlbnQgb3BlcmF0ZSBhIG1haWxib3ggZnJvbSB0ZXJtaW5hbCB0b29scyBhbmQKcmVxdWlyZXMgdGhlIGV4dGVybmFsIGBoaW1hbGF5YWAgQ0xJLgoKIyMgUmVmZXJlbmNlcwoKLSBgcmVmZXJlbmNlcy9jb25maWd1cmF0aW9uLm1kYCAoY29uZmlnIGZpbGUgc2V0dXAgKyBJTUFQL1NNVFAgYXV0aGVudGljYXRpb24pCi0gYHJlZmVyZW5jZXMvbWVzc2FnZS1jb21wb3NpdGlvbi5tZGAgKE1NTCBzeW50YXggZm9yIGNvbXBvc2luZyBlbWFpbHMpCgojIyBQcmVyZXF1aXNpdGVzCgoxLiBIaW1hbGF5YSBDTEkgaW5zdGFsbGVkIChgaGltYWxheWEgLS12ZXJzaW9uYCB0byB2ZXJpZnkpCjIuIEEgY29uZmlndXJhdGlvbiBmaWxlIGF0IGB+Ly5jb25maWcvaGltYWxheWEvY29uZmlnLnRvbWxgCjMuIElNQVAvU01UUCBjcmVkZW50aWFscyBjb25maWd1cmVkIChwYXNzd29yZCBzdG9yZWQgc2VjdXJlbHkpCgojIyMgSW5zdGFsbGF0aW9uCgpgYGBiYXNoCiMgUHJlLWJ1aWx0IGJpbmFyeSAoTGludXgvbWFjT1Mg4oCUIHJlY29tbWVuZGVkKQpjdXJsIC1zU0wgaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL3BpbWFsYXlhL2hpbWFsYXlhL21hc3Rlci9pbnN0YWxsLnNoIHwgUFJFRklYPX4vLmxvY2FsIHNoCgojIG1hY09TIHZpYSBIb21lYnJldwpicmV3IGluc3RhbGwgaGltYWxheWEKCiMgT3IgdmlhIGNhcmdvIChhbnkgcGxhdGZvcm0gd2l0aCBSdXN0KQpjYXJnbyBpbnN0YWxsIGhpbWFsYXlhIC0tbG9ja2VkCmBgYAoKIyMgQ29uZmlndXJhdGlvbiBTZXR1cAoKUnVuIHRoZSBpbnRlcmFjdGl2ZSB3aXphcmQgdG8gc2V0IHVwIGFuIGFjY291bnQ6CgpgYGBiYXNoCmhpbWFsYXlhIGFjY291bnQgY29uZmlndXJlCmBgYAoKT3IgY3JlYXRlIGB+Ly5jb25maWcvaGltYWxheWEvY29uZmlnLnRvbWxgIG1hbnVhbGx5OgoKYGBgdG9tbApbYWNjb3VudHMucGVyc29uYWxdCmVtYWlsID0gInlvdUBleGFtcGxlLmNvbSIKZGlzcGxheS1uYW1lID0gIllvdXIgTmFtZSIKZGVmYXVsdCA9IHRydWUKCmJhY2tlbmQudHlwZSA9ICJpbWFwIgpiYWNrZW5kLmhvc3QgPSAiaW1hcC5leGFtcGxlLmNvbSIKYmFja2VuZC5wb3J0ID0gOTkzCmJhY2tlbmQuZW5jcnlwdGlvbi50eXBlID0gInRscyIKYmFja2VuZC5sb2dpbiA9ICJ5b3VAZXhhbXBsZS5jb20iCmJhY2tlbmQuYXV0aC50eXBlID0gInBhc3N3b3JkIgpiYWNrZW5kLmF1dGguY21kID0gInBhc3Mgc2hvdyBlbWFpbC9pbWFwIiAgIyBvciB1c2Uga2V5cmluZwoKbWVzc2FnZS5zZW5kLmJhY2tlbmQudHlwZSA9ICJzbXRwIgptZXNzYWdlLnNlbmQuYmFja2VuZC5ob3N0ID0gInNtdHAuZXhhbXBsZS5jb20iCm1lc3NhZ2Uuc2VuZC5iYWNrZW5kLnBvcnQgPSA1ODcKbWVzc2FnZS5zZW5kLmJhY2tlbmQuZW5jcnlwdGlvbi50eXBlID0gInN0YXJ0LXRscyIKbWVzc2FnZS5zZW5kLmJhY2tlbmQubG9naW4gPSAieW91QGV4YW1wbGUuY29tIgptZXNzYWdlLnNlbmQuYmFja2VuZC5hdXRoLnR5cGUgPSAicGFzc3dvcmQiCm1lc3NhZ2Uuc2VuZC5iYWNrZW5kLmF1dGguY21kID0gInBhc3Mgc2hvdyBlbWFpbC9zbXRwIgoKIyBGb2xkZXIgYWxpYXNlcyAoaGltYWxheWEgdjEuMi4wKyBzeW50YXgpLiBSZXF1aXJlZCB3aGVuZXZlciB0aGUKIyBzZXJ2ZXIncyBmb2xkZXIgbmFtZXMgZG9uJ3QgbWF0Y2ggaGltYWxheWEncyBjYW5vbmljYWwgbmFtZXMKIyAoaW5ib3gvc2VudC9kcmFmdHMvdHJhc2gpLiBHbWFpbCBpcyB0aGUgY29tbW9uIGNhc2Ug4oCUIHNlZQojIGByZWZlcmVuY2VzL2NvbmZpZ3VyYXRpb24ubWRgIGZvciB0aGUgYFtHbWFpbF0vU2VudCBNYWlsYCBtYXBwaW5nLgpmb2xkZXIuYWxpYXNlcy5pbmJveCA9ICJJTkJPWCIKZm9sZGVyLmFsaWFzZXMuc2VudCA9ICJTZW50Igpmb2xkZXIuYWxpYXNlcy5kcmFmdHMgPSAiRHJhZnRzIgpmb2xkZXIuYWxpYXNlcy50cmFzaCA9ICJUcmFzaCIKYGBgCgo+ICoqSGVhZHMgdXAgb24gdGhlIGFsaWFzIHN5bnRheC4qKiBQcmUtdjEuMi4wIGRvY3MgdXNlZCBhCj4gYFthY2NvdW50cy5OQU1FLmZvbGRlci5hbGlhc11gIHN1Yi1zZWN0aW9uIChzaW5ndWxhciBgYWxpYXNgKS4KPiB2MS4yLjAgc2lsZW50bHkgaWdub3JlcyB0aGF0IGZvcm0g4oCUIFRPTUwgcGFyc2VzIGZpbmUsIGJ1dCB0aGUKPiBhbGlhcyByZXNvbHZlciBuZXZlciByZWFkcyBpdCwgc28gZXZlcnkgbG9va3VwIGZhbGxzIHRocm91Z2ggdG8KPiB0aGUgY2Fub25pY2FsIG5hbWUuIE9uIEdtYWlsIHRoaXMgbWVhbnMgc2F2ZS10by1TZW50IGZhaWxzICphZnRlcioKPiBTTVRQIGRlbGl2ZXJ5IHN1Y2NlZWRzLCBhbmQgYGhpbWFsYXlhIG1lc3NhZ2Ugc2VuZGAgZXhpdHMgbm9uLXplcm8uCj4gQW55IGNhbGxlciAoYWdlbnQsIHNjcmlwdCwgdXNlcikgdGhhdCByZXRyaWVzIG9uIHRoYXQgZXhpdCBjb2RlCj4gd2lsbCByZS1ydW4gdGhlIGVudGlyZSBzZW5kIOKAlCBpbmNsdWRpbmcgU01UUCDigJQgcHJvZHVjaW5nIGR1cGxpY2F0ZQo+IGVtYWlscyB0byByZWNpcGllbnRzLiBBbHdheXMgdXNlIGBmb2xkZXIuYWxpYXNlcy5YYCAocGx1cmFsLCBkb3R0ZWQKPiBrZXlzLCBkaXJlY3RseSB1bmRlciBgW2FjY291bnRzLk5BTUVdYCkuCgojIyBIZXJtZXMgSW50ZWdyYXRpb24gTm90ZXMKCi0gKipSZWFkaW5nLCBsaXN0aW5nLCBzZWFyY2hpbmcsIG1vdmluZywgZGVsZXRpbmcqKiBhbGwgd29yayBkaXJlY3RseSB0aHJvdWdoIHRoZSB0ZXJtaW5hbCB0b29sCi0gKipDb21wb3NpbmcvcmVwbHlpbmcvZm9yd2FyZGluZyoqIOKAlCBwaXBlZCBpbnB1dCAoYGNhdCA8PCBFT0YgfCBoaW1hbGF5YSB0ZW1wbGF0ZSBzZW5kYCkgaXMgcmVjb21tZW5kZWQgZm9yIHJlbGlhYmlsaXR5LiBJbnRlcmFjdGl2ZSBgJEVESVRPUmAgbW9kZSB3b3JrcyB3aXRoIGBwdHk9dHJ1ZWAgKyBiYWNrZ3JvdW5kICsgcHJvY2VzcyB0b29sLCBidXQgcmVxdWlyZXMga25vd2luZyB0aGUgZWRpdG9yIGFuZCBpdHMgY29tbWFuZHMKLSBVc2UgYC0tb3V0cHV0IGpzb25gIGZvciBzdHJ1Y3R1cmVkIG91dHB1dCB0aGF0J3MgZWFzaWVyIHRvIHBhcnNlIHByb2dyYW1tYXRpY2FsbHkKLSBUaGUgYGhpbWFsYXlhIGFjY291bnQgY29uZmlndXJlYCB3aXphcmQgcmVxdWlyZXMgaW50ZXJhY3RpdmUgaW5wdXQg4oCUIHVzZSBQVFkgbW9kZTogYHRlcm1pbmFsKGNvbW1hbmQ9ImhpbWFsYXlhIGFjY291bnQgY29uZmlndXJlIiwgcHR5PXRydWUpYAoKIyMgQ29tbW9uIE9wZXJhdGlvbnMKCiMjIyBMaXN0IEZvbGRlcnMKCmBgYGJhc2gKaGltYWxheWEgZm9sZGVyIGxpc3QKYGBgCgojIyMgTGlzdCBFbWFpbHMKCkxpc3QgZW1haWxzIGluIElOQk9YIChkZWZhdWx0KToKCmBgYGJhc2gKaGltYWxheWEgZW52ZWxvcGUgbGlzdApgYGAKCkxpc3QgZW1haWxzIGluIGEgc3BlY2lmaWMgZm9sZGVyOgoKYGBgYmFzaApoaW1hbGF5YSBlbnZlbG9wZSBsaXN0IC0tZm9sZGVyICJTZW50IgpgYGAKCkxpc3Qgd2l0aCBwYWdpbmF0aW9uOgoKYGBgYmFzaApoaW1hbGF5YSBlbnZlbG9wZSBsaXN0IC0tcGFnZSAxIC0tcGFnZS1zaXplIDIwCmBgYAoKIyMjIFNlYXJjaCBFbWFpbHMKCmBgYGJhc2gKaGltYWxheWEgZW52ZWxvcGUgbGlzdCBmcm9tIGpvaG5AZXhhbXBsZS5jb20gc3ViamVjdCBtZWV0aW5nCmBgYAoKIyMjIFJlYWQgYW4gRW1haWwKClJlYWQgZW1haWwgYnkgSUQgKHNob3dzIHBsYWluIHRleHQpOgoKYGBgYmFzaApoaW1hbGF5YSBtZXNzYWdlIHJlYWQgNDIKYGBgCgpFeHBvcnQgcmF3IE1JTUU6CgpgYGBiYXNoCmhpbWFsYXlhIG1lc3NhZ2UgZXhwb3J0IDQyIC0tZnVsbApgYGAKCiMjIyBSZXBseSB0byBhbiBFbWFpbAoKVG8gcmVwbHkgbm9uLWludGVyYWN0aXZlbHkgZnJvbSBIZXJtZXMsIHJlYWQgdGhlIG9yaWdpbmFsIG1lc3NhZ2UsIGNvbXBvc2UgYSByZXBseSwgYW5kIHBpcGUgaXQ6CgpgYGBiYXNoCiMgR2V0IHRoZSByZXBseSB0ZW1wbGF0ZSwgZWRpdCBpdCwgYW5kIHNlbmQKaGltYWxheWEgdGVtcGxhdGUgcmVwbHkgNDIgfCBzZWQgJ3MvXiQvXG5Zb3VyIHJlcGx5IHRleHQgaGVyZVxuLycgfCBoaW1hbGF5YSB0ZW1wbGF0ZSBzZW5kCmBgYAoKT3IgYnVpbGQgdGhlIHJlcGx5IG1hbnVhbGx5OgoKYGBgYmFzaApjYXQgPDwgJ0VPRicgfCBoaW1hbGF5YSB0ZW1wbGF0ZSBzZW5kCkZyb206IHlvdUBleGFtcGxlLmNvbQpUbzogc2VuZGVyQGV4YW1wbGUuY29tClN1YmplY3Q6IFJlOiBPcmlnaW5hbCBTdWJqZWN0CkluLVJlcGx5LVRvOiA8b3JpZ2luYWwtbWVzc2FnZS1pZD4KCllvdXIgcmVwbHkgaGVyZS4KRU9GCmBgYAoKUmVwbHktYWxsIChpbnRlcmFjdGl2ZSDigJQgbmVlZHMgJEVESVRPUiwgdXNlIHRlbXBsYXRlIGFwcHJvYWNoIGFib3ZlIGluc3RlYWQpOgoKYGBgYmFzaApoaW1hbGF5YSBtZXNzYWdlIHJlcGx5IDQyIC0tYWxsCmBgYAoKIyMjIEZvcndhcmQgYW4gRW1haWwKCmBgYGJhc2gKIyBHZXQgZm9yd2FyZCB0ZW1wbGF0ZSBhbmQgcGlwZSB3aXRoIG1vZGlmaWNhdGlvbnMKaGltYWxheWEgdGVtcGxhdGUgZm9yd2FyZCA0MiB8IHNlZCAncy9eVG86LiovVG86IG5ld3JlY2lwaWVudEBleGFtcGxlLmNvbS8nIHwgaGltYWxheWEgdGVtcGxhdGUgc2VuZApgYGAKCiMjIyBXcml0ZSBhIE5ldyBFbWFpbAoKKipOb24taW50ZXJhY3RpdmUgKHVzZSB0aGlzIGZyb20gSGVybWVzKSoqIOKAlCBwaXBlIHRoZSBtZXNzYWdlIHZpYSBzdGRpbjoKCmBgYGJhc2gKY2F0IDw8ICdFT0YnIHwgaGltYWxheWEgdGVtcGxhdGUgc2VuZApGcm9tOiB5b3VAZXhhbXBsZS5jb20KVG86IHJlY2lwaWVudEBleGFtcGxlLmNvbQpTdWJqZWN0OiBUZXN0IE1lc3NhZ2UKCkhlbGxvIGZyb20gSGltYWxheWEhCkVPRgpgYGAKCk9yIHdpdGggaGVhZGVycyBmbGFnOgoKYGBgYmFzaApoaW1hbGF5YSBtZXNzYWdlIHdyaXRlIC1IICJUbzpyZWNpcGllbnRAZXhhbXBsZS5jb20iIC1IICJTdWJqZWN0OlRlc3QiICJNZXNzYWdlIGJvZHkgaGVyZSIKYGBgCgpOb3RlOiBgaGltYWxheWEgbWVzc2FnZSB3cml0ZWAgd2l0aG91dCBwaXBlZCBpbnB1dCBvcGVucyBgJEVESVRPUmAuIFRoaXMgd29ya3Mgd2l0aCBgcHR5PXRydWVgICsgYmFja2dyb3VuZCBtb2RlLCBidXQgcGlwaW5nIGlzIHNpbXBsZXIgYW5kIG1vcmUgcmVsaWFibGUuCgojIyMgTW92ZS9Db3B5IEVtYWlscwoKTW92ZSB0byBmb2xkZXI6CgpgYGBiYXNoCmhpbWFsYXlhIG1lc3NhZ2UgbW92ZSA0MiAiQXJjaGl2ZSIKYGBgCgpDb3B5IHRvIGZvbGRlcjoKCmBgYGJhc2gKaGltYWxheWEgbWVzc2FnZSBjb3B5IDQyICJJbXBvcnRhbnQiCmBgYAoKIyMjIERlbGV0ZSBhbiBFbWFpbAoKYGBgYmFzaApoaW1hbGF5YSBtZXNzYWdlIGRlbGV0ZSA0MgpgYGAKCiMjIyBNYW5hZ2UgRmxhZ3MKCkFkZCBmbGFnOgoKYGBgYmFzaApoaW1hbGF5YSBmbGFnIGFkZCA0MiAtLWZsYWcgc2VlbgpgYGAKClJlbW92ZSBmbGFnOgoKYGBgYmFzaApoaW1hbGF5YSBmbGFnIHJlbW92ZSA0MiAtLWZsYWcgc2VlbgpgYGAKCiMjIE11bHRpcGxlIEFjY291bnRzCgpMaXN0IGFjY291bnRzOgoKYGBgYmFzaApoaW1hbGF5YSBhY2NvdW50IGxpc3QKYGBgCgpVc2UgYSBzcGVjaWZpYyBhY2NvdW50OgoKYGBgYmFzaApoaW1hbGF5YSAtLWFjY291bnQgd29yayBlbnZlbG9wZSBsaXN0CmBgYAoKIyMgQXR0YWNobWVudHMKClNhdmUgYXR0YWNobWVudHMgZnJvbSBhIG1lc3NhZ2U6CgpgYGBiYXNoCmhpbWFsYXlhIGF0dGFjaG1lbnQgZG93bmxvYWQgNDIKYGBgCgpTYXZlIHRvIHNwZWNpZmljIGRpcmVjdG9yeToKCmBgYGJhc2gKaGltYWxheWEgYXR0YWNobWVudCBkb3dubG9hZCA0MiAtLWRpciB+L0Rvd25sb2FkcwpgYGAKCiMjIE91dHB1dCBGb3JtYXRzCgpNb3N0IGNvbW1hbmRzIHN1cHBvcnQgYC0tb3V0cHV0YCBmb3Igc3RydWN0dXJlZCBvdXRwdXQ6CgpgYGBiYXNoCmhpbWFsYXlhIGVudmVsb3BlIGxpc3QgLS1vdXRwdXQganNvbgpoaW1hbGF5YSBlbnZlbG9wZSBsaXN0IC0tb3V0cHV0IHBsYWluCmBgYAoKIyMgRGVidWdnaW5nCgpFbmFibGUgZGVidWcgbG9nZ2luZzoKCmBgYGJhc2gKUlVTVF9MT0c9ZGVidWcgaGltYWxheWEgZW52ZWxvcGUgbGlzdApgYGAKCkZ1bGwgdHJhY2Ugd2l0aCBiYWNrdHJhY2U6CgpgYGBiYXNoClJVU1RfTE9HPXRyYWNlIFJVU1RfQkFDS1RSQUNFPTEgaGltYWxheWEgZW52ZWxvcGUgbGlzdApgYGAKCiMjIFRpcHMKCi0gVXNlIGBoaW1hbGF5YSAtLWhlbHBgIG9yIGBoaW1hbGF5YSA8Y29tbWFuZD4gLS1oZWxwYCBmb3IgZGV0YWlsZWQgdXNhZ2UuCi0gTWVzc2FnZSBJRHMgYXJlIHJlbGF0aXZlIHRvIHRoZSBjdXJyZW50IGZvbGRlcjsgcmUtbGlzdCBhZnRlciBmb2xkZXIgY2hhbmdlcy4KLSBGb3IgY29tcG9zaW5nIHJpY2ggZW1haWxzIHdpdGggYXR0YWNobWVudHMsIHVzZSBNTUwgc3ludGF4IChzZWUgYHJlZmVyZW5jZXMvbWVzc2FnZS1jb21wb3NpdGlvbi5tZGApLgotIFN0b3JlIHBhc3N3b3JkcyBzZWN1cmVseSB1c2luZyBgcGFzc2AsIHN5c3RlbSBrZXlyaW5nLCBvciBhIGNvbW1hbmQgdGhhdCBvdXRwdXRzIHRoZSBwYXNzd29yZC4K
+---
+name: himalaya
+description: "Himalaya CLI: IMAP/SMTP email from terminal."
+version: 1.1.0
+author: community
+license: MIT
+platforms: [linux, macos, windows]
+metadata:
+  hermes:
+    tags: [Email, IMAP, SMTP, CLI, Communication]
+    homepage: https://github.com/pimalaya/himalaya
+prerequisites:
+  commands: [himalaya]
+---
+
+# Himalaya Email CLI
+
+Himalaya is a CLI email client that lets you manage emails from the terminal using IMAP, SMTP, Notmuch, or Sendmail backends.
+
+This skill is separate from the Hermes Email gateway adapter. The gateway
+adapter lets people email the agent and uses Hermes' built-in IMAP/SMTP
+adapter; this skill lets the agent operate a mailbox from terminal tools and
+requires the external `himalaya` CLI.
+
+## References
+
+- `references/configuration.md` (config file setup + IMAP/SMTP authentication)
+- `references/message-composition.md` (MML syntax for composing emails)
+
+## Prerequisites
+
+1. Himalaya CLI installed (`himalaya --version` to verify)
+2. A configuration file at `~/.config/himalaya/config.toml`
+3. IMAP/SMTP credentials configured (password stored securely)
+
+### Installation
+
+```bash
+# Pre-built binary (Linux/macOS — recommended)
+curl -sSL https://raw.githubusercontent.com/pimalaya/himalaya/master/install.sh | PREFIX=~/.local sh
+
+# macOS via Homebrew
+brew install himalaya
+
+# Or via cargo (any platform with Rust)
+cargo install himalaya --locked
+```
+
+## Configuration Setup
+
+Run the interactive wizard to set up an account:
+
+```bash
+himalaya account configure
+```
+
+Or create `~/.config/himalaya/config.toml` manually:
+
+```toml
+[accounts.personal]
+email = "you@example.com"
+display-name = "Your Name"
+default = true
+
+backend.type = "imap"
+backend.host = "imap.example.com"
+backend.port = 993
+backend.encryption.type = "tls"
+backend.login = "you@example.com"
+backend.auth.type = "password"
+backend.auth.cmd = "pass show email/imap"  # or use keyring
+
+message.send.backend.type = "smtp"
+message.send.backend.host = "smtp.example.com"
+message.send.backend.port = 587
+message.send.backend.encryption.type = "start-tls"
+message.send.backend.login = "you@example.com"
+message.send.backend.auth.type = "password"
+message.send.backend.auth.cmd = "pass show email/smtp"
+
+# Folder aliases (himalaya v1.2.0+ syntax). Required whenever the
+# server's folder names don't match himalaya's canonical names
+# (inbox/sent/drafts/trash). Gmail is the common case — see
+# `references/configuration.md` for the `[Gmail]/Sent Mail` mapping.
+folder.aliases.inbox = "INBOX"
+folder.aliases.sent = "Sent"
+folder.aliases.drafts = "Drafts"
+folder.aliases.trash = "Trash"
+```
+
+> **Heads up on the alias syntax.** Pre-v1.2.0 docs used a
+> `[accounts.NAME.folder.alias]` sub-section (singular `alias`).
+> v1.2.0 silently ignores that form — TOML parses fine, but the
+> alias resolver never reads it, so every lookup falls through to
+> the canonical name. On Gmail this means save-to-Sent fails *after*
+> SMTP delivery succeeds, and `himalaya message send` exits non-zero.
+> Any caller (agent, script, user) that retries on that exit code
+> will re-run the entire send — including SMTP — producing duplicate
+> emails to recipients. Always use `folder.aliases.X` (plural, dotted
+> keys, directly under `[accounts.NAME]`).
+
+## Hermes Integration Notes
+
+- **Reading, listing, searching, moving, deleting** all work directly through the terminal tool
+- **Composing/replying/forwarding** — piped input (`cat << EOF | himalaya template send`) is recommended for reliability. Interactive `$EDITOR` mode works with `pty=true` + background + process tool, but requires knowing the editor and its commands
+- Use `--output json` for structured output that's easier to parse programmatically
+- The `himalaya account configure` wizard requires interactive input — use PTY mode: `terminal(command="himalaya account configure", pty=true)`
+
+## Common Operations
+
+### List Folders
+
+```bash
+himalaya folder list
+```
+
+### List Emails
+
+List emails in INBOX (default):
+
+```bash
+himalaya envelope list
+```
+
+List emails in a specific folder:
+
+```bash
+himalaya envelope list --folder "Sent"
+```
+
+List with pagination:
+
+```bash
+himalaya envelope list --page 1 --page-size 20
+```
+
+### Search Emails
+
+```bash
+himalaya envelope list from john@example.com subject meeting
+```
+
+### Read an Email
+
+Read email by ID (shows plain text):
+
+```bash
+himalaya message read 42
+```
+
+Export raw MIME:
+
+```bash
+himalaya message export 42 --full
+```
+
+### Reply to an Email
+
+To reply non-interactively from Hermes, read the original message, compose a reply, and pipe it:
+
+```bash
+# Get the reply template, edit it, and send
+himalaya template reply 42 | sed 's/^$/\nYour reply text here\n/' | himalaya template send
+```
+
+Or build the reply manually:
+
+```bash
+cat << 'EOF' | himalaya template send
+From: you@example.com
+To: sender@example.com
+Subject: Re: Original Subject
+In-Reply-To: <original-message-id>
+
+Your reply here.
+EOF
+```
+
+Reply-all (interactive — needs $EDITOR, use template approach above instead):
+
+```bash
+himalaya message reply 42 --all
+```
+
+### Forward an Email
+
+```bash
+# Get forward template and pipe with modifications
+himalaya template forward 42 | sed 's/^To:.*/To: newrecipient@example.com/' | himalaya template send
+```
+
+### Write a New Email
+
+**Non-interactive (use this from Hermes)** — pipe the message via stdin:
+
+```bash
+cat << 'EOF' | himalaya template send
+From: you@example.com
+To: recipient@example.com
+Subject: Test Message
+
+Hello from Himalaya!
+EOF
+```
+
+Or with headers flag:
+
+```bash
+himalaya message write -H "To:recipient@example.com" -H "Subject:Test" "Message body here"
+```
+
+Note: `himalaya message write` without piped input opens `$EDITOR`. This works with `pty=true` + background mode, but piping is simpler and more reliable.
+
+### Move/Copy Emails
+
+Move to folder:
+
+```bash
+himalaya message move 42 "Archive"
+```
+
+Copy to folder:
+
+```bash
+himalaya message copy 42 "Important"
+```
+
+### Delete an Email
+
+```bash
+himalaya message delete 42
+```
+
+### Manage Flags
+
+Add flag:
+
+```bash
+himalaya flag add 42 --flag seen
+```
+
+Remove flag:
+
+```bash
+himalaya flag remove 42 --flag seen
+```
+
+## Multiple Accounts
+
+List accounts:
+
+```bash
+himalaya account list
+```
+
+Use a specific account:
+
+```bash
+himalaya --account work envelope list
+```
+
+## Attachments
+
+Save attachments from a message:
+
+```bash
+himalaya attachment download 42
+```
+
+Save to specific directory:
+
+```bash
+himalaya attachment download 42 --dir ~/Downloads
+```
+
+## Output Formats
+
+Most commands support `--output` for structured output:
+
+```bash
+himalaya envelope list --output json
+himalaya envelope list --output plain
+```
+
+## Debugging
+
+Enable debug logging:
+
+```bash
+RUST_LOG=debug himalaya envelope list
+```
+
+Full trace with backtrace:
+
+```bash
+RUST_LOG=trace RUST_BACKTRACE=1 himalaya envelope list
+```
+
+## Tips
+
+- Use `himalaya --help` or `himalaya <command> --help` for detailed usage.
+- Message IDs are relative to the current folder; re-list after folder changes.
+- For composing rich emails with attachments, use MML syntax (see `references/message-composition.md`).
+- Store passwords securely using `pass`, system keyring, or a command that outputs the password.

@@ -1,1 +1,183 @@
-IyBQb3N0LUZYIFJlZmVyZW5jZQoKQmxvb20sIENSVCBzY2FubGluZXMsIGNocm9tYXRpYyBhYmVycmF0aW9uLCBhbmQgZmVlZGJhY2sgZ2xvdyBwYXR0ZXJucyBmb3IgbGl2ZSB2aXN1YWwgd29yay4KCi0tLQoKIyMgQmxvb20KCiMjIyBCdWlsdC1pbiBCbG9vbSBUT1AKClREJ3MgYGJsb29tVE9QYCBpcyB0aGUgZmFzdGVzdCBwYXRoIOKAlCBHUFUtYWNjZWxlcmF0ZWQsIG5vIHNoYWRlciBuZWVkZWQuCgpgYGBweXRob24KYmxvb20gPSByb290LmNyZWF0ZShibG9vbVRPUCwgJ2Jsb29tMScpCmJsb29tLnBhci50aHJlc2hvbGQgPSAwLjYgICAgICMgTHVtaW5hbmNlIHRocmVzaG9sZCAoMC0xKQpibG9vbS5wYXIuc2l6ZSA9IDAuMDMgICAgICAgICAjIFNwcmVhZCByYWRpdXMgKDAtMSkKYmxvb20ucGFyLnN0cmVuZ3RoID0gMS41ICAgICAgIyBCbG9vbSBpbnRlbnNpdHkKYmxvb20ucGFyLmJsZW5kbW9kZSA9ICdhZGQnICAgIyAnYWRkJyBvciAnc2NyZWVuJwpgYGAKCioqQXVkaW8gcmVhY3RpdmUgYmxvb206KioKYGBgcHl0aG9uCmJsb29tLnBhci5zdHJlbmd0aC5tb2RlID0gUGFyTW9kZS5FWFBSRVNTSU9OCmJsb29tLnBhci5zdHJlbmd0aC5leHByID0gIm9wKCdhdWRpb19lbnYnKVsnZW52ZWxvcGUnXVswXSAqIDMuMCArIDAuNSIKYGBgCgojIyMgR0xTTCBCbG9vbSAoTW9yZSBDb250cm9sKQoKRm9yIG11bHRpLXBhc3MgYmxvb20gd2l0aCBjb2xvciB0aW50aW5nOgoKYGBgZ2xzbAovLyBibG9vbV9waXhlbC5nbHNsIOKAlCBwYXNzMTogdGhyZXNob2xkICsgdGludApvdXQgdmVjNCBmcmFnQ29sb3I7CnVuaWZvcm0gZmxvYXQgdVRocmVzaG9sZDsKdW5pZm9ybSB2ZWMzIHVCbG9vbUNvbG9yOwoKdm9pZCBtYWluKCkgewogICAgdmVjNCBjb2wgPSB0ZXh0dXJlKHNURDJESW5wdXRzWzBdLCB2VVYuc3QpOwogICAgZmxvYXQgbHVtYSA9IGRvdChjb2wucmdiLCB2ZWMzKDAuMjk5LCAwLjU4NywgMC4xMTQpKTsKICAgIGZsb2F0IGJsb29tID0gbWF4KDAuMCwgbHVtYSAtIHVUaHJlc2hvbGQpOwogICAgZnJhZ0NvbG9yID0gVERPdXRwdXRTd2l6emxlKHZlYzQoY29sLnJnYiAqIGJsb29tICogdUJsb29tQ29sb3IsIGNvbC5hKSk7Cn0KYGBgCgpUaGVuIGJsdXIgd2l0aCBgYmx1clRPUGAgKHNpemUgfjAuMDItMC4wNSksIGNvbXBvc2l0ZSBiYWNrIG92ZXIgc291cmNlIHdpdGggYGFkZFRPUGAgb3IgYGNvbXBvc2l0ZVRPUGAgaW4gQWRkIG1vZGUuCgotLS0KCiMjIENSVCAvIFNjYW5saW5lcwoKUHVyZSBHTFNMIOKAlCBjcmVhdGUgYSBgZ2xzbFRPUGAgYW5kIHBhc3RlIGludG8gaXRzIGBfcGl4ZWxgIERBVC4KCmBgYGdsc2wKLy8gY3J0X3BpeGVsLmdsc2wKb3V0IHZlYzQgZnJhZ0NvbG9yOwp1bmlmb3JtIGZsb2F0IHVUaW1lOwp1bmlmb3JtIGZsb2F0IHVTY2FubGluZUludGVuc2l0eTsgIC8vIDAuMCAtIDEuMCwgZGVmYXVsdCAwLjQKdW5pZm9ybSBmbG9hdCB1Q3VydmF0dXJlOyAgICAgICAgICAvLyAwLjAgLSAwLjE1LCBkZWZhdWx0IDAuMDUKdW5pZm9ybSBmbG9hdCB1VmlnbmV0dGU7ICAgICAgICAgICAvLyAwLjAgLSAxLjAsIGRlZmF1bHQgMC44Cgp2ZWMyIGN1cnZlVVYodmVjMiB1diwgZmxvYXQgYW1vdW50KSB7CiAgICB1diA9IHV2ICogMi4wIC0gMS4wOwogICAgdmVjMiBvZmZzZXQgPSBhYnModXYueXgpIC8gdmVjMig2LjAsIDQuMCk7CiAgICB1diA9IHV2ICsgdXYgKiBvZmZzZXQgKiBvZmZzZXQgKiBhbW91bnQ7CiAgICByZXR1cm4gdXYgKiAwLjUgKyAwLjU7Cn0KCnZvaWQgbWFpbigpIHsKICAgIHZlYzIgcmVzID0gdVRET3V0cHV0SW5mby5yZXMuenc7CiAgICB2ZWMyIHV2ID0gdlVWLnN0OwoKICAgIC8vIENSVCBiYXJyZWwgZGlzdG9ydGlvbgogICAgdXYgPSBjdXJ2ZVVWKHV2LCB1Q3VydmF0dXJlICogMTAuMCk7CgogICAgLy8gS2lsbCBwaXhlbHMgb3V0c2lkZSBjdXJ2ZWQgc2NyZWVuCiAgICBpZiAodXYueCA8IDAuMCB8fCB1di54ID4gMS4wIHx8IHV2LnkgPCAwLjAgfHwgdXYueSA+IDEuMCkgewogICAgICAgIGZyYWdDb2xvciA9IHZlYzQoMC4wLCAwLjAsIDAuMCwgMS4wKTsKICAgICAgICByZXR1cm47CiAgICB9CgogICAgdmVjNCBjb2wgPSB0ZXh0dXJlKHNURDJESW5wdXRzWzBdLCB1dik7CgogICAgLy8gU2NhbmxpbmVzCiAgICBmbG9hdCBzY2FubGluZSA9IHNpbih1di55ICogcmVzLnkgKiAzLjE0MTU5KSAqIDAuNSArIDAuNTsKICAgIGNvbC5yZ2IgKj0gbWl4KDEuMCwgc2NhbmxpbmUsIHVTY2FubGluZUludGVuc2l0eSk7CgogICAgLy8gSG9yaXpvbnRhbCBub2lzZSBmbGlja2VyCiAgICBmbG9hdCBmbGlja2VyID0gVERTaW1wbGV4Tm9pc2UodmVjMih1di55ICogMTAwLjAsIHVUaW1lICogOC4wKSkgKiAwLjAzOwogICAgY29sLnJnYiArPSBmbGlja2VyOwoKICAgIC8vIFZpZ25ldHRlCiAgICB2ZWMyIHZpZyA9IHV2ICogKDEuMCAtIHV2Lnl4KTsKICAgIGZsb2F0IHYgPSBwb3codmlnLnggKiB2aWcueSAqIDE1LjAsIHVWaWduZXR0ZSk7CiAgICBjb2wucmdiICo9IHY7CgogICAgZnJhZ0NvbG9yID0gVERPdXRwdXRTd2l6emxlKGNvbCk7Cn0KYGBgCgotLS0KCiMjIENocm9tYXRpYyBBYmVycmF0aW9uCgpTcGxpdHMgUkdCIGNoYW5uZWxzIGFuZCBvZmZzZXRzIHRoZW0gYWxvbmcgc2NyZWVuIGF4ZXMuCgpgYGBnbHNsCm91dCB2ZWM0IGZyYWdDb2xvcjsKdW5pZm9ybSBmbG9hdCB1QW1vdW50OyAgIC8vIDAuMDAxIC0gMC4wMiwgZGVmYXVsdCAwLjAwNgoKdm9pZCBtYWluKCkgewogICAgdmVjMiB1diA9IHZVVi5zdDsKICAgIHZlYzIgZGlyID0gdXYgLSAwLjU7CgogICAgZmxvYXQgciA9IHRleHR1cmUoc1REMkRJbnB1dHNbMF0sIHV2ICsgZGlyICogdUFtb3VudCkucjsKICAgIGZsb2F0IGcgPSB0ZXh0dXJlKHNURDJESW5wdXRzWzBdLCB1dikuZzsKICAgIGZsb2F0IGIgPSB0ZXh0dXJlKHNURDJESW5wdXRzWzBdLCB1diAtIGRpciAqIHVBbW91bnQpLmI7CiAgICBmbG9hdCBhID0gdGV4dHVyZShzVEQyRElucHV0c1swXSwgdXYpLmE7CgogICAgZnJhZ0NvbG9yID0gVERPdXRwdXRTd2l6emxlKHZlYzQociwgZywgYiwgYSkpOwp9CmBgYAoKKipBdWRpby1yZWFjdGl2ZSB2YXJpYW50Kiog4oCUIHNwaWtlIGFiZXJyYXRpb24gb24gYmVhdHM6CmBgYGdsc2wKdW5pZm9ybSBmbG9hdCB1QmVhdDsKdm9pZCBtYWluKCkgewogICAgdmVjMiB1diA9IHZVVi5zdDsKICAgIHZlYzIgZGlyID0gdXYgLSAwLjU7CiAgICBmbG9hdCBhbW91bnQgPSB1QW1vdW50ICsgdUJlYXQgKiAwLjA0OwogICAgZmxvYXQgciA9IHRleHR1cmUoc1REMkRJbnB1dHNbMF0sIHV2ICsgZGlyICogYW1vdW50ICogMS4yKS5yOwogICAgZmxvYXQgZyA9IHRleHR1cmUoc1REMkRJbnB1dHNbMF0sIHV2KS5nOwogICAgZmxvYXQgYiA9IHRleHR1cmUoc1REMkRJbnB1dHNbMF0sIHV2IC0gZGlyICogYW1vdW50ICogMC44KS5iOwogICAgZnJhZ0NvbG9yID0gVERPdXRwdXRTd2l6emxlKHZlYzQociwgZywgYiwgMS4wKSk7Cn0KYGBgCgotLS0KCiMjIEZlZWRiYWNrIEdsb3cKCldhcm0gcGVyc2lzdGVudCB0cmFpbHMgZm9yIGdsb3cgZWZmZWN0cy4KCmBgYGdsc2wKb3V0IHZlYzQgZnJhZ0NvbG9yOwp1bmlmb3JtIGZsb2F0IHVEZWNheTsgICAgIC8vIDAuOTIgLSAwLjk4IGZvciBzbG93IHRyYWlscwp1bmlmb3JtIHZlYzMgdUdsb3dDb2xvcjsgIC8vIHRpbnQgYWNjdW11bGF0ZWQgZmVlZGJhY2sKCnZvaWQgbWFpbigpIHsKICAgIHZlYzIgdXYgPSB2VVYuc3Q7CiAgICB2ZWM0IHByZXYgPSB0ZXh0dXJlKHNURDJESW5wdXRzWzBdLCB1dik7ICAvLyBmZWVkYmFjayBpbnB1dAogICAgdmVjNCBjdXJyID0gdGV4dHVyZShzVEQyRElucHV0c1sxXSwgdXYpOyAgLy8gY3VycmVudCBmcmFtZQoKICAgIHZlYzMgZ2xvdyA9IHByZXYucmdiICogdURlY2F5ICogdUdsb3dDb2xvcjsKICAgIHZlYzMgcmVzdWx0ID0gbWF4KGdsb3csIGN1cnIucmdiKTsKCiAgICBmcmFnQ29sb3IgPSBURE91dHB1dFN3aXp6bGUodmVjNChyZXN1bHQsIDEuMCkpOwp9CmBgYAoKKipUaXBzOioqCi0gYHVEZWNheSA9IDAuOTVgIOKGkiBtZWRpdW0gdHJhaWwKLSBgdURlY2F5ID0gMC45OGAg4oaSIGxvbmcgY29tZXQgdGFpbAotIFNldCBgZ2xzbFRPUGAgZm9ybWF0IHRvIGByZ2JhMTZmbG9hdGAgZm9yIHNtb290aCBncmFkaWVudHMKCi0tLQoKIyMgRnVsbCBQb3N0LUZYIFN0YWNrCgpSZWNvbW1lbmRlZCBvcmRlcjoKCmBgYApbc2NlbmUgLyBjb21wb3NpdGVdCiAgICAgICAg4oaTCiAgIGJsb29tVE9QICAgICAgICAgIOKGkCBsdW1pbmFuY2UgdGhyZXNob2xkIGJsb29tCiAgICAgICAg4oaTCiAgIGdsc2xUT1AgKGNocm9tKSAgIOKGkCBjaHJvbWF0aWMgYWJlcnJhdGlvbgogICAgICAgIOKGkwogICBnbHNsVE9QIChjcnQpICAgICDihpAgc2NhbmxpbmVzICsgYmFycmVsIGRpc3RvcnRpb24gKyB2aWduZXR0ZQogICAgICAgIOKGkwogICBudWxsX291dCAgICAgICAgICDihpAgZmluYWwgb3V0cHV0CmBgYAoKKipQZXJmb3JtYW5jZSBub3RlOioqIEVhY2ggZ2xzbFRPUCBpcyBhIGZ1bGwgR1BVIHBhc3MuIEZvciAxOTIww5cxMDgwIGF0IDYwZnBzIHRoaXMgc3RhY2sgaXMgY29tZm9ydGFibHkgcmVhbC10aW1lLiBGb3IgNEssIGNvbnNpZGVyIGRvd25zYW1wbGluZyBibG9vbSBpbnB1dCB3aXRoIGByZXNvbHV0aW9uVE9QYCBmaXJzdC4K
+# Post-FX Reference
+
+Bloom, CRT scanlines, chromatic aberration, and feedback glow patterns for live visual work.
+
+---
+
+## Bloom
+
+### Built-in Bloom TOP
+
+TD's `bloomTOP` is the fastest path — GPU-accelerated, no shader needed.
+
+```python
+bloom = root.create(bloomTOP, 'bloom1')
+bloom.par.threshold = 0.6     # Luminance threshold (0-1)
+bloom.par.size = 0.03         # Spread radius (0-1)
+bloom.par.strength = 1.5      # Bloom intensity
+bloom.par.blendmode = 'add'   # 'add' or 'screen'
+```
+
+**Audio reactive bloom:**
+```python
+bloom.par.strength.mode = ParMode.EXPRESSION
+bloom.par.strength.expr = "op('audio_env')['envelope'][0] * 3.0 + 0.5"
+```
+
+### GLSL Bloom (More Control)
+
+For multi-pass bloom with color tinting:
+
+```glsl
+// bloom_pixel.glsl — pass1: threshold + tint
+out vec4 fragColor;
+uniform float uThreshold;
+uniform vec3 uBloomColor;
+
+void main() {
+    vec4 col = texture(sTD2DInputs[0], vUV.st);
+    float luma = dot(col.rgb, vec3(0.299, 0.587, 0.114));
+    float bloom = max(0.0, luma - uThreshold);
+    fragColor = TDOutputSwizzle(vec4(col.rgb * bloom * uBloomColor, col.a));
+}
+```
+
+Then blur with `blurTOP` (size ~0.02-0.05), composite back over source with `addTOP` or `compositeTOP` in Add mode.
+
+---
+
+## CRT / Scanlines
+
+Pure GLSL — create a `glslTOP` and paste into its `_pixel` DAT.
+
+```glsl
+// crt_pixel.glsl
+out vec4 fragColor;
+uniform float uTime;
+uniform float uScanlineIntensity;  // 0.0 - 1.0, default 0.4
+uniform float uCurvature;          // 0.0 - 0.15, default 0.05
+uniform float uVignette;           // 0.0 - 1.0, default 0.8
+
+vec2 curveUV(vec2 uv, float amount) {
+    uv = uv * 2.0 - 1.0;
+    vec2 offset = abs(uv.yx) / vec2(6.0, 4.0);
+    uv = uv + uv * offset * offset * amount;
+    return uv * 0.5 + 0.5;
+}
+
+void main() {
+    vec2 res = uTDOutputInfo.res.zw;
+    vec2 uv = vUV.st;
+
+    // CRT barrel distortion
+    uv = curveUV(uv, uCurvature * 10.0);
+
+    // Kill pixels outside curved screen
+    if (uv.x < 0.0 || uv.x > 1.0 || uv.y < 0.0 || uv.y > 1.0) {
+        fragColor = vec4(0.0, 0.0, 0.0, 1.0);
+        return;
+    }
+
+    vec4 col = texture(sTD2DInputs[0], uv);
+
+    // Scanlines
+    float scanline = sin(uv.y * res.y * 3.14159) * 0.5 + 0.5;
+    col.rgb *= mix(1.0, scanline, uScanlineIntensity);
+
+    // Horizontal noise flicker
+    float flicker = TDSimplexNoise(vec2(uv.y * 100.0, uTime * 8.0)) * 0.03;
+    col.rgb += flicker;
+
+    // Vignette
+    vec2 vig = uv * (1.0 - uv.yx);
+    float v = pow(vig.x * vig.y * 15.0, uVignette);
+    col.rgb *= v;
+
+    fragColor = TDOutputSwizzle(col);
+}
+```
+
+---
+
+## Chromatic Aberration
+
+Splits RGB channels and offsets them along screen axes.
+
+```glsl
+out vec4 fragColor;
+uniform float uAmount;   // 0.001 - 0.02, default 0.006
+
+void main() {
+    vec2 uv = vUV.st;
+    vec2 dir = uv - 0.5;
+
+    float r = texture(sTD2DInputs[0], uv + dir * uAmount).r;
+    float g = texture(sTD2DInputs[0], uv).g;
+    float b = texture(sTD2DInputs[0], uv - dir * uAmount).b;
+    float a = texture(sTD2DInputs[0], uv).a;
+
+    fragColor = TDOutputSwizzle(vec4(r, g, b, a));
+}
+```
+
+**Audio-reactive variant** — spike aberration on beats:
+```glsl
+uniform float uBeat;
+void main() {
+    vec2 uv = vUV.st;
+    vec2 dir = uv - 0.5;
+    float amount = uAmount + uBeat * 0.04;
+    float r = texture(sTD2DInputs[0], uv + dir * amount * 1.2).r;
+    float g = texture(sTD2DInputs[0], uv).g;
+    float b = texture(sTD2DInputs[0], uv - dir * amount * 0.8).b;
+    fragColor = TDOutputSwizzle(vec4(r, g, b, 1.0));
+}
+```
+
+---
+
+## Feedback Glow
+
+Warm persistent trails for glow effects.
+
+```glsl
+out vec4 fragColor;
+uniform float uDecay;     // 0.92 - 0.98 for slow trails
+uniform vec3 uGlowColor;  // tint accumulated feedback
+
+void main() {
+    vec2 uv = vUV.st;
+    vec4 prev = texture(sTD2DInputs[0], uv);  // feedback input
+    vec4 curr = texture(sTD2DInputs[1], uv);  // current frame
+
+    vec3 glow = prev.rgb * uDecay * uGlowColor;
+    vec3 result = max(glow, curr.rgb);
+
+    fragColor = TDOutputSwizzle(vec4(result, 1.0));
+}
+```
+
+**Tips:**
+- `uDecay = 0.95` → medium trail
+- `uDecay = 0.98` → long comet tail
+- Set `glslTOP` format to `rgba16float` for smooth gradients
+
+---
+
+## Full Post-FX Stack
+
+Recommended order:
+
+```
+[scene / composite]
+        ↓
+   bloomTOP          ← luminance threshold bloom
+        ↓
+   glslTOP (chrom)   ← chromatic aberration
+        ↓
+   glslTOP (crt)     ← scanlines + barrel distortion + vignette
+        ↓
+   null_out          ← final output
+```
+
+**Performance note:** Each glslTOP is a full GPU pass. For 1920×1080 at 60fps this stack is comfortably real-time. For 4K, consider downsampling bloom input with `resolutionTOP` first.

@@ -1,1 +1,41 @@
-IyBqaWdzYXcKCkludGVybG9ja2luZyBwdXp6bGUgcGllY2VzIHNob3dpbmcgaG93IHBhcnRzIGZpdCB0b2dldGhlci4KCiMjIFN0cnVjdHVyZQoKLSBQdXp6bGUgcGllY2VzIHRoYXQgaW50ZXJsb2NrCi0gRWFjaCBwaWVjZSByZXByZXNlbnRzIGEgY29tcG9uZW50Ci0gQ29ubmVjdGlvbnMgc2hvdyByZWxhdGlvbnNoaXBzCi0gQ2FuIGJlIGFzc2VtYmxlZCBvciBleHBsb2RlZCB2aWV3Ci0gTWlzc2luZyBwaWVjZSBoaWdobGlnaHRzIGdhcHMKCiMjIEJlc3QgRm9yCgotIENvbXBvbmVudCByZWxhdGlvbnNoaXBzCi0gVGVhbS9za2lsbCBmaXQKLSBTdHJhdGVneSBwaWVjZXMKLSBJbnRlZ3JhdGlvbiBjb25jZXB0cwotIENvbXBsZXRlbmVzcyBhc3Nlc3NtZW50cwoKIyMgVmlzdWFsIEVsZW1lbnRzCgotIENsYXNzaWMgcHV6emxlIHBpZWNlIHNoYXBlcwotIERpc3RpbmN0IGNvbG9ycyBwZXIgcGllY2UKLSBJbnRlcmxvY2tpbmcgZWRnZXMgdmlzaWJsZQotIEljb25zIG9yIGxhYmVscyBwZXIgcGllY2UKLSBPcHRpb25hbCBtaXNzaW5nIHBpZWNlCgojIyBUZXh0IFBsYWNlbWVudAoKLSBUaXRsZSBhdCB0b3AKLSBQaWVjZSBsYWJlbHMgaW5zaWRlIG9yIGJlc2lkZQotIENvbm5lY3Rpb24gZGVzY3JpcHRpb25zCi0gTWlzc2luZyBwaWVjZSBleHBsYW5hdGlvbgotIEFzc2VtYmx5IGNvbnRleHQKCiMjIFJlY29tbWVuZGVkIFBhaXJpbmdzCgotIGBjYXJ0b29uLWhhbmQtZHJhd25gOiBGcmllbmRseSBpbnRlZ3JhdGlvbiBjb25jZXB0cwotIGBwYXBlci1jdXRvdXRgOiBUYWN0aWxlIHB1enpsZSBmZWVsCi0gYGNvcnBvcmF0ZS1tZW1waGlzYDogQnVzaW5lc3Mgc3RyYXRlZ3kgcGllY2VzCg==
+# jigsaw
+
+Interlocking puzzle pieces showing how parts fit together.
+
+## Structure
+
+- Puzzle pieces that interlock
+- Each piece represents a component
+- Connections show relationships
+- Can be assembled or exploded view
+- Missing piece highlights gaps
+
+## Best For
+
+- Component relationships
+- Team/skill fit
+- Strategy pieces
+- Integration concepts
+- Completeness assessments
+
+## Visual Elements
+
+- Classic puzzle piece shapes
+- Distinct colors per piece
+- Interlocking edges visible
+- Icons or labels per piece
+- Optional missing piece
+
+## Text Placement
+
+- Title at top
+- Piece labels inside or beside
+- Connection descriptions
+- Missing piece explanation
+- Assembly context
+
+## Recommended Pairings
+
+- `cartoon-hand-drawn`: Friendly integration concepts
+- `paper-cutout`: Tactile puzzle feel
+- `corporate-memphis`: Business strategy pieces

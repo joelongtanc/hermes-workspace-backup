@@ -1,1 +1,116 @@
-LS0tCm5hbWU6IGNvZGViYXNlLWluc3BlY3Rpb24KZGVzY3JpcHRpb246ICJJbnNwZWN0IGNvZGViYXNlcyB3LyBweWdvdW50OiBMT0MsIGxhbmd1YWdlcywgcmF0aW9zLiIKdmVyc2lvbjogMS4wLjAKYXV0aG9yOiBIZXJtZXMgQWdlbnQKbGljZW5zZTogTUlUCnBsYXRmb3JtczogW2xpbnV4LCBtYWNvcywgd2luZG93c10KbWV0YWRhdGE6CiAgaGVybWVzOgogICAgdGFnczogW0xPQywgQ29kZSBBbmFseXNpcywgcHlnb3VudCwgQ29kZWJhc2UsIE1ldHJpY3MsIFJlcG9zaXRvcnldCiAgICByZWxhdGVkX3NraWxsczogW2dpdGh1Yi1yZXBvLW1hbmFnZW1lbnRdCnByZXJlcXVpc2l0ZXM6CiAgY29tbWFuZHM6IFtweWdvdW50XQotLS0KCiMgQ29kZWJhc2UgSW5zcGVjdGlvbiB3aXRoIHB5Z291bnQKCkFuYWx5emUgcmVwb3NpdG9yaWVzIGZvciBsaW5lcyBvZiBjb2RlLCBsYW5ndWFnZSBicmVha2Rvd24sIGZpbGUgY291bnRzLCBhbmQgY29kZS12cy1jb21tZW50IHJhdGlvcyB1c2luZyBgcHlnb3VudGAuCgojIyBXaGVuIHRvIFVzZQoKLSBVc2VyIGFza3MgZm9yIExPQyAobGluZXMgb2YgY29kZSkgY291bnQKLSBVc2VyIHdhbnRzIGEgbGFuZ3VhZ2UgYnJlYWtkb3duIG9mIGEgcmVwbwotIFVzZXIgYXNrcyBhYm91dCBjb2RlYmFzZSBzaXplIG9yIGNvbXBvc2l0aW9uCi0gVXNlciB3YW50cyBjb2RlLXZzLWNvbW1lbnQgcmF0aW9zCi0gR2VuZXJhbCAiaG93IGJpZyBpcyB0aGlzIHJlcG8iIHF1ZXN0aW9ucwoKIyMgUHJlcmVxdWlzaXRlcwoKYGBgYmFzaApwaXAgaW5zdGFsbCAtLWJyZWFrLXN5c3RlbS1wYWNrYWdlcyBweWdvdW50IDI+L2Rldi9udWxsIHx8IHBpcCBpbnN0YWxsIHB5Z291bnQKYGBgCgojIyAxLiBCYXNpYyBTdW1tYXJ5IChNb3N0IENvbW1vbikKCkdldCBhIGZ1bGwgbGFuZ3VhZ2UgYnJlYWtkb3duIHdpdGggZmlsZSBjb3VudHMsIGNvZGUgbGluZXMsIGFuZCBjb21tZW50IGxpbmVzOgoKYGBgYmFzaApjZCAvcGF0aC90by9yZXBvCnB5Z291bnQgLS1mb3JtYXQ9c3VtbWFyeSBcCiAgLS1mb2xkZXJzLXRvLXNraXA9Ii5naXQsbm9kZV9tb2R1bGVzLHZlbnYsLnZlbnYsX19weWNhY2hlX18sLmNhY2hlLGRpc3QsYnVpbGQsLm5leHQsLnRveCwuZWdncywqLmVnZy1pbmZvIiBcCiAgLgpgYGAKCioqSU1QT1JUQU5UOioqIEFsd2F5cyB1c2UgYC0tZm9sZGVycy10by1za2lwYCB0byBleGNsdWRlIGRlcGVuZGVuY3kvYnVpbGQgZGlyZWN0b3JpZXMsIG90aGVyd2lzZSBweWdvdW50IHdpbGwgY3Jhd2wgdGhlbSBhbmQgdGFrZSBhIHZlcnkgbG9uZyB0aW1lIG9yIGhhbmcuCgojIyAyLiBDb21tb24gRm9sZGVyIEV4Y2x1c2lvbnMKCkFkanVzdCBiYXNlZCBvbiB0aGUgcHJvamVjdCB0eXBlOgoKYGBgYmFzaAojIFB5dGhvbiBwcm9qZWN0cwotLWZvbGRlcnMtdG8tc2tpcD0iLmdpdCx2ZW52LC52ZW52LF9fcHljYWNoZV9fLC5jYWNoZSxkaXN0LGJ1aWxkLC50b3gsLmVnZ3MsLm15cHlfY2FjaGUiCgojIEphdmFTY3JpcHQvVHlwZVNjcmlwdCBwcm9qZWN0cwotLWZvbGRlcnMtdG8tc2tpcD0iLmdpdCxub2RlX21vZHVsZXMsZGlzdCxidWlsZCwubmV4dCwuY2FjaGUsLnR1cmJvLGNvdmVyYWdlIgoKIyBHZW5lcmFsIGNhdGNoLWFsbAotLWZvbGRlcnMtdG8tc2tpcD0iLmdpdCxub2RlX21vZHVsZXMsdmVudiwudmVudixfX3B5Y2FjaGVfXywuY2FjaGUsZGlzdCxidWlsZCwubmV4dCwudG94LHZlbmRvcix0aGlyZF9wYXJ0eSIKYGBgCgojIyAzLiBGaWx0ZXIgYnkgU3BlY2lmaWMgTGFuZ3VhZ2UKCmBgYGJhc2gKIyBPbmx5IGNvdW50IFB5dGhvbiBmaWxlcwpweWdvdW50IC0tc3VmZml4PXB5IC0tZm9ybWF0PXN1bW1hcnkgLgoKIyBPbmx5IGNvdW50IFB5dGhvbiBhbmQgWUFNTApweWdvdW50IC0tc3VmZml4PXB5LHlhbWwseW1sIC0tZm9ybWF0PXN1bW1hcnkgLgpgYGAKCiMjIDQuIERldGFpbGVkIEZpbGUtYnktRmlsZSBPdXRwdXQKCmBgYGJhc2gKIyBEZWZhdWx0IGZvcm1hdCBzaG93cyBwZXItZmlsZSBicmVha2Rvd24KcHlnb3VudCAtLWZvbGRlcnMtdG8tc2tpcD0iLmdpdCxub2RlX21vZHVsZXMsdmVudiIgLgoKIyBTb3J0IGJ5IGNvZGUgbGluZXMgKHBpcGUgdGhyb3VnaCBzb3J0KQpweWdvdW50IC0tZm9sZGVycy10by1za2lwPSIuZ2l0LG5vZGVfbW9kdWxlcyx2ZW52IiAuIHwgc29ydCAtdCQnXHQnIC1rMSAtbnIgfCBoZWFkIC0yMApgYGAKCiMjIDUuIE91dHB1dCBGb3JtYXRzCgpgYGBiYXNoCiMgU3VtbWFyeSB0YWJsZSAoZGVmYXVsdCByZWNvbW1lbmRhdGlvbikKcHlnb3VudCAtLWZvcm1hdD1zdW1tYXJ5IC4KCiMgSlNPTiBvdXRwdXQgZm9yIHByb2dyYW1tYXRpYyB1c2UKcHlnb3VudCAtLWZvcm1hdD1qc29uIC4KCiMgUGlwZS1mcmllbmRseTogTGFuZ3VhZ2UsIGZpbGUgY291bnQsIGNvZGUsIGRvY3MsIGVtcHR5LCBzdHJpbmcKcHlnb3VudCAtLWZvcm1hdD1zdW1tYXJ5IC4gMj4vZGV2L251bGwKYGBgCgojIyA2LiBJbnRlcnByZXRpbmcgUmVzdWx0cwoKVGhlIHN1bW1hcnkgdGFibGUgY29sdW1uczoKLSAqKkxhbmd1YWdlKiog4oCUIGRldGVjdGVkIHByb2dyYW1taW5nIGxhbmd1YWdlCi0gKipGaWxlcyoqIOKAlCBudW1iZXIgb2YgZmlsZXMgb2YgdGhhdCBsYW5ndWFnZQotICoqQ29kZSoqIOKAlCBsaW5lcyBvZiBhY3R1YWwgY29kZSAoZXhlY3V0YWJsZS9kZWNsYXJhdGl2ZSkKLSAqKkNvbW1lbnQqKiDigJQgbGluZXMgdGhhdCBhcmUgY29tbWVudHMgb3IgZG9jdW1lbnRhdGlvbgotICoqJSoqIOKAlCBwZXJjZW50YWdlIG9mIHRvdGFsCgpTcGVjaWFsIHBzZXVkby1sYW5ndWFnZXM6Ci0gYF9fZW1wdHlfX2Ag4oCUIGVtcHR5IGZpbGVzCi0gYF9fYmluYXJ5X19gIOKAlCBiaW5hcnkgZmlsZXMgKGltYWdlcywgY29tcGlsZWQsIGV0Yy4pCi0gYF9fZ2VuZXJhdGVkX19gIOKAlCBhdXRvLWdlbmVyYXRlZCBmaWxlcyAoZGV0ZWN0ZWQgaGV1cmlzdGljYWxseSkKLSBgX19kdXBsaWNhdGVfX2Ag4oCUIGZpbGVzIHdpdGggaWRlbnRpY2FsIGNvbnRlbnQKLSBgX191bmtub3duX19gIOKAlCB1bnJlY29nbml6ZWQgZmlsZSB0eXBlcwoKIyMgUGl0ZmFsbHMKCjEuICoqQWx3YXlzIGV4Y2x1ZGUgLmdpdCwgbm9kZV9tb2R1bGVzLCB2ZW52Kiog4oCUIHdpdGhvdXQgYC0tZm9sZGVycy10by1za2lwYCwgcHlnb3VudCB3aWxsIGNyYXdsIGV2ZXJ5dGhpbmcgYW5kIG1heSB0YWtlIG1pbnV0ZXMgb3IgaGFuZyBvbiBsYXJnZSBkZXBlbmRlbmN5IHRyZWVzLgoyLiAqKk1hcmtkb3duIHNob3dzIDAgY29kZSBsaW5lcyoqIOKAlCBweWdvdW50IGNsYXNzaWZpZXMgYWxsIE1hcmtkb3duIGNvbnRlbnQgYXMgY29tbWVudHMsIG5vdCBjb2RlLiBUaGlzIGlzIGV4cGVjdGVkIGJlaGF2aW9yLgozLiAqKkpTT04gZmlsZXMgc2hvdyBsb3cgY29kZSBjb3VudHMqKiDigJQgcHlnb3VudCBtYXkgY291bnQgSlNPTiBsaW5lcyBjb25zZXJ2YXRpdmVseS4gRm9yIGFjY3VyYXRlIEpTT04gbGluZSBjb3VudHMsIHVzZSBgd2MgLWxgIGRpcmVjdGx5Lgo0LiAqKkxhcmdlIG1vbm9yZXBvcyoqIOKAlCBmb3IgdmVyeSBsYXJnZSByZXBvcywgY29uc2lkZXIgdXNpbmcgYC0tc3VmZml4YCB0byB0YXJnZXQgc3BlY2lmaWMgbGFuZ3VhZ2VzIHJhdGhlciB0aGFuIHNjYW5uaW5nIGV2ZXJ5dGhpbmcuCg==
+---
+name: codebase-inspection
+description: "Inspect codebases w/ pygount: LOC, languages, ratios."
+version: 1.0.0
+author: Hermes Agent
+license: MIT
+platforms: [linux, macos, windows]
+metadata:
+  hermes:
+    tags: [LOC, Code Analysis, pygount, Codebase, Metrics, Repository]
+    related_skills: [github-repo-management]
+prerequisites:
+  commands: [pygount]
+---
+
+# Codebase Inspection with pygount
+
+Analyze repositories for lines of code, language breakdown, file counts, and code-vs-comment ratios using `pygount`.
+
+## When to Use
+
+- User asks for LOC (lines of code) count
+- User wants a language breakdown of a repo
+- User asks about codebase size or composition
+- User wants code-vs-comment ratios
+- General "how big is this repo" questions
+
+## Prerequisites
+
+```bash
+pip install --break-system-packages pygount 2>/dev/null || pip install pygount
+```
+
+## 1. Basic Summary (Most Common)
+
+Get a full language breakdown with file counts, code lines, and comment lines:
+
+```bash
+cd /path/to/repo
+pygount --format=summary \
+  --folders-to-skip=".git,node_modules,venv,.venv,__pycache__,.cache,dist,build,.next,.tox,.eggs,*.egg-info" \
+  .
+```
+
+**IMPORTANT:** Always use `--folders-to-skip` to exclude dependency/build directories, otherwise pygount will crawl them and take a very long time or hang.
+
+## 2. Common Folder Exclusions
+
+Adjust based on the project type:
+
+```bash
+# Python projects
+--folders-to-skip=".git,venv,.venv,__pycache__,.cache,dist,build,.tox,.eggs,.mypy_cache"
+
+# JavaScript/TypeScript projects
+--folders-to-skip=".git,node_modules,dist,build,.next,.cache,.turbo,coverage"
+
+# General catch-all
+--folders-to-skip=".git,node_modules,venv,.venv,__pycache__,.cache,dist,build,.next,.tox,vendor,third_party"
+```
+
+## 3. Filter by Specific Language
+
+```bash
+# Only count Python files
+pygount --suffix=py --format=summary .
+
+# Only count Python and YAML
+pygount --suffix=py,yaml,yml --format=summary .
+```
+
+## 4. Detailed File-by-File Output
+
+```bash
+# Default format shows per-file breakdown
+pygount --folders-to-skip=".git,node_modules,venv" .
+
+# Sort by code lines (pipe through sort)
+pygount --folders-to-skip=".git,node_modules,venv" . | sort -t$'\t' -k1 -nr | head -20
+```
+
+## 5. Output Formats
+
+```bash
+# Summary table (default recommendation)
+pygount --format=summary .
+
+# JSON output for programmatic use
+pygount --format=json .
+
+# Pipe-friendly: Language, file count, code, docs, empty, string
+pygount --format=summary . 2>/dev/null
+```
+
+## 6. Interpreting Results
+
+The summary table columns:
+- **Language** — detected programming language
+- **Files** — number of files of that language
+- **Code** — lines of actual code (executable/declarative)
+- **Comment** — lines that are comments or documentation
+- **%** — percentage of total
+
+Special pseudo-languages:
+- `__empty__` — empty files
+- `__binary__` — binary files (images, compiled, etc.)
+- `__generated__` — auto-generated files (detected heuristically)
+- `__duplicate__` — files with identical content
+- `__unknown__` — unrecognized file types
+
+## Pitfalls
+
+1. **Always exclude .git, node_modules, venv** — without `--folders-to-skip`, pygount will crawl everything and may take minutes or hang on large dependency trees.
+2. **Markdown shows 0 code lines** — pygount classifies all Markdown content as comments, not code. This is expected behavior.
+3. **JSON files show low code counts** — pygount may count JSON lines conservatively. For accurate JSON line counts, use `wc -l` directly.
+4. **Large monorepos** — for very large repos, consider using `--suffix` to target specific languages rather than scanning everything.

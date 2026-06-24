@@ -1,1 +1,322 @@
-IyBFeHRlcm5hbCBEYXRhIFJlZmVyZW5jZQoKTmV0d29yayBhbmQgZGV2aWNlIEkvTyDigJQgSFRUUCByZXF1ZXN0cywgV2ViU29ja2V0cywgTVFUVCwgU2VyaWFsLCBUQ1AsIFVEUC4gRm9yIE1JREkvT1NDIHNwZWNpZmljYWxseSBzZWUgYG1pZGktb3NjLm1kYC4KCkNvbW1vbiBwcm9kdWN0aW9uIG5lZWRzOgotIEFQSSBwb2xsaW5nIC8gd2ViaG9vayBpbmdlc3Rpb24KLSBSZWFsLXRpbWUgZGF0YSBzdHJlYW1zIChzZW5zb3JzLCBtYXJrZXQgZGF0YSwgY2hhdCkKLSBJb1QgZGV2aWNlIGNvbnRyb2wgKEFyZHVpbm8sIEVTUDMyLCBzbWFydCBsaWdodHMpCi0gSW50ZXItYXBwbGljYXRpb24gbWVzc2FnaW5nCi0gSG9zdGluZyBhIHRpbnkgVEQtc2lkZSBIVFRQIHNlcnZlciBmb3IgcmVtb3RlIGNvbnRyb2wKCi0tLQoKIyMgV2ViIERBVCDigJQgSFRUUCBSZXF1ZXN0cwoKYGBgcHl0aG9uCndlYiA9IHJvb3QuY3JlYXRlKHdlYkRBVCwgJ2FwaV9jYWxsJykKd2ViLnBhci51cmwgPSAnaHR0cHM6Ly9hcGkuZXhhbXBsZS5jb20vdjEvc3RhdHVzJwp3ZWIucGFyLmZldGNobWV0aG9kID0gJ2dldCcgICAgICAgICAgICMgJ2dldCcgfCAncG9zdCcgfCAncHV0JyB8ICdkZWxldGUnCndlYi5wYXIuZm9ybWF0ID0gJ2F1dG8nICAgICAgICAgICAgICAgICMgJ2F1dG8nIHwgJ3RleHQnIHwgJ2pzb24nCndlYi5wYXIudGltZW91dCA9IDUuMApgYGAKCioqVHJpZ2dlcmluZyBhIHJlcXVlc3Q6KioKCmB3ZWJEQVRgIGRvZXMgTk9UIGF1dG8tZmV0Y2ggb24gY29vay4gVHJpZ2dlciBleHBsaWNpdGx5OgoKYGBgcHl0aG9uCndlYi5wYXIuZmV0Y2gucHVsc2UoKQpgYGAKCk9yIHZpYSBleHByZXNzaW9uIG9uIGEgQ0hPUCB2YWx1ZS1jaGFuZ2UgKGNob3BFeGVjdXRlREFUIOKAlCBzZWUgYGRhdC1zY3JpcHRpbmcubWRgKS4KCioqQXV0aGVudGljYXRpb24gaGVhZGVyczoqKgoKVXNlIGB3ZWJjbGllbnREQVRgIChtb3JlIGZsZXhpYmxlKSBvciBzZXQgYHdlYkRBVGAgaGVhZGVycyB2aWEgdGhlIGhlYWRlcnMgREFUOgoKYGBgcHl0aG9uCndlYl9oZWFkZXJzID0gcm9vdC5jcmVhdGUodGFibGVEQVQsICdoZWFkZXJzJykKd2ViX2hlYWRlcnMuYXBwZW5kUm93KFsnQXV0aG9yaXphdGlvbicsICdCZWFyZXIgWU9VUl9UT0tFTiddKQp3ZWJfaGVhZGVycy5hcHBlbmRSb3coWydBY2NlcHQnLCAnYXBwbGljYXRpb24vanNvbiddKQp3ZWIucGFyLmhlYWRlcnMgPSB3ZWJfaGVhZGVycy5wYXRoCmBgYAoKKipQYXJzaW5nIEpTT04gcmVzcG9uc2U6KioKCmBgYHB5dGhvbgppbXBvcnQganNvbgoKZGVmIG9uVGFibGVDaGFuZ2UoZGF0KToKICAgIHJlc3BvbnNlID0gZGF0LnRleHQgICAgICAgICAgIyByYXcgcmVzcG9uc2UgYm9keQogICAgZGF0YSA9IGpzb24ubG9hZHMocmVzcG9uc2UpCiAgICAjIFVwZGF0ZSBhIHRhYmxlREFUIG9yIHN0b3JlIGluIGEgY29uc3RhbnRDSE9QIGZvciBkb3duc3RyZWFtIHVzZQogICAgb3AoJy9wcm9qZWN0MS9hcGlfc3RhdHVzJykucGFyLnZhbHVlMCA9IGRhdGFbJ2NvdW50J10KICAgIHJldHVybgpgYGAKCldpcmUgdGhpcyBpbiBhIGBkYXRFeGVjdXRlREFUYCB3YXRjaGluZyB0aGUgd2ViREFULgoKKipQb2xsaW5nIHBhdHRlcm46KioKCmBgYHB5dGhvbgojIHRpbWVyQ0hPUCBmaXJlcyBldmVyeSBOIHNlY29uZHMKdGltZXIgPSByb290LmNyZWF0ZSh0aW1lckNIT1AsICdwb2xsX3RpbWVyJykKdGltZXIucGFyLmxlbmd0aCA9IDUuMAp0aW1lci5wYXIuY3ljbGUgPSBUcnVlCgojIGNob3BFeGVjdXRlREFUIG9uIHRoZSB0aW1lcidzICdjeWNsZXMnIGNoYW5uZWwgcHVsc2VzIHRoZSB3ZWJEQVQKZGVmIG9mZlRvT24oY2hhbm5lbCwgc2FtcGxlSW5kZXgsIHZhbCwgcHJldik6CiAgICBvcCgnL3Byb2plY3QxL2FwaV9jYWxsJykucGFyLmZldGNoLnB1bHNlKCkKICAgIHJldHVybgpgYGAKCi0tLQoKIyMgV2ViIENsaWVudCBEQVQg4oCUIE1vcmUgUm9idXN0IEhUVFAKCmB3ZWJjbGllbnREQVRgIGlzIHRoZSBtb2Rlcm4gcmVwbGFjZW1lbnQgZm9yIGB3ZWJEQVRgIOKAlCBzdXBwb3J0cyBzdHJlYW1pbmcgcmVzcG9uc2VzLCBjaHVua2VkIHRyYW5zZmVyLCBjdXN0b20gYXV0aC4KCmBgYHB5dGhvbgpjbGllbnQgPSByb290LmNyZWF0ZSh3ZWJjbGllbnREQVQsICdhcGknKQpjbGllbnQucGFyLm1ldGhvZCA9ICdQT1NUJwpjbGllbnQucGFyLnVybCA9ICdodHRwczovL2FwaS5leGFtcGxlLmNvbS9ldmVudHMnCmNsaWVudC5wYXIudXBsb2FkdHlwZSA9ICdqc29uJwpjbGllbnQucGFyLnVwbG9hZGRhdGEgPSAneyJldmVudCI6ICJzY2VuZV9jaGFuZ2UiLCAic2NlbmUiOiAzfScKY2xpZW50LnBhci5yZXF1ZXN0LnB1bHNlKCkKYGBgCgpPdXRwdXQgZ29lcyB0byBpdHMgY2hpbGQgYHdlYmNsaWVudDFfcmVzcG9uc2VgIERBVC4gVXNlIGEgYGRhdEV4ZWN1dGVEQVRgIHRvIHJlYWN0LgoKLS0tCgojIyBXZWIgU2VydmVyIERBVCDigJQgVEQgYXMgSFRUUCBTZXJ2ZXIKCkhvc3RzIGEgdGlueSBIVFRQIHNlcnZlciBpbnNpZGUgVEQuIFVzZWZ1bCBmb3I6Ci0gU3RhdHVzL2hlYWx0aCBlbmRwb2ludHMKLSBSZW1vdGUgY29udHJvbCBmcm9tIGEgcGhvbmUgb3IgYW5vdGhlciBtYWNoaW5lCi0gV2ViaG9vayByZWNlaXZlcnMgZnJvbSBleHRlcm5hbCBzZXJ2aWNlcwoKYGBgcHl0aG9uCnNlcnZlciA9IHJvb3QuY3JlYXRlKHdlYnNlcnZlckRBVCwgJ2NvbnRyb2xfc2VydmVyJykKc2VydmVyLnBhci5wb3J0ID0gODA4MApzZXJ2ZXIucGFyLmFjdGl2ZSA9IFRydWUKCiMgRGVmaW5lIGhhbmRsZXIgaW4gdGhlIGRvY2tlZCBjYWxsYmFjayBEQVQKYGBgCgpJbiB0aGUgYXV0by1jcmVhdGVkIGB3ZWJzZXJ2ZXIxX2NhbGxiYWNrc2AgREFUOgoKYGBgcHl0aG9uCmRlZiBvbkhUVFBSZXF1ZXN0KHdlYlNlcnZlckRBVCwgcmVxdWVzdCwgcmVzcG9uc2UpOgogICAgcGF0aCA9IHJlcXVlc3RbJ3VyaSddCiAgICBpZiBwYXRoID09ICcvc3RhdHVzJzoKICAgICAgICByZXNwb25zZVsnc3RhdHVzQ29kZSddID0gMjAwCiAgICAgICAgcmVzcG9uc2VbJ2RhdGEnXSA9ICd7ImZwcyI6IDYwLCAic2NlbmUiOiAiYWN0aXZlIn0nCiAgICBlbGlmIHBhdGggPT0gJy9zY2VuZSc6CiAgICAgICAgaWR4ID0gaW50KHJlcXVlc3RbJ2FyZ3MnXS5nZXQoJ2luZGV4JywgMCkpCiAgICAgICAgb3AoJy9wcm9qZWN0MS9zY2VuZV9zd2l0Y2gnKS5wYXIuaW5kZXggPSBpZHgKICAgICAgICByZXNwb25zZVsnc3RhdHVzQ29kZSddID0gMjAwCiAgICAgICAgcmVzcG9uc2VbJ2RhdGEnXSA9ICdPSycKICAgIGVsc2U6CiAgICAgICAgcmVzcG9uc2VbJ3N0YXR1c0NvZGUnXSA9IDQwNAogICAgICAgIHJlc3BvbnNlWydkYXRhJ10gPSAnTm90IEZvdW5kJwogICAgcmV0dXJuIHJlc3BvbnNlCmBgYAoKVGVzdCBmcm9tIHRlcm1pbmFsOiBgY3VybCBodHRwOi8vbG9jYWxob3N0OjgwODAvc3RhdHVzYC4KCioqU2VjdXJpdHk6KiogTm8gYXV0aCBieSBkZWZhdWx0LiBCaW5kIHRvIGxvY2FsaG9zdCBvbmx5IG9yIGFkZCBhIHRva2VuIGNoZWNrIGluIHRoZSBjYWxsYmFjay4gTmV2ZXIgZXhwb3NlIHRvIHRoZSBwdWJsaWMgaW50ZXJuZXQgd2l0aG91dCBhdXRoLgoKLS0tCgojIyBXZWJTb2NrZXQgREFUIOKAlCBCaWRpcmVjdGlvbmFsIFJlYWwtVGltZQoKRm9yIGxvdy1sYXRlbmN5IGJpZGlyZWN0aW9uYWwgc3RyZWFtcyAoY2hhdCwgbGl2ZSBkYXRhIGZlZWRzLCBjb250cm9sbGVycykuCgojIyMgQ2xpZW50CgpgYGBweXRob24Kd3MgPSByb290LmNyZWF0ZSh3ZWJzb2NrZXREQVQsICd3c19jbGllbnQnKQp3cy5wYXIubmV0YWRkcmVzcyA9ICd3c3M6Ly9hcGkuZXhhbXBsZS5jb20vc29ja2V0Jwp3cy5wYXIuYWN0aXZlID0gVHJ1ZQpgYGAKCkluIHRoZSBkb2NrZWQgY2FsbGJhY2tzIERBVDoKCmBgYHB5dGhvbgpkZWYgb25Db25uZWN0KGRhdCk6CiAgICBkYXQuc2VuZFRleHQoJ3siYWN0aW9uIjogInN1YnNjcmliZSIsICJjaGFubmVsIjogInRpY2tzIn0nKQogICAgcmV0dXJuCgpkZWYgb25SZWNlaXZlVGV4dChkYXQsIHJvd0luZGV4LCBtZXNzYWdlKToKICAgICMgbWVzc2FnZSBpcyBhIHN0cmluZzsgcGFyc2UgSlNPTiwgZGlzcGF0Y2ggdG8gb3BzCiAgICBpbXBvcnQganNvbgogICAgZGF0YSA9IGpzb24ubG9hZHMobWVzc2FnZSkKICAgIG9wKCcvcHJvamVjdDEvcHJpY2VfY2hvcCcpLnBhci52YWx1ZTAgPSBkYXRhWydwcmljZSddCiAgICByZXR1cm4KCmRlZiBvbkRpc2Nvbm5lY3QoZGF0KToKICAgICMgT3B0aW9uYWxseSBzY2hlZHVsZSBhIHJlY29ubmVjdAogICAgcmV0dXJuCmBgYAoKIyMjIFNlcnZlcgoKYGBgcHl0aG9uCndzID0gcm9vdC5jcmVhdGUod2Vic29ja2V0REFULCAnd3Nfc2VydmVyJykKd3MucGFyLm1vZGUgPSAnc2VydmVyJwp3cy5wYXIucG9ydCA9IDkwMDEKd3MucGFyLmFjdGl2ZSA9IFRydWUKYGBgCgpTYW1lIGNhbGxiYWNrIHN0cnVjdHVyZSB3aXRoIGFuIGFkZGl0aW9uYWwgYGNsaWVudElEYCBhcmcuCgotLS0KCiMjIE1RVFQg4oCUIFB1Yi9TdWIgZm9yIElvVAoKYGBgcHl0aG9uCm1xdHQgPSByb290LmNyZWF0ZShtcXR0Q2xpZW50REFULCAnaW90JykKbXF0dC5wYXIuYnJva2VyYWRkcmVzcyA9ICdicm9rZXIuaGl2ZW1xLmNvbScKbXF0dC5wYXIuYnJva2VycG9ydCA9IDE4ODMKbXF0dC5wYXIuY2xpZW50aWQgPSAndGRfaW5zdGFsbF8wMScKbXF0dC5wYXIuY29ubmVjdC5wdWxzZSgpCgojIFN1YnNjcmliZSBpbiBjYWxsYmFja3MgREFUOgpkZWYgb25Db25uZWN0KGRhdCk6CiAgICBkYXQuc3Vic2NyaWJlKCdob21lL2xpZ2h0cy8rJywgcW9zPTEpCiAgICByZXR1cm4KCmRlZiBvblJlY2VpdmUoZGF0LCB0b3BpYywgcGF5bG9hZCwgcW9zLCByZXRhaW5lZCwgZHVwKToKICAgICMgcGF5bG9hZCBpcyBieXRlcyDigJQgZGVjb2RlIGlmIEpTT04KICAgIG1zZyA9IHBheWxvYWQuZGVjb2RlKCd1dGYtOCcpCiAgICAjIERpc3BhdGNoIGJ5IHRvcGljCiAgICByZXR1cm4KCiMgUHVibGlzaCBmcm9tIGFueXdoZXJlOgpvcCgnaW90JykucHVibGlzaCgnc2hvdy9zY2VuZScsICdzdW5zZXQnLCBxb3M9MCwgcmV0YWluPUZhbHNlKQpgYGAKCkZvciBNb3NxdWl0dG8gLyBIaXZlTVEgc2VsZi1ob3N0ZWQgYnJva2VycyB1c2UgdGhlIHNhbWUgc2V0dXAgd2l0aCBgdGNwOi8vMTkyLjE2OC54LnhgIGFuZCB5b3VyIGxvY2FsIHBvcnQuCgotLS0KCiMjIFNlcmlhbCBEQVQg4oCUIEFyZHVpbm8sIFVTQiBEZXZpY2VzCgpgYGBweXRob24Kc2VyaWFsID0gcm9vdC5jcmVhdGUoc2VyaWFsREFULCAnYXJkdWlubycpCnNlcmlhbC5wYXIucG9ydCA9ICcvZGV2L2N1LnVzYm1vZGVtMTQxMDEnICAgIyBtYWNPUyDigJQgY2hlY2sgQXJkdWlubyBJREUKIyBXaW5kb3dzOiAnQ09NMycsICdDT000JywgZXRjLgpzZXJpYWwucGFyLmJhdWRyYXRlID0gMTE1MjAwCnNlcmlhbC5wYXIuYWN0aXZlID0gVHJ1ZQpgYGAKCkluIGNhbGxiYWNrczoKCmBgYHB5dGhvbgpkZWYgb25SZWNlaXZlKGRhdCwgcm93SW5kZXgsIGxpbmUpOgogICAgIyBFYWNoIG5ld2xpbmUtdGVybWluYXRlZCBsaW5lIGZyb20gQXJkdWlubyBhcnJpdmVzIGhlcmUKICAgIHBhcnRzID0gbGluZS5zcGxpdCgnLCcpCiAgICBvcCgnL3Byb2plY3QxL3NlbnNvcnMnKS5wYXIudmFsdWUwID0gZmxvYXQocGFydHNbMF0pCiAgICBvcCgnL3Byb2plY3QxL3NlbnNvcnMnKS5wYXIudmFsdWUxID0gZmxvYXQocGFydHNbMV0pCiAgICByZXR1cm4KYGBgCgpTZW5kIHRvIEFyZHVpbm86CmBgYHB5dGhvbgpvcCgnYXJkdWlubycpLnNlbmQoJ0xFRF9PTlxuJykKYGBgCgotLS0KCiMjIFRDUC9JUCBEQVQg4oCUIEN1c3RvbSBQcm90b2NvbHMKCkZvciB0YWxraW5nIHRvIG5vbi1IVFRQIHNlcnZlcnMgKGdhbWUgc2VydmVycywgY3VzdG9tIHByb3RvY29scywgbGVnYWN5IHN5c3RlbXMpLgoKYGBgcHl0aG9uCnRjcCA9IHJvb3QuY3JlYXRlKHRjcGlwREFULCAnc2hvd19jb250cm9sJykKdGNwLnBhci5uZXRhZGRyZXNzID0gJzE5Mi4xNjguMS41MCcKdGNwLnBhci5wb3J0ID0gNzAwMAp0Y3AucGFyLnByb3RvY29sID0gJ3RjcCcgICAgICAgICMgJ3RjcCcgfCAndWRwJwp0Y3AucGFyLmFjdGl2ZSA9IFRydWUKYGBgCgpTZW5kIC8gcmVjZWl2ZSB2aWEgY2FsbGJhY2tzIHNpbWlsYXIgdG8gd2Vic29ja2V0REFULgoKRm9yIFVEUC1vbmx5IChmaXJlLWFuZC1mb3JnZXQsIG5vIGNvbm5lY3Rpb24pLCB1c2UgYHVkcG91dERBVGAgKyBgdWRwaW5EQVRgIOKAlCBzaW1wbGVyIGJ1dCB1bnJlbGlhYmxlIGFjcm9zcyBuZXR3b3Jrcy4KCi0tLQoKIyMgQ29tbW9uIFBhdHRlcm5zCgojIyMgUkVTVCBBUEkg4oaSIFZpc3VhbAoKYGBgCnRpbWVyQ0hPUCAoNXMgbG9vcCkKICAg4oaSIGNob3BFeGVjdXRlREFUIChwdWxzZSB3ZWJEQVQucGFyLmZldGNoIG9uIGN5Y2xlKQogICDihpIgd2ViREFUIChyZXR1cm5zIEpTT04pCiAgIOKGkiBkYXRFeGVjdXRlREFUIChwYXJzZSwgd3JpdGUgdG8gY29uc3RhbnRDSE9QKQogICDihpIgQ0hPUCBkcml2ZXMgZ2xzbCB1bmlmb3JtIOKGkiB2aXN1YWxzCmBgYAoKIyMjIFdlYmhvb2sgcmVjZWl2ZXIKCmBgYAp3ZWJzZXJ2ZXJEQVQgKHBvcnQgODA4MCwgL3dlYmhvb2sgZW5kcG9pbnQpCiAgIOKGkiBjYWxsYmFjayB3cml0ZXMgdG8gYSB0YWJsZURBVCBsb2cgKyB0cmlnZ2VycyBhIHNjZW5lIGNoYW5nZQpgYGAKCiMjIyBSZWFsLXRpbWUgc3RvY2svY3J5cHRvIHRpY2tlcgoKYGBgCndlYnNvY2tldERBVCAoc3Vic2NyaWJlIHRvIGZlZWQpCiAgIOKGkiBvblJlY2VpdmVUZXh0IGNhbGxiYWNrIHBhcnNlcyBKU09OCiAgIOKGkiB3cml0ZXMgdG8gY29uc3RhbnRDSE9QCiAgIOKGkiBkcml2ZXMgYmFyIGNoYXJ0IC8gdHlwb2dyYXBoeSBhbmltYXRpb24KYGBgCgojIyMgSW9ULWNvbnRyb2xsZWQgaW5zdGFsbGF0aW9uCgpgYGAKTVFUVCDihpIgY2FsbGJhY2sgZGlzcGF0Y2hlcyBieSB0b3BpYwogICDihpIgL2xpZ2h0cy9tYWluIOKGkiBjb25zdGFudENIT1AgZHJpdmVzIGxpZ2h0aW5nIHJlbmRlcgogICDihpIgL2F1ZGlvL3ZvbHVtZSDihpIgbWF0aENIT1AgZm9yIG1hc3RlciBmYWRlcgpgYGAKCiMjIyBUd28td2F5IHBob25lIGNvbnRyb2wKCmBgYApXZWJTb2NrZXQgc2VydmVyIGluIFRECiAgIOKGkiBzaW1wbGUgSFRNTCBwYWdlIG9uIHBob25lIGNvbm5lY3RzLCBzZW5kcyBzbGlkZXIgdmFsdWVzCiAgIOKGkiBjYWxsYmFjayB3cml0ZXMgdG8gb3BzCiAgIOKGkiBURCBwdXNoZXMgc3RhdHVzIGJhY2sgdmlhIGRhdC5zZW5kVGV4dCgpIHRvIHBob25lIFVJCmBgYAoKLS0tCgojIyBQaXRmYWxscwoKMS4gKipgd2ViREFUYCBkb2Vzbid0IGF1dG8tZmV0Y2gqKiDigJQgbXVzdCBleHBsaWNpdGx5IHB1bHNlIGBwYXIuZmV0Y2hgLiBFYXN5IHRvIGZvcmdldC4KMi4gKipCbG9ja2luZyBvbiBzbG93IEFQSXMqKiDigJQgYHdlYkRBVGAgcnVucyBvbiB0aGUgY29vayB0aHJlYWQuIEEgMzBzIEFQSSBjYWxsIGZyZWV6ZXMgVEQgZm9yIDMwcy4gVXNlIGB3ZWJjbGllbnREQVRgIChhc3luYykgZm9yIGFueXRoaW5nIHBvdGVudGlhbGx5IHNsb3cuCjMuICoqV2ViU29ja2V0IHJlY29ubmVjdGlvbioqIOKAlCBURCBkb2VzIE5PVCBhdXRvLXJlY29ubmVjdCBvbiBkaXNjb25uZWN0LiBJbXBsZW1lbnQgYmFja29mZiBpbiBgb25EaXNjb25uZWN0YC4KNC4gKipTZXJpYWwgcG9ydCBwZXJtaXNzaW9ucyBvbiBtYWNPUyoqIOKAlCBURCBuZWVkcyBGdWxsIERpc2sgQWNjZXNzIE9SIHRoZSBwb3J0IG5lZWRzIHRvIGJlIHVubG9ja2VkIHZpYSBgc3VkbyBjaG1vZCA2NjYgL2Rldi9jdS51c2Jtb2RlbS4uLmAgcGVyIHNlc3Npb24uCjUuICoqTVFUVCBicm9rZXIgY29ubmVjdGlvbiBzdGF0ZSoqIOKAlCBgbXF0dENsaWVudERBVGAgbWF5IHNob3cgYGNvbm5lY3RlZD10cnVlYCBidXQgbWVzc2FnZXMgZG9uJ3QgZmxvdyBpZiBRb1MgaXMgd3Jvbmcgb3IgdG9waWMgQUNMIGJsb2Nrcy4gQ2hlY2sgYnJva2VyIGxvZ3MuCjYuICoqSlNPTiBwYXJzZSBlcnJvcnMgY3Jhc2ggY2FsbGJhY2tzIHNpbGVudGx5Kiog4oCUIHdyYXAgcGFyc2VzIGluIHRyeS9leGNlcHQgYW5kIGxvZyB0byB0ZXh0cG9ydC4gT3RoZXJ3aXNlIHRoZSBjYWxsYmFjayBqdXN0IHN0b3BzIGZpcmluZy4KNy4gKipGaXJld2FsbCBvbiBXaW5kb3dzKiog4oCUIGZpcnN0IHRpbWUgYHdlYnNlcnZlckRBVGAgYmluZHMsIFdpbmRvd3MgcG9wcyBhIGZpcmV3YWxsIGRpYWxvZy4gQXBwcm92ZSBpdCBvciB0aGUgc2VydmVyIGlzIHVucmVhY2hhYmxlLgo4LiAqKkNPUlMqKiDigJQgYHdlYnNlcnZlckRBVGAgZG9lc24ndCBhZGQgQ09SUyBoZWFkZXJzIGJ5IGRlZmF1bHQuIElmIHNlcnZpbmcgYSB3ZWJhcHAgZnJvbSBhIGRpZmZlcmVudCBvcmlnaW4sIGFkZCBgQWNjZXNzLUNvbnRyb2wtQWxsb3ctT3JpZ2luOiAqYCBpbiB0aGUgcmVzcG9uc2UuCjkuICoqUG9sbGluZyB2cyBwdXNoKiog4oCUIHBvbGxpbmcgYnVybnMgQVBJIHF1b3RhLiBBbHdheXMgcHJlZmVyIFdlYlNvY2tldCAvIHdlYmhvb2sgLyBNUVRUIGZvciBoaWdoLWZyZXF1ZW5jeSBkYXRhLgoxMC4gKipGbG9hdGluZy1wb2ludCBwYXJzaW5nKiog4oCUIHNlbnNvciBkYXRhIG92ZXIgU2VyaWFsIG9mdGVuIGNvbWVzIGFzIHN0cmluZ3MuIGBmbG9hdCgpYCB3aWxsIGNyYXNoIG9uIGAnXG4nYCBvciBgJ05hTidgLiBWYWxpZGF0ZSBiZWZvcmUgY29udmVydGluZy4KCi0tLQoKIyMgUXVpY2sgUmVjaXBlcwoKfCBHb2FsIHwgT3AgY2hhaW4gfAp8LS0tfC0tLXwKfCBQZXJpb2RpYyBBUEkgZmV0Y2ggfCBgdGltZXJDSE9QYCDihpIgYGNob3BFeGVjdXRlREFUYCBwdWxzZXMg4oaSIGB3ZWJEQVRgIOKGkiBgZGF0RXhlY3V0ZURBVGAgcGFyc2VzIHwKfCBXZWJob29rIHJlY2VpdmVyIHwgYHdlYnNlcnZlckRBVGAgKHBvcnQgKyBwYXRoKSwgY2FsbGJhY2sgd3JpdGVzIHRvIG9wcyB8CnwgUmVhbC10aW1lIHN0cmVhbSB8IGB3ZWJzb2NrZXREQVRgIGNsaWVudCDihpIgb25SZWNlaXZlVGV4dCDihpIgQ0hPUC9EQVQgfAp8IEFyZHVpbm8gc2Vuc29yIOKGkiB2aXN1YWwgfCBgc2VyaWFsREFUYCDihpIgY2FsbGJhY2sg4oaSIGBjb25zdGFudENIT1BgIOKGkiBleHByZXNzaW9uIG9uIHZpc3VhbCBvcCB8CnwgVEQg4oaUIHBob25lIGNvbnRyb2wgfCBgd2Vic29ja2V0REFUYCBzZXJ2ZXIgKyBzaW1wbGUgSFRNTCBwYWdlIG9uIHBob25lIHwKfCBNUVRUIElvVCBpbnRlZ3JhdGlvbiB8IGBtcXR0Q2xpZW50REFUYCBzdWJzY3JpYmUg4oaSIGNhbGxiYWNrIGRpc3BhdGNoZXMgYnkgdG9waWMgfAo=
+# External Data Reference
+
+Network and device I/O — HTTP requests, WebSockets, MQTT, Serial, TCP, UDP. For MIDI/OSC specifically see `midi-osc.md`.
+
+Common production needs:
+- API polling / webhook ingestion
+- Real-time data streams (sensors, market data, chat)
+- IoT device control (Arduino, ESP32, smart lights)
+- Inter-application messaging
+- Hosting a tiny TD-side HTTP server for remote control
+
+---
+
+## Web DAT — HTTP Requests
+
+```python
+web = root.create(webDAT, 'api_call')
+web.par.url = 'https://api.example.com/v1/status'
+web.par.fetchmethod = 'get'           # 'get' | 'post' | 'put' | 'delete'
+web.par.format = 'auto'                # 'auto' | 'text' | 'json'
+web.par.timeout = 5.0
+```
+
+**Triggering a request:**
+
+`webDAT` does NOT auto-fetch on cook. Trigger explicitly:
+
+```python
+web.par.fetch.pulse()
+```
+
+Or via expression on a CHOP value-change (chopExecuteDAT — see `dat-scripting.md`).
+
+**Authentication headers:**
+
+Use `webclientDAT` (more flexible) or set `webDAT` headers via the headers DAT:
+
+```python
+web_headers = root.create(tableDAT, 'headers')
+web_headers.appendRow(['Authorization', 'Bearer YOUR_TOKEN'])
+web_headers.appendRow(['Accept', 'application/json'])
+web.par.headers = web_headers.path
+```
+
+**Parsing JSON response:**
+
+```python
+import json
+
+def onTableChange(dat):
+    response = dat.text          # raw response body
+    data = json.loads(response)
+    # Update a tableDAT or store in a constantCHOP for downstream use
+    op('/project1/api_status').par.value0 = data['count']
+    return
+```
+
+Wire this in a `datExecuteDAT` watching the webDAT.
+
+**Polling pattern:**
+
+```python
+# timerCHOP fires every N seconds
+timer = root.create(timerCHOP, 'poll_timer')
+timer.par.length = 5.0
+timer.par.cycle = True
+
+# chopExecuteDAT on the timer's 'cycles' channel pulses the webDAT
+def offToOn(channel, sampleIndex, val, prev):
+    op('/project1/api_call').par.fetch.pulse()
+    return
+```
+
+---
+
+## Web Client DAT — More Robust HTTP
+
+`webclientDAT` is the modern replacement for `webDAT` — supports streaming responses, chunked transfer, custom auth.
+
+```python
+client = root.create(webclientDAT, 'api')
+client.par.method = 'POST'
+client.par.url = 'https://api.example.com/events'
+client.par.uploadtype = 'json'
+client.par.uploaddata = '{"event": "scene_change", "scene": 3}'
+client.par.request.pulse()
+```
+
+Output goes to its child `webclient1_response` DAT. Use a `datExecuteDAT` to react.
+
+---
+
+## Web Server DAT — TD as HTTP Server
+
+Hosts a tiny HTTP server inside TD. Useful for:
+- Status/health endpoints
+- Remote control from a phone or another machine
+- Webhook receivers from external services
+
+```python
+server = root.create(webserverDAT, 'control_server')
+server.par.port = 8080
+server.par.active = True
+
+# Define handler in the docked callback DAT
+```
+
+In the auto-created `webserver1_callbacks` DAT:
+
+```python
+def onHTTPRequest(webServerDAT, request, response):
+    path = request['uri']
+    if path == '/status':
+        response['statusCode'] = 200
+        response['data'] = '{"fps": 60, "scene": "active"}'
+    elif path == '/scene':
+        idx = int(request['args'].get('index', 0))
+        op('/project1/scene_switch').par.index = idx
+        response['statusCode'] = 200
+        response['data'] = 'OK'
+    else:
+        response['statusCode'] = 404
+        response['data'] = 'Not Found'
+    return response
+```
+
+Test from terminal: `curl http://localhost:8080/status`.
+
+**Security:** No auth by default. Bind to localhost only or add a token check in the callback. Never expose to the public internet without auth.
+
+---
+
+## WebSocket DAT — Bidirectional Real-Time
+
+For low-latency bidirectional streams (chat, live data feeds, controllers).
+
+### Client
+
+```python
+ws = root.create(websocketDAT, 'ws_client')
+ws.par.netaddress = 'wss://api.example.com/socket'
+ws.par.active = True
+```
+
+In the docked callbacks DAT:
+
+```python
+def onConnect(dat):
+    dat.sendText('{"action": "subscribe", "channel": "ticks"}')
+    return
+
+def onReceiveText(dat, rowIndex, message):
+    # message is a string; parse JSON, dispatch to ops
+    import json
+    data = json.loads(message)
+    op('/project1/price_chop').par.value0 = data['price']
+    return
+
+def onDisconnect(dat):
+    # Optionally schedule a reconnect
+    return
+```
+
+### Server
+
+```python
+ws = root.create(websocketDAT, 'ws_server')
+ws.par.mode = 'server'
+ws.par.port = 9001
+ws.par.active = True
+```
+
+Same callback structure with an additional `clientID` arg.
+
+---
+
+## MQTT — Pub/Sub for IoT
+
+```python
+mqtt = root.create(mqttClientDAT, 'iot')
+mqtt.par.brokeraddress = 'broker.hivemq.com'
+mqtt.par.brokerport = 1883
+mqtt.par.clientid = 'td_install_01'
+mqtt.par.connect.pulse()
+
+# Subscribe in callbacks DAT:
+def onConnect(dat):
+    dat.subscribe('home/lights/+', qos=1)
+    return
+
+def onReceive(dat, topic, payload, qos, retained, dup):
+    # payload is bytes — decode if JSON
+    msg = payload.decode('utf-8')
+    # Dispatch by topic
+    return
+
+# Publish from anywhere:
+op('iot').publish('show/scene', 'sunset', qos=0, retain=False)
+```
+
+For Mosquitto / HiveMQ self-hosted brokers use the same setup with `tcp://192.168.x.x` and your local port.
+
+---
+
+## Serial DAT — Arduino, USB Devices
+
+```python
+serial = root.create(serialDAT, 'arduino')
+serial.par.port = '/dev/cu.usbmodem14101'   # macOS — check Arduino IDE
+# Windows: 'COM3', 'COM4', etc.
+serial.par.baudrate = 115200
+serial.par.active = True
+```
+
+In callbacks:
+
+```python
+def onReceive(dat, rowIndex, line):
+    # Each newline-terminated line from Arduino arrives here
+    parts = line.split(',')
+    op('/project1/sensors').par.value0 = float(parts[0])
+    op('/project1/sensors').par.value1 = float(parts[1])
+    return
+```
+
+Send to Arduino:
+```python
+op('arduino').send('LED_ON\n')
+```
+
+---
+
+## TCP/IP DAT — Custom Protocols
+
+For talking to non-HTTP servers (game servers, custom protocols, legacy systems).
+
+```python
+tcp = root.create(tcpipDAT, 'show_control')
+tcp.par.netaddress = '192.168.1.50'
+tcp.par.port = 7000
+tcp.par.protocol = 'tcp'        # 'tcp' | 'udp'
+tcp.par.active = True
+```
+
+Send / receive via callbacks similar to websocketDAT.
+
+For UDP-only (fire-and-forget, no connection), use `udpoutDAT` + `udpinDAT` — simpler but unreliable across networks.
+
+---
+
+## Common Patterns
+
+### REST API → Visual
+
+```
+timerCHOP (5s loop)
+   → chopExecuteDAT (pulse webDAT.par.fetch on cycle)
+   → webDAT (returns JSON)
+   → datExecuteDAT (parse, write to constantCHOP)
+   → CHOP drives glsl uniform → visuals
+```
+
+### Webhook receiver
+
+```
+webserverDAT (port 8080, /webhook endpoint)
+   → callback writes to a tableDAT log + triggers a scene change
+```
+
+### Real-time stock/crypto ticker
+
+```
+websocketDAT (subscribe to feed)
+   → onReceiveText callback parses JSON
+   → writes to constantCHOP
+   → drives bar chart / typography animation
+```
+
+### IoT-controlled installation
+
+```
+MQTT → callback dispatches by topic
+   → /lights/main → constantCHOP drives lighting render
+   → /audio/volume → mathCHOP for master fader
+```
+
+### Two-way phone control
+
+```
+WebSocket server in TD
+   → simple HTML page on phone connects, sends slider values
+   → callback writes to ops
+   → TD pushes status back via dat.sendText() to phone UI
+```
+
+---
+
+## Pitfalls
+
+1. **`webDAT` doesn't auto-fetch** — must explicitly pulse `par.fetch`. Easy to forget.
+2. **Blocking on slow APIs** — `webDAT` runs on the cook thread. A 30s API call freezes TD for 30s. Use `webclientDAT` (async) for anything potentially slow.
+3. **WebSocket reconnection** — TD does NOT auto-reconnect on disconnect. Implement backoff in `onDisconnect`.
+4. **Serial port permissions on macOS** — TD needs Full Disk Access OR the port needs to be unlocked via `sudo chmod 666 /dev/cu.usbmodem...` per session.
+5. **MQTT broker connection state** — `mqttClientDAT` may show `connected=true` but messages don't flow if QoS is wrong or topic ACL blocks. Check broker logs.
+6. **JSON parse errors crash callbacks silently** — wrap parses in try/except and log to textport. Otherwise the callback just stops firing.
+7. **Firewall on Windows** — first time `webserverDAT` binds, Windows pops a firewall dialog. Approve it or the server is unreachable.
+8. **CORS** — `webserverDAT` doesn't add CORS headers by default. If serving a webapp from a different origin, add `Access-Control-Allow-Origin: *` in the response.
+9. **Polling vs push** — polling burns API quota. Always prefer WebSocket / webhook / MQTT for high-frequency data.
+10. **Floating-point parsing** — sensor data over Serial often comes as strings. `float()` will crash on `'\n'` or `'NaN'`. Validate before converting.
+
+---
+
+## Quick Recipes
+
+| Goal | Op chain |
+|---|---|
+| Periodic API fetch | `timerCHOP` → `chopExecuteDAT` pulses → `webDAT` → `datExecuteDAT` parses |
+| Webhook receiver | `webserverDAT` (port + path), callback writes to ops |
+| Real-time stream | `websocketDAT` client → onReceiveText → CHOP/DAT |
+| Arduino sensor → visual | `serialDAT` → callback → `constantCHOP` → expression on visual op |
+| TD ↔ phone control | `websocketDAT` server + simple HTML page on phone |
+| MQTT IoT integration | `mqttClientDAT` subscribe → callback dispatches by topic |

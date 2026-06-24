@@ -1,1 +1,282 @@
-LS0tCm5hbWU6IGFyeGl2CmRlc2NyaXB0aW9uOiAiU2VhcmNoIGFyWGl2IHBhcGVycyBieSBrZXl3b3JkLCBhdXRob3IsIGNhdGVnb3J5LCBvciBJRC4iCnZlcnNpb246IDEuMC4wCmF1dGhvcjogSGVybWVzIEFnZW50CmxpY2Vuc2U6IE1JVApwbGF0Zm9ybXM6IFtsaW51eCwgbWFjb3MsIHdpbmRvd3NdCm1ldGFkYXRhOgogIGhlcm1lczoKICAgIHRhZ3M6IFtSZXNlYXJjaCwgQXJ4aXYsIFBhcGVycywgQWNhZGVtaWMsIFNjaWVuY2UsIEFQSV0KICAgIHJlbGF0ZWRfc2tpbGxzOiBbb2NyLWFuZC1kb2N1bWVudHNdCi0tLQoKIyBhclhpdiBSZXNlYXJjaAoKU2VhcmNoIGFuZCByZXRyaWV2ZSBhY2FkZW1pYyBwYXBlcnMgZnJvbSBhclhpdiB2aWEgdGhlaXIgZnJlZSBSRVNUIEFQSS4gTm8gQVBJIGtleSwgbm8gZGVwZW5kZW5jaWVzIOKAlCBqdXN0IGN1cmwuCgojIyBRdWljayBSZWZlcmVuY2UKCnwgQWN0aW9uIHwgQ29tbWFuZCB8CnwtLS0tLS0tLXwtLS0tLS0tLS18CnwgU2VhcmNoIHBhcGVycyB8IGBjdXJsICJodHRwczovL2V4cG9ydC5hcnhpdi5vcmcvYXBpL3F1ZXJ5P3NlYXJjaF9xdWVyeT1hbGw6UVVFUlkmbWF4X3Jlc3VsdHM9NSJgIHwKfCBHZXQgc3BlY2lmaWMgcGFwZXIgfCBgY3VybCAiaHR0cHM6Ly9leHBvcnQuYXJ4aXYub3JnL2FwaS9xdWVyeT9pZF9saXN0PTI0MDIuMDMzMDAiYCB8CnwgUmVhZCBhYnN0cmFjdCAod2ViKSB8IGB3ZWJfZXh0cmFjdCh1cmxzPVsiaHR0cHM6Ly9hcnhpdi5vcmcvYWJzLzI0MDIuMDMzMDAiXSlgIHwKfCBSZWFkIGZ1bGwgcGFwZXIgKFBERikgfCBgd2ViX2V4dHJhY3QodXJscz1bImh0dHBzOi8vYXJ4aXYub3JnL3BkZi8yNDAyLjAzMzAwIl0pYCB8CgojIyBTZWFyY2hpbmcgUGFwZXJzCgpUaGUgQVBJIHJldHVybnMgQXRvbSBYTUwuIFBhcnNlIHdpdGggYGdyZXBgL2BzZWRgIG9yIHBpcGUgdGhyb3VnaCBgcHl0aG9uM2AgZm9yIGNsZWFuIG91dHB1dC4KCiMjIyBCYXNpYyBzZWFyY2gKCmBgYGJhc2gKY3VybCAtcyAiaHR0cHM6Ly9leHBvcnQuYXJ4aXYub3JnL2FwaS9xdWVyeT9zZWFyY2hfcXVlcnk9YWxsOkdSUE8rcmVpbmZvcmNlbWVudCtsZWFybmluZyZtYXhfcmVzdWx0cz01IgpgYGAKCiMjIyBDbGVhbiBvdXRwdXQgKHBhcnNlIFhNTCB0byByZWFkYWJsZSBmb3JtYXQpCgpgYGBiYXNoCmN1cmwgLXMgImh0dHBzOi8vZXhwb3J0LmFyeGl2Lm9yZy9hcGkvcXVlcnk/c2VhcmNoX3F1ZXJ5PWFsbDpHUlBPK3JlaW5mb3JjZW1lbnQrbGVhcm5pbmcmbWF4X3Jlc3VsdHM9NSZzb3J0Qnk9c3VibWl0dGVkRGF0ZSZzb3J0T3JkZXI9ZGVzY2VuZGluZyIgfCBweXRob24zIC1jICIKaW1wb3J0IHN5cywgeG1sLmV0cmVlLkVsZW1lbnRUcmVlIGFzIEVUCm5zID0geydhJzogJ2h0dHA6Ly93d3cudzMub3JnLzIwMDUvQXRvbSd9CnJvb3QgPSBFVC5wYXJzZShzeXMuc3RkaW4pLmdldHJvb3QoKQpmb3IgaSwgZW50cnkgaW4gZW51bWVyYXRlKHJvb3QuZmluZGFsbCgnYTplbnRyeScsIG5zKSk6CiAgICB0aXRsZSA9IGVudHJ5LmZpbmQoJ2E6dGl0bGUnLCBucykudGV4dC5zdHJpcCgpLnJlcGxhY2UoJ1xuJywgJyAnKQogICAgYXJ4aXZfaWQgPSBlbnRyeS5maW5kKCdhOmlkJywgbnMpLnRleHQuc3RyaXAoKS5zcGxpdCgnL2Ficy8nKVstMV0KICAgIHB1Ymxpc2hlZCA9IGVudHJ5LmZpbmQoJ2E6cHVibGlzaGVkJywgbnMpLnRleHRbOjEwXQogICAgYXV0aG9ycyA9ICcsICcuam9pbihhLmZpbmQoJ2E6bmFtZScsIG5zKS50ZXh0IGZvciBhIGluIGVudHJ5LmZpbmRhbGwoJ2E6YXV0aG9yJywgbnMpKQogICAgc3VtbWFyeSA9IGVudHJ5LmZpbmQoJ2E6c3VtbWFyeScsIG5zKS50ZXh0LnN0cmlwKClbOjIwMF0KICAgIGNhdHMgPSAnLCAnLmpvaW4oYy5nZXQoJ3Rlcm0nKSBmb3IgYyBpbiBlbnRyeS5maW5kYWxsKCdhOmNhdGVnb3J5JywgbnMpKQogICAgcHJpbnQoZid7aSsxfS4gW3thcnhpdl9pZH1dIHt0aXRsZX0nKQogICAgcHJpbnQoZicgICBBdXRob3JzOiB7YXV0aG9yc30nKQogICAgcHJpbnQoZicgICBQdWJsaXNoZWQ6IHtwdWJsaXNoZWR9IHwgQ2F0ZWdvcmllczoge2NhdHN9JykKICAgIHByaW50KGYnICAgQWJzdHJhY3Q6IHtzdW1tYXJ5fS4uLicpCiAgICBwcmludChmJyAgIFBERjogaHR0cHM6Ly9hcnhpdi5vcmcvcGRmL3thcnhpdl9pZH0nKQogICAgcHJpbnQoKQoiCmBgYAoKIyMgU2VhcmNoIFF1ZXJ5IFN5bnRheAoKfCBQcmVmaXggfCBTZWFyY2hlcyB8IEV4YW1wbGUgfAp8LS0tLS0tLS18LS0tLS0tLS0tLXwtLS0tLS0tLS18CnwgYGFsbDpgIHwgQWxsIGZpZWxkcyB8IGBhbGw6dHJhbnNmb3JtZXIrYXR0ZW50aW9uYCB8CnwgYHRpOmAgfCBUaXRsZSB8IGB0aTpsYXJnZStsYW5ndWFnZSttb2RlbHNgIHwKfCBgYXU6YCB8IEF1dGhvciB8IGBhdTp2YXN3YW5pYCB8CnwgYGFiczpgIHwgQWJzdHJhY3QgfCBgYWJzOnJlaW5mb3JjZW1lbnQrbGVhcm5pbmdgIHwKfCBgY2F0OmAgfCBDYXRlZ29yeSB8IGBjYXQ6Y3MuQUlgIHwKfCBgY286YCB8IENvbW1lbnQgfCBgY286YWNjZXB0ZWQrTmV1cklQU2AgfAoKIyMjIEJvb2xlYW4gb3BlcmF0b3JzCgpgYGAKIyBBTkQgKGRlZmF1bHQgd2hlbiB1c2luZyArKQpzZWFyY2hfcXVlcnk9YWxsOnRyYW5zZm9ybWVyK2F0dGVudGlvbgoKIyBPUgpzZWFyY2hfcXVlcnk9YWxsOkdQVCtPUithbGw6QkVSVAoKIyBBTkQgTk9UCnNlYXJjaF9xdWVyeT1hbGw6bGFuZ3VhZ2UrbW9kZWwrQU5ETk9UK2FsbDp2aXNpb24KCiMgRXhhY3QgcGhyYXNlCnNlYXJjaF9xdWVyeT10aToiY2hhaW4rb2YrdGhvdWdodCIKCiMgQ29tYmluZWQKc2VhcmNoX3F1ZXJ5PWF1OmhpbnRvbitBTkQrY2F0OmNzLkxHCmBgYAoKIyMgU29ydCBhbmQgUGFnaW5hdGlvbgoKfCBQYXJhbWV0ZXIgfCBPcHRpb25zIHwKfC0tLS0tLS0tLS0tfC0tLS0tLS0tLXwKfCBgc29ydEJ5YCB8IGByZWxldmFuY2VgLCBgbGFzdFVwZGF0ZWREYXRlYCwgYHN1Ym1pdHRlZERhdGVgIHwKfCBgc29ydE9yZGVyYCB8IGBhc2NlbmRpbmdgLCBgZGVzY2VuZGluZ2AgfAp8IGBzdGFydGAgfCBSZXN1bHQgb2Zmc2V0ICgwLWJhc2VkKSB8CnwgYG1heF9yZXN1bHRzYCB8IE51bWJlciBvZiByZXN1bHRzIChkZWZhdWx0IDEwLCBtYXggMzAwMDApIHwKCmBgYGJhc2gKIyBMYXRlc3QgMTAgcGFwZXJzIGluIGNzLkFJCmN1cmwgLXMgImh0dHBzOi8vZXhwb3J0LmFyeGl2Lm9yZy9hcGkvcXVlcnk/c2VhcmNoX3F1ZXJ5PWNhdDpjcy5BSSZzb3J0Qnk9c3VibWl0dGVkRGF0ZSZzb3J0T3JkZXI9ZGVzY2VuZGluZyZtYXhfcmVzdWx0cz0xMCIKYGBgCgojIyBGZXRjaGluZyBTcGVjaWZpYyBQYXBlcnMKCmBgYGJhc2gKIyBCeSBhclhpdiBJRApjdXJsIC1zICJodHRwczovL2V4cG9ydC5hcnhpdi5vcmcvYXBpL3F1ZXJ5P2lkX2xpc3Q9MjQwMi4wMzMwMCIKCiMgTXVsdGlwbGUgcGFwZXJzCmN1cmwgLXMgImh0dHBzOi8vZXhwb3J0LmFyeGl2Lm9yZy9hcGkvcXVlcnk/aWRfbGlzdD0yNDAyLjAzMzAwLDI0MDEuMTIzNDUsMjQwMy4wMDAwMSIKYGBgCgojIyBCaWJUZVggR2VuZXJhdGlvbgoKQWZ0ZXIgZmV0Y2hpbmcgbWV0YWRhdGEgZm9yIGEgcGFwZXIsIGdlbmVyYXRlIGEgQmliVGVYIGVudHJ5OgoKeyUgcmF3ICV9CmBgYGJhc2gKY3VybCAtcyAiaHR0cHM6Ly9leHBvcnQuYXJ4aXYub3JnL2FwaS9xdWVyeT9pZF9saXN0PTE3MDYuMDM3NjIiIHwgcHl0aG9uMyAtYyAiCmltcG9ydCBzeXMsIHhtbC5ldHJlZS5FbGVtZW50VHJlZSBhcyBFVApucyA9IHsnYSc6ICdodHRwOi8vd3d3LnczLm9yZy8yMDA1L0F0b20nLCAnYXJ4aXYnOiAnaHR0cDovL2FyeGl2Lm9yZy9zY2hlbWFzL2F0b20nfQpyb290ID0gRVQucGFyc2Uoc3lzLnN0ZGluKS5nZXRyb290KCkKZW50cnkgPSByb290LmZpbmQoJ2E6ZW50cnknLCBucykKaWYgZW50cnkgaXMgTm9uZTogc3lzLmV4aXQoJ1BhcGVyIG5vdCBmb3VuZCcpCnRpdGxlID0gZW50cnkuZmluZCgnYTp0aXRsZScsIG5zKS50ZXh0LnN0cmlwKCkucmVwbGFjZSgnXG4nLCAnICcpCmF1dGhvcnMgPSAnIGFuZCAnLmpvaW4oYS5maW5kKCdhOm5hbWUnLCBucykudGV4dCBmb3IgYSBpbiBlbnRyeS5maW5kYWxsKCdhOmF1dGhvcicsIG5zKSkKeWVhciA9IGVudHJ5LmZpbmQoJ2E6cHVibGlzaGVkJywgbnMpLnRleHRbOjRdCnJhd19pZCA9IGVudHJ5LmZpbmQoJ2E6aWQnLCBucykudGV4dC5zdHJpcCgpLnNwbGl0KCcvYWJzLycpWy0xXQpjYXQgPSBlbnRyeS5maW5kKCdhcnhpdjpwcmltYXJ5X2NhdGVnb3J5JywgbnMpCnByaW1hcnkgPSBjYXQuZ2V0KCd0ZXJtJykgaWYgY2F0IGlzIG5vdCBOb25lIGVsc2UgJ2NzLkxHJwpsYXN0X25hbWUgPSBlbnRyeS5maW5kKCdhOmF1dGhvcicsIG5zKS5maW5kKCdhOm5hbWUnLCBucykudGV4dC5zcGxpdCgpWy0xXQpwcmludChmJ0BhcnRpY2xle3t7bGFzdF9uYW1lfXt5ZWFyfV97cmF3X2lkLnJlcGxhY2UoXCIuXCIsIFwiXCIpfSwnKQpwcmludChmJyAgdGl0bGUgICAgID0ge3t7dGl0bGV9fX0sJykKcHJpbnQoZicgIGF1dGhvciAgICA9IHt7e2F1dGhvcnN9fX0sJykKcHJpbnQoZicgIHllYXIgICAgICA9IHt7e3llYXJ9fX0sJykKcHJpbnQoZicgIGVwcmludCAgICA9IHt7e3Jhd19pZH19fSwnKQpwcmludChmJyAgYXJjaGl2ZVByZWZpeCA9IHt7YXJYaXZ9fSwnKQpwcmludChmJyAgcHJpbWFyeUNsYXNzICA9IHt7e3ByaW1hcnl9fX0sJykKcHJpbnQoZicgIHVybCAgICAgICA9IHt7aHR0cHM6Ly9hcnhpdi5vcmcvYWJzL3tyYXdfaWR9fX0nKQpwcmludCgnfScpCiIKYGBgCnslIGVuZHJhdyAlfQoKIyMgUmVhZGluZyBQYXBlciBDb250ZW50CgpBZnRlciBmaW5kaW5nIGEgcGFwZXIsIHJlYWQgaXQ6CgpgYGAKIyBBYnN0cmFjdCBwYWdlIChmYXN0LCBtZXRhZGF0YSArIGFic3RyYWN0KQp3ZWJfZXh0cmFjdCh1cmxzPVsiaHR0cHM6Ly9hcnhpdi5vcmcvYWJzLzI0MDIuMDMzMDAiXSkKCiMgRnVsbCBwYXBlciAoUERGIOKGkiBtYXJrZG93biB2aWEgRmlyZWNyYXdsKQp3ZWJfZXh0cmFjdCh1cmxzPVsiaHR0cHM6Ly9hcnhpdi5vcmcvcGRmLzI0MDIuMDMzMDAiXSkKYGBgCgpGb3IgbG9jYWwgUERGIHByb2Nlc3NpbmcsIHNlZSB0aGUgYG9jci1hbmQtZG9jdW1lbnRzYCBza2lsbC4KCiMjIENvbW1vbiBDYXRlZ29yaWVzCgp8IENhdGVnb3J5IHwgRmllbGQgfAp8LS0tLS0tLS0tLXwtLS0tLS0tfAp8IGBjcy5BSWAgfCBBcnRpZmljaWFsIEludGVsbGlnZW5jZSB8CnwgYGNzLkNMYCB8IENvbXB1dGF0aW9uIGFuZCBMYW5ndWFnZSAoTkxQKSB8CnwgYGNzLkNWYCB8IENvbXB1dGVyIFZpc2lvbiB8CnwgYGNzLkxHYCB8IE1hY2hpbmUgTGVhcm5pbmcgfAp8IGBjcy5DUmAgfCBDcnlwdG9ncmFwaHkgYW5kIFNlY3VyaXR5IHwKfCBgc3RhdC5NTGAgfCBNYWNoaW5lIExlYXJuaW5nIChTdGF0aXN0aWNzKSB8CnwgYG1hdGguT0NgIHwgT3B0aW1pemF0aW9uIGFuZCBDb250cm9sIHwKfCBgcGh5c2ljcy5jb21wLXBoYCB8IENvbXB1dGF0aW9uYWwgUGh5c2ljcyB8CgpGdWxsIGxpc3Q6IGh0dHBzOi8vYXJ4aXYub3JnL2NhdGVnb3J5X3RheG9ub215CgojIyBIZWxwZXIgU2NyaXB0CgpUaGUgYHNjcmlwdHMvc2VhcmNoX2FyeGl2LnB5YCBzY3JpcHQgaGFuZGxlcyBYTUwgcGFyc2luZyBhbmQgcHJvdmlkZXMgY2xlYW4gb3V0cHV0OgoKYGBgYmFzaApweXRob24gc2NyaXB0cy9zZWFyY2hfYXJ4aXYucHkgIkdSUE8gcmVpbmZvcmNlbWVudCBsZWFybmluZyIKcHl0aG9uIHNjcmlwdHMvc2VhcmNoX2FyeGl2LnB5ICJ0cmFuc2Zvcm1lciBhdHRlbnRpb24iIC0tbWF4IDEwIC0tc29ydCBkYXRlCnB5dGhvbiBzY3JpcHRzL3NlYXJjaF9hcnhpdi5weSAtLWF1dGhvciAiWWFubiBMZUN1biIgLS1tYXggNQpweXRob24gc2NyaXB0cy9zZWFyY2hfYXJ4aXYucHkgLS1jYXRlZ29yeSBjcy5BSSAtLXNvcnQgZGF0ZQpweXRob24gc2NyaXB0cy9zZWFyY2hfYXJ4aXYucHkgLS1pZCAyNDAyLjAzMzAwCnB5dGhvbiBzY3JpcHRzL3NlYXJjaF9hcnhpdi5weSAtLWlkIDI0MDIuMDMzMDAsMjQwMS4xMjM0NQpgYGAKCk5vIGRlcGVuZGVuY2llcyDigJQgdXNlcyBvbmx5IFB5dGhvbiBzdGRsaWIuCgotLS0KCiMjIFNlbWFudGljIFNjaG9sYXIgKENpdGF0aW9ucywgUmVsYXRlZCBQYXBlcnMsIEF1dGhvciBQcm9maWxlcykKCmFyWGl2IGRvZXNuJ3QgcHJvdmlkZSBjaXRhdGlvbiBkYXRhIG9yIHJlY29tbWVuZGF0aW9ucy4gVXNlIHRoZSAqKlNlbWFudGljIFNjaG9sYXIgQVBJKiogZm9yIHRoYXQg4oCUIGZyZWUsIG5vIGtleSBuZWVkZWQgZm9yIGJhc2ljIHVzZSAoMSByZXEvc2VjKSwgcmV0dXJucyBKU09OLgoKIyMjIEdldCBwYXBlciBkZXRhaWxzICsgY2l0YXRpb25zCgpgYGBiYXNoCiMgQnkgYXJYaXYgSUQKY3VybCAtcyAiaHR0cHM6Ly9hcGkuc2VtYW50aWNzY2hvbGFyLm9yZy9ncmFwaC92MS9wYXBlci9hclhpdjoyNDAyLjAzMzAwP2ZpZWxkcz10aXRsZSxhdXRob3JzLGNpdGF0aW9uQ291bnQscmVmZXJlbmNlQ291bnQsaW5mbHVlbnRpYWxDaXRhdGlvbkNvdW50LHllYXIsYWJzdHJhY3QiIHwgcHl0aG9uMyAtbSBqc29uLnRvb2wKCiMgQnkgU2VtYW50aWMgU2Nob2xhciBwYXBlciBJRCBvciBET0kKY3VybCAtcyAiaHR0cHM6Ly9hcGkuc2VtYW50aWNzY2hvbGFyLm9yZy9ncmFwaC92MS9wYXBlci9ET0k6MTAuMTIzNC9leGFtcGxlP2ZpZWxkcz10aXRsZSxjaXRhdGlvbkNvdW50IgpgYGAKCiMjIyBHZXQgY2l0YXRpb25zIE9GIGEgcGFwZXIgKHdobyBjaXRlZCBpdCkKCmBgYGJhc2gKY3VybCAtcyAiaHR0cHM6Ly9hcGkuc2VtYW50aWNzY2hvbGFyLm9yZy9ncmFwaC92MS9wYXBlci9hclhpdjoyNDAyLjAzMzAwL2NpdGF0aW9ucz9maWVsZHM9dGl0bGUsYXV0aG9ycyx5ZWFyLGNpdGF0aW9uQ291bnQmbGltaXQ9MTAiIHwgcHl0aG9uMyAtbSBqc29uLnRvb2wKYGBgCgojIyMgR2V0IHJlZmVyZW5jZXMgRlJPTSBhIHBhcGVyICh3aGF0IGl0IGNpdGVzKQoKYGBgYmFzaApjdXJsIC1zICJodHRwczovL2FwaS5zZW1hbnRpY3NjaG9sYXIub3JnL2dyYXBoL3YxL3BhcGVyL2FyWGl2OjI0MDIuMDMzMDAvcmVmZXJlbmNlcz9maWVsZHM9dGl0bGUsYXV0aG9ycyx5ZWFyLGNpdGF0aW9uQ291bnQmbGltaXQ9MTAiIHwgcHl0aG9uMyAtbSBqc29uLnRvb2wKYGBgCgojIyMgU2VhcmNoIHBhcGVycyAoYWx0ZXJuYXRpdmUgdG8gYXJYaXYgc2VhcmNoLCByZXR1cm5zIEpTT04pCgpgYGBiYXNoCmN1cmwgLXMgImh0dHBzOi8vYXBpLnNlbWFudGljc2Nob2xhci5vcmcvZ3JhcGgvdjEvcGFwZXIvc2VhcmNoP3F1ZXJ5PUdSUE8rcmVpbmZvcmNlbWVudCtsZWFybmluZyZsaW1pdD01JmZpZWxkcz10aXRsZSxhdXRob3JzLHllYXIsY2l0YXRpb25Db3VudCxleHRlcm5hbElkcyIgfCBweXRob24zIC1tIGpzb24udG9vbApgYGAKCiMjIyBHZXQgcGFwZXIgcmVjb21tZW5kYXRpb25zCgpgYGBiYXNoCmN1cmwgLXMgLVggUE9TVCAiaHR0cHM6Ly9hcGkuc2VtYW50aWNzY2hvbGFyLm9yZy9yZWNvbW1lbmRhdGlvbnMvdjEvcGFwZXJzLyIgXAogIC1IICJDb250ZW50LVR5cGU6IGFwcGxpY2F0aW9uL2pzb24iIFwKICAtZCAneyJwb3NpdGl2ZVBhcGVySWRzIjogWyJhclhpdjoyNDAyLjAzMzAwIl0sICJuZWdhdGl2ZVBhcGVySWRzIjogW119JyB8IHB5dGhvbjMgLW0ganNvbi50b29sCmBgYAoKIyMjIEF1dGhvciBwcm9maWxlCgpgYGBiYXNoCmN1cmwgLXMgImh0dHBzOi8vYXBpLnNlbWFudGljc2Nob2xhci5vcmcvZ3JhcGgvdjEvYXV0aG9yL3NlYXJjaD9xdWVyeT1ZYW5uK0xlQ3VuJmZpZWxkcz1uYW1lLGhJbmRleCxjaXRhdGlvbkNvdW50LHBhcGVyQ291bnQiIHwgcHl0aG9uMyAtbSBqc29uLnRvb2wKYGBgCgojIyMgVXNlZnVsIFNlbWFudGljIFNjaG9sYXIgZmllbGRzCgpgdGl0bGVgLCBgYXV0aG9yc2AsIGB5ZWFyYCwgYGFic3RyYWN0YCwgYGNpdGF0aW9uQ291bnRgLCBgcmVmZXJlbmNlQ291bnRgLCBgaW5mbHVlbnRpYWxDaXRhdGlvbkNvdW50YCwgYGlzT3BlbkFjY2Vzc2AsIGBvcGVuQWNjZXNzUGRmYCwgYGZpZWxkc09mU3R1ZHlgLCBgcHVibGljYXRpb25WZW51ZWAsIGBleHRlcm5hbElkc2AgKGNvbnRhaW5zIGFyWGl2IElELCBET0ksIGV0Yy4pCgotLS0KCiMjIENvbXBsZXRlIFJlc2VhcmNoIFdvcmtmbG93CgoxLiAqKkRpc2NvdmVyKio6IGBweXRob24gc2NyaXB0cy9zZWFyY2hfYXJ4aXYucHkgInlvdXIgdG9waWMiIC0tc29ydCBkYXRlIC0tbWF4IDEwYAoyLiAqKkFzc2VzcyBpbXBhY3QqKjogYGN1cmwgLXMgImh0dHBzOi8vYXBpLnNlbWFudGljc2Nob2xhci5vcmcvZ3JhcGgvdjEvcGFwZXIvYXJYaXY6SUQ/ZmllbGRzPWNpdGF0aW9uQ291bnQsaW5mbHVlbnRpYWxDaXRhdGlvbkNvdW50ImAKMy4gKipSZWFkIGFic3RyYWN0Kio6IGB3ZWJfZXh0cmFjdCh1cmxzPVsiaHR0cHM6Ly9hcnhpdi5vcmcvYWJzL0lEIl0pYAo0LiAqKlJlYWQgZnVsbCBwYXBlcioqOiBgd2ViX2V4dHJhY3QodXJscz1bImh0dHBzOi8vYXJ4aXYub3JnL3BkZi9JRCJdKWAKNS4gKipGaW5kIHJlbGF0ZWQgd29yayoqOiBgY3VybCAtcyAiaHR0cHM6Ly9hcGkuc2VtYW50aWNzY2hvbGFyLm9yZy9ncmFwaC92MS9wYXBlci9hclhpdjpJRC9yZWZlcmVuY2VzP2ZpZWxkcz10aXRsZSxjaXRhdGlvbkNvdW50JmxpbWl0PTIwImAKNi4gKipHZXQgcmVjb21tZW5kYXRpb25zKio6IFBPU1QgdG8gU2VtYW50aWMgU2Nob2xhciByZWNvbW1lbmRhdGlvbnMgZW5kcG9pbnQKNy4gKipUcmFjayBhdXRob3JzKio6IGBjdXJsIC1zICJodHRwczovL2FwaS5zZW1hbnRpY3NjaG9sYXIub3JnL2dyYXBoL3YxL2F1dGhvci9zZWFyY2g/cXVlcnk9TkFNRSJgCgojIyBSYXRlIExpbWl0cwoKfCBBUEkgfCBSYXRlIHwgQXV0aCB8CnwtLS0tLXwtLS0tLS18LS0tLS0tfAp8IGFyWGl2IHwgfjEgcmVxIC8gMyBzZWNvbmRzIHwgTm9uZSBuZWVkZWQgfAp8IFNlbWFudGljIFNjaG9sYXIgfCAxIHJlcSAvIHNlY29uZCB8IE5vbmUgKDEwMC9zZWMgd2l0aCBBUEkga2V5KSB8CgojIyBOb3RlcwoKLSBhclhpdiByZXR1cm5zIEF0b20gWE1MIOKAlCB1c2UgdGhlIGhlbHBlciBzY3JpcHQgb3IgcGFyc2luZyBzbmlwcGV0IGZvciBjbGVhbiBvdXRwdXQKLSBTZW1hbnRpYyBTY2hvbGFyIHJldHVybnMgSlNPTiDigJQgcGlwZSB0aHJvdWdoIGBweXRob24zIC1tIGpzb24udG9vbGAgZm9yIHJlYWRhYmlsaXR5Ci0gYXJYaXYgSURzOiBvbGQgZm9ybWF0IChgaGVwLXRoLzA2MDEwMDFgKSB2cyBuZXcgKGAyNDAyLjAzMzAwYCkKLSBQREY6IGBodHRwczovL2FyeGl2Lm9yZy9wZGYve2lkfWAg4oCUIEFic3RyYWN0OiBgaHR0cHM6Ly9hcnhpdi5vcmcvYWJzL3tpZH1gCi0gSFRNTCAod2hlbiBhdmFpbGFibGUpOiBgaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC97aWR9YAotIEZvciBsb2NhbCBQREYgcHJvY2Vzc2luZywgc2VlIHRoZSBgb2NyLWFuZC1kb2N1bWVudHNgIHNraWxsCgojIyBJRCBWZXJzaW9uaW5nCgotIGBhcnhpdi5vcmcvYWJzLzE3MDYuMDM3NjJgIGFsd2F5cyByZXNvbHZlcyB0byB0aGUgKipsYXRlc3QqKiB2ZXJzaW9uCi0gYGFyeGl2Lm9yZy9hYnMvMTcwNi4wMzc2MnYxYCBwb2ludHMgdG8gYSAqKnNwZWNpZmljKiogaW1tdXRhYmxlIHZlcnNpb24KLSBXaGVuIGdlbmVyYXRpbmcgY2l0YXRpb25zLCBwcmVzZXJ2ZSB0aGUgdmVyc2lvbiBzdWZmaXggeW91IGFjdHVhbGx5IHJlYWQgdG8gcHJldmVudCBjaXRhdGlvbiBkcmlmdCAoYSBsYXRlciB2ZXJzaW9uIG1heSBzdWJzdGFudGlhbGx5IGNoYW5nZSBjb250ZW50KQotIFRoZSBBUEkgYDxpZD5gIGZpZWxkIHJldHVybnMgdGhlIHZlcnNpb25lZCBVUkwgKGUuZy4sIGBodHRwOi8vYXJ4aXYub3JnL2Ficy8xNzA2LjAzNzYydjdgKQoKIyMgV2l0aGRyYXduIFBhcGVycwoKUGFwZXJzIGNhbiBiZSB3aXRoZHJhd24gYWZ0ZXIgc3VibWlzc2lvbi4gV2hlbiB0aGlzIGhhcHBlbnM6Ci0gVGhlIGA8c3VtbWFyeT5gIGZpZWxkIGNvbnRhaW5zIGEgd2l0aGRyYXdhbCBub3RpY2UgKGxvb2sgZm9yICJ3aXRoZHJhd24iIG9yICJyZXRyYWN0ZWQiKQotIE1ldGFkYXRhIGZpZWxkcyBtYXkgYmUgaW5jb21wbGV0ZQotIEFsd2F5cyBjaGVjayB0aGUgc3VtbWFyeSBiZWZvcmUgdHJlYXRpbmcgYSByZXN1bHQgYXMgYSB2YWxpZCBwYXBlcgo=
+---
+name: arxiv
+description: "Search arXiv papers by keyword, author, category, or ID."
+version: 1.0.0
+author: Hermes Agent
+license: MIT
+platforms: [linux, macos, windows]
+metadata:
+  hermes:
+    tags: [Research, Arxiv, Papers, Academic, Science, API]
+    related_skills: [ocr-and-documents]
+---
+
+# arXiv Research
+
+Search and retrieve academic papers from arXiv via their free REST API. No API key, no dependencies — just curl.
+
+## Quick Reference
+
+| Action | Command |
+|--------|---------|
+| Search papers | `curl "https://export.arxiv.org/api/query?search_query=all:QUERY&max_results=5"` |
+| Get specific paper | `curl "https://export.arxiv.org/api/query?id_list=2402.03300"` |
+| Read abstract (web) | `web_extract(urls=["https://arxiv.org/abs/2402.03300"])` |
+| Read full paper (PDF) | `web_extract(urls=["https://arxiv.org/pdf/2402.03300"])` |
+
+## Searching Papers
+
+The API returns Atom XML. Parse with `grep`/`sed` or pipe through `python3` for clean output.
+
+### Basic search
+
+```bash
+curl -s "https://export.arxiv.org/api/query?search_query=all:GRPO+reinforcement+learning&max_results=5"
+```
+
+### Clean output (parse XML to readable format)
+
+```bash
+curl -s "https://export.arxiv.org/api/query?search_query=all:GRPO+reinforcement+learning&max_results=5&sortBy=submittedDate&sortOrder=descending" | python3 -c "
+import sys, xml.etree.ElementTree as ET
+ns = {'a': 'http://www.w3.org/2005/Atom'}
+root = ET.parse(sys.stdin).getroot()
+for i, entry in enumerate(root.findall('a:entry', ns)):
+    title = entry.find('a:title', ns).text.strip().replace('\n', ' ')
+    arxiv_id = entry.find('a:id', ns).text.strip().split('/abs/')[-1]
+    published = entry.find('a:published', ns).text[:10]
+    authors = ', '.join(a.find('a:name', ns).text for a in entry.findall('a:author', ns))
+    summary = entry.find('a:summary', ns).text.strip()[:200]
+    cats = ', '.join(c.get('term') for c in entry.findall('a:category', ns))
+    print(f'{i+1}. [{arxiv_id}] {title}')
+    print(f'   Authors: {authors}')
+    print(f'   Published: {published} | Categories: {cats}')
+    print(f'   Abstract: {summary}...')
+    print(f'   PDF: https://arxiv.org/pdf/{arxiv_id}')
+    print()
+"
+```
+
+## Search Query Syntax
+
+| Prefix | Searches | Example |
+|--------|----------|---------|
+| `all:` | All fields | `all:transformer+attention` |
+| `ti:` | Title | `ti:large+language+models` |
+| `au:` | Author | `au:vaswani` |
+| `abs:` | Abstract | `abs:reinforcement+learning` |
+| `cat:` | Category | `cat:cs.AI` |
+| `co:` | Comment | `co:accepted+NeurIPS` |
+
+### Boolean operators
+
+```
+# AND (default when using +)
+search_query=all:transformer+attention
+
+# OR
+search_query=all:GPT+OR+all:BERT
+
+# AND NOT
+search_query=all:language+model+ANDNOT+all:vision
+
+# Exact phrase
+search_query=ti:"chain+of+thought"
+
+# Combined
+search_query=au:hinton+AND+cat:cs.LG
+```
+
+## Sort and Pagination
+
+| Parameter | Options |
+|-----------|---------|
+| `sortBy` | `relevance`, `lastUpdatedDate`, `submittedDate` |
+| `sortOrder` | `ascending`, `descending` |
+| `start` | Result offset (0-based) |
+| `max_results` | Number of results (default 10, max 30000) |
+
+```bash
+# Latest 10 papers in cs.AI
+curl -s "https://export.arxiv.org/api/query?search_query=cat:cs.AI&sortBy=submittedDate&sortOrder=descending&max_results=10"
+```
+
+## Fetching Specific Papers
+
+```bash
+# By arXiv ID
+curl -s "https://export.arxiv.org/api/query?id_list=2402.03300"
+
+# Multiple papers
+curl -s "https://export.arxiv.org/api/query?id_list=2402.03300,2401.12345,2403.00001"
+```
+
+## BibTeX Generation
+
+After fetching metadata for a paper, generate a BibTeX entry:
+
+{% raw %}
+```bash
+curl -s "https://export.arxiv.org/api/query?id_list=1706.03762" | python3 -c "
+import sys, xml.etree.ElementTree as ET
+ns = {'a': 'http://www.w3.org/2005/Atom', 'arxiv': 'http://arxiv.org/schemas/atom'}
+root = ET.parse(sys.stdin).getroot()
+entry = root.find('a:entry', ns)
+if entry is None: sys.exit('Paper not found')
+title = entry.find('a:title', ns).text.strip().replace('\n', ' ')
+authors = ' and '.join(a.find('a:name', ns).text for a in entry.findall('a:author', ns))
+year = entry.find('a:published', ns).text[:4]
+raw_id = entry.find('a:id', ns).text.strip().split('/abs/')[-1]
+cat = entry.find('arxiv:primary_category', ns)
+primary = cat.get('term') if cat is not None else 'cs.LG'
+last_name = entry.find('a:author', ns).find('a:name', ns).text.split()[-1]
+print(f'@article{{{last_name}{year}_{raw_id.replace(\".\", \"\")},')
+print(f'  title     = {{{title}}},')
+print(f'  author    = {{{authors}}},')
+print(f'  year      = {{{year}}},')
+print(f'  eprint    = {{{raw_id}}},')
+print(f'  archivePrefix = {{arXiv}},')
+print(f'  primaryClass  = {{{primary}}},')
+print(f'  url       = {{https://arxiv.org/abs/{raw_id}}}')
+print('}')
+"
+```
+{% endraw %}
+
+## Reading Paper Content
+
+After finding a paper, read it:
+
+```
+# Abstract page (fast, metadata + abstract)
+web_extract(urls=["https://arxiv.org/abs/2402.03300"])
+
+# Full paper (PDF → markdown via Firecrawl)
+web_extract(urls=["https://arxiv.org/pdf/2402.03300"])
+```
+
+For local PDF processing, see the `ocr-and-documents` skill.
+
+## Common Categories
+
+| Category | Field |
+|----------|-------|
+| `cs.AI` | Artificial Intelligence |
+| `cs.CL` | Computation and Language (NLP) |
+| `cs.CV` | Computer Vision |
+| `cs.LG` | Machine Learning |
+| `cs.CR` | Cryptography and Security |
+| `stat.ML` | Machine Learning (Statistics) |
+| `math.OC` | Optimization and Control |
+| `physics.comp-ph` | Computational Physics |
+
+Full list: https://arxiv.org/category_taxonomy
+
+## Helper Script
+
+The `scripts/search_arxiv.py` script handles XML parsing and provides clean output:
+
+```bash
+python scripts/search_arxiv.py "GRPO reinforcement learning"
+python scripts/search_arxiv.py "transformer attention" --max 10 --sort date
+python scripts/search_arxiv.py --author "Yann LeCun" --max 5
+python scripts/search_arxiv.py --category cs.AI --sort date
+python scripts/search_arxiv.py --id 2402.03300
+python scripts/search_arxiv.py --id 2402.03300,2401.12345
+```
+
+No dependencies — uses only Python stdlib.
+
+---
+
+## Semantic Scholar (Citations, Related Papers, Author Profiles)
+
+arXiv doesn't provide citation data or recommendations. Use the **Semantic Scholar API** for that — free, no key needed for basic use (1 req/sec), returns JSON.
+
+### Get paper details + citations
+
+```bash
+# By arXiv ID
+curl -s "https://api.semanticscholar.org/graph/v1/paper/arXiv:2402.03300?fields=title,authors,citationCount,referenceCount,influentialCitationCount,year,abstract" | python3 -m json.tool
+
+# By Semantic Scholar paper ID or DOI
+curl -s "https://api.semanticscholar.org/graph/v1/paper/DOI:10.1234/example?fields=title,citationCount"
+```
+
+### Get citations OF a paper (who cited it)
+
+```bash
+curl -s "https://api.semanticscholar.org/graph/v1/paper/arXiv:2402.03300/citations?fields=title,authors,year,citationCount&limit=10" | python3 -m json.tool
+```
+
+### Get references FROM a paper (what it cites)
+
+```bash
+curl -s "https://api.semanticscholar.org/graph/v1/paper/arXiv:2402.03300/references?fields=title,authors,year,citationCount&limit=10" | python3 -m json.tool
+```
+
+### Search papers (alternative to arXiv search, returns JSON)
+
+```bash
+curl -s "https://api.semanticscholar.org/graph/v1/paper/search?query=GRPO+reinforcement+learning&limit=5&fields=title,authors,year,citationCount,externalIds" | python3 -m json.tool
+```
+
+### Get paper recommendations
+
+```bash
+curl -s -X POST "https://api.semanticscholar.org/recommendations/v1/papers/" \
+  -H "Content-Type: application/json" \
+  -d '{"positivePaperIds": ["arXiv:2402.03300"], "negativePaperIds": []}' | python3 -m json.tool
+```
+
+### Author profile
+
+```bash
+curl -s "https://api.semanticscholar.org/graph/v1/author/search?query=Yann+LeCun&fields=name,hIndex,citationCount,paperCount" | python3 -m json.tool
+```
+
+### Useful Semantic Scholar fields
+
+`title`, `authors`, `year`, `abstract`, `citationCount`, `referenceCount`, `influentialCitationCount`, `isOpenAccess`, `openAccessPdf`, `fieldsOfStudy`, `publicationVenue`, `externalIds` (contains arXiv ID, DOI, etc.)
+
+---
+
+## Complete Research Workflow
+
+1. **Discover**: `python scripts/search_arxiv.py "your topic" --sort date --max 10`
+2. **Assess impact**: `curl -s "https://api.semanticscholar.org/graph/v1/paper/arXiv:ID?fields=citationCount,influentialCitationCount"`
+3. **Read abstract**: `web_extract(urls=["https://arxiv.org/abs/ID"])`
+4. **Read full paper**: `web_extract(urls=["https://arxiv.org/pdf/ID"])`
+5. **Find related work**: `curl -s "https://api.semanticscholar.org/graph/v1/paper/arXiv:ID/references?fields=title,citationCount&limit=20"`
+6. **Get recommendations**: POST to Semantic Scholar recommendations endpoint
+7. **Track authors**: `curl -s "https://api.semanticscholar.org/graph/v1/author/search?query=NAME"`
+
+## Rate Limits
+
+| API | Rate | Auth |
+|-----|------|------|
+| arXiv | ~1 req / 3 seconds | None needed |
+| Semantic Scholar | 1 req / second | None (100/sec with API key) |
+
+## Notes
+
+- arXiv returns Atom XML — use the helper script or parsing snippet for clean output
+- Semantic Scholar returns JSON — pipe through `python3 -m json.tool` for readability
+- arXiv IDs: old format (`hep-th/0601001`) vs new (`2402.03300`)
+- PDF: `https://arxiv.org/pdf/{id}` — Abstract: `https://arxiv.org/abs/{id}`
+- HTML (when available): `https://arxiv.org/html/{id}`
+- For local PDF processing, see the `ocr-and-documents` skill
+
+## ID Versioning
+
+- `arxiv.org/abs/1706.03762` always resolves to the **latest** version
+- `arxiv.org/abs/1706.03762v1` points to a **specific** immutable version
+- When generating citations, preserve the version suffix you actually read to prevent citation drift (a later version may substantially change content)
+- The API `<id>` field returns the versioned URL (e.g., `http://arxiv.org/abs/1706.03762v7`)
+
+## Withdrawn Papers
+
+Papers can be withdrawn after submission. When this happens:
+- The `<summary>` field contains a withdrawal notice (look for "withdrawn" or "retracted")
+- Metadata fields may be incomplete
+- Always check the summary before treating a result as a valid paper

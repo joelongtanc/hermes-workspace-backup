@@ -1,1 +1,267 @@
-IyEvdXNyL2Jpbi9lbnYgcHl0aG9uMwoiIiIKd3NfbW9uaXRvci5weSDigJQgUmVhbC10aW1lIENvbWZ5VUkgV2ViU29ja2V0IG1vbml0b3IuCgpDb25uZWN0cyB0byAvd3MgYW5kIHByZXR0eS1wcmludHMgZXhlY3V0aW9uIGV2ZW50czogbm9kZSBzdGFydC9maW5pc2gsIHNhbXBsaW5nCnByb2dyZXNzLCBjYWNoZWQgbm9kZXMsIGVycm9ycy4gT3B0aW9uYWxseSB3cml0ZXMgcHJldmlldyBmcmFtZXMgdG8gZGlzay4KClVzZWZ1bCBmb3I6CiAgLSBXYXRjaGluZyBhIGxvbmctcnVubmluZyBqb2IgaW4gcmVhbCB0aW1lIHdpdGhvdXQgcGFyc2luZyBKU09OIHlvdXJzZWxmCiAgLSBTYXZpbmcgaW4tcHJvZ3Jlc3MgcHJldmlldyBmcmFtZXMgZm9yIHZpZGVvIC8gYW5pbWF0aW9uIHdvcmtmbG93cwogIC0gRGVidWdnaW5nICJ3aHkgaXMgdGhpcyBoYW5naW5nPyIg4oCUIHNlZSBleGFjdGx5IHdoaWNoIG5vZGUgaXMgc3R1Y2sKClVzYWdlOgogICAgIyBMb2NhbCDigJQgd2F0Y2ggYWxsIGpvYnMgZnJvbSB0aGlzIGNsaWVudF9pZAogICAgcHl0aG9uMyB3c19tb25pdG9yLnB5CgogICAgIyBDbG91ZCDigJQgd2F0Y2ggYSBzcGVjaWZpYyBwcm9tcHRfaWQKICAgIHB5dGhvbjMgd3NfbW9uaXRvci5weSAtLWhvc3QgaHR0cHM6Ly9jbG91ZC5jb21meS5vcmcgXAogICAgICAgIC0tcHJvbXB0LWlkIGFiYy0xMjMtZGVmCgogICAgIyBTYXZlIHByZXZpZXcgZnJhbWVzIHRvIC4vcHJldmlld3MvCiAgICBweXRob24zIHdzX21vbml0b3IucHkgLS1wcmV2aWV3cyAuL3ByZXZpZXdzCgpSZXF1aXJlczogd2Vic29ja2V0LWNsaWVudCAoYHBpcCBpbnN0YWxsIHdlYnNvY2tldC1jbGllbnRgKS4KRmFsbHMgYmFjayB0byBhIGNsZWFyIGVycm9yIG1lc3NhZ2Ugd2hlbiBub3QgaW5zdGFsbGVkLgoiIiIKCmZyb20gX19mdXR1cmVfXyBpbXBvcnQgYW5ub3RhdGlvbnMKCmltcG9ydCBhcmdwYXJzZQppbXBvcnQganNvbgppbXBvcnQgc3RydWN0CmltcG9ydCBzeXMKZnJvbSBwYXRobGliIGltcG9ydCBQYXRoCmZyb20gdXJsbGliLnBhcnNlIGltcG9ydCB1cmxwYXJzZQoKc3lzLnBhdGguaW5zZXJ0KDAsIHN0cihQYXRoKF9fZmlsZV9fKS5yZXNvbHZlKCkucGFyZW50KSkKZnJvbSBfY29tbW9uIGltcG9ydCAoICAjIG5vcWE6IEU0MDIKICAgIERFRkFVTFRfTE9DQUxfSE9TVCwgRU5WX0FQSV9LRVksIGxvZywgbmV3X2NsaWVudF9pZCwgcmVzb2x2ZV9hcGlfa2V5LCBpc19jbG91ZF9ob3N0LAopCgoKIyBCaW5hcnkgZnJhbWUgdHlwZXMgZnJvbSBDb21meVVJIFdlYlNvY2tldCBwcm90b2NvbApCSU5BUllfUFJFVklFV19JTUFHRSA9IDEKQklOQVJZX1RFWFQgPSAzCkJJTkFSWV9QUkVWSUVXX0lNQUdFX1dJVEhfTUVUQURBVEEgPSA0CgojIEltYWdlIHR5cGUgY29kZXMgaW5zaWRlIFBSRVZJRVdfSU1BR0UKSU1BR0VfVFlQRV9KUEVHID0gMQpJTUFHRV9UWVBFX1BORyA9IDIKCiMgQU5TSSBlc2NhcGUgY29kZXMgKHdvcmtzIG9uIG1vc3QgbW9kZXJuIHRlcm1pbmFscykKUkVTRVQgPSAiXDAzM1swbSIKRElNID0gIlwwMzNbMm0iCkJPTEQgPSAiXDAzM1sxbSIKR1JFRU4gPSAiXDAzM1szMm0iCllFTExPVyA9ICJcMDMzWzMzbSIKUkVEID0gIlwwMzNbMzFtIgpDWUFOID0gIlwwMzNbMzZtIgoKCmRlZiBmbXRfY29sb3Ioczogc3RyLCBjb2xvcjogc3RyLCAqLCBjb2xvcl9vbjogYm9vbCA9IFRydWUpIC0+IHN0cjoKICAgIHJldHVybiBmIntjb2xvcn17c317UkVTRVR9IiBpZiBjb2xvcl9vbiBlbHNlIHMKCgpkZWYgcGFyc2VfYmluYXJ5X2ZyYW1lKGRhdGE6IGJ5dGVzKSAtPiBkaWN0IHwgTm9uZToKICAgIGlmIGxlbihkYXRhKSA8IDg6CiAgICAgICAgcmV0dXJuIE5vbmUKICAgIHR5cGVfY29kZSA9IHN0cnVjdC51bnBhY2soIj5JIiwgZGF0YVswOjRdKVswXQogICAgaWYgdHlwZV9jb2RlID09IEJJTkFSWV9QUkVWSUVXX0lNQUdFOgogICAgICAgIGltYWdlX3R5cGUgPSBzdHJ1Y3QudW5wYWNrKCI+SSIsIGRhdGFbNDo4XSlbMF0KICAgICAgICBleHQgPSAianBnIiBpZiBpbWFnZV90eXBlID09IElNQUdFX1RZUEVfSlBFRyBlbHNlICJwbmciIGlmIGltYWdlX3R5cGUgPT0gSU1BR0VfVFlQRV9QTkcgZWxzZSAiYmluIgogICAgICAgIHJldHVybiB7CiAgICAgICAgICAgICJraW5kIjogInByZXZpZXciLAogICAgICAgICAgICAiaW1hZ2VfdHlwZSI6IGltYWdlX3R5cGUsCiAgICAgICAgICAgICJleHQiOiBleHQsCiAgICAgICAgICAgICJpbWFnZV9ieXRlcyI6IGRhdGFbODpdLAogICAgICAgIH0KICAgIGlmIHR5cGVfY29kZSA9PSBCSU5BUllfUFJFVklFV19JTUFHRV9XSVRIX01FVEFEQVRBOgogICAgICAgIGlmIGxlbihkYXRhKSA8IDEyOgogICAgICAgICAgICByZXR1cm4gTm9uZQogICAgICAgIG1ldGFfbGVuID0gc3RydWN0LnVucGFjaygiPkkiLCBkYXRhWzQ6OF0pWzBdCiAgICAgICAgbWV0YV9lbmQgPSA4ICsgbWV0YV9sZW4KICAgICAgICBpZiBsZW4oZGF0YSkgPCBtZXRhX2VuZDoKICAgICAgICAgICAgcmV0dXJuIE5vbmUKICAgICAgICB0cnk6CiAgICAgICAgICAgIG1ldGEgPSBqc29uLmxvYWRzKGRhdGFbODptZXRhX2VuZF0uZGVjb2RlKCJ1dGYtOCIpKQogICAgICAgIGV4Y2VwdCBFeGNlcHRpb246CiAgICAgICAgICAgIG1ldGEgPSB7InJhdyI6IGRhdGFbODptZXRhX2VuZF1bOjIwMF0uZGVjb2RlKCJ1dGYtOCIsICJyZXBsYWNlIil9CiAgICAgICAgcmV0dXJuIHsKICAgICAgICAgICAgImtpbmQiOiAicHJldmlld193aXRoX21ldGFkYXRhIiwKICAgICAgICAgICAgIm1ldGFkYXRhIjogbWV0YSwKICAgICAgICAgICAgImltYWdlX2J5dGVzIjogZGF0YVttZXRhX2VuZDpdLAogICAgICAgICAgICAiZXh0IjogInBuZyIsCiAgICAgICAgfQogICAgaWYgdHlwZV9jb2RlID09IEJJTkFSWV9URVhUOgogICAgICAgIGlmIGxlbihkYXRhKSA8IDg6CiAgICAgICAgICAgIHJldHVybiBOb25lCiAgICAgICAgbmlkX2xlbiA9IHN0cnVjdC51bnBhY2soIj5JIiwgZGF0YVs0OjhdKVswXQogICAgICAgIG5pZF9lbmQgPSA4ICsgbmlkX2xlbgogICAgICAgIGlmIGxlbihkYXRhKSA8IG5pZF9lbmQ6CiAgICAgICAgICAgIHJldHVybiBOb25lCiAgICAgICAgcmV0dXJuIHsKICAgICAgICAgICAgImtpbmQiOiAidGV4dCIsCiAgICAgICAgICAgICJub2RlX2lkIjogZGF0YVs4Om5pZF9lbmRdLmRlY29kZSgidXRmLTgiLCAicmVwbGFjZSIpLAogICAgICAgICAgICAidGV4dCI6IGRhdGFbbmlkX2VuZDpdLmRlY29kZSgidXRmLTgiLCAicmVwbGFjZSIpLAogICAgICAgIH0KICAgIHJldHVybiB7ImtpbmQiOiAidW5rbm93biIsICJ0eXBlX2NvZGUiOiB0eXBlX2NvZGUsICJzaXplIjogbGVuKGRhdGEpfQoKCmRlZiBtYWluKGFyZ3Y6IGxpc3Rbc3RyXSB8IE5vbmUgPSBOb25lKSAtPiBpbnQ6CiAgICBwID0gYXJncGFyc2UuQXJndW1lbnRQYXJzZXIoZGVzY3JpcHRpb249IlJlYWwtdGltZSBDb21meVVJIFdlYlNvY2tldCBtb25pdG9yIikKICAgIHAuYWRkX2FyZ3VtZW50KCItLWhvc3QiLCBkZWZhdWx0PURFRkFVTFRfTE9DQUxfSE9TVCwgaGVscD0iQ29tZnlVSSBzZXJ2ZXIgVVJMIikKICAgIHAuYWRkX2FyZ3VtZW50KCItLWFwaS1rZXkiLCBoZWxwPWYiQVBJIGtleSBmb3IgY2xvdWQgKG9yIHNldCAke0VOVl9BUElfS0VZfSBlbnYgdmFyKSIpCiAgICBwLmFkZF9hcmd1bWVudCgiLS1jbGllbnQtaWQiLCBkZWZhdWx0PU5vbmUsIGhlbHA9IkNsaWVudCBJRCAoZGVmYXVsdDogcmFuZG9tIFVVSUQpIikKICAgIHAuYWRkX2FyZ3VtZW50KCItLXByb21wdC1pZCIsIGRlZmF1bHQ9Tm9uZSwKICAgICAgICAgICAgICAgICAgIGhlbHA9IkZpbHRlciB0byBhIHNwZWNpZmljIHByb21wdF9pZCAoZGVmYXVsdDogYWxsIGpvYnMpIikKICAgIHAuYWRkX2FyZ3VtZW50KCItLXByZXZpZXdzIiwgZGVmYXVsdD1Ob25lLAogICAgICAgICAgICAgICAgICAgaGVscD0iRGlyZWN0b3J5IHRvIHNhdmUgaW4tcHJvZ3Jlc3MgcHJldmlldyBmcmFtZXMiKQogICAgcC5hZGRfYXJndW1lbnQoIi0tbm8tY29sb3IiLCBhY3Rpb249InN0b3JlX3RydWUiLCBoZWxwPSJEaXNhYmxlIEFOU0kgY29sb3VyIikKICAgIHAuYWRkX2FyZ3VtZW50KCItLXRpbWVvdXQiLCB0eXBlPWZsb2F0LCBkZWZhdWx0PTYwMC4wLAogICAgICAgICAgICAgICAgICAgaGVscD0iSGFyZCBjYXAgb24gbW9uaXRvciBkdXJhdGlvbiAoZGVmYXVsdCA2MDBzKSIpCiAgICBhcmdzID0gcC5wYXJzZV9hcmdzKGFyZ3YpCgogICAgdHJ5OgogICAgICAgIGltcG9ydCB3ZWJzb2NrZXQgICMgdHlwZTogaWdub3JlW2ltcG9ydC1ub3QtZm91bmRdCiAgICBleGNlcHQgSW1wb3J0RXJyb3I6CiAgICAgICAgcHJpbnQoanNvbi5kdW1wcyh7CiAgICAgICAgICAgICJlcnJvciI6ICJ3ZWJzb2NrZXQtY2xpZW50IG5vdCBpbnN0YWxsZWQiLAogICAgICAgICAgICAiaW5zdGFsbCI6ICJwaXAgaW5zdGFsbCB3ZWJzb2NrZXQtY2xpZW50IiwKICAgICAgICB9KSkKICAgICAgICByZXR1cm4gMQoKICAgIGFwaV9rZXkgPSByZXNvbHZlX2FwaV9rZXkoYXJncy5hcGlfa2V5KQogICAgY2xvdWQgPSBpc19jbG91ZF9ob3N0KGFyZ3MuaG9zdCkKICAgIGNsaWVudF9pZCA9IGFyZ3MuY2xpZW50X2lkIG9yIG5ld19jbGllbnRfaWQoKQoKICAgICMgQnVpbGQgV1MgVVJMIHByZXNlcnZpbmcgYW55IGJhc2UtcGF0aCBjb21wb25lbnQgKGUuZy4gYmVoaW5kIHJldmVyc2UgcHJveHkpLgogICAgcGFyc2VkID0gdXJscGFyc2UoYXJncy5ob3N0IGlmICI6Ly8iIGluIGFyZ3MuaG9zdCBlbHNlIGYiaHR0cDovL3thcmdzLmhvc3R9IikKICAgIHNjaGVtZSA9ICJ3c3MiIGlmIHBhcnNlZC5zY2hlbWUgPT0gImh0dHBzIiBlbHNlICJ3cyIKICAgIG5ldGxvYyA9IHBhcnNlZC5uZXRsb2MKICAgIGJhc2VfcGF0aCA9IHBhcnNlZC5wYXRoLnJzdHJpcCgiLyIpCiAgICB3c191cmwgPSBmIntzY2hlbWV9Oi8ve25ldGxvY317YmFzZV9wYXRofS93cz9jbGllbnRJZD17Y2xpZW50X2lkfSIKICAgIGlmIGNsb3VkIGFuZCBhcGlfa2V5OgogICAgICAgIHdzX3VybCArPSBmIiZ0b2tlbj17YXBpX2tleX0iCgogICAgY29sb3Jfb24gPSBub3QgYXJncy5ub19jb2xvciBhbmQgc3lzLnN0ZG91dC5pc2F0dHkoKQoKICAgIHByZXZpZXdfZGlyID0gUGF0aChhcmdzLnByZXZpZXdzKS5leHBhbmR1c2VyKCkgaWYgYXJncy5wcmV2aWV3cyBlbHNlIE5vbmUKICAgIGlmIHByZXZpZXdfZGlyOgogICAgICAgIHByZXZpZXdfZGlyLm1rZGlyKHBhcmVudHM9VHJ1ZSwgZXhpc3Rfb2s9VHJ1ZSkKICAgICAgICBsb2coZiJTYXZpbmcgcHJldmlld3MgdG8ge3ByZXZpZXdfZGlyfSIpCgogICAgbG9nKGYiQ29ubmVjdGluZyB0byB7d3NfdXJsfSAoY2xpZW50X2lkPXtjbGllbnRfaWR9KSIpCiAgICBpZiBhcmdzLnByb21wdF9pZDoKICAgICAgICBsb2coZiJGaWx0ZXJpbmcgbWVzc2FnZXMgdG8gcHJvbXB0X2lkPXthcmdzLnByb21wdF9pZH0iKQoKICAgIHdzID0gd2Vic29ja2V0LmNyZWF0ZV9jb25uZWN0aW9uKHdzX3VybCwgdGltZW91dD1hcmdzLnRpbWVvdXQpCiAgICB3cy5zZXR0aW1lb3V0KGFyZ3MudGltZW91dCkKCiAgICBwcmV2aWV3X2NvdW50ZXIgPSAwCiAgICB0cnk6CiAgICAgICAgd2hpbGUgVHJ1ZToKICAgICAgICAgICAgdHJ5OgogICAgICAgICAgICAgICAgbXNnID0gd3MucmVjdigpCiAgICAgICAgICAgIGV4Y2VwdCB3ZWJzb2NrZXQuV2ViU29ja2V0VGltZW91dEV4Y2VwdGlvbjoKICAgICAgICAgICAgICAgIGxvZyhmIklkbGUgZm9yIHthcmdzLnRpbWVvdXR9cyDigJQgZXhpdGluZyIpCiAgICAgICAgICAgICAgICByZXR1cm4gMAogICAgICAgICAgICBpZiBpc2luc3RhbmNlKG1zZywgYnl0ZXMpOgogICAgICAgICAgICAgICAgcGFyc2VkID0gcGFyc2VfYmluYXJ5X2ZyYW1lKG1zZykKICAgICAgICAgICAgICAgIGlmIHBhcnNlZCBpcyBOb25lOgogICAgICAgICAgICAgICAgICAgIGNvbnRpbnVlCiAgICAgICAgICAgICAgICBpZiBwYXJzZWRbImtpbmQiXSBpbiB7InByZXZpZXciLCAicHJldmlld193aXRoX21ldGFkYXRhIn0gYW5kIHByZXZpZXdfZGlyOgogICAgICAgICAgICAgICAgICAgIGltZ19ieXRlcyA9IHBhcnNlZC5nZXQoImltYWdlX2J5dGVzIiwgYiIiKQogICAgICAgICAgICAgICAgICAgIGlmIGltZ19ieXRlczoKICAgICAgICAgICAgICAgICAgICAgICAgZXh0ID0gcGFyc2VkLmdldCgiZXh0IiwgInBuZyIpCiAgICAgICAgICAgICAgICAgICAgICAgIG91dCA9IHByZXZpZXdfZGlyIC8gZiJwcmV2aWV3X3twcmV2aWV3X2NvdW50ZXI6MDVkfS57ZXh0fSIKICAgICAgICAgICAgICAgICAgICAgICAgb3V0LndyaXRlX2J5dGVzKGltZ19ieXRlcykKICAgICAgICAgICAgICAgICAgICAgICAgcHJldmlld19jb3VudGVyICs9IDEKICAgICAgICAgICAgICAgICAgICAgICAgbG9nKGYiICBbcHJldmlld10gc2F2ZWQge291dC5uYW1lfSAoe2xlbihpbWdfYnl0ZXMpfSBieXRlcykiKQogICAgICAgICAgICAgICAgY29udGludWUKCiAgICAgICAgICAgIHRyeToKICAgICAgICAgICAgICAgIHBheWxvYWQgPSBqc29uLmxvYWRzKG1zZykKICAgICAgICAgICAgZXhjZXB0IEV4Y2VwdGlvbjoKICAgICAgICAgICAgICAgIGNvbnRpbnVlCiAgICAgICAgICAgIG10eXBlID0gcGF5bG9hZC5nZXQoInR5cGUiLCAiIikKICAgICAgICAgICAgbWRhdGEgPSBwYXlsb2FkLmdldCgiZGF0YSIsIHt9KSBvciB7fQogICAgICAgICAgICBwaWQgPSBtZGF0YS5nZXQoInByb21wdF9pZCIpCgogICAgICAgICAgICBpZiBhcmdzLnByb21wdF9pZCBhbmQgcGlkIGFuZCBwaWQgIT0gYXJncy5wcm9tcHRfaWQ6CiAgICAgICAgICAgICAgICBjb250aW51ZQoKICAgICAgICAgICAgaWYgbXR5cGUgPT0gInN0YXR1cyI6CiAgICAgICAgICAgICAgICBxciA9IG1kYXRhLmdldCgic3RhdHVzIiwge30pLmdldCgiZXhlY19pbmZvIiwge30pLmdldCgicXVldWVfcmVtYWluaW5nIiwgIj8iKQogICAgICAgICAgICAgICAgcHJpbnQoZm10X2NvbG9yKGYiW3N0YXR1c10gcXVldWVfcmVtYWluaW5nPXtxcn0iLCBESU0sIGNvbG9yX29uPWNvbG9yX29uKSkKICAgICAgICAgICAgZWxpZiBtdHlwZSA9PSAiZXhlY3V0aW9uX3N0YXJ0IjoKICAgICAgICAgICAgICAgIHByaW50KGZtdF9jb2xvcihmIltzdGFydF0gcHJvbXB0X2lkPXtwaWR9IiwgQk9MRCwgY29sb3Jfb249Y29sb3Jfb24pKQogICAgICAgICAgICBlbGlmIG10eXBlID09ICJleGVjdXRpbmciOgogICAgICAgICAgICAgICAgbm9kZSA9IG1kYXRhLmdldCgibm9kZSIpCiAgICAgICAgICAgICAgICBpZiBub2RlOgogICAgICAgICAgICAgICAgICAgIHByaW50KGZtdF9jb2xvcihmIiAgW2V4ZWN1dGluZ10gbm9kZT17bm9kZX0iLCBDWUFOLCBjb2xvcl9vbj1jb2xvcl9vbikpCiAgICAgICAgICAgICAgICBlbHNlOgogICAgICAgICAgICAgICAgICAgIHByaW50KGZtdF9jb2xvcihmIiAgW2V4ZWN1dGluZ10gKHdvcmtmbG93IGRvbmUpIHByb21wdF9pZD17cGlkfSIsIERJTSwgY29sb3Jfb249Y29sb3Jfb24pKQogICAgICAgICAgICBlbGlmIG10eXBlID09ICJwcm9ncmVzcyI6CiAgICAgICAgICAgICAgICB2LCBtID0gbWRhdGEuZ2V0KCJ2YWx1ZSIsIDApLCBtZGF0YS5nZXQoIm1heCIsIDApCiAgICAgICAgICAgICAgICBwY3QgPSAodiAvIG0gKiAxMDApIGlmIG0gZWxzZSAwCiAgICAgICAgICAgICAgICBwcmludChmIiAgICBbcHJvZ3Jlc3NdIHt2fS97bX0gKHtwY3Q6NS4xZn0lKSBub2RlPXttZGF0YS5nZXQoJ25vZGUnKX0iKQogICAgICAgICAgICBlbGlmIG10eXBlID09ICJwcm9ncmVzc19zdGF0ZSI6CiAgICAgICAgICAgICAgICAjIE5ld2VyIGV4dGVuZGVkIHByb2dyZXNzIG1lc3NhZ2UKICAgICAgICAgICAgICAgIG5vZGVzID0gbWRhdGEuZ2V0KCJub2RlcyIpIG9yIHt9CiAgICAgICAgICAgICAgICBydW5uaW5nID0gW2sgZm9yIGssIHYgaW4gbm9kZXMuaXRlbXMoKSBpZiB2LmdldCgicnVubmluZyIpXQogICAgICAgICAgICAgICAgaWYgcnVubmluZzoKICAgICAgICAgICAgICAgICAgICBwcmludChmbXRfY29sb3IoZiIgICAgW3Byb2dyZXNzX3N0YXRlXSBydW5uaW5nPXtydW5uaW5nfSIsIERJTSwgY29sb3Jfb249Y29sb3Jfb24pKQogICAgICAgICAgICBlbGlmIG10eXBlID09ICJleGVjdXRlZCI6CiAgICAgICAgICAgICAgICBub2RlID0gbWRhdGEuZ2V0KCJub2RlIikKICAgICAgICAgICAgICAgIG91dCA9IG1kYXRhLmdldCgib3V0cHV0Iikgb3Ige30KICAgICAgICAgICAgICAgIHN1bW1hcnlfcGFydHMgPSBbXQogICAgICAgICAgICAgICAgZm9yIGtleSBpbiAoImltYWdlcyIsICJ2aWRlbyIsICJ2aWRlb3MiLCAiZ2lmcyIsICJhdWRpbyIsICJmaWxlcyIpOgogICAgICAgICAgICAgICAgICAgIGlmIG91dC5nZXQoa2V5KToKICAgICAgICAgICAgICAgICAgICAgICAgc3VtbWFyeV9wYXJ0cy5hcHBlbmQoZiJ7a2V5fT17bGVuKG91dFtrZXldKX0iKQogICAgICAgICAgICAgICAgc3VtbWFyeSA9ICIsICIuam9pbihzdW1tYXJ5X3BhcnRzKSBpZiBzdW1tYXJ5X3BhcnRzIGVsc2UgIihubyBmaWxlcykiCiAgICAgICAgICAgICAgICBwcmludChmbXRfY29sb3IoZiIgIFtleGVjdXRlZF0gbm9kZT17bm9kZX0ge3N1bW1hcnl9IiwgR1JFRU4sIGNvbG9yX29uPWNvbG9yX29uKSkKICAgICAgICAgICAgZWxpZiBtdHlwZSA9PSAiZXhlY3V0aW9uX2NhY2hlZCI6CiAgICAgICAgICAgICAgICBjYWNoZWQgPSBtZGF0YS5nZXQoIm5vZGVzIikgb3IgW10KICAgICAgICAgICAgICAgIGlmIGNhY2hlZDoKICAgICAgICAgICAgICAgICAgICBwcmludChmbXRfY29sb3IoZiIgIFtjYWNoZWRdIHtsZW4oY2FjaGVkKX0gbm9kZXMgc2tpcHBlZCIsIERJTSwgY29sb3Jfb249Y29sb3Jfb24pKQogICAgICAgICAgICBlbGlmIG10eXBlID09ICJleGVjdXRpb25fc3VjY2VzcyI6CiAgICAgICAgICAgICAgICBwcmludChmbXRfY29sb3IoZiJbc3VjY2Vzc10gcHJvbXB0X2lkPXtwaWR9IiwgR1JFRU4gKyBCT0xELCBjb2xvcl9vbj1jb2xvcl9vbikpCiAgICAgICAgICAgICAgICBpZiBhcmdzLnByb21wdF9pZDoKICAgICAgICAgICAgICAgICAgICByZXR1cm4gMAogICAgICAgICAgICBlbGlmIG10eXBlID09ICJleGVjdXRpb25fZXJyb3IiOgogICAgICAgICAgICAgICAgZXhjX3R5cGUgPSBtZGF0YS5nZXQoImV4Y2VwdGlvbl90eXBlIiwgIj8iKQogICAgICAgICAgICAgICAgZXhjX21zZyA9IG1kYXRhLmdldCgiZXhjZXB0aW9uX21lc3NhZ2UiLCAiPyIpCiAgICAgICAgICAgICAgICBwcmludChmbXRfY29sb3IoZiJbZXJyb3JdIHtleGNfdHlwZX06IHtleGNfbXNnfSIsIFJFRCArIEJPTEQsIGNvbG9yX29uPWNvbG9yX29uKSkKICAgICAgICAgICAgICAgIHRiID0gbWRhdGEuZ2V0KCJ0cmFjZWJhY2siKQogICAgICAgICAgICAgICAgaWYgdGI6CiAgICAgICAgICAgICAgICAgICAgaWYgaXNpbnN0YW5jZSh0YiwgbGlzdCk6CiAgICAgICAgICAgICAgICAgICAgICAgIGZvciBsaW5lIGluIHRiOgogICAgICAgICAgICAgICAgICAgICAgICAgICAgcHJpbnQoZm10X2NvbG9yKGYiICB7bGluZX0iLCBSRUQsIGNvbG9yX29uPWNvbG9yX29uKSkKICAgICAgICAgICAgICAgICAgICBlbHNlOgogICAgICAgICAgICAgICAgICAgICAgICBwcmludChmbXRfY29sb3IoZiIgIHt0Yn0iLCBSRUQsIGNvbG9yX29uPWNvbG9yX29uKSkKICAgICAgICAgICAgICAgIGlmIGFyZ3MucHJvbXB0X2lkOgogICAgICAgICAgICAgICAgICAgIHJldHVybiAxCiAgICAgICAgICAgIGVsaWYgbXR5cGUgPT0gImV4ZWN1dGlvbl9pbnRlcnJ1cHRlZCI6CiAgICAgICAgICAgICAgICBwcmludChmbXRfY29sb3IoZiJbaW50ZXJydXB0ZWRdIHByb21wdF9pZD17cGlkfSIsIFlFTExPVywgY29sb3Jfb249Y29sb3Jfb24pKQogICAgICAgICAgICAgICAgaWYgYXJncy5wcm9tcHRfaWQ6CiAgICAgICAgICAgICAgICAgICAgcmV0dXJuIDEKICAgICAgICAgICAgZWxpZiBtdHlwZSA9PSAibm90aWZpY2F0aW9uIjoKICAgICAgICAgICAgICAgIHYgPSBtZGF0YS5nZXQoInZhbHVlIiwgIiIpCiAgICAgICAgICAgICAgICBwcmludChmbXRfY29sb3IoZiJbbm90aWZpY2F0aW9uXSB7dn0iLCBESU0sIGNvbG9yX29uPWNvbG9yX29uKSkKICAgICAgICAgICAgZWxzZToKICAgICAgICAgICAgICAgICMgVW5rbm93biAvIGxpZ2h0bHktdXNlZCB0eXBlczogcHJpbnQgY29tcGFjdGx5CiAgICAgICAgICAgICAgICBwcmludChmbXRfY29sb3IoZiJbe210eXBlfV0ge2pzb24uZHVtcHMobWRhdGEsIGRlZmF1bHQ9c3RyKVs6MjAwXX0iLCBESU0sIGNvbG9yX29uPWNvbG9yX29uKSkKCiAgICBleGNlcHQgS2V5Ym9hcmRJbnRlcnJ1cHQ6CiAgICAgICAgbG9nKCJJbnRlcnJ1cHRlZCIpCiAgICAgICAgcmV0dXJuIDEzMAogICAgZmluYWxseToKICAgICAgICB0cnk6CiAgICAgICAgICAgIHdzLmNsb3NlKCkKICAgICAgICBleGNlcHQgRXhjZXB0aW9uOgogICAgICAgICAgICBwYXNzCgoKaWYgX19uYW1lX18gPT0gIl9fbWFpbl9fIjoKICAgIHN5cy5leGl0KG1haW4oKSkK
+#!/usr/bin/env python3
+"""
+ws_monitor.py — Real-time ComfyUI WebSocket monitor.
+
+Connects to /ws and pretty-prints execution events: node start/finish, sampling
+progress, cached nodes, errors. Optionally writes preview frames to disk.
+
+Useful for:
+  - Watching a long-running job in real time without parsing JSON yourself
+  - Saving in-progress preview frames for video / animation workflows
+  - Debugging "why is this hanging?" — see exactly which node is stuck
+
+Usage:
+    # Local — watch all jobs from this client_id
+    python3 ws_monitor.py
+
+    # Cloud — watch a specific prompt_id
+    python3 ws_monitor.py --host https://cloud.comfy.org \
+        --prompt-id abc-123-def
+
+    # Save preview frames to ./previews/
+    python3 ws_monitor.py --previews ./previews
+
+Requires: websocket-client (`pip install websocket-client`).
+Falls back to a clear error message when not installed.
+"""
+
+from __future__ import annotations
+
+import argparse
+import json
+import struct
+import sys
+from pathlib import Path
+from urllib.parse import urlparse
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from _common import (  # noqa: E402
+    DEFAULT_LOCAL_HOST, ENV_API_KEY, log, new_client_id, resolve_api_key, is_cloud_host,
+)
+
+
+# Binary frame types from ComfyUI WebSocket protocol
+BINARY_PREVIEW_IMAGE = 1
+BINARY_TEXT = 3
+BINARY_PREVIEW_IMAGE_WITH_METADATA = 4
+
+# Image type codes inside PREVIEW_IMAGE
+IMAGE_TYPE_JPEG = 1
+IMAGE_TYPE_PNG = 2
+
+# ANSI escape codes (works on most modern terminals)
+RESET = "\033[0m"
+DIM = "\033[2m"
+BOLD = "\033[1m"
+GREEN = "\033[32m"
+YELLOW = "\033[33m"
+RED = "\033[31m"
+CYAN = "\033[36m"
+
+
+def fmt_color(s: str, color: str, *, color_on: bool = True) -> str:
+    return f"{color}{s}{RESET}" if color_on else s
+
+
+def parse_binary_frame(data: bytes) -> dict | None:
+    if len(data) < 8:
+        return None
+    type_code = struct.unpack(">I", data[0:4])[0]
+    if type_code == BINARY_PREVIEW_IMAGE:
+        image_type = struct.unpack(">I", data[4:8])[0]
+        ext = "jpg" if image_type == IMAGE_TYPE_JPEG else "png" if image_type == IMAGE_TYPE_PNG else "bin"
+        return {
+            "kind": "preview",
+            "image_type": image_type,
+            "ext": ext,
+            "image_bytes": data[8:],
+        }
+    if type_code == BINARY_PREVIEW_IMAGE_WITH_METADATA:
+        if len(data) < 12:
+            return None
+        meta_len = struct.unpack(">I", data[4:8])[0]
+        meta_end = 8 + meta_len
+        if len(data) < meta_end:
+            return None
+        try:
+            meta = json.loads(data[8:meta_end].decode("utf-8"))
+        except Exception:
+            meta = {"raw": data[8:meta_end][:200].decode("utf-8", "replace")}
+        return {
+            "kind": "preview_with_metadata",
+            "metadata": meta,
+            "image_bytes": data[meta_end:],
+            "ext": "png",
+        }
+    if type_code == BINARY_TEXT:
+        if len(data) < 8:
+            return None
+        nid_len = struct.unpack(">I", data[4:8])[0]
+        nid_end = 8 + nid_len
+        if len(data) < nid_end:
+            return None
+        return {
+            "kind": "text",
+            "node_id": data[8:nid_end].decode("utf-8", "replace"),
+            "text": data[nid_end:].decode("utf-8", "replace"),
+        }
+    return {"kind": "unknown", "type_code": type_code, "size": len(data)}
+
+
+def main(argv: list[str] | None = None) -> int:
+    p = argparse.ArgumentParser(description="Real-time ComfyUI WebSocket monitor")
+    p.add_argument("--host", default=DEFAULT_LOCAL_HOST, help="ComfyUI server URL")
+    p.add_argument("--api-key", help=f"API key for cloud (or set ${ENV_API_KEY} env var)")
+    p.add_argument("--client-id", default=None, help="Client ID (default: random UUID)")
+    p.add_argument("--prompt-id", default=None,
+                   help="Filter to a specific prompt_id (default: all jobs)")
+    p.add_argument("--previews", default=None,
+                   help="Directory to save in-progress preview frames")
+    p.add_argument("--no-color", action="store_true", help="Disable ANSI colour")
+    p.add_argument("--timeout", type=float, default=600.0,
+                   help="Hard cap on monitor duration (default 600s)")
+    args = p.parse_args(argv)
+
+    try:
+        import websocket  # type: ignore[import-not-found]
+    except ImportError:
+        print(json.dumps({
+            "error": "websocket-client not installed",
+            "install": "pip install websocket-client",
+        }))
+        return 1
+
+    api_key = resolve_api_key(args.api_key)
+    cloud = is_cloud_host(args.host)
+    client_id = args.client_id or new_client_id()
+
+    # Build WS URL preserving any base-path component (e.g. behind reverse proxy).
+    parsed = urlparse(args.host if "://" in args.host else f"http://{args.host}")
+    scheme = "wss" if parsed.scheme == "https" else "ws"
+    netloc = parsed.netloc
+    base_path = parsed.path.rstrip("/")
+    ws_url = f"{scheme}://{netloc}{base_path}/ws?clientId={client_id}"
+    if cloud and api_key:
+        ws_url += f"&token={api_key}"
+
+    color_on = not args.no_color and sys.stdout.isatty()
+
+    preview_dir = Path(args.previews).expanduser() if args.previews else None
+    if preview_dir:
+        preview_dir.mkdir(parents=True, exist_ok=True)
+        log(f"Saving previews to {preview_dir}")
+
+    log(f"Connecting to {ws_url} (client_id={client_id})")
+    if args.prompt_id:
+        log(f"Filtering messages to prompt_id={args.prompt_id}")
+
+    ws = websocket.create_connection(ws_url, timeout=args.timeout)
+    ws.settimeout(args.timeout)
+
+    preview_counter = 0
+    try:
+        while True:
+            try:
+                msg = ws.recv()
+            except websocket.WebSocketTimeoutException:
+                log(f"Idle for {args.timeout}s — exiting")
+                return 0
+            if isinstance(msg, bytes):
+                parsed = parse_binary_frame(msg)
+                if parsed is None:
+                    continue
+                if parsed["kind"] in {"preview", "preview_with_metadata"} and preview_dir:
+                    img_bytes = parsed.get("image_bytes", b"")
+                    if img_bytes:
+                        ext = parsed.get("ext", "png")
+                        out = preview_dir / f"preview_{preview_counter:05d}.{ext}"
+                        out.write_bytes(img_bytes)
+                        preview_counter += 1
+                        log(f"  [preview] saved {out.name} ({len(img_bytes)} bytes)")
+                continue
+
+            try:
+                payload = json.loads(msg)
+            except Exception:
+                continue
+            mtype = payload.get("type", "")
+            mdata = payload.get("data", {}) or {}
+            pid = mdata.get("prompt_id")
+
+            if args.prompt_id and pid and pid != args.prompt_id:
+                continue
+
+            if mtype == "status":
+                qr = mdata.get("status", {}).get("exec_info", {}).get("queue_remaining", "?")
+                print(fmt_color(f"[status] queue_remaining={qr}", DIM, color_on=color_on))
+            elif mtype == "execution_start":
+                print(fmt_color(f"[start] prompt_id={pid}", BOLD, color_on=color_on))
+            elif mtype == "executing":
+                node = mdata.get("node")
+                if node:
+                    print(fmt_color(f"  [executing] node={node}", CYAN, color_on=color_on))
+                else:
+                    print(fmt_color(f"  [executing] (workflow done) prompt_id={pid}", DIM, color_on=color_on))
+            elif mtype == "progress":
+                v, m = mdata.get("value", 0), mdata.get("max", 0)
+                pct = (v / m * 100) if m else 0
+                print(f"    [progress] {v}/{m} ({pct:5.1f}%) node={mdata.get('node')}")
+            elif mtype == "progress_state":
+                # Newer extended progress message
+                nodes = mdata.get("nodes") or {}
+                running = [k for k, v in nodes.items() if v.get("running")]
+                if running:
+                    print(fmt_color(f"    [progress_state] running={running}", DIM, color_on=color_on))
+            elif mtype == "executed":
+                node = mdata.get("node")
+                out = mdata.get("output") or {}
+                summary_parts = []
+                for key in ("images", "video", "videos", "gifs", "audio", "files"):
+                    if out.get(key):
+                        summary_parts.append(f"{key}={len(out[key])}")
+                summary = ", ".join(summary_parts) if summary_parts else "(no files)"
+                print(fmt_color(f"  [executed] node={node} {summary}", GREEN, color_on=color_on))
+            elif mtype == "execution_cached":
+                cached = mdata.get("nodes") or []
+                if cached:
+                    print(fmt_color(f"  [cached] {len(cached)} nodes skipped", DIM, color_on=color_on))
+            elif mtype == "execution_success":
+                print(fmt_color(f"[success] prompt_id={pid}", GREEN + BOLD, color_on=color_on))
+                if args.prompt_id:
+                    return 0
+            elif mtype == "execution_error":
+                exc_type = mdata.get("exception_type", "?")
+                exc_msg = mdata.get("exception_message", "?")
+                print(fmt_color(f"[error] {exc_type}: {exc_msg}", RED + BOLD, color_on=color_on))
+                tb = mdata.get("traceback")
+                if tb:
+                    if isinstance(tb, list):
+                        for line in tb:
+                            print(fmt_color(f"  {line}", RED, color_on=color_on))
+                    else:
+                        print(fmt_color(f"  {tb}", RED, color_on=color_on))
+                if args.prompt_id:
+                    return 1
+            elif mtype == "execution_interrupted":
+                print(fmt_color(f"[interrupted] prompt_id={pid}", YELLOW, color_on=color_on))
+                if args.prompt_id:
+                    return 1
+            elif mtype == "notification":
+                v = mdata.get("value", "")
+                print(fmt_color(f"[notification] {v}", DIM, color_on=color_on))
+            else:
+                # Unknown / lightly-used types: print compactly
+                print(fmt_color(f"[{mtype}] {json.dumps(mdata, default=str)[:200]}", DIM, color_on=color_on))
+
+    except KeyboardInterrupt:
+        log("Interrupted")
+        return 130
+    finally:
+        try:
+            ws.close()
+        except Exception:
+            pass
+
+
+if __name__ == "__main__":
+    sys.exit(main())

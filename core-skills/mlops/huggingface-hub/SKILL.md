@@ -1,1 +1,81 @@
-LS0tCm5hbWU6IGh1Z2dpbmdmYWNlLWh1YgpkZXNjcmlwdGlvbjogIkh1Z2dpbmdGYWNlIGhmIENMSTogc2VhcmNoL2Rvd25sb2FkL3VwbG9hZCBtb2RlbHMsIGRhdGFzZXRzLiIKdmVyc2lvbjogMS4wLjAKYXV0aG9yOiBIdWdnaW5nIEZhY2UKbGljZW5zZTogTUlUCnRhZ3M6IFtodWdnaW5nZmFjZSwgaGYsIG1vZGVscywgZGF0YXNldHMsIGh1YiwgbWxvcHNdCnBsYXRmb3JtczogW2xpbnV4LCBtYWNvcywgd2luZG93c10KLS0tCgojIEh1Z2dpbmcgRmFjZSBDTEkgKGBoZmApIFJlZmVyZW5jZSBHdWlkZQoKVGhlIGBoZmAgY29tbWFuZCBpcyB0aGUgbW9kZXJuIGNvbW1hbmQtbGluZSBpbnRlcmZhY2UgZm9yIGludGVyYWN0aW5nIHdpdGggdGhlIEh1Z2dpbmcgRmFjZSBIdWIsIHByb3ZpZGluZyB0b29scyB0byBtYW5hZ2UgcmVwb3NpdG9yaWVzLCBtb2RlbHMsIGRhdGFzZXRzLCBhbmQgU3BhY2VzLgoKPiAqKklNUE9SVEFOVDoqKiBUaGUgYGhmYCBjb21tYW5kIHJlcGxhY2VzIHRoZSBub3cgZGVwcmVjYXRlZCBgaHVnZ2luZ2ZhY2UtY2xpYCBjb21tYW5kLgoKIyMgUXVpY2sgU3RhcnQKKiAgICoqSW5zdGFsbGF0aW9uOioqIGBjdXJsIC1Mc1NmIGh0dHBzOi8vaGYuY28vY2xpL2luc3RhbGwuc2ggfCBiYXNoIC1zYAoqICAgKipIZWxwOioqIFVzZSBgaGYgLS1oZWxwYCB0byB2aWV3IGFsbCBhdmFpbGFibGUgZnVuY3Rpb25zIGFuZCByZWFsLXdvcmxkIGV4YW1wbGVzLgoqICAgKipBdXRoZW50aWNhdGlvbjoqKiBSZWNvbW1lbmRlZCB2aWEgYEhGX1RPS0VOYCBlbnZpcm9ubWVudCB2YXJpYWJsZSBvciB0aGUgYC0tdG9rZW5gIGZsYWcuCgotLS0KCiMjIENvcmUgQ29tbWFuZHMKCiMjIyBHZW5lcmFsIE9wZXJhdGlvbnMKKiAgIGBoZiBkb3dubG9hZCBSRVBPX0lEYDogRG93bmxvYWQgZmlsZXMgZnJvbSB0aGUgSHViLgoqICAgYGhmIHVwbG9hZCBSRVBPX0lEYDogVXBsb2FkIGZpbGVzL2ZvbGRlcnMgKHJlY29tbWVuZGVkIGZvciBzaW5nbGUtY29tbWl0KS4KKiAgIGBoZiB1cGxvYWQtbGFyZ2UtZm9sZGVyIFJFUE9fSUQgTE9DQUxfUEFUSGA6IFJlY29tbWVuZGVkIGZvciByZXN1bWFibGUgdXBsb2FkcyBvZiBsYXJnZSBkaXJlY3Rvcmllcy4KKiAgIGBoZiBzeW5jYDogU3luYyBmaWxlcyBiZXR3ZWVuIGEgbG9jYWwgZGlyZWN0b3J5IGFuZCBhIGJ1Y2tldC4KKiAgIGBoZiBlbnZgIC8gYGhmIHZlcnNpb25gOiBWaWV3IGVudmlyb25tZW50IGFuZCB2ZXJzaW9uIGRldGFpbHMuCgojIyMgQXV0aGVudGljYXRpb24gKGBoZiBhdXRoYCkKKiAgIGBsb2dpbmAgLyBgbG9nb3V0YDogTWFuYWdlIHNlc3Npb25zIHVzaW5nIHRva2VucyBmcm9tIFtodWdnaW5nZmFjZS5jby9zZXR0aW5ncy90b2tlbnNdKGh0dHBzOi8vaHVnZ2luZ2ZhY2UuY28vc2V0dGluZ3MvdG9rZW5zKS4KKiAgIGBsaXN0YCAvIGBzd2l0Y2hgOiBNYW5hZ2UgYW5kIHRvZ2dsZSBiZXR3ZWVuIG11bHRpcGxlIHN0b3JlZCBhY2Nlc3MgdG9rZW5zLgoqICAgYHdob2FtaWA6IElkZW50aWZ5IHRoZSBjdXJyZW50bHkgbG9nZ2VkLWluIGFjY291bnQuCgojIyMgUmVwb3NpdG9yeSBNYW5hZ2VtZW50IChgaGYgcmVwb3NgKQoqICAgYGNyZWF0ZWAgLyBgZGVsZXRlYDogQ3JlYXRlIG9yIHBlcm1hbmVudGx5IHJlbW92ZSByZXBvc2l0b3JpZXMuCiogICBgZHVwbGljYXRlYDogQ2xvbmUgYSBtb2RlbCwgZGF0YXNldCwgb3IgU3BhY2UgdG8gYSBuZXcgSUQuCiogICBgbW92ZWA6IFRyYW5zZmVyIGEgcmVwb3NpdG9yeSBiZXR3ZWVuIG5hbWVzcGFjZXMuCiogICBgYnJhbmNoYCAvIGB0YWdgOiBNYW5hZ2UgR2l0LWxpa2UgcmVmZXJlbmNlcy4KKiAgIGBkZWxldGUtZmlsZXNgOiBSZW1vdmUgc3BlY2lmaWMgZmlsZXMgdXNpbmcgcGF0dGVybnMuCgotLS0KCiMjIFNwZWNpYWxpemVkIEh1YiBJbnRlcmFjdGlvbnMKCiMjIyBEYXRhc2V0cyAmIE1vZGVscwoqICAgKipEYXRhc2V0czoqKiBgaGYgZGF0YXNldHMgbGlzdGAsIGBpbmZvYCwgYW5kIGBwYXJxdWV0YCAobGlzdCBwYXJxdWV0IFVSTHMpLgoqICAgKipTUUwgUXVlcmllczoqKiBgaGYgZGF0YXNldHMgc3FsIFNRTGAg4oCUIEV4ZWN1dGUgcmF3IFNRTCB2aWEgRHVja0RCIGFnYWluc3QgZGF0YXNldCBwYXJxdWV0IFVSTHMuCiogICAqKk1vZGVsczoqKiBgaGYgbW9kZWxzIGxpc3RgIGFuZCBgaW5mb2AuCiogICAqKlBhcGVyczoqKiBgaGYgcGFwZXJzIGxpc3RgIOKAlCBWaWV3IGRhaWx5IHBhcGVycy4KCiMjIyBEaXNjdXNzaW9ucyAmIFB1bGwgUmVxdWVzdHMgKGBoZiBkaXNjdXNzaW9uc2ApCiogICBNYW5hZ2UgdGhlIGxpZmVjeWNsZSBvZiBIdWIgY29udHJpYnV0aW9uczogYGxpc3RgLCBgY3JlYXRlYCwgYGluZm9gLCBgY29tbWVudGAsIGBjbG9zZWAsIGByZW9wZW5gLCBhbmQgYHJlbmFtZWAuCiogICBgZGlmZmA6IFZpZXcgY2hhbmdlcyBpbiBhIFBSLgoqICAgYG1lcmdlYDogRmluYWxpemUgcHVsbCByZXF1ZXN0cy4KCiMjIyBJbmZyYXN0cnVjdHVyZSAmIENvbXB1dGUKKiAgICoqRW5kcG9pbnRzOioqIERlcGxveSBhbmQgbWFuYWdlIEluZmVyZW5jZSBFbmRwb2ludHMgKGBkZXBsb3lgLCBgcGF1c2VgLCBgcmVzdW1lYCwgYHNjYWxlLXRvLXplcm9gLCBgY2F0YWxvZ2ApLgoqICAgKipKb2JzOioqIFJ1biBjb21wdXRlIHRhc2tzIG9uIEhGIGluZnJhc3RydWN0dXJlLiBJbmNsdWRlcyBgaGYgam9icyB1dmAgZm9yIHJ1bm5pbmcgUHl0aG9uIHNjcmlwdHMgd2l0aCBpbmxpbmUgZGVwZW5kZW5jaWVzIGFuZCBgc3RhdHNgIGZvciByZXNvdXJjZSBtb25pdG9yaW5nLgoqICAgKipTcGFjZXM6KiogTWFuYWdlIGludGVyYWN0aXZlIGFwcHMuIEluY2x1ZGVzIGBkZXYtbW9kZWAgYW5kIGBob3QtcmVsb2FkYCBmb3IgUHl0aG9uIGZpbGVzIHdpdGhvdXQgZnVsbCByZXN0YXJ0cy4KCiMjIyBTdG9yYWdlICYgQXV0b21hdGlvbgoqICAgKipCdWNrZXRzOioqIEZ1bGwgUzMtbGlrZSBidWNrZXQgbWFuYWdlbWVudCAoYGNyZWF0ZWAsIGBjcGAsIGBtdmAsIGBybWAsIGBzeW5jYCkuCiogICAqKkNhY2hlOioqIE1hbmFnZSBsb2NhbCBzdG9yYWdlIHdpdGggYGxpc3RgLCBgcHJ1bmVgIChyZW1vdmUgZGV0YWNoZWQgcmV2aXNpb25zKSwgYW5kIGB2ZXJpZnlgIChjaGVja3N1bSBjaGVja3MpLgoqICAgKipXZWJob29rczoqKiBBdXRvbWF0ZSB3b3JrZmxvd3MgYnkgbWFuYWdpbmcgSHViIHdlYmhvb2tzIChgY3JlYXRlYCwgYHdhdGNoYCwgYGVuYWJsZWAvYGRpc2FibGVgKS4KKiAgICoqQ29sbGVjdGlvbnM6KiogT3JnYW5pemUgSHViIGl0ZW1zIGludG8gY29sbGVjdGlvbnMgKGBhZGQtaXRlbWAsIGB1cGRhdGVgLCBgbGlzdGApLgoKLS0tCgojIyBBZHZhbmNlZCBVc2FnZSAmIFRpcHMKCiMjIyBHbG9iYWwgRmxhZ3MKKiAgIGAtLWZvcm1hdCBqc29uYDogUHJvZHVjZXMgbWFjaGluZS1yZWFkYWJsZSBvdXRwdXQgZm9yIGF1dG9tYXRpb24uCiogICBgLXFgIC8gYC0tcXVpZXRgOiBMaW1pdHMgb3V0cHV0IHRvIElEcyBvbmx5LgoKIyMjIEV4dGVuc2lvbnMgJiBTa2lsbHMKKiAgICoqRXh0ZW5zaW9uczoqKiBFeHRlbmQgQ0xJIGZ1bmN0aW9uYWxpdHkgdmlhIEdpdEh1YiByZXBvc2l0b3JpZXMgdXNpbmcgYGhmIGV4dGVuc2lvbnMgaW5zdGFsbCBSRVBPX0lEYC4KKiAgICoqU2tpbGxzOioqIE1hbmFnZSBBSSBhc3Npc3RhbnQgc2tpbGxzIHdpdGggYGhmIHNraWxscyBhZGRgLgo=
+---
+name: huggingface-hub
+description: "HuggingFace hf CLI: search/download/upload models, datasets."
+version: 1.0.0
+author: Hugging Face
+license: MIT
+tags: [huggingface, hf, models, datasets, hub, mlops]
+platforms: [linux, macos, windows]
+---
+
+# Hugging Face CLI (`hf`) Reference Guide
+
+The `hf` command is the modern command-line interface for interacting with the Hugging Face Hub, providing tools to manage repositories, models, datasets, and Spaces.
+
+> **IMPORTANT:** The `hf` command replaces the now deprecated `huggingface-cli` command.
+
+## Quick Start
+*   **Installation:** `curl -LsSf https://hf.co/cli/install.sh | bash -s`
+*   **Help:** Use `hf --help` to view all available functions and real-world examples.
+*   **Authentication:** Recommended via `HF_TOKEN` environment variable or the `--token` flag.
+
+---
+
+## Core Commands
+
+### General Operations
+*   `hf download REPO_ID`: Download files from the Hub.
+*   `hf upload REPO_ID`: Upload files/folders (recommended for single-commit).
+*   `hf upload-large-folder REPO_ID LOCAL_PATH`: Recommended for resumable uploads of large directories.
+*   `hf sync`: Sync files between a local directory and a bucket.
+*   `hf env` / `hf version`: View environment and version details.
+
+### Authentication (`hf auth`)
+*   `login` / `logout`: Manage sessions using tokens from [huggingface.co/settings/tokens](https://huggingface.co/settings/tokens).
+*   `list` / `switch`: Manage and toggle between multiple stored access tokens.
+*   `whoami`: Identify the currently logged-in account.
+
+### Repository Management (`hf repos`)
+*   `create` / `delete`: Create or permanently remove repositories.
+*   `duplicate`: Clone a model, dataset, or Space to a new ID.
+*   `move`: Transfer a repository between namespaces.
+*   `branch` / `tag`: Manage Git-like references.
+*   `delete-files`: Remove specific files using patterns.
+
+---
+
+## Specialized Hub Interactions
+
+### Datasets & Models
+*   **Datasets:** `hf datasets list`, `info`, and `parquet` (list parquet URLs).
+*   **SQL Queries:** `hf datasets sql SQL` — Execute raw SQL via DuckDB against dataset parquet URLs.
+*   **Models:** `hf models list` and `info`.
+*   **Papers:** `hf papers list` — View daily papers.
+
+### Discussions & Pull Requests (`hf discussions`)
+*   Manage the lifecycle of Hub contributions: `list`, `create`, `info`, `comment`, `close`, `reopen`, and `rename`.
+*   `diff`: View changes in a PR.
+*   `merge`: Finalize pull requests.
+
+### Infrastructure & Compute
+*   **Endpoints:** Deploy and manage Inference Endpoints (`deploy`, `pause`, `resume`, `scale-to-zero`, `catalog`).
+*   **Jobs:** Run compute tasks on HF infrastructure. Includes `hf jobs uv` for running Python scripts with inline dependencies and `stats` for resource monitoring.
+*   **Spaces:** Manage interactive apps. Includes `dev-mode` and `hot-reload` for Python files without full restarts.
+
+### Storage & Automation
+*   **Buckets:** Full S3-like bucket management (`create`, `cp`, `mv`, `rm`, `sync`).
+*   **Cache:** Manage local storage with `list`, `prune` (remove detached revisions), and `verify` (checksum checks).
+*   **Webhooks:** Automate workflows by managing Hub webhooks (`create`, `watch`, `enable`/`disable`).
+*   **Collections:** Organize Hub items into collections (`add-item`, `update`, `list`).
+
+---
+
+## Advanced Usage & Tips
+
+### Global Flags
+*   `--format json`: Produces machine-readable output for automation.
+*   `-q` / `--quiet`: Limits output to IDs only.
+
+### Extensions & Skills
+*   **Extensions:** Extend CLI functionality via GitHub repositories using `hf extensions install REPO_ID`.
+*   **Skills:** Manage AI assistant skills with `hf skills add`.

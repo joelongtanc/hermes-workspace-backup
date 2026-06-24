@@ -1,1 +1,319 @@
-LS0tCm5hbWU6IG5vZGUtaW5zcGVjdC1kZWJ1Z2dlcgpkZXNjcmlwdGlvbjogIkRlYnVnIE5vZGUuanMgdmlhIC0taW5zcGVjdCArIENocm9tZSBEZXZUb29scyBQcm90b2NvbCBDTEkuIgp2ZXJzaW9uOiAxLjAuMAphdXRob3I6IEhlcm1lcyBBZ2VudApsaWNlbnNlOiBNSVQKcGxhdGZvcm1zOiBbbGludXgsIG1hY29zLCB3aW5kb3dzXQptZXRhZGF0YToKICBoZXJtZXM6CiAgICB0YWdzOiBbZGVidWdnaW5nLCBub2RlanMsIG5vZGUtaW5zcGVjdCwgY2RwLCBicmVha3BvaW50cywgdWktdHVpXQogICAgcmVsYXRlZF9za2lsbHM6IFtzeXN0ZW1hdGljLWRlYnVnZ2luZywgcHl0aG9uLWRlYnVncHksIGRlYnVnZ2luZy1oZXJtZXMtdHVpLWNvbW1hbmRzXQotLS0KCiMgTm9kZS5qcyBJbnNwZWN0IERlYnVnZ2VyCgojIyBPdmVydmlldwoKV2hlbiBgY29uc29sZS5sb2dgIGlzbid0IGVub3VnaCwgZHJpdmUgTm9kZSdzIGJ1aWx0LWluIFY4IGluc3BlY3RvciBwcm9ncmFtbWF0aWNhbGx5IGZyb20gdGhlIHRlcm1pbmFsLiBZb3UgZ2V0IHJlYWwgYnJlYWtwb2ludHMsIHN0ZXAgaW4vb3Zlci9vdXQsIGNhbGwtc3RhY2sgd2Fsa2luZywgbG9jYWwvY2xvc3VyZSBzY29wZSBkdW1wcywgYW5kIGFyYml0cmFyeSBleHByZXNzaW9uIGV2YWx1YXRpb24gaW4gdGhlIHBhdXNlZCBmcmFtZS4KClR3byB0b29scywgcGljayBvbmU6CgotICoqYG5vZGUgaW5zcGVjdGAqKiDigJQgYnVpbHQtaW4sIHplcm8gaW5zdGFsbCwgQ0xJIFJFUEwuIEJlc3QgZm9yIHF1aWNrIHBva2luZy4KLSAqKmBuZGJgIC8gQ0RQIHZpYSBgY2hyb21lLXJlbW90ZS1pbnRlcmZhY2VgKiog4oCUIHNjcmlwdGFibGUgZnJvbSBOb2RlL1B5dGhvbjsgYmVzdCB3aGVuIHlvdSB3YW50IHRvIGF1dG9tYXRlIG1hbnkgYnJlYWtwb2ludHMsIGNvbGxlY3Qgc3RhdGUgYWNyb3NzIHJ1bnMsIG9yIGRlYnVnIG5vbi1pbnRlcmFjdGl2ZWx5IGZyb20gYW4gYWdlbnQgbG9vcC4KCioqUHJlZmVyIGBub2RlIGluc3BlY3RgIGZpcnN0LioqIEl0J3MgYWx3YXlzIGF2YWlsYWJsZSBhbmQgdGhlIFJFUEwgaXMgZmFzdC4KCiMjIFdoZW4gdG8gVXNlCgotIEEgTm9kZSB0ZXN0IGZhaWxzIGFuZCB5b3UgbmVlZCB0byBzZWUgaW50ZXJtZWRpYXRlIHN0YXRlCi0gdWktdHVpIGNyYXNoZXMgb3IgYmVoYXZlcyB3cm9uZyBhbmQgeW91IHdhbnQgdG8gaW5zcGVjdCBSZWFjdC9Jbmsgc3RhdGUgcHJlLXJlbmRlcgotIHR1aV9nYXRld2F5IGNoaWxkIHByb2Nlc3NlcyAoYF9TbGFzaFdvcmtlcmAsIFBUWSBicmlkZ2Ugd29ya2VycykgbWlzYmVoYXZlCi0gWW91IG5lZWQgdG8gaW5zcGVjdCBhIHZhbHVlIGluIGEgY2xvc3VyZSB0aGF0IGBjb25zb2xlLmxvZ2AgY2FuJ3QgcmVhY2ggd2l0aG91dCBwYXRjaGluZwotIFBlcmY6IGF0dGFjaCB0byBhIHJ1bm5pbmcgcHJvY2VzcyB0byBjYXB0dXJlIGEgQ1BVIHByb2ZpbGUgb3IgaGVhcCBzbmFwc2hvdAoKKipEb24ndCB1c2UgZm9yOioqIHRoaW5ncyBgY29uc29sZS5sb2dgIHNvbHZlcyBpbiB1bmRlciBhIG1pbnV0ZS4gQnJlYWtwb2ludC1kcml2ZW4gZGVidWdnaW5nIGlzIGhlYXZpZXI7IHVzZSBpdCB3aGVuIHRoZSBwYXlvZmYgaXMgcmVhbC4KCiMjIFF1aWNrIFJlZmVyZW5jZTogYG5vZGUgaW5zcGVjdGAgUkVQTAoKTGF1bmNoIHBhdXNlZCBvbiBmaXJzdCBsaW5lOgoKYGBgYmFzaApub2RlIGluc3BlY3QgcGF0aC90by9zY3JpcHQuanMKIyBvciB3aXRoIHRzeApub2RlIC0taW5zcGVjdC1icmsgJCh3aGljaCB0c3gpIHBhdGgvdG8vc2NyaXB0LnRzCmBgYAoKVGhlIGBkZWJ1Zz5gIHByb21wdCBhY2NlcHRzOgoKfCBDb21tYW5kIHwgQWN0aW9uIHwKfC0tLXwtLS18CnwgYGNgIG9yIGBjb250YCB8IGNvbnRpbnVlIHwKfCBgbmAgb3IgYG5leHRgIHwgc3RlcCBvdmVyIHwKfCBgc2Agb3IgYHN0ZXBgIHwgc3RlcCBpbnRvIHwKfCBgb2Agb3IgYG91dGAgfCBzdGVwIG91dCB8CnwgYHBhdXNlYCB8IHBhdXNlIHJ1bm5pbmcgY29kZSB8CnwgYHNiKCdmaWxlLmpzJywgNDIpYCB8IHNldCBicmVha3BvaW50IGF0IGZpbGUuanMgbGluZSA0MiB8CnwgYHNiKDQyKWAgfCBzZXQgYnJlYWtwb2ludCBhdCBsaW5lIDQyIG9mIGN1cnJlbnQgZmlsZSB8CnwgYHNiKCdmdW5jdGlvbk5hbWUnKWAgfCBicmVhayB3aGVuIGZ1bmN0aW9uIGlzIGNhbGxlZCB8CnwgYGNiKCdmaWxlLmpzJywgNDIpYCB8IGNsZWFyIGJyZWFrcG9pbnQgfAp8IGBicmVha3BvaW50c2AgfCBsaXN0IGFsbCBicmVha3BvaW50cyB8CnwgYGJ0YCB8IGJhY2t0cmFjZSAoY2FsbCBzdGFjaykgfAp8IGBsaXN0KDUpYCB8IHNob3cgNSBsaW5lcyBvZiBzb3VyY2UgYXJvdW5kIGN1cnJlbnQgcG9zaXRpb24gfAp8IGB3YXRjaCgnZXhwcicpYCB8IGV2YWx1YXRlIGV4cHIgb24gZXZlcnkgcGF1c2UgfAp8IGB3YXRjaGVyc2AgfCBzaG93IHdhdGNoZWQgZXhwcmVzc2lvbnMgfAp8IGByZXBsYCB8IGRyb3AgaW50byBSRVBMIGluIGN1cnJlbnQgc2NvcGUgKEN0cmwrQyB0byBleGl0IFJFUEwpIHwKfCBgZXhlYyBleHByYCB8IGV2YWx1YXRlIGV4cHJlc3Npb24gb25jZSB8CnwgYHJlc3RhcnRgIHwgcmVzdGFydCBzY3JpcHQgfAp8IGBraWxsYCB8IGtpbGwgdGhlIHNjcmlwdCB8CnwgYC5leGl0YCB8IHF1aXQgZGVidWdnZXIgfAoKKipJbiB0aGUgYHJlcGxgIHN1Yi1tb2RlOioqIHR5cGUgYW55IEpTIGV4cHJlc3Npb24sIGluY2x1ZGluZyBhY2Nlc3MgdG8gbG9jYWxzL2Nsb3N1cmUgdmFyaWFibGVzLiBgQ3RybCtDYCBleGl0cyBiYWNrIHRvIGBkZWJ1Zz5gLgoKIyMgQXR0YWNoaW5nIHRvIGEgUnVubmluZyBQcm9jZXNzCgpXaGVuIHRoZSBwcm9jZXNzIGlzIGFscmVhZHkgcnVubmluZyAoZS5nLiBhIGxvbmctbGl2ZWQgZGV2IHNlcnZlciBvciB0aGUgVFVJIGdhdGV3YXkpOgoKYGBgYmFzaAojIDEuIFNlbmQgU0lHVVNSMSB0byBlbmFibGUgdGhlIGluc3BlY3RvciBvbiBhbiBleGlzdGluZyBwcm9jZXNzCmtpbGwgLVNJR1VTUjEgPHBpZD4KIyBOb2RlIHByaW50czogRGVidWdnZXIgbGlzdGVuaW5nIG9uIHdzOi8vMTI3LjAuMC4xOjkyMjkvPHV1aWQ+CgojIDIuIEF0dGFjaCB0aGUgZGVidWdnZXIgQ0xJCm5vZGUgaW5zcGVjdCAtcCA8cGlkPgojIG9yIGJ5IFVSTApub2RlIGluc3BlY3Qgd3M6Ly8xMjcuMC4wLjE6OTIyOS88dXVpZD4KYGBgCgpUbyBzdGFydCBhIHByb2Nlc3Mgd2l0aCB0aGUgaW5zcGVjdG9yIGZyb20gdGhlIGJlZ2lubmluZzoKCmBgYGJhc2gKbm9kZSAtLWluc3BlY3Qgc2NyaXB0LmpzICAgICAgICAgICAjIGxpc3RlbiBvbiAxMjcuMC4wLjE6OTIyOSwga2VlcCBydW5uaW5nCm5vZGUgLS1pbnNwZWN0LWJyayBzY3JpcHQuanMgICAgICAgIyBsaXN0ZW4gQU5EIHBhdXNlIG9uIGZpcnN0IGxpbmUKbm9kZSAtLWluc3BlY3Q9MC4wLjAuMDo5MjMwIHNjcmlwdC5qcyAgICMgY3VzdG9tIGhvc3Q6cG9ydApgYGAKCkZvciBUeXBlU2NyaXB0IHZpYSB0c3g6CgpgYGBiYXNoCm5vZGUgLS1pbnNwZWN0LWJyayAtLWltcG9ydCB0c3ggc2NyaXB0LnRzCiMgb3Igb2xkZXIgdHN4Cm5vZGUgLS1pbnNwZWN0LWJyayAtciB0c3gvY2pzIHNjcmlwdC50cwpgYGAKCiMjIFByb2dyYW1tYXRpYyBDRFAgKHNjcmlwdGluZyBmcm9tIHRlcm1pbmFsKQoKV2hlbiB5b3Ugd2FudCB0byBhdXRvbWF0ZSDigJQgc2V0IG1hbnkgYnJlYWtwb2ludHMsIGNhcHR1cmUgc2NvcGUgc3RhdGUsIHNjcmlwdCBhIHJlcHJvIOKAlCB1c2UgYGNocm9tZS1yZW1vdGUtaW50ZXJmYWNlYDoKCmBgYGJhc2gKbnBtIGkgLWcgY2hyb21lLXJlbW90ZS1pbnRlcmZhY2UgICAgICAgICMgb3IgcHJvamVjdC1sb2NhbAojIFN0YXJ0IHlvdXIgdGFyZ2V0Ogpub2RlIC0taW5zcGVjdC1icms9OTIyOSB0YXJnZXQuanMgJgpgYGAKCkRyaXZlciBzY3JpcHQgKHNhdmUgYXMgYC90bXAvY2RwLWRlYnVnLmpzYCk6CgpgYGBqYXZhc2NyaXB0CmNvbnN0IENEUCA9IHJlcXVpcmUoJ2Nocm9tZS1yZW1vdGUtaW50ZXJmYWNlJyk7CgooYXN5bmMgKCkgPT4gewogIGNvbnN0IGNsaWVudCA9IGF3YWl0IENEUCh7IHBvcnQ6IDkyMjkgfSk7CiAgY29uc3QgeyBEZWJ1Z2dlciwgUnVudGltZSB9ID0gY2xpZW50OwoKICBEZWJ1Z2dlci5wYXVzZWQoYXN5bmMgKHsgY2FsbEZyYW1lcywgcmVhc29uIH0pID0+IHsKICAgIGNvbnN0IHRvcCA9IGNhbGxGcmFtZXNbMF07CiAgICBjb25zb2xlLmxvZyhgUEFVU0VEOiAke3JlYXNvbn0gQCAke3RvcC51cmx9OiR7dG9wLmxvY2F0aW9uLmxpbmVOdW1iZXIgKyAxfWApOwoKICAgIC8vIFdhbGsgc2NvcGVzIGZvciBsb2NhbHMKICAgIGZvciAoY29uc3Qgc2NvcGUgb2YgdG9wLnNjb3BlQ2hhaW4pIHsKICAgICAgaWYgKHNjb3BlLnR5cGUgPT09ICdsb2NhbCcgfHwgc2NvcGUudHlwZSA9PT0gJ2Nsb3N1cmUnKSB7CiAgICAgICAgY29uc3QgeyByZXN1bHQgfSA9IGF3YWl0IFJ1bnRpbWUuZ2V0UHJvcGVydGllcyh7CiAgICAgICAgICBvYmplY3RJZDogc2NvcGUub2JqZWN0Lm9iamVjdElkLAogICAgICAgICAgb3duUHJvcGVydGllczogdHJ1ZSwKICAgICAgICB9KTsKICAgICAgICBmb3IgKGNvbnN0IHAgb2YgcmVzdWx0KSB7CiAgICAgICAgICBjb25zb2xlLmxvZyhgICAke3Njb3BlLnR5cGV9LiR7cC5uYW1lfSA9YCwgcC52YWx1ZT8udmFsdWUgPz8gcC52YWx1ZT8uZGVzY3JpcHRpb24pOwogICAgICAgIH0KICAgICAgfQogICAgfQoKICAgIC8vIEV2YWx1YXRlIGFuIGV4cHJlc3Npb24gaW4gdGhlIHBhdXNlZCBmcmFtZQogICAgY29uc3QgeyByZXN1bHQgfSA9IGF3YWl0IERlYnVnZ2VyLmV2YWx1YXRlT25DYWxsRnJhbWUoewogICAgICBjYWxsRnJhbWVJZDogdG9wLmNhbGxGcmFtZUlkLAogICAgICBleHByZXNzaW9uOiAndHlwZW9mIHN0YXRlICE9PSAidW5kZWZpbmVkIiA/IEpTT04uc3RyaW5naWZ5KHN0YXRlKSA6ICJuL2EiJywKICAgIH0pOwogICAgY29uc29sZS5sb2coJ3N0YXRlID0nLCByZXN1bHQudmFsdWUgPz8gcmVzdWx0LmRlc2NyaXB0aW9uKTsKCiAgICBhd2FpdCBEZWJ1Z2dlci5yZXN1bWUoKTsKICB9KTsKCiAgYXdhaXQgUnVudGltZS5lbmFibGUoKTsKICBhd2FpdCBEZWJ1Z2dlci5lbmFibGUoKTsKCiAgLy8gU2V0IGEgYnJlYWtwb2ludCBieSBVUkwgcmVnZXggKyBsaW5lCiAgYXdhaXQgRGVidWdnZXIuc2V0QnJlYWtwb2ludEJ5VXJsKHsKICAgIHVybFJlZ2V4OiAnLiphcHBcXC50c3gkJywKICAgIGxpbmVOdW1iZXI6IDExOSwgICAgICAgLy8gMC1pbmRleGVkCiAgICBjb2x1bW5OdW1iZXI6IDAsCiAgfSk7CgogIGF3YWl0IFJ1bnRpbWUucnVuSWZXYWl0aW5nRm9yRGVidWdnZXIoKTsKfSkoKTsKYGBgCgpSdW4gaXQ6CgpgYGBiYXNoCm5vZGUgL3RtcC9jZHAtZGVidWcuanMKYGBgCgpIZXJtZXMtc3BlY2lmaWMgbm90ZTogYGNocm9tZS1yZW1vdGUtaW50ZXJmYWNlYCBpcyBOT1QgaW4gYHVpLXR1aS9wYWNrYWdlLmpzb25gLiBJbnN0YWxsIGl0IHRvIGEgdGhyb3dhd2F5IGxvY2F0aW9uIGlmIHlvdSBkb24ndCB3YW50IHRvIGRpcnR5IHRoZSBwcm9qZWN0OgoKYGBgYmFzaApta2RpciAtcCAvdG1wL2NkcC10b29scyAmJiBjZCAvdG1wL2NkcC10b29scyAmJiBucG0gaSBjaHJvbWUtcmVtb3RlLWludGVyZmFjZQpOT0RFX1BBVEg9L3RtcC9jZHAtdG9vbHMvbm9kZV9tb2R1bGVzIG5vZGUgL3RtcC9jZHAtZGVidWcuanMKYGBgCgojIyBEZWJ1Z2dpbmcgSGVybWVzIHVpLXR1aQoKVGhlIFRVSSBpcyBidWlsdCBJbmsgKyB0c3guIFR3byBjb21tb24gc2NlbmFyaW9zOgoKIyMjIERlYnVnZ2luZyBhIHNpbmdsZSBJbmsgY29tcG9uZW50IHVuZGVyIGRldgoKYHVpLXR1aS9wYWNrYWdlLmpzb25gIGhhcyBgbnBtIHJ1biBkZXZgICh0c3ggLS13YXRjaCkuIEFkZCBgLS1pbnNwZWN0LWJya2AgYnkgcnVubmluZyB0c3ggZGlyZWN0bHk6CgpgYGBiYXNoCmNkIC9ob21lL2JiL2hlcm1lcy1hZ2VudC91aS10dWkKbnBtIHJ1biBidWlsZCAgICAjIHByb2R1Y2UgZGlzdC8gb25jZSBzbyB0cmFuc3BpbGUgaXNuJ3QgbmVlZGVkIG9uIGZpcnN0IGxvYWQKbm9kZSAtLWluc3BlY3QtYnJrIGRpc3QvZW50cnkuanMKIyBJbiBhbm90aGVyIHRlcm1pbmFsOgpub2RlIGluc3BlY3QgLXAgPG5vZGUgcGlkPgpgYGAKClRoZW4gaW5zaWRlIGBkZWJ1Zz5gOgoKYGBgCnNiKCdkaXN0L2FwcC5qcycsIDIyMCkgICAgICMgb3Igd2hlcmV2ZXIgdGhlIHN1c3BlY3QgcmVuZGVyIGlzCmNvbnQKYGBgCgpXaGVuIGl0IHBhdXNlcywgYHJlcGxgIOKGkiBpbnNwZWN0IGBwcm9wc2AsIHN0YXRlIHJlZnMsIGB1c2VJbnB1dGAgaGFuZGxlciB2YWx1ZXMsIGV0Yy4KCiMjIyBEZWJ1Z2dpbmcgYSBydW5uaW5nIGBoZXJtZXMgLS10dWlgCgpUaGUgVFVJIHNwYXducyBOb2RlIGZyb20gdGhlIFB5dGhvbiBDTEkuIEVhc2llc3QgcGF0aDoKCmBgYGJhc2gKIyAxLiBMYXVuY2ggVFVJCmhlcm1lcyAtLXR1aSAmClRVSV9QSUQ9JChwZ3JlcCAtZiAndWktdHVpL2Rpc3QvZW50cnknIHwgaGVhZCAtMSkKCiMgMi4gRW5hYmxlIGluc3BlY3RvciBvbiB0aGF0IE5vZGUgUElECmtpbGwgLVNJR1VTUjEgIiRUVUlfUElEIgoKIyAzLiBGaW5kIHRoZSBXUyBVUkwKY3VybCAtcyBodHRwOi8vMTI3LjAuMC4xOjkyMjkvanNvbi9saXN0IHwganEgLXIgJy5bMF0ud2ViU29ja2V0RGVidWdnZXJVcmwnCgojIDQuIEF0dGFjaApub2RlIGluc3BlY3Qgd3M6Ly8xMjcuMC4wLjE6OTIyOS88dXVpZD4KYGBgCgpJbnRlcmFjdGluZyB3aXRoIHRoZSBUVUkgKHR5cGluZyBpbiBpdHMgd2luZG93KSBjb250aW51ZXMgdG8gYWR2YW5jZSBleGVjdXRpb247IHlvdXIgZGVidWdnZXIgY2FuIHBhdXNlIGl0IG9uIGEgYnJlYWtwb2ludCBhdCBhbnkgYHNiKC4uLilgLgoKIyMjIERlYnVnZ2luZyBgX1NsYXNoV29ya2VyYCAvIFBUWSBjaGlsZCBwcm9jZXNzZXMKClRob3NlIGFyZSBQeXRob24sIG5vdCBOb2RlIOKAlCB1c2UgdGhlIGBweXRob24tZGVidWdweWAgc2tpbGwgZm9yIHRoZW0uIE9ubHkgTm9kZSBwb3J0aW9ucyAoSW5rIFVJLCB0dWlfZ2F0ZXdheSBjbGllbnQsIHRzeC1ydW4gdGVzdHMgdW5kZXIgYHVpLXR1aS9gKSB1c2UgdGhpcyBza2lsbC4KCiMjIFJ1bm5pbmcgVml0ZXN0IFRlc3RzIFVuZGVyIHRoZSBEZWJ1Z2dlcgoKYGBgYmFzaApjZCAvaG9tZS9iYi9oZXJtZXMtYWdlbnQvdWktdHVpCiMgUnVuIGEgc2luZ2xlIHRlc3QgZmlsZSBwYXVzZWQgb24gZW50cnkKbm9kZSAtLWluc3BlY3QtYnJrIC4vbm9kZV9tb2R1bGVzL3ZpdGVzdC92aXRlc3QubWpzIHJ1biAtLW5vLWZpbGUtcGFyYWxsZWxpc20gc3JjL2FwcC9mb28udGVzdC50c3gKYGBgCgpJbiBhbm90aGVyIHRlcm1pbmFsOiBgbm9kZSBpbnNwZWN0IC1wIDxwaWQ+YCwgdGhlbiBgc2IoJ3NyYy9hcHAvZm9vLnRzeCcsIDQyKWAsIGBjb250YC4KClVzZSBgLS1uby1maWxlLXBhcmFsbGVsaXNtYCAodml0ZXN0KSBvciBgLS1ydW5JbkJhbmRgIChqZXN0KSBzbyBvbmx5IG9uZSB3b3JrZXIgZXhpc3RzIOKAlCBkZWJ1Z2dpbmcgYSBwb29sIGlzIHBhaW5mdWwuCgojIyBIZWFwIFNuYXBzaG90cyAmIENQVSBQcm9maWxlcyAoTm9uLWludGVyYWN0aXZlKQoKRnJvbSB0aGUgQ0RQIGRyaXZlciBhYm92ZSwgc3dhcCBEZWJ1Z2dlciBmb3IgYEhlYXBQcm9maWxlcmAgLyBgUHJvZmlsZXJgOgoKYGBgamF2YXNjcmlwdAovLyBDUFUgcHJvZmlsZSBmb3IgNSBzZWNvbmRzCmF3YWl0IGNsaWVudC5Qcm9maWxlci5lbmFibGUoKTsKYXdhaXQgY2xpZW50LlByb2ZpbGVyLnN0YXJ0KCk7CmF3YWl0IG5ldyBQcm9taXNlKHIgPT4gc2V0VGltZW91dChyLCA1MDAwKSk7CmNvbnN0IHsgcHJvZmlsZSB9ID0gYXdhaXQgY2xpZW50LlByb2ZpbGVyLnN0b3AoKTsKcmVxdWlyZSgnZnMnKS53cml0ZUZpbGVTeW5jKCcvdG1wL2NwdS5jcHVwcm9maWxlJywgSlNPTi5zdHJpbmdpZnkocHJvZmlsZSkpOwovLyBPcGVuIC90bXAvY3B1LmNwdXByb2ZpbGUgaW4gQ2hyb21lIERldlRvb2xzIOKGkiBQZXJmb3JtYW5jZSB0YWIKYGBgCgpgYGBqYXZhc2NyaXB0Ci8vIEhlYXAgc25hcHNob3QKYXdhaXQgY2xpZW50LkhlYXBQcm9maWxlci5lbmFibGUoKTsKY29uc3QgY2h1bmtzID0gW107CmNsaWVudC5IZWFwUHJvZmlsZXIuYWRkSGVhcFNuYXBzaG90Q2h1bmsoKHsgY2h1bmsgfSkgPT4gY2h1bmtzLnB1c2goY2h1bmspKTsKYXdhaXQgY2xpZW50LkhlYXBQcm9maWxlci50YWtlSGVhcFNuYXBzaG90KHsgcmVwb3J0UHJvZ3Jlc3M6IGZhbHNlIH0pOwpyZXF1aXJlKCdmcycpLndyaXRlRmlsZVN5bmMoJy90bXAvaGVhcC5oZWFwc25hcHNob3QnLCBjaHVua3Muam9pbignJykpOwpgYGAKCiMjIENvbW1vbiBQaXRmYWxscwoKMS4gKipXcm9uZyBsaW5lIG51bWJlcnMgaW4gVFMgc291cmNlLioqIEJyZWFrcG9pbnRzIGhpdCB0aGUgZW1pdHRlZCBKUywgbm90IHRoZSBgLnRzYC4gRWl0aGVyIChhKSBicmVhayBpbiB0aGUgYnVpbHQgYGRpc3QvKi5qc2AsIG9yIChiKSBlbmFibGUgc291cmNlbWFwcyAoYG5vZGUgLS1lbmFibGUtc291cmNlLW1hcHNgKSBhbmQgdXNlIGBzYignc3JjL2FwcC50c3gnLCBOKWAg4oCUIGJ1dCBvbmx5IHdpdGggQ0RQIGNsaWVudHMgdGhhdCBmb2xsb3cgc291cmNlbWFwcy4gYG5vZGUgaW5zcGVjdGAgQ0xJIGRvZXMgbm90LgoKMi4gKipgLS1pbnNwZWN0YCB2cyBgLS1pbnNwZWN0LWJya2AuKiogYC0taW5zcGVjdGAgc3RhcnRzIHRoZSBpbnNwZWN0b3IgYnV0IGRvZXNuJ3QgcGF1c2U7IHlvdXIgc2NyaXB0IHJhY2VzIHBhc3QgeW91ciBmaXJzdCBicmVha3BvaW50IGlmIHlvdSBhdHRhY2ggdG9vIGxhdGUuIFVzZSBgLS1pbnNwZWN0LWJya2Agd2hlbiB5b3UgbmVlZCB0byBzZXQgYnJlYWtwb2ludHMgYmVmb3JlIGFueSBjb2RlIHJ1bnMuCgozLiAqKlBvcnQgY29sbGlzaW9ucy4qKiBEZWZhdWx0IGlzIGA5MjI5YC4gSWYgbXVsdGlwbGUgTm9kZSBwcm9jZXNzZXMgYXJlIGluc3BlY3RpbmcsIHBhc3MgYC0taW5zcGVjdD0wYCAocmFuZG9tIHBvcnQpIGFuZCByZWFkIHRoZSBhY3R1YWwgVVJMIGZyb20gYC9qc29uL2xpc3RgOgogICBgYGBiYXNoCiAgIGN1cmwgLXMgaHR0cDovLzEyNy4wLjAuMTo5MjI5L2pzb24vbGlzdCAgICMgbGlzdHMgYWxsIGluc3BlY3RhYmxlIHRhcmdldHMgb24gdGhlIGhvc3QKICAgYGBgCgo0LiAqKkNoaWxkIHByb2Nlc3Nlcy4qKiBgLS1pbnNwZWN0YCBvbiBhIHBhcmVudCBkb2VzIE5PVCBpbnNwZWN0IGl0cyBjaGlsZHJlbi4gVXNlIGBOT0RFX09QVElPTlM9Jy0taW5zcGVjdC1icmsnIG5vZGUgcGFyZW50LmpzYCB0byBwcm9wYWdhdGUgdG8gZXZlcnkgY2hpbGQ7IGJlIGF3YXJlIHRoZXkgYWxsIG5lZWQgdW5pcXVlIHBvcnRzIChOb2RlIGF1dG8taW5jcmVtZW50cyB3aGVuIGBOT0RFX09QVElPTlM9Jy0taW5zcGVjdCdgIGlzIGluaGVyaXRlZCkuCgo1LiAqKkJhY2tncm91bmQga2lsbHMuKiogSWYgeW91IGBDdHJsK0NgIG91dCBvZiBgbm9kZSBpbnNwZWN0YCB3aGlsZSB0aGUgdGFyZ2V0IGlzIHBhdXNlZCwgdGhlIHRhcmdldCBzdGF5cyBwYXVzZWQuIEVpdGhlciBgY29udGAgZmlyc3QsIG9yIGBraWxsYCB0aGUgdGFyZ2V0IGV4cGxpY2l0bHkuCgo2LiAqKlJ1bm5pbmcgYG5vZGUgaW5zcGVjdGAgdGhyb3VnaCBhbiBhZ2VudCB0ZXJtaW5hbC4qKiBJdCdzIGEgUFRZLWZyaWVuZGx5IFJFUEwuIEluIEhlcm1lcywgbGF1bmNoIGl0IHdpdGggYHRlcm1pbmFsKHB0eT10cnVlKWAgb3IgYGJhY2tncm91bmQ9dHJ1ZWAgKyBgcHJvY2VzcyhhY3Rpb249J3N1Ym1pdCcsIGRhdGE9Jy4uLicpYC4gTm9uLVBUWSBmb3JlZ3JvdW5kIG1vZGUgd2lsbCB3b3JrIGZvciBvbmUtc2hvdCBjb21tYW5kcyBidXQgbm90IGZvciBpbnRlcmFjdGl2ZSBzdGVwcGluZy4KCjcuICoqU2VjdXJpdHkuKiogYC0taW5zcGVjdD0wLjAuMC4wOjkyMjlgIGV4cG9zZXMgYXJiaXRyYXJ5IGNvZGUgZXhlY3V0aW9uLiBBbHdheXMgYmluZCB0byBgMTI3LjAuMC4xYCAodGhlIGRlZmF1bHQpIHVubGVzcyB5b3UgaGF2ZSBhbiBpc29sYXRlZCBuZXR3b3JrLgoKIyMgVmVyaWZpY2F0aW9uIENoZWNrbGlzdAoKQWZ0ZXIgc2V0dGluZyB1cCBhIGRlYnVnIHNlc3Npb24sIHZlcmlmeToKCi0gWyBdIGBjdXJsIC1zIGh0dHA6Ly8xMjcuMC4wLjE6OTIyOS9qc29uL2xpc3RgIHJldHVybnMgZXhhY3RseSB0aGUgdGFyZ2V0IHlvdSBleHBlY3QKLSBbIF0gRmlyc3QgYnJlYWtwb2ludCBhY3R1YWxseSBoaXRzIChpZiBpdCBkb2Vzbid0LCB5b3UgbGlrZWx5IG1pc3NlZCBgLS1pbnNwZWN0LWJya2Agb3IgYXR0YWNoZWQgYWZ0ZXIgZXhlY3V0aW9uIGNvbXBsZXRlZCkKLSBbIF0gU291cmNlIGxpc3RpbmcgYXQgcGF1c2Ugc2hvd3MgdGhlIHJpZ2h0IGZpbGUgKG1pc21hdGNoID0gc291cmNlbWFwIGlzc3VlLCBzZWUgcGl0ZmFsbCAxKQotIFsgXSBgZXhlYyBwcm9jZXNzLnBpZGAgaW4gYHJlcGxgIHJldHVybnMgdGhlIFBJRCB5b3UgbWVhbnQgdG8gYXR0YWNoIHRvCgojIyBPbmUtU2hvdCBSZWNpcGVzCgoqKiJXaHkgaXMgdGhpcyB2YXJpYWJsZSB1bmRlZmluZWQgYXQgbGluZSBYPyIqKgpgYGBiYXNoCm5vZGUgLS1pbnNwZWN0LWJyayBzY3JpcHQuanMgJgpub2RlIGluc3BlY3QgLXAgJCEKIyBkZWJ1Zz4Kc2IoJ3NjcmlwdC5qcycsIFgpCmNvbnQKIyBwYXVzZWQuIE5vdzoKcmVwbAo+IG15VmFyaWFibGUKPiBPYmplY3Qua2V5cyh0aGlzKQpgYGAKCioqIldoYXQncyB0aGUgY2FsbCBwYXRoIGludG8gdGhpcyBmdW5jdGlvbj8iKioKYGBgCmRlYnVnPiBzYignc3VzcGVjdEZuJykKZGVidWc+IGNvbnQKIyBwYXVzZWQgb24gZW50cnkKZGVidWc+IGJ0CmBgYAoKKioiVGhpcyBhc3luYyBjaGFpbiBoYW5ncyDigJQgd2hlcmU/IioqCmBgYAojIFN0YXJ0IHdpdGggLS1pbnNwZWN0IChubyAtYnJrKSwgbGV0IGl0IHJ1biB0byB0aGUgaGFuZywgdGhlbjoKZGVidWc+IHBhdXNlCmRlYnVnPiBidAojIE5vdyB5b3Ugc2VlIHRoZSBzdHVjayBmcmFtZQpgYGAK
+---
+name: node-inspect-debugger
+description: "Debug Node.js via --inspect + Chrome DevTools Protocol CLI."
+version: 1.0.0
+author: Hermes Agent
+license: MIT
+platforms: [linux, macos, windows]
+metadata:
+  hermes:
+    tags: [debugging, nodejs, node-inspect, cdp, breakpoints, ui-tui]
+    related_skills: [systematic-debugging, python-debugpy, debugging-hermes-tui-commands]
+---
+
+# Node.js Inspect Debugger
+
+## Overview
+
+When `console.log` isn't enough, drive Node's built-in V8 inspector programmatically from the terminal. You get real breakpoints, step in/over/out, call-stack walking, local/closure scope dumps, and arbitrary expression evaluation in the paused frame.
+
+Two tools, pick one:
+
+- **`node inspect`** — built-in, zero install, CLI REPL. Best for quick poking.
+- **`ndb` / CDP via `chrome-remote-interface`** — scriptable from Node/Python; best when you want to automate many breakpoints, collect state across runs, or debug non-interactively from an agent loop.
+
+**Prefer `node inspect` first.** It's always available and the REPL is fast.
+
+## When to Use
+
+- A Node test fails and you need to see intermediate state
+- ui-tui crashes or behaves wrong and you want to inspect React/Ink state pre-render
+- tui_gateway child processes (`_SlashWorker`, PTY bridge workers) misbehave
+- You need to inspect a value in a closure that `console.log` can't reach without patching
+- Perf: attach to a running process to capture a CPU profile or heap snapshot
+
+**Don't use for:** things `console.log` solves in under a minute. Breakpoint-driven debugging is heavier; use it when the payoff is real.
+
+## Quick Reference: `node inspect` REPL
+
+Launch paused on first line:
+
+```bash
+node inspect path/to/script.js
+# or with tsx
+node --inspect-brk $(which tsx) path/to/script.ts
+```
+
+The `debug>` prompt accepts:
+
+| Command | Action |
+|---|---|
+| `c` or `cont` | continue |
+| `n` or `next` | step over |
+| `s` or `step` | step into |
+| `o` or `out` | step out |
+| `pause` | pause running code |
+| `sb('file.js', 42)` | set breakpoint at file.js line 42 |
+| `sb(42)` | set breakpoint at line 42 of current file |
+| `sb('functionName')` | break when function is called |
+| `cb('file.js', 42)` | clear breakpoint |
+| `breakpoints` | list all breakpoints |
+| `bt` | backtrace (call stack) |
+| `list(5)` | show 5 lines of source around current position |
+| `watch('expr')` | evaluate expr on every pause |
+| `watchers` | show watched expressions |
+| `repl` | drop into REPL in current scope (Ctrl+C to exit REPL) |
+| `exec expr` | evaluate expression once |
+| `restart` | restart script |
+| `kill` | kill the script |
+| `.exit` | quit debugger |
+
+**In the `repl` sub-mode:** type any JS expression, including access to locals/closure variables. `Ctrl+C` exits back to `debug>`.
+
+## Attaching to a Running Process
+
+When the process is already running (e.g. a long-lived dev server or the TUI gateway):
+
+```bash
+# 1. Send SIGUSR1 to enable the inspector on an existing process
+kill -SIGUSR1 <pid>
+# Node prints: Debugger listening on ws://127.0.0.1:9229/<uuid>
+
+# 2. Attach the debugger CLI
+node inspect -p <pid>
+# or by URL
+node inspect ws://127.0.0.1:9229/<uuid>
+```
+
+To start a process with the inspector from the beginning:
+
+```bash
+node --inspect script.js           # listen on 127.0.0.1:9229, keep running
+node --inspect-brk script.js       # listen AND pause on first line
+node --inspect=0.0.0.0:9230 script.js   # custom host:port
+```
+
+For TypeScript via tsx:
+
+```bash
+node --inspect-brk --import tsx script.ts
+# or older tsx
+node --inspect-brk -r tsx/cjs script.ts
+```
+
+## Programmatic CDP (scripting from terminal)
+
+When you want to automate — set many breakpoints, capture scope state, script a repro — use `chrome-remote-interface`:
+
+```bash
+npm i -g chrome-remote-interface        # or project-local
+# Start your target:
+node --inspect-brk=9229 target.js &
+```
+
+Driver script (save as `/tmp/cdp-debug.js`):
+
+```javascript
+const CDP = require('chrome-remote-interface');
+
+(async () => {
+  const client = await CDP({ port: 9229 });
+  const { Debugger, Runtime } = client;
+
+  Debugger.paused(async ({ callFrames, reason }) => {
+    const top = callFrames[0];
+    console.log(`PAUSED: ${reason} @ ${top.url}:${top.location.lineNumber + 1}`);
+
+    // Walk scopes for locals
+    for (const scope of top.scopeChain) {
+      if (scope.type === 'local' || scope.type === 'closure') {
+        const { result } = await Runtime.getProperties({
+          objectId: scope.object.objectId,
+          ownProperties: true,
+        });
+        for (const p of result) {
+          console.log(`  ${scope.type}.${p.name} =`, p.value?.value ?? p.value?.description);
+        }
+      }
+    }
+
+    // Evaluate an expression in the paused frame
+    const { result } = await Debugger.evaluateOnCallFrame({
+      callFrameId: top.callFrameId,
+      expression: 'typeof state !== "undefined" ? JSON.stringify(state) : "n/a"',
+    });
+    console.log('state =', result.value ?? result.description);
+
+    await Debugger.resume();
+  });
+
+  await Runtime.enable();
+  await Debugger.enable();
+
+  // Set a breakpoint by URL regex + line
+  await Debugger.setBreakpointByUrl({
+    urlRegex: '.*app\\.tsx$',
+    lineNumber: 119,       // 0-indexed
+    columnNumber: 0,
+  });
+
+  await Runtime.runIfWaitingForDebugger();
+})();
+```
+
+Run it:
+
+```bash
+node /tmp/cdp-debug.js
+```
+
+Hermes-specific note: `chrome-remote-interface` is NOT in `ui-tui/package.json`. Install it to a throwaway location if you don't want to dirty the project:
+
+```bash
+mkdir -p /tmp/cdp-tools && cd /tmp/cdp-tools && npm i chrome-remote-interface
+NODE_PATH=/tmp/cdp-tools/node_modules node /tmp/cdp-debug.js
+```
+
+## Debugging Hermes ui-tui
+
+The TUI is built Ink + tsx. Two common scenarios:
+
+### Debugging a single Ink component under dev
+
+`ui-tui/package.json` has `npm run dev` (tsx --watch). Add `--inspect-brk` by running tsx directly:
+
+```bash
+cd /home/bb/hermes-agent/ui-tui
+npm run build    # produce dist/ once so transpile isn't needed on first load
+node --inspect-brk dist/entry.js
+# In another terminal:
+node inspect -p <node pid>
+```
+
+Then inside `debug>`:
+
+```
+sb('dist/app.js', 220)     # or wherever the suspect render is
+cont
+```
+
+When it pauses, `repl` → inspect `props`, state refs, `useInput` handler values, etc.
+
+### Debugging a running `hermes --tui`
+
+The TUI spawns Node from the Python CLI. Easiest path:
+
+```bash
+# 1. Launch TUI
+hermes --tui &
+TUI_PID=$(pgrep -f 'ui-tui/dist/entry' | head -1)
+
+# 2. Enable inspector on that Node PID
+kill -SIGUSR1 "$TUI_PID"
+
+# 3. Find the WS URL
+curl -s http://127.0.0.1:9229/json/list | jq -r '.[0].webSocketDebuggerUrl'
+
+# 4. Attach
+node inspect ws://127.0.0.1:9229/<uuid>
+```
+
+Interacting with the TUI (typing in its window) continues to advance execution; your debugger can pause it on a breakpoint at any `sb(...)`.
+
+### Debugging `_SlashWorker` / PTY child processes
+
+Those are Python, not Node — use the `python-debugpy` skill for them. Only Node portions (Ink UI, tui_gateway client, tsx-run tests under `ui-tui/`) use this skill.
+
+## Running Vitest Tests Under the Debugger
+
+```bash
+cd /home/bb/hermes-agent/ui-tui
+# Run a single test file paused on entry
+node --inspect-brk ./node_modules/vitest/vitest.mjs run --no-file-parallelism src/app/foo.test.tsx
+```
+
+In another terminal: `node inspect -p <pid>`, then `sb('src/app/foo.tsx', 42)`, `cont`.
+
+Use `--no-file-parallelism` (vitest) or `--runInBand` (jest) so only one worker exists — debugging a pool is painful.
+
+## Heap Snapshots & CPU Profiles (Non-interactive)
+
+From the CDP driver above, swap Debugger for `HeapProfiler` / `Profiler`:
+
+```javascript
+// CPU profile for 5 seconds
+await client.Profiler.enable();
+await client.Profiler.start();
+await new Promise(r => setTimeout(r, 5000));
+const { profile } = await client.Profiler.stop();
+require('fs').writeFileSync('/tmp/cpu.cpuprofile', JSON.stringify(profile));
+// Open /tmp/cpu.cpuprofile in Chrome DevTools → Performance tab
+```
+
+```javascript
+// Heap snapshot
+await client.HeapProfiler.enable();
+const chunks = [];
+client.HeapProfiler.addHeapSnapshotChunk(({ chunk }) => chunks.push(chunk));
+await client.HeapProfiler.takeHeapSnapshot({ reportProgress: false });
+require('fs').writeFileSync('/tmp/heap.heapsnapshot', chunks.join(''));
+```
+
+## Common Pitfalls
+
+1. **Wrong line numbers in TS source.** Breakpoints hit the emitted JS, not the `.ts`. Either (a) break in the built `dist/*.js`, or (b) enable sourcemaps (`node --enable-source-maps`) and use `sb('src/app.tsx', N)` — but only with CDP clients that follow sourcemaps. `node inspect` CLI does not.
+
+2. **`--inspect` vs `--inspect-brk`.** `--inspect` starts the inspector but doesn't pause; your script races past your first breakpoint if you attach too late. Use `--inspect-brk` when you need to set breakpoints before any code runs.
+
+3. **Port collisions.** Default is `9229`. If multiple Node processes are inspecting, pass `--inspect=0` (random port) and read the actual URL from `/json/list`:
+   ```bash
+   curl -s http://127.0.0.1:9229/json/list   # lists all inspectable targets on the host
+   ```
+
+4. **Child processes.** `--inspect` on a parent does NOT inspect its children. Use `NODE_OPTIONS='--inspect-brk' node parent.js` to propagate to every child; be aware they all need unique ports (Node auto-increments when `NODE_OPTIONS='--inspect'` is inherited).
+
+5. **Background kills.** If you `Ctrl+C` out of `node inspect` while the target is paused, the target stays paused. Either `cont` first, or `kill` the target explicitly.
+
+6. **Running `node inspect` through an agent terminal.** It's a PTY-friendly REPL. In Hermes, launch it with `terminal(pty=true)` or `background=true` + `process(action='submit', data='...')`. Non-PTY foreground mode will work for one-shot commands but not for interactive stepping.
+
+7. **Security.** `--inspect=0.0.0.0:9229` exposes arbitrary code execution. Always bind to `127.0.0.1` (the default) unless you have an isolated network.
+
+## Verification Checklist
+
+After setting up a debug session, verify:
+
+- [ ] `curl -s http://127.0.0.1:9229/json/list` returns exactly the target you expect
+- [ ] First breakpoint actually hits (if it doesn't, you likely missed `--inspect-brk` or attached after execution completed)
+- [ ] Source listing at pause shows the right file (mismatch = sourcemap issue, see pitfall 1)
+- [ ] `exec process.pid` in `repl` returns the PID you meant to attach to
+
+## One-Shot Recipes
+
+**"Why is this variable undefined at line X?"**
+```bash
+node --inspect-brk script.js &
+node inspect -p $!
+# debug>
+sb('script.js', X)
+cont
+# paused. Now:
+repl
+> myVariable
+> Object.keys(this)
+```
+
+**"What's the call path into this function?"**
+```
+debug> sb('suspectFn')
+debug> cont
+# paused on entry
+debug> bt
+```
+
+**"This async chain hangs — where?"**
+```
+# Start with --inspect (no -brk), let it run to the hang, then:
+debug> pause
+debug> bt
+# Now you see the stuck frame
+```

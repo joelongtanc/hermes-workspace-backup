@@ -1,1 +1,29 @@
-IyBvcmlnYW1pCgpGb2xkZWQgcGFwZXIgZm9ybXMgd2l0aCBnZW9tZXRyaWMgcHJlY2lzaW9uCgojIyBDb2xvciBQYWxldHRlCgotIFByaW1hcnk6IFNvbGlkIG9yaWdhbWkgcGFwZXIgY29sb3JzIC0gcmVkLCBibHVlLCBncmVlbiwgZ29sZAotIEJhY2tncm91bmQ6IFdoaXRlIG9yIHNvZnQgZ3JheSwgc3VidGxlIHNoYWRvd3MKLSBBY2NlbnRzOiBQYXBlciBmb2xkIGhpZ2hsaWdodHMsIGNyaXNwIHNoYWRvd3MKCiMjIFZpc3VhbCBFbGVtZW50cwoKLSBHZW9tZXRyaWMgZm9sZGVkIHNoYXBlcwotIFZpc2libGUgZm9sZCBsaW5lcwotIENhc3Qgc2hhZG93cyBzaG93aW5nIGRlcHRoCi0gUGFwZXIgdGV4dHVyZQotIEFuZ3VsYXIsIGZhY2V0ZWQgZm9ybXMKLSBMb3ctcG9seSBhZXN0aGV0aWMKCiMjIFR5cG9ncmFwaHkKCi0gQ2xlYW4gZ2VvbWV0cmljIGZvbnRzCi0gQW5ndWxhciBsZXR0ZXJmb3JtcwotIEZvbGRlZCBwYXBlciB0ZXh0IGVmZmVjdAotIE1pbmltYWwsIHByZWNpc2UgbGFiZWxzCgojIyBCZXN0IEZvcgoKR2VvbWV0cmljIGNvbmNlcHRzLCB0cmFuc2Zvcm1hdGlvbiB0b3BpY3MsIEphcGFuZXNlIHRoZW1lcywgYWJzdHJhY3QgcmVwcmVzZW50YXRpb25zCg==
+# origami
+
+Folded paper forms with geometric precision
+
+## Color Palette
+
+- Primary: Solid origami paper colors - red, blue, green, gold
+- Background: White or soft gray, subtle shadows
+- Accents: Paper fold highlights, crisp shadows
+
+## Visual Elements
+
+- Geometric folded shapes
+- Visible fold lines
+- Cast shadows showing depth
+- Paper texture
+- Angular, faceted forms
+- Low-poly aesthetic
+
+## Typography
+
+- Clean geometric fonts
+- Angular letterforms
+- Folded paper text effect
+- Minimal, precise labels
+
+## Best For
+
+Geometric concepts, transformation topics, Japanese themes, abstract representations

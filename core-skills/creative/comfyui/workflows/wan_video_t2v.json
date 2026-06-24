@@ -1,1 +1,69 @@
-ewogICJfY29tbWVudCI6ICJXYW4gMi4xIHRleHQtdG8tdmlkZW8uIENsb3VkOiBjb25maXJtZWQgYXZhaWxhYmxlLiBMb2NhbDogZG93bmxvYWQgd2FuMi4xX3Qydl8xLjNCX2ZwMTYuc2FmZXRlbnNvcnMg4oaSIG1vZGVscy9kaWZmdXNpb25fbW9kZWxzLyAob3IgbW9kZWxzL3VuZXQvKSwgdW10NV94eGxfZnAxNi5zYWZldGVuc29ycyDihpIgbW9kZWxzL3RleHRfZW5jb2RlcnMvIChvciBtb2RlbHMvY2xpcC8pLCB3YW5fMi4xX3ZhZS5zYWZldGVuc29ycyDihpIgbW9kZWxzL3ZhZS8uIE91dHB1dDogTVA0LiBMYXJnZSBtb2RlbCDigJQgb25seSBvbiBjbG91ZCBvciAyNCBHQisgbG9jYWwgR1BVLiIsCiAgIjYiOiB7CiAgICAiY2xhc3NfdHlwZSI6ICJDTElQVGV4dEVuY29kZSIsCiAgICAiX21ldGEiOiB7InRpdGxlIjogIlByb21wdCJ9LAogICAgImlucHV0cyI6IHsKICAgICAgInRleHQiOiAiYSBncmFjZWZ1bCBjcmFuZSB0YWtpbmcgZmxpZ2h0IGZyb20gYSBtaXN0eSBsYWtlIGF0IGRhd24sIHNsb3cgbW90aW9uLCA0ayIsCiAgICAgICJjbGlwIjogWyIzOCIsIDBdCiAgICB9CiAgfSwKICAiNyI6IHsKICAgICJjbGFzc190eXBlIjogIkNMSVBUZXh0RW5jb2RlIiwKICAgICJfbWV0YSI6IHsidGl0bGUiOiAiTmVnYXRpdmUgUHJvbXB0In0sCiAgICAiaW5wdXRzIjogewogICAgICAidGV4dCI6ICJzdGF0aWMsIGJsdXJyeSwgd2F0ZXJtYXJrLCBsb3cgcXVhbGl0eSIsCiAgICAgICJjbGlwIjogWyIzOCIsIDBdCiAgICB9CiAgfSwKICAiOCI6IHsKICAgICJjbGFzc190eXBlIjogIlZBRURlY29kZSIsCiAgICAiX21ldGEiOiB7InRpdGxlIjogIlZBRSBEZWNvZGUifSwKICAgICJpbnB1dHMiOiB7InNhbXBsZXMiOiBbIjMiLCAwXSwgInZhZSI6IFsiMzkiLCAwXX0KICB9LAogICIzNyI6IHsKICAgICJjbGFzc190eXBlIjogIlVORVRMb2FkZXIiLAogICAgIl9tZXRhIjogeyJ0aXRsZSI6ICJXYW4gVU5FVCJ9LAogICAgImlucHV0cyI6IHsidW5ldF9uYW1lIjogIndhbjIuMV90MnZfMS4zQl9mcDE2LnNhZmV0ZW5zb3JzIiwgIndlaWdodF9kdHlwZSI6ICJkZWZhdWx0In0KICB9LAogICIzOCI6IHsKICAgICJjbGFzc190eXBlIjogIkNMSVBMb2FkZXIiLAogICAgIl9tZXRhIjogeyJ0aXRsZSI6ICJXYW4gQ0xJUCJ9LAogICAgImlucHV0cyI6IHsiY2xpcF9uYW1lIjogInVtdDVfeHhsX2ZwMTYuc2FmZXRlbnNvcnMiLCAidHlwZSI6ICJ3YW4ifQogIH0sCiAgIjM5IjogewogICAgImNsYXNzX3R5cGUiOiAiVkFFTG9hZGVyIiwKICAgICJfbWV0YSI6IHsidGl0bGUiOiAiV2FuIFZBRSJ9LAogICAgImlucHV0cyI6IHsidmFlX25hbWUiOiAid2FuXzIuMV92YWUuc2FmZXRlbnNvcnMifQogIH0sCiAgIjMiOiB7CiAgICAiY2xhc3NfdHlwZSI6ICJLU2FtcGxlciIsCiAgICAiX21ldGEiOiB7InRpdGxlIjogIktTYW1wbGVyIn0sCiAgICAiaW5wdXRzIjogewogICAgICAic2VlZCI6IDQyLCAic3RlcHMiOiAzMCwgImNmZyI6IDYuMCwKICAgICAgInNhbXBsZXJfbmFtZSI6ICJ1bmlfcGMiLCAic2NoZWR1bGVyIjogInNpbXBsZSIsICJkZW5vaXNlIjogMS4wLAogICAgICAibW9kZWwiOiBbIjM3IiwgMF0sCiAgICAgICJwb3NpdGl2ZSI6IFsiNiIsIDBdLAogICAgICAibmVnYXRpdmUiOiBbIjciLCAwXSwKICAgICAgImxhdGVudF9pbWFnZSI6IFsiNDAiLCAwXQogICAgfQogIH0sCiAgIjQwIjogewogICAgImNsYXNzX3R5cGUiOiAiRW1wdHlIdW55dWFuTGF0ZW50VmlkZW8iLAogICAgIl9tZXRhIjogeyJ0aXRsZSI6ICJMYXRlbnQgVmlkZW8gKDMzIGZyYW1lcykifSwKICAgICJpbnB1dHMiOiB7IndpZHRoIjogODMyLCAiaGVpZ2h0IjogNDgwLCAibGVuZ3RoIjogMzMsICJiYXRjaF9zaXplIjogMX0KICB9LAogICI5IjogewogICAgImNsYXNzX3R5cGUiOiAiVkhTX1ZpZGVvQ29tYmluZSIsCiAgICAiX21ldGEiOiB7InRpdGxlIjogIlZpZGVvIENvbWJpbmUifSwKICAgICJpbnB1dHMiOiB7CiAgICAgICJmcmFtZV9yYXRlIjogMTYuMCwKICAgICAgImxvb3BfY291bnQiOiAwLAogICAgICAiZmlsZW5hbWVfcHJlZml4IjogIndhbl90MnYiLAogICAgICAiZm9ybWF0IjogInZpZGVvL2gyNjQtbXA0IiwKICAgICAgInBpbmdwb25nIjogZmFsc2UsCiAgICAgICJzYXZlX291dHB1dCI6IHRydWUsCiAgICAgICJpbWFnZXMiOiBbIjgiLCAwXQogICAgfQogIH0KfQo=
+{
+  "_comment": "Wan 2.1 text-to-video. Cloud: confirmed available. Local: download wan2.1_t2v_1.3B_fp16.safetensors → models/diffusion_models/ (or models/unet/), umt5_xxl_fp16.safetensors → models/text_encoders/ (or models/clip/), wan_2.1_vae.safetensors → models/vae/. Output: MP4. Large model — only on cloud or 24 GB+ local GPU.",
+  "6": {
+    "class_type": "CLIPTextEncode",
+    "_meta": {"title": "Prompt"},
+    "inputs": {
+      "text": "a graceful crane taking flight from a misty lake at dawn, slow motion, 4k",
+      "clip": ["38", 0]
+    }
+  },
+  "7": {
+    "class_type": "CLIPTextEncode",
+    "_meta": {"title": "Negative Prompt"},
+    "inputs": {
+      "text": "static, blurry, watermark, low quality",
+      "clip": ["38", 0]
+    }
+  },
+  "8": {
+    "class_type": "VAEDecode",
+    "_meta": {"title": "VAE Decode"},
+    "inputs": {"samples": ["3", 0], "vae": ["39", 0]}
+  },
+  "37": {
+    "class_type": "UNETLoader",
+    "_meta": {"title": "Wan UNET"},
+    "inputs": {"unet_name": "wan2.1_t2v_1.3B_fp16.safetensors", "weight_dtype": "default"}
+  },
+  "38": {
+    "class_type": "CLIPLoader",
+    "_meta": {"title": "Wan CLIP"},
+    "inputs": {"clip_name": "umt5_xxl_fp16.safetensors", "type": "wan"}
+  },
+  "39": {
+    "class_type": "VAELoader",
+    "_meta": {"title": "Wan VAE"},
+    "inputs": {"vae_name": "wan_2.1_vae.safetensors"}
+  },
+  "3": {
+    "class_type": "KSampler",
+    "_meta": {"title": "KSampler"},
+    "inputs": {
+      "seed": 42, "steps": 30, "cfg": 6.0,
+      "sampler_name": "uni_pc", "scheduler": "simple", "denoise": 1.0,
+      "model": ["37", 0],
+      "positive": ["6", 0],
+      "negative": ["7", 0],
+      "latent_image": ["40", 0]
+    }
+  },
+  "40": {
+    "class_type": "EmptyHunyuanLatentVideo",
+    "_meta": {"title": "Latent Video (33 frames)"},
+    "inputs": {"width": 832, "height": 480, "length": 33, "batch_size": 1}
+  },
+  "9": {
+    "class_type": "VHS_VideoCombine",
+    "_meta": {"title": "Video Combine"},
+    "inputs": {
+      "frame_rate": 16.0,
+      "loop_count": 0,
+      "filename_prefix": "wan_t2v",
+      "format": "video/h264-mp4",
+      "pingpong": false,
+      "save_output": true,
+      "images": ["8", 0]
+    }
+  }
+}

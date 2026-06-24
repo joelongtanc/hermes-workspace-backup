@@ -1,1 +1,211 @@
-IyBNSURJIC8gT1NDIFJlZmVyZW5jZQoKRXh0ZXJuYWwgY29udHJvbGxlciBpbnB1dCBhbmQgb3V0cHV0IOKAlCBNSURJIGhhcmR3YXJlLCBUb3VjaE9TQyBtb2JpbGUgVUlzLCBPU0Mgcm91dGluZyBhY3Jvc3MgdGhlIG5ldHdvcmsuCgpGb3IgYXVkaW8tZHJpdmVuIE1JREkgcGF0dGVybnMgKHRyYWNrIHRyaWdnZXJzIGZyb20gc3BlY3RydW0gYW5hbHlzaXMpLCBzZWUgYWxzbyBgYXVkaW8tcmVhY3RpdmUubWRgLgoKLS0tCgojIyBNSURJIElucHV0IOKAlCBIYXJkd2FyZSBDb250cm9sbGVycwoKIyMjIERpc2NvdmVyeQoKTGlzdCBjb25uZWN0ZWQgTUlESSBkZXZpY2VzIGZpcnN0LiBVc2UgYSBgbWlkaWluREFUYCB0byBlbnVtZXJhdGU6CgpgYGBweXRob24KbWRhdCA9IHJvb3QuY3JlYXRlKG1pZGlpbkRBVCwgJ21pZF9kZXZpY2VzJykKIyBSZWFkIGF2YWlsYWJsZSBkZXZpY2UgbmFtZXMgZnJvbSB0aGUgREFUIGFmdGVyIG9uZSBjb29rCmBgYAoKT3IgdmlhIFB5dGhvbiBkaXJlY3RseToKCmBgYHB5dGhvbgojIEluIHRkX2V4ZWN1dGVfcHl0aG9uCmltcG9ydCB0ZApkZXZpY2VzID0gW2QgZm9yIGQgaW4gb3AuTUlESS5kZXZpY2VzXSAgICMgdmVyaWZ5IHdpdGggdGRfZ2V0X2RvY3MoJ21pZGknKQpgYGAKClZlcmlmeSB0aGUgQVBJIHdpdGggYHRkX2dldF9kb2NzKHRvcGljPSdtaWRpJylgIHNpbmNlIHRoaXMgdmFyaWVzIGJldHdlZW4gVEQgdmVyc2lvbnMuCgojIyMgTUlESSBJbiBDSE9QCgpTdGFuZGFyZCBwYXR0ZXJuOgoKYGBgcHl0aG9uCm1pZGlfaW4gPSByb290LmNyZWF0ZShtaWRpaW5DSE9QLCAnbWlkaV9pbicpCm1pZGlfaW4ucGFyLmRldmljZSA9IDAgICAgICAgICAgICAgICAjIGRldmljZSBpbmRleCBmcm9tIGRpc2NvdmVyeQptaWRpX2luLnBhci5hY3RpdmVjaGFuID0gVHJ1ZQpgYGAKCk91dHB1dCBjaGFubmVscyBmb2xsb3cgdGhlIGNvbnZlbnRpb24gYGNoQ2NOYCBhbmQgYGNoQ25OYDoKLSBgY2gxYzc0YCDigJQgY2hhbm5lbCAxLCBDQyA3NAotIGBjaDFuNjBgIOKAlCBjaGFubmVsIDEsIG5vdGUgNjAgKG1pZGRsZSBDKSDigJQgdmFsdWUgaXMgdmVsb2NpdHkgMC0xMjcKCioqTWFwIGEgQ0MgdG8gYSBwYXJhbWV0ZXI6KioKCmBgYHB5dGhvbgpvcCgnL3Byb2plY3QxL2Jsb29tMScpLnBhci50aHJlc2hvbGQubW9kZSA9IFBhck1vZGUuRVhQUkVTU0lPTgpvcCgnL3Byb2plY3QxL2Jsb29tMScpLnBhci50aHJlc2hvbGQuZXhwciA9ICJvcCgnbWlkaV9pbicpWydjaDFjNzQnXVswXSAvIDEyNy4wIgpgYGAKCioqTWFwIGEgbm90ZSBhcyBhIHRyaWdnZXI6KioKCk5vdGVzIGluIGBtaWRpaW5DSE9QYCBvdXRwdXQgdmVsb2NpdHkgd2hpbGUgaGVsZCwgMCB3aGVuIHJlbGVhc2VkLiBVc2UgYSBgdHJpZ2dlckNIT1BgIHRvIGNvbnZlcnQgYSBoZWxkIG5vdGUgaW50byBwdWxzZXM6CgpgYGBweXRob24KdHJpZyA9IHJvb3QuY3JlYXRlKHRyaWdnZXJDSE9QLCAnbm90ZV90cmlnJykKdHJpZy5wYXIudGhyZXNob2xkID0gMQp0cmlnLnBhci50cmlnZ2Vyb24gPSAnaW5jcmVhc2UnCnRyaWcuaW5wdXRDb25uZWN0b3JzWzBdLmNvbm5lY3Qob3AoJ21pZGlfaW4nKSkKIyBGaWx0ZXIgdG8gYSBzaW5nbGUgY2hhbm5lbCB2aWEgYSBzZWxlY3RDSE9QIGlmIGRlc2lyZWQKYGBgCgojIyMgTUlESSBMZWFybiBQYXR0ZXJuCgpCdWlsZCBhIHJldXNhYmxlIGxlYXJuIHBhdHRlcm4gd2hlbiB5b3UgZG9uJ3Qga25vdyB0aGUgY29udHJvbGxlcidzIENDIGxheW91dCBpbiBhZHZhbmNlOgoKMS4gRHJvcCBhIGBtaWRpaW5DSE9QYCBhbmQgYHNlbGVjdENIT1BgIGFmdGVyIGl0LgoyLiBVc2VyIHdpZ2dsZXMgdGhlIGNvbnRyb2xsZXIga25vYi4KMy4gVXNlIGB0ZF9yZWFkX2Nob3BgIG9uIHRoZSBtaWRpaW5DSE9QIHRvIGlkZW50aWZ5IHdoaWNoIGNoYW5uZWwgaXMgbm9uLXplcm8g4oCUIHRoYXQncyB0aGUgYWN0aXZlIENDLgo0LiBTZXQgdGhlIGBzZWxlY3RDSE9QLnBhci5jaGFubmFtZXNgIHRvIHRoYXQgY2hhbm5lbCBuYW1lLgo1LiBTYXZlIHRoZSBtYXBwaW5nIHRvIGEgYHRhYmxlREFUYCBzbyBpdCBwZXJzaXN0cyBhY3Jvc3Mgc2Vzc2lvbnMuCgotLS0KCiMjIE1JREkgT3V0cHV0CgpgYGBweXRob24KbWlkaV9vdXQgPSByb290LmNyZWF0ZShtaWRpb3V0Q0hPUCwgJ21pZGlfb3V0JykKbWlkaV9vdXQucGFyLmRldmljZSA9IDAKbWlkaV9vdXQucGFyLm91dHB1dGZvcm1hdCA9ICdjb250aW51b3VzJyAgICAjICdjb250aW51b3VzJyB8ICdldmVudCcKCiMgRHJpdmUgYW4gb3V0cHV0OiBzZW5kIG91dCBhIENDIG1hcHBlZCBmcm9tIGFueSAwLTEgc291cmNlCnNyYyA9IHJvb3QuY3JlYXRlKGNvbnN0YW50Q0hPUCwgJ2NjX3NyYycpCnNyYy5wYXIubmFtZTAgPSAnY2gxYzIwJwpzcmMucGFyLnZhbHVlMCA9IDAuNQptaWRpX291dC5pbnB1dENvbm5lY3RvcnNbMF0uY29ubmVjdChzcmMpCmBgYAoKRm9yIG5vdGUgZXZlbnRzIHNwZWNpZmljYWxseSwgdXNlIGBldmVudGAgbW9kZSBhbmQgcHVsc2UgdGhlIHZhbHVlIHdpdGggYSBgcHVsc2VDSE9QYCBvciBgdHJpZ2dlckNIT1BgLgoKLS0tCgojIyBPU0MgSW5wdXQg4oCUIE5ldHdvcmsgQ29udHJvbAoKT1NDIGlzIHRoZSBtb3JlIGZsZXhpYmxlIGNvdXNpbiBvZiBNSURJLiBVc2VkIGhlYXZpbHkgZm9yOgotIFRvdWNoT1NDIC8gTGVtdXIgbW9iaWxlIGNvbnRyb2wgc3VyZmFjZXMKLSBTaG93IGNvbnRyb2wgc3lzdGVtcyAoUUxhYiwgV2F0Y2hvdXQpCi0gSW50ZXItYXBwbGljYXRpb24gc3luYyAoQWJsZXRvbiB2aWEgTWF4IGZvciBMaXZlLCBSZXNvbHVtZSwgZXRjLikKCiMjIyBPU0MgSW4gQ0hPUAoKYGBgcHl0aG9uCm9zY19pbiA9IHJvb3QuY3JlYXRlKG9zY2luQ0hPUCwgJ29zY19pbicpCm9zY19pbi5wYXIucG9ydCA9IDcwMDAgICAgICAgICAgICAgIyBsaXN0ZW4gb24gVURQIDcwMDAKb3NjX2luLnBhci5sb2NhbGFkZHJlc3MgPSAnJyAgICAgICAjIGVtcHR5ID0gYWxsIGludGVyZmFjZXMKb3NjX2luLnBhci5xdWV1ZWQgPSBGYWxzZSAgICAgICAgICAjIGltbWVkaWF0ZSB2cy4gcXVldWVkIHByb2Nlc3NpbmcKYGBgCgpFYWNoIGluY29taW5nIE9TQyBhZGRyZXNzIGJlY29tZXMgYSBjaGFubmVsLiBgL3NjZW5lLzEvaW50ZW5zaXR5YCBiZWNvbWVzIGEgY2hhbm5lbCBuYW1lZCBgc2NlbmVfMV9pbnRlbnNpdHlgIChURCBzYW5pdGl6ZXMgc2xhc2hlcyB0byB1bmRlcnNjb3JlcykuCgoqKkNvbW1vbiBnb3RjaGE6KiogVEQgb25seSBjcmVhdGVzIHRoZSBjaGFubmVsIGFmdGVyIHRoZSBGSVJTVCBtZXNzYWdlIGFycml2ZXMgYXQgdGhhdCBhZGRyZXNzLiBTZW5kIGEgImhlbGxvIiBtZXNzYWdlIGZyb20gdGhlIGNvbnRyb2xsZXIgZHVyaW5nIHNldHVwLCBvciBwcmUtZGVjbGFyZSBjaGFubmVsIG5hbWVzIG1hbnVhbGx5LgoKIyMjIE9TQyBJbiBEQVQgKGZvciByYXcgZXZlbnRzKQoKVXNlIGEgYG9zY2luREFUYCB3aGVuIHlvdSBuZWVkIGZ1bGwgbWVzc2FnZSBhY2Nlc3MgKG11bHRpcGxlIHR5cGVkIGFyZ3MsIGFkZHJlc3NlcyB3aXRoIGJyYWNrZXRzL3JlZ2V4KS4KCmBgYHB5dGhvbgpvc2NfZGF0ID0gcm9vdC5jcmVhdGUob3NjaW5EQVQsICdvc2NfZXZlbnRzJykKb3NjX2RhdC5wYXIucG9ydCA9IDcwMDEKIyBFYWNoIHJvdzogdGltZXN0YW1wLCBhZGRyZXNzLCB0eXBlIHRhZ3MsIGFyZ3MuLi4KYGBgCgpEcml2ZSBsb2dpYyB2aWEgYSBgZGF0RXhlY3V0ZURBVGAgd2F0Y2hpbmcgdGhlIGBvc2NpbkRBVGA6CgpgYGBweXRob24KZGVmIG9uVGFibGVDaGFuZ2UoZGF0KToKICAgIGxhc3QgPSBkYXRbZGF0Lm51bVJvd3MgLSAxLCAnbWVzc2FnZSddCiAgICBwYXJzZWQgPSBsYXN0LnZhbC5zcGxpdCgpCiAgICBhZGRyID0gcGFyc2VkWzBdCiAgICBhcmdzID0gcGFyc2VkWzE6XQogICAgaWYgYWRkciA9PSAnL3NjZW5lL3RyaWdnZXInOgogICAgICAgIG9wKCcvcHJvamVjdDEvc2NlbmVfc3dpdGNoZXInKS5wYXIuaW5kZXggPSBpbnQoYXJnc1swXSkKICAgIHJldHVybgpgYGAKCi0tLQoKIyMgT1NDIE91dHB1dCDigJQgU2VuZGluZyB0byBFeHRlcm5hbCBBcHBzCgpgYGBweXRob24Kb3NjX291dCA9IHJvb3QuY3JlYXRlKG9zY291dENIT1AsICdvc2Nfb3V0JykKb3NjX291dC5wYXIubmV0YWRkcmVzcyA9ICcxMjcuMC4wLjEnICAgICMgZGVzdGluYXRpb24gSVAKb3NjX291dC5wYXIucG9ydCA9IDkwMDAKCiMgQ2hhbm5lbCBuYW1lcyBiZWNvbWUgT1NDIGFkZHJlc3NlcwpzcmMgPSByb290LmNyZWF0ZShjb25zdGFudENIT1AsICdzZW5kJykKc3JjLnBhci5uYW1lMCA9ICdzY2VuZS9pbnRlbnNpdHknICAgICAgICAjIOKGkiAvc2NlbmUvaW50ZW5zaXR5CnNyYy5wYXIudmFsdWUwID0gMC43Cm9zY19vdXQuaW5wdXRDb25uZWN0b3JzWzBdLmNvbm5lY3Qoc3JjKQpgYGAKCioqQ2hhbm5lbC10by1hZGRyZXNzIG1hcHBpbmc6KiogVEQgcHJlcGVuZHMgYC9gIGF1dG9tYXRpY2FsbHkuIFVzZSBgL2AgaW4gY2hhbm5lbCBuYW1lcyB0byBuZXN0LgoKRm9yIG9uZS1zaG90IHN0cmluZy90eXBlZCBtZXNzYWdlcywgdXNlIGBvc2NvdXREQVRgIGFuZCBjYWxsIGAuc2VuZE9TQyhhZGRyZXNzLCBhcmdzKWA6CgpgYGBweXRob24Kb3AoJ29zY19vdXRfZGF0Jykuc2VuZE9TQygnL3NjZW5lL3RyaWdnZXInLCBbMSwgJ2ZhZGUnXSkKYGBgCgotLS0KCiMjIFRvdWNoT1NDIC8gTW9iaWxlIFVJIFBhdHRlcm4KCkNvbW1vbiBzZXR1cCBmb3IgbGl2ZSBWSiBjb250cm9sIGZyb20gYSBwaG9uZS90YWJsZXQ6CgoxLiAqKkNvbmZpZ3VyZSBUb3VjaE9TQyBsYXlvdXQqKiDigJQgYXNzaWduIGVhY2ggY29udHJvbCBhbiBPU0MgYWRkcmVzcyBsaWtlIGAvdmovbWFzdGVyYCwgYC92ai9zY2VuZS8xYCwgZXRjLgoyLiAqKkZpbmQgeW91ciBtYWNoaW5lJ3MgTEFOIElQKiog4oCUIFRvdWNoT1NDIG5lZWRzIHRvIHBvaW50IGF0IGl0LgozLiAqKlREIGxpc3RlbnMqKiBvbiBgb3NjaW5DSE9QLnBhci5wb3J0ID0gODAwMGAgKG9yIHdoaWNoZXZlcikuCjQuICoqTWFwIGNoYW5uZWxzIHRvIHBhcmFtcyoqIHZpYSBleHByZXNzaW9uczoKCmBgYHB5dGhvbgpvcCgnL3Byb2plY3QxL21hc3Rlcl9sZXZlbCcpLnBhci5vcGFjaXR5Lm1vZGUgPSBQYXJNb2RlLkVYUFJFU1NJT04Kb3AoJy9wcm9qZWN0MS9tYXN0ZXJfbGV2ZWwnKS5wYXIub3BhY2l0eS5leHByID0gIm9wKCdvc2NfaW4nKVsndmpfbWFzdGVyJ10iCmBgYAoKNS4gKipTZW5kIGZlZWRiYWNrKiogdG8gdGhlIGNvbnRyb2xsZXIgdmlhIGBvc2NvdXRDSE9QYCDigJQgdXNlZnVsIGZvciBzeW5jaW5nIHN0YXRlIGFjcm9zcyBtdWx0aXBsZSBkZXZpY2VzLgoKLS0tCgojIyBOZXR3b3JrIC8gTXVsdGktTWFjaGluZQoKT1NDIG92ZXIgTEFOIHdvcmtzIG91dC1vZi10aGUtYm94LiBGb3IgbXVsdGktVEQtaW5zdGFuY2Ugc3luYyAoZS5nLiwgcHJvamVjdGlvbiBjbHVzdGVyKToKCi0gT25lIFREIGFjdHMgYXMgKiptYXN0ZXIqKiwgYnJvYWRjYXN0cyBgL3N5bmMvLi4uYCBvdmVyIE9TQwotIFdvcmtlciBURHMgcnVuIGBvc2NpbkNIT1BgIGxpc3RlbmluZyBvbiB0aGUgc2FtZSBwb3J0Ci0gVXNlIFVEUCAqKmJyb2FkY2FzdCBhZGRyZXNzKiogKGUuZy4sIGAxOTIuMTY4LjEuMjU1YCkgb24gdGhlIG1hc3RlcidzIGBvc2NvdXRDSE9QLnBhci5uZXRhZGRyZXNzYCB0byBoaXQgYWxsIHBlZXJzCgpGb3IgcmVsaWFiaWxpdHkgb3ZlciBXQU4sIHVzZSBgd2Vic2VydmVyREFUYCBvciBgd2Vic29ja2V0REFUYCB3aXRoIGFuIGV4dGVybmFsIHJlbGF5IGluc3RlYWQg4oCUIFVEUCBsb3NzIGlzIGludmlzaWJsZS4KCi0tLQoKIyMgUGl0ZmFsbHMKCjEuICoqTUlESSBkZXZpY2UgaW5kZXhpbmcqKiDigJQgZGV2aWNlIGAwYCBpcyB3aGljaGV2ZXIgZGV2aWNlIFREIGVudW1lcmF0ZWQgZmlyc3QuIFJlb3JkZXIgbWF5IHNoaWZ0IGl0LiBQaW4gYnkgbmFtZSB3aGVuIHBvc3NpYmxlLgoyLiAqKk9TQyBjaGFubmVsIG5hbWVzKiog4oCUIFREIGRvZXNuJ3QgY3JlYXRlIGEgY2hhbm5lbCB1bnRpbCB0aGUgZmlyc3QgbWVzc2FnZSBsYW5kcy4gTmV3IGNoYW5uZWxzIGludmFsaWRhdGUgY29va2VkIGRlcGVuZGVudHMgb24gZmlyc3QgYXJyaXZhbCwgY2F1c2luZyBhIG9uZS1mcmFtZSBzdHV0dGVyLgozLiAqKk9TQyBxdWV1ZWQgbW9kZSoqIOKAlCBgcGFyLnF1ZXVlZCA9IFRydWVgIGRlZmVycyBwcm9jZXNzaW5nIHRvIGEgc2luZ2xlIHBlci1mcmFtZSBiYXRjaC4gTG93ZXIgbGF0ZW5jeSBidXQgbWVzc2FnZXMgYXJyaXZpbmcgc2FtZSBmcmFtZSBjb2xsYXBzZSB0byB0aGUgbGFzdCB2YWx1ZS4gT2ZmIGZvciB0cmlnZ2Vycywgb24gZm9yIGNvbnRpbnVvdXMga25vYnMuCjQuICoqTUlESSBjbG9jayB2cy4gdHJhbnNwb3J0Kiog4oCUIGBtaWRpaW5DSE9QYCByZXBvcnRzIGNsb2NrIGlmIGF2YWlsYWJsZS4gVXNlIGBtaWRpc3luY0NIT1BgIChpZiB5b3VyIFREIHZlcnNpb24gZXhwb3NlcyBpdCkgb3IgY29tcHV0ZSBCUE0gZnJvbSBjbG9jayBwdWxzZXMgKDI0IHBlciBxdWFydGVyIG5vdGUpLgo1LiAqKkxhdGVuY3kqKiDigJQgd2lyZWQgTUlESSBpcyB+MS0zbXMuIFdpRmkgT1NDIGlzIDEwLTMwbXMgd2l0aCBqaXR0ZXIuIFVzZSB3aXJlZCBmb3IgdGlnaHQgYmVhdC1sb2NrZWQgd29yay4KNi4gKipQb3J0IGNvbmZsaWN0cyoqIOKAlCBvbmx5IG9uZSBwcm9jZXNzIGNhbiBiaW5kIGEgVURQIHBvcnQgb24gbW9zdCBPUy4gSWYgYG9zY2luQ0hPUGAgc2hvd3Mgbm8gdHJhZmZpYywgY2hlY2sgdGhhdCBhbm90aGVyIGFwcCAoTWF4LCBBYmxldG9uLCBldGMuKSBpc24ndCBhbHJlYWR5IGxpc3RlbmluZyBvbiB0aGF0IHBvcnQuCgotLS0KCiMjIFF1aWNrIFJlY2lwZXMKCnwgR29hbCB8IE9wIGNoYWluIHwKfC0tLXwtLS18CnwgS25vYiDihpIgYmxvb20gaW50ZW5zaXR5IHwgYG1pZGlpbkNIT1BgIOKGkiBleHByZXNzaW9uIG9uIGBibG9vbS5wYXIudGhyZXNob2xkYCB8CnwgTm90ZSDihpIgc2NlbmUgY2hhbmdlIHwgYG1pZGlpbkNIT1BgIOKGkiBgdHJpZ2dlckNIT1BgIOKGkiBgc2VsZWN0Q0hPUGAg4oaSIGRyaXZlIGBzd2l0Y2hUT1AucGFyLmluZGV4YCB8CnwgUGhvbmUgc2xpZGVyIOKGkiBtYXN0ZXIgZmFkZXIgfCBUb3VjaE9TQyBgL21hc3RlcmAg4oaSIGBvc2NpbkNIT1BgIOKGkiBleHByZXNzaW9uIG9uIG91dHB1dCBgbGV2ZWwucGFyLm9wYWNpdHlgIHwKfCBURCDihpIgUmVzb2x1bWUgc2NlbmUgdHJpZ2dlciB8IGBvc2NvdXRDSE9QYCBjaGFubmVsIGBjb21wb3NpdGlvbi9sYXllcnMvMS9jbGlwcy8xL2Nvbm5lY3RgIOKGkiBSZXNvbHVtZSBsaXN0ZW5pbmcgb24gNzAwMCB8CnwgTXVsdGktcHJvamVjdG9yIHN5bmMgfCBNYXN0ZXIgVEQgYG9zY291dENIT1BgIGJyb2FkY2FzdCDihpIgd29ya2VycyBgb3NjaW5DSE9QYCB8Cg==
+# MIDI / OSC Reference
+
+External controller input and output — MIDI hardware, TouchOSC mobile UIs, OSC routing across the network.
+
+For audio-driven MIDI patterns (track triggers from spectrum analysis), see also `audio-reactive.md`.
+
+---
+
+## MIDI Input — Hardware Controllers
+
+### Discovery
+
+List connected MIDI devices first. Use a `midiinDAT` to enumerate:
+
+```python
+mdat = root.create(midiinDAT, 'mid_devices')
+# Read available device names from the DAT after one cook
+```
+
+Or via Python directly:
+
+```python
+# In td_execute_python
+import td
+devices = [d for d in op.MIDI.devices]   # verify with td_get_docs('midi')
+```
+
+Verify the API with `td_get_docs(topic='midi')` since this varies between TD versions.
+
+### MIDI In CHOP
+
+Standard pattern:
+
+```python
+midi_in = root.create(midiinCHOP, 'midi_in')
+midi_in.par.device = 0               # device index from discovery
+midi_in.par.activechan = True
+```
+
+Output channels follow the convention `chCcN` and `chCnN`:
+- `ch1c74` — channel 1, CC 74
+- `ch1n60` — channel 1, note 60 (middle C) — value is velocity 0-127
+
+**Map a CC to a parameter:**
+
+```python
+op('/project1/bloom1').par.threshold.mode = ParMode.EXPRESSION
+op('/project1/bloom1').par.threshold.expr = "op('midi_in')['ch1c74'][0] / 127.0"
+```
+
+**Map a note as a trigger:**
+
+Notes in `midiinCHOP` output velocity while held, 0 when released. Use a `triggerCHOP` to convert a held note into pulses:
+
+```python
+trig = root.create(triggerCHOP, 'note_trig')
+trig.par.threshold = 1
+trig.par.triggeron = 'increase'
+trig.inputConnectors[0].connect(op('midi_in'))
+# Filter to a single channel via a selectCHOP if desired
+```
+
+### MIDI Learn Pattern
+
+Build a reusable learn pattern when you don't know the controller's CC layout in advance:
+
+1. Drop a `midiinCHOP` and `selectCHOP` after it.
+2. User wiggles the controller knob.
+3. Use `td_read_chop` on the midiinCHOP to identify which channel is non-zero — that's the active CC.
+4. Set the `selectCHOP.par.channames` to that channel name.
+5. Save the mapping to a `tableDAT` so it persists across sessions.
+
+---
+
+## MIDI Output
+
+```python
+midi_out = root.create(midioutCHOP, 'midi_out')
+midi_out.par.device = 0
+midi_out.par.outputformat = 'continuous'    # 'continuous' | 'event'
+
+# Drive an output: send out a CC mapped from any 0-1 source
+src = root.create(constantCHOP, 'cc_src')
+src.par.name0 = 'ch1c20'
+src.par.value0 = 0.5
+midi_out.inputConnectors[0].connect(src)
+```
+
+For note events specifically, use `event` mode and pulse the value with a `pulseCHOP` or `triggerCHOP`.
+
+---
+
+## OSC Input — Network Control
+
+OSC is the more flexible cousin of MIDI. Used heavily for:
+- TouchOSC / Lemur mobile control surfaces
+- Show control systems (QLab, Watchout)
+- Inter-application sync (Ableton via Max for Live, Resolume, etc.)
+
+### OSC In CHOP
+
+```python
+osc_in = root.create(oscinCHOP, 'osc_in')
+osc_in.par.port = 7000             # listen on UDP 7000
+osc_in.par.localaddress = ''       # empty = all interfaces
+osc_in.par.queued = False          # immediate vs. queued processing
+```
+
+Each incoming OSC address becomes a channel. `/scene/1/intensity` becomes a channel named `scene_1_intensity` (TD sanitizes slashes to underscores).
+
+**Common gotcha:** TD only creates the channel after the FIRST message arrives at that address. Send a "hello" message from the controller during setup, or pre-declare channel names manually.
+
+### OSC In DAT (for raw events)
+
+Use a `oscinDAT` when you need full message access (multiple typed args, addresses with brackets/regex).
+
+```python
+osc_dat = root.create(oscinDAT, 'osc_events')
+osc_dat.par.port = 7001
+# Each row: timestamp, address, type tags, args...
+```
+
+Drive logic via a `datExecuteDAT` watching the `oscinDAT`:
+
+```python
+def onTableChange(dat):
+    last = dat[dat.numRows - 1, 'message']
+    parsed = last.val.split()
+    addr = parsed[0]
+    args = parsed[1:]
+    if addr == '/scene/trigger':
+        op('/project1/scene_switcher').par.index = int(args[0])
+    return
+```
+
+---
+
+## OSC Output — Sending to External Apps
+
+```python
+osc_out = root.create(oscoutCHOP, 'osc_out')
+osc_out.par.netaddress = '127.0.0.1'    # destination IP
+osc_out.par.port = 9000
+
+# Channel names become OSC addresses
+src = root.create(constantCHOP, 'send')
+src.par.name0 = 'scene/intensity'        # → /scene/intensity
+src.par.value0 = 0.7
+osc_out.inputConnectors[0].connect(src)
+```
+
+**Channel-to-address mapping:** TD prepends `/` automatically. Use `/` in channel names to nest.
+
+For one-shot string/typed messages, use `oscoutDAT` and call `.sendOSC(address, args)`:
+
+```python
+op('osc_out_dat').sendOSC('/scene/trigger', [1, 'fade'])
+```
+
+---
+
+## TouchOSC / Mobile UI Pattern
+
+Common setup for live VJ control from a phone/tablet:
+
+1. **Configure TouchOSC layout** — assign each control an OSC address like `/vj/master`, `/vj/scene/1`, etc.
+2. **Find your machine's LAN IP** — TouchOSC needs to point at it.
+3. **TD listens** on `oscinCHOP.par.port = 8000` (or whichever).
+4. **Map channels to params** via expressions:
+
+```python
+op('/project1/master_level').par.opacity.mode = ParMode.EXPRESSION
+op('/project1/master_level').par.opacity.expr = "op('osc_in')['vj_master']"
+```
+
+5. **Send feedback** to the controller via `oscoutCHOP` — useful for syncing state across multiple devices.
+
+---
+
+## Network / Multi-Machine
+
+OSC over LAN works out-of-the-box. For multi-TD-instance sync (e.g., projection cluster):
+
+- One TD acts as **master**, broadcasts `/sync/...` over OSC
+- Worker TDs run `oscinCHOP` listening on the same port
+- Use UDP **broadcast address** (e.g., `192.168.1.255`) on the master's `oscoutCHOP.par.netaddress` to hit all peers
+
+For reliability over WAN, use `webserverDAT` or `websocketDAT` with an external relay instead — UDP loss is invisible.
+
+---
+
+## Pitfalls
+
+1. **MIDI device indexing** — device `0` is whichever device TD enumerated first. Reorder may shift it. Pin by name when possible.
+2. **OSC channel names** — TD doesn't create a channel until the first message lands. New channels invalidate cooked dependents on first arrival, causing a one-frame stutter.
+3. **OSC queued mode** — `par.queued = True` defers processing to a single per-frame batch. Lower latency but messages arriving same frame collapse to the last value. Off for triggers, on for continuous knobs.
+4. **MIDI clock vs. transport** — `midiinCHOP` reports clock if available. Use `midisyncCHOP` (if your TD version exposes it) or compute BPM from clock pulses (24 per quarter note).
+5. **Latency** — wired MIDI is ~1-3ms. WiFi OSC is 10-30ms with jitter. Use wired for tight beat-locked work.
+6. **Port conflicts** — only one process can bind a UDP port on most OS. If `oscinCHOP` shows no traffic, check that another app (Max, Ableton, etc.) isn't already listening on that port.
+
+---
+
+## Quick Recipes
+
+| Goal | Op chain |
+|---|---|
+| Knob → bloom intensity | `midiinCHOP` → expression on `bloom.par.threshold` |
+| Note → scene change | `midiinCHOP` → `triggerCHOP` → `selectCHOP` → drive `switchTOP.par.index` |
+| Phone slider → master fader | TouchOSC `/master` → `oscinCHOP` → expression on output `level.par.opacity` |
+| TD → Resolume scene trigger | `oscoutCHOP` channel `composition/layers/1/clips/1/connect` → Resolume listening on 7000 |
+| Multi-projector sync | Master TD `oscoutCHOP` broadcast → workers `oscinCHOP` |

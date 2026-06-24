@@ -1,1 +1,137 @@
-LS0tCm5hbWU6IGJsb2d3YXRjaGVyCmRlc2NyaXB0aW9uOiAiTW9uaXRvciBibG9ncyBhbmQgUlNTL0F0b20gZmVlZHMgdmlhIGJsb2d3YXRjaGVyLWNsaSB0b29sLiIKdmVyc2lvbjogMi4wLjAKYXV0aG9yOiBKdWxpZW5UYW50IChmb3JrIG9mIEh5YXhpYS9ibG9nd2F0Y2hlcikKbGljZW5zZTogTUlUCnBsYXRmb3JtczogW2xpbnV4LCBtYWNvcywgd2luZG93c10KbWV0YWRhdGE6CiAgaGVybWVzOgogICAgdGFnczogW1JTUywgQmxvZ3MsIEZlZWQtUmVhZGVyLCBNb25pdG9yaW5nXQogICAgaG9tZXBhZ2U6IGh0dHBzOi8vZ2l0aHViLmNvbS9KdWxpZW5UYW50L2Jsb2d3YXRjaGVyLWNsaQpwcmVyZXF1aXNpdGVzOgogIGNvbW1hbmRzOiBbYmxvZ3dhdGNoZXItY2xpXQotLS0KCiMgQmxvZ3dhdGNoZXIKClRyYWNrIGJsb2cgYW5kIFJTUy9BdG9tIGZlZWQgdXBkYXRlcyB3aXRoIHRoZSBgYmxvZ3dhdGNoZXItY2xpYCB0b29sLiBTdXBwb3J0cyBhdXRvbWF0aWMgZmVlZCBkaXNjb3ZlcnksIEhUTUwgc2NyYXBpbmcgZmFsbGJhY2ssIE9QTUwgaW1wb3J0LCBhbmQgcmVhZC91bnJlYWQgYXJ0aWNsZSBtYW5hZ2VtZW50LgoKIyMgSW5zdGFsbGF0aW9uCgpQaWNrIG9uZSBtZXRob2Q6CgotICoqR286KiogYGdvIGluc3RhbGwgZ2l0aHViLmNvbS9KdWxpZW5UYW50L2Jsb2d3YXRjaGVyLWNsaS9jbWQvYmxvZ3dhdGNoZXItY2xpQGxhdGVzdGAKLSAqKkRvY2tlcjoqKiBgZG9ja2VyIHJ1biAtLXJtIC12IGJsb2d3YXRjaGVyLWNsaTovZGF0YSBnaGNyLmlvL2p1bGllbnRhbnQvYmxvZ3dhdGNoZXItY2xpYAotICoqQmluYXJ5IChMaW51eCBhbWQ2NCk6KiogYGN1cmwgLXNMIGh0dHBzOi8vZ2l0aHViLmNvbS9KdWxpZW5UYW50L2Jsb2d3YXRjaGVyLWNsaS9yZWxlYXNlcy9sYXRlc3QvZG93bmxvYWQvYmxvZ3dhdGNoZXItY2xpX2xpbnV4X2FtZDY0LnRhci5neiB8IHRhciB4eiAtQyAvdXNyL2xvY2FsL2JpbiBibG9nd2F0Y2hlci1jbGlgCi0gKipCaW5hcnkgKExpbnV4IGFybTY0KToqKiBgY3VybCAtc0wgaHR0cHM6Ly9naXRodWIuY29tL0p1bGllblRhbnQvYmxvZ3dhdGNoZXItY2xpL3JlbGVhc2VzL2xhdGVzdC9kb3dubG9hZC9ibG9nd2F0Y2hlci1jbGlfbGludXhfYXJtNjQudGFyLmd6IHwgdGFyIHh6IC1DIC91c3IvbG9jYWwvYmluIGJsb2d3YXRjaGVyLWNsaWAKLSAqKkJpbmFyeSAobWFjT1MgQXBwbGUgU2lsaWNvbik6KiogYGN1cmwgLXNMIGh0dHBzOi8vZ2l0aHViLmNvbS9KdWxpZW5UYW50L2Jsb2d3YXRjaGVyLWNsaS9yZWxlYXNlcy9sYXRlc3QvZG93bmxvYWQvYmxvZ3dhdGNoZXItY2xpX2Rhcndpbl9hcm02NC50YXIuZ3ogfCB0YXIgeHogLUMgL3Vzci9sb2NhbC9iaW4gYmxvZ3dhdGNoZXItY2xpYAotICoqQmluYXJ5IChtYWNPUyBJbnRlbCk6KiogYGN1cmwgLXNMIGh0dHBzOi8vZ2l0aHViLmNvbS9KdWxpZW5UYW50L2Jsb2d3YXRjaGVyLWNsaS9yZWxlYXNlcy9sYXRlc3QvZG93bmxvYWQvYmxvZ3dhdGNoZXItY2xpX2Rhcndpbl9hbWQ2NC50YXIuZ3ogfCB0YXIgeHogLUMgL3Vzci9sb2NhbC9iaW4gYmxvZ3dhdGNoZXItY2xpYAoKQWxsIHJlbGVhc2VzOiBodHRwczovL2dpdGh1Yi5jb20vSnVsaWVuVGFudC9ibG9nd2F0Y2hlci1jbGkvcmVsZWFzZXMKCiMjIyBEb2NrZXIgd2l0aCBwZXJzaXN0ZW50IHN0b3JhZ2UKCkJ5IGRlZmF1bHQgdGhlIGRhdGFiYXNlIGxpdmVzIGF0IGB+Ly5ibG9nd2F0Y2hlci1jbGkvYmxvZ3dhdGNoZXItY2xpLmRiYC4gSW4gRG9ja2VyIHRoaXMgaXMgbG9zdCBvbiBjb250YWluZXIgcmVzdGFydC4gVXNlIGBCTE9HV0FUQ0hFUl9EQmAgb3IgYSB2b2x1bWUgbW91bnQgdG8gcGVyc2lzdCBpdDoKCmBgYGJhc2gKIyBOYW1lZCB2b2x1bWUgKHNpbXBsZXN0KQpkb2NrZXIgcnVuIC0tcm0gLXYgYmxvZ3dhdGNoZXItY2xpOi9kYXRhIC1lIEJMT0dXQVRDSEVSX0RCPS9kYXRhL2Jsb2d3YXRjaGVyLWNsaS5kYiBnaGNyLmlvL2p1bGllbnRhbnQvYmxvZ3dhdGNoZXItY2xpIHNjYW4KCiMgSG9zdCBiaW5kIG1vdW50CmRvY2tlciBydW4gLS1ybSAtdiAvcGF0aC9vbi9ob3N0Oi9kYXRhIC1lIEJMT0dXQVRDSEVSX0RCPS9kYXRhL2Jsb2d3YXRjaGVyLWNsaS5kYiBnaGNyLmlvL2p1bGllbnRhbnQvYmxvZ3dhdGNoZXItY2xpIHNjYW4KYGBgCgojIyMgTWlncmF0aW5nIGZyb20gdGhlIG9yaWdpbmFsIGJsb2d3YXRjaGVyCgpJZiB1cGdyYWRpbmcgZnJvbSBgSHlheGlhL2Jsb2d3YXRjaGVyYCwgbW92ZSB5b3VyIGRhdGFiYXNlOgoKYGBgYmFzaAptdiB+Ly5ibG9nd2F0Y2hlci9ibG9nd2F0Y2hlci5kYiB+Ly5ibG9nd2F0Y2hlci1jbGkvYmxvZ3dhdGNoZXItY2xpLmRiCmBgYAoKVGhlIGJpbmFyeSBuYW1lIGNoYW5nZWQgZnJvbSBgYmxvZ3dhdGNoZXJgIHRvIGBibG9nd2F0Y2hlci1jbGlgLgoKIyMgQ29tbW9uIENvbW1hbmRzCgojIyMgTWFuYWdpbmcgYmxvZ3MKCi0gQWRkIGEgYmxvZzogYGJsb2d3YXRjaGVyLWNsaSBhZGQgIk15IEJsb2ciIGh0dHBzOi8vZXhhbXBsZS5jb21gCi0gQWRkIHdpdGggZXhwbGljaXQgZmVlZDogYGJsb2d3YXRjaGVyLWNsaSBhZGQgIk15IEJsb2ciIGh0dHBzOi8vZXhhbXBsZS5jb20gLS1mZWVkLXVybCBodHRwczovL2V4YW1wbGUuY29tL2ZlZWQueG1sYAotIEFkZCB3aXRoIEhUTUwgc2NyYXBpbmc6IGBibG9nd2F0Y2hlci1jbGkgYWRkICJNeSBCbG9nIiBodHRwczovL2V4YW1wbGUuY29tIC0tc2NyYXBlLXNlbGVjdG9yICJhcnRpY2xlIGgyIGEiYAotIExpc3QgdHJhY2tlZCBibG9nczogYGJsb2d3YXRjaGVyLWNsaSBibG9nc2AKLSBSZW1vdmUgYSBibG9nOiBgYmxvZ3dhdGNoZXItY2xpIHJlbW92ZSAiTXkgQmxvZyIgLS15ZXNgCi0gSW1wb3J0IGZyb20gT1BNTDogYGJsb2d3YXRjaGVyLWNsaSBpbXBvcnQgc3Vic2NyaXB0aW9ucy5vcG1sYAoKIyMjIFNjYW5uaW5nIGFuZCByZWFkaW5nCgotIFNjYW4gYWxsIGJsb2dzOiBgYmxvZ3dhdGNoZXItY2xpIHNjYW5gCi0gU2NhbiBvbmUgYmxvZzogYGJsb2d3YXRjaGVyLWNsaSBzY2FuICJNeSBCbG9nImAKLSBMaXN0IHVucmVhZCBhcnRpY2xlczogYGJsb2d3YXRjaGVyLWNsaSBhcnRpY2xlc2AKLSBMaXN0IGFsbCBhcnRpY2xlczogYGJsb2d3YXRjaGVyLWNsaSBhcnRpY2xlcyAtLWFsbGAKLSBGaWx0ZXIgYnkgYmxvZzogYGJsb2d3YXRjaGVyLWNsaSBhcnRpY2xlcyAtLWJsb2cgIk15IEJsb2ciYAotIEZpbHRlciBieSBjYXRlZ29yeTogYGJsb2d3YXRjaGVyLWNsaSBhcnRpY2xlcyAtLWNhdGVnb3J5ICJFbmdpbmVlcmluZyJgCi0gTWFyayBhcnRpY2xlIHJlYWQ6IGBibG9nd2F0Y2hlci1jbGkgcmVhZCAxYAotIE1hcmsgYXJ0aWNsZSB1bnJlYWQ6IGBibG9nd2F0Y2hlci1jbGkgdW5yZWFkIDFgCi0gTWFyayBhbGwgcmVhZDogYGJsb2d3YXRjaGVyLWNsaSByZWFkLWFsbGAKLSBNYXJrIGFsbCByZWFkIGZvciBhIGJsb2c6IGBibG9nd2F0Y2hlci1jbGkgcmVhZC1hbGwgLS1ibG9nICJNeSBCbG9nIiAtLXllc2AKCiMjIEVudmlyb25tZW50IFZhcmlhYmxlcwoKQWxsIGZsYWdzIGNhbiBiZSBzZXQgdmlhIGVudmlyb25tZW50IHZhcmlhYmxlcyB3aXRoIHRoZSBgQkxPR1dBVENIRVJfYCBwcmVmaXg6Cgp8IFZhcmlhYmxlIHwgRGVzY3JpcHRpb24gfAp8LS0tfC0tLXwKfCBgQkxPR1dBVENIRVJfREJgIHwgUGF0aCB0byBTUUxpdGUgZGF0YWJhc2UgZmlsZSB8CnwgYEJMT0dXQVRDSEVSX1dPUktFUlNgIHwgTnVtYmVyIG9mIGNvbmN1cnJlbnQgc2NhbiB3b3JrZXJzIChkZWZhdWx0OiA4KSB8CnwgYEJMT0dXQVRDSEVSX1NJTEVOVGAgfCBPbmx5IG91dHB1dCAic2NhbiBkb25lIiB3aGVuIHNjYW5uaW5nIHwKfCBgQkxPR1dBVENIRVJfWUVTYCB8IFNraXAgY29uZmlybWF0aW9uIHByb21wdHMgfAp8IGBCTE9HV0FUQ0hFUl9DQVRFR09SWWAgfCBEZWZhdWx0IGZpbHRlciBmb3IgYXJ0aWNsZXMgYnkgY2F0ZWdvcnkgfAoKIyMgRXhhbXBsZSBPdXRwdXQKCmBgYAokIGJsb2d3YXRjaGVyLWNsaSBibG9ncwpUcmFja2VkIGJsb2dzICgxKToKCiAgeGtjZAogICAgVVJMOiBodHRwczovL3hrY2QuY29tCiAgICBGZWVkOiBodHRwczovL3hrY2QuY29tL2F0b20ueG1sCiAgICBMYXN0IHNjYW5uZWQ6IDIwMjYtMDQtMDMgMTA6MzAKYGBgCgpgYGAKJCBibG9nd2F0Y2hlci1jbGkgc2NhbgpTY2FubmluZyAxIGJsb2cocykuLi4KCiAgeGtjZAogICAgU291cmNlOiBSU1MgfCBGb3VuZDogNCB8IE5ldzogNAoKRm91bmQgNCBuZXcgYXJ0aWNsZShzKSB0b3RhbCEKYGBgCgpgYGAKJCBibG9nd2F0Y2hlci1jbGkgYXJ0aWNsZXMKVW5yZWFkIGFydGljbGVzICgyKToKCiAgWzFdIFtuZXddIEJhcnJlbCAtIFBhcnQgMTMKICAgICAgIEJsb2c6IHhrY2QKICAgICAgIFVSTDogaHR0cHM6Ly94a2NkLmNvbS8zMDk1LwogICAgICAgUHVibGlzaGVkOiAyMDI2LTA0LTAyCiAgICAgICBDYXRlZ29yaWVzOiBDb21pY3MsIFNjaWVuY2UKCiAgWzJdIFtuZXddIFZvbGNhbm8gRmFjdAogICAgICAgQmxvZzogeGtjZAogICAgICAgVVJMOiBodHRwczovL3hrY2QuY29tLzMwOTQvCiAgICAgICBQdWJsaXNoZWQ6IDIwMjYtMDQtMDEKICAgICAgIENhdGVnb3JpZXM6IENvbWljcwpgYGAKCiMjIE5vdGVzCgotIEF1dG8tZGlzY292ZXJzIFJTUy9BdG9tIGZlZWRzIGZyb20gYmxvZyBob21lcGFnZXMgd2hlbiBubyBgLS1mZWVkLXVybGAgaXMgcHJvdmlkZWQuCi0gRmFsbHMgYmFjayB0byBIVE1MIHNjcmFwaW5nIGlmIFJTUyBmYWlscyBhbmQgYC0tc2NyYXBlLXNlbGVjdG9yYCBpcyBjb25maWd1cmVkLgotIENhdGVnb3JpZXMgZnJvbSBSU1MvQXRvbSBmZWVkcyBhcmUgc3RvcmVkIGFuZCBjYW4gYmUgdXNlZCB0byBmaWx0ZXIgYXJ0aWNsZXMuCi0gSW1wb3J0IGJsb2dzIGluIGJ1bGsgZnJvbSBPUE1MIGZpbGVzIGV4cG9ydGVkIGJ5IEZlZWRseSwgSW5vcmVhZGVyLCBOZXdzQmx1ciwgZXRjLgotIERhdGFiYXNlIHN0b3JlZCBhdCBgfi8uYmxvZ3dhdGNoZXItY2xpL2Jsb2d3YXRjaGVyLWNsaS5kYmAgYnkgZGVmYXVsdCAob3ZlcnJpZGUgd2l0aCBgLS1kYmAgb3IgYEJMT0dXQVRDSEVSX0RCYCkuCi0gVXNlIGBibG9nd2F0Y2hlci1jbGkgPGNvbW1hbmQ+IC0taGVscGAgdG8gZGlzY292ZXIgYWxsIGZsYWdzIGFuZCBvcHRpb25zLgo=
+---
+name: blogwatcher
+description: "Monitor blogs and RSS/Atom feeds via blogwatcher-cli tool."
+version: 2.0.0
+author: JulienTant (fork of Hyaxia/blogwatcher)
+license: MIT
+platforms: [linux, macos, windows]
+metadata:
+  hermes:
+    tags: [RSS, Blogs, Feed-Reader, Monitoring]
+    homepage: https://github.com/JulienTant/blogwatcher-cli
+prerequisites:
+  commands: [blogwatcher-cli]
+---
+
+# Blogwatcher
+
+Track blog and RSS/Atom feed updates with the `blogwatcher-cli` tool. Supports automatic feed discovery, HTML scraping fallback, OPML import, and read/unread article management.
+
+## Installation
+
+Pick one method:
+
+- **Go:** `go install github.com/JulienTant/blogwatcher-cli/cmd/blogwatcher-cli@latest`
+- **Docker:** `docker run --rm -v blogwatcher-cli:/data ghcr.io/julientant/blogwatcher-cli`
+- **Binary (Linux amd64):** `curl -sL https://github.com/JulienTant/blogwatcher-cli/releases/latest/download/blogwatcher-cli_linux_amd64.tar.gz | tar xz -C /usr/local/bin blogwatcher-cli`
+- **Binary (Linux arm64):** `curl -sL https://github.com/JulienTant/blogwatcher-cli/releases/latest/download/blogwatcher-cli_linux_arm64.tar.gz | tar xz -C /usr/local/bin blogwatcher-cli`
+- **Binary (macOS Apple Silicon):** `curl -sL https://github.com/JulienTant/blogwatcher-cli/releases/latest/download/blogwatcher-cli_darwin_arm64.tar.gz | tar xz -C /usr/local/bin blogwatcher-cli`
+- **Binary (macOS Intel):** `curl -sL https://github.com/JulienTant/blogwatcher-cli/releases/latest/download/blogwatcher-cli_darwin_amd64.tar.gz | tar xz -C /usr/local/bin blogwatcher-cli`
+
+All releases: https://github.com/JulienTant/blogwatcher-cli/releases
+
+### Docker with persistent storage
+
+By default the database lives at `~/.blogwatcher-cli/blogwatcher-cli.db`. In Docker this is lost on container restart. Use `BLOGWATCHER_DB` or a volume mount to persist it:
+
+```bash
+# Named volume (simplest)
+docker run --rm -v blogwatcher-cli:/data -e BLOGWATCHER_DB=/data/blogwatcher-cli.db ghcr.io/julientant/blogwatcher-cli scan
+
+# Host bind mount
+docker run --rm -v /path/on/host:/data -e BLOGWATCHER_DB=/data/blogwatcher-cli.db ghcr.io/julientant/blogwatcher-cli scan
+```
+
+### Migrating from the original blogwatcher
+
+If upgrading from `Hyaxia/blogwatcher`, move your database:
+
+```bash
+mv ~/.blogwatcher/blogwatcher.db ~/.blogwatcher-cli/blogwatcher-cli.db
+```
+
+The binary name changed from `blogwatcher` to `blogwatcher-cli`.
+
+## Common Commands
+
+### Managing blogs
+
+- Add a blog: `blogwatcher-cli add "My Blog" https://example.com`
+- Add with explicit feed: `blogwatcher-cli add "My Blog" https://example.com --feed-url https://example.com/feed.xml`
+- Add with HTML scraping: `blogwatcher-cli add "My Blog" https://example.com --scrape-selector "article h2 a"`
+- List tracked blogs: `blogwatcher-cli blogs`
+- Remove a blog: `blogwatcher-cli remove "My Blog" --yes`
+- Import from OPML: `blogwatcher-cli import subscriptions.opml`
+
+### Scanning and reading
+
+- Scan all blogs: `blogwatcher-cli scan`
+- Scan one blog: `blogwatcher-cli scan "My Blog"`
+- List unread articles: `blogwatcher-cli articles`
+- List all articles: `blogwatcher-cli articles --all`
+- Filter by blog: `blogwatcher-cli articles --blog "My Blog"`
+- Filter by category: `blogwatcher-cli articles --category "Engineering"`
+- Mark article read: `blogwatcher-cli read 1`
+- Mark article unread: `blogwatcher-cli unread 1`
+- Mark all read: `blogwatcher-cli read-all`
+- Mark all read for a blog: `blogwatcher-cli read-all --blog "My Blog" --yes`
+
+## Environment Variables
+
+All flags can be set via environment variables with the `BLOGWATCHER_` prefix:
+
+| Variable | Description |
+|---|---|
+| `BLOGWATCHER_DB` | Path to SQLite database file |
+| `BLOGWATCHER_WORKERS` | Number of concurrent scan workers (default: 8) |
+| `BLOGWATCHER_SILENT` | Only output "scan done" when scanning |
+| `BLOGWATCHER_YES` | Skip confirmation prompts |
+| `BLOGWATCHER_CATEGORY` | Default filter for articles by category |
+
+## Example Output
+
+```
+$ blogwatcher-cli blogs
+Tracked blogs (1):
+
+  xkcd
+    URL: https://xkcd.com
+    Feed: https://xkcd.com/atom.xml
+    Last scanned: 2026-04-03 10:30
+```
+
+```
+$ blogwatcher-cli scan
+Scanning 1 blog(s)...
+
+  xkcd
+    Source: RSS | Found: 4 | New: 4
+
+Found 4 new article(s) total!
+```
+
+```
+$ blogwatcher-cli articles
+Unread articles (2):
+
+  [1] [new] Barrel - Part 13
+       Blog: xkcd
+       URL: https://xkcd.com/3095/
+       Published: 2026-04-02
+       Categories: Comics, Science
+
+  [2] [new] Volcano Fact
+       Blog: xkcd
+       URL: https://xkcd.com/3094/
+       Published: 2026-04-01
+       Categories: Comics
+```
+
+## Notes
+
+- Auto-discovers RSS/Atom feeds from blog homepages when no `--feed-url` is provided.
+- Falls back to HTML scraping if RSS fails and `--scrape-selector` is configured.
+- Categories from RSS/Atom feeds are stored and can be used to filter articles.
+- Import blogs in bulk from OPML files exported by Feedly, Inoreader, NewsBlur, etc.
+- Database stored at `~/.blogwatcher-cli/blogwatcher-cli.db` by default (override with `--db` or `BLOGWATCHER_DB`).
+- Use `blogwatcher-cli <command> --help` to discover all flags and options.

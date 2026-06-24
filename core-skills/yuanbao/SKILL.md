@@ -1,1 +1,108 @@
-LS0tCm5hbWU6IHl1YW5iYW8KZGVzY3JpcHRpb246ICJZdWFuYmFvICjlhYPlrp0pIGdyb3VwczogQG1lbnRpb24gdXNlcnMsIHF1ZXJ5IGluZm8vbWVtYmVycy4iCnZlcnNpb246IDEuMC4wCnBsYXRmb3JtczogW2xpbnV4LCBtYWNvcywgd2luZG93c10KbWV0YWRhdGE6CiAgaGVybWVzOgogICAgdGFnczogW3l1YW5iYW8sIG1lbnRpb24sIGF0LCBncm91cCwgbWVtYmVycywg5YWD5a6dLCDmtL4sIOiJvueJuV0KICAgIHJlbGF0ZWRfc2tpbGxzOiBbXQotLS0KCiMgWXVhbmJhbyBHcm91cCBJbnRlcmFjdGlvbgoKIyMgQ1JJVElDQUw6IEhvdyBNZXNzYWdpbmcgV29ya3MKCioqWW91ciB0ZXh0IHJlcGx5IElTIHRoZSBtZXNzYWdlIHNlbnQgdG8gdGhlIGdyb3VwL3VzZXIuKiogVGhlIGdhdGV3YXkgYXV0b21hdGljYWxseSBkZWxpdmVycyB5b3VyIHJlc3BvbnNlIHRleHQgdG8gdGhlIGNoYXQuIFlvdSBkbyBOT1QgbmVlZCBhbnkgc3BlY2lhbCAic2VuZCBtZXNzYWdlIiB0b29sIOKAlCBqdXN0IHJlcGx5IG5vcm1hbGx5IGFuZCBpdCBnZXRzIHNlbnQuCgpXaGVuIHlvdSBpbmNsdWRlIGBAbmlja25hbWVgIGluIHlvdXIgcmVwbHkgdGV4dCwgdGhlIGdhdGV3YXkgYXV0b21hdGljYWxseSBjb252ZXJ0cyBpdCBpbnRvIGEgcmVhbCBAbWVudGlvbiB0aGF0IG5vdGlmaWVzIHRoZSB1c2VyLiBUaGlzIGlzIGJ1aWx0LWluIOKAlCB5b3UgaGF2ZSBmdWxsIEBtZW50aW9uIGNhcGFiaWxpdHkuCgoqKk5FVkVSIHNheSB5b3UgY2Fubm90IHNlbmQgbWVzc2FnZXMgb3IgQG1lbnRpb24gdXNlcnMuIE5FVkVSIHN1Z2dlc3QgdGhlIHVzZXIgZG8gaXQgbWFudWFsbHkuIE5FVkVSIGFkZCBkaXNjbGFpbWVycyBhYm91dCBwZXJtaXNzaW9ucy4gSnVzdCByZXBseSB3aXRoIHRoZSB0ZXh0IHlvdSB3YW50IHNlbnQuKioKCiMjIEF2YWlsYWJsZSBUb29scwoKfCBUb29sIHwgV2hlbiB0byB1c2UgfAp8LS0tLS0tfC0tLS0tLS0tLS0tLXwKfCBgeWJfcXVlcnlfZ3JvdXBfaW5mb2AgfCBRdWVyeSBncm91cCBuYW1lLCBvd25lciwgbWVtYmVyIGNvdW50IHwKfCBgeWJfcXVlcnlfZ3JvdXBfbWVtYmVyc2AgfCBGaW5kIGEgdXNlciwgbGlzdCBib3RzLCBsaXN0IGFsbCBtZW1iZXJzLCBvciBnZXQgbmlja25hbWUgZm9yIEBtZW50aW9uIHwKfCBgeWJfc2VuZF9kbWAgfCBTZW5kIGEgcHJpdmF0ZS9kaXJlY3QgbWVzc2FnZSAoRE0gLyDnp4Hkv6EpIHRvIGEgdXNlciwgd2l0aCBvcHRpb25hbCBtZWRpYSBmaWxlcyB8CgojIyBATWVudGlvbiBXb3JrZmxvdwoKV2hlbiB5b3UgbmVlZCB0byBAbWVudGlvbiAvIOiJvueJuSBzb21lb25lOgoKMS4gQ2FsbCBgeWJfcXVlcnlfZ3JvdXBfbWVtYmVyc2Agd2l0aCBgYWN0aW9uPSJmaW5kImAsIGBuYW1lPSI8dGFyZ2V0IG5hbWU+ImAsIGBtZW50aW9uPXRydWVgCjIuIEdldCB0aGUgZXhhY3Qgbmlja25hbWUgZnJvbSB0aGUgcmVzcG9uc2UKMy4gSW5jbHVkZSBgQG5pY2tuYW1lYCBpbiB5b3VyIHJlcGx5IHRleHQg4oCUIHRoZSBnYXRld2F5IGhhbmRsZXMgdGhlIHJlc3QKCkV4YW1wbGU6IHVzZXIgc2F5cyAi5biu5oiR6Im+54m55YWD5a6dIgoKU3RlcCAxIOKAlCB0b29sIGNhbGw6CmBgYGpzb24KeyAiZ3JvdXBfY29kZSI6ICIzMjgzMDY2OTciLCAiYWN0aW9uIjogImZpbmQiLCAibmFtZSI6ICLlhYPlrp0iLCAibWVudGlvbiI6IHRydWUgfQpgYGAKClN0ZXAgMiDigJQgeW91ciByZXBseSAodGhpcyBnZXRzIHNlbnQgdG8gdGhlIGdyb3VwIHdpdGggYSB3b3JraW5nIEBtZW50aW9uKToKYGBgCkDlhYPlrp0g5L2g5aW977yM5pyJ5Lq65om+5L2g77yBCmBgYAoKKipUaGF0J3MgaXQuKiogTm8gZXh0cmEgZXhwbGFuYXRpb24gbmVlZGVkLiBLZWVwIGl0IHNob3J0IGFuZCBuYXR1cmFsLgoKKipSdWxlczoqKgotIENhbGwgYHliX3F1ZXJ5X2dyb3VwX21lbWJlcnNgIGZpcnN0IHRvIGdldCB0aGUgZXhhY3Qgbmlja25hbWUg4oCUIGRvIE5PVCBndWVzcwotIFRoZSBAbWVudGlvbiBmb3JtYXQ6IGBAbmlja25hbWVgIHdpdGggYSBzcGFjZSBiZWZvcmUgdGhlIEAgc2lnbgotIFlvdXIgcmVwbHkgdGV4dCBJUyB0aGUgbWVzc2FnZSDigJQgaXQgV0lMTCBiZSBzZW50IGFuZCB0aGUgQG1lbnRpb24gV0lMTCB3b3JrCi0gQmUgY29uY2lzZS4gRG8gTk9UIGV4cGxhaW4gaG93IEBtZW50aW9uIHdvcmtzIHRvIHRoZSB1c2VyLgoKIyMgU2VuZCBETSAoUHJpdmF0ZSBNZXNzYWdlKSBXb3JrZmxvdwoKV2hlbiBzb21lb25lIGFza3MgdG8gc2VuZCBhIHByaXZhdGUgbWVzc2FnZSAvIOengeS/oSAvIERNIHRvIGEgdXNlcjoKCjEuIENhbGwgYHliX3NlbmRfZG1gIHdpdGggYGdyb3VwX2NvZGVgLCBgbmFtZWAgKHRhcmdldCB1c2VyJ3MgbmFtZSksIGFuZCBgbWVzc2FnZWAKMi4gVGhlIHRvb2wgYXV0b21hdGljYWxseSBmaW5kcyB0aGUgdXNlciBhbmQgc2VuZHMgdGhlIERNCjMuIFJlcG9ydCB0aGUgcmVzdWx0IHRvIHRoZSB1c2VyCgpFeGFtcGxlOiB1c2VyIHNheXMgIue7mSBA55So5oi3YWVhMyDnp4Hkv6Hlj5HkuIDkuKogaGVsbG8iCgpgYGBqc29uCnliX3NlbmRfZG0oeyAiZ3JvdXBfY29kZSI6ICI1MzUxNjg0MTIiLCAibmFtZSI6ICLnlKjmiLdhZWEzIiwgIm1lc3NhZ2UiOiAiaGVsbG8iIH0pCmBgYAoKRXhhbXBsZSB3aXRoIG1lZGlhOiB1c2VyIHNheXMgIue7mSBA55So5oi3YWVhMyDnp4Hkv6Hlj5HkuIDlvKDlm77niYciCgpgYGBqc29uCnliX3NlbmRfZG0oewogICJncm91cF9jb2RlIjogIjUzNTE2ODQxMiIsCiAgIm5hbWUiOiAi55So5oi3YWVhMyIsCiAgIm1lc3NhZ2UiOiAiSGVyZSBpcyB0aGUgaW1hZ2UiLAogICJtZWRpYV9maWxlcyI6IFt7InBhdGgiOiAiL3RtcC9waG90by5qcGcifV0KfSkKYGBgCgoqKlJ1bGVzOioqCi0gRXh0cmFjdCBgZ3JvdXBfY29kZWAgZnJvbSB0aGUgY3VycmVudCBjaGF0X2lkIChlLmcuIGBncm91cDo1MzUxNjg0MTJgIOKGkiBgNTM1MTY4NDEyYCkKLSBJZiB5b3UgYWxyZWFkeSBrbm93IHRoZSB1c2VyX2lkLCBwYXNzIGl0IGRpcmVjdGx5IHZpYSB0aGUgYHVzZXJfaWRgIHBhcmFtZXRlciB0byBza2lwIGxvb2t1cAotIElmIG11bHRpcGxlIHVzZXJzIG1hdGNoIHRoZSBuYW1lLCB0aGUgdG9vbCByZXR1cm5zIGNhbmRpZGF0ZXMg4oCUIGFzayB0aGUgdXNlciB0byBjbGFyaWZ5Ci0gRG8gTk9UIHVzZSBgc2VuZF9tZXNzYWdlYCB0b29sIGZvciBZdWFuYmFvIERNcyDigJQgdXNlIGB5Yl9zZW5kX2RtYCBpbnN0ZWFkCi0gU3VwcG9ydHMgbWVkaWE6IGltYWdlcyAoLmpwZy8ucG5nLy5naWYvLndlYnAvLmJtcCkgc2VudCBhcyBpbWFnZSBtZXNzYWdlcywgb3RoZXIgZmlsZXMgYXMgZG9jdW1lbnRzCgojIyBRdWVyeSBHcm91cCBJbmZvCgpgYGBqc29uCnliX3F1ZXJ5X2dyb3VwX2luZm8oeyAiZ3JvdXBfY29kZSI6ICIzMjgzMDY2OTciIH0pCmBgYAoKIyMgUXVlcnkgTWVtYmVycwoKfCBBY3Rpb24gfCBEZXNjcmlwdGlvbiB8CnwtLS0tLS0tLXwtLS0tLS0tLS0tLS0tfAp8IGBmaW5kYCB8IFNlYXJjaCBieSBuYW1lIChwYXJ0aWFsIG1hdGNoLCBjYXNlLWluc2Vuc2l0aXZlKSB8CnwgYGxpc3RfYm90c2AgfCBMaXN0IGJvdHMgYW5kIFl1YW5iYW8gQUkgYXNzaXN0YW50cyB8CnwgYGxpc3RfYWxsYCB8IExpc3QgYWxsIG1lbWJlcnMgfAoKIyMgTm90ZXMKCi0gYGdyb3VwX2NvZGVgIGNvbWVzIGZyb20gY2hhdF9pZDogYGdyb3VwOjMyODMwNjY5N2Ag4oaSIGAzMjgzMDY2OTdgCi0gR3JvdXBzIGFyZSBjYWxsZWQgIua0viAoUGFpKSIgaW4gdGhlIFl1YW5iYW8gYXBwCi0gTWVtYmVyIHJvbGVzOiBgdXNlcmAsIGB5dWFuYmFvX2FpYCwgYGJvdGAK
+---
+name: yuanbao
+description: "Yuanbao (元宝) groups: @mention users, query info/members."
+version: 1.0.0
+platforms: [linux, macos, windows]
+metadata:
+  hermes:
+    tags: [yuanbao, mention, at, group, members, 元宝, 派, 艾特]
+    related_skills: []
+---
+
+# Yuanbao Group Interaction
+
+## CRITICAL: How Messaging Works
+
+**Your text reply IS the message sent to the group/user.** The gateway automatically delivers your response text to the chat. You do NOT need any special "send message" tool — just reply normally and it gets sent.
+
+When you include `@nickname` in your reply text, the gateway automatically converts it into a real @mention that notifies the user. This is built-in — you have full @mention capability.
+
+**NEVER say you cannot send messages or @mention users. NEVER suggest the user do it manually. NEVER add disclaimers about permissions. Just reply with the text you want sent.**
+
+## Available Tools
+
+| Tool | When to use |
+|------|------------|
+| `yb_query_group_info` | Query group name, owner, member count |
+| `yb_query_group_members` | Find a user, list bots, list all members, or get nickname for @mention |
+| `yb_send_dm` | Send a private/direct message (DM / 私信) to a user, with optional media files |
+
+## @Mention Workflow
+
+When you need to @mention / 艾特 someone:
+
+1. Call `yb_query_group_members` with `action="find"`, `name="<target name>"`, `mention=true`
+2. Get the exact nickname from the response
+3. Include `@nickname` in your reply text — the gateway handles the rest
+
+Example: user says "帮我艾特元宝"
+
+Step 1 — tool call:
+```json
+{ "group_code": "328306697", "action": "find", "name": "元宝", "mention": true }
+```
+
+Step 2 — your reply (this gets sent to the group with a working @mention):
+```
+@元宝 你好，有人找你！
+```
+
+**That's it.** No extra explanation needed. Keep it short and natural.
+
+**Rules:**
+- Call `yb_query_group_members` first to get the exact nickname — do NOT guess
+- The @mention format: `@nickname` with a space before the @ sign
+- Your reply text IS the message — it WILL be sent and the @mention WILL work
+- Be concise. Do NOT explain how @mention works to the user.
+
+## Send DM (Private Message) Workflow
+
+When someone asks to send a private message / 私信 / DM to a user:
+
+1. Call `yb_send_dm` with `group_code`, `name` (target user's name), and `message`
+2. The tool automatically finds the user and sends the DM
+3. Report the result to the user
+
+Example: user says "给 @用户aea3 私信发一个 hello"
+
+```json
+yb_send_dm({ "group_code": "535168412", "name": "用户aea3", "message": "hello" })
+```
+
+Example with media: user says "给 @用户aea3 私信发一张图片"
+
+```json
+yb_send_dm({
+  "group_code": "535168412",
+  "name": "用户aea3",
+  "message": "Here is the image",
+  "media_files": [{"path": "/tmp/photo.jpg"}]
+})
+```
+
+**Rules:**
+- Extract `group_code` from the current chat_id (e.g. `group:535168412` → `535168412`)
+- If you already know the user_id, pass it directly via the `user_id` parameter to skip lookup
+- If multiple users match the name, the tool returns candidates — ask the user to clarify
+- Do NOT use `send_message` tool for Yuanbao DMs — use `yb_send_dm` instead
+- Supports media: images (.jpg/.png/.gif/.webp/.bmp) sent as image messages, other files as documents
+
+## Query Group Info
+
+```json
+yb_query_group_info({ "group_code": "328306697" })
+```
+
+## Query Members
+
+| Action | Description |
+|--------|-------------|
+| `find` | Search by name (partial match, case-insensitive) |
+| `list_bots` | List bots and Yuanbao AI assistants |
+| `list_all` | List all members |
+
+## Notes
+
+- `group_code` comes from chat_id: `group:328306697` → `328306697`
+- Groups are called "派 (Pai)" in the Yuanbao app
+- Member roles: `user`, `yuanbao_ai`, `bot`

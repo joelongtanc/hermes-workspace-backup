@@ -1,1 +1,61 @@
-LS0tCm5hbWU6IG9ic2lkaWFuCmRlc2NyaXB0aW9uOiBSZWFkLCBzZWFyY2gsIGNyZWF0ZSwgYW5kIGVkaXQgbm90ZXMgaW4gdGhlIE9ic2lkaWFuIHZhdWx0LgpwbGF0Zm9ybXM6IFtsaW51eCwgbWFjb3MsIHdpbmRvd3NdCi0tLQoKIyBPYnNpZGlhbiBWYXVsdAoKVXNlIHRoaXMgc2tpbGwgZm9yIGZpbGVzeXN0ZW0tZmlyc3QgT2JzaWRpYW4gdmF1bHQgd29yazogcmVhZGluZyBub3RlcywgbGlzdGluZyBub3Rlcywgc2VhcmNoaW5nIG5vdGUgZmlsZXMsIGNyZWF0aW5nIG5vdGVzLCBhcHBlbmRpbmcgY29udGVudCwgYW5kIGFkZGluZyB3aWtpbGlua3MuCgojIyBWYXVsdCBwYXRoCgpVc2UgYSBrbm93biBvciByZXNvbHZlZCB2YXVsdCBwYXRoIGJlZm9yZSBjYWxsaW5nIGZpbGUgdG9vbHMuCgpUaGUgZG9jdW1lbnRlZCB2YXVsdC1wYXRoIGNvbnZlbnRpb24gaXMgdGhlIGBPQlNJRElBTl9WQVVMVF9QQVRIYCBlbnZpcm9ubWVudCB2YXJpYWJsZSwgZm9yIGV4YW1wbGUgZnJvbSBgfi8uaGVybWVzLy5lbnZgLiBJZiBpdCBpcyB1bnNldCwgdXNlIGB+L0RvY3VtZW50cy9PYnNpZGlhbiBWYXVsdGAuCgpGaWxlIHRvb2xzIGRvIG5vdCBleHBhbmQgc2hlbGwgdmFyaWFibGVzLiBEbyBub3QgcGFzcyBwYXRocyBjb250YWluaW5nIGAkT0JTSURJQU5fVkFVTFRfUEFUSGAgdG8gYHJlYWRfZmlsZWAsIGB3cml0ZV9maWxlYCwgYHBhdGNoYCwgb3IgYHNlYXJjaF9maWxlc2A7IHJlc29sdmUgdGhlIHZhdWx0IHBhdGggZmlyc3QgYW5kIHBhc3MgYSBjb25jcmV0ZSBhYnNvbHV0ZSBwYXRoLiBWYXVsdCBwYXRocyBtYXkgY29udGFpbiBzcGFjZXMsIHdoaWNoIGlzIGFub3RoZXIgcmVhc29uIHRvIHByZWZlciBmaWxlIHRvb2xzIG92ZXIgc2hlbGwgY29tbWFuZHMuCgpJZiB0aGUgdmF1bHQgcGF0aCBpcyB1bmtub3duLCBgdGVybWluYWxgIGlzIGFjY2VwdGFibGUgZm9yIHJlc29sdmluZyBgT0JTSURJQU5fVkFVTFRfUEFUSGAgb3IgY2hlY2tpbmcgd2hldGhlciB0aGUgZmFsbGJhY2sgcGF0aCBleGlzdHMuIE9uY2UgdGhlIHBhdGggaXMga25vd24sIHN3aXRjaCBiYWNrIHRvIGZpbGUgdG9vbHMuCgojIyBSZWFkIGEgbm90ZQoKVXNlIGByZWFkX2ZpbGVgIHdpdGggdGhlIHJlc29sdmVkIGFic29sdXRlIHBhdGggdG8gdGhlIG5vdGUuIFByZWZlciB0aGlzIG92ZXIgYGNhdGAgYmVjYXVzZSBpdCBwcm92aWRlcyBsaW5lIG51bWJlcnMgYW5kIHBhZ2luYXRpb24uCgojIyBMaXN0IG5vdGVzCgpVc2UgYHNlYXJjaF9maWxlc2Agd2l0aCBgdGFyZ2V0OiAiZmlsZXMiYCBhbmQgdGhlIHJlc29sdmVkIHZhdWx0IHBhdGguIFByZWZlciB0aGlzIG92ZXIgYGZpbmRgIG9yIGBsc2AuCgotIFRvIGxpc3QgYWxsIG1hcmtkb3duIG5vdGVzLCB1c2UgYHBhdHRlcm46ICIqLm1kImAgdW5kZXIgdGhlIHZhdWx0IHBhdGguCi0gVG8gbGlzdCBhIHN1YmZvbGRlciwgc2VhcmNoIHVuZGVyIHRoYXQgc3ViZm9sZGVyJ3MgYWJzb2x1dGUgcGF0aC4KCiMjIFNlYXJjaAoKVXNlIGBzZWFyY2hfZmlsZXNgIGZvciBib3RoIGZpbGVuYW1lIGFuZCBjb250ZW50IHNlYXJjaGVzLiBQcmVmZXIgdGhpcyBvdmVyIGBncmVwYCwgYGZpbmRgLCBvciBgbHNgLgoKLSBGb3IgZmlsZW5hbWVzLCB1c2UgYHNlYXJjaF9maWxlc2Agd2l0aCBgdGFyZ2V0OiAiZmlsZXMiYCBhbmQgYSBmaWxlbmFtZSBgcGF0dGVybmAuCi0gRm9yIG5vdGUgY29udGVudHMsIHVzZSBgc2VhcmNoX2ZpbGVzYCB3aXRoIGB0YXJnZXQ6ICJjb250ZW50ImAsIHRoZSBjb250ZW50IHJlZ2V4IGFzIGBwYXR0ZXJuYCwgYW5kIGBmaWxlX2dsb2I6ICIqLm1kImAgd2hlbiB5b3Ugd2FudCB0byByZXN0cmljdCBtYXRjaGVzIHRvIG1hcmtkb3duIG5vdGVzLgoKIyMgQ3JlYXRlIGEgbm90ZQoKVXNlIGB3cml0ZV9maWxlYCB3aXRoIHRoZSByZXNvbHZlZCBhYnNvbHV0ZSBwYXRoIGFuZCB0aGUgZnVsbCBtYXJrZG93biBjb250ZW50LiBQcmVmZXIgdGhpcyBvdmVyIHNoZWxsIGhlcmVkb2NzIG9yIGBlY2hvYCBiZWNhdXNlIGl0IGF2b2lkcyBzaGVsbCBxdW90aW5nIGlzc3VlcyBhbmQgcmV0dXJucyBzdHJ1Y3R1cmVkIHJlc3VsdHMuCgojIyBBcHBlbmQgdG8gYSBub3RlCgpQcmVmZXIgYSBuYXRpdmUgZmlsZS10b29sIHdvcmtmbG93IHdoZW4gaXQgaXMgbm90IGF3a3dhcmQ6CgotIFJlYWQgdGhlIHRhcmdldCBub3RlIHdpdGggYHJlYWRfZmlsZWAuCi0gVXNlIGBwYXRjaGAgZm9yIGFuIGFuY2hvcmVkIGFwcGVuZCB3aGVuIHRoZXJlIGlzIHN0YWJsZSBjb250ZXh0LCBzdWNoIGFzIGFkZGluZyBhIHNlY3Rpb24gYWZ0ZXIgYW4gZXhpc3RpbmcgaGVhZGluZyBvciBhcHBlbmRpbmcgYmVmb3JlIGEga25vd24gdHJhaWxpbmcgYmxvY2suCi0gVXNlIGB3cml0ZV9maWxlYCB3aGVuIHJld3JpdGluZyB0aGUgd2hvbGUgbm90ZSBpcyBjbGVhcmVyIHRoYW4gY29uc3RydWN0aW5nIGEgZnJhZ2lsZSBwYXRjaC4KCkZvciBhbiBhbmNob3JlZCBhcHBlbmQgd2l0aCBgcGF0Y2hgLCByZXBsYWNlIHRoZSBhbmNob3Igd2l0aCB0aGUgYW5jaG9yIHBsdXMgdGhlIG5ldyBjb250ZW50LgoKRm9yIGEgc2ltcGxlIGFwcGVuZCB3aXRoIG5vIHN0YWJsZSBjb250ZXh0LCBgdGVybWluYWxgIGlzIGFjY2VwdGFibGUgaWYgaXQgaXMgdGhlIGNsZWFyZXN0IHNhZmUgb3B0aW9uLgoKIyMgVGFyZ2V0ZWQgZWRpdHMKClVzZSBgcGF0Y2hgIGZvciBmb2N1c2VkIG5vdGUgY2hhbmdlcyB3aGVuIHRoZSBjdXJyZW50IGNvbnRlbnQgZ2l2ZXMgeW91IHN0YWJsZSBjb250ZXh0LiBQcmVmZXIgdGhpcyBvdmVyIHNoZWxsIHRleHQgcmV3cml0aW5nLgoKIyMgV2lraWxpbmtzCgpPYnNpZGlhbiBsaW5rcyBub3RlcyB3aXRoIGBbW05vdGUgTmFtZV1dYCBzeW50YXguIFdoZW4gY3JlYXRpbmcgbm90ZXMsIHVzZSB0aGVzZSB0byBsaW5rIHJlbGF0ZWQgY29udGVudC4K
+---
+name: obsidian
+description: Read, search, create, and edit notes in the Obsidian vault.
+platforms: [linux, macos, windows]
+---
+
+# Obsidian Vault
+
+Use this skill for filesystem-first Obsidian vault work: reading notes, listing notes, searching note files, creating notes, appending content, and adding wikilinks.
+
+## Vault path
+
+Use a known or resolved vault path before calling file tools.
+
+The documented vault-path convention is the `OBSIDIAN_VAULT_PATH` environment variable, for example from `~/.hermes/.env`. If it is unset, use `~/Documents/Obsidian Vault`.
+
+File tools do not expand shell variables. Do not pass paths containing `$OBSIDIAN_VAULT_PATH` to `read_file`, `write_file`, `patch`, or `search_files`; resolve the vault path first and pass a concrete absolute path. Vault paths may contain spaces, which is another reason to prefer file tools over shell commands.
+
+If the vault path is unknown, `terminal` is acceptable for resolving `OBSIDIAN_VAULT_PATH` or checking whether the fallback path exists. Once the path is known, switch back to file tools.
+
+## Read a note
+
+Use `read_file` with the resolved absolute path to the note. Prefer this over `cat` because it provides line numbers and pagination.
+
+## List notes
+
+Use `search_files` with `target: "files"` and the resolved vault path. Prefer this over `find` or `ls`.
+
+- To list all markdown notes, use `pattern: "*.md"` under the vault path.
+- To list a subfolder, search under that subfolder's absolute path.
+
+## Search
+
+Use `search_files` for both filename and content searches. Prefer this over `grep`, `find`, or `ls`.
+
+- For filenames, use `search_files` with `target: "files"` and a filename `pattern`.
+- For note contents, use `search_files` with `target: "content"`, the content regex as `pattern`, and `file_glob: "*.md"` when you want to restrict matches to markdown notes.
+
+## Create a note
+
+Use `write_file` with the resolved absolute path and the full markdown content. Prefer this over shell heredocs or `echo` because it avoids shell quoting issues and returns structured results.
+
+## Append to a note
+
+Prefer a native file-tool workflow when it is not awkward:
+
+- Read the target note with `read_file`.
+- Use `patch` for an anchored append when there is stable context, such as adding a section after an existing heading or appending before a known trailing block.
+- Use `write_file` when rewriting the whole note is clearer than constructing a fragile patch.
+
+For an anchored append with `patch`, replace the anchor with the anchor plus the new content.
+
+For a simple append with no stable context, `terminal` is acceptable if it is the clearest safe option.
+
+## Targeted edits
+
+Use `patch` for focused note changes when the current content gives you stable context. Prefer this over shell text rewriting.
+
+## Wikilinks
+
+Obsidian links notes with `[[Note Name]]` syntax. When creating notes, use these to link related content.

@@ -1,1 +1,352 @@
-IyBEQVQtQmFzZWQgU2NyaXB0aW5nIFJlZmVyZW5jZQoKVEQncyBldmVudC9jYWxsYmFjayBtb2RlbCDigJQgUHl0aG9uIHRoYXQgcnVucyBpbiByZXNwb25zZSB0byBuZXR3b3JrIGV2ZW50cy4gVGhlIGZ1bGwgc2V0IG9mICJFeGVjdXRlIERBVHMiIHBsdXMgdGhlaXIgaWRpb21hdGljIHBhdHRlcm5zLgoKRm9yIGFyYml0cmFyeSBQeXRob24gZXhlY3V0aW9uIChub3QgY2FsbGJhY2stYmFzZWQpLCBzZWUgYHB5dGhvbi1hcGkubWRgLiBGb3IgdGhlIE1DUCdzIGB0ZF9leGVjdXRlX3B5dGhvbmAgdG9vbCwgc2VlIGBtY3AtdG9vbHMubWRgLgoKLS0tCgojIyBUaGUgRXhlY3V0ZSBEQVQgRmFtaWx5CgpFdmVyeSB0eXBlIHdhdGNoZXMgb25lIGtpbmQgb2YgZXZlbnQgc291cmNlIGFuZCBmaXJlcyBQeXRob24gb24gY2hhbmdlcy4KCnwgREFUIHwgV2F0Y2hlcyB8IFVzZSBmb3IgfAp8LS0tfC0tLXwtLS18CnwgYGNob3BFeGVjdXRlREFUYCB8IEEgQ0hPUCdzIGNoYW5uZWwgdmFsdWVzIHwgQXVkaW8gdHJpZ2dlcnMsIHRocmVzaG9sZCBjYWxsYmFja3MsIHN0YXRlIG1hY2hpbmVzIG9uIG51bWVyaWMgaW5wdXQgfAp8IGBkYXRFeGVjdXRlREFUYCB8IEEgREFUJ3MgY29udGVudCAodGFibGUgY2VsbHMsIHRleHQpIHwgUmVhY3RpbmcgdG8gZGF0YSB1cGRhdGVzIGZyb20gQVBJcywgcGFyc2luZyB3ZWJEQVQgcmVzcG9uc2VzIHwKfCBgcGFyYW1ldGVyRXhlY3V0ZURBVGAgfCBBIHBhcmFtZXRlcidzIHZhbHVlIG9yIHB1bHNlIHwgUmVhY3RpbmcgdG8gdXNlci1jaGFuZ2VkIHBhcmFtcywgY3VzdG9tIHB1bHNlIGJ1dHRvbnMgfAp8IGBwYW5lbEV4ZWN1dGVEQVRgIHwgQSBwYW5lbCBDT01QJ3MgaW50ZXJhY3Rpb24gfCBCdXR0b24gY2xpY2tzLCBzbGlkZXIgZHJhZ3MsIGZpZWxkIGNvbW1pdHMgfAp8IGBvcEV4ZWN1dGVEQVRgIHwgT3BlcmF0b3IgbGlmZWN5Y2xlIHwgTmV3IG9wZXJhdG9yIGNyZWF0ZWQsIGRlbGV0ZWQsIG5hbWUgY2hhbmdlZCB8CnwgYGV4ZWN1dGVEQVRgIHwgUHJvamVjdCBsaWZlY3ljbGUsIGZyYW1lIGV2ZW50cyB8IFJ1bi1vbmNlIHNldHVwLCBwZXItZnJhbWUgbG9naWMsIHNhdmUvbG9hZCBob29rcyB8CgpBbGwgaGF2ZSBhIGRvY2tlZCBEQVQgd2l0aCBwcmVkZWZpbmVkIGNhbGxiYWNrIGZ1bmN0aW9ucy4gWW91IG9ubHkgZmlsbCBpbiB0aGUgYm9kaWVzIG9mIHRoZSBvbmVzIHlvdSBjYXJlIGFib3V0LgoKLS0tCgojIyBjaG9wRXhlY3V0ZURBVCDigJQgTnVtZXJpYyBUcmlnZ2VycwoKYGBgcHl0aG9uCmNlID0gcm9vdC5jcmVhdGUoY2hvcEV4ZWN1dGVEQVQsICdraWNrX2hhbmRsZXInKQpjZS5wYXIuY2hvcCA9ICcvcHJvamVjdDEvYXVkaW8vb3V0X2tpY2snICAgICAgIyBzb3VyY2UgQ0hPUApjZS5wYXIub2ZmdG9vbiA9IFRydWUgICAgICAgICAgICAgICAgICAgICAgICAgICMgZmlyZSB3aGVuIGNoYW5uZWwgcmlzZXMgYWJvdmUgMApjZS5wYXIub250b29mZiA9IEZhbHNlCmNlLnBhci53aGlsZW9uID0gRmFsc2UKY2UucGFyLnZhbHVlY2hhbmdlID0gRmFsc2UKYGBgCgpJbiB0aGUgZG9ja2VkIGNhbGxiYWNrIERBVDoKCmBgYHB5dGhvbgpkZWYgb2ZmVG9PbihjaGFubmVsLCBzYW1wbGVJbmRleCwgdmFsLCBwcmV2KToKICAgICIiIkNoYW5uZWwgd2VudCBmcm9tIDAgdG8gbm9uLXplcm8uIENsYXNzaWMgYmVhdCB0cmlnZ2VyLiIiIgogICAgb3AoJy9wcm9qZWN0MS9zdHJvYmUnKS5wYXIuZmxhc2gucHVsc2UoKQogICAgb3AoJy9wcm9qZWN0MS9zY2VuZScpLnBhci5pbmRleCA9IChvcCgnL3Byb2plY3QxL3NjZW5lJykucGFyLmluZGV4ICsgMSkgJSA4CiAgICByZXR1cm4KCmRlZiBvblRvT2ZmKGNoYW5uZWwsIHNhbXBsZUluZGV4LCB2YWwsIHByZXYpOgogICAgIiIiQ2hhbm5lbCB3ZW50IGZyb20gbm9uLXplcm8gdG8gMC4iIiIKICAgIHJldHVybgoKZGVmIHdoaWxlT24oY2hhbm5lbCwgc2FtcGxlSW5kZXgsIHZhbCwgcHJldik6CiAgICAiIiJGaXJlcyBldmVyeSBmcmFtZSB3aGlsZSBjaGFubmVsIGlzIG5vbi16ZXJvLiBVc2Ugc3BhcmluZ2x5LiIiIgogICAgcmV0dXJuCgpkZWYgdmFsdWVDaGFuZ2UoY2hhbm5lbCwgc2FtcGxlSW5kZXgsIHZhbCwgcHJldik6CiAgICAiIiJGaXJlcyBldmVyeSBmcmFtZSB0aGUgdmFsdWUgY2hhbmdlcyAoY29udGludW91cykuIEhlYXZ5LiIiIgogICAgcmV0dXJuCmBgYAoKYGNoYW5uZWxgIGlzIGEgYENoYW5uZWxgIG9iamVjdCDigJQgYC5uYW1lYCwgYC5vd25lcmAsIGAudmFsc1tdYC4gVXNlIGBjaGFubmVsLm5hbWUgPT0gJ2NoYW4xJ2AgdG8gZmlsdGVyLgoKKipUaHJlc2hvbGQtYmFzZWQgY3VzdG9tIHRyaWdnZXJzOioqIHdpcmUgdGhlIHNvdXJjZSBDSE9QIHRocm91Z2ggYSBgdHJpZ2dlckNIT1BgIGZpcnN0IHRvIGdldCBjbGVhbiAwLzEgcHVsc2VzLCB0aGVuIHdhdGNoIHdpdGggYG9mZnRvb25gLgoKLS0tCgojIyBkYXRFeGVjdXRlREFUIOKAlCBUYWJsZS9UZXh0IENoYW5nZXMKCmBgYHB5dGhvbgpkZSA9IHJvb3QuY3JlYXRlKGRhdEV4ZWN1dGVEQVQsICdhcGlfcmVzcG9uc2UnKQpkZS5wYXIuZGF0ID0gJy9wcm9qZWN0MS9hcGkvd2ViMScgICAgICAgICAgICAgICMgc291cmNlIERBVApkZS5wYXIudGFibGVjaGFuZ2UgPSBUcnVlICAgICAgICAgICAgICAgICAgICAgICMgYW55IGNlbGwgY2hhbmdlCmRlLnBhci5jZWxsY2hhbmdlID0gRmFsc2UKZGUucGFyLnJvd2NoYW5nZSA9IEZhbHNlCmRlLnBhci5jb2xjaGFuZ2UgPSBGYWxzZQpgYGAKCmBgYHB5dGhvbgpkZWYgb25UYWJsZUNoYW5nZShkYXQpOgogICAgIiIiV2hvbGUgdGFibGUgY2hhbmdlZCAoaW5jbHVkaW5nIHRleHQgREFUIGNvbnRlbnQgdXBkYXRlcykuIiIiCiAgICBpZiBkYXQubnVtUm93cyA9PSAwOgogICAgICAgIHJldHVybgogICAgIyBJZiBpdCdzIGEgd2ViREFUIHJlc3BvbnNlLCBwYXJzZSBKU09OCiAgICBpbXBvcnQganNvbgogICAgdHJ5OgogICAgICAgIGRhdGEgPSBqc29uLmxvYWRzKGRhdC50ZXh0KQogICAgZXhjZXB0IGpzb24uSlNPTkRlY29kZUVycm9yOgogICAgICAgIGRlYnVnKGYnQmFkIEpTT046IHtkYXQudGV4dFs6MTAwXX0nKQogICAgICAgIHJldHVybgogICAgIyBXcml0ZSB0byBhIENIT1AKICAgIG9wKCcvcHJvamVjdDEvYXBpX3ZhbHVlJykucGFyLnZhbHVlMCA9IGZsb2F0KGRhdGEuZ2V0KCdjb3VudCcsIDApKQogICAgcmV0dXJuCgpkZWYgb25DZWxsQ2hhbmdlKGRhdCwgY2VsbHMsIHByZXYpOgogICAgIiIiU3BlY2lmaWMgY2VsbHMgY2hhbmdlZC4iIiIKICAgIGZvciBjZWxsIGluIGNlbGxzOgogICAgICAgICMgY2VsbC5yb3csIGNlbGwuY29sLCBjZWxsLnZhbAogICAgICAgIHBhc3MKICAgIHJldHVybgpgYGAKCmBkZWJ1ZygpYCBwcmludHMgdG8gdGhlIHRleHRwb3J0IOKAlCByZWFkYWJsZSB2aWEgYHRkX3JlYWRfdGV4dHBvcnRgLgoKLS0tCgojIyBwYXJhbWV0ZXJFeGVjdXRlREFUIOKAlCBQYXJhbSBDaGFuZ2VzICYgUHVsc2UKCmBgYHB5dGhvbgpwZSA9IHJvb3QuY3JlYXRlKHBhcmFtZXRlckV4ZWN1dGVEQVQsICdjb21wX3BhcmFtcycpCnBlLnBhci5vcCA9ICcvcHJvamVjdDEvbXlfY29tcG9uZW50JyAgICAgICAgICAgIyBDT01QIHdob3NlIHBhcmFtcyB0byB3YXRjaApwZS5wYXIucGFyYW1ldGVycyA9ICcqJyAgICAgICAgICAgICAgICAgICAgICAgICAjIG9yIHNwZWNpZmljIG5hbWVzIGxpa2UgJ0ludGVuc2l0eSBSZXNldCcKcGUucGFyLnZhbHVlY2hhbmdlID0gVHJ1ZQpwZS5wYXIucHVsc2UgPSBUcnVlCmBgYAoKYGBgcHl0aG9uCmRlZiBvblZhbHVlQ2hhbmdlKHBhciwgcHJldik6CiAgICAiIiJwYXIgaXMgYSBQYXIgb2JqZWN0LiBwYXIubmFtZSwgcGFyLmV2YWwoKSwgcGFyLm93bmVyLiIiIgogICAgaWYgcGFyLm5hbWUgPT0gJ0ludGVuc2l0eSc6CiAgICAgICAgb3AoJy9wcm9qZWN0MS9ibG9vbScpLnBhci50aHJlc2hvbGQgPSBwYXIuZXZhbCgpCiAgICByZXR1cm4KCmRlZiBvblB1bHNlKHBhcik6CiAgICAiIiJQdWxzZSBwYXJhbSB3YXMgdHJpZ2dlcmVkLiIiIgogICAgaWYgcGFyLm5hbWUgPT0gJ1Jlc2V0JzoKICAgICAgICBvcCgnL3Byb2plY3QxL3NjZW5lJykucGFyLmluZGV4ID0gMAogICAgICAgIG9wKCcvcHJvamVjdDEvYXVkaW9fcGxheWVyJykucGFyLmN1ZXBvaW50ID0gMAogICAgICAgIG9wKCcvcHJvamVjdDEvYXVkaW9fcGxheWVyJykucGFyLmN1ZXB1bHNlLnB1bHNlKCkKICAgIHJldHVybgoKZGVmIG9uRXhwcmVzc2lvbkNoYW5nZShwYXIsIHZhbCwgcHJldik6CiAgICAiIiJVc2VyIGNoYW5nZWQgdGhlIGV4cHJlc3Npb24gb24gYSBwYXJhbS4iIiIKICAgIHJldHVybgoKZGVmIG9uRXhwb3J0Q2hhbmdlKHBhciwgdmFsLCBwcmV2KToKICAgICIiIkV4cG9ydCBzb3VyY2UgY2hhbmdlZC4iIiIKICAgIHJldHVybgoKZGVmIG9uTW9kZUNoYW5nZShwYXIsIHZhbCwgcHJldik6CiAgICAiIiJQYXJhbSBtb2RlIGNoYW5nZWQgKENPTlNUQU5UIC8gRVhQUkVTU0lPTiAvIEVYUE9SVCAvIGV0YykuIiIiCiAgICByZXR1cm4KYGBgCgotLS0KCiMjIHBhbmVsRXhlY3V0ZURBVCDigJQgVUkgRXZlbnRzCgpGb3IgaW50ZXJhY3RpdmUgY29udHJvbCBzdXJmYWNlcy4gU2VlIGBwYW5lbC11aS5tZGAgZm9yIHRoZSBmdWxsIHBhbmVsIENPTVAgY29udGV4dC4KCmBgYHB5dGhvbgpwZSA9IHJvb3QuY3JlYXRlKHBhbmVsRXhlY3V0ZURBVCwgJ2J0bl9oYW5kbGVyJykKcGUucGFyLnBhbmVsID0gJy9wcm9qZWN0MS9wbGF5X2J0bicKcGUucGFyLmNsaWNrID0gVHJ1ZSAgICAgICAgICAgICAgIyBtb3VzZSBjbGljayBldmVudHMKcGUucGFyLnZhbHVlID0gVHJ1ZSAgICAgICAgICAgICAgIyBzdGF0ZSBjaGFuZ2VzICh0b2dnbGUpCnBlLnBhci5sb2NrZWRjaGFuZ2UgPSBGYWxzZQpgYGAKCmBgYHB5dGhvbgpkZWYgb25PZmZUb09uKHBhbmVsVmFsdWUpOgogICAgIiIiUGFuZWwgdmFsdWUgcm9zZSB0byAxIChidXR0b24gcHJlc3NlZCwgc2xpZGVyIGNyb3NzZWQgdGhyZXNob2xkKS4iIiIKICAgIG9wKCcvcHJvamVjdDEvc2NlbmVfdGltZXInKS5wYXIuc3RhcnQucHVsc2UoKQogICAgcmV0dXJuCgpkZWYgb25PblRvT2ZmKHBhbmVsVmFsdWUpOgogICAgIiIiUGFuZWwgdmFsdWUgZHJvcHBlZCB0byAwLiIiIgogICAgcmV0dXJuCgpkZWYgb25WYWx1ZUNoYW5nZShwYW5lbFZhbHVlKToKICAgICIiIkNvbnRpbnVvdXM6IGV2ZXJ5IGZyYW1lIHRoZSB2YWx1ZSBjaGFuZ2VzLiIiIgogICAgdmFsID0gcGFuZWxWYWx1ZS5ldmFsKCkKICAgIG9wKCcvcHJvamVjdDEvbWFzdGVyJykucGFyLm9wYWNpdHkgPSB2YWwKICAgIHJldHVybgoKZGVmIG9uQ2xpY2socGFuZWxWYWx1ZSk6CiAgICAiIiJEaXNjcmV0ZSBjbGljayBldmVudCwgZmlyZXMgb25jZSBwZXIgY2xpY2suIiIiCiAgICByZXR1cm4KYGBgCgpgcGFuZWxWYWx1ZWAgaXMgYSBgUGFyYCBvYmplY3Qgb24gdGhlIHBhbmVsIENPTVAuCgotLS0KCiMjIG9wRXhlY3V0ZURBVCDigJQgT3BlcmF0b3IgTGlmZWN5Y2xlCgpXYXRjaGVzIGNyZWF0aW9uL2RlbGV0aW9uL3JlbmFtaW5nIG9mIG9wZXJhdG9ycyBpbiBhIHBhcmVudCBDT01QLgoKYGBgcHl0aG9uCm9lID0gcm9vdC5jcmVhdGUob3BFeGVjdXRlREFULCAnbGlmZWN5Y2xlJykKb2UucGFyLm9wID0gJy9wcm9qZWN0MScKb2UucGFyLmNyZWF0ZSA9IFRydWUKb2UucGFyLmRlc3Ryb3kgPSBUcnVlCm9lLnBhci5uYW1lY2hhbmdlID0gVHJ1ZQpvZS5wYXIuZmxhZ2NoYW5nZSA9IEZhbHNlCmBgYAoKYGBgcHl0aG9uCmRlZiBvbkNyZWF0ZShvcENyZWF0ZWQpOgogICAgIiIiQSBuZXcgb3BlcmF0b3Igd2FzIGNyZWF0ZWQuIFVzZWZ1bCBmb3IgYXV0by1hcHBseWluZyBjb252ZW50aW9ucy4iIiIKICAgIGlmIG9wQ3JlYXRlZC5PUFR5cGUgPT0gJ2dsc2xUT1AnOgogICAgICAgICMgQWx3YXlzIHdyYXAgd2l0aCBhIG51bGwKICAgICAgICBuID0gb3BDcmVhdGVkLnBhcmVudCgpLmNyZWF0ZShudWxsVE9QLCBvcENyZWF0ZWQubmFtZSArICdfb3V0JykKICAgICAgICBuLmlucHV0Q29ubmVjdG9yc1swXS5jb25uZWN0KG9wQ3JlYXRlZCkKICAgIHJldHVybgoKZGVmIG9uRGVzdHJveShvcERlc3Ryb3llZCk6CiAgICAiIiJPcGVyYXRvciB3YXMgZGVsZXRlZC4gb3BEZXN0cm95ZWQucGF0aCBpcyBzdGlsbCB2YWxpZCBmb3Igb25lIGZyYW1lLiIiIgogICAgcmV0dXJuCgpkZWYgb25OYW1lQ2hhbmdlKG9wQ2hhbmdlZCk6CiAgICAiIiJPcGVyYXRvciB3YXMgcmVuYW1lZC4iIiIKICAgIHJldHVybgpgYGAKClVzZWZ1bCBmb3IgZGV2LXRpbWUgc2NhZmZvbGRpbmcgKGF1dG8tY3JlYXRlIGRvd25zdHJlYW0gbnVsbFRPUHMsIGF1dG8tbmFtZSBjb252ZW50aW9ucykuIERpc2FibGUgaW4gcHJvZHVjdGlvbiBwcm9qZWN0cyB0byBhdm9pZCBzdXJwcmlzZSBzaWRlIGVmZmVjdHMuCgotLS0KCiMjIGV4ZWN1dGVEQVQg4oCUIFByb2plY3QgTGlmZWN5Y2xlICYgUGVyLUZyYW1lCgpUaGUgY2F0Y2gtYWxsLiBHZXRzIHlvdSBob29rcyBpbnRvIHByb2plY3Qgc3RhcnQsIHNhdmUsIGxvYWQsIGZyYW1lLXN0YXJ0LCBmcmFtZS1lbmQuCgpgYGBweXRob24KZXhlY19kYXQgPSByb290LmNyZWF0ZShleGVjdXRlREFULCAnbGlmZWN5Y2xlJykKZXhlY19kYXQucGFyLnN0YXJ0ID0gVHJ1ZQpleGVjX2RhdC5wYXIuY3JlYXRlID0gVHJ1ZQpleGVjX2RhdC5wYXIuZnJhbWVzdGFydCA9IFRydWUKZXhlY19kYXQucGFyLmZyYW1lZW5kID0gRmFsc2UKYGBgCgpgYGBweXRob24KZGVmIG9uU3RhcnQoKToKICAgICIiIlByb2plY3QganVzdCBzdGFydGVkIGNvb2tpbmcuIFJ1biBvbmNlLiIiIgogICAgb3AoJy9wcm9qZWN0MS9zY2VuZScpLnBhci5pbmRleCA9IDAKICAgIGRlYnVnKCdQcm9qZWN0IHN0YXJ0ZWQnKQogICAgcmV0dXJuCgpkZWYgb25DcmVhdGUoKToKICAgICIiIkNvbXBvbmVudCB3YXMganVzdCBjcmVhdGVkIChvbmx5IGZpcmVzIGZvciBjb21wb25lbnQgZXhlY3V0ZURBVHMsIG5vdCBwcm9qZWN0IHJvb3QpLiIiIgogICAgcmV0dXJuCgpkZWYgb25GcmFtZVN0YXJ0KGZyYW1lKToKICAgICIiIlBlci1mcmFtZSwgQkVGT1JFIG5ldHdvcmsgY29va3MuIEhlYXZ5IGxvZ2ljIGhlcmUgPSBib3R0bGVuZWNrLiIiIgogICAgcmV0dXJuCgpkZWYgb25GcmFtZUVuZChmcmFtZSk6CiAgICAiIiJQZXItZnJhbWUsIEFGVEVSIG5ldHdvcmsgY29va3MuIFVzZSBmb3IgY2FwdHVyZSwgcmVjb3JkaW5nLCBwb3N0LW5ldHdvcmsgbG9naWMuIiIiCiAgICByZXR1cm4KCmRlZiBvblBsYXlTdGF0ZUNoYW5nZShwbGF5aW5nKToKICAgICIiIlByb2plY3QgcGxheS9wYXVzZSB0b2dnbGVkLiIiIgogICAgcmV0dXJuCgpkZWYgb25Qcm9qZWN0UHJlU2F2ZSgpOgogICAgIiIiUmlnaHQgYmVmb3JlIHNhdmluZyB0aGUgLnRvZSBmaWxlLiIiIgogICAgcmV0dXJuCgpkZWYgb25Qcm9qZWN0UG9zdFNhdmUoKToKICAgIHJldHVybgpgYGAKCkhlYXZ5IHBlci1mcmFtZSBsb2dpYyBpbiBgb25GcmFtZVN0YXJ0YCBpcyBvbmUgb2YgdGhlIHRvcCBwZXJmb3JtYW5jZSByZWdyZXNzaW9ucyBpbiBURCBwcm9qZWN0cy4gVXNlIENIT1BzIGZvciBwZXItZnJhbWUgY29tcHV0YXRpb24sIHNjcmlwdHMgZm9yIGV2ZW50cy4KCi0tLQoKIyMgUGF0dGVybjogVHJpZ2dlcmluZyBhbiBBbmltYXRpb24gU2VxdWVuY2Ugb24gQmVhdAoKYGBgcHl0aG9uCiMgU291cmNlOiBhIGtpY2sgdHJpZ2dlciBDSE9QCiMgR29hbDogb24gZWFjaCBraWNrLCBydW4gYSAxLjVzIHNjYWxlIHB1bHNlICsgY29sb3IgZmxhc2gKCiMgU2V0dXAgKGNyZWF0ZSBvbmNlKQphbmltYXRvciA9IHJvb3QuY3JlYXRlKHRpbWVyQ0hPUCwgJ3B1bHNlX2FuaW0nKQphbmltYXRvci5wYXIubGVuZ3RoID0gMS41CmFuaW1hdG9yLnBhci5jeWNsZSA9IEZhbHNlCgojIFBhcmFtIGV4cHJlc3Npb25zIG9uIHZpc3VhbCB0YXJnZXRzOgpvcCgnbG9nbycpLnBhci5zeC5leHByID0gIjEuMCArICgxIC0gb3AoJ3B1bHNlX2FuaW0nKVsndGltZXJfZnJhY3Rpb24nXSkgKiAwLjMiCm9wKCdsb2dvJykucGFyLnN4Lm1vZGUgPSBQYXJNb2RlLkVYUFJFU1NJT04Kb3AoJ2xvZ28nKS5wYXIuc3kuZXhwciA9ICIxLjAgKyAoMSAtIG9wKCdwdWxzZV9hbmltJylbJ3RpbWVyX2ZyYWN0aW9uJ10pICogMC4zIgpvcCgnbG9nbycpLnBhci5zeS5tb2RlID0gUGFyTW9kZS5FWFBSRVNTSU9OCgojIEluIGEgY2hvcEV4ZWN1dGVEQVQgd2F0Y2hpbmcgdGhlIGtpY2sgQ0hPUDoKZGVmIG9mZlRvT24oY2hhbm5lbCwgc2FtcGxlSW5kZXgsIHZhbCwgcHJldik6CiAgICBvcCgncHVsc2VfYW5pbScpLnBhci5zdGFydC5wdWxzZSgpCiAgICByZXR1cm4KYGBgCgotLS0KCiMjIFBhdHRlcm46IExpdmUgRWRpdGluZyBhIENIT1AgZnJvbSBBUEkgRGF0YQoKYGBgcHl0aG9uCiMgd2ViREFUIHBvbGxzIGFuIEFQSSBldmVyeSA1IHNlY29uZHMKIyBkYXRFeGVjdXRlREFUIHBhcnNlcyB0aGUgcmVzcG9uc2UgYW5kIHdyaXRlcyB0byBhIGNvbnN0YW50Q0hPUAoKZGVmIG9uVGFibGVDaGFuZ2UoZGF0KToKICAgIGltcG9ydCBqc29uCiAgICB0cnk6CiAgICAgICAgZGF0YSA9IGpzb24ubG9hZHMoZGF0LnRleHQpCiAgICBleGNlcHQ6CiAgICAgICAgcmV0dXJuCiAgICB0YXJnZXQgPSBvcCgnL3Byb2plY3QxL2V4dGVybmFsX3N0YXRlJykKICAgIHRhcmdldC5wYXIubmFtZTAgPSAndGVtcGVyYXR1cmUnCiAgICB0YXJnZXQucGFyLnZhbHVlMCA9IGZsb2F0KGRhdGFbJ3RlbXBfYyddKQogICAgdGFyZ2V0LnBhci5uYW1lMSA9ICdodW1pZGl0eScKICAgIHRhcmdldC5wYXIudmFsdWUxID0gZmxvYXQoZGF0YVsnaHVtaWRpdHknXSkKICAgIHJldHVybgpgYGAKClZpc3VhbHMganVzdCByZWZlcmVuY2UgYG9wKCdleHRlcm5hbF9zdGF0ZScpWyd0ZW1wZXJhdHVyZSddYCDigJQgdGhleSB1cGRhdGUgbGl2ZS4KCi0tLQoKIyMgUGF0dGVybjogU2VsZi1DbGVhbmluZyBOZXR3b3JrCgpgYGBweXRob24KIyBBbiBvcEV4ZWN1dGVEQVQgd2F0Y2hpbmcgZm9yIG9ycGhhbmVkIGhlbHBlciBvcHMsIGRlbGV0aW5nIHRoZW0gYWZ0ZXIgdGhlaXIgcGFyZW50IGRpc2FwcGVhcnMKCmRlZiBvbkRlc3Ryb3kob3BEZXN0cm95ZWQpOgogICAgcGFyZW50X25hbWUgPSBvcERlc3Ryb3llZC5uYW1lCiAgICBoZWxwZXIgPSBvcChmJy9wcm9qZWN0MS97cGFyZW50X25hbWV9X2hlbHBlcicpCiAgICBpZiBoZWxwZXI6CiAgICAgICAgaGVscGVyLmRlc3Ryb3koKQogICAgcmV0dXJuCmBgYAoKLS0tCgojIyBQaXRmYWxscwoKMS4gKipDYWxsYmFja3MgY3Jhc2ggc2lsZW50bHkqKiDigJQgZXhjZXB0aW9ucyBwcmludCB0byB0aGUgdGV4dHBvcnQgYnV0IGRvbid0IHNob3cgdXAgaW4gdGhlIFVJLiBBbHdheXMgYHRkX2NsZWFyX3RleHRwb3J0YCBiZWZvcmUgZGVidWdnaW5nLCB0aGVuIGB0ZF9yZWFkX3RleHRwb3J0YCBhZnRlci4KMi4gKipgZGVidWcoKWAgdnMgYHByaW50KClgKiog4oCUIGJvdGggd3JpdGUgdG8gdGV4dHBvcnQsIGJ1dCBgZGVidWcoKWAgaW5jbHVkZXMgdGhlIGZpbGUvbGluZSBvZiB0aGUgY2FsbGluZyBEQVQuIFByZWZlciBgZGVidWcoKWAgZm9yIHNjcmlwdHMuCjMuICoqYHZhbGAgaXMgdGhlIG5ldyB2YWx1ZSwgYHByZXZgIGlzIG9sZCoqIOKAlCBlYXN5IHRvIHN3YXAuIEFsd2F5czogYGRlZiBvZmZUb09uKGNoYW5uZWwsIHNhbXBsZUluZGV4LCB2YWwsIHByZXYpYC4gQ2hlY2sgcGFyYW1ldGVyIG9yZGVyIGluIFREIGRvY3MgaWYgY29uZnVzZWQuCjQuICoqYHdoaWxlT25gIGFuZCBgdmFsdWVDaGFuZ2VgIGFyZSBwZXItZnJhbWUqKiDigJQgaGVhdnkuIEF2b2lkIHVubGVzcyBhYnNvbHV0ZWx5IG5lZWRlZC4gRHJpdmUgdmlhIGV4cHJlc3Npb25zIGluc3RlYWQuCjUuICoqQ2FsbGJhY2tzIGRvbid0IHJ1biBkdXJpbmcgY29va2luZy1wYXVzZWQgc3RhdGUqKiDigJQgaWYgdGhlIHBhcmVudCBDT01QIGhhcyBgYWxsb3dDb29raW5nPUZhbHNlYCwgY2FsbGJhY2tzIGZyZWV6ZS4gVXNlZnVsIGZvciAiZGlzYWJsZSBtZSIgdG9nZ2xlcy4KNi4gKipgcGFyYCB2cyBgcGFuZWxWYWx1ZWAqKiDigJQgcGFyYW1ldGVyRXhlY3V0ZURBVCBnaXZlcyBgcGFyYCAoYSBQYXIgb2JqZWN0KSwgcGFuZWxFeGVjdXRlREFUIGdpdmVzIGBwYW5lbFZhbHVlYCAoYWxzbyBhIFBhci1saWtlIG9iamVjdCkuIEJvdGggaGF2ZSBgLm5hbWVgIGFuZCBgLmV2YWwoKWAgYnV0IHRoZWlyIGNvbnRleHQgZGlmZmVycy4KNy4gKipgb3BFeGVjdXRlREFUYCBmaXJlcyBmb3IgaXRzZWxmKiog4oCUIHdoZW4geW91IGNyZWF0ZSBhbiBvcEV4ZWN1dGVEQVQsIGl0IGNhbiBmaXJlIGBvbkNyZWF0ZWAgZm9yIGl0c2VsZiBpZiBgcGFyLmNyZWF0ZT1UcnVlYCBhbmQgcGFyZW50IG1hdGNoZXMuIEZpbHRlciBieSBgaWYgb3BDcmVhdGVkID09IG1lOiByZXR1cm5gLgo4LiAqKlJlbG9hZCBiZWhhdmlvcioqIOKAlCB3aGVuIHJlbG9hZGluZyBhbiBleHRlbnNpb24gKGB0ZF9yZWluaXRfZXh0ZW5zaW9uYCksIGFsbCBjYWxsYmFjayBEQVRzIHJlc2V0IHRoZWlyIGludGVybmFsIHN0YXRlLiBNb2R1bGUtbGV2ZWwgdmFycyBhcmUgbG9zdC4gUGVyc2lzdCBzdGF0ZSBpbiB0YWJsZURBVHMgb3IgdGhlIGRvY2tlZCBEQVQgaXRzZWxmLCBub3QgaW4gbW9kdWxlIGdsb2JhbHMuCjkuICoqQ29va2luZyBkZXBlbmRlbmNpZXMqKiDigJQgaWYgYSBjYWxsYmFjayB3cml0ZXMgdG8gYW4gb3AgdGhhdCdzIHVwc3RyZWFtIG9mIHRoZSBjYWxsYmFjaydzIHNvdXJjZSwgeW91IGdldCBhIGNvb2tpbmcgbG9vcC4gVEQgd2FybnMgYWJvdXQgaXQgYnV0IGRvZXNuJ3QgYWx3YXlzIGJsb2NrLiBLZWVwIGRhdGFmbG93IG9uZS1kaXJlY3Rpb25hbC4KMTAuICoqQWN0aXZlIGZsYWcqKiDigJQgZXZlcnkgRXhlY3V0ZSBEQVQgaGFzIGBwYXIuYWN0aXZlYC4gRmFsc2UgPSBzaWxlbnQuIEVhc3kgdG8gdG9nZ2xlIGZvciB0ZXN0aW5nIHdpdGhvdXQgZGVsZXRpbmcgd2lyaW5nLgoKLS0tCgojIyBRdWljayBSZWNpcGVzCgp8IEdvYWwgfCBTZXR1cCB8CnwtLS18LS0tfAp8IEJlYXQgdHJpZ2dlciB8IGBjaG9wRXhlY3V0ZURBVC5wYXIub2ZmdG9vbj1UcnVlYCB3YXRjaGluZyBhIGB0cmlnZ2VyQ0hPUGAgfAp8IEFQSSByZXNwb25zZSBoYW5kbGVyIHwgYGRhdEV4ZWN1dGVEQVQucGFyLnRhYmxlY2hhbmdlPVRydWVgIHdhdGNoaW5nIGEgYHdlYkRBVGAgfAp8IEN1c3RvbSBidXR0b24g4oaSIGFjdGlvbiB8IGBwYXJhbWV0ZXJFeGVjdXRlREFULnBhci5wdWxzZT1UcnVlYCB3YXRjaGluZyBhIGN1c3RvbSBwdWxzZSBwYXJhbSB8CnwgU2xpZGVyIOKGkiBjb250aW51b3VzIHBhcmFtIHwgYHBhbmVsRXhlY3V0ZURBVC5wYXIudmFsdWU9VHJ1ZWAgd2F0Y2hpbmcgYSBgc2xpZGVyQ09NUGAgfAp8IFJ1bi1vbmNlIHNldHVwIHwgYGV4ZWN1dGVEQVQucGFyLnN0YXJ0PVRydWVgIHdpdGggbG9naWMgaW4gYG9uU3RhcnQoKWAgfAp8IFBlci1mcmFtZSBtZXRyaWNzIHwgYGV4ZWN1dGVEQVQucGFyLmZyYW1lZW5kPVRydWVgIHJlY29yZGluZyB2YWx1ZXMgdG8gYSBDSE9QIHwKfCBBdXRvLW5hbWUgbmV3IG9wcyB8IGBvcEV4ZWN1dGVEQVQucGFyLmNyZWF0ZT1UcnVlYCBlbmZvcmNpbmcgbmFtaW5nIGNvbnZlbnRpb25zIHwK
+# DAT-Based Scripting Reference
+
+TD's event/callback model — Python that runs in response to network events. The full set of "Execute DATs" plus their idiomatic patterns.
+
+For arbitrary Python execution (not callback-based), see `python-api.md`. For the MCP's `td_execute_python` tool, see `mcp-tools.md`.
+
+---
+
+## The Execute DAT Family
+
+Every type watches one kind of event source and fires Python on changes.
+
+| DAT | Watches | Use for |
+|---|---|---|
+| `chopExecuteDAT` | A CHOP's channel values | Audio triggers, threshold callbacks, state machines on numeric input |
+| `datExecuteDAT` | A DAT's content (table cells, text) | Reacting to data updates from APIs, parsing webDAT responses |
+| `parameterExecuteDAT` | A parameter's value or pulse | Reacting to user-changed params, custom pulse buttons |
+| `panelExecuteDAT` | A panel COMP's interaction | Button clicks, slider drags, field commits |
+| `opExecuteDAT` | Operator lifecycle | New operator created, deleted, name changed |
+| `executeDAT` | Project lifecycle, frame events | Run-once setup, per-frame logic, save/load hooks |
+
+All have a docked DAT with predefined callback functions. You only fill in the bodies of the ones you care about.
+
+---
+
+## chopExecuteDAT — Numeric Triggers
+
+```python
+ce = root.create(chopExecuteDAT, 'kick_handler')
+ce.par.chop = '/project1/audio/out_kick'      # source CHOP
+ce.par.offtoon = True                          # fire when channel rises above 0
+ce.par.ontooff = False
+ce.par.whileon = False
+ce.par.valuechange = False
+```
+
+In the docked callback DAT:
+
+```python
+def offToOn(channel, sampleIndex, val, prev):
+    """Channel went from 0 to non-zero. Classic beat trigger."""
+    op('/project1/strobe').par.flash.pulse()
+    op('/project1/scene').par.index = (op('/project1/scene').par.index + 1) % 8
+    return
+
+def onToOff(channel, sampleIndex, val, prev):
+    """Channel went from non-zero to 0."""
+    return
+
+def whileOn(channel, sampleIndex, val, prev):
+    """Fires every frame while channel is non-zero. Use sparingly."""
+    return
+
+def valueChange(channel, sampleIndex, val, prev):
+    """Fires every frame the value changes (continuous). Heavy."""
+    return
+```
+
+`channel` is a `Channel` object — `.name`, `.owner`, `.vals[]`. Use `channel.name == 'chan1'` to filter.
+
+**Threshold-based custom triggers:** wire the source CHOP through a `triggerCHOP` first to get clean 0/1 pulses, then watch with `offtoon`.
+
+---
+
+## datExecuteDAT — Table/Text Changes
+
+```python
+de = root.create(datExecuteDAT, 'api_response')
+de.par.dat = '/project1/api/web1'              # source DAT
+de.par.tablechange = True                      # any cell change
+de.par.cellchange = False
+de.par.rowchange = False
+de.par.colchange = False
+```
+
+```python
+def onTableChange(dat):
+    """Whole table changed (including text DAT content updates)."""
+    if dat.numRows == 0:
+        return
+    # If it's a webDAT response, parse JSON
+    import json
+    try:
+        data = json.loads(dat.text)
+    except json.JSONDecodeError:
+        debug(f'Bad JSON: {dat.text[:100]}')
+        return
+    # Write to a CHOP
+    op('/project1/api_value').par.value0 = float(data.get('count', 0))
+    return
+
+def onCellChange(dat, cells, prev):
+    """Specific cells changed."""
+    for cell in cells:
+        # cell.row, cell.col, cell.val
+        pass
+    return
+```
+
+`debug()` prints to the textport — readable via `td_read_textport`.
+
+---
+
+## parameterExecuteDAT — Param Changes & Pulse
+
+```python
+pe = root.create(parameterExecuteDAT, 'comp_params')
+pe.par.op = '/project1/my_component'           # COMP whose params to watch
+pe.par.parameters = '*'                         # or specific names like 'Intensity Reset'
+pe.par.valuechange = True
+pe.par.pulse = True
+```
+
+```python
+def onValueChange(par, prev):
+    """par is a Par object. par.name, par.eval(), par.owner."""
+    if par.name == 'Intensity':
+        op('/project1/bloom').par.threshold = par.eval()
+    return
+
+def onPulse(par):
+    """Pulse param was triggered."""
+    if par.name == 'Reset':
+        op('/project1/scene').par.index = 0
+        op('/project1/audio_player').par.cuepoint = 0
+        op('/project1/audio_player').par.cuepulse.pulse()
+    return
+
+def onExpressionChange(par, val, prev):
+    """User changed the expression on a param."""
+    return
+
+def onExportChange(par, val, prev):
+    """Export source changed."""
+    return
+
+def onModeChange(par, val, prev):
+    """Param mode changed (CONSTANT / EXPRESSION / EXPORT / etc)."""
+    return
+```
+
+---
+
+## panelExecuteDAT — UI Events
+
+For interactive control surfaces. See `panel-ui.md` for the full panel COMP context.
+
+```python
+pe = root.create(panelExecuteDAT, 'btn_handler')
+pe.par.panel = '/project1/play_btn'
+pe.par.click = True              # mouse click events
+pe.par.value = True              # state changes (toggle)
+pe.par.lockedchange = False
+```
+
+```python
+def onOffToOn(panelValue):
+    """Panel value rose to 1 (button pressed, slider crossed threshold)."""
+    op('/project1/scene_timer').par.start.pulse()
+    return
+
+def onOnToOff(panelValue):
+    """Panel value dropped to 0."""
+    return
+
+def onValueChange(panelValue):
+    """Continuous: every frame the value changes."""
+    val = panelValue.eval()
+    op('/project1/master').par.opacity = val
+    return
+
+def onClick(panelValue):
+    """Discrete click event, fires once per click."""
+    return
+```
+
+`panelValue` is a `Par` object on the panel COMP.
+
+---
+
+## opExecuteDAT — Operator Lifecycle
+
+Watches creation/deletion/renaming of operators in a parent COMP.
+
+```python
+oe = root.create(opExecuteDAT, 'lifecycle')
+oe.par.op = '/project1'
+oe.par.create = True
+oe.par.destroy = True
+oe.par.namechange = True
+oe.par.flagchange = False
+```
+
+```python
+def onCreate(opCreated):
+    """A new operator was created. Useful for auto-applying conventions."""
+    if opCreated.OPType == 'glslTOP':
+        # Always wrap with a null
+        n = opCreated.parent().create(nullTOP, opCreated.name + '_out')
+        n.inputConnectors[0].connect(opCreated)
+    return
+
+def onDestroy(opDestroyed):
+    """Operator was deleted. opDestroyed.path is still valid for one frame."""
+    return
+
+def onNameChange(opChanged):
+    """Operator was renamed."""
+    return
+```
+
+Useful for dev-time scaffolding (auto-create downstream nullTOPs, auto-name conventions). Disable in production projects to avoid surprise side effects.
+
+---
+
+## executeDAT — Project Lifecycle & Per-Frame
+
+The catch-all. Gets you hooks into project start, save, load, frame-start, frame-end.
+
+```python
+exec_dat = root.create(executeDAT, 'lifecycle')
+exec_dat.par.start = True
+exec_dat.par.create = True
+exec_dat.par.framestart = True
+exec_dat.par.frameend = False
+```
+
+```python
+def onStart():
+    """Project just started cooking. Run once."""
+    op('/project1/scene').par.index = 0
+    debug('Project started')
+    return
+
+def onCreate():
+    """Component was just created (only fires for component executeDATs, not project root)."""
+    return
+
+def onFrameStart(frame):
+    """Per-frame, BEFORE network cooks. Heavy logic here = bottleneck."""
+    return
+
+def onFrameEnd(frame):
+    """Per-frame, AFTER network cooks. Use for capture, recording, post-network logic."""
+    return
+
+def onPlayStateChange(playing):
+    """Project play/pause toggled."""
+    return
+
+def onProjectPreSave():
+    """Right before saving the .toe file."""
+    return
+
+def onProjectPostSave():
+    return
+```
+
+Heavy per-frame logic in `onFrameStart` is one of the top performance regressions in TD projects. Use CHOPs for per-frame computation, scripts for events.
+
+---
+
+## Pattern: Triggering an Animation Sequence on Beat
+
+```python
+# Source: a kick trigger CHOP
+# Goal: on each kick, run a 1.5s scale pulse + color flash
+
+# Setup (create once)
+animator = root.create(timerCHOP, 'pulse_anim')
+animator.par.length = 1.5
+animator.par.cycle = False
+
+# Param expressions on visual targets:
+op('logo').par.sx.expr = "1.0 + (1 - op('pulse_anim')['timer_fraction']) * 0.3"
+op('logo').par.sx.mode = ParMode.EXPRESSION
+op('logo').par.sy.expr = "1.0 + (1 - op('pulse_anim')['timer_fraction']) * 0.3"
+op('logo').par.sy.mode = ParMode.EXPRESSION
+
+# In a chopExecuteDAT watching the kick CHOP:
+def offToOn(channel, sampleIndex, val, prev):
+    op('pulse_anim').par.start.pulse()
+    return
+```
+
+---
+
+## Pattern: Live Editing a CHOP from API Data
+
+```python
+# webDAT polls an API every 5 seconds
+# datExecuteDAT parses the response and writes to a constantCHOP
+
+def onTableChange(dat):
+    import json
+    try:
+        data = json.loads(dat.text)
+    except:
+        return
+    target = op('/project1/external_state')
+    target.par.name0 = 'temperature'
+    target.par.value0 = float(data['temp_c'])
+    target.par.name1 = 'humidity'
+    target.par.value1 = float(data['humidity'])
+    return
+```
+
+Visuals just reference `op('external_state')['temperature']` — they update live.
+
+---
+
+## Pattern: Self-Cleaning Network
+
+```python
+# An opExecuteDAT watching for orphaned helper ops, deleting them after their parent disappears
+
+def onDestroy(opDestroyed):
+    parent_name = opDestroyed.name
+    helper = op(f'/project1/{parent_name}_helper')
+    if helper:
+        helper.destroy()
+    return
+```
+
+---
+
+## Pitfalls
+
+1. **Callbacks crash silently** — exceptions print to the textport but don't show up in the UI. Always `td_clear_textport` before debugging, then `td_read_textport` after.
+2. **`debug()` vs `print()`** — both write to textport, but `debug()` includes the file/line of the calling DAT. Prefer `debug()` for scripts.
+3. **`val` is the new value, `prev` is old** — easy to swap. Always: `def offToOn(channel, sampleIndex, val, prev)`. Check parameter order in TD docs if confused.
+4. **`whileOn` and `valueChange` are per-frame** — heavy. Avoid unless absolutely needed. Drive via expressions instead.
+5. **Callbacks don't run during cooking-paused state** — if the parent COMP has `allowCooking=False`, callbacks freeze. Useful for "disable me" toggles.
+6. **`par` vs `panelValue`** — parameterExecuteDAT gives `par` (a Par object), panelExecuteDAT gives `panelValue` (also a Par-like object). Both have `.name` and `.eval()` but their context differs.
+7. **`opExecuteDAT` fires for itself** — when you create an opExecuteDAT, it can fire `onCreate` for itself if `par.create=True` and parent matches. Filter by `if opCreated == me: return`.
+8. **Reload behavior** — when reloading an extension (`td_reinit_extension`), all callback DATs reset their internal state. Module-level vars are lost. Persist state in tableDATs or the docked DAT itself, not in module globals.
+9. **Cooking dependencies** — if a callback writes to an op that's upstream of the callback's source, you get a cooking loop. TD warns about it but doesn't always block. Keep dataflow one-directional.
+10. **Active flag** — every Execute DAT has `par.active`. False = silent. Easy to toggle for testing without deleting wiring.
+
+---
+
+## Quick Recipes
+
+| Goal | Setup |
+|---|---|
+| Beat trigger | `chopExecuteDAT.par.offtoon=True` watching a `triggerCHOP` |
+| API response handler | `datExecuteDAT.par.tablechange=True` watching a `webDAT` |
+| Custom button → action | `parameterExecuteDAT.par.pulse=True` watching a custom pulse param |
+| Slider → continuous param | `panelExecuteDAT.par.value=True` watching a `sliderCOMP` |
+| Run-once setup | `executeDAT.par.start=True` with logic in `onStart()` |
+| Per-frame metrics | `executeDAT.par.frameend=True` recording values to a CHOP |
+| Auto-name new ops | `opExecuteDAT.par.create=True` enforcing naming conventions |

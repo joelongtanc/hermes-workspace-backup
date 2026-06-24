@@ -1,1 +1,66 @@
-IyEvdXNyL2Jpbi9lbnYgYmFzaAojIEdpdEh1YiBlbnZpcm9ubWVudCBkZXRlY3Rpb24gaGVscGVyIGZvciBIZXJtZXMgQWdlbnQgc2tpbGxzLgojCiMgVXNhZ2UgKHZpYSB0ZXJtaW5hbCB0b29sKToKIyAgIHNvdXJjZSBza2lsbHMvZ2l0aHViL2dpdGh1Yi1hdXRoL3NjcmlwdHMvZ2gtZW52LnNoCiMKIyBBZnRlciBzb3VyY2luZywgdGhlc2UgdmFyaWFibGVzIGFyZSBzZXQ6CiMgICBHSF9BVVRIX01FVEhPRCAgLSAiZ2giLCAiY3VybCIsIG9yICJub25lIgojICAgR0lUSFVCX1RPS0VOICAgIC0gcGVyc29uYWwgYWNjZXNzIHRva2VuIChzZXQgaWYgbWV0aG9kIGlzICJjdXJsIikKIyAgIEdIX1VTRVIgICAgICAgICAtIEdpdEh1YiB1c2VybmFtZQojICAgR0hfT1dORVIgICAgICAgIC0gcmVwbyBvd25lciAgKG9ubHkgaWYgaW5zaWRlIGEgZ2l0IHJlcG8gd2l0aCBhIGdpdGh1YiByZW1vdGUpCiMgICBHSF9SRVBPICAgICAgICAgLSByZXBvIG5hbWUgICAob25seSBpZiBpbnNpZGUgYSBnaXQgcmVwbyB3aXRoIGEgZ2l0aHViIHJlbW90ZSkKIyAgIEdIX09XTkVSX1JFUE8gICAtIG93bmVyL3JlcG8gIChvbmx5IGlmIGluc2lkZSBhIGdpdCByZXBvIHdpdGggYSBnaXRodWIgcmVtb3RlKQoKIyAtLS0gQXV0aCBkZXRlY3Rpb24gLS0tCgpHSF9BVVRIX01FVEhPRD0ibm9uZSIKR0lUSFVCX1RPS0VOPSIke0dJVEhVQl9UT0tFTjotfSIKR0hfVVNFUj0iIgoKaWYgY29tbWFuZCAtdiBnaCAmPi9kZXYvbnVsbCAmJiBnaCBhdXRoIHN0YXR1cyAmPi9kZXYvbnVsbCAyPiYxOyB0aGVuCiAgICBHSF9BVVRIX01FVEhPRD0iZ2giCiAgICBHSF9VU0VSPSQoZ2ggYXBpIHVzZXIgLS1qcSAnLmxvZ2luJyAyPi9kZXYvbnVsbCkKZWxpZiBbIC1uICIkR0lUSFVCX1RPS0VOIiBdOyB0aGVuCiAgICBHSF9BVVRIX01FVEhPRD0iY3VybCIKZWxpZiBbIC1mICIkSE9NRS8uaGVybWVzLy5lbnYiIF0gJiYgZ3JlcCAtcSAiXkdJVEhVQl9UT0tFTj0iICIkSE9NRS8uaGVybWVzLy5lbnYiIDI+L2Rldi9udWxsOyB0aGVuCiAgICBHSVRIVUJfVE9LRU49JChncmVwICJeR0lUSFVCX1RPS0VOPSIgIiRIT01FLy5oZXJtZXMvLmVudiIgfCBoZWFkIC0xIHwgY3V0IC1kPSAtZjIgfCB0ciAtZCAnXG5ccicpCiAgICBpZiBbIC1uICIkR0lUSFVCX1RPS0VOIiBdOyB0aGVuCiAgICAgICAgR0hfQVVUSF9NRVRIT0Q9ImN1cmwiCiAgICBmaQplbGlmIFsgLWYgIiRIT01FLy5naXQtY3JlZGVudGlhbHMiIF0gJiYgZ3JlcCAtcSAiZ2l0aHViLmNvbSIgIiRIT01FLy5naXQtY3JlZGVudGlhbHMiIDI+L2Rldi9udWxsOyB0aGVuCiAgICBHSVRIVUJfVE9LRU49JChncmVwICJnaXRodWIuY29tIiAiJEhPTUUvLmdpdC1jcmVkZW50aWFscyIgfCBoZWFkIC0xIHwgc2VkICdzfGh0dHBzOi8vW146XSo6XChbXkBdKlwpQC4qfFwxfCcpCiAgICBpZiBbIC1uICIkR0lUSFVCX1RPS0VOIiBdOyB0aGVuCiAgICAgICAgR0hfQVVUSF9NRVRIT0Q9ImN1cmwiCiAgICBmaQpmaQoKIyBSZXNvbHZlIHVzZXJuYW1lIGZvciBjdXJsIG1ldGhvZAppZiBbICIkR0hfQVVUSF9NRVRIT0QiID0gImN1cmwiIF0gJiYgWyAteiAiJEdIX1VTRVIiIF07IHRoZW4KICAgIEdIX1VTRVI9JChjdXJsIC1zIC1IICJBdXRob3JpemF0aW9uOiB0b2tlbiAkR0lUSFVCX1RPS0VOIiBcCiAgICAgICAgaHR0cHM6Ly9hcGkuZ2l0aHViLmNvbS91c2VyIDI+L2Rldi9udWxsIFwKICAgICAgICB8IHB5dGhvbjMgLWMgImltcG9ydCBzeXMsanNvbjsgcHJpbnQoanNvbi5sb2FkKHN5cy5zdGRpbikuZ2V0KCdsb2dpbicsJycpKSIgMj4vZGV2L251bGwpCmZpCgojIC0tLSBSZXBvIGRldGVjdGlvbiAoaWYgaW5zaWRlIGEgZ2l0IHJlcG8gd2l0aCBhIEdpdEh1YiByZW1vdGUpIC0tLQoKR0hfT1dORVI9IiIKR0hfUkVQTz0iIgpHSF9PV05FUl9SRVBPPSIiCgpfcmVtb3RlX3VybD0kKGdpdCByZW1vdGUgZ2V0LXVybCBvcmlnaW4gMj4vZGV2L251bGwpCmlmIFsgLW4gIiRfcmVtb3RlX3VybCIgXSAmJiBlY2hvICIkX3JlbW90ZV91cmwiIHwgZ3JlcCAtcSAiZ2l0aHViLmNvbSI7IHRoZW4KICAgIEdIX09XTkVSX1JFUE89JChlY2hvICIkX3JlbW90ZV91cmwiIHwgc2VkIC1FICdzfC4qZ2l0aHViXC5jb21bOi9dfHw7IHN8XC5naXQkfHwnKQogICAgR0hfT1dORVI9JChlY2hvICIkR0hfT1dORVJfUkVQTyIgfCBjdXQgLWQvIC1mMSkKICAgIEdIX1JFUE89JChlY2hvICIkR0hfT1dORVJfUkVQTyIgfCBjdXQgLWQvIC1mMikKZmkKdW5zZXQgX3JlbW90ZV91cmwKCiMgLS0tIFN1bW1hcnkgLS0tCgplY2hvICJHaXRIdWIgQXV0aDogJEdIX0FVVEhfTUVUSE9EIgpbIC1uICIkR0hfVVNFUiIgXSAgICAgICAmJiBlY2hvICJVc2VyOiAkR0hfVVNFUiIKWyAtbiAiJEdIX09XTkVSX1JFUE8iIF0gJiYgZWNobyAiUmVwbzogJEdIX09XTkVSX1JFUE8iClsgIiRHSF9BVVRIX01FVEhPRCIgPSAibm9uZSIgXSAmJiBlY2hvICLimqAgTm90IGF1dGhlbnRpY2F0ZWQg4oCUIHNlZSBnaXRodWItYXV0aCBza2lsbCIKCmV4cG9ydCBHSF9BVVRIX01FVEhPRCBHSVRIVUJfVE9LRU4gR0hfVVNFUiBHSF9PV05FUiBHSF9SRVBPIEdIX09XTkVSX1JFUE8K
+#!/usr/bin/env bash
+# GitHub environment detection helper for Hermes Agent skills.
+#
+# Usage (via terminal tool):
+#   source skills/github/github-auth/scripts/gh-env.sh
+#
+# After sourcing, these variables are set:
+#   GH_AUTH_METHOD  - "gh", "curl", or "none"
+#   GITHUB_TOKEN    - personal access token (set if method is "curl")
+#   GH_USER         - GitHub username
+#   GH_OWNER        - repo owner  (only if inside a git repo with a github remote)
+#   GH_REPO         - repo name   (only if inside a git repo with a github remote)
+#   GH_OWNER_REPO   - owner/repo  (only if inside a git repo with a github remote)
+
+# --- Auth detection ---
+
+GH_AUTH_METHOD="none"
+GITHUB_TOKEN="${GITHUB_TOKEN:-}"
+GH_USER=""
+
+if command -v gh &>/dev/null && gh auth status &>/dev/null 2>&1; then
+    GH_AUTH_METHOD="gh"
+    GH_USER=$(gh api user --jq '.login' 2>/dev/null)
+elif [ -n "$GITHUB_TOKEN" ]; then
+    GH_AUTH_METHOD="curl"
+elif [ -f "$HOME/.hermes/.env" ] && grep -q "^GITHUB_TOKEN=" "$HOME/.hermes/.env" 2>/dev/null; then
+    GITHUB_TOKEN=$(grep "^GITHUB_TOKEN=" "$HOME/.hermes/.env" | head -1 | cut -d= -f2 | tr -d '\n\r')
+    if [ -n "$GITHUB_TOKEN" ]; then
+        GH_AUTH_METHOD="curl"
+    fi
+elif [ -f "$HOME/.git-credentials" ] && grep -q "github.com" "$HOME/.git-credentials" 2>/dev/null; then
+    GITHUB_TOKEN=$(grep "github.com" "$HOME/.git-credentials" | head -1 | sed 's|https://[^:]*:\([^@]*\)@.*|\1|')
+    if [ -n "$GITHUB_TOKEN" ]; then
+        GH_AUTH_METHOD="curl"
+    fi
+fi
+
+# Resolve username for curl method
+if [ "$GH_AUTH_METHOD" = "curl" ] && [ -z "$GH_USER" ]; then
+    GH_USER=$(curl -s -H "Authorization: token $GITHUB_TOKEN" \
+        https://api.github.com/user 2>/dev/null \
+        | python3 -c "import sys,json; print(json.load(sys.stdin).get('login',''))" 2>/dev/null)
+fi
+
+# --- Repo detection (if inside a git repo with a GitHub remote) ---
+
+GH_OWNER=""
+GH_REPO=""
+GH_OWNER_REPO=""
+
+_remote_url=$(git remote get-url origin 2>/dev/null)
+if [ -n "$_remote_url" ] && echo "$_remote_url" | grep -q "github.com"; then
+    GH_OWNER_REPO=$(echo "$_remote_url" | sed -E 's|.*github\.com[:/]||; s|\.git$||')
+    GH_OWNER=$(echo "$GH_OWNER_REPO" | cut -d/ -f1)
+    GH_REPO=$(echo "$GH_OWNER_REPO" | cut -d/ -f2)
+fi
+unset _remote_url
+
+# --- Summary ---
+
+echo "GitHub Auth: $GH_AUTH_METHOD"
+[ -n "$GH_USER" ]       && echo "User: $GH_USER"
+[ -n "$GH_OWNER_REPO" ] && echo "Repo: $GH_OWNER_REPO"
+[ "$GH_AUTH_METHOD" = "none" ] && echo "⚠ Not authenticated — see github-auth skill"
+
+export GH_AUTH_METHOD GITHUB_TOKEN GH_USER GH_OWNER GH_REPO GH_OWNER_REPO

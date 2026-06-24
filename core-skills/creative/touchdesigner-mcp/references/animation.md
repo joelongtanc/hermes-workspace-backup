@@ -1,1 +1,221 @@
-IyBBbmltYXRpb24gUmVmZXJlbmNlCgpQYXR0ZXJucyBmb3IgdGltZS1iYXNlZCBtb3Rpb24g4oCUIGtleWZyYW1lcywgTEZPcywgdGltZXJzLCBlYXNpbmcsIGV4cHJlc3Npb24tZHJpdmVuIGFuaW1hdGlvbi4KCkFsd2F5cyBjYWxsIGB0ZF9nZXRfcGFyX2luZm9gIGZvciB0aGUgb3AgdHlwZSBiZWZvcmUgc2V0dGluZyBwYXJhbXMuIFBhcmFtIG5hbWVzIGJlbG93IHJlZmxlY3QgVEQgMjAyNS4zMiBidXQgdmVyaWZ5IGlmIGVycm9ycyBmaXJlLgoKLS0tCgojIyBUaW1lIFNvdXJjZXMKClREIGhhcyB0aHJlZSB0aW1lIHJlZmVyZW5jZXMg4oCUIHBpY2sgdGhlIHJpZ2h0IG9uZS4KCnwgRXhwcmVzc2lvbiB8IEJlaGF2aW9yIHwgVXNlIGZvciB8CnwtLS18LS0tfC0tLXwKfCBgYWJzVGltZS5zZWNvbmRzYCB8IFdhbGwtY2xvY2sgc2Vjb25kcyBzaW5jZSBURCBzdGFydGVkLiBOZXZlciByZXNldHMuIHwgQ29udGludW91cyBtb3Rpb24sIEdMU0wgYHVUaW1lYCwgaW5maW5pdGUgbG9vcHMgfAp8IGBhYnNUaW1lLmZyYW1lYCB8IFdhbGwtY2xvY2sgZnJhbWUgY291bnQuIHwgRnJhbWUtYWNjdXJhdGUgdHJpZ2dlcnMgfAp8IGBtZS50aW1lLmZyYW1lYCB8IExvY2FsIGNvbXBvbmVudCBmcmFtZSBjb3VudCAocmVzZXRzIG9uIHBsYXkvc3RvcCkuIHwgUGVyLUNPTVAgYW5pbWF0aW9uIHRpbWVsaW5lIHwKfCBgbWUudGltZS5zZWNvbmRzYCB8IExvY2FsIGNvbXBvbmVudCBzZWNvbmRzLiB8IFNhbWUsIGluIHNlY29uZHMgfAoKKipSdWxlOioqIGZvciBzaGFkZXJzIGFuZCBjb250aW51b3VzIG1vdGlvbiB1c2UgYGFic1RpbWUuc2Vjb25kc2AuIEZvciB0cmlnZ2VyZWQvbG9vcGluZyBhbmltYXRpb25zIGluc2lkZSBhIENPTVAgdXNlIGBtZS50aW1lLipgLgoKLS0tCgojIyBMRk8gQ0hPUCDigJQgQ3ljbGljIE1vdGlvbgoKVGhlIHNpbXBsZXN0IHBlcmlvZGljIGRyaXZlci4gRmFzdCwgR1BVLWNoZWFwLCBleHByZXNzaW9uLWZyaWVuZGx5LgoKYGBgcHl0aG9uCmxmbyA9IHJvb3QuY3JlYXRlKGxmb0NIT1AsICdyb3RfZHJpdmVyJykKbGZvLnBhci50eXBlID0gJ3NpbicgICAgICAgICMgJ3NpbicgfCAnY29zJyB8ICdyYW1wJyB8ICdzcXVhcmUnIHwgJ3RyaWFuZ2xlJyB8ICdwdWxzZScKbGZvLnBhci5mcmVxdWVuY3kgPSAwLjI1ICAgICMgY3ljbGVzIHBlciBzZWNvbmQKbGZvLnBhci5hbXBsaXR1ZGUgPSAxLjAKbGZvLnBhci5vZmZzZXQgPSAwLjAKbGZvLnBhci5waGFzZSA9IDAuMCAgICAgICAgICMgMC0xLCB1c2VmdWwgZm9yIG9mZnNldHRpbmcgcGFyYWxsZWwgTEZPcwpgYGAKCioqRHJpdmUgYSBwYXJhbWV0ZXIgdmlhIGV4cG9ydDoqKgoKYGBgcHl0aG9uCm9wKCcvcHJvamVjdDEvZ2VvMScpLnBhci5yeC5tb2RlID0gUGFyTW9kZS5FWFBSRVNTSU9OCm9wKCcvcHJvamVjdDEvZ2VvMScpLnBhci5yeC5leHByID0gIm9wKCdyb3RfZHJpdmVyJylbJ2NoYW4xJ10gKiAzNjAiCmBgYAoKKipNdWx0aXBsZSBzeW5jZWQgTEZPcyAoWC9ZL1ogcm90YXRpb24gd2l0aCBwaGFzZSBvZmZzZXRzKToqKgpDcmVhdGUgb25lIExGTyB3aXRoIHRocmVlIGNoYW5uZWxzIGFuZCBwaGFzZS1vZmZzZXQgZWFjaCwgb3IgdXNlIHRocmVlIExGT3MgYW5kIG9mZnNldCB0aGVpciBgcGhhc2VgIHBhcmFtcyAoMC4wLCAwLjMzLCAwLjY2KS4KCi0tLQoKIyMgVGltZXIgQ0hPUCDigJQgVHJpZ2dlcmVkIFNlcXVlbmNlcwoKRm9yIHJ1bi1vbmNlIGFuaW1hdGlvbnMsIGJlYXQtbG9ja2VkIHNlcXVlbmNlcywgb3Igc3RhZ2UtYmFzZWQgbG9naWMuCgpgYGBweXRob24KdGltZXIgPSByb290LmNyZWF0ZSh0aW1lckNIT1AsICdmYWRlX3RpbWVyJykKdGltZXIucGFyLmxlbmd0aCA9IDQuMCAgICAgICAjIGN5Y2xlIGxlbmd0aCBpbiBzZWNvbmRzCnRpbWVyLnBhci5jeWNsZSA9IEZhbHNlICAgICAgIyBydW4gb25jZSB2cy4gbG9vcAp0aW1lci5wYXIub3V0cHV0c2Vjb25kcyA9IFRydWUKYGBgCgpPdXRwdXQgY2hhbm5lbHM6IGB0aW1lcl9mcmFjdGlvbmAgKDDihpIxIGFjcm9zcyB0aGUgY3ljbGUpLCBgcnVubmluZ2AsIGBkb25lYCwgYGN5Y2xlc2AuCgoqKlN0YXJ0IHRoZSB0aW1lcjoqKgpgYGBweXRob24KdGltZXIucGFyLnN0YXJ0LnB1bHNlKCkKYGBgCgoqKkRyaXZlIGEgZmFkZToqKgpgYGBweXRob24Kb3AoJy9wcm9qZWN0MS9sZXZlbDEnKS5wYXIub3BhY2l0eS5tb2RlID0gUGFyTW9kZS5FWFBSRVNTSU9OCm9wKCcvcHJvamVjdDEvbGV2ZWwxJykucGFyLm9wYWNpdHkuZXhwciA9ICJvcCgnZmFkZV90aW1lcicpWyd0aW1lcl9mcmFjdGlvbiddIgpgYGAKCioqRWFzaW5nIG9uIHRoZSB0aW1lciBmcmFjdGlvbioqIOKAlCBhcHBseSBpbiB0aGUgZXhwcmVzc2lvbiBpdHNlbGY6CgpgYGBweXRob24KIyBTbW9vdGhzdGVwOiBlYXNlIGluL291dApleHByID0gInNtb290aHN0ZXAoMCwgMSwgb3AoJ2ZhZGVfdGltZXInKVsndGltZXJfZnJhY3Rpb24nXSkiCiMgQ3ViaWMgZWFzZS1vdXQ6IDEgLSAoMS10KV4zCmV4cHIgPSAiMSAtIHBvdygxIC0gb3AoJ2ZhZGVfdGltZXInKVsndGltZXJfZnJhY3Rpb24nXSwgMykiCmBgYAoKLS0tCgojIyBQYXR0ZXJuIENIT1Ag4oCUIEN1c3RvbSBDdXJ2ZXMKCkZvciBhcmJpdHJhcnkgd2F2ZWZvcm1zIChzYXcgcmFtcHMsIGVhc2luZyBjdXJ2ZXMsIGN1c3RvbSBlbnZlbG9wZXMpLgoKYGBgcHl0aG9uCnBhdCA9IHJvb3QuY3JlYXRlKHBhdHRlcm5DSE9QLCAnZW52ZWxvcGUnKQpwYXQucGFyLnR5cGUgPSAnZ2F1c3NpYW4nICAgICMgJ2dhdXNzaWFuJyB8ICdyYW1wJyB8ICdzcXVhcmUnIHwgJ3NpbicgfCBldGMuCnBhdC5wYXIubGVuZ3RoID0gNjAgICAgICAgICAgIyBzYW1wbGVzCnBhdC5wYXIuY3ljbGVsZW5ndGggPSAxLjAgICAgIyBzZWNvbmRzIGF0IFREIGZyYW1lcmF0ZQpgYGAKCkNvbWJpbmUgd2l0aCBgbG9va3VwQ0hPUGAgdG8gcmVtYXAgYSAwLTEgZHJpdmVyIHRocm91Z2ggYSBjdXN0b20gY3VydmUuCgotLS0KCiMjIEFuaW1hdGlvbiBDT01QIOKAlCBLZXlmcmFtZS1CYXNlZAoKRm9yIG11bHRpLWtleWZyYW1lIG1vdGlvbiBncmFwaGljcy4gRWFjaCBhbmltYXRpb25DT01QIGhvbGRzIGNoYW5uZWxzIHdpdGgga2V5ZnJhbWVzIGVkaXRhYmxlIGluIHRoZSBBbmltYXRpb24gRWRpdG9yLgoKYGBgcHl0aG9uCmFuaW0gPSByb290LmNyZWF0ZShhbmltYXRpb25DT01QLCAnaW50cm9fYW5pbScpCiMgQnkgZGVmYXVsdCBoYXMgY2hhbm5lbHMgY2hhbjEuLmNoYW5OOyBhY2Nlc3MgdmlhOgojIG9wKCdpbnRyb19hbmltJykucGFyLmxlbmd0aCwgLnBhci5wbGF5LCAucGFyLmN1ZSwgZXRjLgoKIyBEcml2ZSBhIHBhcmFtZXRlciBmcm9tIGEgY2hhbm5lbApvcCgnL3Byb2plY3QxL3RleHQxJykucGFyLnR4Lm1vZGUgPSBQYXJNb2RlLkVYUFJFU1NJT04Kb3AoJy9wcm9qZWN0MS90ZXh0MScpLnBhci50eC5leHByID0gIm9wKCdpbnRyb19hbmltL291dDEnKVsnY2hhbjEnXSIKYGBgCgoqKktleWZyYW1lcyBhcmUgdHlwaWNhbGx5IGVkaXRlZCBpbiB0aGUgVUkqKiAoQW5pbWF0aW9uIEVkaXRvciksIGJ1dCBjYW4gYmUgc2V0IHZpYSBga2V5ZnJhbWVzYCB0YWJsZSBpbnRlcm5hbGx5LiBGb3IgcHJvZ3JhbW1hdGljIGtleWZyYW1lIGNyZWF0aW9uLCB1c2UgYHRkX2V4ZWN1dGVfcHl0aG9uYDoKCmBgYHB5dGhvbgojIEdldCB0aGUgY2hhbm5lbCBDSE9QIGluc2lkZSBhbiBhbmltYXRpb25DT01QCmNoID0gb3AoJy9wcm9qZWN0MS9pbnRyb19hbmltL2NoYW5zJykKIyBJbnNlcnQgYSBrZXkgKGFkdmFuY2VkIEFQSSDigJQgdmVyaWZ5IHdpdGggdGRfZ2V0X3Bhcl9pbmZvKG9wX3R5cGU9J2FuaW1hdGlvbkNPTVAnKSkKY2guYXBwZW5kS2V5KCdjaGFuMScsIGZyYW1lPTAsIHZhbHVlPTAuMCwgZXhwcmVzc2lvbj1Ob25lKQpjaC5hcHBlbmRLZXkoJ2NoYW4xJywgZnJhbWU9MTIwLCB2YWx1ZT0xLjApCmBgYAoKRm9yIG1vc3QgdXNlIGNhc2VzLCBkcml2ZSBwYXJhbXMgd2l0aCBMRk8vVGltZXIvUGF0dGVybiBDSE9QcyBpbnN0ZWFkIOKAlCBzaW1wbGVyIGFuZCBzY3JpcHRhYmxlLgoKLS0tCgojIyBFYXNpbmcgaW4gRXhwcmVzc2lvbnMKClREJ3MgZXhwcmVzc2lvbiBldmFsdWF0b3Igc3VwcG9ydHMgUHl0aG9uIG1hdGguIENvbW1vbiBlYXNpbmcgZm9ybXM6CgpgYGBweXRob24KIyBMaW5lYXIKInQiCgojIFNtb290aHN0ZXAgKGNsYXNzaWMgZWFzZS1pbi1vdXQpCiJzbW9vdGhzdGVwKDAsIDEsIHQpIgoKIyBFYXNlLW91dCBjdWJpYwoiMSAtIHBvdygxIC0gdCwgMykiCgojIEVhc2UtaW4gY3ViaWMKInBvdyh0LCAzKSIKCiMgRWFzZS1pbi1vdXQgY3ViaWMKIjMqdCp0IC0gMip0KnQqdCIKCiMgQm91bmNlIChtYW51YWwsIHNpbXBsaWZpZWQpCiJhYnMoc2luKHQgKiA2LjI4ICogMykgKiAoMSAtIHQpKSIKYGBgCgpXaGVyZSBgdGAgaXMgYG9wKCdmYWRlX3RpbWVyJylbJ3RpbWVyX2ZyYWN0aW9uJ11gIG9yIGFueSAwLTEgZHJpdmVyLgoKLS0tCgojIyBGaWx0ZXIgQ0hPUCDigJQgU21vb3RoaW5nIEV4aXN0aW5nIENoYW5uZWxzCgpTbW9vdGggb3V0IGppdHRlcnkgdmFsdWVzIChlLmcuLCBhdWRpbyBhbmFseXNpcywgc2Vuc29yIGRhdGEpIGJlZm9yZSBkcml2aW5nIHZpc3VhbHMuCgpgYGBweXRob24KZmlsdCA9IHJvb3QuY3JlYXRlKGZpbHRlckNIT1AsICdzbW9vdGgnKQpmaWx0LnBhci5maWx0ZXIgPSAnZ2F1c3NpYW4nICAgIyBvciAnbG93cGFzcycKZmlsdC5wYXIud2lkdGggPSAwLjUgICAgICAgICAgICAjIHNtb290aGluZyB3aW5kb3cgaW4gc2Vjb25kcwpmaWx0LmlucHV0Q29ubmVjdG9yc1swXS5jb25uZWN0KG9wKCdyYXdfc2lnbmFsJykpCmBgYAoKKipXQVJOSU5HOioqIERvIE5PVCB1c2UgRmlsdGVyIENIT1Agb24gQXVkaW9TcGVjdHJ1bSBvdXRwdXQgaW4gdGltZXNsaWNlIG1vZGUg4oCUIGl0IGV4cGFuZHMgdGhlIHNhbXBsZSBjb3VudCBhbmQgYXZlcmFnZXMgYmlucyB0byBuZWFyLXplcm8uIFNlZSBgYXVkaW8tcmVhY3RpdmUubWRgLgoKLS0tCgojIyBMYWcgQ0hPUCDigJQgQXN5bW1ldHJpYyBBdHRhY2svUmVsZWFzZQoKRGlmZmVyZW50IHNwZWVkcyBmb3IgcmlzaW5nIHZzLiBmYWxsaW5nIHZhbHVlcy4gU3RhbmRhcmQgZm9yIHZpc3VhbGl6aW5nIGF1ZGlvIGVudmVsb3Blcy4KCmBgYHB5dGhvbgpsYWcgPSByb290LmNyZWF0ZShsYWdDSE9QLCAnZW52X3Ntb290aCcpCmxhZy5wYXIubGFnMSA9IDAuMDIgICAjIGF0dGFjayAocmlzZSB0aW1lLCBzZWNvbmRzKQpsYWcucGFyLmxhZzIgPSAwLjMwICAgIyByZWxlYXNlIChmYWxsIHRpbWUsIHNlY29uZHMpCmxhZy5pbnB1dENvbm5lY3RvcnNbMF0uY29ubmVjdChvcCgncmF3X2VudmVsb3BlJykpCmBgYAoKRmFzdCBhdHRhY2ssIHNsb3cgcmVsZWFzZSA9IGNsYXNzaWMgVlUtbWV0ZXIgZmVlbC4KCi0tLQoKIyMgUGVyLUZyYW1lIERyaXZpbmcgdmlhIFNjcmlwdCBEQVQKCkZvciBjb21wbGV4IHBlci1mcmFtZSBsb2dpYyB0aGF0IGRvZXNuJ3QgZml0IGV4cHJlc3Npb25zLCB1c2UgYSBgZXhlY3V0ZURBVGAgKGBvbkZyYW1lU3RhcnRgIGNhbGxiYWNrKSBvciBhIGBjaG9wRXhlY3V0ZURBVGAuCgpgYGBweXRob24KIyBJbiBhbiBleGVjdXRlREFUIChmcmFtZVN0YXJ0KToKZGVmIG9uRnJhbWVTdGFydChmcmFtZSk6CiAgICB0ID0gYWJzVGltZS5zZWNvbmRzCiAgICBvcCgnL3Byb2plY3QxL2NpcmNsZScpLnBhci50eCA9IG1hdGguc2luKHQgKiAyLjApICogMy4wCiAgICBvcCgnL3Byb2plY3QxL2NpcmNsZScpLnBhci50eSA9IG1hdGguY29zKHQgKiAyLjApICogMy4wCiAgICByZXR1cm4KYGBgCgpIZWF2eSBsb2dpYyBzaG91bGQgc3RpbGwgYmUgaW4gQ0hPUHMgKENQVS1jaGVhcCwgZGV0ZXJtaW5pc3RpYykuIFJlc2VydmUgc2NyaXB0cyBmb3Igb25lLXNob3RzIG9yIG5vbi1yZWFsdGltZSBicmFuY2hpbmcuCgotLS0KCiMjIFBpdGZhbGxzCgoxLiAqKkZyYW1lIHJhdGUgZGVwZW5kZW5jeSoqIOKAlCBgbWUudGltZS5mcmFtZWAgaXMgaW4gVEQgcHJvamVjdCBmcmFtZXMgKGRlZmF1bHQgNjApLiBJZiB5b3VyIHByb2plY3QgcmF0ZSBjaGFuZ2VzLCBtb3Rpb24gc3BlZWQgY2hhbmdlcy4gVXNlIGBzZWNvbmRzYCBmb3IgcmF0ZS1pbmRlcGVuZGVudCB0aW1pbmcuCjIuICoqQ29va2luZyBidWRnZXQqKiDigJQgZXZlcnkgQ0hPUCB0aGF0IGRyaXZlcyBhIHBhcmFtZXRlciBjb29rcyBldmVyeSBmcmFtZS4gQ29uc29saWRhdGUgZHJpdmVycyAob25lIGJpZyBtYXRoQ0hPUCA+IG1hbnkgc21hbGwgb25lcykuCjMuICoqRXhwcmVzc2lvbiBtb2RlKiog4oCUIHBhcmFtcyBkZWZhdWx0IHRvIGBDT05TVEFOVGAuIGBwYXIuWC5leHByID0gLi4uYCBpcyBpZ25vcmVkIHVubGVzcyBgcGFyLlgubW9kZSA9IFBhck1vZGUuRVhQUkVTU0lPTmAuCjQuICoqQW5pbWF0aW9uIGVkaXRvciBlZGl0cyoqIOKAlCBrZXlmcmFtZXMgc2V0IHZpYSBVSSBsaXZlIGluIHRoZSBhbmltYXRpb25DT01QJ3MgaW50ZXJuYWwga2V5ZnJhbWUgdGFibGUuIFRoZXkgc3Vydml2ZSBzYXZlL3Jlb3Blbi4gUHJvZ3JhbW1hdGljIGtleXMgdmlhIGBhcHBlbmRLZXkoKWAgd29yayBidXQgdmVyaWZ5IHRoZSBBUEkgd2l0aCBgdGRfZ2V0X2RvY3ModG9waWM9J2FuaW1hdGlvbicpYCBmaXJzdC4KNS4gKipMb29waW5nIGFuaW1hdGlvbnMqKiDigJQgZm9yIHNlYW1sZXNzIGxvb3BzLCBgbGVuZ3RoYCBtdXN0IGVxdWFsIGBjeWNsZWxlbmd0aGAgYW5kIHRoZSBzdGFydC9lbmQgdmFsdWVzIG11c3QgbWF0Y2guIE90aGVyd2lzZSBleHBlY3QgYSB2aXNpYmxlIGp1bXAuCgotLS0KCiMjIFF1aWNrIFJlY2lwZXMKCnwgR29hbCB8IFNpbXBsZXN0IHBhdGggfAp8LS0tfC0tLXwKfCBDb250aW51b3VzIHJvdGF0aW9uIHwgTEZPIENIT1AgYHR5cGU9J3JhbXAnYCwgZXhwciDihpIgYGdlby5wYXIucnhgIHwKfCBGYWRlIGluIG92ZXIgMnMgfCBUaW1lciBDSE9QIGBsZW5ndGg9MmAsIHNtb290aHN0ZXAgZXhwciDihpIgYGxldmVsLnBhci5vcGFjaXR5YCB8CnwgUHVsc2Ugb24gZXZlcnkgYmVhdCB8IGB0cmlnZ2VyQ0hPUGAgZnJvbSBhdWRpbyDihpIgZHJpdmUgc2NhbGUgdmlhIGV4cHJlc3Npb24gfAp8IDNEIExpc3Nham91cyBvcmJpdCB8IFR3byBMRk9zIHdpdGggZGlmZmVyZW50IGZyZXEsIGRyaXZlIGB0eGAvYHR5YC9gdHpgIHwKfCBSYW5kb20gaml0dGVyIHwgYG5vaXNlQ0hPUGAgKGxvdy1mcmVxKSBhZGRlZCB0byBwb3NpdGlvbiB8CnwgVGltZWQgc2NlbmUgc3dpdGNoIHwgVGltZXIgQ0hPUCDihpIgc3dpdGNoVE9QL0NIT1AgYGluZGV4YCB8Cg==
+# Animation Reference
+
+Patterns for time-based motion — keyframes, LFOs, timers, easing, expression-driven animation.
+
+Always call `td_get_par_info` for the op type before setting params. Param names below reflect TD 2025.32 but verify if errors fire.
+
+---
+
+## Time Sources
+
+TD has three time references — pick the right one.
+
+| Expression | Behavior | Use for |
+|---|---|---|
+| `absTime.seconds` | Wall-clock seconds since TD started. Never resets. | Continuous motion, GLSL `uTime`, infinite loops |
+| `absTime.frame` | Wall-clock frame count. | Frame-accurate triggers |
+| `me.time.frame` | Local component frame count (resets on play/stop). | Per-COMP animation timeline |
+| `me.time.seconds` | Local component seconds. | Same, in seconds |
+
+**Rule:** for shaders and continuous motion use `absTime.seconds`. For triggered/looping animations inside a COMP use `me.time.*`.
+
+---
+
+## LFO CHOP — Cyclic Motion
+
+The simplest periodic driver. Fast, GPU-cheap, expression-friendly.
+
+```python
+lfo = root.create(lfoCHOP, 'rot_driver')
+lfo.par.type = 'sin'        # 'sin' | 'cos' | 'ramp' | 'square' | 'triangle' | 'pulse'
+lfo.par.frequency = 0.25    # cycles per second
+lfo.par.amplitude = 1.0
+lfo.par.offset = 0.0
+lfo.par.phase = 0.0         # 0-1, useful for offsetting parallel LFOs
+```
+
+**Drive a parameter via export:**
+
+```python
+op('/project1/geo1').par.rx.mode = ParMode.EXPRESSION
+op('/project1/geo1').par.rx.expr = "op('rot_driver')['chan1'] * 360"
+```
+
+**Multiple synced LFOs (X/Y/Z rotation with phase offsets):**
+Create one LFO with three channels and phase-offset each, or use three LFOs and offset their `phase` params (0.0, 0.33, 0.66).
+
+---
+
+## Timer CHOP — Triggered Sequences
+
+For run-once animations, beat-locked sequences, or stage-based logic.
+
+```python
+timer = root.create(timerCHOP, 'fade_timer')
+timer.par.length = 4.0       # cycle length in seconds
+timer.par.cycle = False      # run once vs. loop
+timer.par.outputseconds = True
+```
+
+Output channels: `timer_fraction` (0→1 across the cycle), `running`, `done`, `cycles`.
+
+**Start the timer:**
+```python
+timer.par.start.pulse()
+```
+
+**Drive a fade:**
+```python
+op('/project1/level1').par.opacity.mode = ParMode.EXPRESSION
+op('/project1/level1').par.opacity.expr = "op('fade_timer')['timer_fraction']"
+```
+
+**Easing on the timer fraction** — apply in the expression itself:
+
+```python
+# Smoothstep: ease in/out
+expr = "smoothstep(0, 1, op('fade_timer')['timer_fraction'])"
+# Cubic ease-out: 1 - (1-t)^3
+expr = "1 - pow(1 - op('fade_timer')['timer_fraction'], 3)"
+```
+
+---
+
+## Pattern CHOP — Custom Curves
+
+For arbitrary waveforms (saw ramps, easing curves, custom envelopes).
+
+```python
+pat = root.create(patternCHOP, 'envelope')
+pat.par.type = 'gaussian'    # 'gaussian' | 'ramp' | 'square' | 'sin' | etc.
+pat.par.length = 60          # samples
+pat.par.cyclelength = 1.0    # seconds at TD framerate
+```
+
+Combine with `lookupCHOP` to remap a 0-1 driver through a custom curve.
+
+---
+
+## Animation COMP — Keyframe-Based
+
+For multi-keyframe motion graphics. Each animationCOMP holds channels with keyframes editable in the Animation Editor.
+
+```python
+anim = root.create(animationCOMP, 'intro_anim')
+# By default has channels chan1..chanN; access via:
+# op('intro_anim').par.length, .par.play, .par.cue, etc.
+
+# Drive a parameter from a channel
+op('/project1/text1').par.tx.mode = ParMode.EXPRESSION
+op('/project1/text1').par.tx.expr = "op('intro_anim/out1')['chan1']"
+```
+
+**Keyframes are typically edited in the UI** (Animation Editor), but can be set via `keyframes` table internally. For programmatic keyframe creation, use `td_execute_python`:
+
+```python
+# Get the channel CHOP inside an animationCOMP
+ch = op('/project1/intro_anim/chans')
+# Insert a key (advanced API — verify with td_get_par_info(op_type='animationCOMP'))
+ch.appendKey('chan1', frame=0, value=0.0, expression=None)
+ch.appendKey('chan1', frame=120, value=1.0)
+```
+
+For most use cases, drive params with LFO/Timer/Pattern CHOPs instead — simpler and scriptable.
+
+---
+
+## Easing in Expressions
+
+TD's expression evaluator supports Python math. Common easing forms:
+
+```python
+# Linear
+"t"
+
+# Smoothstep (classic ease-in-out)
+"smoothstep(0, 1, t)"
+
+# Ease-out cubic
+"1 - pow(1 - t, 3)"
+
+# Ease-in cubic
+"pow(t, 3)"
+
+# Ease-in-out cubic
+"3*t*t - 2*t*t*t"
+
+# Bounce (manual, simplified)
+"abs(sin(t * 6.28 * 3) * (1 - t))"
+```
+
+Where `t` is `op('fade_timer')['timer_fraction']` or any 0-1 driver.
+
+---
+
+## Filter CHOP — Smoothing Existing Channels
+
+Smooth out jittery values (e.g., audio analysis, sensor data) before driving visuals.
+
+```python
+filt = root.create(filterCHOP, 'smooth')
+filt.par.filter = 'gaussian'   # or 'lowpass'
+filt.par.width = 0.5            # smoothing window in seconds
+filt.inputConnectors[0].connect(op('raw_signal'))
+```
+
+**WARNING:** Do NOT use Filter CHOP on AudioSpectrum output in timeslice mode — it expands the sample count and averages bins to near-zero. See `audio-reactive.md`.
+
+---
+
+## Lag CHOP — Asymmetric Attack/Release
+
+Different speeds for rising vs. falling values. Standard for visualizing audio envelopes.
+
+```python
+lag = root.create(lagCHOP, 'env_smooth')
+lag.par.lag1 = 0.02   # attack (rise time, seconds)
+lag.par.lag2 = 0.30   # release (fall time, seconds)
+lag.inputConnectors[0].connect(op('raw_envelope'))
+```
+
+Fast attack, slow release = classic VU-meter feel.
+
+---
+
+## Per-Frame Driving via Script DAT
+
+For complex per-frame logic that doesn't fit expressions, use a `executeDAT` (`onFrameStart` callback) or a `chopExecuteDAT`.
+
+```python
+# In an executeDAT (frameStart):
+def onFrameStart(frame):
+    t = absTime.seconds
+    op('/project1/circle').par.tx = math.sin(t * 2.0) * 3.0
+    op('/project1/circle').par.ty = math.cos(t * 2.0) * 3.0
+    return
+```
+
+Heavy logic should still be in CHOPs (CPU-cheap, deterministic). Reserve scripts for one-shots or non-realtime branching.
+
+---
+
+## Pitfalls
+
+1. **Frame rate dependency** — `me.time.frame` is in TD project frames (default 60). If your project rate changes, motion speed changes. Use `seconds` for rate-independent timing.
+2. **Cooking budget** — every CHOP that drives a parameter cooks every frame. Consolidate drivers (one big mathCHOP > many small ones).
+3. **Expression mode** — params default to `CONSTANT`. `par.X.expr = ...` is ignored unless `par.X.mode = ParMode.EXPRESSION`.
+4. **Animation editor edits** — keyframes set via UI live in the animationCOMP's internal keyframe table. They survive save/reopen. Programmatic keys via `appendKey()` work but verify the API with `td_get_docs(topic='animation')` first.
+5. **Looping animations** — for seamless loops, `length` must equal `cyclelength` and the start/end values must match. Otherwise expect a visible jump.
+
+---
+
+## Quick Recipes
+
+| Goal | Simplest path |
+|---|---|
+| Continuous rotation | LFO CHOP `type='ramp'`, expr → `geo.par.rx` |
+| Fade in over 2s | Timer CHOP `length=2`, smoothstep expr → `level.par.opacity` |
+| Pulse on every beat | `triggerCHOP` from audio → drive scale via expression |
+| 3D Lissajous orbit | Two LFOs with different freq, drive `tx`/`ty`/`tz` |
+| Random jitter | `noiseCHOP` (low-freq) added to position |
+| Timed scene switch | Timer CHOP → switchTOP/CHOP `index` |

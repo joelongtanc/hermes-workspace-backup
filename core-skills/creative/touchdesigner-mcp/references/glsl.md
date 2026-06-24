@@ -1,1 +1,151 @@
-IyBHTFNMIFJlZmVyZW5jZQoKIyMgVW5pZm9ybXMKCmBgYApUb3VjaERlc2lnbmVyICAgICAgICAgIEdMU0wK4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSACnZlYzBuYW1lID0gJ3VUaW1lJyAg4oaSICB1bmlmb3JtIGZsb2F0IHVUaW1lOwp2ZWMwdmFsdWV4ID0gMS4wICAgIOKGkiAgdVRpbWUgdmFsdWUKYGBgCgojIyMgUGFzcyBUaW1lCgpgYGBweXRob24KZ2xzbF9vcC5wYXIudmVjMG5hbWUgPSAndVRpbWUnCmdsc2xfb3AucGFyLnZlYzB2YWx1ZXgubW9kZSA9IFBhck1vZGUuRVhQUkVTU0lPTgpnbHNsX29wLnBhci52ZWMwdmFsdWV4LmV4cHIgPSAnYWJzVGltZS5zZWNvbmRzJwpgYGAKCmBgYGdsc2wKdW5pZm9ybSBmbG9hdCB1VGltZTsKdm9pZCBtYWluKCkgeyBmbG9hdCB0ID0gdVRpbWUgKiAwLjU7IH0KYGBgCgojIyMgQnVpbHQtaW4gVW5pZm9ybXMgKFRPUCkKCmBgYGdsc2wKLy8gT3V0cHV0IHJlc29sdXRpb24gKGFsd2F5cyBhdmFpbGFibGUpCnZlYzIgcmVzID0gdVRET3V0cHV0SW5mby5yZXMuenc7CgovLyBJbnB1dCB0ZXh0dXJlIChvbmx5IHdoZW4gaW5wdXRzIGNvbm5lY3RlZCkKdmVjMiBpbnB1dFJlcyA9IHVURDJESW5mb3NbMF0ucmVzLnp3Owp2ZWM0IGNvbG9yID0gdGV4dHVyZShzVEQyRElucHV0c1swXSwgdlVWLnN0KTsKCi8vIFVWIGNvb3JkaW5hdGVzCnZVVi5zdCAgLy8gMC0xIHRleHR1cmUgY29vcmRzCmBgYAoKKipJTVBPUlRBTlQ6KiogYHVURDJESW5mb3NgIHJlcXVpcmVzIGlucHV0IHRleHR1cmVzLiBGb3Igc3RhbmRhbG9uZSBzaGFkZXJzIHVzZSBgdVRET3V0cHV0SW5mb2AuCgojIyBCdWlsdC1pbiBVdGlsaXR5IEZ1bmN0aW9ucwoKYGBgZ2xzbAovLyBOb2lzZQpmbG9hdCBURFBlcmxpbk5vaXNlKHZlYzIvdmVjMy92ZWM0IHYpOwpmbG9hdCBURFNpbXBsZXhOb2lzZSh2ZWMyL3ZlYzMvdmVjNCB2KTsKCi8vIENvbG9yIGNvbnZlcnNpb24KdmVjMyBUREhTVlRvUkdCKHZlYzMgYyk7CnZlYzMgVERSR0JUb0hTVih2ZWMzIGMpOwoKLy8gTWF0cml4IHRyYW5zZm9ybXMKbWF0NCBURFRyYW5zbGF0ZShmbG9hdCB4LCBmbG9hdCB5LCBmbG9hdCB6KTsKbWF0MyBURFJvdGF0ZVgvWS9aKGZsb2F0IHJhZGlhbnMpOwptYXQzIFREUm90YXRlT25BeGlzKGZsb2F0IHJhZGlhbnMsIHZlYzMgYXhpcyk7Cm1hdDMgVERTY2FsZShmbG9hdCB4LCBmbG9hdCB5LCBmbG9hdCB6KTsKbWF0MyBURFJvdGF0ZVRvVmVjdG9yKHZlYzMgZm9yd2FyZCwgdmVjMyB1cCk7Cm1hdDMgVERDcmVhdGVSb3RNYXRyaXgodmVjMyBmcm9tLCB2ZWMzIHRvKTsgIC8vIHZlY3RvcnMgbXVzdCBiZSBub3JtYWxpemVkCgovLyBSZXNvbHV0aW9uIHN0cnVjdApzdHJ1Y3QgVERUZXhJbmZvIHsKICB2ZWM0IHJlczsgICAvLyAoMS93aWR0aCwgMS9oZWlnaHQsIHdpZHRoLCBoZWlnaHQpCiAgdmVjNCBkZXB0aDsKfTsKCi8vIE91dHB1dCAoYWx3YXlzIHVzZSB0aGlzIOKAlCBoYW5kbGVzIHNSR0IgY29ycmVjdGx5KQpmcmFnQ29sb3IgPSBURE91dHB1dFN3aXp6bGUoY29sb3IpOwoKLy8gSW5zdGFuY2luZyAoTUFUIG9ubHkpCmludCBUREluc3RhbmNlSUQoKTsKYGBgCgojIyBnbHNsVE9QCgpEb2NrZWQgREFUcyBjcmVhdGVkIGF1dG9tYXRpY2FsbHk6Ci0gYGdsc2wxX3BpeGVsYCDigJQgUGl4ZWwgc2hhZGVyCi0gYGdsc2wxX2NvbXB1dGVgIOKAlCBDb21wdXRlIHNoYWRlcgotIGBnbHNsMV9pbmZvYCDigJQgQ29tcGlsZSBpbmZvCgojIyMgUGl4ZWwgU2hhZGVyIFRlbXBsYXRlCgpgYGBnbHNsCm91dCB2ZWM0IGZyYWdDb2xvcjsKdm9pZCBtYWluKCkgewogICAgdmVjNCBjb2xvciA9IHRleHR1cmUoc1REMkRJbnB1dHNbMF0sIHZVVi5zdCk7CiAgICBmcmFnQ29sb3IgPSBURE91dHB1dFN3aXp6bGUoY29sb3IpOwp9CmBgYAoKIyMjIENvbXB1dGUgU2hhZGVyIFRlbXBsYXRlCgpgYGBnbHNsCmxheW91dCAobG9jYWxfc2l6ZV94ID0gOCwgbG9jYWxfc2l6ZV95ID0gOCkgaW47CnZvaWQgbWFpbigpIHsKICAgIHZlYzQgY29sb3IgPSB0ZXhlbEZldGNoKHNURDJESW5wdXRzWzBdLCBpdmVjMihnbF9HbG9iYWxJbnZvY2F0aW9uSUQueHkpLCAwKTsKICAgIFRESW1hZ2VTdG9yZU91dHB1dCgwLCBnbF9HbG9iYWxJbnZvY2F0aW9uSUQsIGNvbG9yKTsKfQpgYGAKCiMjIyBVcGRhdGUgU2hhZGVyCgpgYGBweXRob24Kb3AoJy9wcm9qZWN0MS9nbHNsMV9waXhlbCcpLnRleHQgPSBzaGFkZXJfY29kZQpvcCgnL3Byb2plY3QxL2dsc2wxJykuY29vayhmb3JjZT1UcnVlKQojIENoZWNrIGVycm9yczoKcHJpbnQob3AoJy9wcm9qZWN0MS9nbHNsMV9pbmZvJykudGV4dCkKYGBgCgojIyBnbHNsTUFUCgpEb2NrZWQgREFUczoKLSBgZ2xzbG1hdDFfdmVydGV4YCDigJQgVmVydGV4IHNoYWRlciAocGFyYW06IGB2ZGF0YCkKLSBgZ2xzbG1hdDFfcGl4ZWxgIOKAlCBQaXhlbCBzaGFkZXIgKHBhcmFtOiBgcGRhdGApCi0gYGdsc2xtYXQxX2luZm9gIOKAlCBDb21waWxlIGluZm8KCk5vdGU6IE1BVCB1c2VzIGB2ZGF0YC9gcGRhdGAsIFRPUCB1c2VzIGB2ZXJ0ZXhkYXRgL2BwaXhlbGRhdGAuCgojIyMgVmVydGV4IFNoYWRlciBUZW1wbGF0ZQoKYGBgZ2xzbAp1bmlmb3JtIGZsb2F0IHVUaW1lOwp2b2lkIG1haW4oKSB7CiAgICB2ZWMzIHBvcyA9IFREUG9zKCk7CiAgICBwb3MueiArPSBzaW4ocG9zLnggKiAzLjAgKyB1VGltZSkgKiAwLjI7CiAgICB2ZWM0IHdvcmxkU3BhY2VQb3MgPSBURERlZm9ybShwb3MpOwogICAgZ2xfUG9zaXRpb24gPSBURFdvcmxkVG9Qcm9qKHdvcmxkU3BhY2VQb3MpOwp9CmBgYAoKIyMgQmF5ZXIgOHg4IERpdGhlciBNYXRyaXgKClJldXNhYmxlIG9yZGVyZWQgZGl0aGVyIGZ1bmN0aW9uIGZvciByZXRyby9wcmludCBhZXN0aGV0aWNzOgoKYGBgZ2xzbApmbG9hdCBiYXllcjgodmVjMiBwb3MpIHsKICAgIGludCB4ID0gaW50KG1vZChwb3MueCwgOC4wKSksIHkgPSBpbnQobW9kKHBvcy55LCA4LjApKSwgaWR4ID0geCArIHkgKiA4OwogICAgaW50IGJbNjRdID0gaW50WzY0XSgKICAgICAgICAwLDMyLDgsNDAsMiwzNCwxMCw0Miw0OCwxNiw1NiwyNCw1MCwxOCw1OCwyNiwKICAgICAgICAxMiw0NCw0LDM2LDE0LDQ2LDYsMzgsNjAsMjgsNTIsMjAsNjIsMzAsNTQsMjIsCiAgICAgICAgMywzNSwxMSw0MywxLDMzLDksNDEsNTEsMTksNTksMjcsNDksMTcsNTcsMjUsCiAgICAgICAgMTUsNDcsNywzOSwxMyw0NSw1LDM3LDYzLDMxLDU1LDIzLDYxLDI5LDUzLDIxCiAgICApOwogICAgcmV0dXJuIGZsb2F0KGJbaWR4XSkgLyA2NC4wOwp9CmBgYAoKIyMgZ2xzbFBPUCAvIGdsc2xhZHZhbmNlZFBPUCAvIGdsc2xjb3B5UE9QCgpBbGwgdXNlIGNvbXB1dGUgc2hhZGVycy4gRG9ja2VkIERBVHMgZm9sbG93IG5hbWluZyBjb252ZW50aW9uOgotIGBnbHNsMV9jb21wdXRlYCAvIGBnbHNsYWR2MV9jb21wdXRlYAotIGBnbHNsY29weTFfcHRDb21wdXRlYCAvIGBnbHNsY29weTFfdmVydENvbXB1dGVgIC8gYGdsc2xjb3B5MV9wcmltQ29tcHV0ZWAK
+# GLSL Reference
+
+## Uniforms
+
+```
+TouchDesigner          GLSL
+─────────────────────────────
+vec0name = 'uTime'  →  uniform float uTime;
+vec0valuex = 1.0    →  uTime value
+```
+
+### Pass Time
+
+```python
+glsl_op.par.vec0name = 'uTime'
+glsl_op.par.vec0valuex.mode = ParMode.EXPRESSION
+glsl_op.par.vec0valuex.expr = 'absTime.seconds'
+```
+
+```glsl
+uniform float uTime;
+void main() { float t = uTime * 0.5; }
+```
+
+### Built-in Uniforms (TOP)
+
+```glsl
+// Output resolution (always available)
+vec2 res = uTDOutputInfo.res.zw;
+
+// Input texture (only when inputs connected)
+vec2 inputRes = uTD2DInfos[0].res.zw;
+vec4 color = texture(sTD2DInputs[0], vUV.st);
+
+// UV coordinates
+vUV.st  // 0-1 texture coords
+```
+
+**IMPORTANT:** `uTD2DInfos` requires input textures. For standalone shaders use `uTDOutputInfo`.
+
+## Built-in Utility Functions
+
+```glsl
+// Noise
+float TDPerlinNoise(vec2/vec3/vec4 v);
+float TDSimplexNoise(vec2/vec3/vec4 v);
+
+// Color conversion
+vec3 TDHSVToRGB(vec3 c);
+vec3 TDRGBToHSV(vec3 c);
+
+// Matrix transforms
+mat4 TDTranslate(float x, float y, float z);
+mat3 TDRotateX/Y/Z(float radians);
+mat3 TDRotateOnAxis(float radians, vec3 axis);
+mat3 TDScale(float x, float y, float z);
+mat3 TDRotateToVector(vec3 forward, vec3 up);
+mat3 TDCreateRotMatrix(vec3 from, vec3 to);  // vectors must be normalized
+
+// Resolution struct
+struct TDTexInfo {
+  vec4 res;   // (1/width, 1/height, width, height)
+  vec4 depth;
+};
+
+// Output (always use this — handles sRGB correctly)
+fragColor = TDOutputSwizzle(color);
+
+// Instancing (MAT only)
+int TDInstanceID();
+```
+
+## glslTOP
+
+Docked DATs created automatically:
+- `glsl1_pixel` — Pixel shader
+- `glsl1_compute` — Compute shader
+- `glsl1_info` — Compile info
+
+### Pixel Shader Template
+
+```glsl
+out vec4 fragColor;
+void main() {
+    vec4 color = texture(sTD2DInputs[0], vUV.st);
+    fragColor = TDOutputSwizzle(color);
+}
+```
+
+### Compute Shader Template
+
+```glsl
+layout (local_size_x = 8, local_size_y = 8) in;
+void main() {
+    vec4 color = texelFetch(sTD2DInputs[0], ivec2(gl_GlobalInvocationID.xy), 0);
+    TDImageStoreOutput(0, gl_GlobalInvocationID, color);
+}
+```
+
+### Update Shader
+
+```python
+op('/project1/glsl1_pixel').text = shader_code
+op('/project1/glsl1').cook(force=True)
+# Check errors:
+print(op('/project1/glsl1_info').text)
+```
+
+## glslMAT
+
+Docked DATs:
+- `glslmat1_vertex` — Vertex shader (param: `vdat`)
+- `glslmat1_pixel` — Pixel shader (param: `pdat`)
+- `glslmat1_info` — Compile info
+
+Note: MAT uses `vdat`/`pdat`, TOP uses `vertexdat`/`pixeldat`.
+
+### Vertex Shader Template
+
+```glsl
+uniform float uTime;
+void main() {
+    vec3 pos = TDPos();
+    pos.z += sin(pos.x * 3.0 + uTime) * 0.2;
+    vec4 worldSpacePos = TDDeform(pos);
+    gl_Position = TDWorldToProj(worldSpacePos);
+}
+```
+
+## Bayer 8x8 Dither Matrix
+
+Reusable ordered dither function for retro/print aesthetics:
+
+```glsl
+float bayer8(vec2 pos) {
+    int x = int(mod(pos.x, 8.0)), y = int(mod(pos.y, 8.0)), idx = x + y * 8;
+    int b[64] = int[64](
+        0,32,8,40,2,34,10,42,48,16,56,24,50,18,58,26,
+        12,44,4,36,14,46,6,38,60,28,52,20,62,30,54,22,
+        3,35,11,43,1,33,9,41,51,19,59,27,49,17,57,25,
+        15,47,7,39,13,45,5,37,63,31,55,23,61,29,53,21
+    );
+    return float(b[idx]) / 64.0;
+}
+```
+
+## glslPOP / glsladvancedPOP / glslcopyPOP
+
+All use compute shaders. Docked DATs follow naming convention:
+- `glsl1_compute` / `glsladv1_compute`
+- `glslcopy1_ptCompute` / `glslcopy1_vertCompute` / `glslcopy1_primCompute`

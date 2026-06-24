@@ -1,1 +1,168 @@
-IyBIdWdnaW5nIEZhY2UgVVJMIFdvcmtmbG93cyBmb3IgbGxhbWEuY3BwCgpVc2UgVVJMLW9ubHkgd29ya2Zsb3dzIGZpcnN0LiBEbyBub3QgcmVxdWlyZSBgaGZgIG9yIEFQSSBjbGllbnRzIGp1c3QgdG8gZmluZCBHR1VGIGZpbGVzLCBjaG9vc2UgYSBxdWFudCwgb3IgYnVpbGQgYSBgbGxhbWEtc2VydmVyYCBjb21tYW5kLgoKIyMgQ29yZSBVUkxzCgpgYGB0ZXh0ClNlYXJjaDoKaHR0cHM6Ly9odWdnaW5nZmFjZS5jby9tb2RlbHM/YXBwcz1sbGFtYS5jcHAmc29ydD10cmVuZGluZwoKU2VhcmNoIHdpdGggdGV4dDoKaHR0cHM6Ly9odWdnaW5nZmFjZS5jby9tb2RlbHM/c2VhcmNoPTx0ZXJtPiZhcHBzPWxsYW1hLmNwcCZzb3J0PXRyZW5kaW5nCgpTZWFyY2ggd2l0aCBzaXplIGJvdW5kczoKaHR0cHM6Ly9odWdnaW5nZmFjZS5jby9tb2RlbHM/c2VhcmNoPTx0ZXJtPiZhcHBzPWxsYW1hLmNwcCZudW1fcGFyYW1ldGVycz1taW46MCxtYXg6MjRCJnNvcnQ9dHJlbmRpbmcKClJlcG8gbG9jYWwtYXBwIHZpZXc6Cmh0dHBzOi8vaHVnZ2luZ2ZhY2UuY28vPHJlcG8+P2xvY2FsLWFwcD1sbGFtYS5jcHAKClJlcG8gdHJlZSBBUEk6Cmh0dHBzOi8vaHVnZ2luZ2ZhY2UuY28vYXBpL21vZGVscy88cmVwbz4vdHJlZS9tYWluP3JlY3Vyc2l2ZT10cnVlCgpSZXBvIGZpbGUgdHJlZToKaHR0cHM6Ly9odWdnaW5nZmFjZS5jby88cmVwbz4vdHJlZS9tYWluCmBgYAoKIyMgMS4gU2VhcmNoIGZvciBsbGFtYS5jcHAtY29tcGF0aWJsZSBtb2RlbHMKClN0YXJ0IGZyb20gdGhlIG1vZGVscyBwYWdlIHdpdGggYGFwcHM9bGxhbWEuY3BwYC4KClVzZToKCi0gYHNlYXJjaD08dGVybT5gIGZvciBtb2RlbCBmYW1pbHkgbmFtZXMgc3VjaCBhcyBgUXdlbmAsIGBHZW1tYWAsIGBQaGlgLCBvciBgTWlzdHJhbGAKLSBgbnVtX3BhcmFtZXRlcnM9bWluOjAsbWF4OjI0QmAgb3Igc2ltaWxhciBpZiB0aGUgdXNlciBoYXMgaGFyZHdhcmUgbGltaXRzCi0gYHNvcnQ9dHJlbmRpbmdgIHdoZW4gdGhlIHVzZXIgd2FudHMgcG9wdWxhciByZXBvcyByaWdodCBub3cKCkRvIG5vdCBzdGFydCB3aXRoIHJhbmRvbSBHR1VGIHJlcG9zIGlmIHRoZSB1c2VyIGhhcyBub3QgY2hvc2VuIGEgbW9kZWwgZmFtaWx5IHlldC4gU2VhcmNoIGZpcnN0LCBzaG9ydGxpc3Qgc2Vjb25kLgoKRXhhbXBsZTogaHR0cHM6Ly9odWdnaW5nZmFjZS5jby9tb2RlbHM/c2VhcmNoPVF3ZW4mYXBwcz1sbGFtYS5jcHAmbnVtX3BhcmFtZXRlcnM9bWluOjAsbWF4OjI0QiZzb3J0PXRyZW5kaW5nCgojIyAyLiBVc2UgdGhlIGxvY2FsLWFwcCBwYWdlIGZvciB0aGUgcmVjb21tZW5kZWQgcXVhbnQKCk9wZW46CgpgYGB0ZXh0Cmh0dHBzOi8vaHVnZ2luZ2ZhY2UuY28vPHJlcG8+P2xvY2FsLWFwcD1sbGFtYS5jcHAKYGBgCgpFeHRyYWN0LCBpbiBvcmRlcjoKCjEuIFRoZSBleGFjdCBgVXNlIHRoaXMgbW9kZWxgIHNuaXBwZXQsIGlmIGl0IGlzIHZpc2libGUgYXMgdGV4dAoyLiBUaGUgYEhhcmR3YXJlIGNvbXBhdGliaWxpdHlgIHNlY3Rpb24gZnJvbSB0aGUgZmV0Y2hlZCBwYWdlIHRleHQgb3IgSFRNTDoKICAgLSBxdWFudCBsYWJlbAogICAtIGZpbGUgc2l6ZQogICAtIGJpdC1kZXB0aCBncm91cGluZwozLiBBbnkgZXh0cmEgbGF1bmNoIGZsYWdzIHNob3duIGluIHRoZSBzbmlwcGV0LCBzdWNoIGFzIGAtLWppbmphYAoKVHJlYXQgdGhlIEhGIGxvY2FsLWFwcCBzbmlwcGV0IGFzIHRoZSBzb3VyY2Ugb2YgdHJ1dGggd2hlbiBpdCBpcyB2aXNpYmxlLgoKRG8gdGhpcyBieSByZWFkaW5nIHRoZSBVUkwgaXRzZWxmLCBub3QgYnkgYXNzdW1pbmcgdGhlIFVJIHJlbmRlcmVkIGluIGEgYnJvd3Nlci4gSWYgdGhlIGZldGNoZWQgcGFnZSBzb3VyY2UgZG9lcyBub3QgZXhwb3NlIGBIYXJkd2FyZSBjb21wYXRpYmlsaXR5YCwgc2F5IHRoYXQgdGhlIHNlY3Rpb24gd2FzIG5vdCB0ZXh0LXZpc2libGUgYW5kIGZhbGwgYmFjayB0byB0aGUgdHJlZSBBUEkgcGx1cyBnZW5lcmljIGd1aWRhbmNlIGZyb20gYHF1YW50aXphdGlvbi5tZGAuCgojIyAzLiBDb25maXJtIGV4YWN0IGZpbGVzIGZyb20gdGhlIHRyZWUgQVBJCgpPcGVuOgoKYGBgdGV4dApodHRwczovL2h1Z2dpbmdmYWNlLmNvL2FwaS9tb2RlbHMvPHJlcG8+L3RyZWUvbWFpbj9yZWN1cnNpdmU9dHJ1ZQpgYGAKClRyZWF0IHRoZSBKU09OIHJlc3BvbnNlIGFzIHRoZSBzb3VyY2Ugb2YgdHJ1dGggZm9yIHJlcG8gaW52ZW50b3J5LgoKS2VlcCBlbnRyaWVzIHdoZXJlOgoKLSBgdHlwZWAgaXMgYGZpbGVgCi0gYHBhdGhgIGVuZHMgd2l0aCBgLmdndWZgCgpVc2UgdGhlc2UgZmllbGRzOgoKLSBgcGF0aGAgZm9yIHRoZSBmaWxlbmFtZSBhbmQgc3ViZGlyZWN0b3J5Ci0gYHNpemVgIGZvciB0aGUgYnl0ZSBzaXplCi0gb3B0aW9uYWxseSBgbGZzLnNpemVgIHRvIGNvbmZpcm0gdGhlIExGUyBwYXlsb2FkIHNpemUKClNlcGFyYXRlIGZpbGVzIGludG86CgotIHF1YW50aXplZCBzaW5nbGUtZmlsZSBjaGVja3BvaW50cywgZm9yIGV4YW1wbGUgYFF3ZW4zLjYtMzVCLUEzQi1VRC1RNF9LX00uZ2d1ZmAKLSBwcm9qZWN0b3Igd2VpZ2h0cywgdXN1YWxseSBgbW1wcm9qLSouZ2d1ZmAKLSBCRjE2IHNoYXJkIGZpbGVzLCB1c3VhbGx5IHVuZGVyIGBCRjE2L2AKLSBldmVyeXRoaW5nIGVsc2UKCklnbm9yZSB1bmxlc3MgdGhlIHVzZXIgYXNrczoKCi0gYFJFQURNRS5tZGAKLSBpbWF0cml4IG9yIGNhbGlicmF0aW9uIGJsb2JzCgpVc2UgYGh0dHBzOi8vaHVnZ2luZ2ZhY2UuY28vPHJlcG8+L3RyZWUvbWFpbmAgb25seSBhcyBhIGh1bWFuIGZhbGxiYWNrIGlmIHRoZSBBUEkgZW5kcG9pbnQgZmFpbHMgb3IgdGhlIHVzZXIgd2FudHMgdGhlIHdlYiB2aWV3LgoKIyMgNC4gQnVpbGQgdGhlIGNvbW1hbmQKClByZWZlcnJlZCBvcmRlcjoKCjEuIENvcHkgdGhlIGV4YWN0IEhGIHNuaXBwZXQgZnJvbSB0aGUgbG9jYWwtYXBwIHBhZ2UKMi4gSWYgdGhlIHBhZ2UgZ2l2ZXMgYSBjbGVhbiBxdWFudCBsYWJlbCwgdXNlIHNob3J0aGFuZCBzZWxlY3Rpb246CgpgYGBiYXNoCmxsYW1hLXNlcnZlciAtaGYgPHJlcG8+OjxRVUFOVD4KYGBgCgozLiBJZiB5b3UgbmVlZCBhbiBleGFjdCBmaWxlIGZyb20gdGhlIHRyZWUgQVBJLCB1c2UgdGhlIGZpbGUtc3BlY2lmaWMgZm9ybToKCmBgYGJhc2gKbGxhbWEtc2VydmVyIC0taGYtcmVwbyA8cmVwbz4gLS1oZi1maWxlIDxmaWxlbmFtZS5nZ3VmPgpgYGAKCjQuIEZvciBDTEkgdXNhZ2UgaW5zdGVhZCBvZiBhIHNlcnZlciwgdXNlOgoKYGBgYmFzaApsbGFtYS1jbGkgLWhmIDxyZXBvPjo8UVVBTlQ+CmBgYAoKVXNlIHRoZSBleGFjdC1maWxlIGZvcm0gd2hlbiB0aGUgcmVwbyB1c2VzIGN1c3RvbSBsYWJlbHMgb3Igbm9uc3RhbmRhcmQgbmFtaW5nIHRoYXQgY291bGQgbWFrZSBgOjxRVUFOVD5gIGFtYmlndW91cy4KCiMjIDUuIEV4YW1wbGU6IGB1bnNsb3RoL1F3ZW4zLjYtMzVCLUEzQi1HR1VGYAoKVXNlIHRoZXNlIFVSTHM6CgpgYGB0ZXh0Cmh0dHBzOi8vaHVnZ2luZ2ZhY2UuY28vdW5zbG90aC9Rd2VuMy42LTM1Qi1BM0ItR0dVRj9sb2NhbC1hcHA9bGxhbWEuY3BwCmh0dHBzOi8vaHVnZ2luZ2ZhY2UuY28vYXBpL21vZGVscy91bnNsb3RoL1F3ZW4zLjYtMzVCLUEzQi1HR1VGL3RyZWUvbWFpbj9yZWN1cnNpdmU9dHJ1ZQpodHRwczovL2h1Z2dpbmdmYWNlLmNvL3Vuc2xvdGgvUXdlbjMuNi0zNUItQTNCLUdHVUYvdHJlZS9tYWluCmBgYAoKT24gdGhlIGxvY2FsLWFwcCBwYWdlLCB0aGUgaGFyZHdhcmUgY29tcGF0aWJpbGl0eSBzZWN0aW9uIGNhbiBleHBvc2UgZW50cmllcyBzdWNoIGFzOgoKLSBgVUQtSVE0X1hTYCAtIDE3LjcgR0IKLSBgVUQtUTRfS19TYCAtIDIwLjkgR0IKLSBgVUQtUTRfS19NYCAtIDIyLjEgR0IKLSBgVUQtUTVfS19NYCAtIDI2LjUgR0IKLSBgVUQtUTZfS2AgLSAyOS4zIEdCCi0gYFE4XzBgIC0gMzYuOSBHQgoKT24gdGhlIHRyZWUgQVBJLCB5b3UgY2FuIGNvbmZpcm0gZXhhY3QgZmlsZW5hbWVzIHN1Y2ggYXM6CgotIGBRd2VuMy42LTM1Qi1BM0ItVUQtUTRfS19NLmdndWZgCi0gYFF3ZW4zLjYtMzVCLUEzQi1VRC1RNV9LX00uZ2d1ZmAKLSBgUXdlbjMuNi0zNUItQTNCLVVELVE2X0suZ2d1ZmAKLSBgUXdlbjMuNi0zNUItQTNCLVE4XzAuZ2d1ZmAKLSBgbW1wcm9qLUYxNi5nZ3VmYAoKR29vZCBmaW5hbCBvdXRwdXQgZm9yIHRoaXMgcmVwbzoKCmBgYHRleHQKUmVwbzogdW5zbG90aC9Rd2VuMy42LTM1Qi1BM0ItR0dVRgpSZWNvbW1lbmRlZCBxdWFudCBmcm9tIEhGOiBVRC1RNF9LX00gKDIyLjEgR0IpCmxsYW1hLXNlcnZlcjogbGxhbWEtc2VydmVyIC0taGYtcmVwbyB1bnNsb3RoL1F3ZW4zLjYtMzVCLUEzQi1HR1VGIC0taGYtZmlsZSBRd2VuMy42LTM1Qi1BM0ItVUQtUTRfS19NLmdndWYKT3RoZXIgR0dVRnM6Ci0gUXdlbjMuNi0zNUItQTNCLVVELVE1X0tfTS5nZ3VmIC0gMjYuNSBHQgotIFF3ZW4zLjYtMzVCLUEzQi1VRC1RNl9LLmdndWYgLSAyOS4zIEdCCi0gUXdlbjMuNi0zNUItQTNCLVE4XzAuZ2d1ZiAtIDM2LjkgR0IKUHJvamVjdG9yOgotIG1tcHJvai1GMTYuZ2d1ZiAtIDg5OSBNQgpgYGAKCiMjIE5vdGVzCgotIFJlcG8tc3BlY2lmaWMgcXVhbnQgbGFiZWxzIG1hdHRlci4gRG8gbm90IHJld3JpdGUgYFVELVE0X0tfTWAgdG8gYFE0X0tfTWAgdW5sZXNzIHRoZSBwYWdlIGl0c2VsZiBkb2VzLgotIGBtbXByb2pgIGZpbGVzIGFyZSBwcm9qZWN0b3Igd2VpZ2h0cyBmb3IgbXVsdGltb2RhbCBtb2RlbHMsIG5vdCB0aGUgbWFpbiBsYW5ndWFnZSBtb2RlbCBjaGVja3BvaW50LgotIElmIHRoZSBIRiBoYXJkd2FyZSBjb21wYXRpYmlsaXR5IHBhbmVsIGlzIG1pc3NpbmcgYmVjYXVzZSB0aGUgdXNlciBoYXMgbm8gaGFyZHdhcmUgcHJvZmlsZSBjb25maWd1cmVkLCBvciBiZWNhdXNlIHRoZSBmZXRjaGVkIHBhZ2Ugc291cmNlIGRpZCBub3QgZXhwb3NlIGl0LCBzdGlsbCB1c2UgdGhlIHRyZWUgQVBJIHBsdXMgZ2VuZXJpYyBxdWFudCBndWlkYW5jZSBmcm9tIGBxdWFudGl6YXRpb24ubWRgLgotIElmIHRoZSByZXBvIGFscmVhZHkgaGFzIEdHVUZzLCBkbyBub3QganVtcCBzdHJhaWdodCB0byBjb252ZXJzaW9uIHdvcmtmbG93cy4K
+# Hugging Face URL Workflows for llama.cpp
+
+Use URL-only workflows first. Do not require `hf` or API clients just to find GGUF files, choose a quant, or build a `llama-server` command.
+
+## Core URLs
+
+```text
+Search:
+https://huggingface.co/models?apps=llama.cpp&sort=trending
+
+Search with text:
+https://huggingface.co/models?search=<term>&apps=llama.cpp&sort=trending
+
+Search with size bounds:
+https://huggingface.co/models?search=<term>&apps=llama.cpp&num_parameters=min:0,max:24B&sort=trending
+
+Repo local-app view:
+https://huggingface.co/<repo>?local-app=llama.cpp
+
+Repo tree API:
+https://huggingface.co/api/models/<repo>/tree/main?recursive=true
+
+Repo file tree:
+https://huggingface.co/<repo>/tree/main
+```
+
+## 1. Search for llama.cpp-compatible models
+
+Start from the models page with `apps=llama.cpp`.
+
+Use:
+
+- `search=<term>` for model family names such as `Qwen`, `Gemma`, `Phi`, or `Mistral`
+- `num_parameters=min:0,max:24B` or similar if the user has hardware limits
+- `sort=trending` when the user wants popular repos right now
+
+Do not start with random GGUF repos if the user has not chosen a model family yet. Search first, shortlist second.
+
+Example: https://huggingface.co/models?search=Qwen&apps=llama.cpp&num_parameters=min:0,max:24B&sort=trending
+
+## 2. Use the local-app page for the recommended quant
+
+Open:
+
+```text
+https://huggingface.co/<repo>?local-app=llama.cpp
+```
+
+Extract, in order:
+
+1. The exact `Use this model` snippet, if it is visible as text
+2. The `Hardware compatibility` section from the fetched page text or HTML:
+   - quant label
+   - file size
+   - bit-depth grouping
+3. Any extra launch flags shown in the snippet, such as `--jinja`
+
+Treat the HF local-app snippet as the source of truth when it is visible.
+
+Do this by reading the URL itself, not by assuming the UI rendered in a browser. If the fetched page source does not expose `Hardware compatibility`, say that the section was not text-visible and fall back to the tree API plus generic guidance from `quantization.md`.
+
+## 3. Confirm exact files from the tree API
+
+Open:
+
+```text
+https://huggingface.co/api/models/<repo>/tree/main?recursive=true
+```
+
+Treat the JSON response as the source of truth for repo inventory.
+
+Keep entries where:
+
+- `type` is `file`
+- `path` ends with `.gguf`
+
+Use these fields:
+
+- `path` for the filename and subdirectory
+- `size` for the byte size
+- optionally `lfs.size` to confirm the LFS payload size
+
+Separate files into:
+
+- quantized single-file checkpoints, for example `Qwen3.6-35B-A3B-UD-Q4_K_M.gguf`
+- projector weights, usually `mmproj-*.gguf`
+- BF16 shard files, usually under `BF16/`
+- everything else
+
+Ignore unless the user asks:
+
+- `README.md`
+- imatrix or calibration blobs
+
+Use `https://huggingface.co/<repo>/tree/main` only as a human fallback if the API endpoint fails or the user wants the web view.
+
+## 4. Build the command
+
+Preferred order:
+
+1. Copy the exact HF snippet from the local-app page
+2. If the page gives a clean quant label, use shorthand selection:
+
+```bash
+llama-server -hf <repo>:<QUANT>
+```
+
+3. If you need an exact file from the tree API, use the file-specific form:
+
+```bash
+llama-server --hf-repo <repo> --hf-file <filename.gguf>
+```
+
+4. For CLI usage instead of a server, use:
+
+```bash
+llama-cli -hf <repo>:<QUANT>
+```
+
+Use the exact-file form when the repo uses custom labels or nonstandard naming that could make `:<QUANT>` ambiguous.
+
+## 5. Example: `unsloth/Qwen3.6-35B-A3B-GGUF`
+
+Use these URLs:
+
+```text
+https://huggingface.co/unsloth/Qwen3.6-35B-A3B-GGUF?local-app=llama.cpp
+https://huggingface.co/api/models/unsloth/Qwen3.6-35B-A3B-GGUF/tree/main?recursive=true
+https://huggingface.co/unsloth/Qwen3.6-35B-A3B-GGUF/tree/main
+```
+
+On the local-app page, the hardware compatibility section can expose entries such as:
+
+- `UD-IQ4_XS` - 17.7 GB
+- `UD-Q4_K_S` - 20.9 GB
+- `UD-Q4_K_M` - 22.1 GB
+- `UD-Q5_K_M` - 26.5 GB
+- `UD-Q6_K` - 29.3 GB
+- `Q8_0` - 36.9 GB
+
+On the tree API, you can confirm exact filenames such as:
+
+- `Qwen3.6-35B-A3B-UD-Q4_K_M.gguf`
+- `Qwen3.6-35B-A3B-UD-Q5_K_M.gguf`
+- `Qwen3.6-35B-A3B-UD-Q6_K.gguf`
+- `Qwen3.6-35B-A3B-Q8_0.gguf`
+- `mmproj-F16.gguf`
+
+Good final output for this repo:
+
+```text
+Repo: unsloth/Qwen3.6-35B-A3B-GGUF
+Recommended quant from HF: UD-Q4_K_M (22.1 GB)
+llama-server: llama-server --hf-repo unsloth/Qwen3.6-35B-A3B-GGUF --hf-file Qwen3.6-35B-A3B-UD-Q4_K_M.gguf
+Other GGUFs:
+- Qwen3.6-35B-A3B-UD-Q5_K_M.gguf - 26.5 GB
+- Qwen3.6-35B-A3B-UD-Q6_K.gguf - 29.3 GB
+- Qwen3.6-35B-A3B-Q8_0.gguf - 36.9 GB
+Projector:
+- mmproj-F16.gguf - 899 MB
+```
+
+## Notes
+
+- Repo-specific quant labels matter. Do not rewrite `UD-Q4_K_M` to `Q4_K_M` unless the page itself does.
+- `mmproj` files are projector weights for multimodal models, not the main language model checkpoint.
+- If the HF hardware compatibility panel is missing because the user has no hardware profile configured, or because the fetched page source did not expose it, still use the tree API plus generic quant guidance from `quantization.md`.
+- If the repo already has GGUFs, do not jump straight to conversion workflows.

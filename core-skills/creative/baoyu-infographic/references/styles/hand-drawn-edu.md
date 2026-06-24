@@ -1,1 +1,63 @@
-IyBoYW5kLWRyYXduLWVkdQoKSGFuZC1kcmF3biBlZHVjYXRpb25hbCBpbmZvZ3JhcGhpYyB3aXRoIG1hY2Fyb24gcGFzdGVsIGNvbG9yIGJsb2NrcyBvbiB3YXJtIGNyZWFtIHBhcGVyIHRleHR1cmUuCgojIyBDb2xvciBQYWxldHRlCgotIEJhY2tncm91bmQ6IFdhcm0gY3JlYW0gKCNGNUYwRTgpIHdpdGggc3VidGxlIHBhcGVyIGdyYWluIHRleHR1cmUKLSBQcmltYXJ5IHRleHQ6IERlZXAgY2hhcmNvYWwgKCMyRDJEMkQpIGZvciBoZWFkbGluZXMsIG91dGxpbmVzCi0gTWFjYXJvbiBCbHVlOiAjQThEOEVBIGZvciBjb29sLXRvbmVkIGluZm9ybWF0aW9uIHpvbmVzCi0gTWFjYXJvbiBNaW50OiAjQjVFNUNGIGZvciBncm93dGgvcG9zaXRpdmUgem9uZXMKLSBNYWNhcm9uIExhdmVuZGVyOiAjRDVDNkUwIGZvciBhYnN0cmFjdC9jb25jZXB0IHpvbmVzCi0gTWFjYXJvbiBQZWFjaDogI0ZGRDVDMiBmb3Igd2FybS10b25lZCB6b25lcwotIEFjY2VudDogQ29yYWwgUmVkICgjRTg2NTVBKSBmb3Iga2V5IGRhdGEsIHdhcm5pbmdzLCBlbXBoYXNpcwotIE11dGVkIGFubm90YXRpb25zOiBXYXJtIGdyYXkgKCM2QjZCNkIpIGZvciBzZWNvbmRhcnkgbGFiZWxzCgojIyBWaXN1YWwgRWxlbWVudHMKCi0gTWFjYXJvbiBwYXN0ZWwgcm91bmRlZCBjYXJkcyBhcyBkaXN0aW5jdCBpbmZvcm1hdGlvbiB6b25lcwotIEhhbmQtZHJhd24gd2F2eSBjb25uZWN0aW9uIGxpbmVzIGFuZCBhcnJvd3Mgd2l0aCBzbWFsbCB0ZXh0IGxhYmVscwotIFNpbXBsZSBzdGljay1maWd1cmUgY2hhcmFjdGVycyBhbmQgY2FydG9vbiBpY29ucyB0byBodW1hbml6ZSBjb25jZXB0cwotIERvb2RsZSBkZWNvcmF0aW9uczogc21hbGwgc3RhcnMsIHVuZGVybGluZXMsIHNwaXJhbHMsIHNwYXJrbGVzCi0gQ29sb3IgZmlsbHMgZG9uJ3QgY29tcGxldGVseSBmaWxsIG91dGxpbmVzIOKAlCBwcmVzZXJ2ZSBjYXN1YWwgaGFuZC1kcmF3biBmZWVsCi0gRGFzaGVkIGJvcmRlcnMgZm9yIHNlY29uZGFyeSBvciBjb250YWluZWQgem9uZXMKLSBTbWFsbCBpY29uIGRvb2RsZXMgKGNsaXBib2FyZCwgbG9jaywgY2hlY2ttYXJrLCBsaWdodGJ1bGIpIHRvIHJlaW5mb3JjZSBjb25jZXB0cwotIEJvbGQgY2VudGVyZWQgcXVvdGUgb3IgdGFrZWF3YXkgYXQgdGhlIGJvdHRvbQotIFNsaWdodCBoYW5kLWRyYXduIHdvYmJsZSBvbiBhbGwgbGluZXMgYW5kIHNoYXBlcwoKIyMgVmFyaWFudHMKCnwgVmFyaWFudCB8IEZvY3VzIHwgVmlzdWFsIEVtcGhhc2lzIHwKfC0tLS0tLS0tLXwtLS0tLS0tfC0tLS0tLS0tLS0tLS0tLS0tfAp8ICoqU2tldGNoLW5vdGVzKiogfCBDb25jZXB0IG1hcHBpbmcgfCBNb3JlIHN0aWNrIGZpZ3VyZXMsIHRob3VnaHQgYnViYmxlcywgY29ubmVjdGluZyBhcnJvd3MgfAp8ICoqUGFzdGVsIGNhcmRzKiogfCBTdHJ1Y3R1cmVkIGluZm8gfCBDbGVhbmVyIG1hY2Fyb24gYmxvY2tzLCBsZXNzIGRvb2RsZSwgbW9yZSB3aGl0ZSBzcGFjZSB8CgojIyBUeXBvZ3JhcGh5CgotIE1haW4gdGl0bGU6IEJvbGQgaGFuZC1kcmF3biBsZXR0ZXJpbmcgd2l0aCBvcmdhbmljIHN0cm9rZXMsIGxhcmdlIGNvbmZpZGVudCBsZXR0ZXJmb3JtcyB3aXRoIHNsaWdodCB3b2JibGUKLSBTZWN0aW9uIGhlYWRlcnM6IEhhbmQtbGV0dGVyZWQgdGV4dCBvbiBvciBpbnNpZGUgbWFjYXJvbiBjb2xvciBibG9ja3MKLSBCb2R5IHRleHQ6IENsZWFyIGhhbmR3cml0dGVuIHByaW50IHN0eWxlLCBsZWdpYmxlIGJ1dCBub3QgbWVjaGFuaWNhbAotIEFubm90YXRpb25zOiBXYXJtIGdyYXkgKCM2QjZCNkIpLCBzbWFsbGVyLCBuZWF0IGhhbmR3cml0dGVuIGxhYmVscwotIEtleXdvcmRzOiBCb2xkIGVtcGhhc2lzIHdpdGhpbiBib2R5IHRleHQKCiMjIFN0eWxlIEVuZm9yY2VtZW50CgotIEFsbCBsaW5lcyBtdXN0IGhhdmUgc2xpZ2h0IGhhbmQtZHJhd24gd29iYmxlIOKAlCBubyBwZXJmZWN0IGdlb21ldHJ5Ci0gRWFjaCBpbmZvcm1hdGlvbiB6b25lIHVzZXMgYSBkaXN0aW5jdCBtYWNhcm9uIGNvbG9yIGJsb2NrCi0gTWFpbnRhaW4gY29uc2lzdGVudCB3b2JibGUgcXVhbGl0eSBhY3Jvc3MgYWxsIHNoYXBlcyBhbmQgbGluZXMKLSBJbmNsdWRlIGF0IGxlYXN0IG9uZSBzaW1wbGUgY2FydG9vbiBjaGFyYWN0ZXIgb3Igc3RpY2sgZmlndXJlCi0gR2VuZXJvdXMgd2hpdGUgc3BhY2UgYmV0d2VlbiB6b25lcyDigJQgZWFjaCB6b25lIHNob3VsZCBicmVhdGhlCi0gTWF4aW11bSA0IG1hY2Fyb24gY29sb3JzIHBlciBpbmZvZ3JhcGhpYwoKIyMgQXZvaWQKCi0gUGVyZmVjdCBnZW9tZXRyaWMgc2hhcGVzIG9yIHN0cmFpZ2h0IGxpbmVzCi0gUGhvdG9yZWFsaXN0aWMgZWxlbWVudHMgb3Igc3RvY2sgaWxsdXN0cmF0aW9uIHN0eWxlCi0gUHVyZSB3aGl0ZSBiYWNrZ3JvdW5kcwotIEZsYXQgdmVjdG9yIGljb25zIG9yIGRpZ2l0YWwtcHJlY2lzaW9uIGdyYXBoaWNzCi0gT3ZlcmNyb3dkZWQgbGF5b3V0cyDigJQgbGV0IHpvbmVzIGJyZWF0aGUKLSBDb3Jwb3JhdGUgb3IgY2xpbmljYWwgYWVzdGhldGljCgojIyBCZXN0IEZvcgoKRWR1Y2F0aW9uYWwgZGlhZ3JhbXMsIHByb2Nlc3MgZXhwbGFpbmVycywgY29uY2VwdCBtYXBzLCBrbm93bGVkZ2Ugc3VtbWFyaWVzLCB0dXRvcmlhbCB3YWxrdGhyb3VnaHMsIG9uYm9hcmRpbmcgdmlzdWFscwo=
+# hand-drawn-edu
+
+Hand-drawn educational infographic with macaron pastel color blocks on warm cream paper texture.
+
+## Color Palette
+
+- Background: Warm cream (#F5F0E8) with subtle paper grain texture
+- Primary text: Deep charcoal (#2D2D2D) for headlines, outlines
+- Macaron Blue: #A8D8EA for cool-toned information zones
+- Macaron Mint: #B5E5CF for growth/positive zones
+- Macaron Lavender: #D5C6E0 for abstract/concept zones
+- Macaron Peach: #FFD5C2 for warm-toned zones
+- Accent: Coral Red (#E8655A) for key data, warnings, emphasis
+- Muted annotations: Warm gray (#6B6B6B) for secondary labels
+
+## Visual Elements
+
+- Macaron pastel rounded cards as distinct information zones
+- Hand-drawn wavy connection lines and arrows with small text labels
+- Simple stick-figure characters and cartoon icons to humanize concepts
+- Doodle decorations: small stars, underlines, spirals, sparkles
+- Color fills don't completely fill outlines — preserve casual hand-drawn feel
+- Dashed borders for secondary or contained zones
+- Small icon doodles (clipboard, lock, checkmark, lightbulb) to reinforce concepts
+- Bold centered quote or takeaway at the bottom
+- Slight hand-drawn wobble on all lines and shapes
+
+## Variants
+
+| Variant | Focus | Visual Emphasis |
+|---------|-------|-----------------|
+| **Sketch-notes** | Concept mapping | More stick figures, thought bubbles, connecting arrows |
+| **Pastel cards** | Structured info | Cleaner macaron blocks, less doodle, more white space |
+
+## Typography
+
+- Main title: Bold hand-drawn lettering with organic strokes, large confident letterforms with slight wobble
+- Section headers: Hand-lettered text on or inside macaron color blocks
+- Body text: Clear handwritten print style, legible but not mechanical
+- Annotations: Warm gray (#6B6B6B), smaller, neat handwritten labels
+- Keywords: Bold emphasis within body text
+
+## Style Enforcement
+
+- All lines must have slight hand-drawn wobble — no perfect geometry
+- Each information zone uses a distinct macaron color block
+- Maintain consistent wobble quality across all shapes and lines
+- Include at least one simple cartoon character or stick figure
+- Generous white space between zones — each zone should breathe
+- Maximum 4 macaron colors per infographic
+
+## Avoid
+
+- Perfect geometric shapes or straight lines
+- Photorealistic elements or stock illustration style
+- Pure white backgrounds
+- Flat vector icons or digital-precision graphics
+- Overcrowded layouts — let zones breathe
+- Corporate or clinical aesthetic
+
+## Best For
+
+Educational diagrams, process explainers, concept maps, knowledge summaries, tutorial walkthroughs, onboarding visuals

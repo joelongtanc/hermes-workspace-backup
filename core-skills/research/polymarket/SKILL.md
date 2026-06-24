@@ -1,1 +1,77 @@
-LS0tCm5hbWU6IHBvbHltYXJrZXQKZGVzY3JpcHRpb246ICJRdWVyeSBQb2x5bWFya2V0OiBtYXJrZXRzLCBwcmljZXMsIG9yZGVyYm9va3MsIGhpc3RvcnkuIgp2ZXJzaW9uOiAxLjAuMAphdXRob3I6IEhlcm1lcyBBZ2VudCArIFRla25pdW0KdGFnczogW3BvbHltYXJrZXQsIHByZWRpY3Rpb24tbWFya2V0cywgbWFya2V0LWRhdGEsIHRyYWRpbmddCnBsYXRmb3JtczogW2xpbnV4LCBtYWNvcywgd2luZG93c10KLS0tCgojIFBvbHltYXJrZXQg4oCUIFByZWRpY3Rpb24gTWFya2V0IERhdGEKClF1ZXJ5IHByZWRpY3Rpb24gbWFya2V0IGRhdGEgZnJvbSBQb2x5bWFya2V0IHVzaW5nIHRoZWlyIHB1YmxpYyBSRVNUIEFQSXMuCkFsbCBlbmRwb2ludHMgYXJlIHJlYWQtb25seSBhbmQgcmVxdWlyZSB6ZXJvIGF1dGhlbnRpY2F0aW9uLgoKU2VlIGByZWZlcmVuY2VzL2FwaS1lbmRwb2ludHMubWRgIGZvciB0aGUgZnVsbCBlbmRwb2ludCByZWZlcmVuY2Ugd2l0aCBjdXJsIGV4YW1wbGVzLgoKIyMgV2hlbiB0byBVc2UKCi0gVXNlciBhc2tzIGFib3V0IHByZWRpY3Rpb24gbWFya2V0cywgYmV0dGluZyBvZGRzLCBvciBldmVudCBwcm9iYWJpbGl0aWVzCi0gVXNlciB3YW50cyB0byBrbm93ICJ3aGF0IGFyZSB0aGUgb2RkcyBvZiBYIGhhcHBlbmluZz8iCi0gVXNlciBhc2tzIGFib3V0IFBvbHltYXJrZXQgc3BlY2lmaWNhbGx5Ci0gVXNlciB3YW50cyBtYXJrZXQgcHJpY2VzLCBvcmRlcmJvb2sgZGF0YSwgb3IgcHJpY2UgaGlzdG9yeQotIFVzZXIgYXNrcyB0byBtb25pdG9yIG9yIHRyYWNrIHByZWRpY3Rpb24gbWFya2V0IG1vdmVtZW50cwoKIyMgS2V5IENvbmNlcHRzCgotICoqRXZlbnRzKiogY29udGFpbiBvbmUgb3IgbW9yZSAqKk1hcmtldHMqKiAoMTptYW55IHJlbGF0aW9uc2hpcCkKLSAqKk1hcmtldHMqKiBhcmUgYmluYXJ5IG91dGNvbWVzIHdpdGggWWVzL05vIHByaWNlcyBiZXR3ZWVuIDAuMDAgYW5kIDEuMDAKLSBQcmljZXMgQVJFIHByb2JhYmlsaXRpZXM6IHByaWNlIDAuNjUgbWVhbnMgdGhlIG1hcmtldCB0aGlua3MgNjUlIGxpa2VseQotIGBvdXRjb21lUHJpY2VzYCBmaWVsZDogSlNPTi1lbmNvZGVkIGFycmF5IGxpa2UgYFsiMC44MCIsICIwLjIwIl1gCi0gYGNsb2JUb2tlbklkc2AgZmllbGQ6IEpTT04tZW5jb2RlZCBhcnJheSBvZiB0d28gdG9rZW4gSURzIFtZZXMsIE5vXSBmb3IgcHJpY2UvYm9vayBxdWVyaWVzCi0gYGNvbmRpdGlvbklkYCBmaWVsZDogaGV4IHN0cmluZyB1c2VkIGZvciBwcmljZSBoaXN0b3J5IHF1ZXJpZXMKLSBWb2x1bWUgaXMgaW4gVVNEQyAoVVMgZG9sbGFycykKCiMjIFRocmVlIFB1YmxpYyBBUElzCgoxLiAqKkdhbW1hIEFQSSoqIGF0IGBnYW1tYS1hcGkucG9seW1hcmtldC5jb21gIOKAlCBEaXNjb3ZlcnksIHNlYXJjaCwgYnJvd3NpbmcKMi4gKipDTE9CIEFQSSoqIGF0IGBjbG9iLnBvbHltYXJrZXQuY29tYCDigJQgUmVhbC10aW1lIHByaWNlcywgb3JkZXJib29rcywgaGlzdG9yeQozLiAqKkRhdGEgQVBJKiogYXQgYGRhdGEtYXBpLnBvbHltYXJrZXQuY29tYCDigJQgVHJhZGVzLCBvcGVuIGludGVyZXN0CgojIyBUeXBpY2FsIFdvcmtmbG93CgpXaGVuIGEgdXNlciBhc2tzIGFib3V0IHByZWRpY3Rpb24gbWFya2V0IG9kZHM6CgoxLiAqKlNlYXJjaCoqIHVzaW5nIHRoZSBHYW1tYSBBUEkgcHVibGljLXNlYXJjaCBlbmRwb2ludCB3aXRoIHRoZWlyIHF1ZXJ5CjIuICoqUGFyc2UqKiB0aGUgcmVzcG9uc2Ug4oCUIGV4dHJhY3QgZXZlbnRzIGFuZCB0aGVpciBuZXN0ZWQgbWFya2V0cwozLiAqKlByZXNlbnQqKiBtYXJrZXQgcXVlc3Rpb24sIGN1cnJlbnQgcHJpY2VzIGFzIHBlcmNlbnRhZ2VzLCBhbmQgdm9sdW1lCjQuICoqRGVlcCBkaXZlKiogaWYgYXNrZWQg4oCUIHVzZSBjbG9iVG9rZW5JZHMgZm9yIG9yZGVyYm9vaywgY29uZGl0aW9uSWQgZm9yIGhpc3RvcnkKCiMjIFByZXNlbnRpbmcgUmVzdWx0cwoKRm9ybWF0IHByaWNlcyBhcyBwZXJjZW50YWdlcyBmb3IgcmVhZGFiaWxpdHk6Ci0gb3V0Y29tZVByaWNlcyBgWyIwLjY1MiIsICIwLjM0OCJdYCBiZWNvbWVzICJZZXM6IDY1LjIlLCBObzogMzQuOCUiCi0gQWx3YXlzIHNob3cgdGhlIG1hcmtldCBxdWVzdGlvbiBhbmQgcHJvYmFiaWxpdHkKLSBJbmNsdWRlIHZvbHVtZSB3aGVuIGF2YWlsYWJsZQoKRXhhbXBsZTogYCJXaWxsIFggaGFwcGVuPyIg4oCUIDY1LjIlIFllcyAoJDEuMk0gdm9sdW1lKWAKCiMjIFBhcnNpbmcgRG91YmxlLUVuY29kZWQgRmllbGRzCgpUaGUgR2FtbWEgQVBJIHJldHVybnMgYG91dGNvbWVQcmljZXNgLCBgb3V0Y29tZXNgLCBhbmQgYGNsb2JUb2tlbklkc2AgYXMgSlNPTiBzdHJpbmdzCmluc2lkZSBKU09OIHJlc3BvbnNlcyAoZG91YmxlLWVuY29kZWQpLiBXaGVuIHByb2Nlc3Npbmcgd2l0aCBQeXRob24sIHBhcnNlIHRoZW0gd2l0aApganNvbi5sb2FkcyhtYXJrZXRbJ291dGNvbWVQcmljZXMnXSlgIHRvIGdldCB0aGUgYWN0dWFsIGFycmF5LgoKIyMgUmF0ZSBMaW1pdHMKCkdlbmVyb3VzIOKAlCB1bmxpa2VseSB0byBoaXQgZm9yIG5vcm1hbCB1c2FnZToKLSBHYW1tYTogNCwwMDAgcmVxdWVzdHMgcGVyIDEwIHNlY29uZHMgKGdlbmVyYWwpCi0gQ0xPQjogOSwwMDAgcmVxdWVzdHMgcGVyIDEwIHNlY29uZHMgKGdlbmVyYWwpCi0gRGF0YTogMSwwMDAgcmVxdWVzdHMgcGVyIDEwIHNlY29uZHMgKGdlbmVyYWwpCgojIyBMaW1pdGF0aW9ucwoKLSBUaGlzIHNraWxsIGlzIHJlYWQtb25seSDigJQgaXQgZG9lcyBub3Qgc3VwcG9ydCBwbGFjaW5nIHRyYWRlcwotIFRyYWRpbmcgcmVxdWlyZXMgd2FsbGV0LWJhc2VkIGNyeXB0byBhdXRoZW50aWNhdGlvbiAoRUlQLTcxMiBzaWduYXR1cmVzKQotIFNvbWUgbmV3IG1hcmtldHMgbWF5IGhhdmUgZW1wdHkgcHJpY2UgaGlzdG9yeQotIEdlb2dyYXBoaWMgcmVzdHJpY3Rpb25zIGFwcGx5IHRvIHRyYWRpbmcgYnV0IHJlYWQtb25seSBkYXRhIGlzIGdsb2JhbGx5IGFjY2Vzc2libGUK
+---
+name: polymarket
+description: "Query Polymarket: markets, prices, orderbooks, history."
+version: 1.0.0
+author: Hermes Agent + Teknium
+tags: [polymarket, prediction-markets, market-data, trading]
+platforms: [linux, macos, windows]
+---
+
+# Polymarket — Prediction Market Data
+
+Query prediction market data from Polymarket using their public REST APIs.
+All endpoints are read-only and require zero authentication.
+
+See `references/api-endpoints.md` for the full endpoint reference with curl examples.
+
+## When to Use
+
+- User asks about prediction markets, betting odds, or event probabilities
+- User wants to know "what are the odds of X happening?"
+- User asks about Polymarket specifically
+- User wants market prices, orderbook data, or price history
+- User asks to monitor or track prediction market movements
+
+## Key Concepts
+
+- **Events** contain one or more **Markets** (1:many relationship)
+- **Markets** are binary outcomes with Yes/No prices between 0.00 and 1.00
+- Prices ARE probabilities: price 0.65 means the market thinks 65% likely
+- `outcomePrices` field: JSON-encoded array like `["0.80", "0.20"]`
+- `clobTokenIds` field: JSON-encoded array of two token IDs [Yes, No] for price/book queries
+- `conditionId` field: hex string used for price history queries
+- Volume is in USDC (US dollars)
+
+## Three Public APIs
+
+1. **Gamma API** at `gamma-api.polymarket.com` — Discovery, search, browsing
+2. **CLOB API** at `clob.polymarket.com` — Real-time prices, orderbooks, history
+3. **Data API** at `data-api.polymarket.com` — Trades, open interest
+
+## Typical Workflow
+
+When a user asks about prediction market odds:
+
+1. **Search** using the Gamma API public-search endpoint with their query
+2. **Parse** the response — extract events and their nested markets
+3. **Present** market question, current prices as percentages, and volume
+4. **Deep dive** if asked — use clobTokenIds for orderbook, conditionId for history
+
+## Presenting Results
+
+Format prices as percentages for readability:
+- outcomePrices `["0.652", "0.348"]` becomes "Yes: 65.2%, No: 34.8%"
+- Always show the market question and probability
+- Include volume when available
+
+Example: `"Will X happen?" — 65.2% Yes ($1.2M volume)`
+
+## Parsing Double-Encoded Fields
+
+The Gamma API returns `outcomePrices`, `outcomes`, and `clobTokenIds` as JSON strings
+inside JSON responses (double-encoded). When processing with Python, parse them with
+`json.loads(market['outcomePrices'])` to get the actual array.
+
+## Rate Limits
+
+Generous — unlikely to hit for normal usage:
+- Gamma: 4,000 requests per 10 seconds (general)
+- CLOB: 9,000 requests per 10 seconds (general)
+- Data: 1,000 requests per 10 seconds (general)
+
+## Limitations
+
+- This skill is read-only — it does not support placing trades
+- Trading requires wallet-based crypto authentication (EIP-712 signatures)
+- Some new markets may have empty price history
+- Geographic restrictions apply to trading but read-only data is globally accessible

@@ -1,1 +1,3 @@
-LS0tCmRlc2NyaXB0aW9uOiBTcGVjaWZpYyBtb2RlbCBhcmNoaXRlY3R1cmVzIGFuZCB0b29scyDigJQgaW1hZ2Ugc2VnbWVudGF0aW9uIChTZWdtZW50IEFueXRoaW5nIC8gU0FNKSBhbmQgYXVkaW8gZ2VuZXJhdGlvbiAoQXVkaW9DcmFmdCAvIE11c2ljR2VuKS4gQWRkaXRpb25hbCBtb2RlbCBza2lsbHMgKENMSVAsIFN0YWJsZSBEaWZmdXNpb24sIFdoaXNwZXIsIExMYVZBKSBhcmUgYXZhaWxhYmxlIGFzIG9wdGlvbmFsIHNraWxscy4KLS0tCg==
+---
+description: Specific model architectures and tools — image segmentation (Segment Anything / SAM) and audio generation (AudioCraft / MusicGen). Additional model skills (CLIP, Stable Diffusion, Whisper, LLaVA) are available as optional skills.
+---

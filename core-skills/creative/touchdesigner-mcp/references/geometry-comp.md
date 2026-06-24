@@ -1,1 +1,121 @@
-IyBHZW9tZXRyeSBDT01QIFJlZmVyZW5jZQoKIyMgQ3JlYXRpbmcgR2VvbWV0cnkgQ09NUHMKCmBgYHB5dGhvbgpnZW8gPSByb290LmNyZWF0ZShnZW9tZXRyeUNPTVAsICdnZW8xJykKIyBSZW1vdmUgZGVmYXVsdCB0b3J1cwpmb3IgYyBpbiBsaXN0KGdlby5jaGlsZHJlbik6CiAgICBpZiBjLnZhbGlkOiBjLmRlc3Ryb3koKQojIEJ1aWxkIHlvdXIgc2hhcGUgaW5zaWRlCmBgYAoKIyMgQ29ycmVjdCBQYXR0ZXJuIChzaGFwZXMgaW5zaWRlIGdlbykKCmBgYHB5dGhvbgojIENyZWF0ZSBzaGFwZSBJTlNJREUgdGhlIGdlbyBDT01QCmJveCA9IGdlby5jcmVhdGUoYm94U09QLCAnY3ViZScpCmJveC5wYXIuc2l6ZXggPSAxLjU7IGJveC5wYXIuc2l6ZXkgPSAxLjU7IGJveC5wYXIuc2l6ZXogPSAxLjUKCiMgRm9yIFBPUC1iYXNlZCBnZW9tZXRyeSAoVEQgMDk5KSwgUE9QcyBtdXN0IGJlIGluc2lkZToKc3BoID0gZ2VvLmNyZWF0ZShzcGhlcmVQT1AsICdzaGFwZScpCm91dDEgPSBnZW8uY3JlYXRlKG91dFBPUCwgJ291dDEnKQpvdXQxLmlucHV0Q29ubmVjdG9yc1swXS5jb25uZWN0KHNwaC5vdXRwdXRDb25uZWN0b3JzWzBdKQpgYGAKCiMjIERPIE5PVDogQ29tbW9uIE1pc3Rha2VzCgpgYGBweXRob24KIyBCQUQ6IERvbid0IGNyZWF0ZSBnZW9tZXRyeSBhdCBwYXJlbnQgbGV2ZWwgYW5kIHdpcmUgaW50byBDT01QCmJveCA9IHJvb3QuY3JlYXRlKGJveFBPUCwgJ2JveDEnKSAgIyDihpAgb3V0c2lkZSBnZW8sIHdvbid0IHJlbmRlcgoKIyBCQUQ6IERvbid0IHJlZmVyZW5jZSBwYXJlbnQgb3BlcmF0b3JzIGZyb20gaW5zaWRlIENPTVAKY2hvcHRvcG9wMS5wYXIuY2hvcCA9ICcuLi9udWxsMScgICMg4oaQIGhpZGRlbiBkZXBlbmRlbmN5LCBicmVha3Mgb24gbW92ZQpgYGAKCiMjIEluc3RhbmNpbmcKCmBgYHB5dGhvbgpnZW8ucGFyLmluc3RhbmNpbmcgPSBUcnVlCmdlby5wYXIuaW5zdGFuY2VvcCA9ICdzb3B0bzEnICAgICMgcmVsYXRpdmUgcGF0aCB0byBDSE9QL1NPUCB3aXRoIGluc3RhbmNlIGRhdGEKZ2VvLnBhci5pbnN0YW5jZXR4ID0gJ3R4JwpnZW8ucGFyLmluc3RhbmNldHkgPSAndHknCmdlby5wYXIuaW5zdGFuY2V0eiA9ICd0eicKYGBgCgojIyMgSW5zdGFuY2UgQXR0cmlidXRlIE5hbWVzIGJ5IE9QIFR5cGUKCnwgT1AgVHlwZSB8IEF0dHJpYnV0ZSBOYW1lcyB8CnwtLS0tLS0tLS18LS0tLS0tLS0tLS0tLS0tLS18CnwgQ0hPUCB8IENoYW5uZWwgbmFtZXM6IGB0eGAsIGB0eWAsIGB0emAgfAp8IFNPUC9QT1AgfCBgUCgwKWAsIGBQKDEpYCwgYFAoMilgIGZvciBwb3NpdGlvbiB8CnwgREFUIHwgQ29sdW1uIGhlYWRlciBuYW1lcyBmcm9tIGZpcnN0IHJvdyB8CnwgVE9QIHwgYHJgLCBgZ2AsIGBiYCwgYGFgIHwKCiMjIyBNaXhlZCBEYXRhIFNvdXJjZXMKCmBgYHB5dGhvbgpnZW8ucGFyLmluc3RhbmNlb3AgPSAncG9zX2Nob3AnICAgICAgICMgUG9zaXRpb24gZnJvbSBDSE9QCmdlby5wYXIuaW5zdGFuY2V0eCA9ICd0eCcKZ2VvLnBhci5pbnN0YW5jZWNvbG9yb3AgPSAnY29sb3JfdG9wJyAjIENvbG9yIGZyb20gVE9QCmdlby5wYXIuaW5zdGFuY2Vjb2xvcnIgPSAncicKYGBgCgojIyBSZW5kZXJpbmcgU2V0dXAKCmBgYHB5dGhvbgojIENhbWVyYQpjYW0gPSByb290LmNyZWF0ZShjYW1lcmFDT01QLCAnY2FtMScpCmNhbS5wYXIudHggPSAwOyBjYW0ucGFyLnR5ID0gMDsgY2FtLnBhci50eiA9IDQKCiMgUmVuZGVyIFRPUApyZW5kZXIgPSByb290LmNyZWF0ZShyZW5kZXJUT1AsICdyZW5kZXIxJykKcmVuZGVyLnBhci5vdXRwdXRyZXNvbHV0aW9uID0gJ2N1c3RvbScKcmVuZGVyLnBhci5yZXNvbHV0aW9udyA9IDEyODA7IHJlbmRlci5wYXIucmVzb2x1dGlvbmggPSA3MjAKcmVuZGVyLnBhci5jYW1lcmEgPSBjYW0ucGF0aApyZW5kZXIucGFyLmdlb21ldHJ5ID0gZ2VvLnBhdGggICMgYWNjZXB0cyBwYXRoIHN0cmluZwpgYGAKCiMjIFBPUHMgdnMgU09QcyBmb3IgUmVuZGVyaW5nCgpJbiBURCAwOTksIGBnZW9tZXRyeUNPTVBgIHJlbmRlcnMgKipQT1BzKiogYnV0IE5PVCBTT1BzLiBBIGBib3hTT1BgIGluc2lkZSBhIGdlb21ldHJ5IENPTVAgaXMgaW52aXNpYmxlIOKAlCBubyBlcnJvcnMuCgpgYGBweXRob24KIyBXUk9ORyDigJQgU09QcyBkb24ndCByZW5kZXIgKGludmlzaWJsZSwgbm8gZXJyb3JzKQpib3ggPSBnZW8uY3JlYXRlKGJveFNPUCwgJ2N1YmUnKSAgICAgICAjIOKclyBpbnZpc2libGUKCiMgQ09SUkVDVCDigJQgUE9QcyByZW5kZXIKYm94ID0gZ2VvLmNyZWF0ZShib3hQT1AsICdjdWJlJykgICAgICAgIyDinJMgdmlzaWJsZQpgYGAKCnwgU09QIHwgUE9QIHwgTm90ZXMgfAp8LS0tLS18LS0tLS18LS0tLS0tLXwKfCBgYm94U09QYCB8IGBib3hQT1BgIHwgYHNpemV4L3kvemAsIGBzdXJmdHlwZWAgfAp8IGBzcGhlcmVTT1BgIHwgYHNwaGVyZVBPUGAgfCBgcmFkeC95L3pgLCBgZnJlcWAsIGB0eXBlYCAoZ2VvZGVzaWMvZ3JpZC9zaGFyZWRwb2xlcy90ZXRyYWhlZHJvbikgfAp8IGB0b3J1c1NPUGAgfCBgdG9ydXNQT1BgIHwgVEQgYXV0by1jcmVhdGVzIGluIG5ldyBnZW8gQ09NUHMgfAp8IGBjaXJjbGVTT1BgIHwgYGNpcmNsZVBPUGAgfCB8CnwgYGdyaWRTT1BgIHwgYGdyaWRQT1BgIHwgfAp8IGB0dWJlU09QYCB8IGB0dWJlUE9QYCB8IHwKCk5ldyBnZW9tZXRyeSBDT01QcyBhdXRvLWNyZWF0ZTogYGluMWAgKGluUE9QKSwgYG91dDFgIChvdXRQT1ApLCBgdG9ydXMxYCAodG9ydXNQT1ApLiBBbHdheXMgY2xlYW4gYmVmb3JlIGJ1aWxkaW5nLgoKIyMgTW9ycGhpbmcgQmV0d2VlbiBTaGFwZXMgKHN3aXRjaFBPUCkKCmBgYHB5dGhvbgpzdyA9IGdlby5jcmVhdGUoc3dpdGNoUE9QLCAnc2hhcGVfc3dpdGNoJykKc3cucGFyLmluZGV4LmV4cHIgPSAnaW50KGFic1RpbWUuc2Vjb25kcyAvIDMpICUgNCcKc3cuaW5wdXRDb25uZWN0b3JzWzBdLmNvbm5lY3QodGV0cmEub3V0cHV0Q29ubmVjdG9yc1swXSkgICMgc2hhcGUgMApzdy5pbnB1dENvbm5lY3RvcnNbMV0uY29ubmVjdChib3gub3V0cHV0Q29ubmVjdG9yc1swXSkgICAgIyBzaGFwZSAxCnN3LmlucHV0Q29ubmVjdG9yc1syXS5jb25uZWN0KG9jdGEub3V0cHV0Q29ubmVjdG9yc1swXSkgICAjIHNoYXBlIDIKc3cuaW5wdXRDb25uZWN0b3JzWzNdLmNvbm5lY3Qoc3BoZXJlLm91dHB1dENvbm5lY3RvcnNbMF0pICMgc2hhcGUgMwoKb3V0ID0gZ2VvLmNyZWF0ZShvdXRQT1AsICdvdXQxJykKb3V0LmlucHV0Q29ubmVjdG9yc1swXS5jb25uZWN0KHN3Lm91dHB1dENvbm5lY3RvcnNbMF0pCmBgYAoKYHNwaGVyZVBPUC5wYXIudHlwZWAgb3B0aW9uczogYGdlb2Rlc2ljYCwgYGdyaWRgLCBgc2hhcmVkcG9sZXNgLCBgdGV0cmFoZWRyb25gLiBVc2UgYHRldHJhaGVkcm9uYCBmb3IgcGxhdG9uaWMgc29saWQgcG9seWhlZHJhLgoKIyMgTWlzYwoKLSBgY29ubmVjdCgpYCByZXBsYWNlcyBleGlzdGluZyBjb25uZWN0aW9ucyDigJQgbm8gbmVlZCB0byBkaXNjb25uZWN0IGZpcnN0Ci0gYHByb2plY3QubmFtZWAgcmV0dXJucyB0aGUgVE9FIGZpbGVuYW1lLCBgcHJvamVjdC5mb2xkZXJgIHJldHVybnMgdGhlIGRpcmVjdG9yeQo=
+# Geometry COMP Reference
+
+## Creating Geometry COMPs
+
+```python
+geo = root.create(geometryCOMP, 'geo1')
+# Remove default torus
+for c in list(geo.children):
+    if c.valid: c.destroy()
+# Build your shape inside
+```
+
+## Correct Pattern (shapes inside geo)
+
+```python
+# Create shape INSIDE the geo COMP
+box = geo.create(boxSOP, 'cube')
+box.par.sizex = 1.5; box.par.sizey = 1.5; box.par.sizez = 1.5
+
+# For POP-based geometry (TD 099), POPs must be inside:
+sph = geo.create(spherePOP, 'shape')
+out1 = geo.create(outPOP, 'out1')
+out1.inputConnectors[0].connect(sph.outputConnectors[0])
+```
+
+## DO NOT: Common Mistakes
+
+```python
+# BAD: Don't create geometry at parent level and wire into COMP
+box = root.create(boxPOP, 'box1')  # ← outside geo, won't render
+
+# BAD: Don't reference parent operators from inside COMP
+choptopop1.par.chop = '../null1'  # ← hidden dependency, breaks on move
+```
+
+## Instancing
+
+```python
+geo.par.instancing = True
+geo.par.instanceop = 'sopto1'    # relative path to CHOP/SOP with instance data
+geo.par.instancetx = 'tx'
+geo.par.instancety = 'ty'
+geo.par.instancetz = 'tz'
+```
+
+### Instance Attribute Names by OP Type
+
+| OP Type | Attribute Names |
+|---------|-----------------|
+| CHOP | Channel names: `tx`, `ty`, `tz` |
+| SOP/POP | `P(0)`, `P(1)`, `P(2)` for position |
+| DAT | Column header names from first row |
+| TOP | `r`, `g`, `b`, `a` |
+
+### Mixed Data Sources
+
+```python
+geo.par.instanceop = 'pos_chop'       # Position from CHOP
+geo.par.instancetx = 'tx'
+geo.par.instancecolorop = 'color_top' # Color from TOP
+geo.par.instancecolorr = 'r'
+```
+
+## Rendering Setup
+
+```python
+# Camera
+cam = root.create(cameraCOMP, 'cam1')
+cam.par.tx = 0; cam.par.ty = 0; cam.par.tz = 4
+
+# Render TOP
+render = root.create(renderTOP, 'render1')
+render.par.outputresolution = 'custom'
+render.par.resolutionw = 1280; render.par.resolutionh = 720
+render.par.camera = cam.path
+render.par.geometry = geo.path  # accepts path string
+```
+
+## POPs vs SOPs for Rendering
+
+In TD 099, `geometryCOMP` renders **POPs** but NOT SOPs. A `boxSOP` inside a geometry COMP is invisible — no errors.
+
+```python
+# WRONG — SOPs don't render (invisible, no errors)
+box = geo.create(boxSOP, 'cube')       # ✗ invisible
+
+# CORRECT — POPs render
+box = geo.create(boxPOP, 'cube')       # ✓ visible
+```
+
+| SOP | POP | Notes |
+|-----|-----|-------|
+| `boxSOP` | `boxPOP` | `sizex/y/z`, `surftype` |
+| `sphereSOP` | `spherePOP` | `radx/y/z`, `freq`, `type` (geodesic/grid/sharedpoles/tetrahedron) |
+| `torusSOP` | `torusPOP` | TD auto-creates in new geo COMPs |
+| `circleSOP` | `circlePOP` | |
+| `gridSOP` | `gridPOP` | |
+| `tubeSOP` | `tubePOP` | |
+
+New geometry COMPs auto-create: `in1` (inPOP), `out1` (outPOP), `torus1` (torusPOP). Always clean before building.
+
+## Morphing Between Shapes (switchPOP)
+
+```python
+sw = geo.create(switchPOP, 'shape_switch')
+sw.par.index.expr = 'int(absTime.seconds / 3) % 4'
+sw.inputConnectors[0].connect(tetra.outputConnectors[0])  # shape 0
+sw.inputConnectors[1].connect(box.outputConnectors[0])    # shape 1
+sw.inputConnectors[2].connect(octa.outputConnectors[0])   # shape 2
+sw.inputConnectors[3].connect(sphere.outputConnectors[0]) # shape 3
+
+out = geo.create(outPOP, 'out1')
+out.inputConnectors[0].connect(sw.outputConnectors[0])
+```
+
+`spherePOP.par.type` options: `geodesic`, `grid`, `sharedpoles`, `tetrahedron`. Use `tetrahedron` for platonic solid polyhedra.
+
+## Misc
+
+- `connect()` replaces existing connections — no need to disconnect first
+- `project.name` returns the TOE filename, `project.folder` returns the directory

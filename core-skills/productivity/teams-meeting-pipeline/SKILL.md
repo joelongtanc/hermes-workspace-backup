@@ -1,1 +1,116 @@
-LS0tCm5hbWU6IHRlYW1zLW1lZXRpbmctcGlwZWxpbmUKZGVzY3JpcHRpb246ICJPcGVyYXRlIHRoZSBUZWFtcyBtZWV0aW5nIHN1bW1hcnkgcGlwZWxpbmUgdmlhIEhlcm1lcyBDTEkg4oCUIHN1bW1hcml6ZSBtZWV0aW5ncywgaW5zcGVjdCBwaXBlbGluZSBzdGF0dXMsIHJlcGxheSBqb2JzLCBtYW5hZ2UgTWljcm9zb2Z0IEdyYXBoIHN1YnNjcmlwdGlvbnMuIgp2ZXJzaW9uOiAxLjEuMAphdXRob3I6IEhlcm1lcyBBZ2VudCArIFRla25pdW0KbGljZW5zZTogTUlUCnByZXJlcXVpc2l0ZXM6CiAgZW52X3ZhcnM6IFtNU0dSQVBIX1RFTkFOVF9JRCwgTVNHUkFQSF9DTElFTlRfSUQsIE1TR1JBUEhfQ0xJRU5UX1NFQ1JFVF0KICBjb21tYW5kczogW2hlcm1lc10KbWV0YWRhdGE6CiAgaGVybWVzOgogICAgdGFnczogW1RlYW1zLCBNaWNyb3NvZnQgR3JhcGgsIE1lZXRpbmdzLCBQcm9kdWN0aXZpdHksIE9wZXJhdGlvbnNdCiAgICByZWxhdGVkX2RvY3M6CiAgICAgIC0gL2RvY3MvZ3VpZGVzL21pY3Jvc29mdC1ncmFwaC1hcHAtcmVnaXN0cmF0aW9uCiAgICAgIC0gL2RvY3MvdXNlci1ndWlkZS9tZXNzYWdpbmcvdGVhbXMtbWVldGluZ3MKICAgICAgLSAvZG9jcy9ndWlkZXMvb3BlcmF0ZS10ZWFtcy1tZWV0aW5nLXBpcGVsaW5lCi0tLQoKIyBUZWFtcyBNZWV0aW5nIFBpcGVsaW5lCgpVc2UgdGhpcyBza2lsbCB3aGVuZXZlciB0aGUgdXNlciBhc2tzIGFib3V0IE1pY3Jvc29mdCBUZWFtcyBtZWV0aW5nIHN1bW1hcmllcywgdHJhbnNjcmlwdHMsIHJlY29yZGluZ3MsIGFjdGlvbiBpdGVtcywgR3JhcGggc3Vic2NyaXB0aW9ucywgb3IgYW55IG9wZXJhdGlvbmFsIHF1ZXN0aW9uIGFib3V0IHRoZSBUZWFtcyBtZWV0aW5nIHBpcGVsaW5lLiBXb3JrcyBpbiBhbnkgbGFuZ3VhZ2Ug4oCUIHRoZSB0cmlnZ2VycyBiZWxvdyBhcmUgZXhhbXBsZXMsIG5vdCBhbiBleGhhdXN0aXZlIGxpc3QuCgpFdmVyeXRoaW5nIG9wZXJhdG9yLWZhY2luZyBpcyBhIGBoZXJtZXMgdGVhbXMtcGlwZWxpbmVgIHN1YmNvbW1hbmQgcnVuIHZpYSB0aGUgdGVybWluYWwgdG9vbC4gVGhlcmUgYXJlIG5vIG5ldyBtb2RlbCB0b29scyBmb3IgdGhpcyBwaXBlbGluZSDigJQgdGhlIENMSSBpcyB0aGUgc3VyZmFjZS4KCiMjIFdoZW4gdG8gdXNlIHRoaXMgc2tpbGwKClRoZSB1c2VyIGlzIGFza2luZyB0bzoKLSBzdW1tYXJpemUgYSBUZWFtcyBtZWV0aW5nIC8gZXh0cmFjdCBhY3Rpb24gaXRlbXMgLyBwdWxsIG1lZXRpbmcgbm90ZXMKLSBjaGVjayBwaXBlbGluZSBzdGF0dXMsIGluc3BlY3QgYSBzdG9yZWQgbWVldGluZyBqb2IsIG9yIHNlZSByZWNlbnQgbWVldGluZ3MKLSByZXBsYXkgLyByZS1ydW4gYSBzdG9yZWQgam9iIHRoYXQgZmFpbGVkIG9yIG5lZWRzIGEgZnJlc2ggc3VtbWFyeQotIHZhbGlkYXRlIE1pY3Jvc29mdCBHcmFwaCBzZXR1cCBhZnRlciBjaGFuZ2luZyBlbnYgb3IgY29uZmlnCi0gdHJvdWJsZXNob290ICJtZWV0aW5nIHN1bW1hcnkgbmV2ZXIgYXJyaXZlZCIgb3IgIm5vIG5ldyBtZWV0aW5ncyBhcmUgaW5nZXN0aW5nIgotIG1hbmFnZSBHcmFwaCB3ZWJob29rIHN1YnNjcmlwdGlvbnMgKGNyZWF0ZSwgcmVuZXcsIGRlbGV0ZSwgaW5zcGVjdCkKLSBzZXQgdXAgYXV0b21hdGVkIHN1YnNjcmlwdGlvbiByZW5ld2FsIChzZWUgcGl0ZmFsbCBiZWxvdykKCk11bHRpbGluZ3VhbCB0cmlnZ2VyIGV4YW1wbGVzIChub3QgZXhoYXVzdGl2ZSk6Ci0gRW5nbGlzaDogInN1bW1hcml6ZSB0aGUgVGVhbXMgbWVldGluZyIsICJwaXBlbGluZSBzdGF0dXMiLCAicmVwbGF5IGpvYiBYIgotIFR1cmtpc2g6ICJUZWFtcyBtZWV0aW5nIMO2emV0bGUiLCAiYWN0aW9uIGl0ZW0gw6fEsWthciIsICJ0b3BsYW50xLEgbm90dSIsICJwaXBlbGluZSBkdXJ1bXUiLCAicmVwbGF5IGpvYiIKCiMjIFByZXJlcXVpc2l0ZXMKCkJlZm9yZSB1c2luZyB0aGUgcGlwZWxpbmUsIHZlcmlmeSB0aGVzZSBhcmUgc2V0IGluIGB+Ly5oZXJtZXMvLmVudmA6CgpgYGBiYXNoCk1TR1JBUEhfVEVOQU5UX0lEPS4uLgpNU0dSQVBIX0NMSUVOVF9JRD0uLi4KTVNHUkFQSF9DTElFTlRfU0VDUkVUPS4uLgpgYGAKCklmIGFueSBhcmUgbWlzc2luZywgZGlyZWN0IHRoZSB1c2VyIHRvIHRoZSBBenVyZSBhcHAgcmVnaXN0cmF0aW9uIGd1aWRlIGF0IGAvZG9jcy9ndWlkZXMvbWljcm9zb2Z0LWdyYXBoLWFwcC1yZWdpc3RyYXRpb25gIOKAlCB0aGV5IG5lZWQgYW4gQXp1cmUgQUQgYXBwIHJlZ2lzdHJhdGlvbiB3aXRoIGFkbWluLWNvbnNlbnRlZCBHcmFwaCBhcHBsaWNhdGlvbiBwZXJtaXNzaW9ucyBiZWZvcmUgdGhlIHBpcGVsaW5lIHdpbGwgd29yay4KCiMjIENvbW1hbmQgcmVmZXJlbmNlCgojIyMgU3RhdHVzIGFuZCBpbnNwZWN0aW9uIChzdGFydCBoZXJlKQoKYGBgYmFzaApoZXJtZXMgdGVhbXMtcGlwZWxpbmUgdmFsaWRhdGUgICAgICAgICAgICAgICMgY29uZmlnIHNuYXBzaG90IOKAlCBydW4gZmlyc3QgYWZ0ZXIgYW55IGNoYW5nZQpoZXJtZXMgdGVhbXMtcGlwZWxpbmUgdG9rZW4taGVhbHRoICAgICAgICAgICMgR3JhcGggdG9rZW4gc3RhdHVzCmhlcm1lcyB0ZWFtcy1waXBlbGluZSB0b2tlbi1oZWFsdGggLS1mb3JjZS1yZWZyZXNoICAgIyBmb3JjZSBhIGZyZXNoIHRva2VuIGFjcXVpc2l0aW9uCmhlcm1lcyB0ZWFtcy1waXBlbGluZSBsaXN0ICAgICAgICAgICAgICAgICAgIyByZWNlbnQgbWVldGluZyBqb2JzCmhlcm1lcyB0ZWFtcy1waXBlbGluZSBsaXN0IC0tc3RhdHVzIGZhaWxlZCAgIyBvbmx5IGZhaWxlZCBqb2JzCmhlcm1lcyB0ZWFtcy1waXBlbGluZSBzaG93IDxqb2ItaWQ+ICAgICAgICAgIyBmdWxsIGRldGFpbCBvZiBvbmUgam9iCmhlcm1lcyB0ZWFtcy1waXBlbGluZSBzdWJzY3JpcHRpb25zICAgICAgICAgIyBjdXJyZW50IEdyYXBoIHdlYmhvb2sgc3Vic2NyaXB0aW9ucwpgYGAKCiMjIyBSZS1ydW5uaW5nIC8gZGVidWdnaW5nCgpgYGBiYXNoCmhlcm1lcyB0ZWFtcy1waXBlbGluZSBydW4gPGpvYi1pZD4gICAgICAgICAgIyByZXBsYXkgYSBzdG9yZWQgam9iIChyZS1zdW1tYXJpemUsIHJlLWRlbGl2ZXIpCmhlcm1lcyB0ZWFtcy1waXBlbGluZSBmZXRjaCAtLW1lZXRpbmctaWQgPGlkPiAgICMgZHJ5LXJ1bjogcmVzb2x2ZSBtZWV0aW5nICsgdHJhbnNjcmlwdCB3aXRob3V0IHBlcnNpc3RpbmcKaGVybWVzIHRlYW1zLXBpcGVsaW5lIGZldGNoIC0tam9pbi13ZWItdXJsICI8dXJsPiIgICAjIGRyeS1ydW4gYnkgam9pbiBVUkwKYGBgCgojIyMgU3Vic2NyaXB0aW9uIG1hbmFnZW1lbnQKCmBgYGJhc2gKaGVybWVzIHRlYW1zLXBpcGVsaW5lIHN1YnNjcmliZSBcCiAgLS1yZXNvdXJjZSBjb21tdW5pY2F0aW9ucy9vbmxpbmVNZWV0aW5ncy9nZXRBbGxUcmFuc2NyaXB0cyBcCiAgLS1ub3RpZmljYXRpb24tdXJsIGh0dHBzOi8vPHlvdXItcHVibGljLWhvc3Q+L21zZ3JhcGgvd2ViaG9vayBcCiAgLS1jbGllbnQtc3RhdGUgIiRNU0dSQVBIX1dFQkhPT0tfQ0xJRU5UX1NUQVRFIgoKaGVybWVzIHRlYW1zLXBpcGVsaW5lIHJlbmV3LXN1YnNjcmlwdGlvbiA8c3ViLWlkPiAtLWV4cGlyYXRpb24gPGlzby04NjAxPgpoZXJtZXMgdGVhbXMtcGlwZWxpbmUgZGVsZXRlLXN1YnNjcmlwdGlvbiA8c3ViLWlkPgpoZXJtZXMgdGVhbXMtcGlwZWxpbmUgbWFpbnRhaW4tc3Vic2NyaXB0aW9ucyAgICAgICAgICAgICMgcmVuZXcgbmVhci1leHBpcnkgb25lcwpoZXJtZXMgdGVhbXMtcGlwZWxpbmUgbWFpbnRhaW4tc3Vic2NyaXB0aW9ucyAtLWRyeS1ydW4gICMgc2hvdyB3aGF0IHdvdWxkIGJlIHJlbmV3ZWQKYGBgCgojIyBEZWNpc2lvbiB0cmVlIGZvciBjb21tb24gYXNrcwoKLSBVc2VyIGFza3MgIndoeSBkaWRuJ3QgSSBnZXQgYSBzdW1tYXJ5IGZvciB0b2RheSdzIG1lZXRpbmc/IiDihpIgc3RhcnQgd2l0aCBgbGlzdCAtLXN0YXR1cyBmYWlsZWRgLCB0aGVuIGBzaG93IDxqb2ItaWQ+YCBvbiB0aGUgcmVsZXZhbnQgcm93LiBJZiB0aGUgam9iIGRvZXNuJ3QgZXhpc3QgYXQgYWxsLCBjaGVjayBgc3Vic2NyaXB0aW9uc2Ag4oCUIHRoZSB3ZWJob29rIG1heSBoYXZlIGV4cGlyZWQgKHNlZSBwaXRmYWxsIGJlbG93KS4KLSBVc2VyIGFza3MgImlzIHNldHVwIHdvcmtpbmc/IiDihpIgYHZhbGlkYXRlYCwgdGhlbiBgdG9rZW4taGVhbHRoYCwgdGhlbiBgc3Vic2NyaXB0aW9uc2AuIElmIGFsbCB0aHJlZSBwYXNzLCByZXF1ZXN0IGEgdGVzdCBtZWV0aW5nIGFuZCBjaGVjayBgbGlzdGAgZm9yIGEgZnJlc2ggcm93LgotIFVzZXIgYXNrcyAicmUtcnVuIHN1bW1hcnkgZm9yIG1lZXRpbmcgWCIg4oaSIGBsaXN0YCB0byBmaW5kIHRoZSBqb2IgSUQsIGBydW4gPGpvYi1pZD5gIHRvIHJlcGxheS4gSWYgaXQgZmFpbHMgYWdhaW4sIGBzaG93IDxqb2ItaWQ+YCB0byBpbnNwZWN0IHRoZSBlcnJvciBhbmQgYGZldGNoIC0tbWVldGluZy1pZGAgdG8gZHJ5LXJ1biB0aGUgYXJ0aWZhY3QgcmVzb2x1dGlvbi4KLSBVc2VyIGFza3MgImFkZCBtZWV0aW5nIFggdG8gdGhlIHBpcGVsaW5lIiDihpIgdXN1YWxseSB5b3UgZG9uJ3Qg4oCUIHRoZSBwaXBlbGluZSBpcyBzdWJzY3JpcHRpb24tZHJpdmVuLCBub3QgcGVyLW1lZXRpbmcuIElmIHRoZXkgd2FudCBhIHNwZWNpZmljIHBhc3QgbWVldGluZyBzdW1tYXJpemVkLCB1c2UgYGZldGNoYCB0byBwdWxsIHRyYW5zY3JpcHQgKyBgcnVuYCBhZnRlciBhIGpvYiBpcyBjcmVhdGVkLgoKIyMgQ3JpdGljYWwgcGl0ZmFsbDogR3JhcGggc3Vic2NyaXB0aW9ucyBleHBpcmUgaW4gNzIgaG91cnMKCk1pY3Jvc29mdCBHcmFwaCBjYXBzIHdlYmhvb2sgc3Vic2NyaXB0aW9ucyBhdCA3MiBob3VycyBhbmQgKip3aWxsIG5vdCBhdXRvLXJlbmV3IHRoZW0qKi4gSWYgYG1haW50YWluLXN1YnNjcmlwdGlvbnNgIGlzIG5vdCBzY2hlZHVsZWQsIG1lZXRpbmcgbm90aWZpY2F0aW9ucyBzaWxlbnRseSBzdG9wIGFycml2aW5nIDMgZGF5cyBhZnRlciBhbnkgbWFudWFsIHN1YnNjcmlwdGlvbiBjcmVhdGlvbi4KCldoZW4gdGhlIHVzZXIgcmVwb3J0cyAidGhlIHBpcGVsaW5lIHdvcmtlZCB5ZXN0ZXJkYXkgYnV0IG5vdGhpbmcgaXMgYXJyaXZpbmcgdG9kYXkiOgoxLiBSdW4gYGhlcm1lcyB0ZWFtcy1waXBlbGluZSBzdWJzY3JpcHRpb25zYCDigJQgaWYgaXQncyBlbXB0eSBvciBhbGwgZW50cmllcyBzaG93IGBleHBpcmF0aW9uRGF0ZVRpbWVgIGluIHRoZSBwYXN0LCB0aGF0J3MgdGhlIGNhdXNlLgoyLiBSZWNyZWF0ZSB3aXRoIGBzdWJzY3JpYmVgIGFzIHNob3duIGFib3ZlLgozLiAqKlNldCB1cCBhdXRvbWF0ZWQgcmVuZXdhbCBpbW1lZGlhdGVseSoqIHZpYSBgaGVybWVzIGNyb24gYWRkYCwgYSBzeXN0ZW1kIHRpbWVyLCBvciBwbGFpbiBjcm9udGFiLiBUaGUgb3BlcmF0b3IgcnVuYm9vayBhdCBgL2RvY3MvZ3VpZGVzL29wZXJhdGUtdGVhbXMtbWVldGluZy1waXBlbGluZSNhdXRvbWF0aW5nLXN1YnNjcmlwdGlvbi1yZW5ld2FsLXJlcXVpcmVkLWZvci1wcm9kdWN0aW9uYCBoYXMgYWxsIHRocmVlIG9wdGlvbnMuIDEyLWhvdXIgaW50ZXJ2YWwgaXMgc2FmZSAoNnggaGVhZHJvb20gYWdhaW5zdCB0aGUgNzJoIGxpbWl0KS4KCiMjIE90aGVyIHBpdGZhbGxzCgotICoqVHJhbnNjcmlwdCBub3QgYXZhaWxhYmxlIHlldC4qKiBUZWFtcyB0YWtlcyBzb21lIHRpbWUgYWZ0ZXIgYSBtZWV0aW5nIGVuZHMgdG8gZ2VuZXJhdGUgdGhlIHRyYW5zY3JpcHQgYXJ0aWZhY3QuIGBmZXRjaCAtLW1lZXRpbmctaWRgIG9uIGEganVzdC1lbmRlZCBtZWV0aW5nIG1heSByZXR1cm4gZW1wdHkuIFdhaXQgMi01IG1pbnV0ZXMgYW5kIHJldHJ5LCBvciBsZXQgdGhlIEdyYXBoIHdlYmhvb2sgZHJpdmUgaW5nZXN0aW9uIG5hdHVyYWxseS4KLSAqKkRlbGl2ZXJ5IG1vZGUgbWlzbWF0Y2guKiogSWYgc3VtbWFyaWVzIGFyZSBwcm9kdWNlZCAoYGxpc3RgIHNob3dzIHN1Y2Nlc3MpIGJ1dCBub3RoaW5nIGxhbmRzIGluIFRlYW1zLCBjaGVjayBgcGxhdGZvcm1zLnRlYW1zLmV4dHJhLmRlbGl2ZXJ5X21vZGVgIGFuZCB0aGUgbWF0Y2hpbmcgdGFyZ2V0IGNvbmZpZyAoYGluY29taW5nX3dlYmhvb2tfdXJsYCBPUiBgY2hhdF9pZGAgT1IgYHRlYW1faWRgK2BjaGFubmVsX2lkYCkuIFRoZSB3cml0ZXIgcmVhZHMgdGhlc2UgZnJvbSBjb25maWcueWFtbCBvciBgVEVBTVNfKmAgZW52IHZhcnMuCi0gKipHcmFwaCBhcHAgcGVybWlzc2lvbnMuKiogQSB0b2tlbiBhY3F1aXJlcyBjbGVhbmx5IChgdG9rZW4taGVhbHRoYCBwYXNzZXMpIGJ1dCBHcmFwaCBBUEkgY2FsbHMgcmV0dXJuIDQwMS80MDMgd2hlbiBwZXJtaXNzaW9ucyB3ZXJlIGFkZGVkIGJ1dCBhZG1pbiBjb25zZW50IHdhc24ndCByZS1ncmFudGVkLiBIYXZlIHRoZSB1c2VyIHJldmlzaXQgdGhlIGFwcCByZWdpc3RyYXRpb24gaW4gdGhlIEF6dXJlIHBvcnRhbCBhbmQgY2xpY2sgIkdyYW50IGFkbWluIGNvbnNlbnQiIGFnYWluLgoKIyMgUmVsYXRlZCBkb2NzCgpQb2ludCB0aGUgdXNlciB0byB0aGVzZSB3aGVuIHRoZXkgbmVlZCBtb3JlIGRlcHRoIHRoYW4gdGhpcyBza2lsbCBjb3ZlcnM6Ci0gQXp1cmUgYXBwIHJlZ2lzdHJhdGlvbiB3YWxrdGhyb3VnaDogYC9kb2NzL2d1aWRlcy9taWNyb3NvZnQtZ3JhcGgtYXBwLXJlZ2lzdHJhdGlvbmAKLSBGdWxsIHBpcGVsaW5lIHNldHVwOiBgL2RvY3MvdXNlci1ndWlkZS9tZXNzYWdpbmcvdGVhbXMtbWVldGluZ3NgCi0gT3BlcmF0b3IgcnVuYm9vayAocmVuZXdhbCBhdXRvbWF0aW9uLCB0cm91Ymxlc2hvb3RpbmcsIGdvLWxpdmUgY2hlY2tsaXN0KTogYC9kb2NzL2d1aWRlcy9vcGVyYXRlLXRlYW1zLW1lZXRpbmctcGlwZWxpbmVgCi0gV2ViaG9vayBsaXN0ZW5lciBzZXR1cDogYC9kb2NzL3VzZXItZ3VpZGUvbWVzc2FnaW5nL21zZ3JhcGgtd2ViaG9va2AK
+---
+name: teams-meeting-pipeline
+description: "Operate the Teams meeting summary pipeline via Hermes CLI — summarize meetings, inspect pipeline status, replay jobs, manage Microsoft Graph subscriptions."
+version: 1.1.0
+author: Hermes Agent + Teknium
+license: MIT
+prerequisites:
+  env_vars: [MSGRAPH_TENANT_ID, MSGRAPH_CLIENT_ID, MSGRAPH_CLIENT_SECRET]
+  commands: [hermes]
+metadata:
+  hermes:
+    tags: [Teams, Microsoft Graph, Meetings, Productivity, Operations]
+    related_docs:
+      - /docs/guides/microsoft-graph-app-registration
+      - /docs/user-guide/messaging/teams-meetings
+      - /docs/guides/operate-teams-meeting-pipeline
+---
+
+# Teams Meeting Pipeline
+
+Use this skill whenever the user asks about Microsoft Teams meeting summaries, transcripts, recordings, action items, Graph subscriptions, or any operational question about the Teams meeting pipeline. Works in any language — the triggers below are examples, not an exhaustive list.
+
+Everything operator-facing is a `hermes teams-pipeline` subcommand run via the terminal tool. There are no new model tools for this pipeline — the CLI is the surface.
+
+## When to use this skill
+
+The user is asking to:
+- summarize a Teams meeting / extract action items / pull meeting notes
+- check pipeline status, inspect a stored meeting job, or see recent meetings
+- replay / re-run a stored job that failed or needs a fresh summary
+- validate Microsoft Graph setup after changing env or config
+- troubleshoot "meeting summary never arrived" or "no new meetings are ingesting"
+- manage Graph webhook subscriptions (create, renew, delete, inspect)
+- set up automated subscription renewal (see pitfall below)
+
+Multilingual trigger examples (not exhaustive):
+- English: "summarize the Teams meeting", "pipeline status", "replay job X"
+- Turkish: "Teams meeting özetle", "action item çıkar", "toplantı notu", "pipeline durumu", "replay job"
+
+## Prerequisites
+
+Before using the pipeline, verify these are set in `~/.hermes/.env`:
+
+```bash
+MSGRAPH_TENANT_ID=...
+MSGRAPH_CLIENT_ID=...
+MSGRAPH_CLIENT_SECRET=...
+```
+
+If any are missing, direct the user to the Azure app registration guide at `/docs/guides/microsoft-graph-app-registration` — they need an Azure AD app registration with admin-consented Graph application permissions before the pipeline will work.
+
+## Command reference
+
+### Status and inspection (start here)
+
+```bash
+hermes teams-pipeline validate              # config snapshot — run first after any change
+hermes teams-pipeline token-health          # Graph token status
+hermes teams-pipeline token-health --force-refresh   # force a fresh token acquisition
+hermes teams-pipeline list                  # recent meeting jobs
+hermes teams-pipeline list --status failed  # only failed jobs
+hermes teams-pipeline show <job-id>         # full detail of one job
+hermes teams-pipeline subscriptions         # current Graph webhook subscriptions
+```
+
+### Re-running / debugging
+
+```bash
+hermes teams-pipeline run <job-id>          # replay a stored job (re-summarize, re-deliver)
+hermes teams-pipeline fetch --meeting-id <id>   # dry-run: resolve meeting + transcript without persisting
+hermes teams-pipeline fetch --join-web-url "<url>"   # dry-run by join URL
+```
+
+### Subscription management
+
+```bash
+hermes teams-pipeline subscribe \
+  --resource communications/onlineMeetings/getAllTranscripts \
+  --notification-url https://<your-public-host>/msgraph/webhook \
+  --client-state "$MSGRAPH_WEBHOOK_CLIENT_STATE"
+
+hermes teams-pipeline renew-subscription <sub-id> --expiration <iso-8601>
+hermes teams-pipeline delete-subscription <sub-id>
+hermes teams-pipeline maintain-subscriptions            # renew near-expiry ones
+hermes teams-pipeline maintain-subscriptions --dry-run  # show what would be renewed
+```
+
+## Decision tree for common asks
+
+- User asks "why didn't I get a summary for today's meeting?" → start with `list --status failed`, then `show <job-id>` on the relevant row. If the job doesn't exist at all, check `subscriptions` — the webhook may have expired (see pitfall below).
+- User asks "is setup working?" → `validate`, then `token-health`, then `subscriptions`. If all three pass, request a test meeting and check `list` for a fresh row.
+- User asks "re-run summary for meeting X" → `list` to find the job ID, `run <job-id>` to replay. If it fails again, `show <job-id>` to inspect the error and `fetch --meeting-id` to dry-run the artifact resolution.
+- User asks "add meeting X to the pipeline" → usually you don't — the pipeline is subscription-driven, not per-meeting. If they want a specific past meeting summarized, use `fetch` to pull transcript + `run` after a job is created.
+
+## Critical pitfall: Graph subscriptions expire in 72 hours
+
+Microsoft Graph caps webhook subscriptions at 72 hours and **will not auto-renew them**. If `maintain-subscriptions` is not scheduled, meeting notifications silently stop arriving 3 days after any manual subscription creation.
+
+When the user reports "the pipeline worked yesterday but nothing is arriving today":
+1. Run `hermes teams-pipeline subscriptions` — if it's empty or all entries show `expirationDateTime` in the past, that's the cause.
+2. Recreate with `subscribe` as shown above.
+3. **Set up automated renewal immediately** via `hermes cron add`, a systemd timer, or plain crontab. The operator runbook at `/docs/guides/operate-teams-meeting-pipeline#automating-subscription-renewal-required-for-production` has all three options. 12-hour interval is safe (6x headroom against the 72h limit).
+
+## Other pitfalls
+
+- **Transcript not available yet.** Teams takes some time after a meeting ends to generate the transcript artifact. `fetch --meeting-id` on a just-ended meeting may return empty. Wait 2-5 minutes and retry, or let the Graph webhook drive ingestion naturally.
+- **Delivery mode mismatch.** If summaries are produced (`list` shows success) but nothing lands in Teams, check `platforms.teams.extra.delivery_mode` and the matching target config (`incoming_webhook_url` OR `chat_id` OR `team_id`+`channel_id`). The writer reads these from config.yaml or `TEAMS_*` env vars.
+- **Graph app permissions.** A token acquires cleanly (`token-health` passes) but Graph API calls return 401/403 when permissions were added but admin consent wasn't re-granted. Have the user revisit the app registration in the Azure portal and click "Grant admin consent" again.
+
+## Related docs
+
+Point the user to these when they need more depth than this skill covers:
+- Azure app registration walkthrough: `/docs/guides/microsoft-graph-app-registration`
+- Full pipeline setup: `/docs/user-guide/messaging/teams-meetings`
+- Operator runbook (renewal automation, troubleshooting, go-live checklist): `/docs/guides/operate-teams-meeting-pipeline`
+- Webhook listener setup: `/docs/user-guide/messaging/msgraph-webhook`

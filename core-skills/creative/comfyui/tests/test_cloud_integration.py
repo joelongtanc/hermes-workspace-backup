@@ -1,1 +1,95 @@
-IiIiSW50ZWdyYXRpb24gdGVzdHMgYWdhaW5zdCB0aGUgbGl2ZSBDb21meSBDbG91ZCBBUEkuCgpUaGVzZSB0ZXN0cyBhcmUgYXV0by1za2lwcGVkIHdoZW4gQ09NRllfQ0xPVURfQVBJX0tFWSBpcyBub3Qgc2V0LgpUaGV5IG5ldmVyIFNVQk1JVCB3b3JrZmxvd3MgKHdvdWxkIG5lZWQgYSBwYWlkIHN1YnNjcmlwdGlvbikg4oCUIHRoZXkgb25seQp2ZXJpZnkgdGhlIHJlYWQtb25seSBlbmRwb2ludHMgd2UgcmVseSBvbi4KIiIiCgpmcm9tIF9fZnV0dXJlX18gaW1wb3J0IGFubm90YXRpb25zCgppbXBvcnQgcHl0ZXN0Cgpmcm9tIF9jb21tb24gaW1wb3J0IGh0dHBfZ2V0LCBwYXJzZV9tb2RlbF9saXN0LCByZXNvbHZlX3VybAoKCnB5dGVzdG1hcmsgPSBweXRlc3QubWFyay5jbG91ZAoKCmNsYXNzIFRlc3RDbG91ZEVuZHBvaW50c0xpdmU6CiAgICBkZWYgdGVzdF9zeXN0ZW1fc3RhdHNfcmVhY2hhYmxlKHNlbGYsIGNsb3VkX2tleSk6CiAgICAgICAgdXJsID0gcmVzb2x2ZV91cmwoImh0dHBzOi8vY2xvdWQuY29tZnkub3JnIiwgIi9zeXN0ZW1fc3RhdHMiKQogICAgICAgIHIgPSBodHRwX2dldCh1cmwsIGhlYWRlcnM9eyJYLUFQSS1LZXkiOiBjbG91ZF9rZXl9KQogICAgICAgIGFzc2VydCByLnN0YXR1cyA9PSAyMDAKICAgICAgICBkYXRhID0gci5qc29uKCkKICAgICAgICBhc3NlcnQgInN5c3RlbSIgaW4gZGF0YQoKICAgIGRlZiB0ZXN0X21vZGVsc19lbmRwb2ludF9yb3V0ZWRfdG9fZXhwZXJpbWVudChzZWxmLCBjbG91ZF9rZXkpOgogICAgICAgICMgV2UgZXhwZWN0IHRoZSBza2lsbCB0byByb3V0ZSAvbW9kZWxzL2NoZWNrcG9pbnRzIOKGkiAvYXBpL2V4cGVyaW1lbnQvbW9kZWxzL2NoZWNrcG9pbnRzCiAgICAgICAgdXJsID0gcmVzb2x2ZV91cmwoImh0dHBzOi8vY2xvdWQuY29tZnkub3JnIiwgIi9tb2RlbHMvY2hlY2twb2ludHMiKQogICAgICAgIGFzc2VydCAiL2FwaS9leHBlcmltZW50L21vZGVscy9jaGVja3BvaW50cyIgaW4gdXJsCiAgICAgICAgciA9IGh0dHBfZ2V0KHVybCwgaGVhZGVycz17IlgtQVBJLUtleSI6IGNsb3VkX2tleX0pCiAgICAgICAgYXNzZXJ0IHIuc3RhdHVzID09IDIwMAoKICAgIGRlZiB0ZXN0X21vZGVsc19lbmRwb2ludF9yZXR1cm5zX2RpY3RzKHNlbGYsIGNsb3VkX2tleSk6CiAgICAgICAgdXJsID0gcmVzb2x2ZV91cmwoImh0dHBzOi8vY2xvdWQuY29tZnkub3JnIiwgIi9tb2RlbHMvY2hlY2twb2ludHMiKQogICAgICAgIHIgPSBodHRwX2dldCh1cmwsIGhlYWRlcnM9eyJYLUFQSS1LZXkiOiBjbG91ZF9rZXl9KQogICAgICAgIGRhdGEgPSByLmpzb24oKQogICAgICAgIGFzc2VydCBpc2luc3RhbmNlKGRhdGEsIGxpc3QpCiAgICAgICAgaWYgZGF0YToKICAgICAgICAgICAgIyBDbG91ZCBmb3JtYXQ6IGxpc3Qgb2YgZGljdHMgd2l0aCBgbmFtZWAKICAgICAgICAgICAgYXNzZXJ0IGlzaW5zdGFuY2UoZGF0YVswXSwgZGljdCkKICAgICAgICAgICAgYXNzZXJ0ICJuYW1lIiBpbiBkYXRhWzBdCiAgICAgICAgICAgICMgT3VyIHBhcnNlciBub3JtYWxpemVzIGJvdGgKICAgICAgICAgICAgbm9ybWFsaXplZCA9IHBhcnNlX21vZGVsX2xpc3QoZGF0YSkKICAgICAgICAgICAgYXNzZXJ0IGxlbihub3JtYWxpemVkKSA9PSBsZW4oZGF0YSkKCiAgICBkZWYgdGVzdF9oaXN0b3J5X3JlbmFtZWRfdG9fdjIoc2VsZiwgY2xvdWRfa2V5KToKICAgICAgICAjIC9oaXN0b3J5IOKGkiAvYXBpL2hpc3RvcnlfdjIgb24gY2xvdWQKICAgICAgICB1cmwgPSByZXNvbHZlX3VybCgiaHR0cHM6Ly9jbG91ZC5jb21meS5vcmciLCAiL2hpc3Rvcnkvc29tZS1mYWtlLWlkIikKICAgICAgICBhc3NlcnQgIi9hcGkvaGlzdG9yeV92Mi9zb21lLWZha2UtaWQiIGluIHVybAoKICAgIGRlZiB0ZXN0X29iamVjdF9pbmZvX3BhaWRfdGllcihzZWxmLCBjbG91ZF9rZXkpOgogICAgICAgICMgT24gZnJlZSB0aWVyLCAvb2JqZWN0X2luZm8gcmV0dXJucyA0MDMgd2l0aCBhIHJlY29nbml6YWJsZSBtZXNzYWdlCiAgICAgICAgdXJsID0gcmVzb2x2ZV91cmwoImh0dHBzOi8vY2xvdWQuY29tZnkub3JnIiwgIi9vYmplY3RfaW5mbyIpCiAgICAgICAgciA9IGh0dHBfZ2V0KHVybCwgaGVhZGVycz17IlgtQVBJLUtleSI6IGNsb3VkX2tleX0pCiAgICAgICAgIyBTaG91bGQgYmUgZWl0aGVyIDIwMCAocGFpZCkgb3IgNDAzIChmcmVlKSDigJQgbm90IDQwNCAvIDUwMAogICAgICAgIGFzc2VydCByLnN0YXR1cyBpbiB7MjAwLCA0MDN9CiAgICAgICAgaWYgci5zdGF0dXMgPT0gNDAzOgogICAgICAgICAgICAjIEJvZHkgc2hvdWxkIG1lbnRpb24gdGhlIGxpbWl0YXRpb24KICAgICAgICAgICAgYXNzZXJ0ICJmcmVlIHRpZXIiIGluIHIudGV4dCgpLmxvd2VyKCkgb3IgInN1YnNjcmlwdGlvbiIgaW4gci50ZXh0KCkubG93ZXIoKQoKCmNsYXNzIFRlc3RDbG91ZENoZWNrRGVwc0xpdmU6CiAgICBkZWYgdGVzdF9jaGVja19kZXBzX2FnYWluc3RfY2xvdWQoc2VsZiwgY2xvdWRfa2V5LCBzZDE1X3dvcmtmbG93KToKICAgICAgICBmcm9tIGNoZWNrX2RlcHMgaW1wb3J0IGNoZWNrX2RlcHMKICAgICAgICByZXBvcnQgPSBjaGVja19kZXBzKHNkMTVfd29ya2Zsb3csIGhvc3Q9Imh0dHBzOi8vY2xvdWQuY29tZnkub3JnIiwgYXBpX2tleT1jbG91ZF9rZXkpCiAgICAgICAgIyBFaXRoZXIgbm9kZSBjaGVjayBwYXNzZWQgT1Igd2FzIHNraXBwZWQgKGZyZWUgdGllcikKICAgICAgICBhc3NlcnQgIm1pc3NpbmdfbW9kZWxzIiBpbiByZXBvcnQKICAgICAgICBhc3NlcnQgImlzX2Nsb3VkIiBpbiByZXBvcnQgYW5kIHJlcG9ydFsiaXNfY2xvdWQiXSBpcyBUcnVlCgogICAgZGVmIHRlc3RfZmx1eF93b3JrZmxvd19tb2RlbHNfcmVzb2x2ZWRfdmlhX2FsaWFzZXMoc2VsZiwgY2xvdWRfa2V5LCBmbHV4X3dvcmtmbG93KToKICAgICAgICAiIiJGbHV4IHVzZXMgdW5ldC9jbGlwIGZvbGRlcnM7IGNsb3VkIGhhcyB0aGVtIGluIGRpZmZ1c2lvbl9tb2RlbHMvdGV4dF9lbmNvZGVycy4KICAgICAgICBXaXRoIGZvbGRlciBhbGlhc2luZywgdGhlIGNoZWNrIHNob3VsZCBzdGlsbCBmaW5kIHRoZW0uIiIiCiAgICAgICAgZnJvbSBjaGVja19kZXBzIGltcG9ydCBjaGVja19kZXBzCiAgICAgICAgcmVwb3J0ID0gY2hlY2tfZGVwcyhmbHV4X3dvcmtmbG93LCBob3N0PSJodHRwczovL2Nsb3VkLmNvbWZ5Lm9yZyIsIGFwaV9rZXk9Y2xvdWRfa2V5KQogICAgICAgICMgVGhlIGV4YWN0IHJlcXVpcmVkIEZsdXggZmlsZXMgKGZsdXgxLWRldi5zYWZldGVuc29ycywgdDV4eGxfZnAxNiwgY2xpcF9sLCBhZSkKICAgICAgICAjIGFyZSBwcmVzZW50IG9uIGNsb3VkOyB3aXRoIGZvbGRlciBhbGlhc2luZywgbm9uZSBzaG91bGQgYmUgbWlzc2luZy4KICAgICAgICAjIElmIHRoaXMgZmFpbHMsIGVpdGhlciB0aGUgY2xvdWQgcmVtb3ZlZCB0aGUgbW9kZWwgb3IgdGhlIGFsaWFzaW5nIGxvZ2ljIGJyb2tlLgogICAgICAgIG1pc3NpbmdfZmlsZW5hbWVzID0ge21bInZhbHVlIl0gZm9yIG0gaW4gcmVwb3J0WyJtaXNzaW5nX21vZGVscyJdfQogICAgICAgIGFzc2VydCAiYWUuc2FmZXRlbnNvcnMiIG5vdCBpbiBtaXNzaW5nX2ZpbGVuYW1lcywgXAogICAgICAgICAgICAiYWUuc2FmZXRlbnNvcnMgc2hvdWxkIGJlIG9uIGNsb3VkJ3MgdmFlIGZvbGRlciIKICAgICAgICAjIHQ1eHhsX2ZwMTYgLyBjbGlwX2wgc2hvdWxkIGJlIHJlYWNoYWJsZSB2aWEgdGhlIGNsaXAg4oaSIHRleHRfZW5jb2RlcnMgYWxpYXMKICAgICAgICAjIGZsdXgxLWRldi5zYWZldGVuc29ycyBsaWtld2lzZSB2aWEgdW5ldCDihpIgZGlmZnVzaW9uX21vZGVscwoKCmNsYXNzIFRlc3RIZWFsdGhDaGVja0xpdmU6CiAgICBkZWYgdGVzdF9oZWFsdGhfY2hlY2tfcGFzc2VzKHNlbGYsIGNsb3VkX2tleSwgY2Fwc3lzKToKICAgICAgICBmcm9tIGhlYWx0aF9jaGVjayBpbXBvcnQgbWFpbiBhcyBoZWFsdGhfbWFpbgogICAgICAgIHJjID0gaGVhbHRoX21haW4oWyItLWhvc3QiLCAiaHR0cHM6Ly9jbG91ZC5jb21meS5vcmciLCAiLS1hcGkta2V5IiwgY2xvdWRfa2V5XSkKICAgICAgICBjYXB0dXJlZCA9IGNhcHN5cy5yZWFkb3V0ZXJyKCkKICAgICAgICAjIFNob3VsZCBwcm9kdWNlIEpTT04KICAgICAgICBpbXBvcnQganNvbgogICAgICAgIHJlcG9ydCA9IGpzb24ubG9hZHMoY2FwdHVyZWQub3V0KQogICAgICAgIGFzc2VydCByZXBvcnRbInNlcnZlciJdWyJyZWFjaGFibGUiXSBpcyBUcnVlCiAgICAgICAgYXNzZXJ0IHJlcG9ydFsiY2hlY2twb2ludHMiXVsicXVlcnlhYmxlIl0gaXMgVHJ1ZQogICAgICAgIGFzc2VydCByZXBvcnRbImNoZWNrcG9pbnRzIl1bImNvdW50Il0gPiAwCg==
+"""Integration tests against the live Comfy Cloud API.
+
+These tests are auto-skipped when COMFY_CLOUD_API_KEY is not set.
+They never SUBMIT workflows (would need a paid subscription) — they only
+verify the read-only endpoints we rely on.
+"""
+
+from __future__ import annotations
+
+import pytest
+
+from _common import http_get, parse_model_list, resolve_url
+
+
+pytestmark = pytest.mark.cloud
+
+
+class TestCloudEndpointsLive:
+    def test_system_stats_reachable(self, cloud_key):
+        url = resolve_url("https://cloud.comfy.org", "/system_stats")
+        r = http_get(url, headers={"X-API-Key": cloud_key})
+        assert r.status == 200
+        data = r.json()
+        assert "system" in data
+
+    def test_models_endpoint_routed_to_experiment(self, cloud_key):
+        # We expect the skill to route /models/checkpoints → /api/experiment/models/checkpoints
+        url = resolve_url("https://cloud.comfy.org", "/models/checkpoints")
+        assert "/api/experiment/models/checkpoints" in url
+        r = http_get(url, headers={"X-API-Key": cloud_key})
+        assert r.status == 200
+
+    def test_models_endpoint_returns_dicts(self, cloud_key):
+        url = resolve_url("https://cloud.comfy.org", "/models/checkpoints")
+        r = http_get(url, headers={"X-API-Key": cloud_key})
+        data = r.json()
+        assert isinstance(data, list)
+        if data:
+            # Cloud format: list of dicts with `name`
+            assert isinstance(data[0], dict)
+            assert "name" in data[0]
+            # Our parser normalizes both
+            normalized = parse_model_list(data)
+            assert len(normalized) == len(data)
+
+    def test_history_renamed_to_v2(self, cloud_key):
+        # /history → /api/history_v2 on cloud
+        url = resolve_url("https://cloud.comfy.org", "/history/some-fake-id")
+        assert "/api/history_v2/some-fake-id" in url
+
+    def test_object_info_paid_tier(self, cloud_key):
+        # On free tier, /object_info returns 403 with a recognizable message
+        url = resolve_url("https://cloud.comfy.org", "/object_info")
+        r = http_get(url, headers={"X-API-Key": cloud_key})
+        # Should be either 200 (paid) or 403 (free) — not 404 / 500
+        assert r.status in {200, 403}
+        if r.status == 403:
+            # Body should mention the limitation
+            assert "free tier" in r.text().lower() or "subscription" in r.text().lower()
+
+
+class TestCloudCheckDepsLive:
+    def test_check_deps_against_cloud(self, cloud_key, sd15_workflow):
+        from check_deps import check_deps
+        report = check_deps(sd15_workflow, host="https://cloud.comfy.org", api_key=cloud_key)
+        # Either node check passed OR was skipped (free tier)
+        assert "missing_models" in report
+        assert "is_cloud" in report and report["is_cloud"] is True
+
+    def test_flux_workflow_models_resolved_via_aliases(self, cloud_key, flux_workflow):
+        """Flux uses unet/clip folders; cloud has them in diffusion_models/text_encoders.
+        With folder aliasing, the check should still find them."""
+        from check_deps import check_deps
+        report = check_deps(flux_workflow, host="https://cloud.comfy.org", api_key=cloud_key)
+        # The exact required Flux files (flux1-dev.safetensors, t5xxl_fp16, clip_l, ae)
+        # are present on cloud; with folder aliasing, none should be missing.
+        # If this fails, either the cloud removed the model or the aliasing logic broke.
+        missing_filenames = {m["value"] for m in report["missing_models"]}
+        assert "ae.safetensors" not in missing_filenames, \
+            "ae.safetensors should be on cloud's vae folder"
+        # t5xxl_fp16 / clip_l should be reachable via the clip → text_encoders alias
+        # flux1-dev.safetensors likewise via unet → diffusion_models
+
+
+class TestHealthCheckLive:
+    def test_health_check_passes(self, cloud_key, capsys):
+        from health_check import main as health_main
+        rc = health_main(["--host", "https://cloud.comfy.org", "--api-key", cloud_key])
+        captured = capsys.readouterr()
+        # Should produce JSON
+        import json
+        report = json.loads(captured.out)
+        assert report["server"]["reachable"] is True
+        assert report["checkpoints"]["queryable"] is True
+        assert report["checkpoints"]["count"] > 0

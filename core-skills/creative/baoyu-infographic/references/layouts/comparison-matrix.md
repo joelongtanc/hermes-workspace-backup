@@ -1,1 +1,41 @@
-IyBjb21wYXJpc29uLW1hdHJpeAoKR3JpZC1iYXNlZCBtdWx0aS1mYWN0b3IgY29tcGFyaXNvbiBhY3Jvc3MgbXVsdGlwbGUgaXRlbXMuCgojIyBTdHJ1Y3R1cmUKCi0gVGFibGUvZ3JpZCBsYXlvdXQKLSBSb3dzOiBpdGVtcyBiZWluZyBjb21wYXJlZAotIENvbHVtbnM6IGNvbXBhcmlzb24gY3JpdGVyaWEKLSBDZWxsczogc2NvcmVzLCBjaGVja3MsIG9yIHZhbHVlcwotIEhlYWRlciByb3cgYW5kIGNvbHVtbiBjbGVhcmx5IG1hcmtlZAoKIyMgQmVzdCBGb3IKCi0gUHJvZHVjdCBmZWF0dXJlIGNvbXBhcmlzb25zCi0gVG9vbC9zb2Z0d2FyZSBldmFsdWF0aW9ucwotIE11bHRpLWNyaXRlcmlhIGRlY2lzaW9ucwotIFNwZWNpZmljYXRpb24gc2hlZXRzCi0gUmF0aW5nIGNvbXBhcmlzb25zCgojIyBWaXN1YWwgRWxlbWVudHMKCi0gQ2xlYXIgZ3JpZCBsaW5lcyBvciBjZWxsIGJvdW5kYXJpZXMKLSBDaGVja21hcmtzLCBYIG1hcmtzLCBvciBzY29yZXMgaW4gY2VsbHMKLSBDb2xvciBjb2RpbmcgZm9yIHF1aWNrIHNjYW5uaW5nCi0gSWNvbnMgZm9yIGNyaXRlcmlhIGNhdGVnb3JpZXMKLSBIaWdobGlnaHQgZm9yIHJlY29tbWVuZGVkIG9wdGlvbgoKIyMgVGV4dCBQbGFjZW1lbnQKCi0gVGl0bGUgYXQgdG9wCi0gSXRlbSBuYW1lcyBpbiBmaXJzdCBjb2x1bW4KLSBDcml0ZXJpYSBpbiBoZWFkZXIgcm93Ci0gQnJpZWYgdmFsdWVzIGluIGNlbGxzCi0gTGVnZW5kIGlmIHVzaW5nIHN5bWJvbHMKCiMjIFJlY29tbWVuZGVkIFBhaXJpbmdzCgotIGBjb3Jwb3JhdGUtbWVtcGhpc2A6IEJ1c2luZXNzIHRvb2wgY29tcGFyaXNvbnMKLSBgdWktd2lyZWZyYW1lYDogVGVjaG5pY2FsIGZlYXR1cmUgbWF0cmljZXMKLSBgYmx1ZXByaW50YDogU3BlY2lmaWNhdGlvbiBjb21wYXJpc29ucwo=
+# comparison-matrix
+
+Grid-based multi-factor comparison across multiple items.
+
+## Structure
+
+- Table/grid layout
+- Rows: items being compared
+- Columns: comparison criteria
+- Cells: scores, checks, or values
+- Header row and column clearly marked
+
+## Best For
+
+- Product feature comparisons
+- Tool/software evaluations
+- Multi-criteria decisions
+- Specification sheets
+- Rating comparisons
+
+## Visual Elements
+
+- Clear grid lines or cell boundaries
+- Checkmarks, X marks, or scores in cells
+- Color coding for quick scanning
+- Icons for criteria categories
+- Highlight for recommended option
+
+## Text Placement
+
+- Title at top
+- Item names in first column
+- Criteria in header row
+- Brief values in cells
+- Legend if using symbols
+
+## Recommended Pairings
+
+- `corporate-memphis`: Business tool comparisons
+- `ui-wireframe`: Technical feature matrices
+- `blueprint`: Specification comparisons

@@ -1,1 +1,243 @@
-IyBDb21meVVJIFdvcmtmbG93LVRlbXBsYXRlIEludGVncml0eQoKPiAqKkF1dGhvcmVkIGJ5IFtAcHVyemJlYXRzXShodHRwczovL2dpdGh1Yi5jb20vcHVyemJlYXRzKSoqIOKAlCBhZGFwdGVkIGZyb20KPiBbcHVyemJlYXRzL2hlcm1lcy1hZ2VudC1jb21meXVpLWhlbHBlcl0oaHR0cHM6Ly9naXRodWIuY29tL3B1cnpiZWF0cy9oZXJtZXMtYWdlbnQtY29tZnl1aS1oZWxwZXIpLgo+IFVzZSB0aGlzIHJlZmVyZW5jZSB3aGVuIGNvbnZlcnRpbmcgd29ya2Zsb3dzIGZyb20gdGhlIG9mZmljaWFsCj4gYGNvbWZ5dWktd29ya2Zsb3ctdGVtcGxhdGVzYCBwYWNrYWdlIChlZGl0b3IgZm9ybWF0KSBpbnRvIEFQSSBmb3JtYXQgZm9yCj4gc3VibWlzc2lvbiB2aWEgYC9hcGkvcHJvbXB0YC4gVGhlIGNvbnZlcnNpb24gaGFzIHN1YnRsZSBnb3RjaGFzIHRoYXQgY2F1c2UKPiBoYXJkLXRvLWRpYWdub3NlIHZhbGlkYXRpb24gZXJyb3JzIGlmIHlvdSBkb24ndCBmb2xsb3cgdGhlc2UgcnVsZXMuCgojIyBCYWNrZ3JvdW5kCgpUaGUgb2ZmaWNpYWwgQ29tZnlVSSB0ZW1wbGF0ZSBwYWNrYWdlIChgY29tZnl1aS13b3JrZmxvdy10ZW1wbGF0ZXNgLCBjdXJyZW50bHkKdjAuOS42OSkgaXMgaW5zdGFsbGVkIGluc2lkZSB0aGUgQ29tZnlVSSB2ZW52IGF0IGEgcGF0aCBsaWtlOgoKYGBgCjxjb21meS1pbnN0YWxsPi8udmVudi9saWIvcHl0aG9uMy4qL3NpdGUtcGFja2FnZXMvY29tZnl1aV93b3JrZmxvd190ZW1wbGF0ZXNfKi90ZW1wbGF0ZXMvCmBgYAoKVGhlIGV4YWN0IHBhdGggZGVwZW5kcyBvbiBob3cgQ29tZnlVSSB3YXMgaW5zdGFsbGVkIChjb21meS1jbGkgZGVmYXVsdCwKQ29tZnkgRGVza3RvcCwgbWFudWFsIHZlbnYsIGV0Yy4pLiBGaW5kIGl0IG9uY2Ugd2l0aDoKCmBgYGJhc2gKY29tZnkgLS13b3Jrc3BhY2UgPHdzPiBydW4tcHl0aG9uIC1jICJpbXBvcnQgY29tZnl1aV93b3JrZmxvd190ZW1wbGF0ZXMsIHBhdGhsaWI7IHByaW50KHBhdGhsaWIuUGF0aChjb21meXVpX3dvcmtmbG93X3RlbXBsYXRlcy5fX2ZpbGVfXykucGFyZW50IC8gJ3RlbXBsYXRlcycpIgpgYGAKClRlbXBsYXRlcyBzaGlwIGluICoqZWRpdG9yIGZvcm1hdCoqIOKAlCBgbm9kZXNgIC8gYGxpbmtzYCBhcnJheXMgaW5zaWRlCmBkYXRhWydkZWZpbml0aW9ucyddWydzdWJncmFwaHMnXVswXWAuIFRoZXkgbXVzdCBiZSBjb252ZXJ0ZWQgdG8gKipBUEkKZm9ybWF0KiogKGEgYG5vZGVfaWQgLT4ge2NsYXNzX3R5cGUsIGlucHV0c31gIG1hcHBpbmcpIGJlZm9yZSBzdWJtaXNzaW9uLgoKLS0tCgojIyBSVUxFICMxOiBVc2UgdGVtcGxhdGVzIEFTIENMT1NFIFRPIE9SSUdJTkFMIEFTIFBPU1NJQkxFCgotICoqTmV2ZXIgc3RyaXAsIHNpbXBsaWZ5LCBvciAibWluaW1pemUiIG5vZGVzKiogZnJvbSBhIHRlbXBsYXRlLgotIEZ1bGwgdGVtcGxhdGUgYXJjaGl0ZWN0dXJlIChkdWFsLXBhc3MgcGlwZWxpbmVzLCBMb1JBIGNoYWlucywgZGlzdGlsbGVkCiAgc2lnbWFzLCBjb25kaXRpb25pbmcgcGF0aHMpIGlzIGludGVudGlvbmFsIOKAlCByZW1vdmluZyBhbnkgcGFydCBicmVha3MgcXVhbGl0eS4KLSBJZiBhbiBpbWFnZS1kZXBlbmRlbnQgcGF0aCBleGlzdHMgYnV0IHRoZSB0YXNrIGlzIHRleHQtdG8tdmlkZW8sICoqbGVhdmUKICBpdCB3aXJlZCB3aXRoIHRoZSBieXBhc3MgdG9nZ2xlIGVuYWJsZWQqKiDigJQgZG9uJ3QgcmVtb3ZlIHRoZSBub2Rlcy4KLSBPbmx5IGNoYW5nZTogcHJvbXB0IHRleHQsIHNlZWQsIGFuZCBkaW1lbnNpb25zICh3aGVuIGV4cGxpY2l0bHkgcmVxdWVzdGVkKS4KCiMjIFJVTEUgIzI6IFNlcnZlciB2YWxpZGF0aW9uIGVycm9ycyBhcmUgdGhlIHNvdXJjZSBvZiB0cnV0aAoKV2hlbiBhIHdvcmtmbG93IHN1Ym1pc3Npb24gZmFpbHMsIHRoZSBzZXJ2ZXIgcmVzcG9uc2UgbG9va3MgbGlrZToKCmBgYGpzb24KewogICJub2RlX2Vycm9ycyI6IHsKICAgICIyMzgiOiB7CiAgICAgICJlcnJvcnMiOiBbewogICAgICAgICJtZXNzYWdlIjogIlJlcXVpcmVkIGlucHV0IGlzIG1pc3NpbmciLAogICAgICAgICJkZXRhaWxzIjogIndpZHRoIiwKICAgICAgICAiZXh0cmFfaW5mbyI6IHsgImlucHV0X25hbWUiOiAicmVzaXplX3R5cGUud2lkdGgiIH0KICAgICAgfV0KICAgIH0KICB9Cn0KYGBgCgoqKlRoZSBgZXh0cmFfaW5mby5pbnB1dF9uYW1lYCBmaWVsZCB0ZWxscyB5b3UgRVhBQ1RMWSB3aGF0IEpTT04ga2V5IHRoZSBzZXJ2ZXIKd2FudHMuIFVzZSBpdCBsaXRlcmFsbHkuKiogSWYgaXQgc2F5cyBgInZhbHVlcy5hImAgb3IgYCJyZXNpemVfdHlwZS53aWR0aCJgLAp0aG9zZSBhcmUgdGhlIGFjdHVhbCBrZXkgbmFtZXMgaW4gdGhlIEpTT04gb2JqZWN0LiBEbyBub3QgInNpbXBsaWZ5IiB0aGVtIHRvCmZsYXQgbmFtZXMgYmFzZWQgb24gYXNzdW1wdGlvbnMgYWJvdXQgd2hhdCB0aGUgZmllbGQgInNob3VsZCIgYmUgY2FsbGVkLgoKIyMgUlVMRSAjMzogRG9uJ3QgcmVidWlsZCBmcm9tIHNjcmF0Y2gg4oCUIHBhdGNoIHRoZSBmYWlsaW5nIG5vZGVzCgpFdmVyeSByZWdlbmVyYXRpb24gZnJvbSB0aGUgdGVtcGxhdGUgcmVpbnRyb2R1Y2VzIHRoZSBzYW1lIGJ1Z3MuIEluc3RlYWQ6CgoxLiBTdWJtaXQgdGhlIHdvcmtmbG93IG9uY2UuCjIuIFJlYWQgdGhlIHNlcnZlciBlcnJvciBkZXRhaWxzIGZvciBleGFjdCBrZXkgbmFtZXMuCjMuIFVzZSB0YXJnZXRlZCBwYXRjaC9maXggY2FsbHMgYWdhaW5zdCB0aGUgd29ya2Zsb3cgZmlsZSBvbiBkaXNrLgo0LiBSZXN1Ym1pdCBhbmQgY2hlY2sgaWYgZXJyb3JzIHJlc29sdmVkLgoKLS0tCgojIyBSZXJvdXRlIG5vZGVzOiBieXBhc3MsIGRvbid0IGRlbGV0ZQoKTW9zdCBzZXJ2ZXJzIChsb2NhbCwgQ2xvdWQpIGRvbid0IGhhdmUgYSBgUmVyb3V0ZWAgbm9kZSB0eXBlLiBXaGVuIGNvbnZlcnRpbmcKYSB0ZW1wbGF0ZToKCjEuIEZpbmQgd2hhdCBmZWVkcyBpbnRvIHRoZSBSZXJvdXRlIGJ5IGxvb2tpbmcgYXQgbGlua3Mgd2hlcmUKICAgYHRhcmdldF9pZGAgPSB0aGUgUmVyb3V0ZSBub2RlIElELgoyLiBSZXBsYWNlIGFsbCBpbnB1dHMgcmVmZXJlbmNpbmcgdGhlIFJlcm91dGUgd2l0aAogICBgW3NvdXJjZV9ub2RlX2lkLCBzb3VyY2Vfc2xvdF1gLgozLiBEZWxldGUgdGhlIFJlcm91dGUgbm9kZSBmcm9tIHRoZSBBUEkgbWFwcGluZy4KCioqUmVhbCBleGFtcGxlIOKAlCBMVFggMi4zIHQydiB0ZW1wbGF0ZToqKgoKLSBSZXJvdXRlIG5vZGUgMjU1IHJlY2VpdmVzIFZBRSBmcm9tIGBDaGVja3BvaW50TG9hZGVyU2ltcGxlIDIzNmAgc2xvdCAyLgotIFRocmVlIG5vZGVzIHJlZmVyZW5jZSBSZXJvdXRlIDI1NSBmb3IgdGhlaXIgVkFFIGlucHV0OgogIGBMVFhWSW1nVG9WaWRlb0lucGxhY2VgICgyMzApLCBgTFRYVkxhdGVudFVwc2FtcGxlcmAgKDI1MyksCiAgYFZBRURlY29kZVRpbGVkYCAoMjUxKS4KLSBGaXg6IHJlcGxhY2UgYWxsIG9jY3VycmVuY2VzIG9mIGB2YWU6IFsiMjU1IiwgMF1gIHdpdGggYHZhZTogWyIyMzYiLCAyXWAuCi0gYENoZWNrcG9pbnRMb2FkZXJTaW1wbGVgIHNsb3QgMiA9IFZBRSAobm90IHNsb3QgMCA9IE1PREVMKS4KCnwgfCB8CnwtLS18LS0tfAp8IOKdjCBXcm9uZyAgfCBgdmFlOiBbIjIzNiIsIDBdYCDihpIgYE1PREVMViBtaXNtYXRjaCBpbnB1dF90eXBlKFZBRSlgIHwKfCDinIUgQ29ycmVjdCB8IGB2YWU6IFsiMjM2IiwgMl1gIHwKCi0tLQoKIyMgRHluYW1pYyB0ZW1wbGF0ZSBub2RlczogZG90dGVkIGtleSBuYW1lcyBhcmUgY29ycmVjdAoKIyMjIENvbWZ5TWF0aEV4cHJlc3Npb24gKENPTUZZX0FVVE9HUk9XX1YzKQoKYGBganNvbgp7CiAgImNsYXNzX3R5cGUiOiAiQ29tZnlNYXRoRXhwcmVzc2lvbiIsCiAgImlucHV0cyI6IHsKICAgICJleHByZXNzaW9uIjogImEvMiIsCiAgICAidmFsdWVzLmEiOiBbIjI1NyIsIDBdCiAgfQp9CmBgYAoKLSBgdmFsdWVzYCBpcyBhIGBDT01GWV9BVVRPR1JPV19WM2AgdGVtcGxhdGUuCi0gSW5wdXQgbmFtZXMgaW4gbGlua3MgYXJlIGB2YWx1ZXMuYWAsIGB2YWx1ZXMuYmAsIGV0Yy4KLSAqKktlZXAgdGhlIGRvdHRlZCBmb3JtYXQgYXMgSlNPTiBrZXlzLioqCi0gRG8gTk9UIGNvbnZlcnQgdG8gYHsidmFsdWVzIjogeyJhIjogLi4ufX1gIG9yIGZsYXR0ZW4gdG8ganVzdCBgImEiYC4KCiMjIyBSZXNpemVJbWFnZU1hc2tOb2RlIChDT01GWV9EWU5BTUlDQ09NQk9fVjMpCgpgYGBqc29uCnsKICAiY2xhc3NfdHlwZSI6ICJSZXNpemVJbWFnZU1hc2tOb2RlIiwKICAiaW5wdXRzIjogewogICAgImlucHV0IjogWyIyNzYiLCAwXSwKICAgICJzY2FsZV9tZXRob2QiOiAibGFuY3pvcyIsCiAgICAicmVzaXplX3R5cGUiOiAic2NhbGUgZGltZW5zaW9ucyIsCiAgICAicmVzaXplX3R5cGUud2lkdGgiOiAxOTIwLAogICAgInJlc2l6ZV90eXBlLmhlaWdodCI6IDEwODgsCiAgICAicmVzaXplX3R5cGUuY3JvcCI6ICJjZW50ZXIiCiAgfQp9CmBgYAoKLSBgcmVzaXplX3R5cGVgIGlzIGEgYENPTUZZX0RZTkFNSUNDT01CT19WM2AuCi0gTW9kZS1zcGVjaWZpYyBmaWVsZHM6IGByZXNpemVfdHlwZS53aWR0aGAsIGByZXNpemVfdHlwZS5oZWlnaHRgLCBgcmVzaXplX3R5cGUuY3JvcGAuCi0gYHNjYWxlX21ldGhvZGAgb3B0aW9uczogYCJuZWFyZXN0LWV4YWN0ImAsIGAiYmlsaW5lYXIiYCwgYCJhcmVhImAsIGAiYmljdWJpYyJgLCBgImxhbmN6b3MiYC4KLSAqKktlZXAgdGhlIGRvdHRlZCBmb3JtYXQgYXMgSlNPTiBrZXlzLioqCi0gRG8gTk9UIGZsYXR0ZW4gYHJlc2l6ZV90eXBlLndpZHRoYCB0byBqdXN0IGAid2lkdGgiYC4KCi0tLQoKIyMgQ29udmVyc2lvbiByZWNpcGUKCjEuIExvYWQgdGVtcGxhdGUgZnJvbSB0aGUgaW5zdGFsbGVkIHBhY2thZ2UgcGF0aC4KMi4gUGFyc2UgYGRhdGFbJ2RlZmluaXRpb25zJ11bJ3N1YmdyYXBocyddWzBdYC4KMy4gRm9yIGVhY2ggbm9kZSAoc2tpcCBSZXJvdXRlKToKICAgLSBSZXNvbHZlIGxpbmtlZCBpbnB1dHMgZnJvbSBgc2dbJ2xpbmtzJ11gIGRpY3QuCiAgIC0gTWFwIGB3aWRnZXRzX3ZhbHVlc2AgdG8gaW5wdXQgZmllbGQgbmFtZXMuCiAgIC0gS2VlcCBhbGwgZG90dGVkIGtleSBuYW1lcyBhcy1pcyBmcm9tIHRoZSB0ZW1wbGF0ZS4KNC4gQnlwYXNzIFJlcm91dGU6IHRyYWNlIHNvdXJjZSwgcmVwbGFjZSByZWZlcmVuY2VzLgo1LiBDaGFuZ2Ugb25seTogcHJvbXB0IHRleHQsIHNlZWQgdmFsdWVzLCBhbmQgdXNlci1yZXF1ZXN0ZWQgcGFyYW1ldGVycy4KNi4gQWRkIGBTYXZlVmlkZW9gIHRlcm1pbmFsIG5vZGUgaWYgdGVtcGxhdGUgdXNlcyBvbmx5IGBDcmVhdGVWaWRlb2AuCjcuIFN1Ym1pdCDihpIgcmVhZCBlcnJvcnMg4oaSIHBhdGNoIHNwZWNpZmljIG5vZGVzIOKGkiByZXN1Ym1pdC4KCiMjIFdoYXQgdG8gTkVWRVIgY2hhbmdlIGluIGEgdGVtcGxhdGUKCnwgRWxlbWVudCB8IFdoeSB8CnwtLS0tLS0tLS18LS0tLS18CnwgTm9kZSB0b3BvbG9neSB8IEdyYXBoIGlzIGRlc2lnbmVkIGZvciB0aGUgc3BlY2lmaWMgbW9kZWwgfAp8IFNpZ21hcyB2YWx1ZXMgfCBUdW5lZCBmb3IgdGhlIG1vZGVsL3NhbXBsZXIgY29tYmluYXRpb24gfAp8IExvUkEvZGlzdGlsbGVkIHBhdGhzIHwgUmVxdWlyZWQgZm9yIHF1YWxpdHksIGV2ZW4gaWYgdGhleSBsb29rIHVudXNlZCB8CnwgTW9kZWwgcGFyYW1ldGVycyAoY2ZnLCBzdGVwcywgc2hpZnRzKSB8IE1vZGVsLXNwZWNpZmljIHwKfCBDb25kaXRpb25pbmcgY2hhaW5zICh6ZXJvLW91dCwgY3JvcCBndWlkZXMpIHwgUmVxdWlyZWQgZm9yIGNvcnJlY3QgY29uZGl0aW9uaW5nIHwKfCBQYXNzLXRocm91Z2ggd2lyaW5nIHwgRG9uJ3QgcmVtb3ZlIG5vZGVzLCBieXBhc3MgdGhlbSB8CgotLS0KCiMjIENsb3VkIGNvbXBhdGliaWxpdHkgKHZlcmlmaWVkIE1heSAyMDI1KQoKVGhlIGZ1bGwgTFRYIDIuMyBUMlYgdGVtcGxhdGUgKGB2aWRlb19sdHgyXzNfdDJ2Lmpzb25gKSBydW5zICoqd2l0aG91dAptb2RpZmljYXRpb24qKiBvbiBDb21meSBDbG91ZC4KCioqQ29uZmlybWVkIHdvcmtpbmcgb24gQ2xvdWQgKGFsbCBjdXN0b20gbm9kZXMgYXZhaWxhYmxlKToqKgpgQ29tZnlNYXRoRXhwcmVzc2lvbmAsIGBSZXNpemVJbWFnZU1hc2tOb2RlYCwgYFJlc2l6ZUltYWdlc0J5TG9uZ2VyRWRnZWAsCmBQcmltaXRpdmVJbnRgLCBgUHJpbWl0aXZlU3RyaW5nTXVsdGlsaW5lYCwgYFByaW1pdGl2ZUJvb2xlYW5gLCBgU2F2ZVZpZGVvYCwKYExUWFZDcm9wR3VpZGVzYCwgYExUWFZJbWdUb1ZpZGVvSW5wbGFjZWAsIGBMVFhWQ29uY2F0QVZMYXRlbnRgLApgTFRYVlNlcGFyYXRlQVZMYXRlbnRgLCBgTFRYVkxhdGVudFVwc2FtcGxlcmAsIGBMVFhWQXVkaW9WQUVMb2FkZXJgLApgTFRYVkF1ZGlvVkFFRGVjb2RlYCwgYExUWFZFbXB0eUxhdGVudEF1ZGlvYCwgYExUWFZQcmVwcm9jZXNzYCwKYExUWFZDb25kaXRpb25pbmdgLCBgTWFudWFsU2lnbWFzYCwgYExUWEFWVGV4dEVuY29kZXJMb2FkZXJgLCBwbHVzIGFsbCBjb3JlCm5vZGVzLgoKKipDbG91ZCB2cyBMb2NhbCBmb3IgTFRYIDIuMyAoNzY4eDUxMik6KioKCi0gQ2xvdWQ6IH4zOXMgcGVyIHZpZGVvICg0eCBmYXN0ZXIpLgotIExvY2FsIChSVFggNTA5MCk6IH4xNjBzIHBlciB2aWRlby4KLSBgZXhhbXBsZS5wbmdgIHBsYWNlaG9sZGVyIHdvcmtzIG9uIENsb3VkIGZvciBieXBhc3NlZCBpbWFnZS1kZXBlbmRlbnQgcGF0aHMuCi0gU3VibWlzc2lvbiBmb3JtYXQgaXMgKippZGVudGljYWwqKiBiZXR3ZWVuIGxvY2FsIGFuZCBDbG91ZDoKICBgeyJwcm9tcHQiOiB3ZiwgImV4dHJhX2RhdGEiOiB7fX1gIHRvIGAvYXBpL3Byb21wdGAuCi0gRnJlZSB0aWVyID0gMSBjb25jdXJyZW50IGpvYi4KCioqQ2xvdWQgc3VibWlzc2lvbiBwaXRmYWxsczoqKgoKLSBgL2FwaS9vYmplY3RfaW5mby88bm9kZT5gIHJldHVybnMgNDA0IG9uIGZyZWUgdGllciDigJQgY2FuJ3QgcXVlcnkgbm9kZQogIHNjaGVtYXMgcmVtb3RlbHksIGJ1dCB0aGUgd29ya2Zsb3cgcnVucyBmaW5lIGFueXdheS4gQWx3YXlzIHByb2JlCiAgYG9iamVjdF9pbmZvYCBsb2NhbGx5IGJlZm9yZSBidWlsZGluZyB3b3JrZmxvd3MuCi0gQ2xvdWQgaXMgfjR4IGZhc3RlciDigJQgcHJlZmVyIENsb3VkIGZvciBiYXRjaCBydW5zIHVubGVzcyBsb2NhbCBpcyBuZWVkZWQKICBmb3IgZGVidWdnaW5nLgotIENsb3VkIGAvYXBpL3ZpZXdgIHJldHVybnMgKiozMDIgcmVkaXJlY3QgdG8gc2lnbmVkIEdDUyBVUkwqKiDigJQgdXNlCiAgYGN1cmwgLXMgLUxgIHRvIGZvbGxvdyBhbmQgZG93bmxvYWQuIFB5dGhvbiBgdXJsbGliYCBmYWlscyB3aXRoIDQwMQogIChmb3J3YXJkcyBhdXRoIGhlYWRlcnMgdG8gR0NTIENETikuCi0gYENPTUZZX0NMT1VEX0FQSV9LRVlgIGlzIG9ubHkgaW4gdGhlIHRlcm1pbmFsL2Jhc2ggZW52LCBub3QgaW4gdGhlIFB5dGhvbgogIHNhbmRib3guIFVzZSBzdWJwcm9jZXNzIG9yIHRlcm1pbmFsIHNjcmlwdHMgZm9yIENsb3VkIEFQSSBjYWxscy4KLSBDbG91ZCBmcmVlIHRpZXIgcHJvY2Vzc2VzIGpvYnMgKipzZXF1ZW50aWFsbHkqKiAoMSBhdCBhIHRpbWUpLiBTdWJtaXQgYWxsLAogIHRoZW4gcG9sbCBoaXN0b3J5LgotIExUWCAyLjMgYXQgKioxOTIweDEwODAgT09NcyBsb2NhbGx5KiogKGV2ZW4gUlRYIDUwOTApIOKAlCB1cHNjYWxlciBwYXNzCiAgZXhjZWVkcyBWUkFNLiBQcmVmZXIgQ2xvdWQgZm9yIDEwODBwOyB1c2UgMTI4MHg3MjAgbG9jYWxseSAofjkwcy92aWRlbykuCgotLS0KCiMjIEZGbXBlZyBzdGl0Y2ggc2V0dGluZ3MgKERpc2NvcmQtY29tcGF0aWJsZSkKCkdlbmVyYXRlZCBDb21meVVJIHZpZGVvcyBvZnRlbiB1c2UgYHl1djQ0NHBgIHBpeGVsIGZvcm1hdCB3aGljaCBkb2VzIE5PVCB3b3JrCm9uIERpc2NvcmQuIFJlLWVuY29kZSB3aXRoOgoKYGBgYmFzaApmZm1wZWcgLXkgLWkgaW5wdXQubXA0IFwKICAtYzp2IGxpYngyNjQgLXByb2ZpbGU6diBtYWluIC1wcmVzZXQgbWVkaXVtIC1jcmYgMTMgLXBpeF9mbXQgeXV2NDIwcCBcCiAgLWM6YSBhYWMgLWI6YSAxOTJrIFwKICBvdXRwdXRfZGlzY29yZC5tcDQKYGBgCgpLZXkgc2V0dGluZ3M6CgotIGAtcGl4X2ZtdCB5dXY0MjBwYCDigJQgKipyZXF1aXJlZCBmb3IgRGlzY29yZCoqLCBDb21meVVJIG91dHB1dHMgYHl1djQ0NHBgIGJ5IGRlZmF1bHQuCi0gYC1jcmYgMTNgIOKAlCBoaWdoIHF1YWxpdHkgd2l0aG91dCBtYXNzaXZlIGZpbGUgc2l6ZSAoZGVmYXVsdCAyMyBpcyB0b28gbG9zc3kpLgotIGAtcHJvZmlsZTp2IG1haW5gIOKAlCB3aWRlbHkgY29tcGF0aWJsZS4KCkZvciBtdWx0aS12aWRlbyBjcm9zc2ZhZGUgc3RpdGNoaW5nLCBjaGFpbiBgeGZhZGVgICh2aWRlbykgYW5kIGBhY3Jvc3NmYWRlYAooYXVkaW8pOgoKYGBgYmFzaApmZm1wZWcgLXkgLWkgYS5tcDQgLWkgYi5tcDQgLWkgYy5tcDQgXAogIC1maWx0ZXJfY29tcGxleCAiWzA6dl1bMTp2XXhmYWRlPXRyYW5zaXRpb249ZmFkZTpkdXJhdGlvbj0xOm9mZnNldD0zLjA0W3YxXTtbdjFdWzI6dl14ZmFkZT10cmFuc2l0aW9uPWZhZGU6ZHVyYXRpb249MTpvZmZzZXQ9Ni4wOFt2b3V0XTtbMDphXVsxOmFdYWNyb3NzZmFkZT1kdXJhdGlvbj0xOmMxPXRyaTpjMj10cmlbYTFdO1thMV1bMjphXWFjcm9zc2ZhZGU9ZHVyYXRpb249MTpjMT10cmk6YzI9dHJpW2FvdXRdIiBcCiAgLW1hcCAiW3ZvdXRdIiAtbWFwICJbYW91dF0iIFwKICAtYzp2IGxpYngyNjQgLXByb2ZpbGU6diBtYWluIC1jcmYgMTMgLXBpeF9mbXQgeXV2NDIwcCBcCiAgLWM6YSBhYWMgLWI6YSAxOTJrIFwKICBvdXRwdXQubXA0CmBgYAoKT2Zmc2V0IGZvciB4ZmFkZSAjTiA9IGAoTisxKSDDlyBkdXJhdGlvbiAtIE4gw5cgb3ZlcmxhcGAuCg==
+# ComfyUI Workflow-Template Integrity
+
+> **Authored by [@purzbeats](https://github.com/purzbeats)** — adapted from
+> [purzbeats/hermes-agent-comfyui-helper](https://github.com/purzbeats/hermes-agent-comfyui-helper).
+> Use this reference when converting workflows from the official
+> `comfyui-workflow-templates` package (editor format) into API format for
+> submission via `/api/prompt`. The conversion has subtle gotchas that cause
+> hard-to-diagnose validation errors if you don't follow these rules.
+
+## Background
+
+The official ComfyUI template package (`comfyui-workflow-templates`, currently
+v0.9.69) is installed inside the ComfyUI venv at a path like:
+
+```
+<comfy-install>/.venv/lib/python3.*/site-packages/comfyui_workflow_templates_*/templates/
+```
+
+The exact path depends on how ComfyUI was installed (comfy-cli default,
+Comfy Desktop, manual venv, etc.). Find it once with:
+
+```bash
+comfy --workspace <ws> run-python -c "import comfyui_workflow_templates, pathlib; print(pathlib.Path(comfyui_workflow_templates.__file__).parent / 'templates')"
+```
+
+Templates ship in **editor format** — `nodes` / `links` arrays inside
+`data['definitions']['subgraphs'][0]`. They must be converted to **API
+format** (a `node_id -> {class_type, inputs}` mapping) before submission.
+
+---
+
+## RULE #1: Use templates AS CLOSE TO ORIGINAL AS POSSIBLE
+
+- **Never strip, simplify, or "minimize" nodes** from a template.
+- Full template architecture (dual-pass pipelines, LoRA chains, distilled
+  sigmas, conditioning paths) is intentional — removing any part breaks quality.
+- If an image-dependent path exists but the task is text-to-video, **leave
+  it wired with the bypass toggle enabled** — don't remove the nodes.
+- Only change: prompt text, seed, and dimensions (when explicitly requested).
+
+## RULE #2: Server validation errors are the source of truth
+
+When a workflow submission fails, the server response looks like:
+
+```json
+{
+  "node_errors": {
+    "238": {
+      "errors": [{
+        "message": "Required input is missing",
+        "details": "width",
+        "extra_info": { "input_name": "resize_type.width" }
+      }]
+    }
+  }
+}
+```
+
+**The `extra_info.input_name` field tells you EXACTLY what JSON key the server
+wants. Use it literally.** If it says `"values.a"` or `"resize_type.width"`,
+those are the actual key names in the JSON object. Do not "simplify" them to
+flat names based on assumptions about what the field "should" be called.
+
+## RULE #3: Don't rebuild from scratch — patch the failing nodes
+
+Every regeneration from the template reintroduces the same bugs. Instead:
+
+1. Submit the workflow once.
+2. Read the server error details for exact key names.
+3. Use targeted patch/fix calls against the workflow file on disk.
+4. Resubmit and check if errors resolved.
+
+---
+
+## Reroute nodes: bypass, don't delete
+
+Most servers (local, Cloud) don't have a `Reroute` node type. When converting
+a template:
+
+1. Find what feeds into the Reroute by looking at links where
+   `target_id` = the Reroute node ID.
+2. Replace all inputs referencing the Reroute with
+   `[source_node_id, source_slot]`.
+3. Delete the Reroute node from the API mapping.
+
+**Real example — LTX 2.3 t2v template:**
+
+- Reroute node 255 receives VAE from `CheckpointLoaderSimple 236` slot 2.
+- Three nodes reference Reroute 255 for their VAE input:
+  `LTXVImgToVideoInplace` (230), `LTXVLatentUpsampler` (253),
+  `VAEDecodeTiled` (251).
+- Fix: replace all occurrences of `vae: ["255", 0]` with `vae: ["236", 2]`.
+- `CheckpointLoaderSimple` slot 2 = VAE (not slot 0 = MODEL).
+
+| | |
+|---|---|
+| ❌ Wrong  | `vae: ["236", 0]` → `MODELV mismatch input_type(VAE)` |
+| ✅ Correct | `vae: ["236", 2]` |
+
+---
+
+## Dynamic template nodes: dotted key names are correct
+
+### ComfyMathExpression (COMFY_AUTOGROW_V3)
+
+```json
+{
+  "class_type": "ComfyMathExpression",
+  "inputs": {
+    "expression": "a/2",
+    "values.a": ["257", 0]
+  }
+}
+```
+
+- `values` is a `COMFY_AUTOGROW_V3` template.
+- Input names in links are `values.a`, `values.b`, etc.
+- **Keep the dotted format as JSON keys.**
+- Do NOT convert to `{"values": {"a": ...}}` or flatten to just `"a"`.
+
+### ResizeImageMaskNode (COMFY_DYNAMICCOMBO_V3)
+
+```json
+{
+  "class_type": "ResizeImageMaskNode",
+  "inputs": {
+    "input": ["276", 0],
+    "scale_method": "lanczos",
+    "resize_type": "scale dimensions",
+    "resize_type.width": 1920,
+    "resize_type.height": 1088,
+    "resize_type.crop": "center"
+  }
+}
+```
+
+- `resize_type` is a `COMFY_DYNAMICCOMBO_V3`.
+- Mode-specific fields: `resize_type.width`, `resize_type.height`, `resize_type.crop`.
+- `scale_method` options: `"nearest-exact"`, `"bilinear"`, `"area"`, `"bicubic"`, `"lanczos"`.
+- **Keep the dotted format as JSON keys.**
+- Do NOT flatten `resize_type.width` to just `"width"`.
+
+---
+
+## Conversion recipe
+
+1. Load template from the installed package path.
+2. Parse `data['definitions']['subgraphs'][0]`.
+3. For each node (skip Reroute):
+   - Resolve linked inputs from `sg['links']` dict.
+   - Map `widgets_values` to input field names.
+   - Keep all dotted key names as-is from the template.
+4. Bypass Reroute: trace source, replace references.
+5. Change only: prompt text, seed values, and user-requested parameters.
+6. Add `SaveVideo` terminal node if template uses only `CreateVideo`.
+7. Submit → read errors → patch specific nodes → resubmit.
+
+## What to NEVER change in a template
+
+| Element | Why |
+|---------|-----|
+| Node topology | Graph is designed for the specific model |
+| Sigmas values | Tuned for the model/sampler combination |
+| LoRA/distilled paths | Required for quality, even if they look unused |
+| Model parameters (cfg, steps, shifts) | Model-specific |
+| Conditioning chains (zero-out, crop guides) | Required for correct conditioning |
+| Pass-through wiring | Don't remove nodes, bypass them |
+
+---
+
+## Cloud compatibility (verified May 2025)
+
+The full LTX 2.3 T2V template (`video_ltx2_3_t2v.json`) runs **without
+modification** on Comfy Cloud.
+
+**Confirmed working on Cloud (all custom nodes available):**
+`ComfyMathExpression`, `ResizeImageMaskNode`, `ResizeImagesByLongerEdge`,
+`PrimitiveInt`, `PrimitiveStringMultiline`, `PrimitiveBoolean`, `SaveVideo`,
+`LTXVCropGuides`, `LTXVImgToVideoInplace`, `LTXVConcatAVLatent`,
+`LTXVSeparateAVLatent`, `LTXVLatentUpsampler`, `LTXVAudioVAELoader`,
+`LTXVAudioVAEDecode`, `LTXVEmptyLatentAudio`, `LTXVPreprocess`,
+`LTXVConditioning`, `ManualSigmas`, `LTXAVTextEncoderLoader`, plus all core
+nodes.
+
+**Cloud vs Local for LTX 2.3 (768x512):**
+
+- Cloud: ~39s per video (4x faster).
+- Local (RTX 5090): ~160s per video.
+- `example.png` placeholder works on Cloud for bypassed image-dependent paths.
+- Submission format is **identical** between local and Cloud:
+  `{"prompt": wf, "extra_data": {}}` to `/api/prompt`.
+- Free tier = 1 concurrent job.
+
+**Cloud submission pitfalls:**
+
+- `/api/object_info/<node>` returns 404 on free tier — can't query node
+  schemas remotely, but the workflow runs fine anyway. Always probe
+  `object_info` locally before building workflows.
+- Cloud is ~4x faster — prefer Cloud for batch runs unless local is needed
+  for debugging.
+- Cloud `/api/view` returns **302 redirect to signed GCS URL** — use
+  `curl -s -L` to follow and download. Python `urllib` fails with 401
+  (forwards auth headers to GCS CDN).
+- `COMFY_CLOUD_API_KEY` is only in the terminal/bash env, not in the Python
+  sandbox. Use subprocess or terminal scripts for Cloud API calls.
+- Cloud free tier processes jobs **sequentially** (1 at a time). Submit all,
+  then poll history.
+- LTX 2.3 at **1920x1080 OOMs locally** (even RTX 5090) — upscaler pass
+  exceeds VRAM. Prefer Cloud for 1080p; use 1280x720 locally (~90s/video).
+
+---
+
+## FFmpeg stitch settings (Discord-compatible)
+
+Generated ComfyUI videos often use `yuv444p` pixel format which does NOT work
+on Discord. Re-encode with:
+
+```bash
+ffmpeg -y -i input.mp4 \
+  -c:v libx264 -profile:v main -preset medium -crf 13 -pix_fmt yuv420p \
+  -c:a aac -b:a 192k \
+  output_discord.mp4
+```
+
+Key settings:
+
+- `-pix_fmt yuv420p` — **required for Discord**, ComfyUI outputs `yuv444p` by default.
+- `-crf 13` — high quality without massive file size (default 23 is too lossy).
+- `-profile:v main` — widely compatible.
+
+For multi-video crossfade stitching, chain `xfade` (video) and `acrossfade`
+(audio):
+
+```bash
+ffmpeg -y -i a.mp4 -i b.mp4 -i c.mp4 \
+  -filter_complex "[0:v][1:v]xfade=transition=fade:duration=1:offset=3.04[v1];[v1][2:v]xfade=transition=fade:duration=1:offset=6.08[vout];[0:a][1:a]acrossfade=duration=1:c1=tri:c2=tri[a1];[a1][2:a]acrossfade=duration=1:c1=tri:c2=tri[aout]" \
+  -map "[vout]" -map "[aout]" \
+  -c:v libx264 -profile:v main -crf 13 -pix_fmt yuv420p \
+  -c:a aac -b:a 192k \
+  output.mp4
+```
+
+Offset for xfade #N = `(N+1) × duration - N × overlap`.

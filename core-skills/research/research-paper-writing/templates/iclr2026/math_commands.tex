@@ -1,1 +1,508 @@
-JSUlJSUgTkVXIE1BVEggREVGSU5JVElPTlMgJSUlJSUKClx1c2VwYWNrYWdle2Ftc21hdGgsYW1zZm9udHMsYm19CgolIE1hcmsgc2VjdGlvbnMgb2YgY2FwdGlvbnMgZm9yIHJlZmVycmluZyB0byBkaXZpc2lvbnMgb2YgZmlndXJlcwpcbmV3Y29tbWFuZHtcZmlnbGVmdH17e1xlbSAoTGVmdCl9fQpcbmV3Y29tbWFuZHtcZmlnY2VudGVyfXt7XGVtIChDZW50ZXIpfX0KXG5ld2NvbW1hbmR7XGZpZ3JpZ2h0fXt7XGVtIChSaWdodCl9fQpcbmV3Y29tbWFuZHtcZmlndG9wfXt7XGVtIChUb3ApfX0KXG5ld2NvbW1hbmR7XGZpZ2JvdHRvbX17e1xlbSAoQm90dG9tKX19ClxuZXdjb21tYW5ke1xjYXB0aW9uYX17e1xlbSAoYSl9fQpcbmV3Y29tbWFuZHtcY2FwdGlvbmJ9e3tcZW0gKGIpfX0KXG5ld2NvbW1hbmR7XGNhcHRpb25jfXt7XGVtIChjKX19ClxuZXdjb21tYW5ke1xjYXB0aW9uZH17e1xlbSAoZCl9fQoKJSBIaWdobGlnaHQgYSBuZXdseSBkZWZpbmVkIHRlcm0KXG5ld2NvbW1hbmR7XG5ld3Rlcm19WzFde3tcYmYgIzF9fQoKCiUgRmlndXJlIHJlZmVyZW5jZSwgbG93ZXItY2FzZS4KXGRlZlxmaWdyZWYjMXtmaWd1cmV+XHJlZnsjMX19CiUgRmlndXJlIHJlZmVyZW5jZSwgY2FwaXRhbC4gRm9yIHN0YXJ0IG9mIHNlbnRlbmNlClxkZWZcRmlncmVmIzF7RmlndXJlflxyZWZ7IzF9fQpcZGVmXHR3b2ZpZ3JlZiMxIzJ7ZmlndXJlcyBccmVmeyMxfSBhbmQgXHJlZnsjMn19ClxkZWZccXVhZGZpZ3JlZiMxIzIjMyM0e2ZpZ3VyZXMgXHJlZnsjMX0sIFxyZWZ7IzJ9LCBccmVmeyMzfSBhbmQgXHJlZnsjNH19CiUgU2VjdGlvbiByZWZlcmVuY2UsIGxvd2VyLWNhc2UuClxkZWZcc2VjcmVmIzF7c2VjdGlvbn5ccmVmeyMxfX0KJSBTZWN0aW9uIHJlZmVyZW5jZSwgY2FwaXRhbC4KXGRlZlxTZWNyZWYjMXtTZWN0aW9uflxyZWZ7IzF9fQolIFJlZmVyZW5jZSB0byB0d28gc2VjdGlvbnMuClxkZWZcdHdvc2VjcmVmcyMxIzJ7c2VjdGlvbnMgXHJlZnsjMX0gYW5kIFxyZWZ7IzJ9fQolIFJlZmVyZW5jZSB0byB0aHJlZSBzZWN0aW9ucy4KXGRlZlxzZWNyZWZzIzEjMiMze3NlY3Rpb25zIFxyZWZ7IzF9LCBccmVmeyMyfSBhbmQgXHJlZnsjM319CiUgUmVmZXJlbmNlIHRvIGFuIGVxdWF0aW9uLCBsb3dlci1jYXNlLgpcZGVmXGVxcmVmIzF7ZXF1YXRpb25+XHJlZnsjMX19CiUgUmVmZXJlbmNlIHRvIGFuIGVxdWF0aW9uLCB1cHBlciBjYXNlClxkZWZcRXFyZWYjMXtFcXVhdGlvbn5ccmVmeyMxfX0KJSBBIHJhdyByZWZlcmVuY2UgdG8gYW4gZXF1YXRpb24tLS1hdm9pZCB1c2luZyBpZiBwb3NzaWJsZQpcZGVmXHBsYWluZXFyZWYjMXtccmVmeyMxfX0KJSBSZWZlcmVuY2UgdG8gYSBjaGFwdGVyLCBsb3dlci1jYXNlLgpcZGVmXGNoYXByZWYjMXtjaGFwdGVyflxyZWZ7IzF9fQolIFJlZmVyZW5jZSB0byBhbiBlcXVhdGlvbiwgdXBwZXIgY2FzZS4KXGRlZlxDaGFwcmVmIzF7Q2hhcHRlcn5ccmVmeyMxfX0KJSBSZWZlcmVuY2UgdG8gYSByYW5nZSBvZiBjaGFwdGVycwpcZGVmXHJhbmdlY2hhcHJlZiMxIzJ7Y2hhcHRlcnNccmVmeyMxfS0tXHJlZnsjMn19CiUgUmVmZXJlbmNlIHRvIGFuIGFsZ29yaXRobSwgbG93ZXItY2FzZS4KXGRlZlxhbGdyZWYjMXthbGdvcml0aG1+XHJlZnsjMX19CiUgUmVmZXJlbmNlIHRvIGFuIGFsZ29yaXRobSwgdXBwZXIgY2FzZS4KXGRlZlxBbGdyZWYjMXtBbGdvcml0aG1+XHJlZnsjMX19ClxkZWZcdHdvYWxncmVmIzEjMnthbGdvcml0aG1zIFxyZWZ7IzF9IGFuZCBccmVmeyMyfX0KXGRlZlxUd29hbGdyZWYjMSMye0FsZ29yaXRobXMgXHJlZnsjMX0gYW5kIFxyZWZ7IzJ9fQolIFJlZmVyZW5jZSB0byBhIHBhcnQsIGxvd2VyIGNhc2UKXGRlZlxwYXJ0cmVmIzF7cGFydH5ccmVmeyMxfX0KJSBSZWZlcmVuY2UgdG8gYSBwYXJ0LCB1cHBlciBjYXNlClxkZWZcUGFydHJlZiMxe1BhcnR+XHJlZnsjMX19ClxkZWZcdHdvcGFydHJlZiMxIzJ7cGFydHMgXHJlZnsjMX0gYW5kIFxyZWZ7IzJ9fQoKXGRlZlxjZWlsIzF7XGxjZWlsICMxIFxyY2VpbH0KXGRlZlxmbG9vciMxe1xsZmxvb3IgIzEgXHJmbG9vcn0KXGRlZlwxe1xibXsxfX0KXG5ld2NvbW1hbmR7XHRyYWlufXtcbWF0aGNhbHtEfX0KXG5ld2NvbW1hbmR7XHZhbGlkfXtcbWF0aGNhbHtEX3tcbWF0aHJte3ZhbGlkfX19fQpcbmV3Y29tbWFuZHtcdGVzdH17XG1hdGhjYWx7RF97XG1hdGhybXt0ZXN0fX19fQoKXGRlZlxlcHN7e1xlcHNpbG9ufX0KCgolIFJhbmRvbSB2YXJpYWJsZXMKXGRlZlxyZXRhe3tcdGV4dG5vcm1hbHskXGV0YSR9fX0KXGRlZlxyYXt7XHRleHRub3JtYWx7YX19fQpcZGVmXHJie3tcdGV4dG5vcm1hbHtifX19ClxkZWZccmN7e1x0ZXh0bm9ybWFse2N9fX0KXGRlZlxyZHt7XHRleHRub3JtYWx7ZH19fQpcZGVmXHJle3tcdGV4dG5vcm1hbHtlfX19ClxkZWZccmZ7e1x0ZXh0bm9ybWFse2Z9fX0KXGRlZlxyZ3t7XHRleHRub3JtYWx7Z319fQpcZGVmXHJoe3tcdGV4dG5vcm1hbHtofX19ClxkZWZccml7e1x0ZXh0bm9ybWFse2l9fX0KXGRlZlxyant7XHRleHRub3JtYWx7an19fQpcZGVmXHJre3tcdGV4dG5vcm1hbHtrfX19ClxkZWZccmx7e1x0ZXh0bm9ybWFse2x9fX0KJSBybSBpcyBhbHJlYWR5IGEgY29tbWFuZCwganVzdCBkb24ndCBuYW1lIGFueSByYW5kb20gdmFyaWFibGVzIG0KXGRlZlxybnt7XHRleHRub3JtYWx7bn19fQpcZGVmXHJve3tcdGV4dG5vcm1hbHtvfX19ClxkZWZccnB7e1x0ZXh0bm9ybWFse3B9fX0KXGRlZlxycXt7XHRleHRub3JtYWx7cX19fQpcZGVmXHJye3tcdGV4dG5vcm1hbHtyfX19ClxkZWZccnN7e1x0ZXh0bm9ybWFse3N9fX0KXGRlZlxydHt7XHRleHRub3JtYWx7dH19fQpcZGVmXHJ1e3tcdGV4dG5vcm1hbHt1fX19ClxkZWZccnZ7e1x0ZXh0bm9ybWFse3Z9fX0KXGRlZlxyd3t7XHRleHRub3JtYWx7d319fQpcZGVmXHJ4e3tcdGV4dG5vcm1hbHt4fX19ClxkZWZccnl7e1x0ZXh0bm9ybWFse3l9fX0KXGRlZlxyent7XHRleHRub3JtYWx7en19fQoKJSBSYW5kb20gdmVjdG9ycwpcZGVmXHJ2ZXBzaWxvbnt7XG1hdGhiZntcZXBzaWxvbn19fQpcZGVmXHJ2dGhldGF7e1xtYXRoYmZ7XHRoZXRhfX19ClxkZWZccnZhe3tcbWF0aGJme2F9fX0KXGRlZlxydmJ7e1xtYXRoYmZ7Yn19fQpcZGVmXHJ2Y3t7XG1hdGhiZntjfX19ClxkZWZccnZke3tcbWF0aGJme2R9fX0KXGRlZlxydmV7e1xtYXRoYmZ7ZX19fQpcZGVmXHJ2Znt7XG1hdGhiZntmfX19ClxkZWZccnZne3tcbWF0aGJme2d9fX0KXGRlZlxydmh7e1xtYXRoYmZ7aH19fQpcZGVmXHJ2dXt7XG1hdGhiZntpfX19ClxkZWZccnZqe3tcbWF0aGJme2p9fX0KXGRlZlxydmt7e1xtYXRoYmZ7a319fQpcZGVmXHJ2bHt7XG1hdGhiZntsfX19ClxkZWZccnZte3tcbWF0aGJme219fX0KXGRlZlxydm57e1xtYXRoYmZ7bn19fQpcZGVmXHJ2b3t7XG1hdGhiZntvfX19ClxkZWZccnZwe3tcbWF0aGJme3B9fX0KXGRlZlxydnF7e1xtYXRoYmZ7cX19fQpcZGVmXHJ2cnt7XG1hdGhiZntyfX19ClxkZWZccnZze3tcbWF0aGJme3N9fX0KXGRlZlxydnR7e1xtYXRoYmZ7dH19fQpcZGVmXHJ2dXt7XG1hdGhiZnt1fX19ClxkZWZccnZ2e3tcbWF0aGJme3Z9fX0KXGRlZlxydnd7e1xtYXRoYmZ7d319fQpcZGVmXHJ2eHt7XG1hdGhiZnt4fX19ClxkZWZccnZ5e3tcbWF0aGJme3l9fX0KXGRlZlxydnp7e1xtYXRoYmZ7en19fQoKJSBFbGVtZW50cyBvZiByYW5kb20gdmVjdG9ycwpcZGVmXGVydmF7e1x0ZXh0bm9ybWFse2F9fX0KXGRlZlxlcnZie3tcdGV4dG5vcm1hbHtifX19ClxkZWZcZXJ2Y3t7XHRleHRub3JtYWx7Y319fQpcZGVmXGVydmR7e1x0ZXh0bm9ybWFse2R9fX0KXGRlZlxlcnZle3tcdGV4dG5vcm1hbHtlfX19ClxkZWZcZXJ2Znt7XHRleHRub3JtYWx7Zn19fQpcZGVmXGVydmd7e1x0ZXh0bm9ybWFse2d9fX0KXGRlZlxlcnZoe3tcdGV4dG5vcm1hbHtofX19ClxkZWZcZXJ2aXt7XHRleHRub3JtYWx7aX19fQpcZGVmXGVydmp7e1x0ZXh0bm9ybWFse2p9fX0KXGRlZlxlcnZre3tcdGV4dG5vcm1hbHtrfX19ClxkZWZcZXJ2bHt7XHRleHRub3JtYWx7bH19fQpcZGVmXGVydm17e1x0ZXh0bm9ybWFse219fX0KXGRlZlxlcnZue3tcdGV4dG5vcm1hbHtufX19ClxkZWZcZXJ2b3t7XHRleHRub3JtYWx7b319fQpcZGVmXGVydnB7e1x0ZXh0bm9ybWFse3B9fX0KXGRlZlxlcnZxe3tcdGV4dG5vcm1hbHtxfX19ClxkZWZcZXJ2cnt7XHRleHRub3JtYWx7cn19fQpcZGVmXGVydnN7e1x0ZXh0bm9ybWFse3N9fX0KXGRlZlxlcnZ0e3tcdGV4dG5vcm1hbHt0fX19ClxkZWZcZXJ2dXt7XHRleHRub3JtYWx7dX19fQpcZGVmXGVydnZ7e1x0ZXh0bm9ybWFse3Z9fX0KXGRlZlxlcnZ3e3tcdGV4dG5vcm1hbHt3fX19ClxkZWZcZXJ2eHt7XHRleHRub3JtYWx7eH19fQpcZGVmXGVydnl7e1x0ZXh0bm9ybWFse3l9fX0KXGRlZlxlcnZ6e3tcdGV4dG5vcm1hbHt6fX19CgolIFJhbmRvbSBtYXRyaWNlcwpcZGVmXHJtQXt7XG1hdGhiZntBfX19ClxkZWZccm1Ce3tcbWF0aGJme0J9fX0KXGRlZlxybUN7e1xtYXRoYmZ7Q319fQpcZGVmXHJtRHt7XG1hdGhiZntEfX19ClxkZWZccm1Fe3tcbWF0aGJme0V9fX0KXGRlZlxybUZ7e1xtYXRoYmZ7Rn19fQpcZGVmXHJtR3t7XG1hdGhiZntHfX19ClxkZWZccm1Ie3tcbWF0aGJme0h9fX0KXGRlZlxybUl7e1xtYXRoYmZ7SX19fQpcZGVmXHJtSnt7XG1hdGhiZntKfX19ClxkZWZccm1Le3tcbWF0aGJme0t9fX0KXGRlZlxybUx7e1xtYXRoYmZ7TH19fQpcZGVmXHJtTXt7XG1hdGhiZntNfX19ClxkZWZccm1Oe3tcbWF0aGJme059fX0KXGRlZlxybU97e1xtYXRoYmZ7T319fQpcZGVmXHJtUHt7XG1hdGhiZntQfX19ClxkZWZccm1Re3tcbWF0aGJme1F9fX0KXGRlZlxybVJ7e1xtYXRoYmZ7Un19fQpcZGVmXHJtU3t7XG1hdGhiZntTfX19ClxkZWZccm1Ue3tcbWF0aGJme1R9fX0KXGRlZlxybVV7e1xtYXRoYmZ7VX19fQpcZGVmXHJtVnt7XG1hdGhiZntWfX19ClxkZWZccm1Xe3tcbWF0aGJme1d9fX0KXGRlZlxybVh7e1xtYXRoYmZ7WH19fQpcZGVmXHJtWXt7XG1hdGhiZntZfX19ClxkZWZccm1ae3tcbWF0aGJme1p9fX0KCiUgRWxlbWVudHMgb2YgcmFuZG9tIG1hdHJpY2VzClxkZWZcZXJtQXt7XHRleHRub3JtYWx7QX19fQpcZGVmXGVybUJ7e1x0ZXh0bm9ybWFse0J9fX0KXGRlZlxlcm1De3tcdGV4dG5vcm1hbHtDfX19ClxkZWZcZXJtRHt7XHRleHRub3JtYWx7RH19fQpcZGVmXGVybUV7e1x0ZXh0bm9ybWFse0V9fX0KXGRlZlxlcm1Ge3tcdGV4dG5vcm1hbHtGfX19ClxkZWZcZXJtR3t7XHRleHRub3JtYWx7R319fQpcZGVmXGVybUh7e1x0ZXh0bm9ybWFse0h9fX0KXGRlZlxlcm1Je3tcdGV4dG5vcm1hbHtJfX19ClxkZWZcZXJtSnt7XHRleHRub3JtYWx7Sn19fQpcZGVmXGVybUt7e1x0ZXh0bm9ybWFse0t9fX0KXGRlZlxlcm1Me3tcdGV4dG5vcm1hbHtMfX19ClxkZWZcZXJtTXt7XHRleHRub3JtYWx7TX19fQpcZGVmXGVybU57e1x0ZXh0bm9ybWFse059fX0KXGRlZlxlcm1Pe3tcdGV4dG5vcm1hbHtPfX19ClxkZWZcZXJtUHt7XHRleHRub3JtYWx7UH19fQpcZGVmXGVybVF7e1x0ZXh0bm9ybWFse1F9fX0KXGRlZlxlcm1Se3tcdGV4dG5vcm1hbHtSfX19ClxkZWZcZXJtU3t7XHRleHRub3JtYWx7U319fQpcZGVmXGVybVR7e1x0ZXh0bm9ybWFse1R9fX0KXGRlZlxlcm1Ve3tcdGV4dG5vcm1hbHtVfX19ClxkZWZcZXJtVnt7XHRleHRub3JtYWx7Vn19fQpcZGVmXGVybVd7e1x0ZXh0bm9ybWFse1d9fX0KXGRlZlxlcm1Ye3tcdGV4dG5vcm1hbHtYfX19ClxkZWZcZXJtWXt7XHRleHRub3JtYWx7WX19fQpcZGVmXGVybVp7e1x0ZXh0bm9ybWFse1p9fX0KCiUgVmVjdG9ycwpcZGVmXHZ6ZXJve3tcYm17MH19fQpcZGVmXHZvbmV7e1xibXsxfX19ClxkZWZcdm11e3tcYm17XG11fX19ClxkZWZcdnRoZXRhe3tcYm17XHRoZXRhfX19ClxkZWZcdmF7e1xibXthfX19ClxkZWZcdmJ7e1xibXtifX19ClxkZWZcdmN7e1xibXtjfX19ClxkZWZcdmR7e1xibXtkfX19ClxkZWZcdmV7e1xibXtlfX19ClxkZWZcdmZ7e1xibXtmfX19ClxkZWZcdmd7e1xibXtnfX19ClxkZWZcdmh7e1xibXtofX19ClxkZWZcdml7e1xibXtpfX19ClxkZWZcdmp7e1xibXtqfX19ClxkZWZcdmt7e1xibXtrfX19ClxkZWZcdmx7e1xibXtsfX19ClxkZWZcdm17e1xibXttfX19ClxkZWZcdm57e1xibXtufX19ClxkZWZcdm97e1xibXtvfX19ClxkZWZcdnB7e1xibXtwfX19ClxkZWZcdnF7e1xibXtxfX19ClxkZWZcdnJ7e1xibXtyfX19ClxkZWZcdnN7e1xibXtzfX19ClxkZWZcdnR7e1xibXt0fX19ClxkZWZcdnV7e1xibXt1fX19ClxkZWZcdnZ7e1xibXt2fX19ClxkZWZcdnd7e1xibXt3fX19ClxkZWZcdnh7e1xibXt4fX19ClxkZWZcdnl7e1xibXt5fX19ClxkZWZcdnp7e1xibXt6fX19CgolIEVsZW1lbnRzIG9mIHZlY3RvcnMKXGRlZlxldmFscGhhe3tcYWxwaGF9fQpcZGVmXGV2YmV0YXt7XGJldGF9fQpcZGVmXGV2ZXBzaWxvbnt7XGVwc2lsb259fQpcZGVmXGV2bGFtYmRhe3tcbGFtYmRhfX0KXGRlZlxldm9tZWdhe3tcb21lZ2F9fQpcZGVmXGV2bXV7e1xtdX19ClxkZWZcZXZwc2l7e1xwc2l9fQpcZGVmXGV2c2lnbWF7e1xzaWdtYX19ClxkZWZcZXZ0aGV0YXt7XHRoZXRhfX0KXGRlZlxldmF7e2F9fQpcZGVmXGV2Ynt7Yn19ClxkZWZcZXZje3tjfX0KXGRlZlxldmR7e2R9fQpcZGVmXGV2ZXt7ZX19ClxkZWZcZXZme3tmfX0KXGRlZlxldmd7e2d9fQpcZGVmXGV2aHt7aH19ClxkZWZcZXZpe3tpfX0KXGRlZlxldmp7e2p9fQpcZGVmXGV2a3t7a319ClxkZWZcZXZse3tsfX0KXGRlZlxldm17e219fQpcZGVmXGV2bnt7bn19ClxkZWZcZXZve3tvfX0KXGRlZlxldnB7e3B9fQpcZGVmXGV2cXt7cX19ClxkZWZcZXZye3tyfX0KXGRlZlxldnN7e3N9fQpcZGVmXGV2dHt7dH19ClxkZWZcZXZ1e3t1fX0KXGRlZlxldnZ7e3Z9fQpcZGVmXGV2d3t7d319ClxkZWZcZXZ4e3t4fX0KXGRlZlxldnl7e3l9fQpcZGVmXGV2ent7en19CgolIE1hdHJpeApcZGVmXG1Be3tcYm17QX19fQpcZGVmXG1Ce3tcYm17Qn19fQpcZGVmXG1De3tcYm17Q319fQpcZGVmXG1Ee3tcYm17RH19fQpcZGVmXG1Fe3tcYm17RX19fQpcZGVmXG1Ge3tcYm17Rn19fQpcZGVmXG1He3tcYm17R319fQpcZGVmXG1Ie3tcYm17SH19fQpcZGVmXG1Je3tcYm17SX19fQpcZGVmXG1Ke3tcYm17Sn19fQpcZGVmXG1Le3tcYm17S319fQpcZGVmXG1Me3tcYm17TH19fQpcZGVmXG1Ne3tcYm17TX19fQpcZGVmXG1Oe3tcYm17Tn19fQpcZGVmXG1Pe3tcYm17T319fQpcZGVmXG1Qe3tcYm17UH19fQpcZGVmXG1Re3tcYm17UX19fQpcZGVmXG1Se3tcYm17Un19fQpcZGVmXG1Te3tcYm17U319fQpcZGVmXG1Ue3tcYm17VH19fQpcZGVmXG1Ve3tcYm17VX19fQpcZGVmXG1We3tcYm17Vn19fQpcZGVmXG1Xe3tcYm17V319fQpcZGVmXG1Ye3tcYm17WH19fQpcZGVmXG1Ze3tcYm17WX19fQpcZGVmXG1ae3tcYm17Wn19fQpcZGVmXG1CZXRhe3tcYm17XGJldGF9fX0KXGRlZlxtUGhpe3tcYm17XFBoaX19fQpcZGVmXG1MYW1iZGF7e1xibXtcTGFtYmRhfX19ClxkZWZcbVNpZ21he3tcYm17XFNpZ21hfX19CgolIFRlbnNvcgpcRGVjbGFyZU1hdGhBbHBoYWJldHtcbWF0aHNmaXR9e1xlbmNvZGluZ2RlZmF1bHR9e1xzZmRlZmF1bHR9e219e3NsfQpcU2V0TWF0aEFscGhhYmV0e1xtYXRoc2ZpdH17Ym9sZH17XGVuY29kaW5nZGVmYXVsdH17XHNmZGVmYXVsdH17Ynh9e259ClxuZXdjb21tYW5ke1x0ZW5zfVsxXXtcYm17XG1hdGhzZml0eyMxfX19ClxkZWZcdEF7e1x0ZW5ze0F9fX0KXGRlZlx0Qnt7XHRlbnN7Qn19fQpcZGVmXHRDe3tcdGVuc3tDfX19ClxkZWZcdER7e1x0ZW5ze0R9fX0KXGRlZlx0RXt7XHRlbnN7RX19fQpcZGVmXHRGe3tcdGVuc3tGfX19ClxkZWZcdEd7e1x0ZW5ze0d9fX0KXGRlZlx0SHt7XHRlbnN7SH19fQpcZGVmXHRJe3tcdGVuc3tJfX19ClxkZWZcdEp7e1x0ZW5ze0p9fX0KXGRlZlx0S3t7XHRlbnN7S319fQpcZGVmXHRMe3tcdGVuc3tMfX19ClxkZWZcdE17e1x0ZW5ze019fX0KXGRlZlx0Tnt7XHRlbnN7Tn19fQpcZGVmXHRPe3tcdGVuc3tPfX19ClxkZWZcdFB7e1x0ZW5ze1B9fX0KXGRlZlx0UXt7XHRlbnN7UX19fQpcZGVmXHRSe3tcdGVuc3tSfX19ClxkZWZcdFN7e1x0ZW5ze1N9fX0KXGRlZlx0VHt7XHRlbnN7VH19fQpcZGVmXHRVe3tcdGVuc3tVfX19ClxkZWZcdFZ7e1x0ZW5ze1Z9fX0KXGRlZlx0V3t7XHRlbnN7V319fQpcZGVmXHRYe3tcdGVuc3tYfX19ClxkZWZcdFl7e1x0ZW5ze1l9fX0KXGRlZlx0Wnt7XHRlbnN7Wn19fQoKCiUgR3JhcGgKXGRlZlxnQXt7XG1hdGhjYWx7QX19fQpcZGVmXGdCe3tcbWF0aGNhbHtCfX19ClxkZWZcZ0N7e1xtYXRoY2Fse0N9fX0KXGRlZlxnRHt7XG1hdGhjYWx7RH19fQpcZGVmXGdFe3tcbWF0aGNhbHtFfX19ClxkZWZcZ0Z7e1xtYXRoY2Fse0Z9fX0KXGRlZlxnR3t7XG1hdGhjYWx7R319fQpcZGVmXGdIe3tcbWF0aGNhbHtIfX19ClxkZWZcZ0l7e1xtYXRoY2Fse0l9fX0KXGRlZlxnSnt7XG1hdGhjYWx7Sn19fQpcZGVmXGdLe3tcbWF0aGNhbHtLfX19ClxkZWZcZ0x7e1xtYXRoY2Fse0x9fX0KXGRlZlxnTXt7XG1hdGhjYWx7TX19fQpcZGVmXGdOe3tcbWF0aGNhbHtOfX19ClxkZWZcZ097e1xtYXRoY2Fse099fX0KXGRlZlxnUHt7XG1hdGhjYWx7UH19fQpcZGVmXGdRe3tcbWF0aGNhbHtRfX19ClxkZWZcZ1J7e1xtYXRoY2Fse1J9fX0KXGRlZlxnU3t7XG1hdGhjYWx7U319fQpcZGVmXGdUe3tcbWF0aGNhbHtUfX19ClxkZWZcZ1V7e1xtYXRoY2Fse1V9fX0KXGRlZlxnVnt7XG1hdGhjYWx7Vn19fQpcZGVmXGdXe3tcbWF0aGNhbHtXfX19ClxkZWZcZ1h7e1xtYXRoY2Fse1h9fX0KXGRlZlxnWXt7XG1hdGhjYWx7WX19fQpcZGVmXGdae3tcbWF0aGNhbHtafX19CgolIFNldHMKXGRlZlxzQXt7XG1hdGhiYntBfX19ClxkZWZcc0J7e1xtYXRoYmJ7Qn19fQpcZGVmXHNDe3tcbWF0aGJie0N9fX0KXGRlZlxzRHt7XG1hdGhiYntEfX19CiUgRG9uJ3QgdXNlIGEgc2V0IGNhbGxlZCBFLCBiZWNhdXNlIHRoaXMgd291bGQgYmUgdGhlIHNhbWUgYXMgb3VyIHN5bWJvbAolIGZvciBleHBlY3RhdGlvbi4KXGRlZlxzRnt7XG1hdGhiYntGfX19ClxkZWZcc0d7e1xtYXRoYmJ7R319fQpcZGVmXHNIe3tcbWF0aGJie0h9fX0KXGRlZlxzSXt7XG1hdGhiYntJfX19ClxkZWZcc0p7e1xtYXRoYmJ7Sn19fQpcZGVmXHNLe3tcbWF0aGJie0t9fX0KXGRlZlxzTHt7XG1hdGhiYntMfX19ClxkZWZcc017e1xtYXRoYmJ7TX19fQpcZGVmXHNOe3tcbWF0aGJie059fX0KXGRlZlxzT3t7XG1hdGhiYntPfX19ClxkZWZcc1B7e1xtYXRoYmJ7UH19fQpcZGVmXHNRe3tcbWF0aGJie1F9fX0KXGRlZlxzUnt7XG1hdGhiYntSfX19ClxkZWZcc1N7e1xtYXRoYmJ7U319fQpcZGVmXHNUe3tcbWF0aGJie1R9fX0KXGRlZlxzVXt7XG1hdGhiYntVfX19ClxkZWZcc1Z7e1xtYXRoYmJ7Vn19fQpcZGVmXHNXe3tcbWF0aGJie1d9fX0KXGRlZlxzWHt7XG1hdGhiYntYfX19ClxkZWZcc1l7e1xtYXRoYmJ7WX19fQpcZGVmXHNae3tcbWF0aGJie1p9fX0KCiUgRW50cmllcyBvZiBhIG1hdHJpeApcZGVmXGVtTGFtYmRhe3tcTGFtYmRhfX0KXGRlZlxlbUF7e0F9fQpcZGVmXGVtQnt7Qn19ClxkZWZcZW1De3tDfX0KXGRlZlxlbUR7e0R9fQpcZGVmXGVtRXt7RX19ClxkZWZcZW1Ge3tGfX0KXGRlZlxlbUd7e0d9fQpcZGVmXGVtSHt7SH19ClxkZWZcZW1Je3tJfX0KXGRlZlxlbUp7e0p9fQpcZGVmXGVtS3t7S319ClxkZWZcZW1Me3tMfX0KXGRlZlxlbU17e019fQpcZGVmXGVtTnt7Tn19ClxkZWZcZW1Pe3tPfX0KXGRlZlxlbVB7e1B9fQpcZGVmXGVtUXt7UX19ClxkZWZcZW1Se3tSfX0KXGRlZlxlbVN7e1N9fQpcZGVmXGVtVHt7VH19ClxkZWZcZW1Ve3tVfX0KXGRlZlxlbVZ7e1Z9fQpcZGVmXGVtV3t7V319ClxkZWZcZW1Ye3tYfX0KXGRlZlxlbVl7e1l9fQpcZGVmXGVtWnt7Wn19ClxkZWZcZW1TaWdtYXt7XFNpZ21hfX0KCiUgZW50cmllcyBvZiBhIHRlbnNvcgolIFNhbWUgZm9udCBhcyB0ZW5zb3IsIHdpdGhvdXQgXGJtIHdyYXBwZXIKXG5ld2NvbW1hbmR7XGV0ZW5zfVsxXXtcbWF0aHNmaXR7IzF9fQpcZGVmXGV0TGFtYmRhe3tcZXRlbnN7XExhbWJkYX19fQpcZGVmXGV0QXt7XGV0ZW5ze0F9fX0KXGRlZlxldEJ7e1xldGVuc3tCfX19ClxkZWZcZXRDe3tcZXRlbnN7Q319fQpcZGVmXGV0RHt7XGV0ZW5ze0R9fX0KXGRlZlxldEV7e1xldGVuc3tFfX19ClxkZWZcZXRGe3tcZXRlbnN7Rn19fQpcZGVmXGV0R3t7XGV0ZW5ze0d9fX0KXGRlZlxldEh7e1xldGVuc3tIfX19ClxkZWZcZXRJe3tcZXRlbnN7SX19fQpcZGVmXGV0Snt7XGV0ZW5ze0p9fX0KXGRlZlxldEt7e1xldGVuc3tLfX19ClxkZWZcZXRMe3tcZXRlbnN7TH19fQpcZGVmXGV0TXt7XGV0ZW5ze019fX0KXGRlZlxldE57e1xldGVuc3tOfX19ClxkZWZcZXRPe3tcZXRlbnN7T319fQpcZGVmXGV0UHt7XGV0ZW5ze1B9fX0KXGRlZlxldFF7e1xldGVuc3tRfX19ClxkZWZcZXRSe3tcZXRlbnN7Un19fQpcZGVmXGV0U3t7XGV0ZW5ze1N9fX0KXGRlZlxldFR7e1xldGVuc3tUfX19ClxkZWZcZXRVe3tcZXRlbnN7VX19fQpcZGVmXGV0Vnt7XGV0ZW5ze1Z9fX0KXGRlZlxldFd7e1xldGVuc3tXfX19ClxkZWZcZXRYe3tcZXRlbnN7WH19fQpcZGVmXGV0WXt7XGV0ZW5ze1l9fX0KXGRlZlxldFp7e1xldGVuc3tafX19CgolIFRoZSB0cnVlIHVuZGVybHlpbmcgZGF0YSBnZW5lcmF0aW5nIGRpc3RyaWJ1dGlvbgpcbmV3Y29tbWFuZHtccGRhdGF9e3Bfe1xybXtkYXRhfX19CiUgVGhlIGVtcGlyaWNhbCBkaXN0cmlidXRpb24gZGVmaW5lZCBieSB0aGUgdHJhaW5pbmcgc2V0ClxuZXdjb21tYW5ke1xwdHJhaW59e1xoYXR7cH1fe1xybXtkYXRhfX19ClxuZXdjb21tYW5ke1xQdHJhaW59e1xoYXR7UH1fe1xybXtkYXRhfX19CiUgVGhlIG1vZGVsIGRpc3RyaWJ1dGlvbgpcbmV3Y29tbWFuZHtccG1vZGVsfXtwX3tccm17bW9kZWx9fX0KXG5ld2NvbW1hbmR7XFBtb2RlbH17UF97XHJte21vZGVsfX19ClxuZXdjb21tYW5ke1xwdGlsZGVtb2RlbH17XHRpbGRle3B9X3tccm17bW9kZWx9fX0KJSBTdG9jaGFzdGljIGF1dG9lbmNvZGVyIGRpc3RyaWJ1dGlvbnMKXG5ld2NvbW1hbmR7XHBlbmNvZGV9e3Bfe1xybXtlbmNvZGVyfX19ClxuZXdjb21tYW5ke1xwZGVjb2RlfXtwX3tccm17ZGVjb2Rlcn19fQpcbmV3Y29tbWFuZHtccHJlY29uc317cF97XHJte3JlY29uc3RydWN0fX19CgpcbmV3Y29tbWFuZHtcbGFwbGFjZX17XG1hdGhybXtMYXBsYWNlfX0gJSBMYXBsYWNlIGRpc3RyaWJ1dGlvbgoKXG5ld2NvbW1hbmR7XEV9e1xtYXRoYmJ7RX19ClxuZXdjb21tYW5ke1xMc317XG1hdGhjYWx7TH19ClxuZXdjb21tYW5ke1xSfXtcbWF0aGJie1J9fQpcbmV3Y29tbWFuZHtcZW1wfXtcdGlsZGV7cH19ClxuZXdjb21tYW5ke1xscn17XGFscGhhfQpcbmV3Y29tbWFuZHtccmVnfXtcbGFtYmRhfQpcbmV3Y29tbWFuZHtccmVjdH17XG1hdGhybXtyZWN0aWZpZXJ9fQpcbmV3Y29tbWFuZHtcc29mdG1heH17XG1hdGhybXtzb2Z0bWF4fX0KXG5ld2NvbW1hbmR7XHNpZ21vaWR9e1xzaWdtYX0KXG5ld2NvbW1hbmR7XHNvZnRwbHVzfXtcemV0YX0KXG5ld2NvbW1hbmR7XEtMfXtEX3tcbWF0aHJte0tMfX19ClxuZXdjb21tYW5ke1xWYXJ9e1xtYXRocm17VmFyfX0KXG5ld2NvbW1hbmR7XHN0YW5kYXJkZXJyb3J9e1xtYXRocm17U0V9fQpcbmV3Y29tbWFuZHtcQ292fXtcbWF0aHJte0Nvdn19CiUgV29sZnJhbSBNYXRod29ybGQgc2F5cyAkTF4yJCBpcyBmb3IgZnVuY3Rpb24gc3BhY2VzIGFuZCAkXGVsbF4yJCBpcyBmb3IgdmVjdG9ycwolIEJ1dCB0aGVuIHRoZXkgc2VlbSB0byB1c2UgJExeMiQgZm9yIHZlY3RvcnMgdGhyb3VnaG91dCB0aGUgc2l0ZSwgYW5kIHNvIGRvZXMKJSB3aWtpcGVkaWEuClxuZXdjb21tYW5ke1xub3JtbHplcm99e0xeMH0KXG5ld2NvbW1hbmR7XG5vcm1sb25lfXtMXjF9ClxuZXdjb21tYW5ke1xub3JtbHR3b317TF4yfQpcbmV3Y29tbWFuZHtcbm9ybWxwfXtMXnB9ClxuZXdjb21tYW5ke1xub3JtbWF4fXtMXlxpbmZ0eX0KClxuZXdjb21tYW5ke1xwYXJlbnRzfXtQYX0gJSBTZWUgdXNhZ2UgaW4gbm90YXRpb24udGV4LiBDaG9zZW4gdG8gbWF0Y2ggRGFwaG5lJ3MgYm9vay4KClxEZWNsYXJlTWF0aE9wZXJhdG9yKntcYXJnbWF4fXthcmdcLG1heH0KXERlY2xhcmVNYXRoT3BlcmF0b3Iqe1xhcmdtaW59e2FyZ1wsbWlufQoKXERlY2xhcmVNYXRoT3BlcmF0b3J7XHNpZ259e3NpZ259ClxEZWNsYXJlTWF0aE9wZXJhdG9ye1xUcn17VHJ9ClxsZXRcYWJcYWxsb3dicmVhawo=
+%%%%% NEW MATH DEFINITIONS %%%%%
+
+\usepackage{amsmath,amsfonts,bm}
+
+% Mark sections of captions for referring to divisions of figures
+\newcommand{\figleft}{{\em (Left)}}
+\newcommand{\figcenter}{{\em (Center)}}
+\newcommand{\figright}{{\em (Right)}}
+\newcommand{\figtop}{{\em (Top)}}
+\newcommand{\figbottom}{{\em (Bottom)}}
+\newcommand{\captiona}{{\em (a)}}
+\newcommand{\captionb}{{\em (b)}}
+\newcommand{\captionc}{{\em (c)}}
+\newcommand{\captiond}{{\em (d)}}
+
+% Highlight a newly defined term
+\newcommand{\newterm}[1]{{\bf #1}}
+
+
+% Figure reference, lower-case.
+\def\figref#1{figure~\ref{#1}}
+% Figure reference, capital. For start of sentence
+\def\Figref#1{Figure~\ref{#1}}
+\def\twofigref#1#2{figures \ref{#1} and \ref{#2}}
+\def\quadfigref#1#2#3#4{figures \ref{#1}, \ref{#2}, \ref{#3} and \ref{#4}}
+% Section reference, lower-case.
+\def\secref#1{section~\ref{#1}}
+% Section reference, capital.
+\def\Secref#1{Section~\ref{#1}}
+% Reference to two sections.
+\def\twosecrefs#1#2{sections \ref{#1} and \ref{#2}}
+% Reference to three sections.
+\def\secrefs#1#2#3{sections \ref{#1}, \ref{#2} and \ref{#3}}
+% Reference to an equation, lower-case.
+\def\eqref#1{equation~\ref{#1}}
+% Reference to an equation, upper case
+\def\Eqref#1{Equation~\ref{#1}}
+% A raw reference to an equation---avoid using if possible
+\def\plaineqref#1{\ref{#1}}
+% Reference to a chapter, lower-case.
+\def\chapref#1{chapter~\ref{#1}}
+% Reference to an equation, upper case.
+\def\Chapref#1{Chapter~\ref{#1}}
+% Reference to a range of chapters
+\def\rangechapref#1#2{chapters\ref{#1}--\ref{#2}}
+% Reference to an algorithm, lower-case.
+\def\algref#1{algorithm~\ref{#1}}
+% Reference to an algorithm, upper case.
+\def\Algref#1{Algorithm~\ref{#1}}
+\def\twoalgref#1#2{algorithms \ref{#1} and \ref{#2}}
+\def\Twoalgref#1#2{Algorithms \ref{#1} and \ref{#2}}
+% Reference to a part, lower case
+\def\partref#1{part~\ref{#1}}
+% Reference to a part, upper case
+\def\Partref#1{Part~\ref{#1}}
+\def\twopartref#1#2{parts \ref{#1} and \ref{#2}}
+
+\def\ceil#1{\lceil #1 \rceil}
+\def\floor#1{\lfloor #1 \rfloor}
+\def\1{\bm{1}}
+\newcommand{\train}{\mathcal{D}}
+\newcommand{\valid}{\mathcal{D_{\mathrm{valid}}}}
+\newcommand{\test}{\mathcal{D_{\mathrm{test}}}}
+
+\def\eps{{\epsilon}}
+
+
+% Random variables
+\def\reta{{\textnormal{$\eta$}}}
+\def\ra{{\textnormal{a}}}
+\def\rb{{\textnormal{b}}}
+\def\rc{{\textnormal{c}}}
+\def\rd{{\textnormal{d}}}
+\def\re{{\textnormal{e}}}
+\def\rf{{\textnormal{f}}}
+\def\rg{{\textnormal{g}}}
+\def\rh{{\textnormal{h}}}
+\def\ri{{\textnormal{i}}}
+\def\rj{{\textnormal{j}}}
+\def\rk{{\textnormal{k}}}
+\def\rl{{\textnormal{l}}}
+% rm is already a command, just don't name any random variables m
+\def\rn{{\textnormal{n}}}
+\def\ro{{\textnormal{o}}}
+\def\rp{{\textnormal{p}}}
+\def\rq{{\textnormal{q}}}
+\def\rr{{\textnormal{r}}}
+\def\rs{{\textnormal{s}}}
+\def\rt{{\textnormal{t}}}
+\def\ru{{\textnormal{u}}}
+\def\rv{{\textnormal{v}}}
+\def\rw{{\textnormal{w}}}
+\def\rx{{\textnormal{x}}}
+\def\ry{{\textnormal{y}}}
+\def\rz{{\textnormal{z}}}
+
+% Random vectors
+\def\rvepsilon{{\mathbf{\epsilon}}}
+\def\rvtheta{{\mathbf{\theta}}}
+\def\rva{{\mathbf{a}}}
+\def\rvb{{\mathbf{b}}}
+\def\rvc{{\mathbf{c}}}
+\def\rvd{{\mathbf{d}}}
+\def\rve{{\mathbf{e}}}
+\def\rvf{{\mathbf{f}}}
+\def\rvg{{\mathbf{g}}}
+\def\rvh{{\mathbf{h}}}
+\def\rvu{{\mathbf{i}}}
+\def\rvj{{\mathbf{j}}}
+\def\rvk{{\mathbf{k}}}
+\def\rvl{{\mathbf{l}}}
+\def\rvm{{\mathbf{m}}}
+\def\rvn{{\mathbf{n}}}
+\def\rvo{{\mathbf{o}}}
+\def\rvp{{\mathbf{p}}}
+\def\rvq{{\mathbf{q}}}
+\def\rvr{{\mathbf{r}}}
+\def\rvs{{\mathbf{s}}}
+\def\rvt{{\mathbf{t}}}
+\def\rvu{{\mathbf{u}}}
+\def\rvv{{\mathbf{v}}}
+\def\rvw{{\mathbf{w}}}
+\def\rvx{{\mathbf{x}}}
+\def\rvy{{\mathbf{y}}}
+\def\rvz{{\mathbf{z}}}
+
+% Elements of random vectors
+\def\erva{{\textnormal{a}}}
+\def\ervb{{\textnormal{b}}}
+\def\ervc{{\textnormal{c}}}
+\def\ervd{{\textnormal{d}}}
+\def\erve{{\textnormal{e}}}
+\def\ervf{{\textnormal{f}}}
+\def\ervg{{\textnormal{g}}}
+\def\ervh{{\textnormal{h}}}
+\def\ervi{{\textnormal{i}}}
+\def\ervj{{\textnormal{j}}}
+\def\ervk{{\textnormal{k}}}
+\def\ervl{{\textnormal{l}}}
+\def\ervm{{\textnormal{m}}}
+\def\ervn{{\textnormal{n}}}
+\def\ervo{{\textnormal{o}}}
+\def\ervp{{\textnormal{p}}}
+\def\ervq{{\textnormal{q}}}
+\def\ervr{{\textnormal{r}}}
+\def\ervs{{\textnormal{s}}}
+\def\ervt{{\textnormal{t}}}
+\def\ervu{{\textnormal{u}}}
+\def\ervv{{\textnormal{v}}}
+\def\ervw{{\textnormal{w}}}
+\def\ervx{{\textnormal{x}}}
+\def\ervy{{\textnormal{y}}}
+\def\ervz{{\textnormal{z}}}
+
+% Random matrices
+\def\rmA{{\mathbf{A}}}
+\def\rmB{{\mathbf{B}}}
+\def\rmC{{\mathbf{C}}}
+\def\rmD{{\mathbf{D}}}
+\def\rmE{{\mathbf{E}}}
+\def\rmF{{\mathbf{F}}}
+\def\rmG{{\mathbf{G}}}
+\def\rmH{{\mathbf{H}}}
+\def\rmI{{\mathbf{I}}}
+\def\rmJ{{\mathbf{J}}}
+\def\rmK{{\mathbf{K}}}
+\def\rmL{{\mathbf{L}}}
+\def\rmM{{\mathbf{M}}}
+\def\rmN{{\mathbf{N}}}
+\def\rmO{{\mathbf{O}}}
+\def\rmP{{\mathbf{P}}}
+\def\rmQ{{\mathbf{Q}}}
+\def\rmR{{\mathbf{R}}}
+\def\rmS{{\mathbf{S}}}
+\def\rmT{{\mathbf{T}}}
+\def\rmU{{\mathbf{U}}}
+\def\rmV{{\mathbf{V}}}
+\def\rmW{{\mathbf{W}}}
+\def\rmX{{\mathbf{X}}}
+\def\rmY{{\mathbf{Y}}}
+\def\rmZ{{\mathbf{Z}}}
+
+% Elements of random matrices
+\def\ermA{{\textnormal{A}}}
+\def\ermB{{\textnormal{B}}}
+\def\ermC{{\textnormal{C}}}
+\def\ermD{{\textnormal{D}}}
+\def\ermE{{\textnormal{E}}}
+\def\ermF{{\textnormal{F}}}
+\def\ermG{{\textnormal{G}}}
+\def\ermH{{\textnormal{H}}}
+\def\ermI{{\textnormal{I}}}
+\def\ermJ{{\textnormal{J}}}
+\def\ermK{{\textnormal{K}}}
+\def\ermL{{\textnormal{L}}}
+\def\ermM{{\textnormal{M}}}
+\def\ermN{{\textnormal{N}}}
+\def\ermO{{\textnormal{O}}}
+\def\ermP{{\textnormal{P}}}
+\def\ermQ{{\textnormal{Q}}}
+\def\ermR{{\textnormal{R}}}
+\def\ermS{{\textnormal{S}}}
+\def\ermT{{\textnormal{T}}}
+\def\ermU{{\textnormal{U}}}
+\def\ermV{{\textnormal{V}}}
+\def\ermW{{\textnormal{W}}}
+\def\ermX{{\textnormal{X}}}
+\def\ermY{{\textnormal{Y}}}
+\def\ermZ{{\textnormal{Z}}}
+
+% Vectors
+\def\vzero{{\bm{0}}}
+\def\vone{{\bm{1}}}
+\def\vmu{{\bm{\mu}}}
+\def\vtheta{{\bm{\theta}}}
+\def\va{{\bm{a}}}
+\def\vb{{\bm{b}}}
+\def\vc{{\bm{c}}}
+\def\vd{{\bm{d}}}
+\def\ve{{\bm{e}}}
+\def\vf{{\bm{f}}}
+\def\vg{{\bm{g}}}
+\def\vh{{\bm{h}}}
+\def\vi{{\bm{i}}}
+\def\vj{{\bm{j}}}
+\def\vk{{\bm{k}}}
+\def\vl{{\bm{l}}}
+\def\vm{{\bm{m}}}
+\def\vn{{\bm{n}}}
+\def\vo{{\bm{o}}}
+\def\vp{{\bm{p}}}
+\def\vq{{\bm{q}}}
+\def\vr{{\bm{r}}}
+\def\vs{{\bm{s}}}
+\def\vt{{\bm{t}}}
+\def\vu{{\bm{u}}}
+\def\vv{{\bm{v}}}
+\def\vw{{\bm{w}}}
+\def\vx{{\bm{x}}}
+\def\vy{{\bm{y}}}
+\def\vz{{\bm{z}}}
+
+% Elements of vectors
+\def\evalpha{{\alpha}}
+\def\evbeta{{\beta}}
+\def\evepsilon{{\epsilon}}
+\def\evlambda{{\lambda}}
+\def\evomega{{\omega}}
+\def\evmu{{\mu}}
+\def\evpsi{{\psi}}
+\def\evsigma{{\sigma}}
+\def\evtheta{{\theta}}
+\def\eva{{a}}
+\def\evb{{b}}
+\def\evc{{c}}
+\def\evd{{d}}
+\def\eve{{e}}
+\def\evf{{f}}
+\def\evg{{g}}
+\def\evh{{h}}
+\def\evi{{i}}
+\def\evj{{j}}
+\def\evk{{k}}
+\def\evl{{l}}
+\def\evm{{m}}
+\def\evn{{n}}
+\def\evo{{o}}
+\def\evp{{p}}
+\def\evq{{q}}
+\def\evr{{r}}
+\def\evs{{s}}
+\def\evt{{t}}
+\def\evu{{u}}
+\def\evv{{v}}
+\def\evw{{w}}
+\def\evx{{x}}
+\def\evy{{y}}
+\def\evz{{z}}
+
+% Matrix
+\def\mA{{\bm{A}}}
+\def\mB{{\bm{B}}}
+\def\mC{{\bm{C}}}
+\def\mD{{\bm{D}}}
+\def\mE{{\bm{E}}}
+\def\mF{{\bm{F}}}
+\def\mG{{\bm{G}}}
+\def\mH{{\bm{H}}}
+\def\mI{{\bm{I}}}
+\def\mJ{{\bm{J}}}
+\def\mK{{\bm{K}}}
+\def\mL{{\bm{L}}}
+\def\mM{{\bm{M}}}
+\def\mN{{\bm{N}}}
+\def\mO{{\bm{O}}}
+\def\mP{{\bm{P}}}
+\def\mQ{{\bm{Q}}}
+\def\mR{{\bm{R}}}
+\def\mS{{\bm{S}}}
+\def\mT{{\bm{T}}}
+\def\mU{{\bm{U}}}
+\def\mV{{\bm{V}}}
+\def\mW{{\bm{W}}}
+\def\mX{{\bm{X}}}
+\def\mY{{\bm{Y}}}
+\def\mZ{{\bm{Z}}}
+\def\mBeta{{\bm{\beta}}}
+\def\mPhi{{\bm{\Phi}}}
+\def\mLambda{{\bm{\Lambda}}}
+\def\mSigma{{\bm{\Sigma}}}
+
+% Tensor
+\DeclareMathAlphabet{\mathsfit}{\encodingdefault}{\sfdefault}{m}{sl}
+\SetMathAlphabet{\mathsfit}{bold}{\encodingdefault}{\sfdefault}{bx}{n}
+\newcommand{\tens}[1]{\bm{\mathsfit{#1}}}
+\def\tA{{\tens{A}}}
+\def\tB{{\tens{B}}}
+\def\tC{{\tens{C}}}
+\def\tD{{\tens{D}}}
+\def\tE{{\tens{E}}}
+\def\tF{{\tens{F}}}
+\def\tG{{\tens{G}}}
+\def\tH{{\tens{H}}}
+\def\tI{{\tens{I}}}
+\def\tJ{{\tens{J}}}
+\def\tK{{\tens{K}}}
+\def\tL{{\tens{L}}}
+\def\tM{{\tens{M}}}
+\def\tN{{\tens{N}}}
+\def\tO{{\tens{O}}}
+\def\tP{{\tens{P}}}
+\def\tQ{{\tens{Q}}}
+\def\tR{{\tens{R}}}
+\def\tS{{\tens{S}}}
+\def\tT{{\tens{T}}}
+\def\tU{{\tens{U}}}
+\def\tV{{\tens{V}}}
+\def\tW{{\tens{W}}}
+\def\tX{{\tens{X}}}
+\def\tY{{\tens{Y}}}
+\def\tZ{{\tens{Z}}}
+
+
+% Graph
+\def\gA{{\mathcal{A}}}
+\def\gB{{\mathcal{B}}}
+\def\gC{{\mathcal{C}}}
+\def\gD{{\mathcal{D}}}
+\def\gE{{\mathcal{E}}}
+\def\gF{{\mathcal{F}}}
+\def\gG{{\mathcal{G}}}
+\def\gH{{\mathcal{H}}}
+\def\gI{{\mathcal{I}}}
+\def\gJ{{\mathcal{J}}}
+\def\gK{{\mathcal{K}}}
+\def\gL{{\mathcal{L}}}
+\def\gM{{\mathcal{M}}}
+\def\gN{{\mathcal{N}}}
+\def\gO{{\mathcal{O}}}
+\def\gP{{\mathcal{P}}}
+\def\gQ{{\mathcal{Q}}}
+\def\gR{{\mathcal{R}}}
+\def\gS{{\mathcal{S}}}
+\def\gT{{\mathcal{T}}}
+\def\gU{{\mathcal{U}}}
+\def\gV{{\mathcal{V}}}
+\def\gW{{\mathcal{W}}}
+\def\gX{{\mathcal{X}}}
+\def\gY{{\mathcal{Y}}}
+\def\gZ{{\mathcal{Z}}}
+
+% Sets
+\def\sA{{\mathbb{A}}}
+\def\sB{{\mathbb{B}}}
+\def\sC{{\mathbb{C}}}
+\def\sD{{\mathbb{D}}}
+% Don't use a set called E, because this would be the same as our symbol
+% for expectation.
+\def\sF{{\mathbb{F}}}
+\def\sG{{\mathbb{G}}}
+\def\sH{{\mathbb{H}}}
+\def\sI{{\mathbb{I}}}
+\def\sJ{{\mathbb{J}}}
+\def\sK{{\mathbb{K}}}
+\def\sL{{\mathbb{L}}}
+\def\sM{{\mathbb{M}}}
+\def\sN{{\mathbb{N}}}
+\def\sO{{\mathbb{O}}}
+\def\sP{{\mathbb{P}}}
+\def\sQ{{\mathbb{Q}}}
+\def\sR{{\mathbb{R}}}
+\def\sS{{\mathbb{S}}}
+\def\sT{{\mathbb{T}}}
+\def\sU{{\mathbb{U}}}
+\def\sV{{\mathbb{V}}}
+\def\sW{{\mathbb{W}}}
+\def\sX{{\mathbb{X}}}
+\def\sY{{\mathbb{Y}}}
+\def\sZ{{\mathbb{Z}}}
+
+% Entries of a matrix
+\def\emLambda{{\Lambda}}
+\def\emA{{A}}
+\def\emB{{B}}
+\def\emC{{C}}
+\def\emD{{D}}
+\def\emE{{E}}
+\def\emF{{F}}
+\def\emG{{G}}
+\def\emH{{H}}
+\def\emI{{I}}
+\def\emJ{{J}}
+\def\emK{{K}}
+\def\emL{{L}}
+\def\emM{{M}}
+\def\emN{{N}}
+\def\emO{{O}}
+\def\emP{{P}}
+\def\emQ{{Q}}
+\def\emR{{R}}
+\def\emS{{S}}
+\def\emT{{T}}
+\def\emU{{U}}
+\def\emV{{V}}
+\def\emW{{W}}
+\def\emX{{X}}
+\def\emY{{Y}}
+\def\emZ{{Z}}
+\def\emSigma{{\Sigma}}
+
+% entries of a tensor
+% Same font as tensor, without \bm wrapper
+\newcommand{\etens}[1]{\mathsfit{#1}}
+\def\etLambda{{\etens{\Lambda}}}
+\def\etA{{\etens{A}}}
+\def\etB{{\etens{B}}}
+\def\etC{{\etens{C}}}
+\def\etD{{\etens{D}}}
+\def\etE{{\etens{E}}}
+\def\etF{{\etens{F}}}
+\def\etG{{\etens{G}}}
+\def\etH{{\etens{H}}}
+\def\etI{{\etens{I}}}
+\def\etJ{{\etens{J}}}
+\def\etK{{\etens{K}}}
+\def\etL{{\etens{L}}}
+\def\etM{{\etens{M}}}
+\def\etN{{\etens{N}}}
+\def\etO{{\etens{O}}}
+\def\etP{{\etens{P}}}
+\def\etQ{{\etens{Q}}}
+\def\etR{{\etens{R}}}
+\def\etS{{\etens{S}}}
+\def\etT{{\etens{T}}}
+\def\etU{{\etens{U}}}
+\def\etV{{\etens{V}}}
+\def\etW{{\etens{W}}}
+\def\etX{{\etens{X}}}
+\def\etY{{\etens{Y}}}
+\def\etZ{{\etens{Z}}}
+
+% The true underlying data generating distribution
+\newcommand{\pdata}{p_{\rm{data}}}
+% The empirical distribution defined by the training set
+\newcommand{\ptrain}{\hat{p}_{\rm{data}}}
+\newcommand{\Ptrain}{\hat{P}_{\rm{data}}}
+% The model distribution
+\newcommand{\pmodel}{p_{\rm{model}}}
+\newcommand{\Pmodel}{P_{\rm{model}}}
+\newcommand{\ptildemodel}{\tilde{p}_{\rm{model}}}
+% Stochastic autoencoder distributions
+\newcommand{\pencode}{p_{\rm{encoder}}}
+\newcommand{\pdecode}{p_{\rm{decoder}}}
+\newcommand{\precons}{p_{\rm{reconstruct}}}
+
+\newcommand{\laplace}{\mathrm{Laplace}} % Laplace distribution
+
+\newcommand{\E}{\mathbb{E}}
+\newcommand{\Ls}{\mathcal{L}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\emp}{\tilde{p}}
+\newcommand{\lr}{\alpha}
+\newcommand{\reg}{\lambda}
+\newcommand{\rect}{\mathrm{rectifier}}
+\newcommand{\softmax}{\mathrm{softmax}}
+\newcommand{\sigmoid}{\sigma}
+\newcommand{\softplus}{\zeta}
+\newcommand{\KL}{D_{\mathrm{KL}}}
+\newcommand{\Var}{\mathrm{Var}}
+\newcommand{\standarderror}{\mathrm{SE}}
+\newcommand{\Cov}{\mathrm{Cov}}
+% Wolfram Mathworld says $L^2$ is for function spaces and $\ell^2$ is for vectors
+% But then they seem to use $L^2$ for vectors throughout the site, and so does
+% wikipedia.
+\newcommand{\normlzero}{L^0}
+\newcommand{\normlone}{L^1}
+\newcommand{\normltwo}{L^2}
+\newcommand{\normlp}{L^p}
+\newcommand{\normmax}{L^\infty}
+
+\newcommand{\parents}{Pa} % See usage in notation.tex. Chosen to match Daphne's book.
+
+\DeclareMathOperator*{\argmax}{arg\,max}
+\DeclareMathOperator*{\argmin}{arg\,min}
+
+\DeclareMathOperator{\sign}{sign}
+\DeclareMathOperator{\Tr}{Tr}
+\let\ab\allowbreak

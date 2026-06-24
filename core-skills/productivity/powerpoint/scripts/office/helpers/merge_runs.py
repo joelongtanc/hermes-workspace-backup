@@ -1,1 +1,199 @@
-IiIiTWVyZ2UgYWRqYWNlbnQgcnVucyB3aXRoIGlkZW50aWNhbCBmb3JtYXR0aW5nIGluIERPQ1guCgpNZXJnZXMgYWRqYWNlbnQgPHc6cj4gZWxlbWVudHMgdGhhdCBoYXZlIGlkZW50aWNhbCA8dzpyUHI+IHByb3BlcnRpZXMuCldvcmtzIG9uIHJ1bnMgaW4gcGFyYWdyYXBocyBhbmQgaW5zaWRlIHRyYWNrZWQgY2hhbmdlcyAoPHc6aW5zPiwgPHc6ZGVsPikuCgpBbHNvOgotIFJlbW92ZXMgcnNpZCBhdHRyaWJ1dGVzIGZyb20gcnVucyAocmV2aXNpb24gbWV0YWRhdGEgdGhhdCBkb2Vzbid0IGFmZmVjdCByZW5kZXJpbmcpCi0gUmVtb3ZlcyBwcm9vZkVyciBlbGVtZW50cyAoc3BlbGwvZ3JhbW1hciBtYXJrZXJzIHRoYXQgYmxvY2sgbWVyZ2luZykKIiIiCgpmcm9tIHBhdGhsaWIgaW1wb3J0IFBhdGgKCmltcG9ydCBkZWZ1c2VkeG1sLm1pbmlkb20KCgpkZWYgbWVyZ2VfcnVucyhpbnB1dF9kaXI6IHN0cikgLT4gdHVwbGVbaW50LCBzdHJdOgogICAgZG9jX3htbCA9IFBhdGgoaW5wdXRfZGlyKSAvICJ3b3JkIiAvICJkb2N1bWVudC54bWwiCgogICAgaWYgbm90IGRvY194bWwuZXhpc3RzKCk6CiAgICAgICAgcmV0dXJuIDAsIGYiRXJyb3I6IHtkb2NfeG1sfSBub3QgZm91bmQiCgogICAgdHJ5OgogICAgICAgIGRvbSA9IGRlZnVzZWR4bWwubWluaWRvbS5wYXJzZVN0cmluZyhkb2NfeG1sLnJlYWRfdGV4dChlbmNvZGluZz0idXRmLTgiKSkKICAgICAgICByb290ID0gZG9tLmRvY3VtZW50RWxlbWVudAoKICAgICAgICBfcmVtb3ZlX2VsZW1lbnRzKHJvb3QsICJwcm9vZkVyciIpCiAgICAgICAgX3N0cmlwX3J1bl9yc2lkX2F0dHJzKHJvb3QpCgogICAgICAgIGNvbnRhaW5lcnMgPSB7cnVuLnBhcmVudE5vZGUgZm9yIHJ1biBpbiBfZmluZF9lbGVtZW50cyhyb290LCAiciIpfQoKICAgICAgICBtZXJnZV9jb3VudCA9IDAKICAgICAgICBmb3IgY29udGFpbmVyIGluIGNvbnRhaW5lcnM6CiAgICAgICAgICAgIG1lcmdlX2NvdW50ICs9IF9tZXJnZV9ydW5zX2luKGNvbnRhaW5lcikKCiAgICAgICAgZG9jX3htbC53cml0ZV9ieXRlcyhkb20udG94bWwoZW5jb2Rpbmc9IlVURi04IikpCiAgICAgICAgcmV0dXJuIG1lcmdlX2NvdW50LCBmIk1lcmdlZCB7bWVyZ2VfY291bnR9IHJ1bnMiCgogICAgZXhjZXB0IEV4Y2VwdGlvbiBhcyBlOgogICAgICAgIHJldHVybiAwLCBmIkVycm9yOiB7ZX0iCgoKCgpkZWYgX2ZpbmRfZWxlbWVudHMocm9vdCwgdGFnOiBzdHIpIC0+IGxpc3Q6CiAgICByZXN1bHRzID0gW10KCiAgICBkZWYgdHJhdmVyc2Uobm9kZSk6CiAgICAgICAgaWYgbm9kZS5ub2RlVHlwZSA9PSBub2RlLkVMRU1FTlRfTk9ERToKICAgICAgICAgICAgbmFtZSA9IG5vZGUubG9jYWxOYW1lIG9yIG5vZGUudGFnTmFtZQogICAgICAgICAgICBpZiBuYW1lID09IHRhZyBvciBuYW1lLmVuZHN3aXRoKGYiOnt0YWd9Iik6CiAgICAgICAgICAgICAgICByZXN1bHRzLmFwcGVuZChub2RlKQogICAgICAgICAgICBmb3IgY2hpbGQgaW4gbm9kZS5jaGlsZE5vZGVzOgogICAgICAgICAgICAgICAgdHJhdmVyc2UoY2hpbGQpCgogICAgdHJhdmVyc2Uocm9vdCkKICAgIHJldHVybiByZXN1bHRzCgoKZGVmIF9nZXRfY2hpbGQocGFyZW50LCB0YWc6IHN0cik6CiAgICBmb3IgY2hpbGQgaW4gcGFyZW50LmNoaWxkTm9kZXM6CiAgICAgICAgaWYgY2hpbGQubm9kZVR5cGUgPT0gY2hpbGQuRUxFTUVOVF9OT0RFOgogICAgICAgICAgICBuYW1lID0gY2hpbGQubG9jYWxOYW1lIG9yIGNoaWxkLnRhZ05hbWUKICAgICAgICAgICAgaWYgbmFtZSA9PSB0YWcgb3IgbmFtZS5lbmRzd2l0aChmIjp7dGFnfSIpOgogICAgICAgICAgICAgICAgcmV0dXJuIGNoaWxkCiAgICByZXR1cm4gTm9uZQoKCmRlZiBfZ2V0X2NoaWxkcmVuKHBhcmVudCwgdGFnOiBzdHIpIC0+IGxpc3Q6CiAgICByZXN1bHRzID0gW10KICAgIGZvciBjaGlsZCBpbiBwYXJlbnQuY2hpbGROb2RlczoKICAgICAgICBpZiBjaGlsZC5ub2RlVHlwZSA9PSBjaGlsZC5FTEVNRU5UX05PREU6CiAgICAgICAgICAgIG5hbWUgPSBjaGlsZC5sb2NhbE5hbWUgb3IgY2hpbGQudGFnTmFtZQogICAgICAgICAgICBpZiBuYW1lID09IHRhZyBvciBuYW1lLmVuZHN3aXRoKGYiOnt0YWd9Iik6CiAgICAgICAgICAgICAgICByZXN1bHRzLmFwcGVuZChjaGlsZCkKICAgIHJldHVybiByZXN1bHRzCgoKZGVmIF9pc19hZGphY2VudChlbGVtMSwgZWxlbTIpIC0+IGJvb2w6CiAgICBub2RlID0gZWxlbTEubmV4dFNpYmxpbmcKICAgIHdoaWxlIG5vZGU6CiAgICAgICAgaWYgbm9kZSA9PSBlbGVtMjoKICAgICAgICAgICAgcmV0dXJuIFRydWUKICAgICAgICBpZiBub2RlLm5vZGVUeXBlID09IG5vZGUuRUxFTUVOVF9OT0RFOgogICAgICAgICAgICByZXR1cm4gRmFsc2UKICAgICAgICBpZiBub2RlLm5vZGVUeXBlID09IG5vZGUuVEVYVF9OT0RFIGFuZCBub2RlLmRhdGEuc3RyaXAoKToKICAgICAgICAgICAgcmV0dXJuIEZhbHNlCiAgICAgICAgbm9kZSA9IG5vZGUubmV4dFNpYmxpbmcKICAgIHJldHVybiBGYWxzZQoKCgoKZGVmIF9yZW1vdmVfZWxlbWVudHMocm9vdCwgdGFnOiBzdHIpOgogICAgZm9yIGVsZW0gaW4gX2ZpbmRfZWxlbWVudHMocm9vdCwgdGFnKToKICAgICAgICBpZiBlbGVtLnBhcmVudE5vZGU6CiAgICAgICAgICAgIGVsZW0ucGFyZW50Tm9kZS5yZW1vdmVDaGlsZChlbGVtKQoKCmRlZiBfc3RyaXBfcnVuX3JzaWRfYXR0cnMocm9vdCk6CiAgICBmb3IgcnVuIGluIF9maW5kX2VsZW1lbnRzKHJvb3QsICJyIik6CiAgICAgICAgZm9yIGF0dHIgaW4gbGlzdChydW4uYXR0cmlidXRlcy52YWx1ZXMoKSk6CiAgICAgICAgICAgIGlmICJyc2lkIiBpbiBhdHRyLm5hbWUubG93ZXIoKToKICAgICAgICAgICAgICAgIHJ1bi5yZW1vdmVBdHRyaWJ1dGUoYXR0ci5uYW1lKQoKCgoKZGVmIF9tZXJnZV9ydW5zX2luKGNvbnRhaW5lcikgLT4gaW50OgogICAgbWVyZ2VfY291bnQgPSAwCiAgICBydW4gPSBfZmlyc3RfY2hpbGRfcnVuKGNvbnRhaW5lcikKCiAgICB3aGlsZSBydW46CiAgICAgICAgd2hpbGUgVHJ1ZToKICAgICAgICAgICAgbmV4dF9lbGVtID0gX25leHRfZWxlbWVudF9zaWJsaW5nKHJ1bikKICAgICAgICAgICAgaWYgbmV4dF9lbGVtIGFuZCBfaXNfcnVuKG5leHRfZWxlbSkgYW5kIF9jYW5fbWVyZ2UocnVuLCBuZXh0X2VsZW0pOgogICAgICAgICAgICAgICAgX21lcmdlX3J1bl9jb250ZW50KHJ1biwgbmV4dF9lbGVtKQogICAgICAgICAgICAgICAgY29udGFpbmVyLnJlbW92ZUNoaWxkKG5leHRfZWxlbSkKICAgICAgICAgICAgICAgIG1lcmdlX2NvdW50ICs9IDEKICAgICAgICAgICAgZWxzZToKICAgICAgICAgICAgICAgIGJyZWFrCgogICAgICAgIF9jb25zb2xpZGF0ZV90ZXh0KHJ1bikKICAgICAgICBydW4gPSBfbmV4dF9zaWJsaW5nX3J1bihydW4pCgogICAgcmV0dXJuIG1lcmdlX2NvdW50CgoKZGVmIF9maXJzdF9jaGlsZF9ydW4oY29udGFpbmVyKToKICAgIGZvciBjaGlsZCBpbiBjb250YWluZXIuY2hpbGROb2RlczoKICAgICAgICBpZiBjaGlsZC5ub2RlVHlwZSA9PSBjaGlsZC5FTEVNRU5UX05PREUgYW5kIF9pc19ydW4oY2hpbGQpOgogICAgICAgICAgICByZXR1cm4gY2hpbGQKICAgIHJldHVybiBOb25lCgoKZGVmIF9uZXh0X2VsZW1lbnRfc2libGluZyhub2RlKToKICAgIHNpYmxpbmcgPSBub2RlLm5leHRTaWJsaW5nCiAgICB3aGlsZSBzaWJsaW5nOgogICAgICAgIGlmIHNpYmxpbmcubm9kZVR5cGUgPT0gc2libGluZy5FTEVNRU5UX05PREU6CiAgICAgICAgICAgIHJldHVybiBzaWJsaW5nCiAgICAgICAgc2libGluZyA9IHNpYmxpbmcubmV4dFNpYmxpbmcKICAgIHJldHVybiBOb25lCgoKZGVmIF9uZXh0X3NpYmxpbmdfcnVuKG5vZGUpOgogICAgc2libGluZyA9IG5vZGUubmV4dFNpYmxpbmcKICAgIHdoaWxlIHNpYmxpbmc6CiAgICAgICAgaWYgc2libGluZy5ub2RlVHlwZSA9PSBzaWJsaW5nLkVMRU1FTlRfTk9ERToKICAgICAgICAgICAgaWYgX2lzX3J1bihzaWJsaW5nKToKICAgICAgICAgICAgICAgIHJldHVybiBzaWJsaW5nCiAgICAgICAgc2libGluZyA9IHNpYmxpbmcubmV4dFNpYmxpbmcKICAgIHJldHVybiBOb25lCgoKZGVmIF9pc19ydW4obm9kZSkgLT4gYm9vbDoKICAgIG5hbWUgPSBub2RlLmxvY2FsTmFtZSBvciBub2RlLnRhZ05hbWUKICAgIHJldHVybiBuYW1lID09ICJyIiBvciBuYW1lLmVuZHN3aXRoKCI6ciIpCgoKZGVmIF9jYW5fbWVyZ2UocnVuMSwgcnVuMikgLT4gYm9vbDoKICAgIHJwcjEgPSBfZ2V0X2NoaWxkKHJ1bjEsICJyUHIiKQogICAgcnByMiA9IF9nZXRfY2hpbGQocnVuMiwgInJQciIpCgogICAgaWYgKHJwcjEgaXMgTm9uZSkgIT0gKHJwcjIgaXMgTm9uZSk6CiAgICAgICAgcmV0dXJuIEZhbHNlCiAgICBpZiBycHIxIGlzIE5vbmU6CiAgICAgICAgcmV0dXJuIFRydWUKICAgIHJldHVybiBycHIxLnRveG1sKCkgPT0gcnByMi50b3htbCgpICAKCgpkZWYgX21lcmdlX3J1bl9jb250ZW50KHRhcmdldCwgc291cmNlKToKICAgIGZvciBjaGlsZCBpbiBsaXN0KHNvdXJjZS5jaGlsZE5vZGVzKToKICAgICAgICBpZiBjaGlsZC5ub2RlVHlwZSA9PSBjaGlsZC5FTEVNRU5UX05PREU6CiAgICAgICAgICAgIG5hbWUgPSBjaGlsZC5sb2NhbE5hbWUgb3IgY2hpbGQudGFnTmFtZQogICAgICAgICAgICBpZiBuYW1lICE9ICJyUHIiIGFuZCBub3QgbmFtZS5lbmRzd2l0aCgiOnJQciIpOgogICAgICAgICAgICAgICAgdGFyZ2V0LmFwcGVuZENoaWxkKGNoaWxkKQoKCmRlZiBfY29uc29saWRhdGVfdGV4dChydW4pOgogICAgdF9lbGVtZW50cyA9IF9nZXRfY2hpbGRyZW4ocnVuLCAidCIpCgogICAgZm9yIGkgaW4gcmFuZ2UobGVuKHRfZWxlbWVudHMpIC0gMSwgMCwgLTEpOgogICAgICAgIGN1cnIsIHByZXYgPSB0X2VsZW1lbnRzW2ldLCB0X2VsZW1lbnRzW2kgLSAxXQoKICAgICAgICBpZiBfaXNfYWRqYWNlbnQocHJldiwgY3Vycik6CiAgICAgICAgICAgIHByZXZfdGV4dCA9IHByZXYuZmlyc3RDaGlsZC5kYXRhIGlmIHByZXYuZmlyc3RDaGlsZCBlbHNlICIiCiAgICAgICAgICAgIGN1cnJfdGV4dCA9IGN1cnIuZmlyc3RDaGlsZC5kYXRhIGlmIGN1cnIuZmlyc3RDaGlsZCBlbHNlICIiCiAgICAgICAgICAgIG1lcmdlZCA9IHByZXZfdGV4dCArIGN1cnJfdGV4dAoKICAgICAgICAgICAgaWYgcHJldi5maXJzdENoaWxkOgogICAgICAgICAgICAgICAgcHJldi5maXJzdENoaWxkLmRhdGEgPSBtZXJnZWQKICAgICAgICAgICAgZWxzZToKICAgICAgICAgICAgICAgIHByZXYuYXBwZW5kQ2hpbGQocnVuLm93bmVyRG9jdW1lbnQuY3JlYXRlVGV4dE5vZGUobWVyZ2VkKSkKCiAgICAgICAgICAgIGlmIG1lcmdlZC5zdGFydHN3aXRoKCIgIikgb3IgbWVyZ2VkLmVuZHN3aXRoKCIgIik6CiAgICAgICAgICAgICAgICBwcmV2LnNldEF0dHJpYnV0ZSgieG1sOnNwYWNlIiwgInByZXNlcnZlIikKICAgICAgICAgICAgZWxpZiBwcmV2Lmhhc0F0dHJpYnV0ZSgieG1sOnNwYWNlIik6CiAgICAgICAgICAgICAgICBwcmV2LnJlbW92ZUF0dHJpYnV0ZSgieG1sOnNwYWNlIikKCiAgICAgICAgICAgIHJ1bi5yZW1vdmVDaGlsZChjdXJyKQo=
+"""Merge adjacent runs with identical formatting in DOCX.
+
+Merges adjacent <w:r> elements that have identical <w:rPr> properties.
+Works on runs in paragraphs and inside tracked changes (<w:ins>, <w:del>).
+
+Also:
+- Removes rsid attributes from runs (revision metadata that doesn't affect rendering)
+- Removes proofErr elements (spell/grammar markers that block merging)
+"""
+
+from pathlib import Path
+
+import defusedxml.minidom
+
+
+def merge_runs(input_dir: str) -> tuple[int, str]:
+    doc_xml = Path(input_dir) / "word" / "document.xml"
+
+    if not doc_xml.exists():
+        return 0, f"Error: {doc_xml} not found"
+
+    try:
+        dom = defusedxml.minidom.parseString(doc_xml.read_text(encoding="utf-8"))
+        root = dom.documentElement
+
+        _remove_elements(root, "proofErr")
+        _strip_run_rsid_attrs(root)
+
+        containers = {run.parentNode for run in _find_elements(root, "r")}
+
+        merge_count = 0
+        for container in containers:
+            merge_count += _merge_runs_in(container)
+
+        doc_xml.write_bytes(dom.toxml(encoding="UTF-8"))
+        return merge_count, f"Merged {merge_count} runs"
+
+    except Exception as e:
+        return 0, f"Error: {e}"
+
+
+
+
+def _find_elements(root, tag: str) -> list:
+    results = []
+
+    def traverse(node):
+        if node.nodeType == node.ELEMENT_NODE:
+            name = node.localName or node.tagName
+            if name == tag or name.endswith(f":{tag}"):
+                results.append(node)
+            for child in node.childNodes:
+                traverse(child)
+
+    traverse(root)
+    return results
+
+
+def _get_child(parent, tag: str):
+    for child in parent.childNodes:
+        if child.nodeType == child.ELEMENT_NODE:
+            name = child.localName or child.tagName
+            if name == tag or name.endswith(f":{tag}"):
+                return child
+    return None
+
+
+def _get_children(parent, tag: str) -> list:
+    results = []
+    for child in parent.childNodes:
+        if child.nodeType == child.ELEMENT_NODE:
+            name = child.localName or child.tagName
+            if name == tag or name.endswith(f":{tag}"):
+                results.append(child)
+    return results
+
+
+def _is_adjacent(elem1, elem2) -> bool:
+    node = elem1.nextSibling
+    while node:
+        if node == elem2:
+            return True
+        if node.nodeType == node.ELEMENT_NODE:
+            return False
+        if node.nodeType == node.TEXT_NODE and node.data.strip():
+            return False
+        node = node.nextSibling
+    return False
+
+
+
+
+def _remove_elements(root, tag: str):
+    for elem in _find_elements(root, tag):
+        if elem.parentNode:
+            elem.parentNode.removeChild(elem)
+
+
+def _strip_run_rsid_attrs(root):
+    for run in _find_elements(root, "r"):
+        for attr in list(run.attributes.values()):
+            if "rsid" in attr.name.lower():
+                run.removeAttribute(attr.name)
+
+
+
+
+def _merge_runs_in(container) -> int:
+    merge_count = 0
+    run = _first_child_run(container)
+
+    while run:
+        while True:
+            next_elem = _next_element_sibling(run)
+            if next_elem and _is_run(next_elem) and _can_merge(run, next_elem):
+                _merge_run_content(run, next_elem)
+                container.removeChild(next_elem)
+                merge_count += 1
+            else:
+                break
+
+        _consolidate_text(run)
+        run = _next_sibling_run(run)
+
+    return merge_count
+
+
+def _first_child_run(container):
+    for child in container.childNodes:
+        if child.nodeType == child.ELEMENT_NODE and _is_run(child):
+            return child
+    return None
+
+
+def _next_element_sibling(node):
+    sibling = node.nextSibling
+    while sibling:
+        if sibling.nodeType == sibling.ELEMENT_NODE:
+            return sibling
+        sibling = sibling.nextSibling
+    return None
+
+
+def _next_sibling_run(node):
+    sibling = node.nextSibling
+    while sibling:
+        if sibling.nodeType == sibling.ELEMENT_NODE:
+            if _is_run(sibling):
+                return sibling
+        sibling = sibling.nextSibling
+    return None
+
+
+def _is_run(node) -> bool:
+    name = node.localName or node.tagName
+    return name == "r" or name.endswith(":r")
+
+
+def _can_merge(run1, run2) -> bool:
+    rpr1 = _get_child(run1, "rPr")
+    rpr2 = _get_child(run2, "rPr")
+
+    if (rpr1 is None) != (rpr2 is None):
+        return False
+    if rpr1 is None:
+        return True
+    return rpr1.toxml() == rpr2.toxml()  
+
+
+def _merge_run_content(target, source):
+    for child in list(source.childNodes):
+        if child.nodeType == child.ELEMENT_NODE:
+            name = child.localName or child.tagName
+            if name != "rPr" and not name.endswith(":rPr"):
+                target.appendChild(child)
+
+
+def _consolidate_text(run):
+    t_elements = _get_children(run, "t")
+
+    for i in range(len(t_elements) - 1, 0, -1):
+        curr, prev = t_elements[i], t_elements[i - 1]
+
+        if _is_adjacent(prev, curr):
+            prev_text = prev.firstChild.data if prev.firstChild else ""
+            curr_text = curr.firstChild.data if curr.firstChild else ""
+            merged = prev_text + curr_text
+
+            if prev.firstChild:
+                prev.firstChild.data = merged
+            else:
+                prev.appendChild(run.ownerDocument.createTextNode(merged))
+
+            if merged.startswith(" ") or merged.endswith(" "):
+                prev.setAttribute("xml:space", "preserve")
+            elif prev.hasAttribute("xml:space"):
+                prev.removeAttribute("xml:space")
+
+            run.removeChild(curr)

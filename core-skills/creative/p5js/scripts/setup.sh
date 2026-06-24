@@ -1,1 +1,87 @@
-IyEvYmluL2Jhc2gKIyBwNS5qcyBTa2lsbCDigJQgRGVwZW5kZW5jeSBWZXJpZmljYXRpb24KIyBSdW46IGJhc2ggc2tpbGxzL2NyZWF0aXZlL3A1anMvc2NyaXB0cy9zZXR1cC5zaAoKc2V0IC1ldW8gcGlwZWZhaWwKClJFRD0nXDAzM1swOzMxbScKR1JFRU49J1wwMzNbMDszMm0nCllFTExPVz0nXDAzM1sxOzMzbScKTkM9J1wwMzNbMG0nCgpvaygpIHsgZWNobyAtZSAiJHtHUkVFTn1bT0tdJHtOQ30gJDEiOyB9Cndhcm4oKSB7IGVjaG8gLWUgIiR7WUVMTE9XfVtXQVJOXSR7TkN9ICQxIjsgfQpmYWlsKCkgeyBlY2hvIC1lICIke1JFRH1bRkFJTF0ke05DfSAkMSI7IH0KCmVjaG8gIj09PSBwNS5qcyBTa2lsbCDigJQgU2V0dXAgQ2hlY2sgPT09IgplY2hvICIiCgojIFJlcXVpcmVkOiBOb2RlLmpzIChmb3IgUHVwcGV0ZWVyIGhlYWRsZXNzIGV4cG9ydCkKaWYgY29tbWFuZCAtdiBub2RlICY+L2Rldi9udWxsOyB0aGVuCiAgTk9ERV9WRVI9JChub2RlIC12KQogIG9rICJOb2RlLmpzICROT0RFX1ZFUiIKZWxzZQogIHdhcm4gIk5vZGUuanMgbm90IGZvdW5kIOKAlCBvcHRpb25hbCwgbmVlZGVkIGZvciBoZWFkbGVzcyBleHBvcnQiCiAgZWNobyAiICBJbnN0YWxsOiBodHRwczovL25vZGVqcy5vcmcvIG9yICdicmV3IGluc3RhbGwgbm9kZSciCmZpCgojIFJlcXVpcmVkOiBucG0gKGZvciBQdXBwZXRlZXIgaW5zdGFsbCkKaWYgY29tbWFuZCAtdiBucG0gJj4vZGV2L251bGw7IHRoZW4KICBOUE1fVkVSPSQobnBtIC12KQogIG9rICJucG0gJE5QTV9WRVIiCmVsc2UKICB3YXJuICJucG0gbm90IGZvdW5kIOKAlCBvcHRpb25hbCwgbmVlZGVkIGZvciBoZWFkbGVzcyBleHBvcnQiCmZpCgojIE9wdGlvbmFsOiBQdXBwZXRlZXIKaWYgbm9kZSAtZSAicmVxdWlyZSgncHVwcGV0ZWVyJykiIDI+L2Rldi9udWxsOyB0aGVuCiAgb2sgIlB1cHBldGVlciBpbnN0YWxsZWQiCmVsc2UKICB3YXJuICJQdXBwZXRlZXIgbm90IGluc3RhbGxlZCDigJQgbmVlZGVkIGZvciBoZWFkbGVzcyBleHBvcnQiCiAgZWNobyAiICBJbnN0YWxsOiBucG0gaW5zdGFsbCBwdXBwZXRlZXIiCmZpCgojIE9wdGlvbmFsOiBmZm1wZWcgKGZvciBNUDQgZW5jb2RpbmcgZnJvbSBmcmFtZSBzZXF1ZW5jZXMpCmlmIGNvbW1hbmQgLXYgZmZtcGVnICY+L2Rldi9udWxsOyB0aGVuCiAgRkZNUEVHX1ZFUj0kKGZmbXBlZyAtdmVyc2lvbiAyPiYxIHwgaGVhZCAtMSB8IGF3ayAne3ByaW50ICQzfScpCiAgb2sgImZmbXBlZyAkRkZNUEVHX1ZFUiIKZWxzZQogIHdhcm4gImZmbXBlZyBub3QgZm91bmQg4oCUIG5lZWRlZCBmb3IgTVA0IGV4cG9ydCIKICBlY2hvICIgIEluc3RhbGw6IGJyZXcgaW5zdGFsbCBmZm1wZWcgKG1hY09TKSBvciBhcHQgaW5zdGFsbCBmZm1wZWcgKExpbnV4KSIKZmkKCiMgT3B0aW9uYWw6IFB5dGhvbjMgKGZvciBsb2NhbCBzZXJ2ZXIpCmlmIGNvbW1hbmQgLXYgcHl0aG9uMyAmPi9kZXYvbnVsbDsgdGhlbgogIFBZX1ZFUj0kKHB5dGhvbjMgLS12ZXJzaW9uIDI+JjEgfCBhd2sgJ3twcmludCAkMn0nKQogIG9rICJQeXRob24gJFBZX1ZFUiAoZm9yIGxvY2FsIHNlcnZlcjogcHl0aG9uMyAtbSBodHRwLnNlcnZlcikiCmVsc2UKICB3YXJuICJQeXRob24zIG5vdCBmb3VuZCDigJQgbmVlZGVkIGZvciBsb2NhbCBmaWxlIHNlcnZpbmciCmZpCgojIEJyb3dzZXIgY2hlY2sgKG1hY09TKQppZiBbWyAiJCh1bmFtZSkiID09ICJEYXJ3aW4iIF1dOyB0aGVuCiAgaWYgb3BlbiAtUmEgIkdvb2dsZSBDaHJvbWUiIDI+L2Rldi9udWxsOyB0aGVuCiAgICBvayAiR29vZ2xlIENocm9tZSBmb3VuZCIKICBlbGlmIG9wZW4gLVJhICJTYWZhcmkiIDI+L2Rldi9udWxsOyB0aGVuCiAgICBvayAiU2FmYXJpIGZvdW5kIgogIGVsc2UKICAgIHdhcm4gIk5vIGJyb3dzZXIgZGV0ZWN0ZWQiCiAgZmkKZmkKCmVjaG8gIiIKZWNobyAiPT09IENvcmUgUmVxdWlyZW1lbnRzID09PSIKZWNobyAiICBBIG1vZGVybiBicm93c2VyIChDaHJvbWUvRmlyZWZveC9TYWZhcmkvRWRnZSkiCmVjaG8gIiAgcDUuanMgbG9hZGVkIHZpYSBDRE4g4oCUIG5vIGxvY2FsIGluc3RhbGwgbmVlZGVkIgplY2hvICIiCmVjaG8gIj09PSBPcHRpb25hbCAoZm9yIGV4cG9ydCkgPT09IgplY2hvICIgIE5vZGUuanMgKyBQdXBwZXRlZXIg4oCUIGhlYWRsZXNzIGZyYW1lIGNhcHR1cmUiCmVjaG8gIiAgZmZtcGVnIOKAlCBmcmFtZSBzZXF1ZW5jZSB0byBNUDQiCmVjaG8gIiAgUHl0aG9uMyDigJQgbG9jYWwgZGV2ZWxvcG1lbnQgc2VydmVyIgplY2hvICIiCmVjaG8gIj09PSBRdWljayBTdGFydCA9PT0iCmVjaG8gIiAgMS4gQ3JlYXRlIGFuIEhUTUwgZmlsZSB3aXRoIGlubGluZSBwNS5qcyBza2V0Y2giCmVjaG8gIiAgMi4gT3BlbiBpbiBicm93c2VyOiBvcGVuIHNrZXRjaC5odG1sIgplY2hvICIgIDMuIFByZXNzICdzJyB0byBzYXZlIFBORywgJ2cnIHRvIHNhdmUgR0lGIgplY2hvICIiCmVjaG8gIlNldHVwIGNoZWNrIGNvbXBsZXRlLiIK
+#!/bin/bash
+# p5.js Skill — Dependency Verification
+# Run: bash skills/creative/p5js/scripts/setup.sh
+
+set -euo pipefail
+
+RED='\033[0;31m'
+GREEN='\033[0;32m'
+YELLOW='\033[1;33m'
+NC='\033[0m'
+
+ok() { echo -e "${GREEN}[OK]${NC} $1"; }
+warn() { echo -e "${YELLOW}[WARN]${NC} $1"; }
+fail() { echo -e "${RED}[FAIL]${NC} $1"; }
+
+echo "=== p5.js Skill — Setup Check ==="
+echo ""
+
+# Required: Node.js (for Puppeteer headless export)
+if command -v node &>/dev/null; then
+  NODE_VER=$(node -v)
+  ok "Node.js $NODE_VER"
+else
+  warn "Node.js not found — optional, needed for headless export"
+  echo "  Install: https://nodejs.org/ or 'brew install node'"
+fi
+
+# Required: npm (for Puppeteer install)
+if command -v npm &>/dev/null; then
+  NPM_VER=$(npm -v)
+  ok "npm $NPM_VER"
+else
+  warn "npm not found — optional, needed for headless export"
+fi
+
+# Optional: Puppeteer
+if node -e "require('puppeteer')" 2>/dev/null; then
+  ok "Puppeteer installed"
+else
+  warn "Puppeteer not installed — needed for headless export"
+  echo "  Install: npm install puppeteer"
+fi
+
+# Optional: ffmpeg (for MP4 encoding from frame sequences)
+if command -v ffmpeg &>/dev/null; then
+  FFMPEG_VER=$(ffmpeg -version 2>&1 | head -1 | awk '{print $3}')
+  ok "ffmpeg $FFMPEG_VER"
+else
+  warn "ffmpeg not found — needed for MP4 export"
+  echo "  Install: brew install ffmpeg (macOS) or apt install ffmpeg (Linux)"
+fi
+
+# Optional: Python3 (for local server)
+if command -v python3 &>/dev/null; then
+  PY_VER=$(python3 --version 2>&1 | awk '{print $2}')
+  ok "Python $PY_VER (for local server: python3 -m http.server)"
+else
+  warn "Python3 not found — needed for local file serving"
+fi
+
+# Browser check (macOS)
+if [[ "$(uname)" == "Darwin" ]]; then
+  if open -Ra "Google Chrome" 2>/dev/null; then
+    ok "Google Chrome found"
+  elif open -Ra "Safari" 2>/dev/null; then
+    ok "Safari found"
+  else
+    warn "No browser detected"
+  fi
+fi
+
+echo ""
+echo "=== Core Requirements ==="
+echo "  A modern browser (Chrome/Firefox/Safari/Edge)"
+echo "  p5.js loaded via CDN — no local install needed"
+echo ""
+echo "=== Optional (for export) ==="
+echo "  Node.js + Puppeteer — headless frame capture"
+echo "  ffmpeg — frame sequence to MP4"
+echo "  Python3 — local development server"
+echo ""
+echo "=== Quick Start ==="
+echo "  1. Create an HTML file with inline p5.js sketch"
+echo "  2. Open in browser: open sketch.html"
+echo "  3. Press 's' to save PNG, 'g' to save GIF"
+echo ""
+echo "Setup check complete."

@@ -1,1 +1,41 @@
-IyBkYXNoYm9hcmQKCk11bHRpLW1ldHJpYyBkaXNwbGF5IHdpdGggY2hhcnRzLCBudW1iZXJzLCBhbmQgS1BJIGluZGljYXRvcnMuCgojIyBTdHJ1Y3R1cmUKCi0gTXVsdGlwbGUgZGF0YSB3aWRnZXRzCi0gQ2hhcnRzLCBncmFwaHMsIG51bWJlcnMKLSBHcmlkIG9yIG1vZHVsYXIgbGF5b3V0Ci0gS2V5IG1ldHJpY3MgcHJvbWluZW50Ci0gU3RhdHVzIGluZGljYXRvcnMKCiMjIEJlc3QgRm9yCgotIEtQSSBzdW1tYXJpZXMKLSBQZXJmb3JtYW5jZSBtZXRyaWNzCi0gQW5hbHl0aWNzIG92ZXJ2aWV3cwotIFN0YXR1cyByZXBvcnRzCi0gRGF0YSBzbmFwc2hvdHMKCiMjIFZpc3VhbCBFbGVtZW50cwoKLSBDaGFydCB0eXBlcyAoYmFyLCBsaW5lLCBwaWUsIGdhdWdlKQotIEJpZyBudW1iZXJzIGZvciBLUElzCi0gVHJlbmQgYXJyb3dzICh1cC9kb3duKQotIENvbG9yLWNvZGVkIHN0YXR1cyAoZ3JlZW4vcmVkKQotIENsZWFuIGRhdGEgdmlzdWFsaXphdGlvbgoKIyMgVGV4dCBQbGFjZW1lbnQKCi0gVGl0bGUgYXQgdG9wCi0gV2lkZ2V0IHRpdGxlcyBhYm92ZSBlYWNoIHNlY3Rpb24KLSBNZXRyaWMgbGFiZWxzIGFuZCB2YWx1ZXMKLSBVbml0cyBjbGVhcmx5IHNob3duCi0gVGltZSBwZXJpb2QgaW5kaWNhdGVkCgojIyBSZWNvbW1lbmRlZCBQYWlyaW5ncwoKLSBgY29ycG9yYXRlLW1lbXBoaXNgOiBCdXNpbmVzcyBkYXNoYm9hcmRzCi0gYHVpLXdpcmVmcmFtZWA6IFRlY2huaWNhbCBkYXNoYm9hcmRzCi0gYGN5YmVycHVuay1uZW9uYDogRnV0dXJpc3RpYyBkaXNwbGF5cwo=
+# dashboard
+
+Multi-metric display with charts, numbers, and KPI indicators.
+
+## Structure
+
+- Multiple data widgets
+- Charts, graphs, numbers
+- Grid or modular layout
+- Key metrics prominent
+- Status indicators
+
+## Best For
+
+- KPI summaries
+- Performance metrics
+- Analytics overviews
+- Status reports
+- Data snapshots
+
+## Visual Elements
+
+- Chart types (bar, line, pie, gauge)
+- Big numbers for KPIs
+- Trend arrows (up/down)
+- Color-coded status (green/red)
+- Clean data visualization
+
+## Text Placement
+
+- Title at top
+- Widget titles above each section
+- Metric labels and values
+- Units clearly shown
+- Time period indicated
+
+## Recommended Pairings
+
+- `corporate-memphis`: Business dashboards
+- `ui-wireframe`: Technical dashboards
+- `cyberpunk-neon`: Futuristic displays

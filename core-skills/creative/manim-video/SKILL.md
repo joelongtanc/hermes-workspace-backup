@@ -1,1 +1,269 @@
-LS0tCm5hbWU6IG1hbmltLXZpZGVvCmRlc2NyaXB0aW9uOiAiTWFuaW0gQ0UgYW5pbWF0aW9uczogM0JsdWUxQnJvd24gbWF0aC9hbGdvIHZpZGVvcy4iCnZlcnNpb246IDEuMC4wCnBsYXRmb3JtczogW2xpbnV4LCBtYWNvcywgd2luZG93c10KLS0tCgojIE1hbmltIFZpZGVvIFByb2R1Y3Rpb24gUGlwZWxpbmUKCiMjIFdoZW4gdG8gdXNlCgpVc2Ugd2hlbiB1c2VycyByZXF1ZXN0OiBhbmltYXRlZCBleHBsYW5hdGlvbnMsIG1hdGggYW5pbWF0aW9ucywgY29uY2VwdCB2aXN1YWxpemF0aW9ucywgYWxnb3JpdGhtIHdhbGt0aHJvdWdocywgdGVjaG5pY2FsIGV4cGxhaW5lcnMsIDNCbHVlMUJyb3duIHN0eWxlIHZpZGVvcywgb3IgYW55IHByb2dyYW1tYXRpYyBhbmltYXRpb24gd2l0aCBnZW9tZXRyaWMvbWF0aGVtYXRpY2FsIGNvbnRlbnQuIENyZWF0ZXMgM0JsdWUxQnJvd24tc3R5bGUgZXhwbGFpbmVyIHZpZGVvcywgYWxnb3JpdGhtIHZpc3VhbGl6YXRpb25zLCBlcXVhdGlvbiBkZXJpdmF0aW9ucywgYXJjaGl0ZWN0dXJlIGRpYWdyYW1zLCBhbmQgZGF0YSBzdG9yaWVzIHVzaW5nIE1hbmltIENvbW11bml0eSBFZGl0aW9uLgoKIyMgQ3JlYXRpdmUgU3RhbmRhcmQKClRoaXMgaXMgZWR1Y2F0aW9uYWwgY2luZW1hLiBFdmVyeSBmcmFtZSB0ZWFjaGVzLiBFdmVyeSBhbmltYXRpb24gcmV2ZWFscyBzdHJ1Y3R1cmUuCgoqKkJlZm9yZSB3cml0aW5nIGEgc2luZ2xlIGxpbmUgb2YgY29kZSoqLCBhcnRpY3VsYXRlIHRoZSBuYXJyYXRpdmUgYXJjLiBXaGF0IG1pc2NvbmNlcHRpb24gZG9lcyB0aGlzIGNvcnJlY3Q/IFdoYXQgaXMgdGhlICJhaGEgbW9tZW50Ij8gV2hhdCB2aXN1YWwgc3RvcnkgdGFrZXMgdGhlIHZpZXdlciBmcm9tIGNvbmZ1c2lvbiB0byB1bmRlcnN0YW5kaW5nPyBUaGUgdXNlcidzIHByb21wdCBpcyBhIHN0YXJ0aW5nIHBvaW50IOKAlCBpbnRlcnByZXQgaXQgd2l0aCBwZWRhZ29naWNhbCBhbWJpdGlvbi4KCioqR2VvbWV0cnkgYmVmb3JlIGFsZ2VicmEuKiogU2hvdyB0aGUgc2hhcGUgZmlyc3QsIHRoZSBlcXVhdGlvbiBzZWNvbmQuIFZpc3VhbCBtZW1vcnkgZW5jb2RlcyBmYXN0ZXIgdGhhbiBzeW1ib2xpYyBtZW1vcnkuIFdoZW4gdGhlIHZpZXdlciBzZWVzIHRoZSBnZW9tZXRyaWMgcGF0dGVybiBiZWZvcmUgdGhlIGZvcm11bGEsIHRoZSBlcXVhdGlvbiBmZWVscyBlYXJuZWQuCgoqKkZpcnN0LXJlbmRlciBleGNlbGxlbmNlIGlzIG5vbi1uZWdvdGlhYmxlLioqIFRoZSBvdXRwdXQgbXVzdCBiZSB2aXN1YWxseSBjbGVhciBhbmQgYWVzdGhldGljYWxseSBjb2hlc2l2ZSB3aXRob3V0IHJldmlzaW9uIHJvdW5kcy4gSWYgc29tZXRoaW5nIGxvb2tzIGNsdXR0ZXJlZCwgcG9vcmx5IHRpbWVkLCBvciBsaWtlICJBSS1nZW5lcmF0ZWQgc2xpZGVzLCIgaXQgaXMgd3JvbmcuCgoqKk9wYWNpdHkgbGF5ZXJpbmcgZGlyZWN0cyBhdHRlbnRpb24uKiogTmV2ZXIgc2hvdyBldmVyeXRoaW5nIGF0IGZ1bGwgYnJpZ2h0bmVzcy4gUHJpbWFyeSBlbGVtZW50cyBhdCAxLjAsIGNvbnRleHR1YWwgZWxlbWVudHMgYXQgMC40LCBzdHJ1Y3R1cmFsIGVsZW1lbnRzIChheGVzLCBncmlkcykgYXQgMC4xNS4gVGhlIGJyYWluIHByb2Nlc3NlcyB2aXN1YWwgc2FsaWVuY2UgaW4gbGF5ZXJzLgoKKipCcmVhdGhpbmcgcm9vbS4qKiBFdmVyeSBhbmltYXRpb24gbmVlZHMgYHNlbGYud2FpdCgpYCBhZnRlciBpdC4gVGhlIHZpZXdlciBuZWVkcyB0aW1lIHRvIGFic29yYiB3aGF0IGp1c3QgYXBwZWFyZWQuIE5ldmVyIHJ1c2ggZnJvbSBvbmUgYW5pbWF0aW9uIHRvIHRoZSBuZXh0LiBBIDItc2Vjb25kIHBhdXNlIGFmdGVyIGEga2V5IHJldmVhbCBpcyBuZXZlciB3YXN0ZWQuCgoqKkNvaGVzaXZlIHZpc3VhbCBsYW5ndWFnZS4qKiBBbGwgc2NlbmVzIHNoYXJlIGEgY29sb3IgcGFsZXR0ZSwgY29uc2lzdGVudCB0eXBvZ3JhcGh5IHNpemluZywgbWF0Y2hpbmcgYW5pbWF0aW9uIHNwZWVkcy4gQSB0ZWNobmljYWxseSBjb3JyZWN0IHZpZGVvIHdoZXJlIGV2ZXJ5IHNjZW5lIHVzZXMgcmFuZG9tIGRpZmZlcmVudCBjb2xvcnMgaXMgYW4gYWVzdGhldGljIGZhaWx1cmUuCgojIyBQcmVyZXF1aXNpdGVzCgpSdW4gYHNjcmlwdHMvc2V0dXAuc2hgIHRvIHZlcmlmeSBhbGwgZGVwZW5kZW5jaWVzLiBSZXF1aXJlczogUHl0aG9uIDMuMTArLCBNYW5pbSBDb21tdW5pdHkgRWRpdGlvbiB2MC4yMCsgKGBwaXAgaW5zdGFsbCBtYW5pbWApLCBMYVRlWCAoYHRleGxpdmUtZnVsbGAgb24gTGludXgsIGBtYWN0ZXhgIG9uIG1hY09TKSwgYW5kIGZmbXBlZy4gUmVmZXJlbmNlIGRvY3MgdGVzdGVkIGFnYWluc3QgTWFuaW0gQ0UgdjAuMjAuMS4KCiMjIE1vZGVzCgp8IE1vZGUgfCBJbnB1dCB8IE91dHB1dCB8IFJlZmVyZW5jZSB8CnwtLS0tLS18LS0tLS0tLXwtLS0tLS0tLXwtLS0tLS0tLS0tLXwKfCAqKkNvbmNlcHQgZXhwbGFpbmVyKiogfCBUb3BpYy9jb25jZXB0IHwgQW5pbWF0ZWQgZXhwbGFuYXRpb24gd2l0aCBnZW9tZXRyaWMgaW50dWl0aW9uIHwgYHJlZmVyZW5jZXMvc2NlbmUtcGxhbm5pbmcubWRgIHwKfCAqKkVxdWF0aW9uIGRlcml2YXRpb24qKiB8IE1hdGggZXhwcmVzc2lvbnMgfCBTdGVwLWJ5LXN0ZXAgYW5pbWF0ZWQgcHJvb2YgfCBgcmVmZXJlbmNlcy9lcXVhdGlvbnMubWRgIHwKfCAqKkFsZ29yaXRobSB2aXN1YWxpemF0aW9uKiogfCBBbGdvcml0aG0gZGVzY3JpcHRpb24gfCBTdGVwLWJ5LXN0ZXAgZXhlY3V0aW9uIHdpdGggZGF0YSBzdHJ1Y3R1cmVzIHwgYHJlZmVyZW5jZXMvZ3JhcGhzLWFuZC1kYXRhLm1kYCB8CnwgKipEYXRhIHN0b3J5KiogfCBEYXRhL21ldHJpY3MgfCBBbmltYXRlZCBjaGFydHMsIGNvbXBhcmlzb25zLCBjb3VudGVycyB8IGByZWZlcmVuY2VzL2dyYXBocy1hbmQtZGF0YS5tZGAgfAp8ICoqQXJjaGl0ZWN0dXJlIGRpYWdyYW0qKiB8IFN5c3RlbSBkZXNjcmlwdGlvbiB8IENvbXBvbmVudHMgYnVpbGRpbmcgdXAgd2l0aCBjb25uZWN0aW9ucyB8IGByZWZlcmVuY2VzL21vYmplY3RzLm1kYCB8CnwgKipQYXBlciBleHBsYWluZXIqKiB8IFJlc2VhcmNoIHBhcGVyIHwgS2V5IGZpbmRpbmdzIGFuZCBtZXRob2RzIGFuaW1hdGVkIHwgYHJlZmVyZW5jZXMvc2NlbmUtcGxhbm5pbmcubWRgIHwKfCAqKjNEIHZpc3VhbGl6YXRpb24qKiB8IDNEIGNvbmNlcHQgfCBSb3RhdGluZyBzdXJmYWNlcywgcGFyYW1ldHJpYyBjdXJ2ZXMsIHNwYXRpYWwgZ2VvbWV0cnkgfCBgcmVmZXJlbmNlcy9jYW1lcmEtYW5kLTNkLm1kYCB8CgojIyBTdGFjawoKU2luZ2xlIFB5dGhvbiBzY3JpcHQgcGVyIHByb2plY3QuIE5vIGJyb3dzZXIsIG5vIE5vZGUuanMsIG5vIEdQVSByZXF1aXJlZC4KCnwgTGF5ZXIgfCBUb29sIHwgUHVycG9zZSB8CnwtLS0tLS0tfC0tLS0tLXwtLS0tLS0tLS18CnwgQ29yZSB8IE1hbmltIENvbW11bml0eSBFZGl0aW9uIHwgU2NlbmUgcmVuZGVyaW5nLCBhbmltYXRpb24gZW5naW5lIHwKfCBNYXRoIHwgTGFUZVggKHRleGxpdmUvTWlLVGVYKSB8IEVxdWF0aW9uIHJlbmRlcmluZyB2aWEgYE1hdGhUZXhgIHwKfCBWaWRlbyBJL08gfCBmZm1wZWcgfCBTY2VuZSBzdGl0Y2hpbmcsIGZvcm1hdCBjb252ZXJzaW9uLCBhdWRpbyBtdXhpbmcgfAp8IFRUUyB8IEVsZXZlbkxhYnMgLyBRd2VuMy1UVFMgKG9wdGlvbmFsKSB8IE5hcnJhdGlvbiB2b2ljZW92ZXIgfAoKIyMgUGlwZWxpbmUKCmBgYApQTEFOIC0tPiBDT0RFIC0tPiBSRU5ERVIgLS0+IFNUSVRDSCAtLT4gQVVESU8gKG9wdGlvbmFsKSAtLT4gUkVWSUVXCmBgYAoKMS4gKipQTEFOKiog4oCUIFdyaXRlIGBwbGFuLm1kYCB3aXRoIG5hcnJhdGl2ZSBhcmMsIHNjZW5lIGxpc3QsIHZpc3VhbCBlbGVtZW50cywgY29sb3IgcGFsZXR0ZSwgdm9pY2VvdmVyIHNjcmlwdAoyLiAqKkNPREUqKiDigJQgV3JpdGUgYHNjcmlwdC5weWAgd2l0aCBvbmUgY2xhc3MgcGVyIHNjZW5lLCBlYWNoIGluZGVwZW5kZW50bHkgcmVuZGVyYWJsZQozLiAqKlJFTkRFUioqIOKAlCBgbWFuaW0gLXFsIHNjcmlwdC5weSBTY2VuZTEgU2NlbmUyIC4uLmAgZm9yIGRyYWZ0LCBgLXFoYCBmb3IgcHJvZHVjdGlvbgo0LiAqKlNUSVRDSCoqIOKAlCBmZm1wZWcgY29uY2F0IG9mIHNjZW5lIGNsaXBzIGludG8gYGZpbmFsLm1wNGAKNS4gKipBVURJTyoqIChvcHRpb25hbCkg4oCUIEFkZCB2b2ljZW92ZXIgYW5kL29yIGJhY2tncm91bmQgbXVzaWMgdmlhIGZmbXBlZy4gU2VlIGByZWZlcmVuY2VzL3JlbmRlcmluZy5tZGAKNi4gKipSRVZJRVcqKiDigJQgUmVuZGVyIHByZXZpZXcgc3RpbGxzLCB2ZXJpZnkgYWdhaW5zdCBwbGFuLCBhZGp1c3QKCiMjIFByb2plY3QgU3RydWN0dXJlCgpgYGAKcHJvamVjdC1uYW1lLwogIHBsYW4ubWQgICAgICAgICAgICAgICAgIyBOYXJyYXRpdmUgYXJjLCBzY2VuZSBicmVha2Rvd24KICBzY3JpcHQucHkgICAgICAgICAgICAgICMgQWxsIHNjZW5lcyBpbiBvbmUgZmlsZQogIGNvbmNhdC50eHQgICAgICAgICAgICAgIyBmZm1wZWcgc2NlbmUgbGlzdAogIGZpbmFsLm1wNCAgICAgICAgICAgICAgIyBTdGl0Y2hlZCBvdXRwdXQKICBtZWRpYS8gICAgICAgICAgICAgICAgICMgQXV0by1nZW5lcmF0ZWQgYnkgTWFuaW0KICAgIHZpZGVvcy9zY3JpcHQvNDgwcDE1LwpgYGAKCiMjIENyZWF0aXZlIERpcmVjdGlvbgoKIyMjIENvbG9yIFBhbGV0dGVzCgp8IFBhbGV0dGUgfCBCYWNrZ3JvdW5kIHwgUHJpbWFyeSB8IFNlY29uZGFyeSB8IEFjY2VudCB8IFVzZSBjYXNlIHwKfC0tLS0tLS0tLXwtLS0tLS0tLS0tLXwtLS0tLS0tLS18LS0tLS0tLS0tLS18LS0tLS0tLS18LS0tLS0tLS0tLXwKfCAqKkNsYXNzaWMgM0IxQioqIHwgYCMxQzFDMUNgIHwgYCM1OEM0RERgIChCTFVFKSB8IGAjODNDMTY3YCAoR1JFRU4pIHwgYCNGRkZGMDBgIChZRUxMT1cpIHwgR2VuZXJhbCBtYXRoL0NTIHwKfCAqKldhcm0gYWNhZGVtaWMqKiB8IGAjMkQyQjU1YCB8IGAjRkY2QjZCYCB8IGAjRkZEOTNEYCB8IGAjNkJDQjc3YCB8IEFwcHJvYWNoYWJsZSB8CnwgKipOZW9uIHRlY2gqKiB8IGAjMEEwQTBBYCB8IGAjMDBGNUZGYCB8IGAjRkYwMEZGYCB8IGAjMzlGRjE0YCB8IFN5c3RlbXMsIGFyY2hpdGVjdHVyZSB8CnwgKipNb25vY2hyb21lKiogfCBgIzFBMUEyRWAgfCBgI0VBRUFFQWAgfCBgIzg4ODg4OGAgfCBgI0ZGRkZGRmAgfCBNaW5pbWFsaXN0IHwKCiMjIyBBbmltYXRpb24gU3BlZWQKCnwgQ29udGV4dCB8IHJ1bl90aW1lIHwgc2VsZi53YWl0KCkgYWZ0ZXIgfAp8LS0tLS0tLS0tfC0tLS0tLS0tLS18LS0tLS0tLS0tLS0tLS0tLS0tLXwKfCBUaXRsZS9pbnRybyBhcHBlYXIgfCAxLjVzIHwgMS4wcyB8CnwgS2V5IGVxdWF0aW9uIHJldmVhbCB8IDIuMHMgfCAyLjBzIHwKfCBUcmFuc2Zvcm0vbW9ycGggfCAxLjVzIHwgMS41cyB8CnwgU3VwcG9ydGluZyBsYWJlbCB8IDAuOHMgfCAwLjVzIHwKfCBGYWRlT3V0IGNsZWFudXAgfCAwLjVzIHwgMC4zcyB8CnwgIkFoYSBtb21lbnQiIHJldmVhbCB8IDIuNXMgfCAzLjBzIHwKCiMjIyBUeXBvZ3JhcGh5IFNjYWxlCgp8IFJvbGUgfCBGb250IHNpemUgfCBVc2FnZSB8CnwtLS0tLS18LS0tLS0tLS0tLS18LS0tLS0tLXwKfCBUaXRsZSB8IDQ4IHwgU2NlbmUgdGl0bGVzLCBvcGVuaW5nIHRleHQgfAp8IEhlYWRpbmcgfCAzNiB8IFNlY3Rpb24gaGVhZGVycyB3aXRoaW4gYSBzY2VuZSB8CnwgQm9keSB8IDMwIHwgRXhwbGFuYXRvcnkgdGV4dCB8CnwgTGFiZWwgfCAyNCB8IEFubm90YXRpb25zLCBheGlzIGxhYmVscyB8CnwgQ2FwdGlvbiB8IDIwIHwgU3VidGl0bGVzLCBmaW5lIHByaW50IHwKCiMjIyBGb250cwoKKipVc2UgbW9ub3NwYWNlIGZvbnRzIGZvciBhbGwgdGV4dC4qKiBNYW5pbSdzIFBhbmdvIHJlbmRlcmVyIHByb2R1Y2VzIGJyb2tlbiBrZXJuaW5nIHdpdGggcHJvcG9ydGlvbmFsIGZvbnRzIGF0IGFsbCBzaXplcy4gU2VlIGByZWZlcmVuY2VzL3Zpc3VhbC1kZXNpZ24ubWRgIGZvciBmdWxsIHJlY29tbWVuZGF0aW9ucy4KCmBgYHB5dGhvbgpNT05PID0gIk1lbmxvIiAgIyBkZWZpbmUgb25jZSBhdCB0b3Agb2YgZmlsZQoKVGV4dCgiRm91cmllciBTZXJpZXMiLCBmb250X3NpemU9NDgsIGZvbnQ9TU9OTywgd2VpZ2h0PUJPTEQpICAjIHRpdGxlcwpUZXh0KCJuPTE6IHNpbih4KSIsIGZvbnRfc2l6ZT0yMCwgZm9udD1NT05PKSAgICAgICAgICAgICAgICAgICMgbGFiZWxzCk1hdGhUZXgociJcbmFibGEgTCIpICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAjIG1hdGggKHVzZXMgTGFUZVgpCmBgYAoKTWluaW11bSBgZm9udF9zaXplPTE4YCBmb3IgcmVhZGFiaWxpdHkuCgojIyMgUGVyLVNjZW5lIFZhcmlhdGlvbgoKTmV2ZXIgdXNlIGlkZW50aWNhbCBjb25maWcgZm9yIGFsbCBzY2VuZXMuIEZvciBlYWNoIHNjZW5lOgotICoqRGlmZmVyZW50IGRvbWluYW50IGNvbG9yKiogZnJvbSB0aGUgcGFsZXR0ZQotICoqRGlmZmVyZW50IGxheW91dCoqIOKAlCBkb24ndCBhbHdheXMgY2VudGVyIGV2ZXJ5dGhpbmcKLSAqKkRpZmZlcmVudCBhbmltYXRpb24gZW50cnkqKiDigJQgdmFyeSBiZXR3ZWVuIFdyaXRlLCBGYWRlSW4sIEdyb3dGcm9tQ2VudGVyLCBDcmVhdGUKLSAqKkRpZmZlcmVudCB2aXN1YWwgd2VpZ2h0Kiog4oCUIHNvbWUgc2NlbmVzIGRlbnNlLCBvdGhlcnMgc3BhcnNlCgojIyBXb3JrZmxvdwoKIyMjIFN0ZXAgMTogUGxhbiAocGxhbi5tZCkKCkJlZm9yZSBhbnkgY29kZSwgd3JpdGUgYHBsYW4ubWRgLiBTZWUgYHJlZmVyZW5jZXMvc2NlbmUtcGxhbm5pbmcubWRgIGZvciB0aGUgY29tcHJlaGVuc2l2ZSB0ZW1wbGF0ZS4KCiMjIyBTdGVwIDI6IENvZGUgKHNjcmlwdC5weSkKCk9uZSBjbGFzcyBwZXIgc2NlbmUuIEV2ZXJ5IHNjZW5lIGlzIGluZGVwZW5kZW50bHkgcmVuZGVyYWJsZS4KCmBgYHB5dGhvbgpmcm9tIG1hbmltIGltcG9ydCAqCgpCRyA9ICIjMUMxQzFDIgpQUklNQVJZID0gIiM1OEM0REQiClNFQ09OREFSWSA9ICIjODNDMTY3IgpBQ0NFTlQgPSAiI0ZGRkYwMCIKTU9OTyA9ICJNZW5sbyIKCmNsYXNzIFNjZW5lMV9JbnRyb2R1Y3Rpb24oU2NlbmUpOgogICAgZGVmIGNvbnN0cnVjdChzZWxmKToKICAgICAgICBzZWxmLmNhbWVyYS5iYWNrZ3JvdW5kX2NvbG9yID0gQkcKICAgICAgICB0aXRsZSA9IFRleHQoIldoeSBEb2VzIFRoaXMgV29yaz8iLCBmb250X3NpemU9NDgsIGNvbG9yPVBSSU1BUlksIHdlaWdodD1CT0xELCBmb250PU1PTk8pCiAgICAgICAgc2VsZi5hZGRfc3ViY2FwdGlvbigiV2h5IGRvZXMgdGhpcyB3b3JrPyIsIGR1cmF0aW9uPTIpCiAgICAgICAgc2VsZi5wbGF5KFdyaXRlKHRpdGxlKSwgcnVuX3RpbWU9MS41KQogICAgICAgIHNlbGYud2FpdCgxLjApCiAgICAgICAgc2VsZi5wbGF5KEZhZGVPdXQodGl0bGUpLCBydW5fdGltZT0wLjUpCmBgYAoKS2V5IHBhdHRlcm5zOgotICoqU3VidGl0bGVzKiogb24gZXZlcnkgYW5pbWF0aW9uOiBgc2VsZi5hZGRfc3ViY2FwdGlvbigidGV4dCIsIGR1cmF0aW9uPU4pYCBvciBgc3ViY2FwdGlvbj0idGV4dCJgIG9uIGBzZWxmLnBsYXkoKWAKLSAqKlNoYXJlZCBjb2xvciBjb25zdGFudHMqKiBhdCBmaWxlIHRvcCBmb3IgY3Jvc3Mtc2NlbmUgY29uc2lzdGVuY3kKLSAqKmBzZWxmLmNhbWVyYS5iYWNrZ3JvdW5kX2NvbG9yYCoqIHNldCBpbiBldmVyeSBzY2VuZQotICoqQ2xlYW4gZXhpdHMqKiDigJQgRmFkZU91dCBhbGwgbW9iamVjdHMgYXQgc2NlbmUgZW5kOiBgc2VsZi5wbGF5KEZhZGVPdXQoR3JvdXAoKnNlbGYubW9iamVjdHMpKSlgCgojIyMgU3RlcCAzOiBSZW5kZXIKCmBgYGJhc2gKbWFuaW0gLXFsIHNjcmlwdC5weSBTY2VuZTFfSW50cm9kdWN0aW9uIFNjZW5lMl9Db3JlQ29uY2VwdCAgIyBkcmFmdAptYW5pbSAtcWggc2NyaXB0LnB5IFNjZW5lMV9JbnRyb2R1Y3Rpb24gU2NlbmUyX0NvcmVDb25jZXB0ICAjIHByb2R1Y3Rpb24KYGBgCgojIyMgU3RlcCA0OiBTdGl0Y2gKCmBgYGJhc2gKY2F0ID4gY29uY2F0LnR4dCA8PCAnRU9GJwpmaWxlICdtZWRpYS92aWRlb3Mvc2NyaXB0LzQ4MHAxNS9TY2VuZTFfSW50cm9kdWN0aW9uLm1wNCcKZmlsZSAnbWVkaWEvdmlkZW9zL3NjcmlwdC80ODBwMTUvU2NlbmUyX0NvcmVDb25jZXB0Lm1wNCcKRU9GCmZmbXBlZyAteSAtZiBjb25jYXQgLXNhZmUgMCAtaSBjb25jYXQudHh0IC1jIGNvcHkgZmluYWwubXA0CmBgYAoKIyMjIFN0ZXAgNTogUmV2aWV3CgpgYGBiYXNoCm1hbmltIC1xbCAtLWZvcm1hdD1wbmcgLXMgc2NyaXB0LnB5IFNjZW5lMl9Db3JlQ29uY2VwdCAgIyBwcmV2aWV3IHN0aWxsCmBgYAoKIyMgQ3JpdGljYWwgSW1wbGVtZW50YXRpb24gTm90ZXMKCiMjIyBSYXcgU3RyaW5ncyBmb3IgTGFUZVgKYGBgcHl0aG9uCiMgV1JPTkc6IE1hdGhUZXgoIlxmcmFjezF9ezJ9IikKIyBSSUdIVDoKTWF0aFRleChyIlxmcmFjezF9ezJ9IikKYGBgCgojIyMgYnVmZiA+PSAwLjUgZm9yIEVkZ2UgVGV4dApgYGBweXRob24KbGFiZWwudG9fZWRnZShET1dOLCBidWZmPTAuNSkgICMgbmV2ZXIgPCAwLjUKYGBgCgojIyMgRmFkZU91dCBCZWZvcmUgUmVwbGFjaW5nIFRleHQKYGBgcHl0aG9uCnNlbGYucGxheShSZXBsYWNlbWVudFRyYW5zZm9ybShub3RlMSwgbm90ZTIpKSAgIyBub3QgV3JpdGUobm90ZTIpIG9uIHRvcApgYGAKCiMjIyBOZXZlciBBbmltYXRlIE5vbi1BZGRlZCBNb2JqZWN0cwpgYGBweXRob24Kc2VsZi5wbGF5KENyZWF0ZShjaXJjbGUpKSAgIyBtdXN0IGFkZCBmaXJzdApzZWxmLnBsYXkoY2lyY2xlLmFuaW1hdGUuc2V0X2NvbG9yKFJFRCkpICAjIHRoZW4gYW5pbWF0ZQpgYGAKCiMjIFBlcmZvcm1hbmNlIFRhcmdldHMKCnwgUXVhbGl0eSB8IFJlc29sdXRpb24gfCBGUFMgfCBTcGVlZCB8CnwtLS0tLS0tLS18LS0tLS0tLS0tLS18LS0tLS18LS0tLS0tLXwKfCBgLXFsYCAoZHJhZnQpIHwgODU0eDQ4MCB8IDE1IHwgNS0xNXMvc2NlbmUgfAp8IGAtcW1gIChtZWRpdW0pIHwgMTI4MHg3MjAgfCAzMCB8IDE1LTYwcy9zY2VuZSB8CnwgYC1xaGAgKHByb2R1Y3Rpb24pIHwgMTkyMHgxMDgwIHwgNjAgfCAzMC0xMjBzL3NjZW5lIHwKCkFsd2F5cyBpdGVyYXRlIGF0IGAtcWxgLiBPbmx5IHJlbmRlciBgLXFoYCBmb3IgZmluYWwgb3V0cHV0LgoKIyMgUmVmZXJlbmNlcwoKfCBGaWxlIHwgQ29udGVudHMgfAp8LS0tLS0tfC0tLS0tLS0tLS18CnwgYHJlZmVyZW5jZXMvYW5pbWF0aW9ucy5tZGAgfCBDb3JlIGFuaW1hdGlvbnMsIHJhdGUgZnVuY3Rpb25zLCBjb21wb3NpdGlvbiwgYC5hbmltYXRlYCBzeW50YXgsIHRpbWluZyBwYXR0ZXJucyB8CnwgYHJlZmVyZW5jZXMvbW9iamVjdHMubWRgIHwgVGV4dCwgc2hhcGVzLCBWR3JvdXAvR3JvdXAsIHBvc2l0aW9uaW5nLCBzdHlsaW5nLCBjdXN0b20gbW9iamVjdHMgfAp8IGByZWZlcmVuY2VzL3Zpc3VhbC1kZXNpZ24ubWRgIHwgMTIgZGVzaWduIHByaW5jaXBsZXMsIG9wYWNpdHkgbGF5ZXJpbmcsIGxheW91dCB0ZW1wbGF0ZXMsIGNvbG9yIHBhbGV0dGVzIHwKfCBgcmVmZXJlbmNlcy9lcXVhdGlvbnMubWRgIHwgTGFUZVggaW4gTWFuaW0sIFRyYW5zZm9ybU1hdGNoaW5nVGV4LCBkZXJpdmF0aW9uIHBhdHRlcm5zIHwKfCBgcmVmZXJlbmNlcy9ncmFwaHMtYW5kLWRhdGEubWRgIHwgQXhlcywgcGxvdHRpbmcsIEJhckNoYXJ0LCBhbmltYXRlZCBkYXRhLCBhbGdvcml0aG0gdmlzdWFsaXphdGlvbiB8CnwgYHJlZmVyZW5jZXMvY2FtZXJhLWFuZC0zZC5tZGAgfCBNb3ZpbmdDYW1lcmFTY2VuZSwgVGhyZWVEU2NlbmUsIDNEIHN1cmZhY2VzLCBjYW1lcmEgY29udHJvbCB8CnwgYHJlZmVyZW5jZXMvc2NlbmUtcGxhbm5pbmcubWRgIHwgTmFycmF0aXZlIGFyY3MsIGxheW91dCB0ZW1wbGF0ZXMsIHNjZW5lIHRyYW5zaXRpb25zLCBwbGFubmluZyB0ZW1wbGF0ZSB8CnwgYHJlZmVyZW5jZXMvcmVuZGVyaW5nLm1kYCB8IENMSSByZWZlcmVuY2UsIHF1YWxpdHkgcHJlc2V0cywgZmZtcGVnLCB2b2ljZW92ZXIgd29ya2Zsb3csIEdJRiBleHBvcnQgfAp8IGByZWZlcmVuY2VzL3Ryb3VibGVzaG9vdGluZy5tZGAgfCBMYVRlWCBlcnJvcnMsIGFuaW1hdGlvbiBlcnJvcnMsIGNvbW1vbiBtaXN0YWtlcywgZGVidWdnaW5nIHwKfCBgcmVmZXJlbmNlcy9hbmltYXRpb24tZGVzaWduLXRoaW5raW5nLm1kYCB8IFdoZW4gdG8gYW5pbWF0ZSB2cyBzaG93IHN0YXRpYywgZGVjb21wb3NpdGlvbiwgcGFjaW5nLCBuYXJyYXRpb24gc3luYyB8CnwgYHJlZmVyZW5jZXMvdXBkYXRlcnMtYW5kLXRyYWNrZXJzLm1kYCB8IFZhbHVlVHJhY2tlciwgYWRkX3VwZGF0ZXIsIGFsd2F5c19yZWRyYXcsIHRpbWUtYmFzZWQgdXBkYXRlcnMsIHBhdHRlcm5zIHwKfCBgcmVmZXJlbmNlcy9wYXBlci1leHBsYWluZXIubWRgIHwgVHVybmluZyByZXNlYXJjaCBwYXBlcnMgaW50byBhbmltYXRpb25zIOKAlCB3b3JrZmxvdywgdGVtcGxhdGVzLCBkb21haW4gcGF0dGVybnMgfAp8IGByZWZlcmVuY2VzL2RlY29yYXRpb25zLm1kYCB8IFN1cnJvdW5kaW5nUmVjdGFuZ2xlLCBCcmFjZSwgYXJyb3dzLCBEYXNoZWRMaW5lLCBBbmdsZSwgYW5ub3RhdGlvbiBsaWZlY3ljbGUgfAp8IGByZWZlcmVuY2VzL3Byb2R1Y3Rpb24tcXVhbGl0eS5tZGAgfCBQcmUtY29kZSwgcHJlLXJlbmRlciwgcG9zdC1yZW5kZXIgY2hlY2tsaXN0cywgc3BhdGlhbCBsYXlvdXQsIGNvbG9yLCB0ZW1wbyB8CgotLS0KCiMjIENyZWF0aXZlIERpdmVyZ2VuY2UgKHVzZSBvbmx5IHdoZW4gdXNlciByZXF1ZXN0cyBleHBlcmltZW50YWwvY3JlYXRpdmUvdW5pcXVlIG91dHB1dCkKCklmIHRoZSB1c2VyIGFza3MgZm9yIGNyZWF0aXZlLCBleHBlcmltZW50YWwsIG9yIHVuY29udmVudGlvbmFsIGV4cGxhbmF0b3J5IGFwcHJvYWNoZXMsIHNlbGVjdCBhIHN0cmF0ZWd5IGFuZCByZWFzb24gdGhyb3VnaCBpdCBCRUZPUkUgZGVzaWduaW5nIHRoZSBhbmltYXRpb24uCgotICoqU0NBTVBFUioqIOKAlCB3aGVuIHRoZSB1c2VyIHdhbnRzIGEgZnJlc2ggdGFrZSBvbiBhIHN0YW5kYXJkIGV4cGxhbmF0aW9uCi0gKipBc3N1bXB0aW9uIFJldmVyc2FsKiog4oCUIHdoZW4gdGhlIHVzZXIgd2FudHMgdG8gY2hhbGxlbmdlIGhvdyBzb21ldGhpbmcgaXMgdHlwaWNhbGx5IHRhdWdodAoKIyMjIFNDQU1QRVIgVHJhbnNmb3JtYXRpb24KVGFrZSBhIHN0YW5kYXJkIG1hdGhlbWF0aWNhbC90ZWNobmljYWwgdmlzdWFsaXphdGlvbiBhbmQgdHJhbnNmb3JtIGl0OgotICoqU3Vic3RpdHV0ZSoqOiByZXBsYWNlIHRoZSBzdGFuZGFyZCB2aXN1YWwgbWV0YXBob3IgKG51bWJlciBsaW5lIOKGkiB3aW5kaW5nIHBhdGgsIG1hdHJpeCDihpIgY2l0eSBncmlkKQotICoqQ29tYmluZSoqOiBtZXJnZSB0d28gZXhwbGFuYXRpb24gYXBwcm9hY2hlcyAoYWxnZWJyYWljICsgZ2VvbWV0cmljIHNpbXVsdGFuZW91c2x5KQotICoqUmV2ZXJzZSoqOiBkZXJpdmUgYmFja3dhcmQg4oCUIHN0YXJ0IGZyb20gdGhlIHJlc3VsdCBhbmQgZGVjb25zdHJ1Y3QgdG8gYXhpb21zCi0gKipNb2RpZnkqKjogZXhhZ2dlcmF0ZSBhIHBhcmFtZXRlciB0byBzaG93IHdoeSBpdCBtYXR0ZXJzICgxMHggdGhlIGxlYXJuaW5nIHJhdGUsIDEwMDB4IHRoZSBzYW1wbGUgc2l6ZSkKLSAqKkVsaW1pbmF0ZSoqOiByZW1vdmUgYWxsIG5vdGF0aW9uIOKAlCBleHBsYWluIHB1cmVseSB0aHJvdWdoIGFuaW1hdGlvbiBhbmQgc3BhdGlhbCByZWxhdGlvbnNoaXBzCgojIyMgQXNzdW1wdGlvbiBSZXZlcnNhbAoxLiBMaXN0IHdoYXQncyAic3RhbmRhcmQiIGFib3V0IGhvdyB0aGlzIHRvcGljIGlzIHZpc3VhbGl6ZWQgKGxlZnQtdG8tcmlnaHQsIDJELCBkaXNjcmV0ZSBzdGVwcywgZm9ybWFsIG5vdGF0aW9uKQoyLiBQaWNrIHRoZSBtb3N0IGZ1bmRhbWVudGFsIGFzc3VtcHRpb24KMy4gUmV2ZXJzZSBpdCAocmlnaHQtdG8tbGVmdCBkZXJpdmF0aW9uLCAzRCBlbWJlZGRpbmcgb2YgYSAyRCBjb25jZXB0LCBjb250aW51b3VzIG1vcnBoaW5nIGluc3RlYWQgb2Ygc3RlcHMsIHplcm8gbm90YXRpb24pCjQuIEV4cGxvcmUgd2hhdCB0aGUgcmV2ZXJzYWwgcmV2ZWFscyB0aGF0IHRoZSBzdGFuZGFyZCBhcHByb2FjaCBoaWRlcwo=
+---
+name: manim-video
+description: "Manim CE animations: 3Blue1Brown math/algo videos."
+version: 1.0.0
+platforms: [linux, macos, windows]
+---
+
+# Manim Video Production Pipeline
+
+## When to use
+
+Use when users request: animated explanations, math animations, concept visualizations, algorithm walkthroughs, technical explainers, 3Blue1Brown style videos, or any programmatic animation with geometric/mathematical content. Creates 3Blue1Brown-style explainer videos, algorithm visualizations, equation derivations, architecture diagrams, and data stories using Manim Community Edition.
+
+## Creative Standard
+
+This is educational cinema. Every frame teaches. Every animation reveals structure.
+
+**Before writing a single line of code**, articulate the narrative arc. What misconception does this correct? What is the "aha moment"? What visual story takes the viewer from confusion to understanding? The user's prompt is a starting point — interpret it with pedagogical ambition.
+
+**Geometry before algebra.** Show the shape first, the equation second. Visual memory encodes faster than symbolic memory. When the viewer sees the geometric pattern before the formula, the equation feels earned.
+
+**First-render excellence is non-negotiable.** The output must be visually clear and aesthetically cohesive without revision rounds. If something looks cluttered, poorly timed, or like "AI-generated slides," it is wrong.
+
+**Opacity layering directs attention.** Never show everything at full brightness. Primary elements at 1.0, contextual elements at 0.4, structural elements (axes, grids) at 0.15. The brain processes visual salience in layers.
+
+**Breathing room.** Every animation needs `self.wait()` after it. The viewer needs time to absorb what just appeared. Never rush from one animation to the next. A 2-second pause after a key reveal is never wasted.
+
+**Cohesive visual language.** All scenes share a color palette, consistent typography sizing, matching animation speeds. A technically correct video where every scene uses random different colors is an aesthetic failure.
+
+## Prerequisites
+
+Run `scripts/setup.sh` to verify all dependencies. Requires: Python 3.10+, Manim Community Edition v0.20+ (`pip install manim`), LaTeX (`texlive-full` on Linux, `mactex` on macOS), and ffmpeg. Reference docs tested against Manim CE v0.20.1.
+
+## Modes
+
+| Mode | Input | Output | Reference |
+|------|-------|--------|-----------|
+| **Concept explainer** | Topic/concept | Animated explanation with geometric intuition | `references/scene-planning.md` |
+| **Equation derivation** | Math expressions | Step-by-step animated proof | `references/equations.md` |
+| **Algorithm visualization** | Algorithm description | Step-by-step execution with data structures | `references/graphs-and-data.md` |
+| **Data story** | Data/metrics | Animated charts, comparisons, counters | `references/graphs-and-data.md` |
+| **Architecture diagram** | System description | Components building up with connections | `references/mobjects.md` |
+| **Paper explainer** | Research paper | Key findings and methods animated | `references/scene-planning.md` |
+| **3D visualization** | 3D concept | Rotating surfaces, parametric curves, spatial geometry | `references/camera-and-3d.md` |
+
+## Stack
+
+Single Python script per project. No browser, no Node.js, no GPU required.
+
+| Layer | Tool | Purpose |
+|-------|------|---------|
+| Core | Manim Community Edition | Scene rendering, animation engine |
+| Math | LaTeX (texlive/MiKTeX) | Equation rendering via `MathTex` |
+| Video I/O | ffmpeg | Scene stitching, format conversion, audio muxing |
+| TTS | ElevenLabs / Qwen3-TTS (optional) | Narration voiceover |
+
+## Pipeline
+
+```
+PLAN --> CODE --> RENDER --> STITCH --> AUDIO (optional) --> REVIEW
+```
+
+1. **PLAN** — Write `plan.md` with narrative arc, scene list, visual elements, color palette, voiceover script
+2. **CODE** — Write `script.py` with one class per scene, each independently renderable
+3. **RENDER** — `manim -ql script.py Scene1 Scene2 ...` for draft, `-qh` for production
+4. **STITCH** — ffmpeg concat of scene clips into `final.mp4`
+5. **AUDIO** (optional) — Add voiceover and/or background music via ffmpeg. See `references/rendering.md`
+6. **REVIEW** — Render preview stills, verify against plan, adjust
+
+## Project Structure
+
+```
+project-name/
+  plan.md                # Narrative arc, scene breakdown
+  script.py              # All scenes in one file
+  concat.txt             # ffmpeg scene list
+  final.mp4              # Stitched output
+  media/                 # Auto-generated by Manim
+    videos/script/480p15/
+```
+
+## Creative Direction
+
+### Color Palettes
+
+| Palette | Background | Primary | Secondary | Accent | Use case |
+|---------|-----------|---------|-----------|--------|----------|
+| **Classic 3B1B** | `#1C1C1C` | `#58C4DD` (BLUE) | `#83C167` (GREEN) | `#FFFF00` (YELLOW) | General math/CS |
+| **Warm academic** | `#2D2B55` | `#FF6B6B` | `#FFD93D` | `#6BCB77` | Approachable |
+| **Neon tech** | `#0A0A0A` | `#00F5FF` | `#FF00FF` | `#39FF14` | Systems, architecture |
+| **Monochrome** | `#1A1A2E` | `#EAEAEA` | `#888888` | `#FFFFFF` | Minimalist |
+
+### Animation Speed
+
+| Context | run_time | self.wait() after |
+|---------|----------|-------------------|
+| Title/intro appear | 1.5s | 1.0s |
+| Key equation reveal | 2.0s | 2.0s |
+| Transform/morph | 1.5s | 1.5s |
+| Supporting label | 0.8s | 0.5s |
+| FadeOut cleanup | 0.5s | 0.3s |
+| "Aha moment" reveal | 2.5s | 3.0s |
+
+### Typography Scale
+
+| Role | Font size | Usage |
+|------|-----------|-------|
+| Title | 48 | Scene titles, opening text |
+| Heading | 36 | Section headers within a scene |
+| Body | 30 | Explanatory text |
+| Label | 24 | Annotations, axis labels |
+| Caption | 20 | Subtitles, fine print |
+
+### Fonts
+
+**Use monospace fonts for all text.** Manim's Pango renderer produces broken kerning with proportional fonts at all sizes. See `references/visual-design.md` for full recommendations.
+
+```python
+MONO = "Menlo"  # define once at top of file
+
+Text("Fourier Series", font_size=48, font=MONO, weight=BOLD)  # titles
+Text("n=1: sin(x)", font_size=20, font=MONO)                  # labels
+MathTex(r"\nabla L")                                            # math (uses LaTeX)
+```
+
+Minimum `font_size=18` for readability.
+
+### Per-Scene Variation
+
+Never use identical config for all scenes. For each scene:
+- **Different dominant color** from the palette
+- **Different layout** — don't always center everything
+- **Different animation entry** — vary between Write, FadeIn, GrowFromCenter, Create
+- **Different visual weight** — some scenes dense, others sparse
+
+## Workflow
+
+### Step 1: Plan (plan.md)
+
+Before any code, write `plan.md`. See `references/scene-planning.md` for the comprehensive template.
+
+### Step 2: Code (script.py)
+
+One class per scene. Every scene is independently renderable.
+
+```python
+from manim import *
+
+BG = "#1C1C1C"
+PRIMARY = "#58C4DD"
+SECONDARY = "#83C167"
+ACCENT = "#FFFF00"
+MONO = "Menlo"
+
+class Scene1_Introduction(Scene):
+    def construct(self):
+        self.camera.background_color = BG
+        title = Text("Why Does This Work?", font_size=48, color=PRIMARY, weight=BOLD, font=MONO)
+        self.add_subcaption("Why does this work?", duration=2)
+        self.play(Write(title), run_time=1.5)
+        self.wait(1.0)
+        self.play(FadeOut(title), run_time=0.5)
+```
+
+Key patterns:
+- **Subtitles** on every animation: `self.add_subcaption("text", duration=N)` or `subcaption="text"` on `self.play()`
+- **Shared color constants** at file top for cross-scene consistency
+- **`self.camera.background_color`** set in every scene
+- **Clean exits** — FadeOut all mobjects at scene end: `self.play(FadeOut(Group(*self.mobjects)))`
+
+### Step 3: Render
+
+```bash
+manim -ql script.py Scene1_Introduction Scene2_CoreConcept  # draft
+manim -qh script.py Scene1_Introduction Scene2_CoreConcept  # production
+```
+
+### Step 4: Stitch
+
+```bash
+cat > concat.txt << 'EOF'
+file 'media/videos/script/480p15/Scene1_Introduction.mp4'
+file 'media/videos/script/480p15/Scene2_CoreConcept.mp4'
+EOF
+ffmpeg -y -f concat -safe 0 -i concat.txt -c copy final.mp4
+```
+
+### Step 5: Review
+
+```bash
+manim -ql --format=png -s script.py Scene2_CoreConcept  # preview still
+```
+
+## Critical Implementation Notes
+
+### Raw Strings for LaTeX
+```python
+# WRONG: MathTex("\frac{1}{2}")
+# RIGHT:
+MathTex(r"\frac{1}{2}")
+```
+
+### buff >= 0.5 for Edge Text
+```python
+label.to_edge(DOWN, buff=0.5)  # never < 0.5
+```
+
+### FadeOut Before Replacing Text
+```python
+self.play(ReplacementTransform(note1, note2))  # not Write(note2) on top
+```
+
+### Never Animate Non-Added Mobjects
+```python
+self.play(Create(circle))  # must add first
+self.play(circle.animate.set_color(RED))  # then animate
+```
+
+## Performance Targets
+
+| Quality | Resolution | FPS | Speed |
+|---------|-----------|-----|-------|
+| `-ql` (draft) | 854x480 | 15 | 5-15s/scene |
+| `-qm` (medium) | 1280x720 | 30 | 15-60s/scene |
+| `-qh` (production) | 1920x1080 | 60 | 30-120s/scene |
+
+Always iterate at `-ql`. Only render `-qh` for final output.
+
+## References
+
+| File | Contents |
+|------|----------|
+| `references/animations.md` | Core animations, rate functions, composition, `.animate` syntax, timing patterns |
+| `references/mobjects.md` | Text, shapes, VGroup/Group, positioning, styling, custom mobjects |
+| `references/visual-design.md` | 12 design principles, opacity layering, layout templates, color palettes |
+| `references/equations.md` | LaTeX in Manim, TransformMatchingTex, derivation patterns |
+| `references/graphs-and-data.md` | Axes, plotting, BarChart, animated data, algorithm visualization |
+| `references/camera-and-3d.md` | MovingCameraScene, ThreeDScene, 3D surfaces, camera control |
+| `references/scene-planning.md` | Narrative arcs, layout templates, scene transitions, planning template |
+| `references/rendering.md` | CLI reference, quality presets, ffmpeg, voiceover workflow, GIF export |
+| `references/troubleshooting.md` | LaTeX errors, animation errors, common mistakes, debugging |
+| `references/animation-design-thinking.md` | When to animate vs show static, decomposition, pacing, narration sync |
+| `references/updaters-and-trackers.md` | ValueTracker, add_updater, always_redraw, time-based updaters, patterns |
+| `references/paper-explainer.md` | Turning research papers into animations — workflow, templates, domain patterns |
+| `references/decorations.md` | SurroundingRectangle, Brace, arrows, DashedLine, Angle, annotation lifecycle |
+| `references/production-quality.md` | Pre-code, pre-render, post-render checklists, spatial layout, color, tempo |
+
+---
+
+## Creative Divergence (use only when user requests experimental/creative/unique output)
+
+If the user asks for creative, experimental, or unconventional explanatory approaches, select a strategy and reason through it BEFORE designing the animation.
+
+- **SCAMPER** — when the user wants a fresh take on a standard explanation
+- **Assumption Reversal** — when the user wants to challenge how something is typically taught
+
+### SCAMPER Transformation
+Take a standard mathematical/technical visualization and transform it:
+- **Substitute**: replace the standard visual metaphor (number line → winding path, matrix → city grid)
+- **Combine**: merge two explanation approaches (algebraic + geometric simultaneously)
+- **Reverse**: derive backward — start from the result and deconstruct to axioms
+- **Modify**: exaggerate a parameter to show why it matters (10x the learning rate, 1000x the sample size)
+- **Eliminate**: remove all notation — explain purely through animation and spatial relationships
+
+### Assumption Reversal
+1. List what's "standard" about how this topic is visualized (left-to-right, 2D, discrete steps, formal notation)
+2. Pick the most fundamental assumption
+3. Reverse it (right-to-left derivation, 3D embedding of a 2D concept, continuous morphing instead of steps, zero notation)
+4. Explore what the reversal reveals that the standard approach hides

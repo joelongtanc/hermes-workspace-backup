@@ -1,1 +1,29 @@
-IyBsZWdvLWJyaWNrCgpUb3kgYnJpY2sgY29uc3RydWN0aW9uIHdpdGggcGxheWZ1bCBhZXN0aGV0aWMKCiMjIENvbG9yIFBhbGV0dGUKCi0gUHJpbWFyeTogQ2xhc3NpYyBMRUdPIGNvbG9ycyAtIHJlZCwgYmx1ZSwgeWVsbG93LCBncmVlbiwgd2hpdGUKLSBCYWNrZ3JvdW5kOiBMaWdodCBncmF5IGJhc2VwbGF0ZSBvciB3aGl0ZQotIEFjY2VudHM6IEJyaWdodCBwcmltYXJ5IHBvcHMsIHNoaW55IHN0dWRzCgojIyBWaXN1YWwgRWxlbWVudHMKCi0gVmlzaWJsZSBicmljayBzdHVkcwotIE1vZHVsYXIgY29uc3RydWN0aW9uCi0gTWluaWZpZ3VyZSBjaGFyYWN0ZXJzCi0gQnVpbGRpbmcgaW5zdHJ1Y3Rpb24gc3R5bGUKLSBTdGFja2FibGUgZWxlbWVudHMKLSBQbGFzdGljIHNoZWVuCgojIyBUeXBvZ3JhcGh5CgotIEJsb2NreSwgYm9sZCBmb250cwotIExFR08gaW5zdHJ1Y3Rpb24gc3R5bGUKLSBTdGVwIG51bWJlcnMKLSBQbGF5ZnVsIGFwcGVhcmFuY2UKCiMjIEJlc3QgRm9yCgpCdWlsZGluZyBjb25jZXB0cywgbW9kdWxhciBzeXN0ZW1zLCBwbGF5ZnVsIGVkdWNhdGlvbiwgY2hpbGRyZW4ncyBjb250ZW50Cg==
+# lego-brick
+
+Toy brick construction with playful aesthetic
+
+## Color Palette
+
+- Primary: Classic LEGO colors - red, blue, yellow, green, white
+- Background: Light gray baseplate or white
+- Accents: Bright primary pops, shiny studs
+
+## Visual Elements
+
+- Visible brick studs
+- Modular construction
+- Minifigure characters
+- Building instruction style
+- Stackable elements
+- Plastic sheen
+
+## Typography
+
+- Blocky, bold fonts
+- LEGO instruction style
+- Step numbers
+- Playful appearance
+
+## Best For
+
+Building concepts, modular systems, playful education, children's content

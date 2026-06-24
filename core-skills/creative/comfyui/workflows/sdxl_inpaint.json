@@ -1,1 +1,59 @@
-ewogICJfY29tbWVudCI6ICJTRFhMIGlucGFpbnRpbmc6IGdpdmVuIGFuIGltYWdlICsgbWFzaywgcmVnZW5lcmF0ZSB0aGUgbWFza2VkIHJlZ2lvbi4gVXBsb2FkIGJvdGg6IC0taW5wdXQtaW1hZ2UgaW1hZ2U9Li9waG90by5wbmcgLS1pbnB1dC1pbWFnZSBtYXNrX2ltYWdlPS4vbWFzay5wbmcuIFdoaXRlIHBpeGVscyBpbiBtYXNrID0gcmVnZW5lcmF0ZTsgYmxhY2sgPSBwcmVzZXJ2ZS4iLAogICIxIjogewogICAgImNsYXNzX3R5cGUiOiAiTG9hZEltYWdlIiwKICAgICJfbWV0YSI6IHsidGl0bGUiOiAiTG9hZCBTb3VyY2UifSwKICAgICJpbnB1dHMiOiB7ImltYWdlIjogIlJFUExBQ0VfV0lUSF9VUExPQURFRF9GSUxFTkFNRS5wbmcifQogIH0sCiAgIjIiOiB7CiAgICAiY2xhc3NfdHlwZSI6ICJMb2FkSW1hZ2VNYXNrIiwKICAgICJfbWV0YSI6IHsidGl0bGUiOiAiTG9hZCBNYXNrIn0sCiAgICAiaW5wdXRzIjogeyJpbWFnZSI6ICJSRVBMQUNFX1dJVEhfVVBMT0FERURfTUFTSy5wbmciLCAiY2hhbm5lbCI6ICJyZWQifQogIH0sCiAgIjMiOiB7CiAgICAiY2xhc3NfdHlwZSI6ICJLU2FtcGxlciIsCiAgICAiX21ldGEiOiB7InRpdGxlIjogIktTYW1wbGVyIn0sCiAgICAiaW5wdXRzIjogewogICAgICAic2VlZCI6IDQyLAogICAgICAic3RlcHMiOiAzMCwKICAgICAgImNmZyI6IDcuNSwKICAgICAgInNhbXBsZXJfbmFtZSI6ICJkcG1wcF8ybSIsCiAgICAgICJzY2hlZHVsZXIiOiAia2FycmFzIiwKICAgICAgImRlbm9pc2UiOiAxLjAsCiAgICAgICJtb2RlbCI6IFsiNCIsIDBdLAogICAgICAicG9zaXRpdmUiOiBbIjYiLCAwXSwKICAgICAgIm5lZ2F0aXZlIjogWyI3IiwgMF0sCiAgICAgICJsYXRlbnRfaW1hZ2UiOiBbIjEyIiwgMF0KICAgIH0KICB9LAogICI0IjogewogICAgImNsYXNzX3R5cGUiOiAiQ2hlY2twb2ludExvYWRlclNpbXBsZSIsCiAgICAiX21ldGEiOiB7InRpdGxlIjogIkNoZWNrcG9pbnQifSwKICAgICJpbnB1dHMiOiB7ImNrcHRfbmFtZSI6ICJzZF94bF9iYXNlXzEuMC5zYWZldGVuc29ycyJ9CiAgfSwKICAiNiI6IHsKICAgICJjbGFzc190eXBlIjogIkNMSVBUZXh0RW5jb2RlIiwKICAgICJfbWV0YSI6IHsidGl0bGUiOiAiUG9zaXRpdmUgUHJvbXB0In0sCiAgICAiaW5wdXRzIjogeyJ0ZXh0IjogImZpbGwgd2l0aCBibG9vbWluZyBmbG93ZXJzLCBwaG90b3JlYWxpc3RpYyIsICJjbGlwIjogWyI0IiwgMV19CiAgfSwKICAiNyI6IHsKICAgICJjbGFzc190eXBlIjogIkNMSVBUZXh0RW5jb2RlIiwKICAgICJfbWV0YSI6IHsidGl0bGUiOiAiTmVnYXRpdmUgUHJvbXB0In0sCiAgICAiaW5wdXRzIjogeyJ0ZXh0IjogInVnbHksIGJsdXJyeSwgZGVmb3JtZWQsIGJhZCBhbmF0b215IiwgImNsaXAiOiBbIjQiLCAxXX0KICB9LAogICI4IjogewogICAgImNsYXNzX3R5cGUiOiAiVkFFRGVjb2RlIiwKICAgICJfbWV0YSI6IHsidGl0bGUiOiAiVkFFIERlY29kZSJ9LAogICAgImlucHV0cyI6IHsic2FtcGxlcyI6IFsiMyIsIDBdLCAidmFlIjogWyI0IiwgMl19CiAgfSwKICAiOSI6IHsKICAgICJjbGFzc190eXBlIjogIlNhdmVJbWFnZSIsCiAgICAiX21ldGEiOiB7InRpdGxlIjogIlNhdmUifSwKICAgICJpbnB1dHMiOiB7ImZpbGVuYW1lX3ByZWZpeCI6ICJzZHhsX2lucGFpbnQiLCAiaW1hZ2VzIjogWyI4IiwgMF19CiAgfSwKICAiMTIiOiB7CiAgICAiY2xhc3NfdHlwZSI6ICJWQUVFbmNvZGVGb3JJbnBhaW50IiwKICAgICJfbWV0YSI6IHsidGl0bGUiOiAiVkFFIEVuY29kZSBmb3IgSW5wYWludCJ9LAogICAgImlucHV0cyI6IHsicGl4ZWxzIjogWyIxIiwgMF0sICJtYXNrIjogWyIyIiwgMF0sICJ2YWUiOiBbIjQiLCAyXSwgImdyb3dfbWFza19ieSI6IDZ9CiAgfQp9Cg==
+{
+  "_comment": "SDXL inpainting: given an image + mask, regenerate the masked region. Upload both: --input-image image=./photo.png --input-image mask_image=./mask.png. White pixels in mask = regenerate; black = preserve.",
+  "1": {
+    "class_type": "LoadImage",
+    "_meta": {"title": "Load Source"},
+    "inputs": {"image": "REPLACE_WITH_UPLOADED_FILENAME.png"}
+  },
+  "2": {
+    "class_type": "LoadImageMask",
+    "_meta": {"title": "Load Mask"},
+    "inputs": {"image": "REPLACE_WITH_UPLOADED_MASK.png", "channel": "red"}
+  },
+  "3": {
+    "class_type": "KSampler",
+    "_meta": {"title": "KSampler"},
+    "inputs": {
+      "seed": 42,
+      "steps": 30,
+      "cfg": 7.5,
+      "sampler_name": "dpmpp_2m",
+      "scheduler": "karras",
+      "denoise": 1.0,
+      "model": ["4", 0],
+      "positive": ["6", 0],
+      "negative": ["7", 0],
+      "latent_image": ["12", 0]
+    }
+  },
+  "4": {
+    "class_type": "CheckpointLoaderSimple",
+    "_meta": {"title": "Checkpoint"},
+    "inputs": {"ckpt_name": "sd_xl_base_1.0.safetensors"}
+  },
+  "6": {
+    "class_type": "CLIPTextEncode",
+    "_meta": {"title": "Positive Prompt"},
+    "inputs": {"text": "fill with blooming flowers, photorealistic", "clip": ["4", 1]}
+  },
+  "7": {
+    "class_type": "CLIPTextEncode",
+    "_meta": {"title": "Negative Prompt"},
+    "inputs": {"text": "ugly, blurry, deformed, bad anatomy", "clip": ["4", 1]}
+  },
+  "8": {
+    "class_type": "VAEDecode",
+    "_meta": {"title": "VAE Decode"},
+    "inputs": {"samples": ["3", 0], "vae": ["4", 2]}
+  },
+  "9": {
+    "class_type": "SaveImage",
+    "_meta": {"title": "Save"},
+    "inputs": {"filename_prefix": "sdxl_inpaint", "images": ["8", 0]}
+  },
+  "12": {
+    "class_type": "VAEEncodeForInpaint",
+    "_meta": {"title": "VAE Encode for Inpaint"},
+    "inputs": {"pixels": ["1", 0], "mask": ["2", 0], "vae": ["4", 2], "grow_mask_by": 6}
+  }
+}

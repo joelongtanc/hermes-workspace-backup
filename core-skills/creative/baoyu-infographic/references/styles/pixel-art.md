@@ -1,1 +1,29 @@
-IyBwaXhlbC1hcnQKClJldHJvIDgtYml0IGdhbWluZyBhZXN0aGV0aWMKCiMjIENvbG9yIFBhbGV0dGUKCi0gUHJpbWFyeTogTGltaXRlZCBwYWxldHRlIC0gTkVTL1NORVMgY29sb3JzCi0gQmFja2dyb3VuZDogQmxhY2sgb3IgZGFyayBibHVlLCBzY2FubGluZXMgb3B0aW9uYWwKLSBBY2NlbnRzOiBCcmlnaHQgcGl4ZWwgaGlnaGxpZ2h0cywgQ1JUIGdsb3cKCiMjIFZpc3VhbCBFbGVtZW50cwoKLSBWaXNpYmxlIHBpeGVsIGdyaWQKLSBMaW1pdGVkIGNvbG9yIGNvdW50IHBlciBzcHJpdGUKLSA4LWJpdCBvciAxNi1iaXQgc3R5bGUKLSBSZXRybyBnYW1lIFVJIGVsZW1lbnRzCi0gUGl4ZWwtcGVyZmVjdCBlZGdlcwotIERpdGhlcmluZyBmb3IgZ3JhZGllbnRzCgojIyBUeXBvZ3JhcGh5CgotIFBpeGVsIGZvbnRzCi0gQmxvY2t5IGxldHRlcmZvcm1zCi0gR2FtZSBVSSBzdHlsZSB0ZXh0Ci0gU2NvcmUvc3RhdCBkaXNwbGF5IHN0eWxlCgojIyBCZXN0IEZvcgoKR2FtaW5nIHRvcGljcywgbm9zdGFsZ2lhIGNvbnRlbnQsIGRldmVsb3BlciBhdWRpZW5jZXMsIHJldHJvIHRlY2ggdGhlbWVzCg==
+# pixel-art
+
+Retro 8-bit gaming aesthetic
+
+## Color Palette
+
+- Primary: Limited palette - NES/SNES colors
+- Background: Black or dark blue, scanlines optional
+- Accents: Bright pixel highlights, CRT glow
+
+## Visual Elements
+
+- Visible pixel grid
+- Limited color count per sprite
+- 8-bit or 16-bit style
+- Retro game UI elements
+- Pixel-perfect edges
+- Dithering for gradients
+
+## Typography
+
+- Pixel fonts
+- Blocky letterforms
+- Game UI style text
+- Score/stat display style
+
+## Best For
+
+Gaming topics, nostalgia content, developer audiences, retro tech themes

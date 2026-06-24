@@ -1,1 +1,237 @@
-LS0tCm5hbWU6IGJhb3l1LWluZm9ncmFwaGljCmRlc2NyaXB0aW9uOiAiSW5mb2dyYXBoaWNzOiAyMSBsYXlvdXRzIHggMjEgc3R5bGVzICjkv6Hmga/lm74sIOWPr+inhuWMlikuIgp2ZXJzaW9uOiAxLjU2LjEKYXV0aG9yOiDlrp3njokgKEppbUxpdSkKbGljZW5zZTogTUlUCnBsYXRmb3JtczogW2xpbnV4LCBtYWNvcywgd2luZG93c10KbWV0YWRhdGE6CiAgaGVybWVzOgogICAgdGFnczogW2luZm9ncmFwaGljLCB2aXN1YWwtc3VtbWFyeSwgY3JlYXRpdmUsIGltYWdlLWdlbmVyYXRpb25dCiAgICBob21lcGFnZTogaHR0cHM6Ly9naXRodWIuY29tL0ppbUxpdS9iYW95dS1za2lsbHMjYmFveXUtaW5mb2dyYXBoaWMKLS0tCgojIEluZm9ncmFwaGljIEdlbmVyYXRvcgoKQWRhcHRlZCBmcm9tIFtiYW95dS1pbmZvZ3JhcGhpY10oaHR0cHM6Ly9naXRodWIuY29tL0ppbUxpdS9iYW95dS1za2lsbHMpIGZvciBIZXJtZXMgQWdlbnQncyB0b29sIGVjb3N5c3RlbS4KClR3byBkaW1lbnNpb25zOiAqKmxheW91dCoqIChpbmZvcm1hdGlvbiBzdHJ1Y3R1cmUpIMOXICoqc3R5bGUqKiAodmlzdWFsIGFlc3RoZXRpY3MpLiBGcmVlbHkgY29tYmluZSBhbnkgbGF5b3V0IHdpdGggYW55IHN0eWxlLgoKIyMgV2hlbiB0byBVc2UKClRyaWdnZXIgdGhpcyBza2lsbCB3aGVuIHRoZSB1c2VyIGFza3MgdG8gY3JlYXRlIGFuIGluZm9ncmFwaGljLCB2aXN1YWwgc3VtbWFyeSwgaW5mb3JtYXRpb24gZ3JhcGhpYywgb3IgdXNlcyB0ZXJtcyBsaWtlICLkv6Hmga/lm74iLCAi5Y+v6KeG5YyWIiwgb3IgIumrmOWvhuW6puS/oeaBr+Wkp+WbviIuIFRoZSB1c2VyIHByb3ZpZGVzIGNvbnRlbnQgKHRleHQsIGZpbGUgcGF0aCwgVVJMLCBvciB0b3BpYykgYW5kIG9wdGlvbmFsbHkgc3BlY2lmaWVzIGxheW91dCwgc3R5bGUsIGFzcGVjdCByYXRpbywgb3IgbGFuZ3VhZ2UuCgojIyBPcHRpb25zCgp8IE9wdGlvbiB8IFZhbHVlcyB8CnwtLS0tLS0tLXwtLS0tLS0tLXwKfCBMYXlvdXQgfCAyMSBvcHRpb25zIChzZWUgTGF5b3V0IEdhbGxlcnkpLCBkZWZhdWx0OiBiZW50by1ncmlkIHwKfCBTdHlsZSB8IDIxIG9wdGlvbnMgKHNlZSBTdHlsZSBHYWxsZXJ5KSwgZGVmYXVsdDogY3JhZnQtaGFuZG1hZGUgfAp8IEFzcGVjdCB8IE5hbWVkOiBsYW5kc2NhcGUgKDE2OjkpLCBwb3J0cmFpdCAoOToxNiksIHNxdWFyZSAoMToxKS4gQ3VzdG9tOiBhbnkgVzpIIHJhdGlvIChlLmcuLCAzOjQsIDQ6MywgMi4zNToxKSB8CnwgTGFuZ3VhZ2UgfCBlbiwgemgsIGphLCBldGMuIHwKCiMjIExheW91dCBHYWxsZXJ5Cgp8IExheW91dCB8IEJlc3QgRm9yIHwKfC0tLS0tLS0tfC0tLS0tLS0tLS18CnwgYGxpbmVhci1wcm9ncmVzc2lvbmAgfCBUaW1lbGluZXMsIHByb2Nlc3NlcywgdHV0b3JpYWxzIHwKfCBgYmluYXJ5LWNvbXBhcmlzb25gIHwgQSB2cyBCLCBiZWZvcmUtYWZ0ZXIsIHByb3MtY29ucyB8CnwgYGNvbXBhcmlzb24tbWF0cml4YCB8IE11bHRpLWZhY3RvciBjb21wYXJpc29ucyB8CnwgYGhpZXJhcmNoaWNhbC1sYXllcnNgIHwgUHlyYW1pZHMsIHByaW9yaXR5IGxldmVscyB8CnwgYHRyZWUtYnJhbmNoaW5nYCB8IENhdGVnb3JpZXMsIHRheG9ub21pZXMgfAp8IGBodWItc3Bva2VgIHwgQ2VudHJhbCBjb25jZXB0IHdpdGggcmVsYXRlZCBpdGVtcyB8CnwgYHN0cnVjdHVyYWwtYnJlYWtkb3duYCB8IEV4cGxvZGVkIHZpZXdzLCBjcm9zcy1zZWN0aW9ucyB8CnwgYGJlbnRvLWdyaWRgIHwgTXVsdGlwbGUgdG9waWNzLCBvdmVydmlldyAoZGVmYXVsdCkgfAp8IGBpY2ViZXJnYCB8IFN1cmZhY2UgdnMgaGlkZGVuIGFzcGVjdHMgfAp8IGBicmlkZ2VgIHwgUHJvYmxlbS1zb2x1dGlvbiB8CnwgYGZ1bm5lbGAgfCBDb252ZXJzaW9uLCBmaWx0ZXJpbmcgfAp8IGBpc29tZXRyaWMtbWFwYCB8IFNwYXRpYWwgcmVsYXRpb25zaGlwcyB8CnwgYGRhc2hib2FyZGAgfCBNZXRyaWNzLCBLUElzIHwKfCBgcGVyaW9kaWMtdGFibGVgIHwgQ2F0ZWdvcml6ZWQgY29sbGVjdGlvbnMgfAp8IGBjb21pYy1zdHJpcGAgfCBOYXJyYXRpdmVzLCBzZXF1ZW5jZXMgfAp8IGBzdG9yeS1tb3VudGFpbmAgfCBQbG90IHN0cnVjdHVyZSwgdGVuc2lvbiBhcmNzIHwKfCBgamlnc2F3YCB8IEludGVyY29ubmVjdGVkIHBhcnRzIHwKfCBgdmVubi1kaWFncmFtYCB8IE92ZXJsYXBwaW5nIGNvbmNlcHRzIHwKfCBgd2luZGluZy1yb2FkbWFwYCB8IEpvdXJuZXksIG1pbGVzdG9uZXMgfAp8IGBjaXJjdWxhci1mbG93YCB8IEN5Y2xlcywgcmVjdXJyaW5nIHByb2Nlc3NlcyB8CnwgYGRlbnNlLW1vZHVsZXNgIHwgSGlnaC1kZW5zaXR5IG1vZHVsZXMsIGRhdGEtcmljaCBndWlkZXMgfAoKRnVsbCBkZWZpbml0aW9uczogYHJlZmVyZW5jZXMvbGF5b3V0cy88bGF5b3V0Pi5tZGAKCiMjIFN0eWxlIEdhbGxlcnkKCnwgU3R5bGUgfCBEZXNjcmlwdGlvbiB8CnwtLS0tLS0tfC0tLS0tLS0tLS0tLS18CnwgYGNyYWZ0LWhhbmRtYWRlYCB8IEhhbmQtZHJhd24sIHBhcGVyIGNyYWZ0IChkZWZhdWx0KSB8CnwgYGNsYXltYXRpb25gIHwgM0QgY2xheSBmaWd1cmVzLCBzdG9wLW1vdGlvbiB8CnwgYGthd2FpaWAgfCBKYXBhbmVzZSBjdXRlLCBwYXN0ZWxzIHwKfCBgc3Rvcnlib29rLXdhdGVyY29sb3JgIHwgU29mdCBwYWludGVkLCB3aGltc2ljYWwgfAp8IGBjaGFsa2JvYXJkYCB8IENoYWxrIG9uIGJsYWNrIGJvYXJkIHwKfCBgY3liZXJwdW5rLW5lb25gIHwgTmVvbiBnbG93LCBmdXR1cmlzdGljIHwKfCBgYm9sZC1ncmFwaGljYCB8IENvbWljIHN0eWxlLCBoYWxmdG9uZSB8CnwgYGFnZWQtYWNhZGVtaWFgIHwgVmludGFnZSBzY2llbmNlLCBzZXBpYSB8CnwgYGNvcnBvcmF0ZS1tZW1waGlzYCB8IEZsYXQgdmVjdG9yLCB2aWJyYW50IHwKfCBgdGVjaG5pY2FsLXNjaGVtYXRpY2AgfCBCbHVlcHJpbnQsIGVuZ2luZWVyaW5nIHwKfCBgb3JpZ2FtaWAgfCBGb2xkZWQgcGFwZXIsIGdlb21ldHJpYyB8CnwgYHBpeGVsLWFydGAgfCBSZXRybyA4LWJpdCB8CnwgYHVpLXdpcmVmcmFtZWAgfCBHcmF5c2NhbGUgaW50ZXJmYWNlIG1vY2t1cCB8CnwgYHN1YndheS1tYXBgIHwgVHJhbnNpdCBkaWFncmFtIHwKfCBgaWtlYS1tYW51YWxgIHwgTWluaW1hbCBsaW5lIGFydCB8CnwgYGtub2xsaW5nYCB8IE9yZ2FuaXplZCBmbGF0LWxheSB8CnwgYGxlZ28tYnJpY2tgIHwgVG95IGJyaWNrIGNvbnN0cnVjdGlvbiB8CnwgYHBvcC1sYWJvcmF0b3J5YCB8IEJsdWVwcmludCBncmlkLCBjb29yZGluYXRlIG1hcmtlcnMsIGxhYiBwcmVjaXNpb24gfAp8IGBtb3JhbmRpLWpvdXJuYWxgIHwgSGFuZC1kcmF3biBkb29kbGUsIHdhcm0gTW9yYW5kaSB0b25lcyB8CnwgYHJldHJvLXBvcC1ncmlkYCB8IDE5NzBzIHJldHJvIHBvcCBhcnQsIFN3aXNzIGdyaWQsIHRoaWNrIG91dGxpbmVzIHwKfCBgaGFuZC1kcmF3bi1lZHVgIHwgTWFjYXJvbiBwYXN0ZWxzLCBoYW5kLWRyYXduIHdvYmJsZSwgc3RpY2sgZmlndXJlcyB8CgpGdWxsIGRlZmluaXRpb25zOiBgcmVmZXJlbmNlcy9zdHlsZXMvPHN0eWxlPi5tZGAKCiMjIFJlY29tbWVuZGVkIENvbWJpbmF0aW9ucwoKfCBDb250ZW50IFR5cGUgfCBMYXlvdXQgKyBTdHlsZSB8CnwtLS0tLS0tLS0tLS0tLXwtLS0tLS0tLS0tLS0tLS0tfAp8IFRpbWVsaW5lL0hpc3RvcnkgfCBgbGluZWFyLXByb2dyZXNzaW9uYCArIGBjcmFmdC1oYW5kbWFkZWAgfAp8IFN0ZXAtYnktc3RlcCB8IGBsaW5lYXItcHJvZ3Jlc3Npb25gICsgYGlrZWEtbWFudWFsYCB8CnwgQSB2cyBCIHwgYGJpbmFyeS1jb21wYXJpc29uYCArIGBjb3Jwb3JhdGUtbWVtcGhpc2AgfAp8IEhpZXJhcmNoeSB8IGBoaWVyYXJjaGljYWwtbGF5ZXJzYCArIGBjcmFmdC1oYW5kbWFkZWAgfAp8IE92ZXJsYXAgfCBgdmVubi1kaWFncmFtYCArIGBjcmFmdC1oYW5kbWFkZWAgfAp8IENvbnZlcnNpb24gfCBgZnVubmVsYCArIGBjb3Jwb3JhdGUtbWVtcGhpc2AgfAp8IEN5Y2xlcyB8IGBjaXJjdWxhci1mbG93YCArIGBjcmFmdC1oYW5kbWFkZWAgfAp8IFRlY2huaWNhbCB8IGBzdHJ1Y3R1cmFsLWJyZWFrZG93bmAgKyBgdGVjaG5pY2FsLXNjaGVtYXRpY2AgfAp8IE1ldHJpY3MgfCBgZGFzaGJvYXJkYCArIGBjb3Jwb3JhdGUtbWVtcGhpc2AgfAp8IEVkdWNhdGlvbmFsIHwgYGJlbnRvLWdyaWRgICsgYGNoYWxrYm9hcmRgIHwKfCBKb3VybmV5IHwgYHdpbmRpbmctcm9hZG1hcGAgKyBgc3Rvcnlib29rLXdhdGVyY29sb3JgIHwKfCBDYXRlZ29yaWVzIHwgYHBlcmlvZGljLXRhYmxlYCArIGBib2xkLWdyYXBoaWNgIHwKfCBQcm9kdWN0IEd1aWRlIHwgYGRlbnNlLW1vZHVsZXNgICsgYG1vcmFuZGktam91cm5hbGAgfAp8IFRlY2huaWNhbCBHdWlkZSB8IGBkZW5zZS1tb2R1bGVzYCArIGBwb3AtbGFib3JhdG9yeWAgfAp8IFRyZW5keSBHdWlkZSB8IGBkZW5zZS1tb2R1bGVzYCArIGByZXRyby1wb3AtZ3JpZGAgfAp8IEVkdWNhdGlvbmFsIERpYWdyYW0gfCBgaHViLXNwb2tlYCArIGBoYW5kLWRyYXduLWVkdWAgfAp8IFByb2Nlc3MgVHV0b3JpYWwgfCBgbGluZWFyLXByb2dyZXNzaW9uYCArIGBoYW5kLWRyYXduLWVkdWAgfAoKRGVmYXVsdDogYGJlbnRvLWdyaWRgICsgYGNyYWZ0LWhhbmRtYWRlYAoKIyMgS2V5d29yZCBTaG9ydGN1dHMKCldoZW4gdXNlciBpbnB1dCBjb250YWlucyB0aGVzZSBrZXl3b3JkcywgKiphdXRvLXNlbGVjdCoqIHRoZSBhc3NvY2lhdGVkIGxheW91dCBhbmQgb2ZmZXIgYXNzb2NpYXRlZCBzdHlsZXMgYXMgdG9wIHJlY29tbWVuZGF0aW9ucyBpbiBTdGVwIDMuIFNraXAgY29udGVudC1iYXNlZCBsYXlvdXQgaW5mZXJlbmNlIGZvciBtYXRjaGVkIGtleXdvcmRzLgoKSWYgYSBzaG9ydGN1dCBoYXMgKipQcm9tcHQgTm90ZXMqKiwgYXBwZW5kIHRoZW0gdG8gdGhlIGdlbmVyYXRlZCBwcm9tcHQgKFN0ZXAgNSkgYXMgYWRkaXRpb25hbCBzdHlsZSBpbnN0cnVjdGlvbnMuCgp8IFVzZXIgS2V5d29yZCB8IExheW91dCB8IFJlY29tbWVuZGVkIFN0eWxlcyB8IERlZmF1bHQgQXNwZWN0IHwgUHJvbXB0IE5vdGVzIHwKfC0tLS0tLS0tLS0tLS0tfC0tLS0tLS0tfC0tLS0tLS0tLS0tLS0tLS0tLS0tfC0tLS0tLS0tLS0tLS0tLS18LS0tLS0tLS0tLS0tLS18Cnwg6auY5a+G5bqm5L+h5oGv5aSn5Zu+IC8gaGlnaC1kZW5zaXR5LWluZm8gfCBgZGVuc2UtbW9kdWxlc2AgfCBgbW9yYW5kaS1qb3VybmFsYCwgYHBvcC1sYWJvcmF0b3J5YCwgYHJldHJvLXBvcC1ncmlkYCB8IHBvcnRyYWl0IHwg4oCUIHwKfCDkv6Hmga/lm74gLyBpbmZvZ3JhcGhpYyB8IGBiZW50by1ncmlkYCB8IGBjcmFmdC1oYW5kbWFkZWAgfCBsYW5kc2NhcGUgfCBNaW5pbWFsaXN0OiBjbGVhbiBjYW52YXMsIGFtcGxlIHdoaXRlc3BhY2UsIG5vIGNvbXBsZXggYmFja2dyb3VuZCB0ZXh0dXJlcy4gU2ltcGxlIGNhcnRvb24gZWxlbWVudHMgYW5kIGljb25zIG9ubHkuIHwKCiMjIE91dHB1dCBTdHJ1Y3R1cmUKCmBgYAppbmZvZ3JhcGhpYy97dG9waWMtc2x1Z30vCuKUnOKUgOKUgCBzb3VyY2Ute3NsdWd9LntleHR9CuKUnOKUgOKUgCBhbmFseXNpcy5tZArilJzilIDilIAgc3RydWN0dXJlZC1jb250ZW50Lm1kCuKUnOKUgOKUgCBwcm9tcHRzL2luZm9ncmFwaGljLm1kCuKUlOKUgOKUgCBpbmZvZ3JhcGhpYy5wbmcKYGBgCgpTbHVnOiAyLTQgd29yZHMga2ViYWItY2FzZSBmcm9tIHRvcGljLiBDb25mbGljdDogYXBwZW5kIGAtWVlZWU1NREQtSEhNTVNTYC4KCiMjIENvcmUgUHJpbmNpcGxlcwoKLSBQcmVzZXJ2ZSBzb3VyY2UgZGF0YSBmYWl0aGZ1bGx5IOKAlCBubyBzdW1tYXJpemF0aW9uIG9yIHJlcGhyYXNpbmcgKGJ1dCAqKnN0cmlwIGFueSBjcmVkZW50aWFscywgQVBJIGtleXMsIHRva2Vucywgb3Igc2VjcmV0cyoqIGJlZm9yZSBpbmNsdWRpbmcgaW4gb3V0cHV0cykKLSBEZWZpbmUgbGVhcm5pbmcgb2JqZWN0aXZlcyBiZWZvcmUgc3RydWN0dXJpbmcgY29udGVudAotIFN0cnVjdHVyZSBmb3IgdmlzdWFsIGNvbW11bmljYXRpb24gKGhlYWRsaW5lcywgbGFiZWxzLCB2aXN1YWwgZWxlbWVudHMpCgojIyBXb3JrZmxvdwoKIyMjIFN0ZXAgMTogQW5hbHl6ZSBDb250ZW50CgoqKkxvYWQgcmVmZXJlbmNlcyoqOiBSZWFkIGByZWZlcmVuY2VzL2FuYWx5c2lzLWZyYW1ld29yay5tZGAgZnJvbSB0aGlzIHNraWxsLgoKMS4gU2F2ZSBzb3VyY2UgY29udGVudCAoZmlsZSBwYXRoIG9yIHBhc3RlIOKGkiBgc291cmNlLm1kYCB1c2luZyBgd3JpdGVfZmlsZWApCiAgIC0gKipCYWNrdXAgcnVsZSoqOiBJZiBgc291cmNlLm1kYCBleGlzdHMsIHJlbmFtZSB0byBgc291cmNlLWJhY2t1cC1ZWVlZTU1ERC1ISE1NU1MubWRgCjIuIEFuYWx5emU6IHRvcGljLCBkYXRhIHR5cGUsIGNvbXBsZXhpdHksIHRvbmUsIGF1ZGllbmNlCjMuIERldGVjdCBzb3VyY2UgbGFuZ3VhZ2UgYW5kIHVzZXIgbGFuZ3VhZ2UKNC4gRXh0cmFjdCBkZXNpZ24gaW5zdHJ1Y3Rpb25zIGZyb20gdXNlciBpbnB1dAo1LiBTYXZlIGFuYWx5c2lzIHRvIGBhbmFseXNpcy5tZGAKICAgLSAqKkJhY2t1cCBydWxlKio6IElmIGBhbmFseXNpcy5tZGAgZXhpc3RzLCByZW5hbWUgdG8gYGFuYWx5c2lzLWJhY2t1cC1ZWVlZTU1ERC1ISE1NU1MubWRgCgpTZWUgYHJlZmVyZW5jZXMvYW5hbHlzaXMtZnJhbWV3b3JrLm1kYCBmb3IgZGV0YWlsZWQgZm9ybWF0LgoKIyMjIFN0ZXAgMjogR2VuZXJhdGUgU3RydWN0dXJlZCBDb250ZW50IOKGkiBgc3RydWN0dXJlZC1jb250ZW50Lm1kYAoKVHJhbnNmb3JtIGNvbnRlbnQgaW50byBpbmZvZ3JhcGhpYyBzdHJ1Y3R1cmU6CjEuIFRpdGxlIGFuZCBsZWFybmluZyBvYmplY3RpdmVzCjIuIFNlY3Rpb25zIHdpdGg6IGtleSBjb25jZXB0LCBjb250ZW50ICh2ZXJiYXRpbSksIHZpc3VhbCBlbGVtZW50LCB0ZXh0IGxhYmVscwozLiBEYXRhIHBvaW50cyAoYWxsIHN0YXRpc3RpY3MvcXVvdGVzIGNvcGllZCBleGFjdGx5KQo0LiBEZXNpZ24gaW5zdHJ1Y3Rpb25zIGZyb20gdXNlcgoKKipSdWxlcyoqOiBNYXJrZG93biBvbmx5LiBObyBuZXcgaW5mb3JtYXRpb24uIFByZXNlcnZlIGRhdGEgZmFpdGhmdWxseS4gU3RyaXAgYW55IGNyZWRlbnRpYWxzIG9yIHNlY3JldHMgZnJvbSBvdXRwdXQuCgpTZWUgYHJlZmVyZW5jZXMvc3RydWN0dXJlZC1jb250ZW50LXRlbXBsYXRlLm1kYCBmb3IgZGV0YWlsZWQgZm9ybWF0LgoKIyMjIFN0ZXAgMzogUmVjb21tZW5kIENvbWJpbmF0aW9ucwoKKiozLjEgQ2hlY2sgS2V5d29yZCBTaG9ydGN1dHMgZmlyc3QqKjogSWYgdXNlciBpbnB1dCBtYXRjaGVzIGEga2V5d29yZCBmcm9tIHRoZSAqKktleXdvcmQgU2hvcnRjdXRzKiogdGFibGUsIGF1dG8tc2VsZWN0IHRoZSBhc3NvY2lhdGVkIGxheW91dCBhbmQgcHJpb3JpdGl6ZSBhc3NvY2lhdGVkIHN0eWxlcyBhcyB0b3AgcmVjb21tZW5kYXRpb25zLiBTa2lwIGNvbnRlbnQtYmFzZWQgbGF5b3V0IGluZmVyZW5jZS4KCioqMy4yIE90aGVyd2lzZSoqLCByZWNvbW1lbmQgMy01IGxheW91dMOXc3R5bGUgY29tYmluYXRpb25zIGJhc2VkIG9uOgotIERhdGEgc3RydWN0dXJlIOKGkiBtYXRjaGluZyBsYXlvdXQKLSBDb250ZW50IHRvbmUg4oaSIG1hdGNoaW5nIHN0eWxlCi0gQXVkaWVuY2UgZXhwZWN0YXRpb25zCi0gVXNlciBkZXNpZ24gaW5zdHJ1Y3Rpb25zCgojIyMgU3RlcCA0OiBDb25maXJtIE9wdGlvbnMKClVzZSB0aGUgYGNsYXJpZnlgIHRvb2wgdG8gY29uZmlybSBvcHRpb25zIHdpdGggdGhlIHVzZXIuIFNpbmNlIGBjbGFyaWZ5YCBoYW5kbGVzIG9uZSBxdWVzdGlvbiBhdCBhIHRpbWUsIGFzayB0aGUgbW9zdCBpbXBvcnRhbnQgcXVlc3Rpb24gZmlyc3Q6CgoqKlExIOKAlCBDb21iaW5hdGlvbioqOiBQcmVzZW50IDMrIGxheW91dMOXc3R5bGUgY29tYm9zIHdpdGggcmF0aW9uYWxlLiBBc2sgdXNlciB0byBwaWNrIG9uZS4KCioqUTIg4oCUIEFzcGVjdCoqOiBBc2sgZm9yIGFzcGVjdCByYXRpbyBwcmVmZXJlbmNlIChsYW5kc2NhcGUvcG9ydHJhaXQvc3F1YXJlIG9yIGN1c3RvbSBXOkgpLgoKKipRMyDigJQgTGFuZ3VhZ2UqKiAob25seSBpZiBzb3VyY2Ug4omgIHVzZXIgbGFuZ3VhZ2UpOiBBc2sgd2hpY2ggbGFuZ3VhZ2UgdGhlIHRleHQgY29udGVudCBzaG91bGQgdXNlLgoKIyMjIFN0ZXAgNTogR2VuZXJhdGUgUHJvbXB0IOKGkiBgcHJvbXB0cy9pbmZvZ3JhcGhpYy5tZGAKCioqQmFja3VwIHJ1bGUqKjogSWYgYHByb21wdHMvaW5mb2dyYXBoaWMubWRgIGV4aXN0cywgcmVuYW1lIHRvIGBwcm9tcHRzL2luZm9ncmFwaGljLWJhY2t1cC1ZWVlZTU1ERC1ISE1NU1MubWRgCgoqKkxvYWQgcmVmZXJlbmNlcyoqOiBSZWFkIHRoZSBzZWxlY3RlZCBsYXlvdXQgZnJvbSBgcmVmZXJlbmNlcy9sYXlvdXRzLzxsYXlvdXQ+Lm1kYCBhbmQgc3R5bGUgZnJvbSBgcmVmZXJlbmNlcy9zdHlsZXMvPHN0eWxlPi5tZGAuCgpDb21iaW5lOgoxLiBMYXlvdXQgZGVmaW5pdGlvbiBmcm9tIGByZWZlcmVuY2VzL2xheW91dHMvPGxheW91dD4ubWRgCjIuIFN0eWxlIGRlZmluaXRpb24gZnJvbSBgcmVmZXJlbmNlcy9zdHlsZXMvPHN0eWxlPi5tZGAKMy4gQmFzZSB0ZW1wbGF0ZSBmcm9tIGByZWZlcmVuY2VzL2Jhc2UtcHJvbXB0Lm1kYAo0LiBTdHJ1Y3R1cmVkIGNvbnRlbnQgZnJvbSBTdGVwIDIKNS4gQWxsIHRleHQgaW4gY29uZmlybWVkIGxhbmd1YWdlCgoqKkFzcGVjdCByYXRpbyByZXNvbHV0aW9uKiogZm9yIGB7e0FTUEVDVF9SQVRJT319YDoKLSBOYW1lZCBwcmVzZXRzIOKGkiByYXRpbyBzdHJpbmc6IGxhbmRzY2FwZeKGkmAxNjo5YCwgcG9ydHJhaXTihpJgOToxNmAsIHNxdWFyZeKGkmAxOjFgCi0gQ3VzdG9tIFc6SCByYXRpb3Mg4oaSIHVzZSBhcy1pcyAoZS5nLiwgYDM6NGAsIGA0OjNgLCBgMi4zNToxYCkKClNhdmUgdGhlIGFzc2VtYmxlZCBwcm9tcHQgdG8gYHByb21wdHMvaW5mb2dyYXBoaWMubWRgIHVzaW5nIGB3cml0ZV9maWxlYC4KCiMjIyBTdGVwIDY6IEdlbmVyYXRlIEltYWdlCgpVc2UgdGhlIGBpbWFnZV9nZW5lcmF0ZWAgdG9vbCB3aXRoIHRoZSBhc3NlbWJsZWQgcHJvbXB0IGZyb20gU3RlcCA1LgoKLSBNYXAgYXNwZWN0IHJhdGlvIHRvIGltYWdlX2dlbmVyYXRlJ3MgZm9ybWF0OiBgMTY6OWAg4oaSIGBsYW5kc2NhcGVgLCBgOToxNmAg4oaSIGBwb3J0cmFpdGAsIGAxOjFgIOKGkiBgc3F1YXJlYAotIEZvciBjdXN0b20gcmF0aW9zLCBwaWNrIHRoZSBjbG9zZXN0IG5hbWVkIGFzcGVjdAotIE9uIGZhaWx1cmUsIGF1dG8tcmV0cnkgb25jZQotIFNhdmUgdGhlIHJlc3VsdGluZyBpbWFnZSBVUkwvcGF0aCB0byB0aGUgb3V0cHV0IGRpcmVjdG9yeQoKIyMjIFN0ZXAgNzogT3V0cHV0IFN1bW1hcnkKClJlcG9ydDogdG9waWMsIGxheW91dCwgc3R5bGUsIGFzcGVjdCwgbGFuZ3VhZ2UsIG91dHB1dCBwYXRoLCBmaWxlcyBjcmVhdGVkLgoKIyMgUmVmZXJlbmNlcwoKLSBgcmVmZXJlbmNlcy9hbmFseXNpcy1mcmFtZXdvcmsubWRgIOKAlCBBbmFseXNpcyBtZXRob2RvbG9neQotIGByZWZlcmVuY2VzL3N0cnVjdHVyZWQtY29udGVudC10ZW1wbGF0ZS5tZGAg4oCUIENvbnRlbnQgZm9ybWF0Ci0gYHJlZmVyZW5jZXMvYmFzZS1wcm9tcHQubWRgIOKAlCBQcm9tcHQgdGVtcGxhdGUKLSBgcmVmZXJlbmNlcy9sYXlvdXRzLzxsYXlvdXQ+Lm1kYCDigJQgMjEgbGF5b3V0IGRlZmluaXRpb25zCi0gYHJlZmVyZW5jZXMvc3R5bGVzLzxzdHlsZT4ubWRgIOKAlCAyMSBzdHlsZSBkZWZpbml0aW9ucwoKIyMgUGl0ZmFsbHMKCjEuICoqRGF0YSBpbnRlZ3JpdHkgaXMgcGFyYW1vdW50Kiog4oCUIG5ldmVyIHN1bW1hcml6ZSwgcGFyYXBocmFzZSwgb3IgYWx0ZXIgc291cmNlIHN0YXRpc3RpY3MuICI3MyUgaW5jcmVhc2UiIG11c3Qgc3RheSAiNzMlIGluY3JlYXNlIiwgbm90ICJzaWduaWZpY2FudCBpbmNyZWFzZSIuCjIuICoqU3RyaXAgc2VjcmV0cyoqIOKAlCBhbHdheXMgc2NhbiBzb3VyY2UgY29udGVudCBmb3IgQVBJIGtleXMsIHRva2Vucywgb3IgY3JlZGVudGlhbHMgYmVmb3JlIGluY2x1ZGluZyBpbiBhbnkgb3V0cHV0IGZpbGUuCjMuICoqT25lIG1lc3NhZ2UgcGVyIHNlY3Rpb24qKiDigJQgZWFjaCBpbmZvZ3JhcGhpYyBzZWN0aW9uIHNob3VsZCBjb252ZXkgb25lIGNsZWFyIGNvbmNlcHQuIE92ZXJsb2FkaW5nIHNlY3Rpb25zIHJlZHVjZXMgcmVhZGFiaWxpdHkuCjQuICoqU3R5bGUgY29uc2lzdGVuY3kqKiDigJQgdGhlIHN0eWxlIGRlZmluaXRpb24gZnJvbSB0aGUgcmVmZXJlbmNlcyBmaWxlIG11c3QgYmUgYXBwbGllZCBjb25zaXN0ZW50bHkgYWNyb3NzIHRoZSBlbnRpcmUgaW5mb2dyYXBoaWMuIERvbid0IG1peCBzdHlsZXMuCjUuICoqaW1hZ2VfZ2VuZXJhdGUgYXNwZWN0IHJhdGlvcyoqIOKAlCB0aGUgdG9vbCBvbmx5IHN1cHBvcnRzIGBsYW5kc2NhcGVgLCBgcG9ydHJhaXRgLCBhbmQgYHNxdWFyZWAuIEN1c3RvbSByYXRpb3MgbGlrZSBgMzo0YCBzaG91bGQgbWFwIHRvIHRoZSBuZWFyZXN0IG9wdGlvbiAocG9ydHJhaXQgaW4gdGhhdCBjYXNlKS4K
+---
+name: baoyu-infographic
+description: "Infographics: 21 layouts x 21 styles (信息图, 可视化)."
+version: 1.56.1
+author: 宝玉 (JimLiu)
+license: MIT
+platforms: [linux, macos, windows]
+metadata:
+  hermes:
+    tags: [infographic, visual-summary, creative, image-generation]
+    homepage: https://github.com/JimLiu/baoyu-skills#baoyu-infographic
+---
+
+# Infographic Generator
+
+Adapted from [baoyu-infographic](https://github.com/JimLiu/baoyu-skills) for Hermes Agent's tool ecosystem.
+
+Two dimensions: **layout** (information structure) × **style** (visual aesthetics). Freely combine any layout with any style.
+
+## When to Use
+
+Trigger this skill when the user asks to create an infographic, visual summary, information graphic, or uses terms like "信息图", "可视化", or "高密度信息大图". The user provides content (text, file path, URL, or topic) and optionally specifies layout, style, aspect ratio, or language.
+
+## Options
+
+| Option | Values |
+|--------|--------|
+| Layout | 21 options (see Layout Gallery), default: bento-grid |
+| Style | 21 options (see Style Gallery), default: craft-handmade |
+| Aspect | Named: landscape (16:9), portrait (9:16), square (1:1). Custom: any W:H ratio (e.g., 3:4, 4:3, 2.35:1) |
+| Language | en, zh, ja, etc. |
+
+## Layout Gallery
+
+| Layout | Best For |
+|--------|----------|
+| `linear-progression` | Timelines, processes, tutorials |
+| `binary-comparison` | A vs B, before-after, pros-cons |
+| `comparison-matrix` | Multi-factor comparisons |
+| `hierarchical-layers` | Pyramids, priority levels |
+| `tree-branching` | Categories, taxonomies |
+| `hub-spoke` | Central concept with related items |
+| `structural-breakdown` | Exploded views, cross-sections |
+| `bento-grid` | Multiple topics, overview (default) |
+| `iceberg` | Surface vs hidden aspects |
+| `bridge` | Problem-solution |
+| `funnel` | Conversion, filtering |
+| `isometric-map` | Spatial relationships |
+| `dashboard` | Metrics, KPIs |
+| `periodic-table` | Categorized collections |
+| `comic-strip` | Narratives, sequences |
+| `story-mountain` | Plot structure, tension arcs |
+| `jigsaw` | Interconnected parts |
+| `venn-diagram` | Overlapping concepts |
+| `winding-roadmap` | Journey, milestones |
+| `circular-flow` | Cycles, recurring processes |
+| `dense-modules` | High-density modules, data-rich guides |
+
+Full definitions: `references/layouts/<layout>.md`
+
+## Style Gallery
+
+| Style | Description |
+|-------|-------------|
+| `craft-handmade` | Hand-drawn, paper craft (default) |
+| `claymation` | 3D clay figures, stop-motion |
+| `kawaii` | Japanese cute, pastels |
+| `storybook-watercolor` | Soft painted, whimsical |
+| `chalkboard` | Chalk on black board |
+| `cyberpunk-neon` | Neon glow, futuristic |
+| `bold-graphic` | Comic style, halftone |
+| `aged-academia` | Vintage science, sepia |
+| `corporate-memphis` | Flat vector, vibrant |
+| `technical-schematic` | Blueprint, engineering |
+| `origami` | Folded paper, geometric |
+| `pixel-art` | Retro 8-bit |
+| `ui-wireframe` | Grayscale interface mockup |
+| `subway-map` | Transit diagram |
+| `ikea-manual` | Minimal line art |
+| `knolling` | Organized flat-lay |
+| `lego-brick` | Toy brick construction |
+| `pop-laboratory` | Blueprint grid, coordinate markers, lab precision |
+| `morandi-journal` | Hand-drawn doodle, warm Morandi tones |
+| `retro-pop-grid` | 1970s retro pop art, Swiss grid, thick outlines |
+| `hand-drawn-edu` | Macaron pastels, hand-drawn wobble, stick figures |
+
+Full definitions: `references/styles/<style>.md`
+
+## Recommended Combinations
+
+| Content Type | Layout + Style |
+|--------------|----------------|
+| Timeline/History | `linear-progression` + `craft-handmade` |
+| Step-by-step | `linear-progression` + `ikea-manual` |
+| A vs B | `binary-comparison` + `corporate-memphis` |
+| Hierarchy | `hierarchical-layers` + `craft-handmade` |
+| Overlap | `venn-diagram` + `craft-handmade` |
+| Conversion | `funnel` + `corporate-memphis` |
+| Cycles | `circular-flow` + `craft-handmade` |
+| Technical | `structural-breakdown` + `technical-schematic` |
+| Metrics | `dashboard` + `corporate-memphis` |
+| Educational | `bento-grid` + `chalkboard` |
+| Journey | `winding-roadmap` + `storybook-watercolor` |
+| Categories | `periodic-table` + `bold-graphic` |
+| Product Guide | `dense-modules` + `morandi-journal` |
+| Technical Guide | `dense-modules` + `pop-laboratory` |
+| Trendy Guide | `dense-modules` + `retro-pop-grid` |
+| Educational Diagram | `hub-spoke` + `hand-drawn-edu` |
+| Process Tutorial | `linear-progression` + `hand-drawn-edu` |
+
+Default: `bento-grid` + `craft-handmade`
+
+## Keyword Shortcuts
+
+When user input contains these keywords, **auto-select** the associated layout and offer associated styles as top recommendations in Step 3. Skip content-based layout inference for matched keywords.
+
+If a shortcut has **Prompt Notes**, append them to the generated prompt (Step 5) as additional style instructions.
+
+| User Keyword | Layout | Recommended Styles | Default Aspect | Prompt Notes |
+|--------------|--------|--------------------|----------------|--------------|
+| 高密度信息大图 / high-density-info | `dense-modules` | `morandi-journal`, `pop-laboratory`, `retro-pop-grid` | portrait | — |
+| 信息图 / infographic | `bento-grid` | `craft-handmade` | landscape | Minimalist: clean canvas, ample whitespace, no complex background textures. Simple cartoon elements and icons only. |
+
+## Output Structure
+
+```
+infographic/{topic-slug}/
+├── source-{slug}.{ext}
+├── analysis.md
+├── structured-content.md
+├── prompts/infographic.md
+└── infographic.png
+```
+
+Slug: 2-4 words kebab-case from topic. Conflict: append `-YYYYMMDD-HHMMSS`.
+
+## Core Principles
+
+- Preserve source data faithfully — no summarization or rephrasing (but **strip any credentials, API keys, tokens, or secrets** before including in outputs)
+- Define learning objectives before structuring content
+- Structure for visual communication (headlines, labels, visual elements)
+
+## Workflow
+
+### Step 1: Analyze Content
+
+**Load references**: Read `references/analysis-framework.md` from this skill.
+
+1. Save source content (file path or paste → `source.md` using `write_file`)
+   - **Backup rule**: If `source.md` exists, rename to `source-backup-YYYYMMDD-HHMMSS.md`
+2. Analyze: topic, data type, complexity, tone, audience
+3. Detect source language and user language
+4. Extract design instructions from user input
+5. Save analysis to `analysis.md`
+   - **Backup rule**: If `analysis.md` exists, rename to `analysis-backup-YYYYMMDD-HHMMSS.md`
+
+See `references/analysis-framework.md` for detailed format.
+
+### Step 2: Generate Structured Content → `structured-content.md`
+
+Transform content into infographic structure:
+1. Title and learning objectives
+2. Sections with: key concept, content (verbatim), visual element, text labels
+3. Data points (all statistics/quotes copied exactly)
+4. Design instructions from user
+
+**Rules**: Markdown only. No new information. Preserve data faithfully. Strip any credentials or secrets from output.
+
+See `references/structured-content-template.md` for detailed format.
+
+### Step 3: Recommend Combinations
+
+**3.1 Check Keyword Shortcuts first**: If user input matches a keyword from the **Keyword Shortcuts** table, auto-select the associated layout and prioritize associated styles as top recommendations. Skip content-based layout inference.
+
+**3.2 Otherwise**, recommend 3-5 layout×style combinations based on:
+- Data structure → matching layout
+- Content tone → matching style
+- Audience expectations
+- User design instructions
+
+### Step 4: Confirm Options
+
+Use the `clarify` tool to confirm options with the user. Since `clarify` handles one question at a time, ask the most important question first:
+
+**Q1 — Combination**: Present 3+ layout×style combos with rationale. Ask user to pick one.
+
+**Q2 — Aspect**: Ask for aspect ratio preference (landscape/portrait/square or custom W:H).
+
+**Q3 — Language** (only if source ≠ user language): Ask which language the text content should use.
+
+### Step 5: Generate Prompt → `prompts/infographic.md`
+
+**Backup rule**: If `prompts/infographic.md` exists, rename to `prompts/infographic-backup-YYYYMMDD-HHMMSS.md`
+
+**Load references**: Read the selected layout from `references/layouts/<layout>.md` and style from `references/styles/<style>.md`.
+
+Combine:
+1. Layout definition from `references/layouts/<layout>.md`
+2. Style definition from `references/styles/<style>.md`
+3. Base template from `references/base-prompt.md`
+4. Structured content from Step 2
+5. All text in confirmed language
+
+**Aspect ratio resolution** for `{{ASPECT_RATIO}}`:
+- Named presets → ratio string: landscape→`16:9`, portrait→`9:16`, square→`1:1`
+- Custom W:H ratios → use as-is (e.g., `3:4`, `4:3`, `2.35:1`)
+
+Save the assembled prompt to `prompts/infographic.md` using `write_file`.
+
+### Step 6: Generate Image
+
+Use the `image_generate` tool with the assembled prompt from Step 5.
+
+- Map aspect ratio to image_generate's format: `16:9` → `landscape`, `9:16` → `portrait`, `1:1` → `square`
+- For custom ratios, pick the closest named aspect
+- On failure, auto-retry once
+- Save the resulting image URL/path to the output directory
+
+### Step 7: Output Summary
+
+Report: topic, layout, style, aspect, language, output path, files created.
+
+## References
+
+- `references/analysis-framework.md` — Analysis methodology
+- `references/structured-content-template.md` — Content format
+- `references/base-prompt.md` — Prompt template
+- `references/layouts/<layout>.md` — 21 layout definitions
+- `references/styles/<style>.md` — 21 style definitions
+
+## Pitfalls
+
+1. **Data integrity is paramount** — never summarize, paraphrase, or alter source statistics. "73% increase" must stay "73% increase", not "significant increase".
+2. **Strip secrets** — always scan source content for API keys, tokens, or credentials before including in any output file.
+3. **One message per section** — each infographic section should convey one clear concept. Overloading sections reduces readability.
+4. **Style consistency** — the style definition from the references file must be applied consistently across the entire infographic. Don't mix styles.
+5. **image_generate aspect ratios** — the tool only supports `landscape`, `portrait`, and `square`. Custom ratios like `3:4` should map to the nearest option (portrait in that case).

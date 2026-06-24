@@ -1,1 +1,41 @@
-IyBjaXJjdWxhci1mbG93CgpDeWNsaWMgcHJvY2VzcyBzaG93aW5nIGNvbnRpbnVvdXMgb3IgcmVjdXJyaW5nIHN0ZXBzLgoKIyMgU3RydWN0dXJlCgotIENpcmN1bGFyIGFycmFuZ2VtZW50Ci0gU3RlcHMgYXJvdW5kIHRoZSBjaXJjbGUKLSBBcnJvd3Mgc2hvd2luZyBkaXJlY3Rpb24KLSBObyBjbGVhciBzdGFydC9lbmQgKGNvbnRpbnVvdXMpCi0gQ2VudGVyIGNhbiBob2xkIG1haW4gY29uY2VwdAoKIyMgQmVzdCBGb3IKCi0gUmVjdXJyaW5nIHByb2Nlc3NlcwotIEZlZWRiYWNrIGxvb3BzCi0gTGlmZWN5Y2xlIHN0YWdlcwotIENvbnRpbnVvdXMgaW1wcm92ZW1lbnQKLSBOYXR1cmFsIGN5Y2xlcwoKIyMgVmlzdWFsIEVsZW1lbnRzCgotIENpcmNsZSBvciByaW5nIHNoYXBlCi0gRGlyZWN0aW9uYWwgYXJyb3dzCi0gU3RlcCBub2RlcyBldmVubHkgc3BhY2VkCi0gSWNvbnMgcGVyIHN0ZXAKLSBPcHRpb25hbCBjZW50ZXIgZWxlbWVudAoKIyMgVGV4dCBQbGFjZW1lbnQKCi0gVGl0bGUgYXQgdG9wCi0gU3RlcCBsYWJlbHMgYXQgZWFjaCBub2RlCi0gQnJpZWYgZGVzY3JpcHRpb25zIG5lYXIgbm9kZXMKLSBDZW50ZXIgY29uY2VwdCBpZiBhcHBsaWNhYmxlCi0gQ3ljbGUgbmFtZQoKIyMgUmVjb21tZW5kZWQgUGFpcmluZ3MKCi0gYGNhcnRvb24taGFuZC1kcmF3bmA6IEZyaWVuZGx5IGN5Y2xlcwotIGBjb3Jwb3JhdGUtbWVtcGhpc2A6IEJ1c2luZXNzIHByb2Nlc3NlcwotIGBzdWJ3YXktbWFwYDogVHJhbnNpdC1zdHlsZSBjeWNsZXMK
+# circular-flow
+
+Cyclic process showing continuous or recurring steps.
+
+## Structure
+
+- Circular arrangement
+- Steps around the circle
+- Arrows showing direction
+- No clear start/end (continuous)
+- Center can hold main concept
+
+## Best For
+
+- Recurring processes
+- Feedback loops
+- Lifecycle stages
+- Continuous improvement
+- Natural cycles
+
+## Visual Elements
+
+- Circle or ring shape
+- Directional arrows
+- Step nodes evenly spaced
+- Icons per step
+- Optional center element
+
+## Text Placement
+
+- Title at top
+- Step labels at each node
+- Brief descriptions near nodes
+- Center concept if applicable
+- Cycle name
+
+## Recommended Pairings
+
+- `cartoon-hand-drawn`: Friendly cycles
+- `corporate-memphis`: Business processes
+- `subway-map`: Transit-style cycles

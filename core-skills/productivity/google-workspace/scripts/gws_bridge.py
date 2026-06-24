@@ -1,1 +1,111 @@
-IyEvdXNyL2Jpbi9lbnYgcHl0aG9uMwoiIiJCcmlkZ2UgYmV0d2VlbiBIZXJtZXMgT0F1dGggdG9rZW4gYW5kIGd3cyBDTEkuCgpSZWZyZXNoZXMgdGhlIHRva2VuIGlmIGV4cGlyZWQsIHRoZW4gZXhlY3V0ZXMgZ3dzIHdpdGggdGhlIHZhbGlkIGFjY2VzcyB0b2tlbi4KIiIiCmltcG9ydCBqc29uCmltcG9ydCBvcwppbXBvcnQgc3VicHJvY2VzcwppbXBvcnQgc3lzCmZyb20gZGF0ZXRpbWUgaW1wb3J0IGRhdGV0aW1lLCB0aW1lem9uZQpmcm9tIHBhdGhsaWIgaW1wb3J0IFBhdGgKCiMgRW5zdXJlIHNpYmxpbmcgbW9kdWxlcyAoX2hlcm1lc19ob21lKSBhcmUgaW1wb3J0YWJsZSB3aGVuIHJ1biBzdGFuZGFsb25lLgpfU0NSSVBUU19ESVIgPSBzdHIoUGF0aChfX2ZpbGVfXykucmVzb2x2ZSgpLnBhcmVudCkKaWYgX1NDUklQVFNfRElSIG5vdCBpbiBzeXMucGF0aDoKICAgIHN5cy5wYXRoLmluc2VydCgwLCBfU0NSSVBUU19ESVIpCgpmcm9tIF9oZXJtZXNfaG9tZSBpbXBvcnQgZ2V0X2hlcm1lc19ob21lCgoKZGVmIGdldF90b2tlbl9wYXRoKCkgLT4gUGF0aDoKICAgIHJldHVybiBnZXRfaGVybWVzX2hvbWUoKSAvICJnb29nbGVfdG9rZW4uanNvbiIKCgpkZWYgX25vcm1hbGl6ZV9hdXRob3JpemVkX3VzZXJfcGF5bG9hZChwYXlsb2FkOiBkaWN0KSAtPiBkaWN0OgogICAgbm9ybWFsaXplZCA9IGRpY3QocGF5bG9hZCkKICAgIGlmIG5vdCBub3JtYWxpemVkLmdldCgidHlwZSIpOgogICAgICAgIG5vcm1hbGl6ZWRbInR5cGUiXSA9ICJhdXRob3JpemVkX3VzZXIiCiAgICByZXR1cm4gbm9ybWFsaXplZAoKCmRlZiByZWZyZXNoX3Rva2VuKHRva2VuX2RhdGE6IGRpY3QpIC0+IGRpY3Q6CiAgICAiIiJSZWZyZXNoIHRoZSBhY2Nlc3MgdG9rZW4gdXNpbmcgdGhlIHJlZnJlc2ggdG9rZW4uIiIiCiAgICBpbXBvcnQgdXJsbGliLmVycm9yCiAgICBpbXBvcnQgdXJsbGliLnBhcnNlCiAgICBpbXBvcnQgdXJsbGliLnJlcXVlc3QKCiAgICByZXF1aXJlZF9rZXlzID0gWyJjbGllbnRfaWQiLCAiY2xpZW50X3NlY3JldCIsICJyZWZyZXNoX3Rva2VuIiwgInRva2VuX3VyaSJdCiAgICBtaXNzaW5nID0gW2sgZm9yIGsgaW4gcmVxdWlyZWRfa2V5cyBpZiBrIG5vdCBpbiB0b2tlbl9kYXRhXQogICAgaWYgbWlzc2luZzoKICAgICAgICBwcmludChmIkVSUk9SOiBnb29nbGVfdG9rZW4uanNvbiBpcyBtaXNzaW5nIHJlcXVpcmVkIGZpZWxkczogeycsICcuam9pbihtaXNzaW5nKX0iLCBmaWxlPXN5cy5zdGRlcnIpCiAgICAgICAgcHJpbnQoIlBsZWFzZSByZS1hdXRoZW50aWNhdGUgYnkgcnVubmluZyB0aGUgR29vZ2xlIFdvcmtzcGFjZSBzZXR1cCBzY3JpcHQuIiwgZmlsZT1zeXMuc3RkZXJyKQogICAgICAgIHN5cy5leGl0KDEpCgogICAgcGFyYW1zID0gdXJsbGliLnBhcnNlLnVybGVuY29kZSh7CiAgICAgICAgImNsaWVudF9pZCI6IHRva2VuX2RhdGFbImNsaWVudF9pZCJdLAogICAgICAgICJjbGllbnRfc2VjcmV0IjogdG9rZW5fZGF0YVsiY2xpZW50X3NlY3JldCJdLAogICAgICAgICJyZWZyZXNoX3Rva2VuIjogdG9rZW5fZGF0YVsicmVmcmVzaF90b2tlbiJdLAogICAgICAgICJncmFudF90eXBlIjogInJlZnJlc2hfdG9rZW4iLAogICAgfSkuZW5jb2RlKCkKCiAgICByZXEgPSB1cmxsaWIucmVxdWVzdC5SZXF1ZXN0KHRva2VuX2RhdGFbInRva2VuX3VyaSJdLCBkYXRhPXBhcmFtcykKICAgIHRyeToKICAgICAgICB3aXRoIHVybGxpYi5yZXF1ZXN0LnVybG9wZW4ocmVxLCB0aW1lb3V0PTE1KSBhcyByZXNwOgogICAgICAgICAgICByZXN1bHQgPSBqc29uLmxvYWRzKHJlc3AucmVhZCgpKQogICAgZXhjZXB0IHVybGxpYi5lcnJvci5IVFRQRXJyb3IgYXMgZToKICAgICAgICBib2R5ID0gZS5yZWFkKCkuZGVjb2RlKCJ1dGYtOCIsIGVycm9ycz0icmVwbGFjZSIpCiAgICAgICAgcHJpbnQoZiJFUlJPUjogVG9rZW4gcmVmcmVzaCBmYWlsZWQgKEhUVFAge2UuY29kZX0pOiB7Ym9keX0iLCBmaWxlPXN5cy5zdGRlcnIpCiAgICAgICAgcHJpbnQoIlJlLXJ1biBzZXR1cC5weSB0byByZS1hdXRoZW50aWNhdGUuIiwgZmlsZT1zeXMuc3RkZXJyKQogICAgICAgIHN5cy5leGl0KDEpCiAgICBleGNlcHQgKHVybGxpYi5lcnJvci5VUkxFcnJvciwgVGltZW91dEVycm9yKSBhcyBlOgogICAgICAgIHByaW50KGYiRVJST1I6IFRva2VuIHJlZnJlc2ggZmFpbGVkIChuZXR3b3JrKToge2V9IiwgZmlsZT1zeXMuc3RkZXJyKQogICAgICAgIHN5cy5leGl0KDEpCgogICAgdG9rZW5fZGF0YVsidG9rZW4iXSA9IHJlc3VsdFsiYWNjZXNzX3Rva2VuIl0KICAgIHRva2VuX2RhdGFbImV4cGlyeSJdID0gZGF0ZXRpbWUuZnJvbXRpbWVzdGFtcCgKICAgICAgICBkYXRldGltZS5ub3codGltZXpvbmUudXRjKS50aW1lc3RhbXAoKSArIHJlc3VsdFsiZXhwaXJlc19pbiJdLAogICAgICAgIHR6PXRpbWV6b25lLnV0YywKICAgICkuaXNvZm9ybWF0KCkKCiAgICBnZXRfdG9rZW5fcGF0aCgpLndyaXRlX3RleHQoCiAgICAgICAganNvbi5kdW1wcyhfbm9ybWFsaXplX2F1dGhvcml6ZWRfdXNlcl9wYXlsb2FkKHRva2VuX2RhdGEpLCBpbmRlbnQ9MikKICAgICkKICAgIHJldHVybiB0b2tlbl9kYXRhCgoKZGVmIGdldF92YWxpZF90b2tlbigpIC0+IHN0cjoKICAgICIiIlJldHVybiBhIHZhbGlkIGFjY2VzcyB0b2tlbiwgcmVmcmVzaGluZyBpZiBuZWVkZWQuIiIiCiAgICB0b2tlbl9wYXRoID0gZ2V0X3Rva2VuX3BhdGgoKQogICAgaWYgbm90IHRva2VuX3BhdGguZXhpc3RzKCk6CiAgICAgICAgcHJpbnQoIkVSUk9SOiBObyBHb29nbGUgdG9rZW4gZm91bmQuIFJ1biBzZXR1cC5weSAtLWF1dGgtdXJsIGZpcnN0LiIsIGZpbGU9c3lzLnN0ZGVycikKICAgICAgICBzeXMuZXhpdCgxKQoKICAgIHRva2VuX2RhdGEgPSBqc29uLmxvYWRzKHRva2VuX3BhdGgucmVhZF90ZXh0KCkpCgogICAgZXhwaXJ5ID0gdG9rZW5fZGF0YS5nZXQoImV4cGlyeSIsICIiKQogICAgaWYgZXhwaXJ5OgogICAgICAgIGV4cF9kdCA9IGRhdGV0aW1lLmZyb21pc29mb3JtYXQoZXhwaXJ5LnJlcGxhY2UoIloiLCAiKzAwOjAwIikpCiAgICAgICAgbm93ID0gZGF0ZXRpbWUubm93KHRpbWV6b25lLnV0YykKICAgICAgICBpZiBub3cgPj0gZXhwX2R0OgogICAgICAgICAgICB0b2tlbl9kYXRhID0gcmVmcmVzaF90b2tlbih0b2tlbl9kYXRhKQoKICAgIHJldHVybiB0b2tlbl9kYXRhWyJ0b2tlbiJdCgoKZGVmIG1haW4oKToKICAgICIiIlJlZnJlc2ggdG9rZW4gaWYgbmVlZGVkLCB0aGVuIGV4ZWMgZ3dzIHdpdGggcmVtYWluaW5nIGFyZ3MuIiIiCiAgICBpZiBsZW4oc3lzLmFyZ3YpIDwgMjoKICAgICAgICBwcmludCgiVXNhZ2U6IGd3c19icmlkZ2UucHkgPGd3cyBhcmdzLi4uPiIsIGZpbGU9c3lzLnN0ZGVycikKICAgICAgICBzeXMuZXhpdCgxKQoKICAgIGFjY2Vzc190b2tlbiA9IGdldF92YWxpZF90b2tlbigpCiAgICBlbnYgPSBvcy5lbnZpcm9uLmNvcHkoKQogICAgZW52WyJHT09HTEVfV09SS1NQQUNFX0NMSV9UT0tFTiJdID0gYWNjZXNzX3Rva2VuCgogICAgcmVzdWx0ID0gc3VicHJvY2Vzcy5ydW4oWyJnd3MiXSArIHN5cy5hcmd2WzE6XSwgZW52PWVudikKICAgIHN5cy5leGl0KHJlc3VsdC5yZXR1cm5jb2RlKQoKCmlmIF9fbmFtZV9fID09ICJfX21haW5fXyI6CiAgICBtYWluKCkK
+#!/usr/bin/env python3
+"""Bridge between Hermes OAuth token and gws CLI.
+
+Refreshes the token if expired, then executes gws with the valid access token.
+"""
+import json
+import os
+import subprocess
+import sys
+from datetime import datetime, timezone
+from pathlib import Path
+
+# Ensure sibling modules (_hermes_home) are importable when run standalone.
+_SCRIPTS_DIR = str(Path(__file__).resolve().parent)
+if _SCRIPTS_DIR not in sys.path:
+    sys.path.insert(0, _SCRIPTS_DIR)
+
+from _hermes_home import get_hermes_home
+
+
+def get_token_path() -> Path:
+    return get_hermes_home() / "google_token.json"
+
+
+def _normalize_authorized_user_payload(payload: dict) -> dict:
+    normalized = dict(payload)
+    if not normalized.get("type"):
+        normalized["type"] = "authorized_user"
+    return normalized
+
+
+def refresh_token(token_data: dict) -> dict:
+    """Refresh the access token using the refresh token."""
+    import urllib.error
+    import urllib.parse
+    import urllib.request
+
+    required_keys = ["client_id", "client_secret", "refresh_token", "token_uri"]
+    missing = [k for k in required_keys if k not in token_data]
+    if missing:
+        print(f"ERROR: google_token.json is missing required fields: {', '.join(missing)}", file=sys.stderr)
+        print("Please re-authenticate by running the Google Workspace setup script.", file=sys.stderr)
+        sys.exit(1)
+
+    params = urllib.parse.urlencode({
+        "client_id": token_data["client_id"],
+        "client_secret": token_data["client_secret"],
+        "refresh_token": token_data["refresh_token"],
+        "grant_type": "refresh_token",
+    }).encode()
+
+    req = urllib.request.Request(token_data["token_uri"], data=params)
+    try:
+        with urllib.request.urlopen(req, timeout=15) as resp:
+            result = json.loads(resp.read())
+    except urllib.error.HTTPError as e:
+        body = e.read().decode("utf-8", errors="replace")
+        print(f"ERROR: Token refresh failed (HTTP {e.code}): {body}", file=sys.stderr)
+        print("Re-run setup.py to re-authenticate.", file=sys.stderr)
+        sys.exit(1)
+    except (urllib.error.URLError, TimeoutError) as e:
+        print(f"ERROR: Token refresh failed (network): {e}", file=sys.stderr)
+        sys.exit(1)
+
+    token_data["token"] = result["access_token"]
+    token_data["expiry"] = datetime.fromtimestamp(
+        datetime.now(timezone.utc).timestamp() + result["expires_in"],
+        tz=timezone.utc,
+    ).isoformat()
+
+    get_token_path().write_text(
+        json.dumps(_normalize_authorized_user_payload(token_data), indent=2)
+    )
+    return token_data
+
+
+def get_valid_token() -> str:
+    """Return a valid access token, refreshing if needed."""
+    token_path = get_token_path()
+    if not token_path.exists():
+        print("ERROR: No Google token found. Run setup.py --auth-url first.", file=sys.stderr)
+        sys.exit(1)
+
+    token_data = json.loads(token_path.read_text())
+
+    expiry = token_data.get("expiry", "")
+    if expiry:
+        exp_dt = datetime.fromisoformat(expiry.replace("Z", "+00:00"))
+        now = datetime.now(timezone.utc)
+        if now >= exp_dt:
+            token_data = refresh_token(token_data)
+
+    return token_data["token"]
+
+
+def main():
+    """Refresh token if needed, then exec gws with remaining args."""
+    if len(sys.argv) < 2:
+        print("Usage: gws_bridge.py <gws args...>", file=sys.stderr)
+        sys.exit(1)
+
+    access_token = get_valid_token()
+    env = os.environ.copy()
+    env["GOOGLE_WORKSPACE_CLI_TOKEN"] = access_token
+
+    result = subprocess.run(["gws"] + sys.argv[1:], env=env)
+    sys.exit(result.returncode)
+
+
+if __name__ == "__main__":
+    main()

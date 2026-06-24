@@ -1,1 +1,41 @@
-IyBicmlkZ2UKCkdhcC1jcm9zc2luZyBzdHJ1Y3R1cmUgY29ubmVjdGluZyBwcm9ibGVtIHRvIHNvbHV0aW9uIG9yIGN1cnJlbnQgdG8gZnV0dXJlIHN0YXRlLgoKIyMgU3RydWN0dXJlCgotIExlZnQgc2lkZTogY3VycmVudCBzdGF0ZS9wcm9ibGVtCi0gUmlnaHQgc2lkZTogZGVzaXJlZCBzdGF0ZS9zb2x1dGlvbgotIEJyaWRnZSBlbGVtZW50IHNwYW5uaW5nIHRoZSBnYXAKLSBHYXAgcmVwcmVzZW50aW5nIGNoYWxsZW5nZS9vYnN0YWNsZQotIEJyaWRnZSBlbGVtZW50cyBhcyBzdGVwcy9tZXRob2RzCgojIyBCZXN0IEZvcgoKLSBQcm9ibGVtIHRvIHNvbHV0aW9uIGpvdXJuZXlzCi0gQ3VycmVudCB2cyBmdXR1cmUgc3RhdGUKLSBHYXAgYW5hbHlzaXMKLSBUcmFuc2Zvcm1hdGlvbiBicmlkZ2VzCi0gU3RyYXRlZ2ljIGluaXRpYXRpdmVzCgojIyBWaXN1YWwgRWxlbWVudHMKCi0gVHdvIGRpc3RpbmN0IHBsYXRmb3Jtcy9zaWRlcwotIFZpc2libGUgZ2FwIG9yIGNoYXNtCi0gQnJpZGdlIHN0cnVjdHVyZSB3aXRoIHN1cHBvcnRzCi0gSWNvbnMgcmVwcmVzZW50aW5nIGVhY2ggc2lkZQotIFN0ZXBwaW5nIHN0b25lcyBvciBicmlkZ2UgcGxhbmtzCgojIyBUZXh0IFBsYWNlbWVudAoKLSBUaXRsZSBhdCB0b3AKLSBMZWZ0IGxhYmVsIChGcm9tL1Byb2JsZW0vQ3VycmVudCkKLSBSaWdodCBsYWJlbCAoVG8vU29sdXRpb24vRnV0dXJlKQotIEJyaWRnZSBlbGVtZW50cyBsYWJlbGVkCi0gR2FwIGRlc2NyaXB0aW9uIGJlbG93CgojIyBSZWNvbW1lbmRlZCBQYWlyaW5ncwoKLSBgY2FydG9vbi1oYW5kLWRyYXduYDogRnJpZW5kbHkgam91cm5leXMKLSBgY29ycG9yYXRlLW1lbXBoaXNgOiBCdXNpbmVzcyB0cmFuc2Zvcm1hdGlvbnMKLSBgaXNvbWV0cmljLTNkYDogVGVjaG5pY2FsIHRyYW5zaXRpb25zCg==
+# bridge
+
+Gap-crossing structure connecting problem to solution or current to future state.
+
+## Structure
+
+- Left side: current state/problem
+- Right side: desired state/solution
+- Bridge element spanning the gap
+- Gap representing challenge/obstacle
+- Bridge elements as steps/methods
+
+## Best For
+
+- Problem to solution journeys
+- Current vs future state
+- Gap analysis
+- Transformation bridges
+- Strategic initiatives
+
+## Visual Elements
+
+- Two distinct platforms/sides
+- Visible gap or chasm
+- Bridge structure with supports
+- Icons representing each side
+- Stepping stones or bridge planks
+
+## Text Placement
+
+- Title at top
+- Left label (From/Problem/Current)
+- Right label (To/Solution/Future)
+- Bridge elements labeled
+- Gap description below
+
+## Recommended Pairings
+
+- `cartoon-hand-drawn`: Friendly journeys
+- `corporate-memphis`: Business transformations
+- `isometric-3d`: Technical transitions

@@ -1,1 +1,50 @@
-IyBDb21meVVJIFNraWxsIFRlc3RzCgpQeXRlc3Qgc3VpdGUgY292ZXJpbmcgdGhlIHNraWxsJ3Mgc2NyaXB0cy4gUHVyZS1zdGRsaWIgdW5pdCB0ZXN0cyBydW4Kd2l0aG91dCBhbnkgc2V0dXA7IGNsb3VkIGludGVncmF0aW9uIHRlc3RzIG5lZWQgYSBDb21meSBDbG91ZCBBUEkga2V5LgoKIyMgUnVubmluZwoKYGBgYmFzaAojIFVuaXQgdGVzdHMgb25seSAobm8gbmV0d29yayByZXF1aXJlZCkg4oCUIHJ1bnMgaW4gPDFzCnB5dGhvbjMgLW0gcHl0ZXN0IHRlc3RzLyAtYyB0ZXN0cy9weXRlc3QuaW5pIC1vIGFkZG9wdHM9Ii1wIG5vOnhkaXN0IgoKIyBJbmNsdWRpbmcgY2xvdWQgaW50ZWdyYXRpb24gdGVzdHMKQ09NRllfQ0xPVURfQVBJX0tFWT0iY29tZnl1aS0uLi4iIHB5dGhvbjMgLW0gcHl0ZXN0IHRlc3RzLyBcCiAgLWMgdGVzdHMvcHl0ZXN0LmluaSAtbyBhZGRvcHRzPSItcCBubzp4ZGlzdCIKCiMgSnVzdCBjbG91ZCB0ZXN0cwpDT01GWV9DTE9VRF9BUElfS0VZPSJjb21meXVpLS4uLiIgcHl0aG9uMyAtbSBweXRlc3QgdGVzdHMvdGVzdF9jbG91ZF9pbnRlZ3JhdGlvbi5weSBcCiAgLWMgdGVzdHMvcHl0ZXN0LmluaSAtbyBhZGRvcHRzPSItcCBubzp4ZGlzdCIgLXYKYGBgCgpUaGUgYC1jYCBhbmQgYC1vYCBvdmVycmlkZXMgaXNvbGF0ZSB0aGlzIHN1aXRlIGZyb20gYW55IHBhcmVudApgcHlwcm9qZWN0LnRvbWxgIHB5dGVzdCBjb25maWcgKGUuZy4gdGhlIGAtbiBhdXRvYCBmcm9tIGEgcGFyZW50IHJlcG8pLgoKIyMgVGVzdCBmaWxlcwoKfCBGaWxlIHwgQ292ZXJhZ2UgfAp8LS0tLS0tfC0tLS0tLS0tLS18CnwgYHRlc3RfY29tbW9uLnB5YCB8IENsb3VkIGRldGVjdGlvbiwgVVJMIHJvdXRpbmcsIGZvcm1hdCB2YWxpZGF0aW9uLCBlbWJlZGRpbmdzLCBwYXRocywgc2VlZHMsIG1vZGVsLWxpc3QgcGFyc2luZywgZm9sZGVyIGFsaWFzZXMgfAp8IGB0ZXN0X2V4dHJhY3Rfc2NoZW1hLnB5YCB8IENvbm5lY3Rpb24gdHJhY2luZywgcG9zaXRpdmUvbmVnYXRpdmUgcHJvbXB0IGRldGVjdGlvbiwgZGVkdXAgbG9naWMsIGVtYmVkZGluZyBkZXBzIHwKfCBgdGVzdF9ydW5fd29ya2Zsb3cucHlgIHwgUGFyYW0gaW5qZWN0aW9uIChpbmNsLiAtMSBzZWVkLCBsaW5rIHJlZnVzYWwpLCBvdXRwdXQgZG93bmxvYWQgd2FsaywgcnVubmVyIGNvbnN0cnVjdGlvbiB8CnwgYHRlc3RfY2hlY2tfZGVwcy5weWAgfCBNb2RlbC1uYW1lIGZ1enp5IG1hdGNoaW5nLCBpbnN0YWxsIGNvbW1hbmQgc3VnZ2VzdGlvbnMgfAp8IGB0ZXN0X2Nsb3VkX2ludGVncmF0aW9uLnB5YCB8IExpdmUgY2xvdWQgQVBJIGNvbnRyYWN0IHRlc3RzIChhdXRvLXNraXBwZWQgd2l0aG91dCBBUEkga2V5KSB8CgojIyBBZGRpbmcgdGVzdHMKCldoZW4geW91IGNoYW5nZSBhIHNjcmlwdDoKCjEuIEFkZCBhIHVuaXQgdGVzdCBpZiB0aGUgY2hhbmdlIGlzIHB1cmUgbG9naWMgKGNsb3VkIGRldGVjdGlvbiwgcGFyc2luZywgZXRjLikKMi4gQWRkIGEgY2xvdWQgaW50ZWdyYXRpb24gdGVzdCBpZiB0aGUgY2hhbmdlIGRlcGVuZHMgb24gY2xvdWQgQVBJIGJlaGF2aW9yCiAgICh1c2UgYHB5dGVzdG1hcmsgPSBweXRlc3QubWFyay5jbG91ZGAgc28gaXQgYXV0by1za2lwcyB3aXRob3V0IGEga2V5KQozLiBXb3JrZmxvdyBmaXh0dXJlcyBsaXZlIGluIGBjb25mdGVzdC5weWAgKGBzZDE1X3dvcmtmbG93YCwgYGZsdXhfd29ya2Zsb3dgLAogICBgdmlkZW9fd29ya2Zsb3dgKQoKIyMgV2h5IHRoZSBleHBsaWNpdCBgLWNgIC8gYC1vYD8KClRoZSBwYXJlbnQgaGVybWVzLWFnZW50IHJlcG8ncyBgcHlwcm9qZWN0LnRvbWxgIGVuYWJsZXMgYHB5dGVzdC14ZGlzdGAgYnkKZGVmYXVsdCAoYC1uIGF1dG9gKS4gVGhpcyBzdWl0ZSBpcyBzbWFsbCBlbm91Z2ggdGhhdCBwYXJhbGxlbGlzbSBpc24ndAp3b3J0aCB0aGUgY29tcGxleGl0eSwgYW5kIHB5dGVzdC14ZGlzdCBpc24ndCBhbHdheXMgaW5zdGFsbGVkIGluIHRoZSB1c2VyJ3MKZW52aXJvbm1lbnQuIFRoZSBgLWMgdGVzdHMvcHl0ZXN0LmluaSAtbyBhZGRvcHRzPSItcCBubzp4ZGlzdCJgIGZsYWdzIG1ha2UKdGhlIHN1aXRlIHJ1biBpZGVudGljYWxseSByZWdhcmRsZXNzIG9mIHRoZSBwYXJlbnQgcHJvamVjdCdzIGNvbmZpZy4K
+# ComfyUI Skill Tests
+
+Pytest suite covering the skill's scripts. Pure-stdlib unit tests run
+without any setup; cloud integration tests need a Comfy Cloud API key.
+
+## Running
+
+```bash
+# Unit tests only (no network required) — runs in <1s
+python3 -m pytest tests/ -c tests/pytest.ini -o addopts="-p no:xdist"
+
+# Including cloud integration tests
+COMFY_CLOUD_API_KEY="comfyui-..." python3 -m pytest tests/ \
+  -c tests/pytest.ini -o addopts="-p no:xdist"
+
+# Just cloud tests
+COMFY_CLOUD_API_KEY="comfyui-..." python3 -m pytest tests/test_cloud_integration.py \
+  -c tests/pytest.ini -o addopts="-p no:xdist" -v
+```
+
+The `-c` and `-o` overrides isolate this suite from any parent
+`pyproject.toml` pytest config (e.g. the `-n auto` from a parent repo).
+
+## Test files
+
+| File | Coverage |
+|------|----------|
+| `test_common.py` | Cloud detection, URL routing, format validation, embeddings, paths, seeds, model-list parsing, folder aliases |
+| `test_extract_schema.py` | Connection tracing, positive/negative prompt detection, dedup logic, embedding deps |
+| `test_run_workflow.py` | Param injection (incl. -1 seed, link refusal), output download walk, runner construction |
+| `test_check_deps.py` | Model-name fuzzy matching, install command suggestions |
+| `test_cloud_integration.py` | Live cloud API contract tests (auto-skipped without API key) |
+
+## Adding tests
+
+When you change a script:
+
+1. Add a unit test if the change is pure logic (cloud detection, parsing, etc.)
+2. Add a cloud integration test if the change depends on cloud API behavior
+   (use `pytestmark = pytest.mark.cloud` so it auto-skips without a key)
+3. Workflow fixtures live in `conftest.py` (`sd15_workflow`, `flux_workflow`,
+   `video_workflow`)
+
+## Why the explicit `-c` / `-o`?
+
+The parent hermes-agent repo's `pyproject.toml` enables `pytest-xdist` by
+default (`-n auto`). This suite is small enough that parallelism isn't
+worth the complexity, and pytest-xdist isn't always installed in the user's
+environment. The `-c tests/pytest.ini -o addopts="-p no:xdist"` flags make
+the suite run identically regardless of the parent project's config.

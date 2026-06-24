@@ -1,1 +1,245 @@
-IyBQYXJ0aWNsZXMgUmVmZXJlbmNlCgpQYXJ0aWNsZSBzeXN0ZW1zIGluIFRvdWNoRGVzaWduZXIg4oCUIG1vZGVybiBQT1BzIChQYXJ0aWNsZSBPcGVyYXRvcnMpIGFuZCB0aGUgbGVnYWN5IHBhcnRpY2xlU09QIHBhdGguCgpGb3IgaW5zdGFuY2luZyBzdGF0aWMgZ2VvbWV0cnkgKHdpdGhvdXQgcGVyLWluc3RhbmNlIGxpZmV0aW1lL3ZlbG9jaXR5KSwgc2VlIGBnZW9tZXRyeS1jb21wLm1kYC4gRm9yIEdMU0wtZHJpdmVuIGZlZWRiYWNrIHNpbXVsYXRpb25zIChubyBwYXJ0aWNsZSBhYnN0cmFjdGlvbiksIHNlZSBgb3BlcmF0b3ItdGlwcy5tZGAgKEZlZWRiYWNrIFRPUCBzZWN0aW9uKS4KCkFsd2F5cyBjYWxsIGB0ZF9nZXRfcGFyX2luZm9gIGZvciB0aGUgb3AgdHlwZSBiZWZvcmUgc2V0dGluZyBwYXJhbXMuIFBhcmFtIG5hbWVzIGJlbG93IHJlZmxlY3QgVEQgMjAyNS4zMiDigJQgdmVyaWZ5IGJlZm9yZSByZWx5aW5nIG9uIHRoZW0uCgotLS0KCiMjIFR3byBQYXRoczogUE9QcyB2cy4gU09QcwoKfCB8ICoqUE9QIGZhbWlseSoqIChtb2Rlcm4pIHwgKipwYXJ0aWNsZVNPUCoqIChsZWdhY3kpIHwKfC0tLXwtLS18LS0tfAp8IEdQVT8gfCBZZXMgKGNvbXB1dGUpIHwgTm8gKENQVSkgfAp8IFBhcnRpY2xlIGNvdW50IHwgMTAwaysgY29tZm9ydGFibHkgfCB+NWsgYmVmb3JlIHNsb3dkb3duIHwKfCBBUEkgc3R5bGUgfCBTb3VyY2UgLyBGb3JjZSAvIFNvbHZlciAvIFJlbmRlciBjaGFpbiB8IFNpbmdsZSBvcCB3aXRoIG1hbnkgcGFyYW1zIHwKfCBVc2UgZm9yIHwgTmV3IHByb2plY3RzLCBhbnl0aGluZyBpbnRlbnNpdmUgfCBRdWljayBkZW1vcywgbG93IGNvdW50cywgVEQgPCAyMDIzIHwKCioqRGVmYXVsdCB0byBQT1BzLioqIE9ubHkgZmFsbCBiYWNrIHRvIHBhcnRpY2xlU09QIGlmIGEgUE9QIHZhcmlhbnQgb2YgYW4gb3AgeW91IG5lZWQgZG9lc24ndCBleGlzdC4KCi0tLQoKIyMgUE9QIFBpcGVsaW5lIE92ZXJ2aWV3CgpBIFBPUCBzeXN0ZW0gaXMgYSBjaGFpbiBvZiBvcGVyYXRvcnMgaW5zaWRlIGEgYGdlb21ldHJ5Q09NUGA6CgpgYGAKcG9wU291cmNlVE9QIC8gcG9wU291cmNlU09QICAg4oaQIHNwYXduIG5ldyBwYXJ0aWNsZXMKICAgICAgICDihpMKcG9wRm9yY2VUT1AgKGdyYXZpdHksIHdpbmQsIGV0Yy4pCiAgICAgICAg4oaTCnBvcEZvcmNlVE9QIChhdHRyYWN0b3IsIHZvcnRleCwgLi4uKQogICAgICAgIOKGkwpwb3BEZWxldGVUT1AgKGxpZmV0aW1lLCBib3VuZHMpCiAgICAgICAg4oaTCnBvcFNvbHZlclRPUCAgICAgICAgICAgICAgICAgIOKGkCBpbnRlZ3JhdGVzIHZlbG9jaXR5LCB1cGRhdGVzIHBvc2l0aW9ucwogICAgICAgIOKGkwpbcmVuZGVyIHZpYSBnZW9tZXRyeUNPTVAgLyBnbHNsTUFUIGluc3RhbmNpbmddCmBgYAoKUE9QIGJ1ZmZlcnMgY2Fycnkgc3RhbmRhcmQgY2hhbm5lbHM6IGBQYCAocG9zaXRpb24pLCBgdmAgKHZlbG9jaXR5KSwgYGxpZmVgLCBgaWRgLCBgQ2RgIChjb2xvciksIHBsdXMgYW55IGN1c3RvbSBjaGFubmVscyB5b3UgYWRkLgoKLS0tCgojIyBNaW5pbWFsIFBPUCBTZXR1cAoKYGBgcHl0aG9uCiMgQ3JlYXRlIGEgZ2VvbWV0cnkgQ09NUCB0byBob2xkIHRoZSBQT1AgbmV0d29yawpnZW8gPSByb290LmNyZWF0ZShnZW9tZXRyeUNPTVAsICdwYXJ0aWNsZXNfZ2VvJykKCiMgMS4gU291cmNlIOKAlCBlbWl0IHBhcnRpY2xlcyBmcm9tIGEgcG9pbnQKc3JjID0gZ2VvLmNyZWF0ZShwb3BTb3VyY2VUT1AsICdzcmMnKQpzcmMucGFyLmJpcnRocmF0ZSA9IDUwMCAgICAgICAgICAjIHBlciBzZWNvbmQKc3JjLnBhci5saWZlID0gNC4wICAgICAgICAgICAgICAgICMgc2Vjb25kcwoKIyAyLiBHcmF2aXR5IGZvcmNlCmdyYXYgPSBnZW8uY3JlYXRlKHBvcEZvcmNlVE9QLCAnZ3Jhdml0eScpCmdyYXYucGFyLmZvcmNldHlwZSA9ICdncmF2aXR5JwpncmF2LnBhci5meSA9IC05LjgKCiMgMy4gTGlmZXRpbWUgY2xlYW51cApkZWxwID0gZ2VvLmNyZWF0ZShwb3BEZWxldGVUT1AsICdjdWxsJykKZGVscC5wYXIuY29uZGl0aW9uID0gJ2xpZmVsZXEnICAgICMgZGVsZXRlIHdoZW4gbGlmZSA8PSAwCmRlbHAucGFyLnZhbHVlID0gMAoKIyA0LiBTb2x2ZXIKc29sdiA9IGdlby5jcmVhdGUocG9wU29sdmVyVE9QLCAnc29sdmVyJykKc29sdi5wYXIudGltZXN0ZXAgPSAnZnJhbWUnCgojIFdpcmU6IHNvdXJjZSDihpIgZm9yY2Ug4oaSIGRlbGV0ZSDihpIgc29sdmVyCnNyYy5vdXRwdXRDb25uZWN0b3JzWzBdLmNvbm5lY3QoZ3Jhdi5pbnB1dENvbm5lY3RvcnNbMF0pCmdyYXYub3V0cHV0Q29ubmVjdG9yc1swXS5jb25uZWN0KGRlbHAuaW5wdXRDb25uZWN0b3JzWzBdKQpkZWxwLm91dHB1dENvbm5lY3RvcnNbMF0uY29ubmVjdChzb2x2LmlucHV0Q29ubmVjdG9yc1swXSkKYGBgCgpUaGUgYHBvcFNvbHZlclRPUGAgb3V0cHV0IElTIHRoZSBsaXZlIHBhcnRpY2xlIGJ1ZmZlci4gUmVuZGVyIGl0IHZpYSBgZ2xzbE1BVGAgaW5zdGFuY2luZyBvbiBhIHNtYWxsIFNPUCAoc3BoZXJlLCBwb2ludCkgYXMgdGhlICJzaGFwZSIgb2YgZWFjaCBwYXJ0aWNsZS4KCi0tLQoKIyMgQ29tbW9uIEZvcmNlcwoKfCBGb3JjZSB0eXBlIHwgRWZmZWN0IHwgQ29tbW9uIHBhcmFtcyB8CnwtLS18LS0tfC0tLXwKfCBgZ3Jhdml0eWAgfCBDb25zdGFudCBkaXJlY3Rpb25hbCBwdWxsIHwgYGZ4YCwgYGZ5YCwgYGZ6YCB8CnwgYHdpbmRgIHwgQ29uc3RhbnQgdmVsb2NpdHkgYWRkaXRpb24gfCBgd3hgLCBgd3lgLCBgd3pgIHwKfCBgZHJhZ2AgfCBWZWxvY2l0eSBkYW1waW5nIG92ZXIgdGltZSB8IGBkcmFnc3RyZW5ndGhgIHwKfCBgbm9pc2VgIHwgQ3VybC1ub2lzZSB0dXJidWxlbmNlIHwgYG5vaXNlYW1wYCwgYG5vaXNlZnJlcWAsIGBub2lzZXNlZWRgIHwKfCBgYXR0cmFjdG9yYCB8IFB1bGwgdG93YXJkIGEgcG9pbnQgfCBgcG9zaXRpb25gLCBgc3RyZW5ndGhgLCBgZmFsbG9mZmAgfAp8IGB2b3J0ZXhgIHwgU3dpcmwgYXJvdW5kIGFuIGF4aXMgfCBgYXhpc2AsIGBzdHJlbmd0aGAgfAp8IGBwb2ludGAgKGN1c3RvbSkgfCBHTFNMLWV2YWx1YXRlZCBhcmJpdHJhcnkgZm9yY2UgfCB2aWEgYHBvcGZvcmNlYWR2YW5jZWRUT1BgIHwKClN0YWNrIG11bHRpcGxlIGBwb3BGb3JjZVRPUGBzIGluIHNlcmllcyDigJQgZWFjaCBtb2RpZmllcyB2ZWxvY2l0eSBhZGRpdGl2ZWx5LgoKLS0tCgojIyBMaWZlY3ljbGUgUGF0dGVybnMKCiMjIyBDb250aW51b3VzIGVtaXNzaW9uIChlLmcuIHNtb2tlIHBsdW1lKQoKYGBgcHl0aG9uCnNyYy5wYXIuYmlydGhyYXRlID0gODAwCnNyYy5wYXIubGlmZSA9IDYuMCAgICAgICAjIHZhcmlhbmNlIHZpYSAnbGlmZXZhcmlhbmNlJwpzcmMucGFyLmxpZmV2YXJpYW5jZSA9IDEuNQpgYGAKCiMjIyBCdXJzdCBlbWlzc2lvbiAoZS5nLiBleHBsb3Npb24pCgpgYGBweXRob24Kc3JjLnBhci5iaXJ0aHJhdGUgPSAwICAgICMgbm8gY29udGludW91cyBlbWlzc2lvbgpzcmMucGFyLmJ1cnN0LnB1bHNlKCkgICAgIyBvbmUgYnVyc3Qgb24gZGVtYW5kICh2ZXJpZnkgcGFyYW0gbmFtZSkKc3JjLnBhci5idXJzdGNvdW50ID0gNTAwMApzcmMucGFyLmxpZmUgPSAxLjUKYGBgCgojIyMgQmVhdC10cmlnZ2VyZWQgYnVyc3QKCldpcmUgYSBgdHJpZ2dlckNIT1BgIChmcm9tIGF1ZGlvIG9yIE1JREkpIHRvIHB1bHNlIHRoZSBidXJzdDoKCmBgYHB5dGhvbgpvcCgnL3Byb2plY3QxL2F1ZGlvX2tpY2tfdHJpZ2dlcicpLm91dHB1dENvbm5lY3RvcnNbMF0uY29ubmVjdCguLi4pCiMgVGhlbiB2aWEgYSBjaG9wRXhlY3V0ZURBVCwgb24gZWFjaCBraWNrOgpkZWYgb2ZmVG9PbihjaGFubmVsLCBzYW1wbGVJbmRleCwgdmFsLCBwcmV2KToKICAgIG9wKCcvcHJvamVjdDEvcGFydGljbGVzX2dlby9zcmMnKS5wYXIuYnVyc3QucHVsc2UoKQogICAgcmV0dXJuCmBgYAoKLS0tCgojIyBSZW5kZXJpbmcgUGFydGljbGVzCgojIyMgUG9pbnQgU3ByaXRlcyAoc2ltcGxlc3QpCgpgYGBweXRob24KIyBJbnNpZGUgdGhlIGdlb21ldHJ5Q09NUCwgcmVuZGVyIHRoZSBzb2x2ZXIgb3V0cHV0IGRpcmVjdGx5CiMgVGhlIGdlbydzIGZpcnN0IFNPUCBjaGlsZCBiZWNvbWVzIHRoZSBnZW9tZXRyeQojIEJ1dCBmb3IgUE9Qcywgd2UgdHlwaWNhbGx5IHJlbmRlciB2aWEgZ2xzbE1BVCBvbiBhIHNtYWxsICJzaGFwZSIKCiMgU2ltcGxlIGJpbGxib2FyZCBzcGhlcmUgcGVyIHBhcnRpY2xlOgpzaGFwZSA9IGdlby5jcmVhdGUoc3BoZXJlU09QLCAnc2hhcGUnKQpzaGFwZS5wYXIucmFkID0gMC4wNQpzaGFwZS5wYXIucm93cyA9IDY7IHNoYXBlLnBhci5jb2xzID0gNiAgICMgbG93LXBvbHkgdG8ga2VlcCBpdCBmYXN0CgojIE1hdGVyaWFsIHRoYXQgdXNlcyBQT1AgYnVmZmVyIGZvciBpbnN0YW5jaW5nCm1hdCA9IHJvb3QuY3JlYXRlKGdsc2xNQVQsICdwYXJ0aWNsZV9tYXQnKQojIENvbmZpZ3VyZSBtYXQucGFyLmluc3RhbmNpbmdUT1AgPSBzb2x2ZXIgb3V0cHV0ICh2ZXJpZnkgcGFyYW0gbmFtZSkKYGBgCgpUaGUgZXhhY3QgaW5zdGFuY2luZyBzZXR1cCB2YXJpZXMgYnkgVEQgdmVyc2lvbiDigJQgY2FsbCBgdGRfZ2V0X2hpbnRzKHRvcGljPSdwb3BJbnN0YW5jaW5nJylgIChvciBgcG9wUmVuZGVyYCAvIGBpbnN0YW5jaW5nYCDigJQgdHJ5IGEgZmV3KS4KCiMjIyBHUFUgU3ByaXRlcyB2aWEgZ2xzbGNvcHlQT1AKCkZvciBkZW5zZSBzbW9rZS9maXJlLWxpa2UgZWZmZWN0cywgdXNlIGEgYGdsc2xjb3B5UE9QYCB0aGF0IHdyaXRlcyBwZXItcGFydGljbGUgY29sb3Ivc2l6ZSBmcm9tIGEgY29tcHV0ZSBzaGFkZXIsIHRoZW4gcmVuZGVyIGFzIHBvaW50IHNwcml0ZXMgd2l0aCBhZGRpdGl2ZSBibGVuZGluZyBpbiBhIGByZW5kZXJUT1BgLgoKLS0tCgojIyBDb2xsaXNpb25zCgpgYGBweXRob24KIyBDb2xsaXNpb24gZGV0ZWN0aW9uIGFnYWluc3QgYW4gU09QCmNvbGwgPSBnZW8uY3JlYXRlKHBvcENvbGxpZGVUT1AsICdncm91bmRfY29sbCcpCmNvbGwucGFyLmNvbGxpZGV3aXRoc29wID0gJy9wcm9qZWN0MS9ncm91bmRfZ2VvJyAgIyBwYXRoIHRvIGNvbGxpZGluZyBTT1AKY29sbC5wYXIuYm91bmNlID0gMC4zCmNvbGwucGFyLmZyaWN0aW9uID0gMC4xCiMgSW5zZXJ0IGJldHdlZW4gZm9yY2UgYW5kIHNvbHZlcgpgYGAKCkZvciBwbGFuZS9ib3ggY29sbGlzaW9ucyBvbmx5LCB1c2UgYHBvcFBsYW5lQ29sbGlkZVRPUGAgKGNoZWFwZXIpLgoKLS0tCgojIyBDdXN0b20gUGVyLVBhcnRpY2xlIERhdGEKCkFkZCBhIGN1c3RvbSBjaGFubmVsIHZpYSBgcG9wQXR0cmliQ3JlYXRlVE9QYCAob3IgYnkgd3JpdGluZyB0aHJvdWdoIGBnbHNsY29weVBPUGApOgoKYGBgcHl0aG9uCiMgQWRkIGEgInBoYXNlIiBhdHRyaWJ1dGUgaW5pdGlhbGl6ZWQgcmFuZG9tIHBlci1wYXJ0aWNsZSwgdXNlZCBpbiByZW5kZXIgc2hhZGVyCmF0dHIgPSBnZW8uY3JlYXRlKHBvcEF0dHJpYkNyZWF0ZVRPUCwgJ2FkZF9waGFzZScpCmF0dHIucGFyLmF0dHJpYm5hbWUgPSAncGhhc2UnCmF0dHIucGFyLnZhbHVlMCA9ICdyYW5kKEBpZCknICAgIyBleHByZXNzaW9uIGluIFREJ3MgUE9QIGF0dHJpYnV0ZSBsYW5ndWFnZQpgYGAKClRoZW4gaW4gdGhlIHJlbmRlciBzaGFkZXIsIGB0ZXh0dXJlKHNURFBPUElucHV0c1swXS5waGFzZSwgLi4uKWAgKG9yIHdoaWNoZXZlciBzYW1wbGVyIGNvbnZlbnRpb24geW91ciBURCB2ZXJzaW9uIHVzZXMg4oCUIHZlcmlmeSB3aXRoIGB0ZF9nZXRfZG9jcyh0b3BpYz0ncG9wcycpYCkuCgotLS0KCiMjIExlZ2FjeSBwYXJ0aWNsZVNPUCAoVXNlIFNwYXJpbmdseSkKCkZvciBxdWljayBkZW1vcyBvciBsb3ctY291bnQgc3lzdGVtczoKCmBgYHB5dGhvbgojIEluc2lkZSBhIGdlbwpwc3JjID0gZ2VvLmNyZWF0ZShhZGRTT1AsICdwb2ludF9zcmMnKSAgICAgICMgc291cmNlOiBhIHNpbmdsZSBwb2ludApwc3JjLnBhci5wb2ludHMgPSAnMCAwIDAnCgpwYXJ0ID0gZ2VvLmNyZWF0ZShwYXJ0aWNsZVNPUCwgJ3BhcnRpY2xlcycpCnBhcnQucGFyLmxpZmUgPSAzLjAKcGFydC5wYXIuYmlydGhyYXRlID0gMTAwCnBhcnQucGFyLmdyYXZpdHl5ID0gLTkuOApwYXJ0LnBhci53aW5keCA9IDAuNQpwYXJ0LmlucHV0Q29ubmVjdG9yc1swXS5jb25uZWN0KHBzcmMpCmBgYAoKQ1BVLWJvdW5kLiBCZXlvbmQgfjUsMDAwIGFjdGl2ZSBwYXJ0aWNsZXMgeW91J2xsIHNlZSBmcmFtZSBkcm9wcy4KCi0tLQoKIyMgUGl0ZmFsbHMKCjEuICoqUGFydGljbGVzIGRvbid0IGFwcGVhcioqIOKAlCB1c3VhbGx5IGEgcmVuZGVyLXNpZGUgaXNzdWUuIENoZWNrIHZpYSBgdGRfZ2V0X3NjcmVlbnNob3RgIG9uIHRoZSBzb2x2ZXIgb3V0cHV0IChyZW5kZXJzIHRoZSBidWZmZXIgYXMgYSBUT1AtbGlrZSB2aWV3IGluIG5ld2VyIFREKS4gVGhlbiBjaGVjayB0aGUgYGdlb21ldHJ5Q09NUGAncyByZW5kZXIgcGF0aC4KMi4gKipCdXJzdCB3b24ndCBmaXJlKiog4oCUIHZlcmlmeSB0aGUgYGJ1cnN0YCBwYXJhbSBpcyBhIHB1bHNlLCBub3QgYSB0b2dnbGUuIFB1bHNlcyBtdXN0IHVzZSBgLnB1bHNlKClgLCBub3QgYD0gVHJ1ZWAuCjMuICoqUGFydGljbGVzIHRlbGVwb3J0IG9uIGZpcnN0IGZyYW1lKiog4oCUIHVuaW5pdGlhbGl6ZWQgdmVsb2NpdHkuIFNldCBgcG9wU291cmNlVE9QLnBhci5pbml0aWFsdmVsb2NpdHlYL1kvWmAgb3IgemVybyB0aGVtIGV4cGxpY2l0bHkuCjQuICoqR3Jhdml0eSBmZWVscyB3cm9uZyoqIOKAlCBURCdzICIxIHVuaXQiIGRlcGVuZHMgb24geW91ciBzY2VuZSBzY2FsZS4gU3RhcnQgd2l0aCBgZnkgPSAtMS4wYCBhbmQgc2NhbGUgdXAgcmF0aGVyIHRoYW4gdXNpbmcgcmVhbC13b3JsZCA5LjguCjUuICoqSGlnaCBiaXJ0aHJhdGUgPSBzdHV0dGVyaW5nKiog4oCUIGJpcnRocmF0ZSBpcyBwZXItc2Vjb25kLCBub3QgcGVyLWZyYW1lLiBBdCA2MGZwcywgYGJpcnRocmF0ZSA9IDYwMDBgIGlzIDEwMC9mcmFtZSB3aGljaCBpcyBmaW5lOyBgYmlydGhyYXRlID0gNjAwMDAwYCB3aWxsIHRhbmsuCjYuICoqUE9QIHNvbHZlciBvcmRlciBtYXR0ZXJzKiog4oCUIGZvcmNlcyBhcHBseSBpbiB0aGUgb3JkZXIgdGhleSBhcHBlYXIgaW4gdGhlIGNoYWluLiBQdXR0aW5nIGdyYXZpdHkgQUZURVIgZHJhZyBkYW1wZW5zIGdyYXZpdHkgaXRzZWxmOyB1c3VhbGx5IG5vdCB3aGF0IHlvdSB3YW50Lgo3LiAqKkluc3RhbmNpbmcgcGFyYW0gbmFtZSB2YXJpZXMqKiDigJQgYG1hdC5wYXIuaW5zdGFuY2luZ1RPUGAgdnMuIGBtYXQucGFyLmluc3RhbmNlb3BgIHZzLiBgbWF0LnBhci5pbnN0YW5jZXNgIGRpZmZlcnMgYWNyb3NzIFREIHZlcnNpb25zLiBBbHdheXMgY2hlY2sgYHRkX2dldF9wYXJfaW5mbyhvcF90eXBlPSdnbHNsTUFUJylgLgo4LiAqKkNvb2tpbmcgZGVwZW5kZW5jeSBsb29wcyoqIOKAlCBQT1Agc29sdmVycyBjcmVhdGUgaW1wbGljaXQgdGltZS1sb29wcy4gVGhlICJjb29rIGRlcGVuZGVuY3kgbG9vcCIgd2FybmluZyBpcyBleHBlY3RlZCBhbmQgaGFybWxlc3MgZm9yIFBPUHMuCjkuICoqQ0hPUC1kcml2ZW4gZm9yY2UgdmFsdWVzKiog4oCUIHdoZW4gYSBmb3JjZSBwYXJhbSBpcyBleHByZXNzaW9uLWJvdW5kIHRvIGEgQ0hPUCAoZS5nLiwgYXVkaW8tcmVhY3RpdmUgZ3Jhdml0eSksIG1ha2Ugc3VyZSB0aGUgQ0hPUCBjb29rcyBiZWZvcmUgdGhlIHNvbHZlci4gSWYgbm90LCBmb3JjZSBsYWdzIGJ5IG9uZSBmcmFtZS4KCi0tLQoKIyMgUGVyZm9ybWFuY2UgVGFyZ2V0cwoKfCBQYXJ0aWNsZSBjb3VudCB8IFNldHVwIHwgRnJhbWUgYnVkZ2V0IEAgNjBmcHMgfAp8LS0tfC0tLXwtLS18CnwgPCAxayB8IHBhcnRpY2xlU09QIGZpbmUgfCB0cml2aWFsIHwKfCAxayAtIDEwayB8IFBPUHMsIHNpbXBsZSBmb3JjZXMgfCB+Mi01bXMgfAp8IDEwayAtIDEwMGsgfCBQT1BzLCBHUFUtb25seSBmb3JjZXMgfCB+NS0xNW1zIHwKfCAxMDBrKyB8IGBnbHNsY29weVBPUGAsIGN1c3RvbSBjb21wdXRlIHwgfjEwLTI1bXMgfAp8IDFNKyB8IEN1c3RvbSBHUFUgYnVmZmVyLCBubyBQT1AgZnJhbWV3b3JrIHwgZGVwZW5kcyBvbiBzaGFkZXIgfAoKVXNlIGB0ZF9nZXRfcGVyZmAgdG8gZmluZCB3aGljaCBvcCBpbiB0aGUgUE9QIGNoYWluIGlzIHRoZSBib3R0bGVuZWNrLgoKLS0tCgojIyBRdWljayBSZWNpcGVzCgp8IEdvYWwgfCBQaXBlbGluZSB8CnwtLS18LS0tfAp8IFNtb2tlIHBsdW1lIHwgYHBvcFNvdXJjZVRPUGAgKHBvaW50KSDihpIgZ3Jhdml0eSArIHdpbmQgKyBub2lzZSDihpIgYHBvcERlbGV0ZVRPUGAgKGxpZmUpIOKGkiBzb2x2ZXIg4oaSIGdsc2xNQVQgaW5zdGFuY2luZyB8CnwgQmVhdC10cmlnZ2VyZWQgYnVyc3QgfCBgdHJpZ2dlckNIT1BgIChhdWRpbykg4oaSIGNob3BFeGVjdXRlREFUIHB1bHNlcyBgcG9wU291cmNlVE9QLnBhci5idXJzdGAgfAp8IEZpcmV3b3JrcyBzaGVsbCB8IEJ1cnN0IGF0IHBvaW50IOKGkiBkcmFnICsgZ3Jhdml0eSDihpIgc2Vjb25kYXJ5IGJ1cnN0IG9uIGxpZmV0aW1lIHRocmVzaG9sZCB8CnwgU25vdy9yYWluIHwgQ29udGludW91cyBlbWlzc2lvbiBhY3Jvc3MgWFogcGxhbmUgKGhpZ2ggeSksIGdyYXZpdHkgKyBzbWFsbCB3aW5kLCBpbmZpbml0ZSBsaWZlIGJveC1kZWxldGVkIHwKfCBTcGFya3MgfCBCdXJzdCwgdmVyeSBzaG9ydCBsaWZlICgwLjNzKSwgYnJpZ2h0IGFkZGl0aXZlIHJlbmRlciwgbW90aW9uIGJsdXIgdmlhIGZlZWRiYWNrIHwKfCBBdWRpbyBwYXJ0aWNsZXMgfCBCaXJ0aHJhdGUgZHJpdmVuIGJ5IGF1ZGlvIGVudmVsb3BlLCBjb2xvciBkcml2ZW4gYnkgZnJlcXVlbmN5IGJhbmQgfAo=
+# Particles Reference
+
+Particle systems in TouchDesigner — modern POPs (Particle Operators) and the legacy particleSOP path.
+
+For instancing static geometry (without per-instance lifetime/velocity), see `geometry-comp.md`. For GLSL-driven feedback simulations (no particle abstraction), see `operator-tips.md` (Feedback TOP section).
+
+Always call `td_get_par_info` for the op type before setting params. Param names below reflect TD 2025.32 — verify before relying on them.
+
+---
+
+## Two Paths: POPs vs. SOPs
+
+| | **POP family** (modern) | **particleSOP** (legacy) |
+|---|---|---|
+| GPU? | Yes (compute) | No (CPU) |
+| Particle count | 100k+ comfortably | ~5k before slowdown |
+| API style | Source / Force / Solver / Render chain | Single op with many params |
+| Use for | New projects, anything intensive | Quick demos, low counts, TD < 2023 |
+
+**Default to POPs.** Only fall back to particleSOP if a POP variant of an op you need doesn't exist.
+
+---
+
+## POP Pipeline Overview
+
+A POP system is a chain of operators inside a `geometryCOMP`:
+
+```
+popSourceTOP / popSourceSOP   ← spawn new particles
+        ↓
+popForceTOP (gravity, wind, etc.)
+        ↓
+popForceTOP (attractor, vortex, ...)
+        ↓
+popDeleteTOP (lifetime, bounds)
+        ↓
+popSolverTOP                  ← integrates velocity, updates positions
+        ↓
+[render via geometryCOMP / glslMAT instancing]
+```
+
+POP buffers carry standard channels: `P` (position), `v` (velocity), `life`, `id`, `Cd` (color), plus any custom channels you add.
+
+---
+
+## Minimal POP Setup
+
+```python
+# Create a geometry COMP to hold the POP network
+geo = root.create(geometryCOMP, 'particles_geo')
+
+# 1. Source — emit particles from a point
+src = geo.create(popSourceTOP, 'src')
+src.par.birthrate = 500          # per second
+src.par.life = 4.0                # seconds
+
+# 2. Gravity force
+grav = geo.create(popForceTOP, 'gravity')
+grav.par.forcetype = 'gravity'
+grav.par.fy = -9.8
+
+# 3. Lifetime cleanup
+delp = geo.create(popDeleteTOP, 'cull')
+delp.par.condition = 'lifeleq'    # delete when life <= 0
+delp.par.value = 0
+
+# 4. Solver
+solv = geo.create(popSolverTOP, 'solver')
+solv.par.timestep = 'frame'
+
+# Wire: source → force → delete → solver
+src.outputConnectors[0].connect(grav.inputConnectors[0])
+grav.outputConnectors[0].connect(delp.inputConnectors[0])
+delp.outputConnectors[0].connect(solv.inputConnectors[0])
+```
+
+The `popSolverTOP` output IS the live particle buffer. Render it via `glslMAT` instancing on a small SOP (sphere, point) as the "shape" of each particle.
+
+---
+
+## Common Forces
+
+| Force type | Effect | Common params |
+|---|---|---|
+| `gravity` | Constant directional pull | `fx`, `fy`, `fz` |
+| `wind` | Constant velocity addition | `wx`, `wy`, `wz` |
+| `drag` | Velocity damping over time | `dragstrength` |
+| `noise` | Curl-noise turbulence | `noiseamp`, `noisefreq`, `noiseseed` |
+| `attractor` | Pull toward a point | `position`, `strength`, `falloff` |
+| `vortex` | Swirl around an axis | `axis`, `strength` |
+| `point` (custom) | GLSL-evaluated arbitrary force | via `popforceadvancedTOP` |
+
+Stack multiple `popForceTOP`s in series — each modifies velocity additively.
+
+---
+
+## Lifecycle Patterns
+
+### Continuous emission (e.g. smoke plume)
+
+```python
+src.par.birthrate = 800
+src.par.life = 6.0       # variance via 'lifevariance'
+src.par.lifevariance = 1.5
+```
+
+### Burst emission (e.g. explosion)
+
+```python
+src.par.birthrate = 0    # no continuous emission
+src.par.burst.pulse()    # one burst on demand (verify param name)
+src.par.burstcount = 5000
+src.par.life = 1.5
+```
+
+### Beat-triggered burst
+
+Wire a `triggerCHOP` (from audio or MIDI) to pulse the burst:
+
+```python
+op('/project1/audio_kick_trigger').outputConnectors[0].connect(...)
+# Then via a chopExecuteDAT, on each kick:
+def offToOn(channel, sampleIndex, val, prev):
+    op('/project1/particles_geo/src').par.burst.pulse()
+    return
+```
+
+---
+
+## Rendering Particles
+
+### Point Sprites (simplest)
+
+```python
+# Inside the geometryCOMP, render the solver output directly
+# The geo's first SOP child becomes the geometry
+# But for POPs, we typically render via glslMAT on a small "shape"
+
+# Simple billboard sphere per particle:
+shape = geo.create(sphereSOP, 'shape')
+shape.par.rad = 0.05
+shape.par.rows = 6; shape.par.cols = 6   # low-poly to keep it fast
+
+# Material that uses POP buffer for instancing
+mat = root.create(glslMAT, 'particle_mat')
+# Configure mat.par.instancingTOP = solver output (verify param name)
+```
+
+The exact instancing setup varies by TD version — call `td_get_hints(topic='popInstancing')` (or `popRender` / `instancing` — try a few).
+
+### GPU Sprites via glslcopyPOP
+
+For dense smoke/fire-like effects, use a `glslcopyPOP` that writes per-particle color/size from a compute shader, then render as point sprites with additive blending in a `renderTOP`.
+
+---
+
+## Collisions
+
+```python
+# Collision detection against an SOP
+coll = geo.create(popCollideTOP, 'ground_coll')
+coll.par.collidewithsop = '/project1/ground_geo'  # path to colliding SOP
+coll.par.bounce = 0.3
+coll.par.friction = 0.1
+# Insert between force and solver
+```
+
+For plane/box collisions only, use `popPlaneCollideTOP` (cheaper).
+
+---
+
+## Custom Per-Particle Data
+
+Add a custom channel via `popAttribCreateTOP` (or by writing through `glslcopyPOP`):
+
+```python
+# Add a "phase" attribute initialized random per-particle, used in render shader
+attr = geo.create(popAttribCreateTOP, 'add_phase')
+attr.par.attribname = 'phase'
+attr.par.value0 = 'rand(@id)'   # expression in TD's POP attribute language
+```
+
+Then in the render shader, `texture(sTDPOPInputs[0].phase, ...)` (or whichever sampler convention your TD version uses — verify with `td_get_docs(topic='pops')`).
+
+---
+
+## Legacy particleSOP (Use Sparingly)
+
+For quick demos or low-count systems:
+
+```python
+# Inside a geo
+psrc = geo.create(addSOP, 'point_src')      # source: a single point
+psrc.par.points = '0 0 0'
+
+part = geo.create(particleSOP, 'particles')
+part.par.life = 3.0
+part.par.birthrate = 100
+part.par.gravityy = -9.8
+part.par.windx = 0.5
+part.inputConnectors[0].connect(psrc)
+```
+
+CPU-bound. Beyond ~5,000 active particles you'll see frame drops.
+
+---
+
+## Pitfalls
+
+1. **Particles don't appear** — usually a render-side issue. Check via `td_get_screenshot` on the solver output (renders the buffer as a TOP-like view in newer TD). Then check the `geometryCOMP`'s render path.
+2. **Burst won't fire** — verify the `burst` param is a pulse, not a toggle. Pulses must use `.pulse()`, not `= True`.
+3. **Particles teleport on first frame** — uninitialized velocity. Set `popSourceTOP.par.initialvelocityX/Y/Z` or zero them explicitly.
+4. **Gravity feels wrong** — TD's "1 unit" depends on your scene scale. Start with `fy = -1.0` and scale up rather than using real-world 9.8.
+5. **High birthrate = stuttering** — birthrate is per-second, not per-frame. At 60fps, `birthrate = 6000` is 100/frame which is fine; `birthrate = 600000` will tank.
+6. **POP solver order matters** — forces apply in the order they appear in the chain. Putting gravity AFTER drag dampens gravity itself; usually not what you want.
+7. **Instancing param name varies** — `mat.par.instancingTOP` vs. `mat.par.instanceop` vs. `mat.par.instances` differs across TD versions. Always check `td_get_par_info(op_type='glslMAT')`.
+8. **Cooking dependency loops** — POP solvers create implicit time-loops. The "cook dependency loop" warning is expected and harmless for POPs.
+9. **CHOP-driven force values** — when a force param is expression-bound to a CHOP (e.g., audio-reactive gravity), make sure the CHOP cooks before the solver. If not, force lags by one frame.
+
+---
+
+## Performance Targets
+
+| Particle count | Setup | Frame budget @ 60fps |
+|---|---|---|
+| < 1k | particleSOP fine | trivial |
+| 1k - 10k | POPs, simple forces | ~2-5ms |
+| 10k - 100k | POPs, GPU-only forces | ~5-15ms |
+| 100k+ | `glslcopyPOP`, custom compute | ~10-25ms |
+| 1M+ | Custom GPU buffer, no POP framework | depends on shader |
+
+Use `td_get_perf` to find which op in the POP chain is the bottleneck.
+
+---
+
+## Quick Recipes
+
+| Goal | Pipeline |
+|---|---|
+| Smoke plume | `popSourceTOP` (point) → gravity + wind + noise → `popDeleteTOP` (life) → solver → glslMAT instancing |
+| Beat-triggered burst | `triggerCHOP` (audio) → chopExecuteDAT pulses `popSourceTOP.par.burst` |
+| Fireworks shell | Burst at point → drag + gravity → secondary burst on lifetime threshold |
+| Snow/rain | Continuous emission across XZ plane (high y), gravity + small wind, infinite life box-deleted |
+| Sparks | Burst, very short life (0.3s), bright additive render, motion blur via feedback |
+| Audio particles | Birthrate driven by audio envelope, color driven by frequency band |

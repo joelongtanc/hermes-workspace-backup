@@ -1,1 +1,114 @@
-IyEvdXNyL2Jpbi9lbnYgcHl0aG9uMwoiIiJTZWFyY2ggYXJYaXYgYW5kIGRpc3BsYXkgcmVzdWx0cyBpbiBhIGNsZWFuIGZvcm1hdC4KClVzYWdlOgogICAgcHl0aG9uIHNlYXJjaF9hcnhpdi5weSAiR1JQTyByZWluZm9yY2VtZW50IGxlYXJuaW5nIgogICAgcHl0aG9uIHNlYXJjaF9hcnhpdi5weSAiR1JQTyByZWluZm9yY2VtZW50IGxlYXJuaW5nIiAtLW1heCAxMAogICAgcHl0aG9uIHNlYXJjaF9hcnhpdi5weSAiR1JQTyByZWluZm9yY2VtZW50IGxlYXJuaW5nIiAtLXNvcnQgZGF0ZQogICAgcHl0aG9uIHNlYXJjaF9hcnhpdi5weSAtLWF1dGhvciAiWWFubiBMZUN1biIgLS1tYXggNQogICAgcHl0aG9uIHNlYXJjaF9hcnhpdi5weSAtLWNhdGVnb3J5IGNzLkFJIC0tc29ydCBkYXRlIC0tbWF4IDEwCiAgICBweXRob24gc2VhcmNoX2FyeGl2LnB5IC0taWQgMjQwMi4wMzMwMAogICAgcHl0aG9uIHNlYXJjaF9hcnhpdi5weSAtLWlkIDI0MDIuMDMzMDAsMjQwMS4xMjM0NQoiIiIKaW1wb3J0IHN5cwppbXBvcnQgdXJsbGliLnJlcXVlc3QKaW1wb3J0IHVybGxpYi5wYXJzZQppbXBvcnQgeG1sLmV0cmVlLkVsZW1lbnRUcmVlIGFzIEVUCgpOUyA9IHsnYSc6ICdodHRwOi8vd3d3LnczLm9yZy8yMDA1L0F0b20nfQoKZGVmIHNlYXJjaChxdWVyeT1Ob25lLCBhdXRob3I9Tm9uZSwgY2F0ZWdvcnk9Tm9uZSwgaWRzPU5vbmUsIG1heF9yZXN1bHRzPTUsIHNvcnQ9InJlbGV2YW5jZSIpOgogICAgcGFyYW1zID0ge30KICAgIAogICAgaWYgaWRzOgogICAgICAgIHBhcmFtc1snaWRfbGlzdCddID0gaWRzCiAgICBlbHNlOgogICAgICAgIHBhcnRzID0gW10KICAgICAgICBpZiBxdWVyeToKICAgICAgICAgICAgcGFydHMuYXBwZW5kKGYnYWxsOnt1cmxsaWIucGFyc2UucXVvdGUocXVlcnkpfScpCiAgICAgICAgaWYgYXV0aG9yOgogICAgICAgICAgICBwYXJ0cy5hcHBlbmQoZidhdTp7dXJsbGliLnBhcnNlLnF1b3RlKGF1dGhvcil9JykKICAgICAgICBpZiBjYXRlZ29yeToKICAgICAgICAgICAgcGFydHMuYXBwZW5kKGYnY2F0OntjYXRlZ29yeX0nKQogICAgICAgIGlmIG5vdCBwYXJ0czoKICAgICAgICAgICAgcHJpbnQoIkVycm9yOiBwcm92aWRlIGEgcXVlcnksIC0tYXV0aG9yLCAtLWNhdGVnb3J5LCBvciAtLWlkIikKICAgICAgICAgICAgc3lzLmV4aXQoMSkKICAgICAgICBwYXJhbXNbJ3NlYXJjaF9xdWVyeSddID0gJytBTkQrJy5qb2luKHBhcnRzKQogICAgCiAgICBwYXJhbXNbJ21heF9yZXN1bHRzJ10gPSBzdHIobWF4X3Jlc3VsdHMpCiAgICAKICAgIHNvcnRfbWFwID0geyJyZWxldmFuY2UiOiAicmVsZXZhbmNlIiwgImRhdGUiOiAic3VibWl0dGVkRGF0ZSIsICJ1cGRhdGVkIjogImxhc3RVcGRhdGVkRGF0ZSJ9CiAgICBwYXJhbXNbJ3NvcnRCeSddID0gc29ydF9tYXAuZ2V0KHNvcnQsIHNvcnQpCiAgICBwYXJhbXNbJ3NvcnRPcmRlciddID0gJ2Rlc2NlbmRpbmcnCiAgICAKICAgIHVybCA9ICJodHRwczovL2V4cG9ydC5hcnhpdi5vcmcvYXBpL3F1ZXJ5PyIgKyAiJiIuam9pbihmIntrfT17dn0iIGZvciBrLCB2IGluIHBhcmFtcy5pdGVtcygpKQogICAgCiAgICByZXEgPSB1cmxsaWIucmVxdWVzdC5SZXF1ZXN0KHVybCwgaGVhZGVycz17J1VzZXItQWdlbnQnOiAnSGVybWVzQWdlbnQvMS4wJ30pCiAgICB3aXRoIHVybGxpYi5yZXF1ZXN0LnVybG9wZW4ocmVxLCB0aW1lb3V0PTE1KSBhcyByZXNwOgogICAgICAgIGRhdGEgPSByZXNwLnJlYWQoKQogICAgCiAgICByb290ID0gRVQuZnJvbXN0cmluZyhkYXRhKQogICAgZW50cmllcyA9IHJvb3QuZmluZGFsbCgnYTplbnRyeScsIE5TKQogICAgCiAgICBpZiBub3QgZW50cmllczoKICAgICAgICBwcmludCgiTm8gcmVzdWx0cyBmb3VuZC4iKQogICAgICAgIHJldHVybgogICAgCiAgICB0b3RhbCA9IHJvb3QuZmluZCgne2h0dHA6Ly9hOS5jb20vLS9zcGVjL29wZW5zZWFyY2gvMS4xL310b3RhbFJlc3VsdHMnKQogICAgaWYgdG90YWwgaXMgbm90IE5vbmU6CiAgICAgICAgcHJpbnQoZiJGb3VuZCB7dG90YWwudGV4dH0gcmVzdWx0cyAoc2hvd2luZyB7bGVuKGVudHJpZXMpfSlcbiIpCiAgICAKICAgIGZvciBpLCBlbnRyeSBpbiBlbnVtZXJhdGUoZW50cmllcyk6CiAgICAgICAgdGl0bGUgPSBlbnRyeS5maW5kKCdhOnRpdGxlJywgTlMpLnRleHQuc3RyaXAoKS5yZXBsYWNlKCdcbicsICcgJykKICAgICAgICByYXdfaWQgPSBlbnRyeS5maW5kKCdhOmlkJywgTlMpLnRleHQuc3RyaXAoKQogICAgICAgIGZ1bGxfaWQgPSByYXdfaWQuc3BsaXQoJy9hYnMvJylbLTFdIGlmICcvYWJzLycgaW4gcmF3X2lkIGVsc2UgcmF3X2lkCiAgICAgICAgYXJ4aXZfaWQgPSBmdWxsX2lkLnNwbGl0KCd2JylbMF0gICMgYmFzZSBJRCBmb3IgbGlua3MKICAgICAgICBwdWJsaXNoZWQgPSBlbnRyeS5maW5kKCdhOnB1Ymxpc2hlZCcsIE5TKS50ZXh0WzoxMF0KICAgICAgICB1cGRhdGVkID0gZW50cnkuZmluZCgnYTp1cGRhdGVkJywgTlMpLnRleHRbOjEwXQogICAgICAgIGF1dGhvcnMgPSAnLCAnLmpvaW4oYS5maW5kKCdhOm5hbWUnLCBOUykudGV4dCBmb3IgYSBpbiBlbnRyeS5maW5kYWxsKCdhOmF1dGhvcicsIE5TKSkKICAgICAgICBzdW1tYXJ5ID0gZW50cnkuZmluZCgnYTpzdW1tYXJ5JywgTlMpLnRleHQuc3RyaXAoKS5yZXBsYWNlKCdcbicsICcgJykKICAgICAgICBjYXRzID0gJywgJy5qb2luKGMuZ2V0KCd0ZXJtJykgZm9yIGMgaW4gZW50cnkuZmluZGFsbCgnYTpjYXRlZ29yeScsIE5TKSkKICAgICAgICAKICAgICAgICB2ZXJzaW9uID0gZnVsbF9pZFtsZW4oYXJ4aXZfaWQpOl0gaWYgZnVsbF9pZCAhPSBhcnhpdl9pZCBlbHNlICIiCiAgICAgICAgcHJpbnQoZiJ7aSsxfS4ge3RpdGxlfSIpCiAgICAgICAgcHJpbnQoZiIgICBJRDoge2FyeGl2X2lkfXt2ZXJzaW9ufSB8IFB1Ymxpc2hlZDoge3B1Ymxpc2hlZH0gfCBVcGRhdGVkOiB7dXBkYXRlZH0iKQogICAgICAgIHByaW50KGYiICAgQXV0aG9yczoge2F1dGhvcnN9IikKICAgICAgICBwcmludChmIiAgIENhdGVnb3JpZXM6IHtjYXRzfSIpCiAgICAgICAgcHJpbnQoZiIgICBBYnN0cmFjdDoge3N1bW1hcnlbOjMwMF19eycuLi4nIGlmIGxlbihzdW1tYXJ5KSA+IDMwMCBlbHNlICcnfSIpCiAgICAgICAgcHJpbnQoZiIgICBMaW5rczogaHR0cHM6Ly9hcnhpdi5vcmcvYWJzL3thcnhpdl9pZH0gfCBodHRwczovL2FyeGl2Lm9yZy9wZGYve2FyeGl2X2lkfSIpCiAgICAgICAgcHJpbnQoKQoKCmlmIF9fbmFtZV9fID09ICJfX21haW5fXyI6CiAgICBhcmdzID0gc3lzLmFyZ3ZbMTpdCiAgICBpZiBub3QgYXJncyBvciBhcmdzWzBdIGluIHsiLWgiLCAiLS1oZWxwIn06CiAgICAgICAgcHJpbnQoX19kb2NfXykKICAgICAgICBzeXMuZXhpdCgwKQogICAgCiAgICBxdWVyeSA9IE5vbmUKICAgIGF1dGhvciA9IE5vbmUKICAgIGNhdGVnb3J5ID0gTm9uZQogICAgaWRzID0gTm9uZQogICAgbWF4X3Jlc3VsdHMgPSA1CiAgICBzb3J0ID0gInJlbGV2YW5jZSIKICAgIAogICAgaSA9IDAKICAgIHBvc2l0aW9uYWwgPSBbXQogICAgd2hpbGUgaSA8IGxlbihhcmdzKToKICAgICAgICBpZiBhcmdzW2ldID09ICItLW1heCIgYW5kIGkgKyAxIDwgbGVuKGFyZ3MpOgogICAgICAgICAgICBtYXhfcmVzdWx0cyA9IGludChhcmdzW2kgKyAxXSk7IGkgKz0gMgogICAgICAgIGVsaWYgYXJnc1tpXSA9PSAiLS1zb3J0IiBhbmQgaSArIDEgPCBsZW4oYXJncyk6CiAgICAgICAgICAgIHNvcnQgPSBhcmdzW2kgKyAxXTsgaSArPSAyCiAgICAgICAgZWxpZiBhcmdzW2ldID09ICItLWF1dGhvciIgYW5kIGkgKyAxIDwgbGVuKGFyZ3MpOgogICAgICAgICAgICBhdXRob3IgPSBhcmdzW2kgKyAxXTsgaSArPSAyCiAgICAgICAgZWxpZiBhcmdzW2ldID09ICItLWNhdGVnb3J5IiBhbmQgaSArIDEgPCBsZW4oYXJncyk6CiAgICAgICAgICAgIGNhdGVnb3J5ID0gYXJnc1tpICsgMV07IGkgKz0gMgogICAgICAgIGVsaWYgYXJnc1tpXSA9PSAiLS1pZCIgYW5kIGkgKyAxIDwgbGVuKGFyZ3MpOgogICAgICAgICAgICBpZHMgPSBhcmdzW2kgKyAxXTsgaSArPSAyCiAgICAgICAgZWxzZToKICAgICAgICAgICAgcG9zaXRpb25hbC5hcHBlbmQoYXJnc1tpXSk7IGkgKz0gMQogICAgCiAgICBpZiBwb3NpdGlvbmFsOgogICAgICAgIHF1ZXJ5ID0gIiAiLmpvaW4ocG9zaXRpb25hbCkKICAgIAogICAgc2VhcmNoKHF1ZXJ5PXF1ZXJ5LCBhdXRob3I9YXV0aG9yLCBjYXRlZ29yeT1jYXRlZ29yeSwgaWRzPWlkcywgbWF4X3Jlc3VsdHM9bWF4X3Jlc3VsdHMsIHNvcnQ9c29ydCkK
+#!/usr/bin/env python3
+"""Search arXiv and display results in a clean format.
+
+Usage:
+    python search_arxiv.py "GRPO reinforcement learning"
+    python search_arxiv.py "GRPO reinforcement learning" --max 10
+    python search_arxiv.py "GRPO reinforcement learning" --sort date
+    python search_arxiv.py --author "Yann LeCun" --max 5
+    python search_arxiv.py --category cs.AI --sort date --max 10
+    python search_arxiv.py --id 2402.03300
+    python search_arxiv.py --id 2402.03300,2401.12345
+"""
+import sys
+import urllib.request
+import urllib.parse
+import xml.etree.ElementTree as ET
+
+NS = {'a': 'http://www.w3.org/2005/Atom'}
+
+def search(query=None, author=None, category=None, ids=None, max_results=5, sort="relevance"):
+    params = {}
+    
+    if ids:
+        params['id_list'] = ids
+    else:
+        parts = []
+        if query:
+            parts.append(f'all:{urllib.parse.quote(query)}')
+        if author:
+            parts.append(f'au:{urllib.parse.quote(author)}')
+        if category:
+            parts.append(f'cat:{category}')
+        if not parts:
+            print("Error: provide a query, --author, --category, or --id")
+            sys.exit(1)
+        params['search_query'] = '+AND+'.join(parts)
+    
+    params['max_results'] = str(max_results)
+    
+    sort_map = {"relevance": "relevance", "date": "submittedDate", "updated": "lastUpdatedDate"}
+    params['sortBy'] = sort_map.get(sort, sort)
+    params['sortOrder'] = 'descending'
+    
+    url = "https://export.arxiv.org/api/query?" + "&".join(f"{k}={v}" for k, v in params.items())
+    
+    req = urllib.request.Request(url, headers={'User-Agent': 'HermesAgent/1.0'})
+    with urllib.request.urlopen(req, timeout=15) as resp:
+        data = resp.read()
+    
+    root = ET.fromstring(data)
+    entries = root.findall('a:entry', NS)
+    
+    if not entries:
+        print("No results found.")
+        return
+    
+    total = root.find('{http://a9.com/-/spec/opensearch/1.1/}totalResults')
+    if total is not None:
+        print(f"Found {total.text} results (showing {len(entries)})\n")
+    
+    for i, entry in enumerate(entries):
+        title = entry.find('a:title', NS).text.strip().replace('\n', ' ')
+        raw_id = entry.find('a:id', NS).text.strip()
+        full_id = raw_id.split('/abs/')[-1] if '/abs/' in raw_id else raw_id
+        arxiv_id = full_id.split('v')[0]  # base ID for links
+        published = entry.find('a:published', NS).text[:10]
+        updated = entry.find('a:updated', NS).text[:10]
+        authors = ', '.join(a.find('a:name', NS).text for a in entry.findall('a:author', NS))
+        summary = entry.find('a:summary', NS).text.strip().replace('\n', ' ')
+        cats = ', '.join(c.get('term') for c in entry.findall('a:category', NS))
+        
+        version = full_id[len(arxiv_id):] if full_id != arxiv_id else ""
+        print(f"{i+1}. {title}")
+        print(f"   ID: {arxiv_id}{version} | Published: {published} | Updated: {updated}")
+        print(f"   Authors: {authors}")
+        print(f"   Categories: {cats}")
+        print(f"   Abstract: {summary[:300]}{'...' if len(summary) > 300 else ''}")
+        print(f"   Links: https://arxiv.org/abs/{arxiv_id} | https://arxiv.org/pdf/{arxiv_id}")
+        print()
+
+
+if __name__ == "__main__":
+    args = sys.argv[1:]
+    if not args or args[0] in {"-h", "--help"}:
+        print(__doc__)
+        sys.exit(0)
+    
+    query = None
+    author = None
+    category = None
+    ids = None
+    max_results = 5
+    sort = "relevance"
+    
+    i = 0
+    positional = []
+    while i < len(args):
+        if args[i] == "--max" and i + 1 < len(args):
+            max_results = int(args[i + 1]); i += 2
+        elif args[i] == "--sort" and i + 1 < len(args):
+            sort = args[i + 1]; i += 2
+        elif args[i] == "--author" and i + 1 < len(args):
+            author = args[i + 1]; i += 2
+        elif args[i] == "--category" and i + 1 < len(args):
+            category = args[i + 1]; i += 2
+        elif args[i] == "--id" and i + 1 < len(args):
+            ids = args[i + 1]; i += 2
+        else:
+            positional.append(args[i]); i += 1
+    
+    if positional:
+        query = " ".join(positional)
+    
+    search(query=query, author=author, category=category, ids=ids, max_results=max_results, sort=sort)

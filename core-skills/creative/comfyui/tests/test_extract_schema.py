@@ -1,1 +1,184 @@
-IiIiVGVzdHMgZm9yIGV4dHJhY3Rfc2NoZW1hLnB5LiIiIgoKZnJvbSBfX2Z1dHVyZV9fIGltcG9ydCBhbm5vdGF0aW9ucwoKCmZyb20gZXh0cmFjdF9zY2hlbWEgaW1wb3J0ICgKICAgIGV4dHJhY3Rfc2NoZW1hLAogICAgZmluZF9uZWdhdGl2ZV9wcm9tcHRfbm9kZSwKICAgIGZpbmRfcG9zaXRpdmVfcHJvbXB0X25vZGUsCiAgICB0cmFjZV90b19ub2RlLAopCgoKIyA9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PQojIENvbm5lY3Rpb24gdHJhY2luZwojID09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09CgpjbGFzcyBUZXN0Q29ubmVjdGlvblRyYWNpbmc6CiAgICBkZWYgdGVzdF9kaXJlY3RfbGluayhzZWxmKToKICAgICAgICB3ZiA9IHsKICAgICAgICAgICAgIjEiOiB7ImNsYXNzX3R5cGUiOiAiQ0xJUFRleHRFbmNvZGUiLCAiaW5wdXRzIjogeyJ0ZXh0IjogIngifX0sCiAgICAgICAgICAgICIyIjogeyJjbGFzc190eXBlIjogIktTYW1wbGVyIiwKICAgICAgICAgICAgICAgICAgImlucHV0cyI6IHsicG9zaXRpdmUiOiBbIjEiLCAwXSwgIm5lZ2F0aXZlIjogWyIxIiwgMF19fSwKICAgICAgICB9CiAgICAgICAgYXNzZXJ0IHRyYWNlX3RvX25vZGUod2YsIFsiMSIsIDBdKSA9PSAiMSIKCiAgICBkZWYgdGVzdF90aHJvdWdoX3Jlcm91dGUoc2VsZik6CiAgICAgICAgd2YgPSB7CiAgICAgICAgICAgICIxIjogeyJjbGFzc190eXBlIjogIkNMSVBUZXh0RW5jb2RlIiwgImlucHV0cyI6IHsidGV4dCI6ICJ4In19LAogICAgICAgICAgICAiMiI6IHsiY2xhc3NfdHlwZSI6ICJSZXJvdXRlIiwgImlucHV0cyI6IHsiaW5wdXQiOiBbIjEiLCAwXX19LAogICAgICAgICAgICAiMyI6IHsiY2xhc3NfdHlwZSI6ICJSZXJvdXRlIiwgImlucHV0cyI6IHsiaW5wdXQiOiBbIjIiLCAwXX19LAogICAgICAgIH0KICAgICAgICBhc3NlcnQgdHJhY2VfdG9fbm9kZSh3ZiwgWyIzIiwgMF0pID09ICIxIgoKICAgIGRlZiB0ZXN0X2NpcmN1bGFyX3NhZmUoc2VsZik6CiAgICAgICAgd2YgPSB7CiAgICAgICAgICAgICIxIjogeyJjbGFzc190eXBlIjogIlJlcm91dGUiLCAiaW5wdXRzIjogeyJpbnB1dCI6IFsiMiIsIDBdfX0sCiAgICAgICAgICAgICIyIjogeyJjbGFzc190eXBlIjogIlJlcm91dGUiLCAiaW5wdXRzIjogeyJpbnB1dCI6IFsiMSIsIDBdfX0sCiAgICAgICAgfQogICAgICAgICMgU2hvdWxkIGhpdCBtYXhfaG9wcyB3aXRob3V0IGluZmluaXRlIGxvb3AKICAgICAgICByZXN1bHQgPSB0cmFjZV90b19ub2RlKHdmLCBbIjEiLCAwXSwgbWF4X2hvcHM9NSkKICAgICAgICBhc3NlcnQgcmVzdWx0IGluIHsiMSIsICIyIn0gICMgYW55IG5vZGUsIGp1c3QgZG9uJ3QgaGFuZwoKCmNsYXNzIFRlc3RQb3NpdGl2ZU5lZ2F0aXZlRGV0ZWN0aW9uOgogICAgZGVmIHRlc3RfYmFzaWMoc2VsZiwgc2QxNV93b3JrZmxvdyk6CiAgICAgICAgIyBJbiBzZDE1X3dvcmtmbG93Lmpzb24gbm9kZSA2IGlzIHBvc2l0aXZlLCBub2RlIDcgaXMgbmVnYXRpdmUKICAgICAgICBhc3NlcnQgZmluZF9wb3NpdGl2ZV9wcm9tcHRfbm9kZShzZDE1X3dvcmtmbG93KSA9PSAiNiIKICAgICAgICBhc3NlcnQgZmluZF9uZWdhdGl2ZV9wcm9tcHRfbm9kZShzZDE1X3dvcmtmbG93KSA9PSAiNyIKCiAgICBkZWYgdGVzdF9zd2FwcGVkX29yZGVyKHNlbGYpOgogICAgICAgIHdmID0gewogICAgICAgICAgICAiMyI6IHsiY2xhc3NfdHlwZSI6ICJLU2FtcGxlciIsCiAgICAgICAgICAgICAgICAgICJpbnB1dHMiOiB7CiAgICAgICAgICAgICAgICAgICAgICAicG9zaXRpdmUiOiBbIjciLCAwXSwgIm5lZ2F0aXZlIjogWyI2IiwgMF0sCiAgICAgICAgICAgICAgICAgICAgICAibW9kZWwiOiBbIjQiLCAwXSwgImxhdGVudF9pbWFnZSI6IFsiNSIsIDBdLAogICAgICAgICAgICAgICAgICAgICAgInNlZWQiOiAxLCAic3RlcHMiOiAyMCwgImNmZyI6IDcuNSwKICAgICAgICAgICAgICAgICAgICAgICJzYW1wbGVyX25hbWUiOiAiZXVsZXIiLCAic2NoZWR1bGVyIjogIm5vcm1hbCIsICJkZW5vaXNlIjogMS4wLAogICAgICAgICAgICAgICAgICB9fSwKICAgICAgICAgICAgIjQiOiB7ImNsYXNzX3R5cGUiOiAiQ2hlY2twb2ludExvYWRlclNpbXBsZSIsICJpbnB1dHMiOiB7ImNrcHRfbmFtZSI6ICJ4In19LAogICAgICAgICAgICAiNSI6IHsiY2xhc3NfdHlwZSI6ICJFbXB0eUxhdGVudEltYWdlIiwgImlucHV0cyI6IHsid2lkdGgiOiA1MTIsICJoZWlnaHQiOiA1MTIsICJiYXRjaF9zaXplIjogMX19LAogICAgICAgICAgICAiNiI6IHsiY2xhc3NfdHlwZSI6ICJDTElQVGV4dEVuY29kZSIsICJpbnB1dHMiOiB7InRleHQiOiAidWdseSIsICJjbGlwIjogWyI0IiwgMV19fSwKICAgICAgICAgICAgIjciOiB7ImNsYXNzX3R5cGUiOiAiQ0xJUFRleHRFbmNvZGUiLCAiaW5wdXRzIjogeyJ0ZXh0IjogImJlYXV0aWZ1bCIsICJjbGlwIjogWyI0IiwgMV19fSwKICAgICAgICB9CiAgICAgICAgIyBOb3cgNyBpcyB0aGUgcG9zaXRpdmUgKGRlc3BpdGUgaGlnaGVyIG5vZGUgSUQpCiAgICAgICAgYXNzZXJ0IGZpbmRfcG9zaXRpdmVfcHJvbXB0X25vZGUod2YpID09ICI3IgogICAgICAgIGFzc2VydCBmaW5kX25lZ2F0aXZlX3Byb21wdF9ub2RlKHdmKSA9PSAiNiIKCgojID09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09CiMgU2NoZW1hIGV4dHJhY3Rpb24KIyA9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PQoKY2xhc3MgVGVzdEV4dHJhY3RTY2hlbWE6CiAgICBkZWYgdGVzdF9iYXNpY19zZDE1KHNlbGYsIHNkMTVfd29ya2Zsb3cpOgogICAgICAgIHNjaGVtYSA9IGV4dHJhY3Rfc2NoZW1hKHNkMTVfd29ya2Zsb3cpCiAgICAgICAgcGFyYW1zID0gc2NoZW1hWyJwYXJhbWV0ZXJzIl0KICAgICAgICBhc3NlcnQgInByb21wdCIgaW4gcGFyYW1zCiAgICAgICAgYXNzZXJ0ICJuZWdhdGl2ZV9wcm9tcHQiIGluIHBhcmFtcwogICAgICAgIGFzc2VydCAic2VlZCIgaW4gcGFyYW1zCiAgICAgICAgYXNzZXJ0ICJzdGVwcyIgaW4gcGFyYW1zCiAgICAgICAgYXNzZXJ0ICJjZmciIGluIHBhcmFtcwogICAgICAgIGFzc2VydCAid2lkdGgiIGluIHBhcmFtcwogICAgICAgIGFzc2VydCAiaGVpZ2h0IiBpbiBwYXJhbXMKCiAgICBkZWYgdGVzdF9wcm9tcHRfdmFsdWVfY29ycmVjdChzZWxmLCBzZDE1X3dvcmtmbG93KToKICAgICAgICBzY2hlbWEgPSBleHRyYWN0X3NjaGVtYShzZDE1X3dvcmtmbG93KQogICAgICAgICMgVGhlIHBvc2l0aXZlIHByb21wdCBpbiB0aGUgZXhhbXBsZSBpcyB0aGUgbGFuZHNjYXBlIG9uZQogICAgICAgIGFzc2VydCAibGFuZHNjYXBlIiBpbiBzY2hlbWFbInBhcmFtZXRlcnMiXVsicHJvbXB0Il1bInZhbHVlIl0KICAgICAgICBhc3NlcnQgInVnbHkiIGluIHNjaGVtYVsicGFyYW1ldGVycyJdWyJuZWdhdGl2ZV9wcm9tcHQiXVsidmFsdWUiXQoKICAgIGRlZiB0ZXN0X21vZGVsX2RlcGVuZGVuY2llcyhzZWxmLCBzZDE1X3dvcmtmbG93KToKICAgICAgICBzY2hlbWEgPSBleHRyYWN0X3NjaGVtYShzZDE1X3dvcmtmbG93KQogICAgICAgIGRlcHMgPSBzY2hlbWFbIm1vZGVsX2RlcGVuZGVuY2llcyJdCiAgICAgICAgY2twdHMgPSBbZFsidmFsdWUiXSBmb3IgZCBpbiBkZXBzIGlmIGRbImZvbGRlciJdID09ICJjaGVja3BvaW50cyJdCiAgICAgICAgYXNzZXJ0ICJ2MS01LXBydW5lZC1lbWFvbmx5LnNhZmV0ZW5zb3JzIiBpbiBja3B0cwoKICAgIGRlZiB0ZXN0X291dHB1dF9ub2RlcyhzZWxmLCBzZDE1X3dvcmtmbG93KToKICAgICAgICBzY2hlbWEgPSBleHRyYWN0X3NjaGVtYShzZDE1X3dvcmtmbG93KQogICAgICAgIGFzc2VydCAiOSIgaW4gc2NoZW1hWyJvdXRwdXRfbm9kZXMiXQoKICAgIGRlZiB0ZXN0X3N1bW1hcnkoc2VsZiwgc2QxNV93b3JrZmxvdyk6CiAgICAgICAgc2NoZW1hID0gZXh0cmFjdF9zY2hlbWEoc2QxNV93b3JrZmxvdykKICAgICAgICBzID0gc2NoZW1hWyJzdW1tYXJ5Il0KICAgICAgICBhc3NlcnQgc1siaGFzX25lZ2F0aXZlX3Byb21wdCJdIGlzIFRydWUKICAgICAgICBhc3NlcnQgc1siaGFzX3NlZWQiXSBpcyBUcnVlCiAgICAgICAgYXNzZXJ0IHNbImlzX3ZpZGVvX3dvcmtmbG93Il0gaXMgRmFsc2UKICAgICAgICBhc3NlcnQgc1sicGFyYW1ldGVyX2NvdW50Il0gPiA1CgogICAgZGVmIHRlc3RfZmx1eF93b3JrZmxvdyhzZWxmLCBmbHV4X3dvcmtmbG93KToKICAgICAgICBzY2hlbWEgPSBleHRyYWN0X3NjaGVtYShmbHV4X3dvcmtmbG93KQogICAgICAgICMgRmx1eCB1c2VzIFJhbmRvbU5vaXNlIGZvciBzZWVkCiAgICAgICAgYXNzZXJ0IHNjaGVtYVsic3VtbWFyeSJdWyJoYXNfc2VlZCJdIGlzIFRydWUKICAgICAgICAjIEZsdXggaGFzIG9ubHkgcG9zaXRpdmUgcHJvbXB0IChubyBuZWdhdGl2ZSBlbmNvZGVyKQogICAgICAgIGFzc2VydCBzY2hlbWFbInN1bW1hcnkiXVsiaGFzX25lZ2F0aXZlX3Byb21wdCJdIGlzIEZhbHNlCgogICAgZGVmIHRlc3RfdmlkZW9fZGV0ZWN0ZWQoc2VsZiwgdmlkZW9fd29ya2Zsb3cpOgogICAgICAgIHNjaGVtYSA9IGV4dHJhY3Rfc2NoZW1hKHZpZGVvX3dvcmtmbG93KQogICAgICAgIGFzc2VydCBzY2hlbWFbInN1bW1hcnkiXVsiaXNfdmlkZW9fd29ya2Zsb3ciXSBpcyBUcnVlCgoKY2xhc3MgVGVzdEVtYmVkZGluZ0RlcHM6CiAgICBkZWYgdGVzdF9leHRyYWN0X2Zyb21fcHJvbXB0KHNlbGYpOgogICAgICAgIHdmID0gewogICAgICAgICAgICAiMSI6IHsiY2xhc3NfdHlwZSI6ICJDaGVja3BvaW50TG9hZGVyU2ltcGxlIiwgImlucHV0cyI6IHsiY2twdF9uYW1lIjogIngifX0sCiAgICAgICAgICAgICI1IjogeyJjbGFzc190eXBlIjogIkVtcHR5TGF0ZW50SW1hZ2UiLAogICAgICAgICAgICAgICAgICAiaW5wdXRzIjogeyJ3aWR0aCI6IDUxMiwgImhlaWdodCI6IDUxMiwgImJhdGNoX3NpemUiOiAxfX0sCiAgICAgICAgICAgICI2IjogeyJjbGFzc190eXBlIjogIkNMSVBUZXh0RW5jb2RlIiwKICAgICAgICAgICAgICAgICAgImlucHV0cyI6IHsKICAgICAgICAgICAgICAgICAgICAgICJ0ZXh0IjogImEgY2F0LCBlbWJlZGRpbmc6Z29vZHZpYmVzLCBlbWJlZGRpbmc6YXJ0OjEuMiIsCiAgICAgICAgICAgICAgICAgICAgICAiY2xpcCI6IFsiMSIsIDFdCiAgICAgICAgICAgICAgICAgIH19LAogICAgICAgICAgICAiNyI6IHsiY2xhc3NfdHlwZSI6ICJDTElQVGV4dEVuY29kZSIsCiAgICAgICAgICAgICAgICAgICJpbnB1dHMiOiB7CiAgICAgICAgICAgICAgICAgICAgICAidGV4dCI6ICJ1Z2x5LCBlbWJlZGRpbmc6YmFkaGFuZHMiLAogICAgICAgICAgICAgICAgICAgICAgImNsaXAiOiBbIjEiLCAxXQogICAgICAgICAgICAgICAgICB9fSwKICAgICAgICAgICAgIjMiOiB7ImNsYXNzX3R5cGUiOiAiS1NhbXBsZXIiLAogICAgICAgICAgICAgICAgICAiaW5wdXRzIjogewogICAgICAgICAgICAgICAgICAgICAgInBvc2l0aXZlIjogWyI2IiwgMF0sICJuZWdhdGl2ZSI6IFsiNyIsIDBdLAogICAgICAgICAgICAgICAgICAgICAgIm1vZGVsIjogWyIxIiwgMF0sICJsYXRlbnRfaW1hZ2UiOiBbIjUiLCAwXSwKICAgICAgICAgICAgICAgICAgICAgICJzZWVkIjogMSwgInN0ZXBzIjogMjAsICJjZmciOiA3LjUsCiAgICAgICAgICAgICAgICAgICAgICAic2FtcGxlcl9uYW1lIjogImV1bGVyIiwgInNjaGVkdWxlciI6ICJub3JtYWwiLCAiZGVub2lzZSI6IDEuMCwKICAgICAgICAgICAgICAgICAgfX0sCiAgICAgICAgICAgICI5IjogeyJjbGFzc190eXBlIjogIlNhdmVJbWFnZSIsICJpbnB1dHMiOiB7ImZpbGVuYW1lX3ByZWZpeCI6ICJ4IiwgImltYWdlcyI6IFsiMyIsIDBdfX0sCiAgICAgICAgfQogICAgICAgIHNjaGVtYSA9IGV4dHJhY3Rfc2NoZW1hKHdmKQogICAgICAgIG5hbWVzID0gW2RbImVtYmVkZGluZ19uYW1lIl0gZm9yIGQgaW4gc2NoZW1hWyJlbWJlZGRpbmdfZGVwZW5kZW5jaWVzIl1dCiAgICAgICAgYXNzZXJ0IHNvcnRlZChuYW1lcykgPT0gWyJhcnQiLCAiYmFkaGFuZHMiLCAiZ29vZHZpYmVzIl0KCgpjbGFzcyBUZXN0RHVwbGljYXRlRGVkdXBsaWNhdGlvbjoKICAgIGRlZiB0ZXN0X3R3b19rc2FtcGxlcnNfZ2V0X3VuaXF1ZV9uYW1lcyhzZWxmKToKICAgICAgICB3ZiA9IHsKICAgICAgICAgICAgIjEiOiB7ImNsYXNzX3R5cGUiOiAiQ2hlY2twb2ludExvYWRlclNpbXBsZSIsICJpbnB1dHMiOiB7ImNrcHRfbmFtZSI6ICJ4In19LAogICAgICAgICAgICAiNSI6IHsiY2xhc3NfdHlwZSI6ICJFbXB0eUxhdGVudEltYWdlIiwKICAgICAgICAgICAgICAgICAgImlucHV0cyI6IHsid2lkdGgiOiA1MTIsICJoZWlnaHQiOiA1MTIsICJiYXRjaF9zaXplIjogMX19LAogICAgICAgICAgICAiNiI6IHsiY2xhc3NfdHlwZSI6ICJDTElQVGV4dEVuY29kZSIsICJpbnB1dHMiOiB7InRleHQiOiAiYSIsICJjbGlwIjogWyIxIiwgMV19fSwKICAgICAgICAgICAgIjciOiB7ImNsYXNzX3R5cGUiOiAiQ0xJUFRleHRFbmNvZGUiLCAiaW5wdXRzIjogeyJ0ZXh0IjogImIiLCAiY2xpcCI6IFsiMSIsIDFdfX0sCiAgICAgICAgICAgICIzIjogeyJjbGFzc190eXBlIjogIktTYW1wbGVyIiwKICAgICAgICAgICAgICAgICAgImlucHV0cyI6IHsKICAgICAgICAgICAgICAgICAgICAgICJwb3NpdGl2ZSI6IFsiNiIsIDBdLCAibmVnYXRpdmUiOiBbIjciLCAwXSwKICAgICAgICAgICAgICAgICAgICAgICJtb2RlbCI6IFsiMSIsIDBdLCAibGF0ZW50X2ltYWdlIjogWyI1IiwgMF0sCiAgICAgICAgICAgICAgICAgICAgICAic2VlZCI6IDQyLCAic3RlcHMiOiAyMCwgImNmZyI6IDcuNSwKICAgICAgICAgICAgICAgICAgICAgICJzYW1wbGVyX25hbWUiOiAiZXVsZXIiLCAic2NoZWR1bGVyIjogIm5vcm1hbCIsICJkZW5vaXNlIjogMS4wLAogICAgICAgICAgICAgICAgICB9fSwKICAgICAgICAgICAgIjQiOiB7ImNsYXNzX3R5cGUiOiAiS1NhbXBsZXIiLAogICAgICAgICAgICAgICAgICAiaW5wdXRzIjogewogICAgICAgICAgICAgICAgICAgICAgInBvc2l0aXZlIjogWyI2IiwgMF0sICJuZWdhdGl2ZSI6IFsiNyIsIDBdLAogICAgICAgICAgICAgICAgICAgICAgIm1vZGVsIjogWyIxIiwgMF0sICJsYXRlbnRfaW1hZ2UiOiBbIjUiLCAwXSwKICAgICAgICAgICAgICAgICAgICAgICJzZWVkIjogOTksICJzdGVwcyI6IDMwLCAiY2ZnIjogOC4wLAogICAgICAgICAgICAgICAgICAgICAgInNhbXBsZXJfbmFtZSI6ICJldWxlciIsICJzY2hlZHVsZXIiOiAibm9ybWFsIiwgImRlbm9pc2UiOiAwLjYsCiAgICAgICAgICAgICAgICAgIH19LAogICAgICAgICAgICAiOSI6IHsiY2xhc3NfdHlwZSI6ICJTYXZlSW1hZ2UiLCAiaW5wdXRzIjogeyJmaWxlbmFtZV9wcmVmaXgiOiAieCIsICJpbWFnZXMiOiBbIjMiLCAwXX19LAogICAgICAgIH0KICAgICAgICBzY2hlbWEgPSBleHRyYWN0X3NjaGVtYSh3ZikKICAgICAgICBwYXJhbXMgPSBzY2hlbWFbInBhcmFtZXRlcnMiXQogICAgICAgICMgQm90aCBzZWVkcyBwcmVzZW50IHdpdGggZGlzYW1iaWd1YXRlZCBuYW1lcwogICAgICAgIHNlZWRfa2V5cyA9IFtrIGZvciBrIGluIHBhcmFtcyBpZiAic2VlZCIgaW4ga10KICAgICAgICAjIFN5bW1ldHJpYzogYm90aCByZW5hbWVkIChubyBiYXJlICJzZWVkIikKICAgICAgICBhc3NlcnQgInNlZWQiIG5vdCBpbiBwYXJhbXMKICAgICAgICBhc3NlcnQgInNlZWRfMyIgaW4gcGFyYW1zIGFuZCAic2VlZF80IiBpbiBwYXJhbXMKICAgICAgICBhc3NlcnQgcGFyYW1zWyJzZWVkXzMiXVsidmFsdWUiXSA9PSA0MgogICAgICAgIGFzc2VydCBwYXJhbXNbInNlZWRfNCJdWyJ2YWx1ZSJdID09IDk5Cg==
+"""Tests for extract_schema.py."""
+
+from __future__ import annotations
+
+
+from extract_schema import (
+    extract_schema,
+    find_negative_prompt_node,
+    find_positive_prompt_node,
+    trace_to_node,
+)
+
+
+# =============================================================================
+# Connection tracing
+# =============================================================================
+
+class TestConnectionTracing:
+    def test_direct_link(self):
+        wf = {
+            "1": {"class_type": "CLIPTextEncode", "inputs": {"text": "x"}},
+            "2": {"class_type": "KSampler",
+                  "inputs": {"positive": ["1", 0], "negative": ["1", 0]}},
+        }
+        assert trace_to_node(wf, ["1", 0]) == "1"
+
+    def test_through_reroute(self):
+        wf = {
+            "1": {"class_type": "CLIPTextEncode", "inputs": {"text": "x"}},
+            "2": {"class_type": "Reroute", "inputs": {"input": ["1", 0]}},
+            "3": {"class_type": "Reroute", "inputs": {"input": ["2", 0]}},
+        }
+        assert trace_to_node(wf, ["3", 0]) == "1"
+
+    def test_circular_safe(self):
+        wf = {
+            "1": {"class_type": "Reroute", "inputs": {"input": ["2", 0]}},
+            "2": {"class_type": "Reroute", "inputs": {"input": ["1", 0]}},
+        }
+        # Should hit max_hops without infinite loop
+        result = trace_to_node(wf, ["1", 0], max_hops=5)
+        assert result in {"1", "2"}  # any node, just don't hang
+
+
+class TestPositiveNegativeDetection:
+    def test_basic(self, sd15_workflow):
+        # In sd15_workflow.json node 6 is positive, node 7 is negative
+        assert find_positive_prompt_node(sd15_workflow) == "6"
+        assert find_negative_prompt_node(sd15_workflow) == "7"
+
+    def test_swapped_order(self):
+        wf = {
+            "3": {"class_type": "KSampler",
+                  "inputs": {
+                      "positive": ["7", 0], "negative": ["6", 0],
+                      "model": ["4", 0], "latent_image": ["5", 0],
+                      "seed": 1, "steps": 20, "cfg": 7.5,
+                      "sampler_name": "euler", "scheduler": "normal", "denoise": 1.0,
+                  }},
+            "4": {"class_type": "CheckpointLoaderSimple", "inputs": {"ckpt_name": "x"}},
+            "5": {"class_type": "EmptyLatentImage", "inputs": {"width": 512, "height": 512, "batch_size": 1}},
+            "6": {"class_type": "CLIPTextEncode", "inputs": {"text": "ugly", "clip": ["4", 1]}},
+            "7": {"class_type": "CLIPTextEncode", "inputs": {"text": "beautiful", "clip": ["4", 1]}},
+        }
+        # Now 7 is the positive (despite higher node ID)
+        assert find_positive_prompt_node(wf) == "7"
+        assert find_negative_prompt_node(wf) == "6"
+
+
+# =============================================================================
+# Schema extraction
+# =============================================================================
+
+class TestExtractSchema:
+    def test_basic_sd15(self, sd15_workflow):
+        schema = extract_schema(sd15_workflow)
+        params = schema["parameters"]
+        assert "prompt" in params
+        assert "negative_prompt" in params
+        assert "seed" in params
+        assert "steps" in params
+        assert "cfg" in params
+        assert "width" in params
+        assert "height" in params
+
+    def test_prompt_value_correct(self, sd15_workflow):
+        schema = extract_schema(sd15_workflow)
+        # The positive prompt in the example is the landscape one
+        assert "landscape" in schema["parameters"]["prompt"]["value"]
+        assert "ugly" in schema["parameters"]["negative_prompt"]["value"]
+
+    def test_model_dependencies(self, sd15_workflow):
+        schema = extract_schema(sd15_workflow)
+        deps = schema["model_dependencies"]
+        ckpts = [d["value"] for d in deps if d["folder"] == "checkpoints"]
+        assert "v1-5-pruned-emaonly.safetensors" in ckpts
+
+    def test_output_nodes(self, sd15_workflow):
+        schema = extract_schema(sd15_workflow)
+        assert "9" in schema["output_nodes"]
+
+    def test_summary(self, sd15_workflow):
+        schema = extract_schema(sd15_workflow)
+        s = schema["summary"]
+        assert s["has_negative_prompt"] is True
+        assert s["has_seed"] is True
+        assert s["is_video_workflow"] is False
+        assert s["parameter_count"] > 5
+
+    def test_flux_workflow(self, flux_workflow):
+        schema = extract_schema(flux_workflow)
+        # Flux uses RandomNoise for seed
+        assert schema["summary"]["has_seed"] is True
+        # Flux has only positive prompt (no negative encoder)
+        assert schema["summary"]["has_negative_prompt"] is False
+
+    def test_video_detected(self, video_workflow):
+        schema = extract_schema(video_workflow)
+        assert schema["summary"]["is_video_workflow"] is True
+
+
+class TestEmbeddingDeps:
+    def test_extract_from_prompt(self):
+        wf = {
+            "1": {"class_type": "CheckpointLoaderSimple", "inputs": {"ckpt_name": "x"}},
+            "5": {"class_type": "EmptyLatentImage",
+                  "inputs": {"width": 512, "height": 512, "batch_size": 1}},
+            "6": {"class_type": "CLIPTextEncode",
+                  "inputs": {
+                      "text": "a cat, embedding:goodvibes, embedding:art:1.2",
+                      "clip": ["1", 1]
+                  }},
+            "7": {"class_type": "CLIPTextEncode",
+                  "inputs": {
+                      "text": "ugly, embedding:badhands",
+                      "clip": ["1", 1]
+                  }},
+            "3": {"class_type": "KSampler",
+                  "inputs": {
+                      "positive": ["6", 0], "negative": ["7", 0],
+                      "model": ["1", 0], "latent_image": ["5", 0],
+                      "seed": 1, "steps": 20, "cfg": 7.5,
+                      "sampler_name": "euler", "scheduler": "normal", "denoise": 1.0,
+                  }},
+            "9": {"class_type": "SaveImage", "inputs": {"filename_prefix": "x", "images": ["3", 0]}},
+        }
+        schema = extract_schema(wf)
+        names = [d["embedding_name"] for d in schema["embedding_dependencies"]]
+        assert sorted(names) == ["art", "badhands", "goodvibes"]
+
+
+class TestDuplicateDeduplication:
+    def test_two_ksamplers_get_unique_names(self):
+        wf = {
+            "1": {"class_type": "CheckpointLoaderSimple", "inputs": {"ckpt_name": "x"}},
+            "5": {"class_type": "EmptyLatentImage",
+                  "inputs": {"width": 512, "height": 512, "batch_size": 1}},
+            "6": {"class_type": "CLIPTextEncode", "inputs": {"text": "a", "clip": ["1", 1]}},
+            "7": {"class_type": "CLIPTextEncode", "inputs": {"text": "b", "clip": ["1", 1]}},
+            "3": {"class_type": "KSampler",
+                  "inputs": {
+                      "positive": ["6", 0], "negative": ["7", 0],
+                      "model": ["1", 0], "latent_image": ["5", 0],
+                      "seed": 42, "steps": 20, "cfg": 7.5,
+                      "sampler_name": "euler", "scheduler": "normal", "denoise": 1.0,
+                  }},
+            "4": {"class_type": "KSampler",
+                  "inputs": {
+                      "positive": ["6", 0], "negative": ["7", 0],
+                      "model": ["1", 0], "latent_image": ["5", 0],
+                      "seed": 99, "steps": 30, "cfg": 8.0,
+                      "sampler_name": "euler", "scheduler": "normal", "denoise": 0.6,
+                  }},
+            "9": {"class_type": "SaveImage", "inputs": {"filename_prefix": "x", "images": ["3", 0]}},
+        }
+        schema = extract_schema(wf)
+        params = schema["parameters"]
+        # Both seeds present with disambiguated names
+        seed_keys = [k for k in params if "seed" in k]
+        # Symmetric: both renamed (no bare "seed")
+        assert "seed" not in params
+        assert "seed_3" in params and "seed_4" in params
+        assert params["seed_3"]["value"] == 42
+        assert params["seed_4"]["value"] == 99

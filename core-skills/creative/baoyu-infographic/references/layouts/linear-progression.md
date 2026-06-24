@@ -1,1 +1,48 @@
-IyBsaW5lYXItcHJvZ3Jlc3Npb24KClNlcXVlbnRpYWwgcHJvZ3Jlc3Npb24gc2hvd2luZyBzdGVwcywgdGltZWxpbmUsIG9yIGNocm9ub2xvZ2ljYWwgZXZlbnRzLgoKIyMgU3RydWN0dXJlCgotIExpbmVhciBhcnJhbmdlbWVudCAoaG9yaXpvbnRhbCBvciB2ZXJ0aWNhbCkKLSBOb2Rlcy9tYXJrZXJzIGF0IGtleSBwb2ludHMKLSBDb25uZWN0aW5nIGxpbmUgb3IgcGF0aCBiZXR3ZWVuIG5vZGVzCi0gQ2xlYXIgc3RhcnQgYW5kIGVuZCBwb2ludHMKLSBEaXJlY3Rpb25hbCBmbG93IGluZGljYXRvcnMKCiMjIFZhcmlhbnRzCgp8IFZhcmlhbnQgfCBGb2N1cyB8IFZpc3VhbCBFbXBoYXNpcyB8CnwtLS0tLS0tLS18LS0tLS0tLXwtLS0tLS0tLS0tLS0tLS0tLXwKfCAqKlRpbWVsaW5lKiogfCBDaHJvbm9sb2dpY2FsIGV2ZW50cywgZGF0ZXMgfCBUaW1lIG1hcmtlcnMsIHBlcmlvZCBsYWJlbHMgfAp8ICoqUHJvY2VzcyoqIHwgQWN0aW9uIHN0ZXBzLCBudW1iZXJlZCBzZXF1ZW5jZSB8IFN0ZXAgbnVtYmVycywgYWN0aW9uIGljb25zIHwKCiMjIEJlc3QgRm9yCgotIFN0ZXAtYnktc3RlcCB0dXRvcmlhbHMgYW5kIGhvdy10b3MKLSBIaXN0b3JpY2FsIHRpbWVsaW5lcyBhbmQgZXZvbHV0aW9uCi0gUHJvamVjdCBtaWxlc3RvbmVzIGFuZCByb2FkbWFwcwotIFdvcmtmbG93IGRvY3VtZW50YXRpb24KLSBPbmJvYXJkaW5nIHByb2Nlc3NlcwoKIyMgVmlzdWFsIEVsZW1lbnRzCgotIE51bWJlcmVkIHN0ZXBzIG9yIGRhdGUgbWFya2VycwotIEFycm93cyBvciBjb25uZWN0b3JzIHNob3dpbmcgZGlyZWN0aW9uCi0gSWNvbnMgcmVwcmVzZW50aW5nIGVhY2ggc3RlcC9ldmVudAotIENvbnNpc3RlbnQgbm9kZSBzcGFjaW5nCi0gUHJvZ3Jlc3MgaW5kaWNhdG9ycyBvcHRpb25hbAoKIyMgVGV4dCBQbGFjZW1lbnQKCi0gVGl0bGUgYXQgdG9wCi0gU3RlcC9ldmVudCB0aXRsZXMgYXQgZWFjaCBub2RlCi0gQnJpZWYgZGVzY3JpcHRpb25zIGJlbG93IG5vZGVzCi0gRGF0ZXMgb3IgbnVtYmVycyBjbGVhcmx5IHZpc2libGUKCiMjIFJlY29tbWVuZGVkIFBhaXJpbmdzCgotIGBjcmFmdC1oYW5kbWFkZWA6IEZyaWVuZGx5IHR1dG9yaWFscyBhbmQgdGltZWxpbmVzCi0gYGlrZWEtbWFudWFsYDogQ2xlYW4gYXNzZW1ibHkgaW5zdHJ1Y3Rpb25zCi0gYGNvcnBvcmF0ZS1tZW1waGlzYDogQnVzaW5lc3MgcHJvY2VzcyBmbG93cwotIGBhZ2VkLWFjYWRlbWlhYDogSGlzdG9yaWNhbCBkaXNjb3Zlcmllcwo=
+# linear-progression
+
+Sequential progression showing steps, timeline, or chronological events.
+
+## Structure
+
+- Linear arrangement (horizontal or vertical)
+- Nodes/markers at key points
+- Connecting line or path between nodes
+- Clear start and end points
+- Directional flow indicators
+
+## Variants
+
+| Variant | Focus | Visual Emphasis |
+|---------|-------|-----------------|
+| **Timeline** | Chronological events, dates | Time markers, period labels |
+| **Process** | Action steps, numbered sequence | Step numbers, action icons |
+
+## Best For
+
+- Step-by-step tutorials and how-tos
+- Historical timelines and evolution
+- Project milestones and roadmaps
+- Workflow documentation
+- Onboarding processes
+
+## Visual Elements
+
+- Numbered steps or date markers
+- Arrows or connectors showing direction
+- Icons representing each step/event
+- Consistent node spacing
+- Progress indicators optional
+
+## Text Placement
+
+- Title at top
+- Step/event titles at each node
+- Brief descriptions below nodes
+- Dates or numbers clearly visible
+
+## Recommended Pairings
+
+- `craft-handmade`: Friendly tutorials and timelines
+- `ikea-manual`: Clean assembly instructions
+- `corporate-memphis`: Business process flows
+- `aged-academia`: Historical discoveries

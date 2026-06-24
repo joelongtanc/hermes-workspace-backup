@@ -1,1 +1,312 @@
-IyBDb21meVVJIFJFU1QgKyBXZWJTb2NrZXQgQVBJIFJlZmVyZW5jZQoKQ29tZnlVSSBleHBvc2VzIGEgUkVTVCArIFdlYlNvY2tldCBpbnRlcmZhY2UgZm9yIHdvcmtmbG93IGV4ZWN1dGlvbiBhbmQKbWFuYWdlbWVudC4gKipUaGUgc2FtZSBzdXJmYWNlIGlzIHVzZWQgbG9jYWxseSBhbmQgb24gQ29tZnkgQ2xvdWQsIHdpdGgKYXV0aC9wYXRoIGRpZmZlcmVuY2VzLioqCgojIyBDb25uZWN0aW9uCgp8IHwgTG9jYWwgQ29tZnlVSSB8IENvbWZ5IENsb3VkIHwKfC0tLXwtLS18LS0tfAp8IEJhc2UgVVJMIHwgYGh0dHA6Ly8xMjcuMC4wLjE6ODE4OGAgfCBgaHR0cHM6Ly9jbG91ZC5jb21meS5vcmdgIHwKfCBBUEkgcGF0aCBwcmVmaXggfCBub25lIChgL3Byb21wdGAsIGAvdmlld2AsIOKApikgfCBgL2FwaS8uLi5gIChgL2FwaS9wcm9tcHRgLCBgL2FwaS92aWV3YCwg4oCmKSB8CnwgQXV0aCB8IG5vbmUgKG9yIGJlYXJlciB0b2tlbiBpZiBjb25maWd1cmVkKSB8IGBYLUFQSS1LZXlgIGhlYWRlciB8CnwgV2ViU29ja2V0IHwgYHdzOi8vaG9zdDpwb3J0L3dzP2NsaWVudElkPXt1dWlkfWAgfCBgd3NzOi8vY2xvdWQuY29tZnkub3JnL3dzP2NsaWVudElkPXt1dWlkfSZ0b2tlbj17QVBJX0tFWX1gIHwKfCBgL2FwaS92aWV3YCByZXNwb25zZSB8IGRpcmVjdCBieXRlcyB8IDMwMiByZWRpcmVjdCDihpIgc2lnbmVkIFVSTCAodXNlIGBjdXJsIC1MYCkgfAoKVGhlIHNraWxsIHNjcmlwdHMgcm91dGUgVVJMcyBhdXRvbWF0aWNhbGx5IHZpYSBgX2NvbW1vbi5yZXNvbHZlX3VybCgpYC4KCiMjIEVuZHBvaW50IGRpZmZlcmVuY2VzIG9uIENvbWZ5IENsb3VkCgpUaGUgY2xvdWQgc3VyZmFjZSBkaXZlcmdlcyBmcm9tIGxvY2FsIENvbWZ5VUkgaW4gc2V2ZXJhbCB3YXlzLiBUaGUgc2tpbGwKc2NyaXB0cyBoYW5kbGUgdGhlc2UgdHJhbnNwYXJlbnRseTsgZG9jdW1lbnQgdGhlbSBoZXJlIHNvIGFueW9uZSBjYWxsaW5nCmBjdXJsYCBkaXJlY3RseSBrbm93cy4KCnwgTG9jYWwgcGF0aCB8IENsb3VkIHBhdGggfCBOb3RlcyB8CnwtLS0tLS0tLS0tLS18LS0tLS0tLS0tLS18LS0tLS0tLXwKfCBgL3N5c3RlbV9zdGF0c2AgfCBgL2FwaS9zeXN0ZW1fc3RhdHNgIHwgQ2xvdWQgdmVyc2lvbiBpcyAqKnB1YmxpYyoqIChubyBhdXRoIHJlcXVpcmVkKSB8CnwgYC9vYmplY3RfaW5mb2AgfCBgL2FwaS9vYmplY3RfaW5mb2AgfCAqKlBhaWQgdGllciBvbmx5Kiog4oCUIGZyZWUgcmV0dXJucyA0MDMgfAp8IGAvcXVldWVgIHwgYC9hcGkvcXVldWVgIHwgUGFpZCB0aWVyIG9ubHkgfAp8IGAvdXNlcmRhdGFgIHwgYC9hcGkvdXNlcmRhdGFgIHwgUGFpZCB0aWVyIG9ubHkgfAp8IGAvcHJvbXB0YCAoUE9TVCkgfCBgL2FwaS9wcm9tcHRgIChQT1NUKSB8IFBhaWQgdGllciBvbmx5IHwKfCBgL3VwbG9hZC9pbWFnZWAgfCBgL2FwaS91cGxvYWQvaW1hZ2VgIHwgUGFpZCB0aWVyIG9ubHk7IGBzdWJmb2xkZXJgIGFjY2VwdGVkIGJ1dCBpZ25vcmVkIHwKfCBgL3VwbG9hZC9tYXNrYCB8IGAvYXBpL3VwbG9hZC9tYXNrYCB8IFNhbWUgYXMgYWJvdmUgfAp8IGAvdmlld2AgfCBgL2FwaS92aWV3YCB8IFBhaWQgdGllciBvbmx5OyAqKnJldHVybnMgMzAyKiogdG8gc2lnbmVkIFVSTCB8CnwgYC9oaXN0b3J5YCB8IGAvYXBpL2hpc3RvcnlfdjJgIHwgKipSZW5hbWVkKio7IG9sZCBwYXRoIHJldHVybnMgNDA0IHwKfCBgL2hpc3Rvcnkve2lkfWAgfCBgL2FwaS9oaXN0b3J5X3YyL3tpZH1gIG9yIGAvYXBpL2pvYnMve2lkfWAgfCBCb3RoIHdvcms7IGAvam9ic2AgcmV0dXJucyBmdWxsIGpvYiB8CnwgYC9tb2RlbHNgIHwgYC9hcGkvZXhwZXJpbWVudC9tb2RlbHNgIHwgKipSZW5hbWVkKiogfAp8IGAvbW9kZWxzL3tmb2xkZXJ9YCB8IGAvYXBpL2V4cGVyaW1lbnQvbW9kZWxzL3tmb2xkZXJ9YCB8ICoqUmVuYW1lZCoqOyByZXNwb25zZSBzaGFwZSBkaWZmZXJzIChzZWUgYmVsb3cpIHwKCiMjIyBDbG91ZCBtb2RlbC1saXN0IHJlc3BvbnNlIHNoYXBlCgotICoqTG9jYWw6KiogYFsiYS5zYWZldGVuc29ycyIsICJiLnNhZmV0ZW5zb3JzIiwg4oCmXWAg4oCUIGZsYXQgbGlzdCBvZiBzdHJpbmdzLgotICoqQ2xvdWQ6KiogYFt7Im5hbWUiOiAiYS5zYWZldGVuc29ycyIsICJwYXRoSW5kZXgiOiAwfSwg4oCmXWAg4oCUIGxpc3Qgb2Ygb2JqZWN0cy4KLSAqKkNsb3VkIDQwNCB3aXRoIGBjb2RlOiAiZm9sZGVyX25vdF9mb3VuZCJgKiog4oCUIGZvbGRlciBpcyBlbXB0eSBvciB1bmtub3duLAogIG5vdCBhbiAiZW5kcG9pbnQgbWlzc2luZyIgZXJyb3IuIERpc3Rpbmd1aXNoIGJ5IHJlYWRpbmcgdGhlIGJvZHkuCgpUaGUgc2tpbGwgaGVscGVyIGBfY29tbW9uLnBhcnNlX21vZGVsX2xpc3QoKWAgbm9ybWFsaXplcyBib3RoLgoKIyMgV29ya2Zsb3cgRXhlY3V0aW9uCgojIyMgU3VibWl0IFdvcmtmbG93CgpgYGBiYXNoCiMgTG9jYWwKY3VybCAtWCBQT1NUICJodHRwOi8vMTI3LjAuMC4xOjgxODgvcHJvbXB0IiBcCiAgLUggIkNvbnRlbnQtVHlwZTogYXBwbGljYXRpb24vanNvbiIgXAogIC1kICd7InByb21wdCI6ICciJChjYXQgd29ya2Zsb3dfYXBpLmpzb24pIicsICJjbGllbnRfaWQiOiAiJyIkKHV1aWRnZW4pIicifScKCiMgQ2xvdWQKY3VybCAtWCBQT1NUICJodHRwczovL2Nsb3VkLmNvbWZ5Lm9yZy9hcGkvcHJvbXB0IiBcCiAgLUggIlgtQVBJLUtleTogJENPTUZZX0NMT1VEX0FQSV9LRVkiIFwKICAtSCAiQ29udGVudC1UeXBlOiBhcHBsaWNhdGlvbi9qc29uIiBcCiAgLWQgJ3sicHJvbXB0IjogJyIkKGNhdCB3b3JrZmxvd19hcGkuanNvbikiJ30nCmBgYAoKKipSZXNwb25zZToqKgpgYGBqc29uCnsicHJvbXB0X2lkIjogImFiYy0xMjMtZGVmIiwgIm51bWJlciI6IDEsICJub2RlX2Vycm9ycyI6IHt9fQpgYGAKCklmIGBub2RlX2Vycm9yc2AgaXMgbm9uLWVtcHR5LCB0aGUgd29ya2Zsb3cgaGFzIHZhbGlkYXRpb24gZXJyb3JzIChtaXNzaW5nCm5vZGVzLCBiYWQgaW5wdXRzKS4KCiMjIyBDaGVjayBKb2IgU3RhdHVzIChDbG91ZCkKCmBgYGJhc2gKY3VybCAtWCBHRVQgImh0dHBzOi8vY2xvdWQuY29tZnkub3JnL2FwaS9qb2Ive3Byb21wdF9pZH0vc3RhdHVzIiBcCiAgLUggIlgtQVBJLUtleTogJENPTUZZX0NMT1VEX0FQSV9LRVkiCmBgYAoKfCBTdGF0dXMgICAgICAgIHwgRGVzY3JpcHRpb24gICAgICAgICAgICAgICAgICAgICAgICB8CnwgLS0tLS0tLS0tLS0tLSB8IC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0gfAp8IGBwZW5kaW5nYCAgICAgfCBKb2IgaXMgcXVldWVkIGFuZCB3YWl0aW5nIHRvIHN0YXJ0IHwKfCBgaW5fcHJvZ3Jlc3NgIHwgSm9iIGlzIGN1cnJlbnRseSBleGVjdXRpbmcgICAgICAgICB8CnwgYGNvbXBsZXRlZGAgICB8IEpvYiBmaW5pc2hlZCBzdWNjZXNzZnVsbHkgICAgICAgICAgfAp8IGBmYWlsZWRgICAgICAgfCBKb2IgZW5jb3VudGVyZWQgYW4gZXJyb3IgICAgICAgICAgIHwKfCBgY2FuY2VsbGVkYCAgIHwgSm9iIHdhcyBjYW5jZWxsZWQgYnkgdXNlciAgICAgICAgICB8CgojIyMgSm9iIGRldGFpbCB3aXRoIG91dHB1dHMgKENsb3VkKQoKYGBgYmFzaApjdXJsIC1YIEdFVCAiaHR0cHM6Ly9jbG91ZC5jb21meS5vcmcvYXBpL2pvYnMve3Byb21wdF9pZH0iIFwKICAtSCAiWC1BUEktS2V5OiAkQ09NRllfQ0xPVURfQVBJX0tFWSIKYGBgCgpSZXNwb25zZSBpbmNsdWRlcyBgb3V0cHV0c2Aga2V5ZWQgYnkgbm9kZSBJRC4gQ2xvdWQgdXNlcyBgdmlkZW9gIChzaW5ndWxhcikKaW4gdGhlIG91dHB1dCBzdHJ1Y3R1cmU7IGxvY2FsIHVzZXMgYHZpZGVvc2AgKHBsdXJhbCkuIFRoZSBza2lsbCBzY3JpcHRzCmFjY2VwdCBib3RoLgoKIyMjIEdldCBIaXN0b3J5IChMb2NhbCkKCmBgYGJhc2gKY3VybCAtcyAiaHR0cDovLzEyNy4wLjAuMTo4MTg4L2hpc3RvcnkiICAgICAgICAgICMgYWxsCmN1cmwgLXMgImh0dHA6Ly8xMjcuMC4wLjE6ODE4OC9oaXN0b3J5L3tpZH0iICAgICAjIG9uZSBwcm9tcHRfaWQKYGBgCgpMb2NhbCBlbnRyeSBzaGFwZToKYGBganNvbgp7CiAgIjxwcm9tcHRfaWQ+IjogewogICAgInByb21wdCI6IFsuLi5dLAogICAgIm91dHB1dHMiOiB7Ijxub2RlX2lkPiI6IHsiaW1hZ2VzIjogWy4uLl19fSwKICAgICJzdGF0dXMiOiB7CiAgICAgICJzdGF0dXNfc3RyIjogInN1Y2Nlc3MiIHwgImVycm9yIiwKICAgICAgImNvbXBsZXRlZCI6IHRydWUgfCBmYWxzZSwKICAgICAgIm1lc3NhZ2VzIjogW1siZXhlY3V0aW9uX3N0YXJ0Iiwgey4uLn1dLCBbImV4ZWN1dGlvbl9lcnJvciIsIHsuLi59XSwg4oCmXQogICAgfQogIH0KfQpgYGAKCioqSW1wb3J0YW50OioqIHdoZW4gcmVhZGluZyBzdGF0dXMsIGNoZWNrIGBzdGF0dXNfc3RyID09ICJlcnJvciJgIEJFRk9SRQpjaGVja2luZyBgY29tcGxldGVkYCwgYmVjYXVzZSBib3RoIGNhbiBiZSB0cnVlIGZvciBmYWlsZWQgcnVucy4KCiMjIyBEb3dubG9hZCBPdXRwdXQKCmBgYGJhc2gKIyBMb2NhbCAoZGlyZWN0IGJ5dGVzKQpjdXJsIC1zICJodHRwOi8vMTI3LjAuMC4xOjgxODgvdmlldz9maWxlbmFtZT1Db21meVVJXzAwMDAxXy5wbmcmc3ViZm9sZGVyPSZ0eXBlPW91dHB1dCIgXAogIC1vIG91dHB1dC5wbmcKCiMgQ2xvdWQgKDMwMiDihpIgc2lnbmVkIFVSTDsgLUwgZm9sbG93czsgU1RSSVAgWC1BUEktS2V5IGZvciB0aGUgc2Vjb25kIGhvcCkKY3VybCAtTCAiaHR0cHM6Ly9jbG91ZC5jb21meS5vcmcvYXBpL3ZpZXc/ZmlsZW5hbWU9Li4uJnR5cGU9b3V0cHV0IiBcCiAgLUggIlgtQVBJLUtleTogJENPTUZZX0NMT1VEX0FQSV9LRVkiIFwKICAtbyBvdXRwdXQucG5nCmBgYAoKVGhlIHNraWxsJ3MgYHJ1bl93b3JrZmxvdy5weWAgc3RyaXBzIGBYLUFQSS1LZXlgIGF1dG9tYXRpY2FsbHkgb24gdGhlCmNyb3NzLWhvc3QgcmVkaXJlY3QsIHNvIHRoZSBzaWduZWQgVVJMIG5ldmVyIHNlZXMgeW91ciBhdXRoLgoKIyMgV2ViU29ja2V0IE1vbml0b3JpbmcKCkNvbm5lY3QgZm9yIHJlYWwtdGltZSBleGVjdXRpb24gZXZlbnRzLgoKYGBgYmFzaAojIExvY2FsCndzY2F0IC1jICJ3czovLzEyNy4wLjAuMTo4MTg4L3dzP2NsaWVudElkPU1ZLVVVSUQiCgojIENsb3VkCndzY2F0IC1jICJ3c3M6Ly9jbG91ZC5jb21meS5vcmcvd3M/Y2xpZW50SWQ9TVktVVVJRCZ0b2tlbj0kQ09NRllfQ0xPVURfQVBJX0tFWSIKYGBgCgoqKk5vdGU6Kiogb24gQ2xvdWQgdGhlIGBjbGllbnRJZGAgaXMgY3VycmVudGx5IGlnbm9yZWQg4oCUIGFsbCBtZXNzYWdlcyBmb3IgYQp1c2VyIGFyZSBicm9hZGNhc3QgdG8gZXZlcnkgY29ubmVjdGlvbi4gRmlsdGVyIG1lc3NhZ2VzIGNsaWVudC1zaWRlIGJ5CmBkYXRhLnByb21wdF9pZGAuCgojIyMgSlNPTiBNZXNzYWdlIFR5cGVzCgp8IFR5cGUgfCBXaGVuIHwgS2V5IEZpZWxkcyB8CnwtLS0tLS18LS0tLS0tfC0tLS0tLS0tLS0tLXwKfCBgc3RhdHVzYCB8IFF1ZXVlIGNoYW5nZSB8IGBzdGF0dXMuZXhlY19pbmZvLnF1ZXVlX3JlbWFpbmluZ2AgfAp8IGBub3RpZmljYXRpb25gIHwgVXNlci1mcmllbmRseSBzdGF0dXMgc3RyaW5nIHwgYHZhbHVlYCB8CnwgYGV4ZWN1dGlvbl9zdGFydGAgfCBXb3JrZmxvdyBiZWdpbnMgfCBgcHJvbXB0X2lkYCB8CnwgYGV4ZWN1dGluZ2AgfCBOb2RlIHJ1bm5pbmcgKG9yIGVuZC1vZi1ydW4gaWYgYG5vZGVgIGlzIG51bGwgb24gbG9jYWwpIHwgYG5vZGVgLCBgcHJvbXB0X2lkYCB8CnwgYHByb2dyZXNzYCB8IFNhbXBsaW5nIHN0ZXBzIHwgYG5vZGVgLCBgdmFsdWVgLCBgbWF4YCB8CnwgYHByb2dyZXNzX3N0YXRlYCB8IEV4dGVuZGVkIHByb2dyZXNzIHdpdGggcGVyLW5vZGUgbWV0YWRhdGEgfCBgbm9kZXNgIChkaWN0KSB8CnwgYGV4ZWN1dGVkYCB8IE5vZGUgb3V0cHV0IHJlYWR5IHwgYG5vZGVgLCBgb3V0cHV0YCAod2l0aCBgaW1hZ2VzYC9gdmlkZW9gL2V0Yy4pIHwKfCBgZXhlY3V0aW9uX2NhY2hlZGAgfCBOb2RlcyBza2lwcGVkIGJlY2F1c2Ugb2YgY2FjaGUgfCBgbm9kZXNgIChsaXN0IG9mIElEcykgfAp8IGBleGVjdXRpb25fc3VjY2Vzc2AgfCBBbGwgZG9uZSB8IGBwcm9tcHRfaWRgIHwKfCBgZXhlY3V0aW9uX2Vycm9yYCB8IEZhaWx1cmUgfCBgZXhjZXB0aW9uX3R5cGVgLCBgZXhjZXB0aW9uX21lc3NhZ2VgLCBgdHJhY2ViYWNrYCwgYG5vZGVfaWRgIHwKfCBgZXhlY3V0aW9uX2ludGVycnVwdGVkYCB8IENhbmNlbGxlZCB8IGBwcm9tcHRfaWRgIHwKCiMjIyBCaW5hcnkgRnJhbWVzIChQcmV2aWV3IEltYWdlcykKCnwgVHlwZSBjb2RlIHwgTWVhbmluZyB8CnwtLS0tLS0tLS0tLXwtLS0tLS0tLS18CnwgYDB4MDAwMDAwMDFgIHwgYFBSRVZJRVdfSU1BR0VgIOKAlCBgW3R5cGU6NF1baW1hZ2VfdHlwZTo0XVtkYXRhXWAgKGltYWdlX3R5cGUgMT1KUEVHLCAyPVBORykgfAp8IGAweDAwMDAwMDAzYCB8IGBURVhUYCDigJQgYFt0eXBlOjRdW25pZF9sZW46NF1bbmlkXVt0ZXh0XWAgKFVURi04KSB8CnwgYDB4MDAwMDAwMDRgIHwgYFBSRVZJRVdfSU1BR0VfV0lUSF9NRVRBREFUQWAg4oCUIGBbdHlwZTo0XVttZXRhX2xlbjo0XVtqc29uXVtpbWFnZV9kYXRhXWAgfAoKYHNjcmlwdHMvd3NfbW9uaXRvci5weSAtLXByZXZpZXdzIDxkaXI+YCBzYXZlcyBwcmV2aWV3IGZyYW1lcyB0byBkaXNrLgoKIyMgRmlsZSBVcGxvYWQKCmBgYGJhc2gKIyBJbWFnZQpjdXJsIC1YIFBPU1QgImh0dHA6Ly8xMjcuMC4wLjE6ODE4OC91cGxvYWQvaW1hZ2UiIFwKICAtRiAiaW1hZ2U9QHBob3RvLnBuZyIgLUYgInR5cGU9aW5wdXQiIC1GICJvdmVyd3JpdGU9dHJ1ZSIKIyBSZXR1cm5zOiB7Im5hbWUiOiAicGhvdG8ucG5nIiwgInN1YmZvbGRlciI6ICIiLCAidHlwZSI6ICJpbnB1dCJ9CgojIE1hc2sgKGxpbmtlZCB0byBhIHByZXZpb3VzbHkgdXBsb2FkZWQgaW1hZ2UpCmN1cmwgLVggUE9TVCAiaHR0cDovLzEyNy4wLjAuMTo4MTg4L3VwbG9hZC9tYXNrIiBcCiAgLUYgImltYWdlPUBtYXNrLnBuZyIgLUYgInR5cGU9aW5wdXQiIFwKICAtRiAnb3JpZ2luYWxfcmVmPXsiZmlsZW5hbWUiOiJwaG90by5wbmciLCJzdWJmb2xkZXIiOiIiLCJ0eXBlIjoiaW5wdXQifScKYGBgCgpDbG91ZCBlcXVpdmFsZW50OiBwcmVwZW5kIGBodHRwczovL2Nsb3VkLmNvbWZ5Lm9yZy9hcGlgIGFuZCBhZGQgYC1IICJYLUFQSS1LZXk6ICRDT01GWV9DTE9VRF9BUElfS0VZImAuCgojIyBOb2RlICYgTW9kZWwgRGlzY292ZXJ5CgpgYGBiYXNoCiMgQWxsIG5vZGUgdHlwZXMgYW5kIHRoZWlyIGlucHV0IHNwZWNzCmN1cmwgLXMgImh0dHA6Ly8xMjcuMC4wLjE6ODE4OC9vYmplY3RfaW5mbyIgfCBweXRob24zIC1tIGpzb24udG9vbAoKIyBTcGVjaWZpYyBub2RlCmN1cmwgLXMgImh0dHA6Ly8xMjcuMC4wLjE6ODE4OC9vYmplY3RfaW5mby9LU2FtcGxlciIKCiMgTW9kZWxzIHBlciBmb2xkZXIgKGxvY2FsKQpjdXJsIC1zICJodHRwOi8vMTI3LjAuMC4xOjgxODgvbW9kZWxzL2NoZWNrcG9pbnRzIgpjdXJsIC1zICJodHRwOi8vMTI3LjAuMC4xOjgxODgvbW9kZWxzL2xvcmFzIgoKIyBNb2RlbHMgcGVyIGZvbGRlciAoY2xvdWQg4oCUIG5vdGUgdGhlIGV4cGVyaW1lbnRhbCBwcmVmaXgpCmN1cmwgLXMgImh0dHBzOi8vY2xvdWQuY29tZnkub3JnL2FwaS9leHBlcmltZW50L21vZGVscy9jaGVja3BvaW50cyIgXAogIC1IICJYLUFQSS1LZXk6ICRDT01GWV9DTE9VRF9BUElfS0VZIgpgYGAKCiMjIFF1ZXVlIE1hbmFnZW1lbnQKCmBgYGJhc2gKIyBWaWV3IHF1ZXVlCmN1cmwgLXMgImh0dHA6Ly8xMjcuMC4wLjE6ODE4OC9xdWV1ZSIKCiMgQ2xlYXIgYWxsIHBlbmRpbmcKY3VybCAtWCBQT1NUICJodHRwOi8vMTI3LjAuMC4xOjgxODgvcXVldWUiIFwKICAtSCAiQ29udGVudC1UeXBlOiBhcHBsaWNhdGlvbi9qc29uIiBcCiAgLWQgJ3siY2xlYXIiOiB0cnVlfScKCiMgRGVsZXRlIHNwZWNpZmljIGl0ZW1zCmN1cmwgLVggUE9TVCAiaHR0cDovLzEyNy4wLjAuMTo4MTg4L3F1ZXVlIiBcCiAgLUggIkNvbnRlbnQtVHlwZTogYXBwbGljYXRpb24vanNvbiIgXAogIC1kICd7ImRlbGV0ZSI6IFsicHJvbXB0X2lkXzEiLCAicHJvbXB0X2lkXzIiXX0nCgojIENhbmNlbCBjdXJyZW50bHktcnVubmluZyBqb2IKY3VybCAtWCBQT1NUICJodHRwOi8vMTI3LjAuMC4xOjgxODgvaW50ZXJydXB0IgpgYGAKCiMjIFN5c3RlbSBNYW5hZ2VtZW50CgpgYGBiYXNoCiMgU3RhdHMgKFZSQU0sIFJBTSwgR1BVLCBDb21meVVJIHZlcnNpb24pCmN1cmwgLXMgImh0dHA6Ly8xMjcuMC4wLjE6ODE4OC9zeXN0ZW1fc3RhdHMiCgojIEZyZWUgR1BVIG1lbW9yeQpjdXJsIC1YIFBPU1QgImh0dHA6Ly8xMjcuMC4wLjE6ODE4OC9mcmVlIiBcCiAgLUggIkNvbnRlbnQtVHlwZTogYXBwbGljYXRpb24vanNvbiIgXAogIC1kICd7InVubG9hZF9tb2RlbHMiOiB0cnVlLCAiZnJlZV9tZW1vcnkiOiB0cnVlfScKYGBgCgojIyBDb21meVVJLU1hbmFnZXIgRW5kcG9pbnRzIChPcHRpb25hbCkKClRoZXNlIHJlcXVpcmUgQ29tZnlVSS1NYW5hZ2VyIGluc3RhbGxlZC4gVXNlZnVsIGZvciBpbnN0YWxsaW5nIG5vZGVzL21vZGVscwp2aWEgdGhlIEFQSSBpbnN0ZWFkIG9mIGBjb21meS1jbGlgLgoKYGBgYmFzaAojIEluc3RhbGwgYSBjdXN0b20gbm9kZSBmcm9tIGEgZ2l0IFVSTApjdXJsIC1YIFBPU1QgImh0dHA6Ly8xMjcuMC4wLjE6ODE4OC9tYW5hZ2VyL3F1ZXVlL2luc3RhbGwiIFwKICAtSCAiQ29udGVudC1UeXBlOiBhcHBsaWNhdGlvbi9qc29uIiBcCiAgLWQgJ3siZ2l0X3VybCI6ICJodHRwczovL2dpdGh1Yi5jb20vdXNlci9jb21meXVpLW5vZGUuZ2l0In0nCgojIENoZWNrIGluc3RhbGwgcXVldWUgc3RhdHVzCmN1cmwgLXMgImh0dHA6Ly8xMjcuMC4wLjE6ODE4OC9tYW5hZ2VyL3F1ZXVlL3N0YXR1cyIKCiMgSW5zdGFsbCBtb2RlbApjdXJsIC1YIFBPU1QgImh0dHA6Ly8xMjcuMC4wLjE6ODE4OC9tYW5hZ2VyL3F1ZXVlL2luc3RhbGxfbW9kZWwiIFwKICAtSCAiQ29udGVudC1UeXBlOiBhcHBsaWNhdGlvbi9qc29uIiBcCiAgLWQgJ3sidXJsIjogImh0dHBzOi8vLi4uIiwgInBhdGgiOiAibW9kZWxzL2NoZWNrcG9pbnRzIiwgImZpbGVuYW1lIjogIm1vZGVsLnNhZmV0ZW5zb3JzIn0nCmBgYAoKIyMgUE9TVCAvcHJvbXB0IFBheWxvYWQgRm9ybWF0CgpgYGBqc29uCnsKICAicHJvbXB0IjogewogICAgIjMiOiB7CiAgICAgICJjbGFzc190eXBlIjogIktTYW1wbGVyIiwKICAgICAgImlucHV0cyI6IHsKICAgICAgICAic2VlZCI6IDQyLAogICAgICAgICJzdGVwcyI6IDIwLAogICAgICAgICJjZmciOiA3LjUsCiAgICAgICAgInNhbXBsZXJfbmFtZSI6ICJldWxlciIsCiAgICAgICAgInNjaGVkdWxlciI6ICJub3JtYWwiLAogICAgICAgICJkZW5vaXNlIjogMS4wLAogICAgICAgICJtb2RlbCI6IFsiNCIsIDBdLAogICAgICAgICJwb3NpdGl2ZSI6IFsiNiIsIDBdLAogICAgICAgICJuZWdhdGl2ZSI6IFsiNyIsIDBdLAogICAgICAgICJsYXRlbnRfaW1hZ2UiOiBbIjUiLCAwXQogICAgICB9CiAgICB9CiAgfSwKICAiY2xpZW50X2lkIjogInVuaXF1ZS11dWlkLWZvci13cy1maWx0ZXJpbmciLAogICJleHRyYV9kYXRhIjogewogICAgImFwaV9rZXlfY29tZnlfb3JnIjogIm9wdGlvbmFsLVBBUlRORVItTk9ERS1rZXkgKE5PVCB0aGUgY2xvdWQgYXV0aCBrZXkpIgogIH0KfQpgYGAKCi0gYHByb21wdGA6IHdvcmtmbG93IGdyYXBoIGluIEFQSSBmb3JtYXQKLSBgY2xpZW50X2lkYDogVVVJRCDigJQgbG9jYWwgc2VydmVyIHVzZXMgaXQgdG8gZmlsdGVyIFdlYlNvY2tldCBldmVudHM7IGNsb3VkCiAgaWdub3JlcyBpdC4KLSBgZXh0cmFfZGF0YS5hcGlfa2V5X2NvbWZ5X29yZ2A6IE9OTFkgcmVxdWlyZWQgd2hlbiB0aGUgd29ya2Zsb3cgdXNlcwogIHBhcnRuZXIgbm9kZXMgKEZsdXggUHJvLCBJZGVvZ3JhbSwgZXRjLikuIERvbid0IGNvbmZsYXRlIHdpdGggYFgtQVBJLUtleWAuCgojIyBFcnJvciBDYXRlZ29yaWVzIChjbG91ZCBgZXhlY3V0aW9uX2Vycm9yYCBgZXhjZXB0aW9uX3R5cGVgKQoKfCBUeXBlIHwgTWVhbmluZyB8CnwtLS0tLS18LS0tLS0tLS0tfAp8IGBWYWxpZGF0aW9uRXJyb3JgIHwgQmFkIHdvcmtmbG93IC8gaW5wdXRzIChvZnRlbiBuaWNlciB0byBzdXJmYWNlIGZyb20gYG5vZGVfZXJyb3JzYCkgfAp8IGBNb2RlbERvd25sb2FkRXJyb3JgIHwgUmVxdWlyZWQgbW9kZWwgbm90IGF2YWlsYWJsZSB8CnwgYEltYWdlRG93bmxvYWRFcnJvcmAgfCBGYWlsZWQgdG8gZmV0Y2ggaW5wdXQgaW1hZ2UgZnJvbSBVUkwgfAp8IGBPT01FcnJvcmAgfCBPdXQgb2YgR1BVIG1lbW9yeSB8CnwgYEluc3VmZmljaWVudEZ1bmRzRXJyb3JgIHwgQWNjb3VudCBiYWxhbmNlIHRvbyBsb3cgKHBhcnRuZXIgbm9kZXMpIHwKfCBgSW5hY3RpdmVTdWJzY3JpcHRpb25FcnJvcmAgfCBTdWJzY3JpcHRpb24gbm90IGFjdGl2ZSB8Cg==
+# ComfyUI REST + WebSocket API Reference
+
+ComfyUI exposes a REST + WebSocket interface for workflow execution and
+management. **The same surface is used locally and on Comfy Cloud, with
+auth/path differences.**
+
+## Connection
+
+| | Local ComfyUI | Comfy Cloud |
+|---|---|---|
+| Base URL | `http://127.0.0.1:8188` | `https://cloud.comfy.org` |
+| API path prefix | none (`/prompt`, `/view`, …) | `/api/...` (`/api/prompt`, `/api/view`, …) |
+| Auth | none (or bearer token if configured) | `X-API-Key` header |
+| WebSocket | `ws://host:port/ws?clientId={uuid}` | `wss://cloud.comfy.org/ws?clientId={uuid}&token={API_KEY}` |
+| `/api/view` response | direct bytes | 302 redirect → signed URL (use `curl -L`) |
+
+The skill scripts route URLs automatically via `_common.resolve_url()`.
+
+## Endpoint differences on Comfy Cloud
+
+The cloud surface diverges from local ComfyUI in several ways. The skill
+scripts handle these transparently; document them here so anyone calling
+`curl` directly knows.
+
+| Local path | Cloud path | Notes |
+|------------|-----------|-------|
+| `/system_stats` | `/api/system_stats` | Cloud version is **public** (no auth required) |
+| `/object_info` | `/api/object_info` | **Paid tier only** — free returns 403 |
+| `/queue` | `/api/queue` | Paid tier only |
+| `/userdata` | `/api/userdata` | Paid tier only |
+| `/prompt` (POST) | `/api/prompt` (POST) | Paid tier only |
+| `/upload/image` | `/api/upload/image` | Paid tier only; `subfolder` accepted but ignored |
+| `/upload/mask` | `/api/upload/mask` | Same as above |
+| `/view` | `/api/view` | Paid tier only; **returns 302** to signed URL |
+| `/history` | `/api/history_v2` | **Renamed**; old path returns 404 |
+| `/history/{id}` | `/api/history_v2/{id}` or `/api/jobs/{id}` | Both work; `/jobs` returns full job |
+| `/models` | `/api/experiment/models` | **Renamed** |
+| `/models/{folder}` | `/api/experiment/models/{folder}` | **Renamed**; response shape differs (see below) |
+
+### Cloud model-list response shape
+
+- **Local:** `["a.safetensors", "b.safetensors", …]` — flat list of strings.
+- **Cloud:** `[{"name": "a.safetensors", "pathIndex": 0}, …]` — list of objects.
+- **Cloud 404 with `code: "folder_not_found"`** — folder is empty or unknown,
+  not an "endpoint missing" error. Distinguish by reading the body.
+
+The skill helper `_common.parse_model_list()` normalizes both.
+
+## Workflow Execution
+
+### Submit Workflow
+
+```bash
+# Local
+curl -X POST "http://127.0.0.1:8188/prompt" \
+  -H "Content-Type: application/json" \
+  -d '{"prompt": '"$(cat workflow_api.json)"', "client_id": "'"$(uuidgen)"'"}'
+
+# Cloud
+curl -X POST "https://cloud.comfy.org/api/prompt" \
+  -H "X-API-Key: $COMFY_CLOUD_API_KEY" \
+  -H "Content-Type: application/json" \
+  -d '{"prompt": '"$(cat workflow_api.json)"'}'
+```
+
+**Response:**
+```json
+{"prompt_id": "abc-123-def", "number": 1, "node_errors": {}}
+```
+
+If `node_errors` is non-empty, the workflow has validation errors (missing
+nodes, bad inputs).
+
+### Check Job Status (Cloud)
+
+```bash
+curl -X GET "https://cloud.comfy.org/api/job/{prompt_id}/status" \
+  -H "X-API-Key: $COMFY_CLOUD_API_KEY"
+```
+
+| Status        | Description                        |
+| ------------- | ---------------------------------- |
+| `pending`     | Job is queued and waiting to start |
+| `in_progress` | Job is currently executing         |
+| `completed`   | Job finished successfully          |
+| `failed`      | Job encountered an error           |
+| `cancelled`   | Job was cancelled by user          |
+
+### Job detail with outputs (Cloud)
+
+```bash
+curl -X GET "https://cloud.comfy.org/api/jobs/{prompt_id}" \
+  -H "X-API-Key: $COMFY_CLOUD_API_KEY"
+```
+
+Response includes `outputs` keyed by node ID. Cloud uses `video` (singular)
+in the output structure; local uses `videos` (plural). The skill scripts
+accept both.
+
+### Get History (Local)
+
+```bash
+curl -s "http://127.0.0.1:8188/history"          # all
+curl -s "http://127.0.0.1:8188/history/{id}"     # one prompt_id
+```
+
+Local entry shape:
+```json
+{
+  "<prompt_id>": {
+    "prompt": [...],
+    "outputs": {"<node_id>": {"images": [...]}},
+    "status": {
+      "status_str": "success" | "error",
+      "completed": true | false,
+      "messages": [["execution_start", {...}], ["execution_error", {...}], …]
+    }
+  }
+}
+```
+
+**Important:** when reading status, check `status_str == "error"` BEFORE
+checking `completed`, because both can be true for failed runs.
+
+### Download Output
+
+```bash
+# Local (direct bytes)
+curl -s "http://127.0.0.1:8188/view?filename=ComfyUI_00001_.png&subfolder=&type=output" \
+  -o output.png
+
+# Cloud (302 → signed URL; -L follows; STRIP X-API-Key for the second hop)
+curl -L "https://cloud.comfy.org/api/view?filename=...&type=output" \
+  -H "X-API-Key: $COMFY_CLOUD_API_KEY" \
+  -o output.png
+```
+
+The skill's `run_workflow.py` strips `X-API-Key` automatically on the
+cross-host redirect, so the signed URL never sees your auth.
+
+## WebSocket Monitoring
+
+Connect for real-time execution events.
+
+```bash
+# Local
+wscat -c "ws://127.0.0.1:8188/ws?clientId=MY-UUID"
+
+# Cloud
+wscat -c "wss://cloud.comfy.org/ws?clientId=MY-UUID&token=$COMFY_CLOUD_API_KEY"
+```
+
+**Note:** on Cloud the `clientId` is currently ignored — all messages for a
+user are broadcast to every connection. Filter messages client-side by
+`data.prompt_id`.
+
+### JSON Message Types
+
+| Type | When | Key Fields |
+|------|------|------------|
+| `status` | Queue change | `status.exec_info.queue_remaining` |
+| `notification` | User-friendly status string | `value` |
+| `execution_start` | Workflow begins | `prompt_id` |
+| `executing` | Node running (or end-of-run if `node` is null on local) | `node`, `prompt_id` |
+| `progress` | Sampling steps | `node`, `value`, `max` |
+| `progress_state` | Extended progress with per-node metadata | `nodes` (dict) |
+| `executed` | Node output ready | `node`, `output` (with `images`/`video`/etc.) |
+| `execution_cached` | Nodes skipped because of cache | `nodes` (list of IDs) |
+| `execution_success` | All done | `prompt_id` |
+| `execution_error` | Failure | `exception_type`, `exception_message`, `traceback`, `node_id` |
+| `execution_interrupted` | Cancelled | `prompt_id` |
+
+### Binary Frames (Preview Images)
+
+| Type code | Meaning |
+|-----------|---------|
+| `0x00000001` | `PREVIEW_IMAGE` — `[type:4][image_type:4][data]` (image_type 1=JPEG, 2=PNG) |
+| `0x00000003` | `TEXT` — `[type:4][nid_len:4][nid][text]` (UTF-8) |
+| `0x00000004` | `PREVIEW_IMAGE_WITH_METADATA` — `[type:4][meta_len:4][json][image_data]` |
+
+`scripts/ws_monitor.py --previews <dir>` saves preview frames to disk.
+
+## File Upload
+
+```bash
+# Image
+curl -X POST "http://127.0.0.1:8188/upload/image" \
+  -F "image=@photo.png" -F "type=input" -F "overwrite=true"
+# Returns: {"name": "photo.png", "subfolder": "", "type": "input"}
+
+# Mask (linked to a previously uploaded image)
+curl -X POST "http://127.0.0.1:8188/upload/mask" \
+  -F "image=@mask.png" -F "type=input" \
+  -F 'original_ref={"filename":"photo.png","subfolder":"","type":"input"}'
+```
+
+Cloud equivalent: prepend `https://cloud.comfy.org/api` and add `-H "X-API-Key: $COMFY_CLOUD_API_KEY"`.
+
+## Node & Model Discovery
+
+```bash
+# All node types and their input specs
+curl -s "http://127.0.0.1:8188/object_info" | python3 -m json.tool
+
+# Specific node
+curl -s "http://127.0.0.1:8188/object_info/KSampler"
+
+# Models per folder (local)
+curl -s "http://127.0.0.1:8188/models/checkpoints"
+curl -s "http://127.0.0.1:8188/models/loras"
+
+# Models per folder (cloud — note the experimental prefix)
+curl -s "https://cloud.comfy.org/api/experiment/models/checkpoints" \
+  -H "X-API-Key: $COMFY_CLOUD_API_KEY"
+```
+
+## Queue Management
+
+```bash
+# View queue
+curl -s "http://127.0.0.1:8188/queue"
+
+# Clear all pending
+curl -X POST "http://127.0.0.1:8188/queue" \
+  -H "Content-Type: application/json" \
+  -d '{"clear": true}'
+
+# Delete specific items
+curl -X POST "http://127.0.0.1:8188/queue" \
+  -H "Content-Type: application/json" \
+  -d '{"delete": ["prompt_id_1", "prompt_id_2"]}'
+
+# Cancel currently-running job
+curl -X POST "http://127.0.0.1:8188/interrupt"
+```
+
+## System Management
+
+```bash
+# Stats (VRAM, RAM, GPU, ComfyUI version)
+curl -s "http://127.0.0.1:8188/system_stats"
+
+# Free GPU memory
+curl -X POST "http://127.0.0.1:8188/free" \
+  -H "Content-Type: application/json" \
+  -d '{"unload_models": true, "free_memory": true}'
+```
+
+## ComfyUI-Manager Endpoints (Optional)
+
+These require ComfyUI-Manager installed. Useful for installing nodes/models
+via the API instead of `comfy-cli`.
+
+```bash
+# Install a custom node from a git URL
+curl -X POST "http://127.0.0.1:8188/manager/queue/install" \
+  -H "Content-Type: application/json" \
+  -d '{"git_url": "https://github.com/user/comfyui-node.git"}'
+
+# Check install queue status
+curl -s "http://127.0.0.1:8188/manager/queue/status"
+
+# Install model
+curl -X POST "http://127.0.0.1:8188/manager/queue/install_model" \
+  -H "Content-Type: application/json" \
+  -d '{"url": "https://...", "path": "models/checkpoints", "filename": "model.safetensors"}'
+```
+
+## POST /prompt Payload Format
+
+```json
+{
+  "prompt": {
+    "3": {
+      "class_type": "KSampler",
+      "inputs": {
+        "seed": 42,
+        "steps": 20,
+        "cfg": 7.5,
+        "sampler_name": "euler",
+        "scheduler": "normal",
+        "denoise": 1.0,
+        "model": ["4", 0],
+        "positive": ["6", 0],
+        "negative": ["7", 0],
+        "latent_image": ["5", 0]
+      }
+    }
+  },
+  "client_id": "unique-uuid-for-ws-filtering",
+  "extra_data": {
+    "api_key_comfy_org": "optional-PARTNER-NODE-key (NOT the cloud auth key)"
+  }
+}
+```
+
+- `prompt`: workflow graph in API format
+- `client_id`: UUID — local server uses it to filter WebSocket events; cloud
+  ignores it.
+- `extra_data.api_key_comfy_org`: ONLY required when the workflow uses
+  partner nodes (Flux Pro, Ideogram, etc.). Don't conflate with `X-API-Key`.
+
+## Error Categories (cloud `execution_error` `exception_type`)
+
+| Type | Meaning |
+|------|---------|
+| `ValidationError` | Bad workflow / inputs (often nicer to surface from `node_errors`) |
+| `ModelDownloadError` | Required model not available |
+| `ImageDownloadError` | Failed to fetch input image from URL |
+| `OOMError` | Out of GPU memory |
+| `InsufficientFundsError` | Account balance too low (partner nodes) |
+| `InactiveSubscriptionError` | Subscription not active |

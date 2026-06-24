@@ -1,1 +1,198 @@
-IyBSZXBsaWNhdG9yIENPTVAgUmVmZXJlbmNlCgpUaGUgYHJlcGxpY2F0b3JDT01QYCBjbG9uZXMgYSB0ZW1wbGF0ZSBvcGVyYXRvciBOIHRpbWVzLCBkcml2ZW4gYnkgYSB0YWJsZSBvZiBkYXRhLiBUaGUgZnVuZGFtZW50YWwgVEQgcGF0dGVybiBmb3IgZGF0YS1kcml2ZW4gbmV0d29ya3M6IGJ1dHRvbiBncmlkcywgc2NlbmUgcm9zdGVycywgZHluYW1pYyBVSSwgcGFyYW1ldGVyIHBhbmVscyBwZXItY2hhbm5lbC4KCkZvciB2aXN1YWwgaW5zdGFuY2luZyAocGVyLXBpeGVsL3Blci1yZW5kZXIgY29waWVzKSwgc2VlIGBnZW9tZXRyeS1jb21wLm1kYC4gUmVwbGljYXRvciBidWlsZHMgTkVUV09SSyBOT0RFUzsgaW5zdGFuY2luZyBidWlsZHMgUkVOREVSIENPUElFUy4gRGlmZmVyZW50IGxheWVyLgoKLS0tCgojIyBDb25jZXB0CgpgYGAKW1RlbXBsYXRlIE9QXSAgICAgICAgICAgICAgICAgIFtEYXRhIHRhYmxlREFUXQogICAgICAg4pSCICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg4pSCCiAgICAgICDilJTilIDilIDilIDilIDilIDihpIgcmVwbGljYXRvckNPTVAg4oaQ4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSYCiAgICAgICAgICAgICAgICAgICAgIOKUggogICAgICAgICAgICAgICAgICAgICDilrwKICAgICAgICBbTiBjbG9uZXNdLCBvbmUgcGVyIGRhdGEgcm93CiAgICAgICAgRWFjaCBjbG9uZSBnZXRzIHBlci1yb3cgcGFyYW1zCmBgYAoKRWRpdCB0aGUgdGVtcGxhdGUgb25jZSDihpIgYWxsIGNsb25lcyBpbmhlcml0LiBFZGl0IHRoZSB0YWJsZSDihpIgY2xvbmVzIGFkZC9yZW1vdmUgZHluYW1pY2FsbHkuIFB1c2ggcGFyYW1ldGVyIG92ZXJyaWRlcyBwZXItcm93LgoKLS0tCgojIyBNaW5pbWFsIFNldHVwCgpgYGBweXRob24KIyAxLiBNYWtlIGEgdGVtcGxhdGUgKHRoZSB0aGluZyB0byBjbG9uZSkKdGVtcGxhdGUgPSByb290LmNyZWF0ZShidXR0b25DT01QLCAnYnRuX3RlbXBsYXRlJykKdGVtcGxhdGUucGFyLncgPSA4MDsgdGVtcGxhdGUucGFyLmggPSA4MAp0ZW1wbGF0ZS5wYXIudGV4dCA9ICdYJwp0ZW1wbGF0ZS5wYXIuYmdjb2xvcnIgPSAwLjIKCiMgMi4gTWFrZSBhIGRhdGEgdGFibGUgKG9uZSByb3cgcGVyIGNsb25lKQpkYXRhID0gcm9vdC5jcmVhdGUodGFibGVEQVQsICdzY2VuZV9kYXRhJykKZGF0YS5hcHBlbmRSb3coWyduYW1lJywgJ2NvbG9yX3InLCAnY29sb3JfZycsICdjb2xvcl9iJ10pCmRhdGEuYXBwZW5kUm93KFsnU3Vuc2V0JywgMS4wLCAwLjQsIDAuMF0pCmRhdGEuYXBwZW5kUm93KFsnTWlkbmlnaHQnLCAwLjAsIDAuMSwgMC40XSkKZGF0YS5hcHBlbmRSb3coWydTdG9ybScsIDAuMywgMC4zLCAwLjVdKQpkYXRhLmFwcGVuZFJvdyhbJ0ZvcmVzdCcsIDAuMCwgMC41LCAwLjJdKQoKIyAzLiBSZXBsaWNhdG9yIOKAlCBwb2ludHMgYXQgdGVtcGxhdGUgKyBkYXRhCnJlcCA9IHJvb3QuY3JlYXRlKHJlcGxpY2F0b3JDT01QLCAnc2NlbmVfYnV0dG9ucycpCnJlcC5wYXIudGVtcGxhdGUgPSB0ZW1wbGF0ZS5wYXRoCnJlcC5wYXIub3Bmcm9tZGF0ID0gZGF0YS5wYXRoCnJlcC5wYXIubmFtZWZyb21kYXRuYW1lID0gJ25hbWUnICAgICAgICAjIHVzZSAnbmFtZScgY29sdW1uIGZvciBjbG9uZSBuYW1lcwpyZXAucGFyLmluY3JlbWVudGFsbnVtYmVyaW5nID0gRmFsc2UKYGBgCgpBZnRlciBjb29raW5nLCB0aGUgcmVwbGljYXRvciBjcmVhdGVzIDQgY2hpbGQgQ09NUHMgbmFtZWQgYFN1bnNldGAsIGBNaWRuaWdodGAsIGBTdG9ybWAsIGBGb3Jlc3RgIChvbmUgcGVyIG5vbi1oZWFkZXIgcm93KSwgZWFjaCBjbG9uZWQgZnJvbSBgYnRuX3RlbXBsYXRlYC4KCi0tLQoKIyMgUGVyLVJvdyBQYXJhbWV0ZXIgT3ZlcnJpZGVzCgpUaGUgcmVwbGljYXRvcidzIGRvY2tlZCBgcmVwbGljYXRvcjFfY2FsbGJhY2tzYCBEQVQgbGV0cyB5b3UgY3VzdG9taXplIGVhY2ggY2xvbmU6CgpgYGBweXRob24KZGVmIG9uUmVwbGljYXRlKGNvbXAsIGFsbE9wcywgbmV3T3BzLCB0ZW1wbGF0ZSwgbWFzdGVyKToKICAgICIiIkNhbGxlZCBvbmNlIHBlciByZXBsaWNhdGUgY3ljbGUuIG5ld09wcyBpcyB0aGUgbGlzdCBvZiBqdXN0LWNyZWF0ZWQgY2xvbmVzLiIiIgogICAgZGF0YSA9IG9wKCdzY2VuZV9kYXRhJykKICAgIGZvciBpLCBjbG9uZSBpbiBlbnVtZXJhdGUobmV3T3BzKToKICAgICAgICByb3cgPSBpICsgMSAgICAgICAgICAgICAgICAgIyArMSB0byBza2lwIGhlYWRlcgogICAgICAgIGNsb25lLnBhci50ZXh0ID0gZGF0YVtyb3csICduYW1lJ10udmFsCiAgICAgICAgY2xvbmUucGFyLmJnY29sb3JyID0gZmxvYXQoZGF0YVtyb3csICdjb2xvcl9yJ10udmFsKQogICAgICAgIGNsb25lLnBhci5iZ2NvbG9yZyA9IGZsb2F0KGRhdGFbcm93LCAnY29sb3JfZyddLnZhbCkKICAgICAgICBjbG9uZS5wYXIuYmdjb2xvcmIgPSBmbG9hdChkYXRhW3JvdywgJ2NvbG9yX2InXS52YWwpCiAgICByZXR1cm4KYGBgCgpPciB1c2UgcGFyYW1ldGVyIGV4cHJlc3Npb25zIHJlZmVyZW5jaW5nIGBkaWdpdHNgICh0aGUgcGVyLWNsb25lIGluZGV4LCBhdmFpbGFibGUgYXMgYSBidWlsdC1pbiBleHByZXNzaW9uIHRva2VuIGluc2lkZSB0aGUgY2xvbmVkIHN1YnRyZWUpOgoKYGBgcHl0aG9uCiMgSW5zaWRlIHRoZSB0ZW1wbGF0ZSwgc2V0IGEgcGFyYW0gZXhwcmVzc2lvbiBsaWtlOgojIHBhci52YWx1ZTAuZXhwciA9ICJvcCgnLi4vc2NlbmVfZGF0YScpW21lLmRpZ2l0cyArIDEsICd2YWx1ZSddIgpgYGAKCmBtZS5kaWdpdHNgIHJlc29sdmVzIHRvIHRoZSByb3cgaW5kZXggb2YgdGhlIGN1cnJlbnQgY2xvbmUuIFRoaXMgaXMgdGhlIGNsZWFuZXN0IHdheSBmb3Igc3RhdGljIHJlZmVyZW5jZSBwYXR0ZXJucyDigJQgbm8gY2FsbGJhY2sgbmVlZGVkLgoKLS0tCgojIyBMYXlvdXQ6IEJ1dHRvbnMgaW4gYSBHcmlkCgpEcm9wIHRoZSByZXBsaWNhdG9yIGluc2lkZSBhIGBjb250YWluZXJDT01QYCB3aXRoIGF1dG8tbGF5b3V0OgoKYGBgcHl0aG9uCnBhbmVsID0gcm9vdC5jcmVhdGUoY29udGFpbmVyQ09NUCwgJ3NjZW5lX3BhbmVsJykKcGFuZWwucGFyLncgPSA0MDA7IHBhbmVsLnBhci5oID0gMTAwCnBhbmVsLnBhci5hbGlnbiA9ICdsZWZ0dG9yaWdodCcKCiMgTW92ZSB0aGUgcmVwbGljYXRvciBpbnNpZGUKcmVwLnBhcmVudCA9IHBhbmVsLnBhdGggICAgICAgICAgICMgb3IgY3JlYXRlIHJlcCBhcyBhIGNoaWxkIG9mIHBhbmVsIGRpcmVjdGx5CmBgYAoKRWFjaCBjbG9uZSBpcyBhIGNoaWxkIG9mIHRoZSByZXBsaWNhdG9yICh3aGljaCBpdHNlbGYgaXMgYSBjaGlsZCBvZiB0aGUgcGFuZWwpLiBUaGUgcGFuZWwgYXV0by1hcnJhbmdlcyBldmVyeXRoaW5nLgoKRm9yIGEgMkQgZ3JpZCwgc2V0IGBwYXIuYWxpZ24gPSAnZmlsbHJlc2l6ZSdgIG9uIHRoZSBjb250YWluZXIgYW5kIG92ZXJyaWRlIGBwYXIueGAgLyBgcGFyLnlgIHBlciBjbG9uZSBpbiB0aGUgY2FsbGJhY2sgYmFzZWQgb24gcm93L2NvbCBpbmRleC4KCi0tLQoKIyMgVXBkYXRpbmcgV2l0aG91dCBSZWJ1aWxkaW5nCgpXaGVuIHRoZSBkYXRhIHRhYmxlIGNoYW5nZXMsIHRoZSByZXBsaWNhdG9yIHJlZ2VuZXJhdGVzIHRoZSBjbG9uZXMuIEJ5IGRlZmF1bHQgaXQgZGVzdHJveXMgYW5kIHJlY3JlYXRlcyBldmVyeXRoaW5nLiBUbyBwcmVzZXJ2ZSBzdGF0ZSwgc2V0OgoKYGBgcHl0aG9uCnJlcC5wYXIucmVjcmVhdGVtaXNzaW5nID0gVHJ1ZSAgICAgICAjIG9ubHkgYWRkL3JlbW92ZSBjaGFuZ2VkIHJvd3MKcmVwLnBhci5yZWNyZWF0ZWFsbG9uY2hhbmdlID0gRmFsc2UKYGBgCgpUaGlzIHBhdHRlcm4gaXMgZXNzZW50aWFsIGZvciBsaXZlLWVkaXQgc2NlbmFyaW9zIChkZXNpZ25lciBhZGp1c3RzIHRhYmxlLCBuZXR3b3JrIGtlZXBzIHJ1bm5pbmcpLgoKRm9yIGluY3JlbWVudGFsIGRhdGEgaW5nZXN0aW9uIChlLmcuLCBmcm9tIGEgYHdlYkRBVGAgcG9sbGluZyBhbiBBUEkpLCBoYXZlIGEgYGRhdEV4ZWN1dGVEQVRgIHdhdGNoIHRoZSByZXNwb25zZSwgcGFyc2UsIHdyaXRlIHRvIHRoZSBkYXRhIHRhYmxlLCBhbmQgdGhlIHJlcGxpY2F0b3Igc2VsZi11cGRhdGVzLgoKLS0tCgojIyBDb21tb24gUGF0dGVybnMKCiMjIyBTY2VuZSBSb3N0ZXIgKERhdGEg4oaSIEJ1dHRvbnMgKyBMb2dpYykKCmBgYHB5dGhvbgojIERhdGEgcGVyIHNjZW5lOiBuYW1lLCBmaWxlIHBhdGgsIGF1ZGlvIHRyYWNrLCBCUE0Kc2NlbmVfZGF0YS5hcHBlbmRSb3coWyduYW1lJywgJ2ZpbGUnLCAnYXVkaW8nLCAnYnBtJ10pCnNjZW5lX2RhdGEuYXBwZW5kUm93KFsnSW50cm8nLCAnL3NjZW5lcy9pbnRyby50b3gnLCAnL2F1ZGlvL2ludHJvLndhdicsIDExMF0pCnNjZW5lX2RhdGEuYXBwZW5kUm93KFsnTWFpbicsICcvc2NlbmVzL21haW4udG94JywgJy9hdWRpby9tYWluLndhdicsIDEyOF0pCgojIFJlcGxpY2F0b3IgY2xvbmVzIGEgYnV0dG9uQ09NUCBwZXIgc2NlbmUKIyBFYWNoIGJ1dHRvbidzIG9uQ2xpY2sgY2FsbGJhY2sgbG9hZHMgdGhlIGNvcnJlc3BvbmRpbmcgdG94ICsgY3VlcyBhdWRpbwpgYGAKCiMjIyBEeW5hbWljIFBhcmFtZXRlciBQYW5lbAoKRm9yIGEgbGlzdCBvZiBhdWRpbyBiYW5kcywgZ2VuZXJhdGUgYSBmYWRlciBzdHJpcCBwZXIgYmFuZDoKCmBgYHB5dGhvbgojIERhdGE6IGJhbmQgbmFtZXMgKHN1YiwgbG93LCBtaWQsIGhpLW1pZCwgaGlnaCwgYWlyKQojIFRlbXBsYXRlOiBjb250YWluZXJDT01QIHdpdGggbGFiZWwgKyBzbGlkZXJDT01QCiMgUmVwbGljYXRvciBjbG9uZXMgTiBzdHJpcHMKIyBFYWNoIHNsaWRlcidzIHZhbHVlIGlzIHJlYWQgYXQgL2F1ZGlvX2VxL3tiYW5kX25hbWV9L2ZhZGVyCmBgYAoKIyMjIFByb2NlZHVyYWwgVmlzdWFsIE5ldHdvcmsKCkJ1aWxkIGEgbXVsdGktY2hhbm5lbCB2aXN1YWwgbmV0d29yayBmcm9tIGEgY29uZmlnIGZpbGU6CgpgYGBweXRob24KIyBEYXRhOiB3aGljaCBUT1BzIHRvIGNoYWluLCBwZXIgInNjZW5lIgojIFRlbXBsYXRlOiBhIGJhc2VDT01QIHdpdGggcGxhY2Vob2xkZXIgY2hpbGRyZW4KIyBSZXBsaWNhdG9yIGJ1aWxkcyBvbmUgYmFzZUNPTVAgcGVyIHNjZW5lOyBlYWNoIHNjZW5lIGNvbnRhaW5zIGEgY3VzdG9tIGNoYWluCiMgU3dpdGNoIGJldHdlZW4gc2NlbmVzIHZpYSBzd2l0Y2hUT1AucGFyLmluZGV4IGRyaXZlbiBieSBwYW5lbApgYGAKCiMjIyBQZXItQ2hhbm5lbCBDSE9QIERpc3BsYXkKClZpc3VhbGl6ZSBlYWNoIGNoYW5uZWwgb2YgYSBtdWx0aS1jaGFubmVsIENIT1Agc2VwYXJhdGVseToKCmBgYHB5dGhvbgojIERhdGEgdGFibGU6IG9uZSByb3cgcGVyIGNoYW5uZWwgKGF1dG8tZXh0cmFjdGVkIHZpYSBjaG9wdG9kYXREQVQpCiMgVGVtcGxhdGU6IGEgc21hbGwgY2hvcFZpcyBDT01QIHNob3dpbmcgb25lIGNoYW5uZWwKIyBSZXBsaWNhdG9yIGdlbmVyYXRlcyBOIHZpc3VhbGl6ZXJzIHN0YWNrZWQgdmVydGljYWxseQpgYGAKCi0tLQoKIyMgUmVwbGljYXRvciB2cy4gUHVyZSBQeXRob24gTG9vcAoKfCBBcHByb2FjaCB8IFdoZW4gdG8gdXNlIHwKfC0tLXwtLS18CnwgKipyZXBsaWNhdG9yQ09NUCoqIHwgVGhlIHNldCBvZiBjbG9uZXMgY2hhbmdlcyAoYWRkL3JlbW92ZSByb3dzIGxpdmUpLiBWaXN1YWwgZWRpdG9yIGV4cGVjdGF0aW9ucy4gUGF0dGVybiBpcyByZXVzYWJsZSBhY3Jvc3MgcHJvamVjdHMuIHwKfCAqKlB5dGhvbiBsb29wKiogKGluIGB0ZF9leGVjdXRlX3B5dGhvbmApIHwgT25lLXNob3QgZ2VuZXJhdGlvbi4gU3RhdGljIHNldC4gU2ltcGxlciBsb2dpYywgbm8gdGVtcGxhdGUgb3ZlcmhlYWQuIEZhc3RlciB0byB3cml0ZS4gfAoKSWYgeW91J2xsIG9ubHkgZXZlciBidWlsZCB0aGUgbmV0d29yayBvbmNlLCBwcmVmZXIgYSBQeXRob24gbG9vcCB3aXRoIGB0ZF9leGVjdXRlX3B5dGhvbmAuIFRoZSByZXBsaWNhdG9yIGVhcm5zIGl0cyB3ZWlnaHQgd2hlbiBkYXRhIGlzIGxpdmUuCgotLS0KCiMjIFBpdGZhbGxzCgoxLiAqKkhlYWRlciByb3cqKiDigJQgYHRhYmxlREFUYCByb3dzIGFyZSAwLWluZGV4ZWQuIElmIHlvdSBoYXZlIGEgaGVhZGVyLCB5b3VyIGZpcnN0IGRhdGEgcm93IGlzIGluZGV4IDEuIE9mZi1ieS1vbmUgYnVncyBhcmUgY29tbW9uIGluIGNhbGxiYWNrcy4KMi4gKipgbmFtZWZyb21kYXRuYW1lYCBjb2x1bW4gbWlzc2luZyoqIOKAlCByZXBsaWNhdG9yIHNpbGVudGx5IHVzZXMgYGRpZ2l0c2AgKG51bWVyaWMgc3VmZml4KSBuYW1lcy4gQnV0dG9ucyBlbmQgdXAgbmFtZWQgYDFgLCBgMmAsIGAzYCBpbnN0ZWFkIG9mIG1lYW5pbmdmdWwgbmFtZXMuIFNldCBgcGFyLm5hbWVmcm9tZGF0bmFtZWAgZXhwbGljaXRseS4KMy4gKipUZW1wbGF0ZSBsaXZlcyBpbiBuZXR3b3JrKiog4oCUIHRoZSB0ZW1wbGF0ZSBPUCBpcyBpdHNlbGYgYSByZWFsIG5ldHdvcmsgbm9kZS4gRG9uJ3QgY29ubmVjdCB0aGluZ3MgZG93bnN0cmVhbSBvZiBpdCBkaXJlY3RseTsgY29ubmVjdCB0byB0aGUgY2xvbmVzIChvciB1c2UgYSBgbnVsbENPTVBgIGJldHdlZW4pLgo0LiAqKlJlY3JlYXRlLW9uLWNoYW5nZSB3aXBlcyBzdGF0ZSoqIOKAlCB0b2dnbGVzLCBzbGlkZXIgcG9zaXRpb25zLCBhbmQgdW5jYWNoZWQgZGF0YSBpbnNpZGUgY2xvbmVzIGFyZSBsb3N0IG9uIGVhY2ggcmVnZW5lcmF0aW9uLiBVc2UgYHJlY3JlYXRlbWlzc2luZ2AgdG8gcHJlc2VydmUuCjUuICoqYG9uUmVwbGljYXRlYCBkb2Vzbid0IGZpcmUgb24gZWRpdCoqIOKAlCBvbmx5IGZpcmVzIHdoZW4gdGhlIGNsb25lIHNldCBjaGFuZ2VzLiBFZGl0aW5nIGEgdmFsdWUgV0lUSElOIGFuIGV4aXN0aW5nIHJvdyBkb2Vzbid0IHJlLXRyaWdnZXIuIFVzZSBgcGFyYW1ldGVyRXhlY3V0ZURBVGAgb3IgZXhwcmVzc2lvbnMgZm9yIHBlci1jZWxsIGxpdmUgdXBkYXRlcy4KNi4gKipDdXN0b20gcGFyYW1zIG9uIGNsb25lcyoqIOKAlCBwYWdlcyBhZGRlZCBpbiB0aGUgdGVtcGxhdGUgcHJvcGFnYXRlLiBQYWdlcyBhZGRlZCBpbiBgb25SZXBsaWNhdGVgIGRvbid0IHN1cnZpdmUgdGhlIG5leHQgcmVnZW5lcmF0aW9uLiBBbHdheXMgYWRkIGN1c3RvbSBwYWdlcyBvbiB0aGUgdGVtcGxhdGUsIG5vdCB0aGUgY2xvbmUuCjcuICoqQ29va2luZyBzdG9ybXMqKiDigJQgYWRkaW5nIG1hbnkgcm93cyBmYXN0IHRyaWdnZXJzIG1hbnkgY2xvbmUgZXZlbnRzLiBCdW5kbGUgYWRkcyB2aWEgUHl0aG9uIGFuZCBjYWxsIGBkYXRhLmNvb2soZm9yY2U9VHJ1ZSlgIG9uY2UgYXQgdGhlIGVuZC4KOC4gKipgbWUuZGlnaXRzYCBvdXRzaWRlIHJlcGxpY2F0b3IgY2hpbGRyZW4qKiDigJQgYG1lLmRpZ2l0c2Agb25seSByZXNvbHZlcyBpbnNpZGUgYW4gb3AgdGhhdCdzIGEgZGVzY2VuZGFudCBvZiB0aGUgcmVwbGljYXRvci4gRG9uJ3QgcmVmZXJlbmNlIGl0IGluIHVucmVsYXRlZCBuZXR3b3Jrcy4KOS4gKipDcm9zcy1jbG9uZSByZWZlcmVuY2VzKiog4oCUIHJlZmVyZW5jaW5nIGEgc2libGluZyBjbG9uZSB2aWEgcmVsYXRpdmUgcGF0aCB3b3JrcyBmcm9tIGluc2lkZSBhIGNsb25lIChgb3AoJy4uL090aGVyQ2xvbmUveCcpYCksIGJ1dCBicmVha3MgaWYgbmFtZXMgY2hhbmdlLiBQcmVmZXIgYWJzb2x1dGUgcGF0aHMgdmlhIHRoZSBkYXRhIHRhYmxlLgoKLS0tCgojIyBRdWljayBSZWNpcGVzCgp8IEdvYWwgfCBTZXR1cCB8CnwtLS18LS0tfAp8IDgtYnV0dG9uIHNjZW5lIHBpY2tlciB8IGB0YWJsZURBVGAgKDggcm93cykgKyBgYnV0dG9uQ09NUGAgdGVtcGxhdGUgKyBgcmVwbGljYXRvckNPTVBgIHwKfCBQZXItYmFuZCBFUSBzdHJpcCBwYW5lbCB8IGB0YWJsZURBVGAgKGJhbmQgbmFtZXMpICsgY29udGFpbmVyIHRlbXBsYXRlIChsYWJlbCArIHNsaWRlcikgKyByZXBsaWNhdG9yIHwKfCBEYXRhLWRyaXZlbiB2aXN1YWwgc2NlbmVzIHwgYHRhYmxlREFUYCAoc2NlbmUgY29uZmlnKSArIGBiYXNlQ09NUGAgdGVtcGxhdGUgKHZpc3VhbCBjaGFpbikgKyByZXBsaWNhdG9yIHwKfCBMaXZlLXVwZGF0aW5nIGNsb25lIHNldCB8IFNhbWUgYXMgYWJvdmUgKyBgcGFyLnJlY3JlYXRlbWlzc2luZyA9IFRydWVgIHwKfCBQZXItcm93IGNvbG9yZWQgVUkgfCBEYXRhIHRhYmxlIHdpdGggY29sb3IgY29scywgYG9uUmVwbGljYXRlYCBjYWxsYmFjayBzZXRzIHBlci1jbG9uZSBjb2xvcnMgfAp8IExpc3QgZnJvbSBBUEkgcmVzcG9uc2UgfCBgd2ViREFUYCDihpIgYGRhdEV4ZWN1dGVEQVRgIHBhcnNlcyBKU09OIOKGkiB3cml0ZXMgdG8gZGF0YSB0YWJsZSDihpIgcmVwbGljYXRvciB1cGRhdGVzIHwK
+# Replicator COMP Reference
+
+The `replicatorCOMP` clones a template operator N times, driven by a table of data. The fundamental TD pattern for data-driven networks: button grids, scene rosters, dynamic UI, parameter panels per-channel.
+
+For visual instancing (per-pixel/per-render copies), see `geometry-comp.md`. Replicator builds NETWORK NODES; instancing builds RENDER COPIES. Different layer.
+
+---
+
+## Concept
+
+```
+[Template OP]                  [Data tableDAT]
+       │                              │
+       └─────→ replicatorCOMP ←───────┘
+                     │
+                     ▼
+        [N clones], one per data row
+        Each clone gets per-row params
+```
+
+Edit the template once → all clones inherit. Edit the table → clones add/remove dynamically. Push parameter overrides per-row.
+
+---
+
+## Minimal Setup
+
+```python
+# 1. Make a template (the thing to clone)
+template = root.create(buttonCOMP, 'btn_template')
+template.par.w = 80; template.par.h = 80
+template.par.text = 'X'
+template.par.bgcolorr = 0.2
+
+# 2. Make a data table (one row per clone)
+data = root.create(tableDAT, 'scene_data')
+data.appendRow(['name', 'color_r', 'color_g', 'color_b'])
+data.appendRow(['Sunset', 1.0, 0.4, 0.0])
+data.appendRow(['Midnight', 0.0, 0.1, 0.4])
+data.appendRow(['Storm', 0.3, 0.3, 0.5])
+data.appendRow(['Forest', 0.0, 0.5, 0.2])
+
+# 3. Replicator — points at template + data
+rep = root.create(replicatorCOMP, 'scene_buttons')
+rep.par.template = template.path
+rep.par.opfromdat = data.path
+rep.par.namefromdatname = 'name'        # use 'name' column for clone names
+rep.par.incrementalnumbering = False
+```
+
+After cooking, the replicator creates 4 child COMPs named `Sunset`, `Midnight`, `Storm`, `Forest` (one per non-header row), each cloned from `btn_template`.
+
+---
+
+## Per-Row Parameter Overrides
+
+The replicator's docked `replicator1_callbacks` DAT lets you customize each clone:
+
+```python
+def onReplicate(comp, allOps, newOps, template, master):
+    """Called once per replicate cycle. newOps is the list of just-created clones."""
+    data = op('scene_data')
+    for i, clone in enumerate(newOps):
+        row = i + 1                 # +1 to skip header
+        clone.par.text = data[row, 'name'].val
+        clone.par.bgcolorr = float(data[row, 'color_r'].val)
+        clone.par.bgcolorg = float(data[row, 'color_g'].val)
+        clone.par.bgcolorb = float(data[row, 'color_b'].val)
+    return
+```
+
+Or use parameter expressions referencing `digits` (the per-clone index, available as a built-in expression token inside the cloned subtree):
+
+```python
+# Inside the template, set a param expression like:
+# par.value0.expr = "op('../scene_data')[me.digits + 1, 'value']"
+```
+
+`me.digits` resolves to the row index of the current clone. This is the cleanest way for static reference patterns — no callback needed.
+
+---
+
+## Layout: Buttons in a Grid
+
+Drop the replicator inside a `containerCOMP` with auto-layout:
+
+```python
+panel = root.create(containerCOMP, 'scene_panel')
+panel.par.w = 400; panel.par.h = 100
+panel.par.align = 'lefttoright'
+
+# Move the replicator inside
+rep.parent = panel.path           # or create rep as a child of panel directly
+```
+
+Each clone is a child of the replicator (which itself is a child of the panel). The panel auto-arranges everything.
+
+For a 2D grid, set `par.align = 'fillresize'` on the container and override `par.x` / `par.y` per clone in the callback based on row/col index.
+
+---
+
+## Updating Without Rebuilding
+
+When the data table changes, the replicator regenerates the clones. By default it destroys and recreates everything. To preserve state, set:
+
+```python
+rep.par.recreatemissing = True       # only add/remove changed rows
+rep.par.recreateallonchange = False
+```
+
+This pattern is essential for live-edit scenarios (designer adjusts table, network keeps running).
+
+For incremental data ingestion (e.g., from a `webDAT` polling an API), have a `datExecuteDAT` watch the response, parse, write to the data table, and the replicator self-updates.
+
+---
+
+## Common Patterns
+
+### Scene Roster (Data → Buttons + Logic)
+
+```python
+# Data per scene: name, file path, audio track, BPM
+scene_data.appendRow(['name', 'file', 'audio', 'bpm'])
+scene_data.appendRow(['Intro', '/scenes/intro.tox', '/audio/intro.wav', 110])
+scene_data.appendRow(['Main', '/scenes/main.tox', '/audio/main.wav', 128])
+
+# Replicator clones a buttonCOMP per scene
+# Each button's onClick callback loads the corresponding tox + cues audio
+```
+
+### Dynamic Parameter Panel
+
+For a list of audio bands, generate a fader strip per band:
+
+```python
+# Data: band names (sub, low, mid, hi-mid, high, air)
+# Template: containerCOMP with label + sliderCOMP
+# Replicator clones N strips
+# Each slider's value is read at /audio_eq/{band_name}/fader
+```
+
+### Procedural Visual Network
+
+Build a multi-channel visual network from a config file:
+
+```python
+# Data: which TOPs to chain, per "scene"
+# Template: a baseCOMP with placeholder children
+# Replicator builds one baseCOMP per scene; each scene contains a custom chain
+# Switch between scenes via switchTOP.par.index driven by panel
+```
+
+### Per-Channel CHOP Display
+
+Visualize each channel of a multi-channel CHOP separately:
+
+```python
+# Data table: one row per channel (auto-extracted via choptodatDAT)
+# Template: a small chopVis COMP showing one channel
+# Replicator generates N visualizers stacked vertically
+```
+
+---
+
+## Replicator vs. Pure Python Loop
+
+| Approach | When to use |
+|---|---|
+| **replicatorCOMP** | The set of clones changes (add/remove rows live). Visual editor expectations. Pattern is reusable across projects. |
+| **Python loop** (in `td_execute_python`) | One-shot generation. Static set. Simpler logic, no template overhead. Faster to write. |
+
+If you'll only ever build the network once, prefer a Python loop with `td_execute_python`. The replicator earns its weight when data is live.
+
+---
+
+## Pitfalls
+
+1. **Header row** — `tableDAT` rows are 0-indexed. If you have a header, your first data row is index 1. Off-by-one bugs are common in callbacks.
+2. **`namefromdatname` column missing** — replicator silently uses `digits` (numeric suffix) names. Buttons end up named `1`, `2`, `3` instead of meaningful names. Set `par.namefromdatname` explicitly.
+3. **Template lives in network** — the template OP is itself a real network node. Don't connect things downstream of it directly; connect to the clones (or use a `nullCOMP` between).
+4. **Recreate-on-change wipes state** — toggles, slider positions, and uncached data inside clones are lost on each regeneration. Use `recreatemissing` to preserve.
+5. **`onReplicate` doesn't fire on edit** — only fires when the clone set changes. Editing a value WITHIN an existing row doesn't re-trigger. Use `parameterExecuteDAT` or expressions for per-cell live updates.
+6. **Custom params on clones** — pages added in the template propagate. Pages added in `onReplicate` don't survive the next regeneration. Always add custom pages on the template, not the clone.
+7. **Cooking storms** — adding many rows fast triggers many clone events. Bundle adds via Python and call `data.cook(force=True)` once at the end.
+8. **`me.digits` outside replicator children** — `me.digits` only resolves inside an op that's a descendant of the replicator. Don't reference it in unrelated networks.
+9. **Cross-clone references** — referencing a sibling clone via relative path works from inside a clone (`op('../OtherClone/x')`), but breaks if names change. Prefer absolute paths via the data table.
+
+---
+
+## Quick Recipes
+
+| Goal | Setup |
+|---|---|
+| 8-button scene picker | `tableDAT` (8 rows) + `buttonCOMP` template + `replicatorCOMP` |
+| Per-band EQ strip panel | `tableDAT` (band names) + container template (label + slider) + replicator |
+| Data-driven visual scenes | `tableDAT` (scene config) + `baseCOMP` template (visual chain) + replicator |
+| Live-updating clone set | Same as above + `par.recreatemissing = True` |
+| Per-row colored UI | Data table with color cols, `onReplicate` callback sets per-clone colors |
+| List from API response | `webDAT` → `datExecuteDAT` parses JSON → writes to data table → replicator updates |

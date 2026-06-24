@@ -1,1 +1,372 @@
-LS0tCm5hbWU6IHNlcnZpbmctbGxtcy12bGxtCmRlc2NyaXB0aW9uOiAidkxMTTogaGlnaC10aHJvdWdocHV0IExMTSBzZXJ2aW5nLCBPcGVuQUkgQVBJLCBxdWFudGl6YXRpb24uIgp2ZXJzaW9uOiAxLjAuMAphdXRob3I6IE9yY2hlc3RyYSBSZXNlYXJjaApsaWNlbnNlOiBNSVQKZGVwZW5kZW5jaWVzOiBbdmxsbSwgdG9yY2gsIHRyYW5zZm9ybWVyc10KcGxhdGZvcm1zOiBbbGludXgsIG1hY29zXQptZXRhZGF0YToKICBoZXJtZXM6CiAgICB0YWdzOiBbdkxMTSwgSW5mZXJlbmNlIFNlcnZpbmcsIFBhZ2VkQXR0ZW50aW9uLCBDb250aW51b3VzIEJhdGNoaW5nLCBIaWdoIFRocm91Z2hwdXQsIFByb2R1Y3Rpb24sIE9wZW5BSSBBUEksIFF1YW50aXphdGlvbiwgVGVuc29yIFBhcmFsbGVsaXNtXQoKLS0tCgojIHZMTE0gLSBIaWdoLVBlcmZvcm1hbmNlIExMTSBTZXJ2aW5nCgojIyBXaGVuIHRvIHVzZQoKVXNlIHdoZW4gZGVwbG95aW5nIHByb2R1Y3Rpb24gTExNIEFQSXMsIG9wdGltaXppbmcgaW5mZXJlbmNlIGxhdGVuY3kvdGhyb3VnaHB1dCwgb3Igc2VydmluZyBtb2RlbHMgd2l0aCBsaW1pdGVkIEdQVSBtZW1vcnkuIFN1cHBvcnRzIE9wZW5BSS1jb21wYXRpYmxlIGVuZHBvaW50cywgcXVhbnRpemF0aW9uIChHUFRRL0FXUS9GUDgpLCBhbmQgdGVuc29yIHBhcmFsbGVsaXNtLgoKIyMgUXVpY2sgc3RhcnQKCnZMTE0gYWNoaWV2ZXMgMjR4IGhpZ2hlciB0aHJvdWdocHV0IHRoYW4gc3RhbmRhcmQgdHJhbnNmb3JtZXJzIHRocm91Z2ggUGFnZWRBdHRlbnRpb24gKGJsb2NrLWJhc2VkIEtWIGNhY2hlKSBhbmQgY29udGludW91cyBiYXRjaGluZyAobWl4aW5nIHByZWZpbGwvZGVjb2RlIHJlcXVlc3RzKS4KCioqSW5zdGFsbGF0aW9uKio6CmBgYGJhc2gKcGlwIGluc3RhbGwgdmxsbQpgYGAKCioqQmFzaWMgb2ZmbGluZSBpbmZlcmVuY2UqKjoKYGBgcHl0aG9uCmZyb20gdmxsbSBpbXBvcnQgTExNLCBTYW1wbGluZ1BhcmFtcwoKbGxtID0gTExNKG1vZGVsPSJtZXRhLWxsYW1hL0xsYW1hLTMtOEItSW5zdHJ1Y3QiKQpzYW1wbGluZyA9IFNhbXBsaW5nUGFyYW1zKHRlbXBlcmF0dXJlPTAuNywgbWF4X3Rva2Vucz0yNTYpCgpvdXRwdXRzID0gbGxtLmdlbmVyYXRlKFsiRXhwbGFpbiBxdWFudHVtIGNvbXB1dGluZyJdLCBzYW1wbGluZykKcHJpbnQob3V0cHV0c1swXS5vdXRwdXRzWzBdLnRleHQpCmBgYAoKKipPcGVuQUktY29tcGF0aWJsZSBzZXJ2ZXIqKjoKYGBgYmFzaAp2bGxtIHNlcnZlIG1ldGEtbGxhbWEvTGxhbWEtMy04Qi1JbnN0cnVjdAoKIyBRdWVyeSB3aXRoIE9wZW5BSSBTREsKcHl0aG9uIC1jICIKZnJvbSBvcGVuYWkgaW1wb3J0IE9wZW5BSQpjbGllbnQgPSBPcGVuQUkoYmFzZV91cmw9J2h0dHA6Ly9sb2NhbGhvc3Q6ODAwMC92MScsIGFwaV9rZXk9J0VNUFRZJykKcHJpbnQoY2xpZW50LmNoYXQuY29tcGxldGlvbnMuY3JlYXRlKAogICAgbW9kZWw9J21ldGEtbGxhbWEvTGxhbWEtMy04Qi1JbnN0cnVjdCcsCiAgICBtZXNzYWdlcz1beydyb2xlJzogJ3VzZXInLCAnY29udGVudCc6ICdIZWxsbyEnfV0KKS5jaG9pY2VzWzBdLm1lc3NhZ2UuY29udGVudCkKIgpgYGAKCiMjIENvbW1vbiB3b3JrZmxvd3MKCiMjIyBXb3JrZmxvdyAxOiBQcm9kdWN0aW9uIEFQSSBkZXBsb3ltZW50CgpDb3B5IHRoaXMgY2hlY2tsaXN0IGFuZCB0cmFjayBwcm9ncmVzczoKCmBgYApEZXBsb3ltZW50IFByb2dyZXNzOgotIFsgXSBTdGVwIDE6IENvbmZpZ3VyZSBzZXJ2ZXIgc2V0dGluZ3MKLSBbIF0gU3RlcCAyOiBUZXN0IHdpdGggbGltaXRlZCB0cmFmZmljCi0gWyBdIFN0ZXAgMzogRW5hYmxlIG1vbml0b3JpbmcKLSBbIF0gU3RlcCA0OiBEZXBsb3kgdG8gcHJvZHVjdGlvbgotIFsgXSBTdGVwIDU6IFZlcmlmeSBwZXJmb3JtYW5jZSBtZXRyaWNzCmBgYAoKKipTdGVwIDE6IENvbmZpZ3VyZSBzZXJ2ZXIgc2V0dGluZ3MqKgoKQ2hvb3NlIGNvbmZpZ3VyYXRpb24gYmFzZWQgb24geW91ciBtb2RlbCBzaXplOgoKYGBgYmFzaAojIEZvciA3Qi0xM0IgbW9kZWxzIG9uIHNpbmdsZSBHUFUKdmxsbSBzZXJ2ZSBtZXRhLWxsYW1hL0xsYW1hLTMtOEItSW5zdHJ1Y3QgXAogIC0tZ3B1LW1lbW9yeS11dGlsaXphdGlvbiAwLjkgXAogIC0tbWF4LW1vZGVsLWxlbiA4MTkyIFwKICAtLXBvcnQgODAwMAoKIyBGb3IgMzBCLTcwQiBtb2RlbHMgd2l0aCB0ZW5zb3IgcGFyYWxsZWxpc20KdmxsbSBzZXJ2ZSBtZXRhLWxsYW1hL0xsYW1hLTItNzBiLWhmIFwKICAtLXRlbnNvci1wYXJhbGxlbC1zaXplIDQgXAogIC0tZ3B1LW1lbW9yeS11dGlsaXphdGlvbiAwLjkgXAogIC0tcXVhbnRpemF0aW9uIGF3cSBcCiAgLS1wb3J0IDgwMDAKCiMgRm9yIHByb2R1Y3Rpb24gd2l0aCBjYWNoaW5nIGFuZCBtZXRyaWNzCnZsbG0gc2VydmUgbWV0YS1sbGFtYS9MbGFtYS0zLThCLUluc3RydWN0IFwKICAtLWdwdS1tZW1vcnktdXRpbGl6YXRpb24gMC45IFwKICAtLWVuYWJsZS1wcmVmaXgtY2FjaGluZyBcCiAgLS1lbmFibGUtbWV0cmljcyBcCiAgLS1tZXRyaWNzLXBvcnQgOTA5MCBcCiAgLS1wb3J0IDgwMDAgXAogIC0taG9zdCAwLjAuMC4wCmBgYAoKKipTdGVwIDI6IFRlc3Qgd2l0aCBsaW1pdGVkIHRyYWZmaWMqKgoKUnVuIGxvYWQgdGVzdCBiZWZvcmUgcHJvZHVjdGlvbjoKCmBgYGJhc2gKIyBJbnN0YWxsIGxvYWQgdGVzdGluZyB0b29sCnBpcCBpbnN0YWxsIGxvY3VzdAoKIyBDcmVhdGUgdGVzdF9sb2FkLnB5IHdpdGggc2FtcGxlIHJlcXVlc3RzCiMgUnVuOiBsb2N1c3QgLWYgdGVzdF9sb2FkLnB5IC0taG9zdCBodHRwOi8vbG9jYWxob3N0OjgwMDAKYGBgCgpWZXJpZnkgVFRGVCAodGltZSB0byBmaXJzdCB0b2tlbikgPCA1MDBtcyBhbmQgdGhyb3VnaHB1dCA+IDEwMCByZXEvc2VjLgoKKipTdGVwIDM6IEVuYWJsZSBtb25pdG9yaW5nKioKCnZMTE0gZXhwb3NlcyBQcm9tZXRoZXVzIG1ldHJpY3Mgb24gcG9ydCA5MDkwOgoKYGBgYmFzaApjdXJsIGh0dHA6Ly9sb2NhbGhvc3Q6OTA5MC9tZXRyaWNzIHwgZ3JlcCB2bGxtCmBgYAoKS2V5IG1ldHJpY3MgdG8gbW9uaXRvcjoKLSBgdmxsbTp0aW1lX3RvX2ZpcnN0X3Rva2VuX3NlY29uZHNgIC0gTGF0ZW5jeQotIGB2bGxtOm51bV9yZXF1ZXN0c19ydW5uaW5nYCAtIEFjdGl2ZSByZXF1ZXN0cwotIGB2bGxtOmdwdV9jYWNoZV91c2FnZV9wZXJjYCAtIEtWIGNhY2hlIHV0aWxpemF0aW9uCgoqKlN0ZXAgNDogRGVwbG95IHRvIHByb2R1Y3Rpb24qKgoKVXNlIERvY2tlciBmb3IgY29uc2lzdGVudCBkZXBsb3ltZW50OgoKYGBgYmFzaAojIFJ1biB2TExNIGluIERvY2tlcgpkb2NrZXIgcnVuIC0tZ3B1cyBhbGwgLXAgODAwMDo4MDAwIFwKICB2bGxtL3ZsbG0tb3BlbmFpOmxhdGVzdCBcCiAgLS1tb2RlbCBtZXRhLWxsYW1hL0xsYW1hLTMtOEItSW5zdHJ1Y3QgXAogIC0tZ3B1LW1lbW9yeS11dGlsaXphdGlvbiAwLjkgXAogIC0tZW5hYmxlLXByZWZpeC1jYWNoaW5nCmBgYAoKKipTdGVwIDU6IFZlcmlmeSBwZXJmb3JtYW5jZSBtZXRyaWNzKioKCkNoZWNrIHRoYXQgZGVwbG95bWVudCBtZWV0cyB0YXJnZXRzOgotIFRURlQgPCA1MDBtcyAoZm9yIHNob3J0IHByb21wdHMpCi0gVGhyb3VnaHB1dCA+IHRhcmdldCByZXEvc2VjCi0gR1BVIHV0aWxpemF0aW9uID4gODAlCi0gTm8gT09NIGVycm9ycyBpbiBsb2dzCgojIyMgV29ya2Zsb3cgMjogT2ZmbGluZSBiYXRjaCBpbmZlcmVuY2UKCkZvciBwcm9jZXNzaW5nIGxhcmdlIGRhdGFzZXRzIHdpdGhvdXQgc2VydmVyIG92ZXJoZWFkLgoKQ29weSB0aGlzIGNoZWNrbGlzdDoKCmBgYApCYXRjaCBQcm9jZXNzaW5nOgotIFsgXSBTdGVwIDE6IFByZXBhcmUgaW5wdXQgZGF0YQotIFsgXSBTdGVwIDI6IENvbmZpZ3VyZSBMTE0gZW5naW5lCi0gWyBdIFN0ZXAgMzogUnVuIGJhdGNoIGluZmVyZW5jZQotIFsgXSBTdGVwIDQ6IFByb2Nlc3MgcmVzdWx0cwpgYGAKCioqU3RlcCAxOiBQcmVwYXJlIGlucHV0IGRhdGEqKgoKYGBgcHl0aG9uCiMgTG9hZCBwcm9tcHRzIGZyb20gZmlsZQpwcm9tcHRzID0gW10Kd2l0aCBvcGVuKCJwcm9tcHRzLnR4dCIpIGFzIGY6CiAgICBwcm9tcHRzID0gW2xpbmUuc3RyaXAoKSBmb3IgbGluZSBpbiBmXQoKcHJpbnQoZiJMb2FkZWQge2xlbihwcm9tcHRzKX0gcHJvbXB0cyIpCmBgYAoKKipTdGVwIDI6IENvbmZpZ3VyZSBMTE0gZW5naW5lKioKCmBgYHB5dGhvbgpmcm9tIHZsbG0gaW1wb3J0IExMTSwgU2FtcGxpbmdQYXJhbXMKCmxsbSA9IExMTSgKICAgIG1vZGVsPSJtZXRhLWxsYW1hL0xsYW1hLTMtOEItSW5zdHJ1Y3QiLAogICAgdGVuc29yX3BhcmFsbGVsX3NpemU9MiwgICMgVXNlIDIgR1BVcwogICAgZ3B1X21lbW9yeV91dGlsaXphdGlvbj0wLjksCiAgICBtYXhfbW9kZWxfbGVuPTQwOTYKKQoKc2FtcGxpbmcgPSBTYW1wbGluZ1BhcmFtcygKICAgIHRlbXBlcmF0dXJlPTAuNywKICAgIHRvcF9wPTAuOTUsCiAgICBtYXhfdG9rZW5zPTUxMiwKICAgIHN0b3A9WyI8L3M+IiwgIlxuXG4iXQopCmBgYAoKKipTdGVwIDM6IFJ1biBiYXRjaCBpbmZlcmVuY2UqKgoKdkxMTSBhdXRvbWF0aWNhbGx5IGJhdGNoZXMgcmVxdWVzdHMgZm9yIGVmZmljaWVuY3k6CgpgYGBweXRob24KIyBQcm9jZXNzIGFsbCBwcm9tcHRzIGluIG9uZSBjYWxsCm91dHB1dHMgPSBsbG0uZ2VuZXJhdGUocHJvbXB0cywgc2FtcGxpbmcpCgojIHZMTE0gaGFuZGxlcyBiYXRjaGluZyBpbnRlcm5hbGx5CiMgTm8gbmVlZCB0byBtYW51YWxseSBjaHVuayBwcm9tcHRzCmBgYAoKKipTdGVwIDQ6IFByb2Nlc3MgcmVzdWx0cyoqCgpgYGBweXRob24KIyBFeHRyYWN0IGdlbmVyYXRlZCB0ZXh0CnJlc3VsdHMgPSBbXQpmb3Igb3V0cHV0IGluIG91dHB1dHM6CiAgICBwcm9tcHQgPSBvdXRwdXQucHJvbXB0CiAgICBnZW5lcmF0ZWQgPSBvdXRwdXQub3V0cHV0c1swXS50ZXh0CiAgICByZXN1bHRzLmFwcGVuZCh7CiAgICAgICAgInByb21wdCI6IHByb21wdCwKICAgICAgICAiZ2VuZXJhdGVkIjogZ2VuZXJhdGVkLAogICAgICAgICJ0b2tlbnMiOiBsZW4ob3V0cHV0Lm91dHB1dHNbMF0udG9rZW5faWRzKQogICAgfSkKCiMgU2F2ZSB0byBmaWxlCmltcG9ydCBqc29uCndpdGggb3BlbigicmVzdWx0cy5qc29ubCIsICJ3IikgYXMgZjoKICAgIGZvciByZXN1bHQgaW4gcmVzdWx0czoKICAgICAgICBmLndyaXRlKGpzb24uZHVtcHMocmVzdWx0KSArICJcbiIpCgpwcmludChmIlByb2Nlc3NlZCB7bGVuKHJlc3VsdHMpfSBwcm9tcHRzIikKYGBgCgojIyMgV29ya2Zsb3cgMzogUXVhbnRpemVkIG1vZGVsIHNlcnZpbmcKCkZpdCBsYXJnZSBtb2RlbHMgaW4gbGltaXRlZCBHUFUgbWVtb3J5LgoKYGBgClF1YW50aXphdGlvbiBTZXR1cDoKLSBbIF0gU3RlcCAxOiBDaG9vc2UgcXVhbnRpemF0aW9uIG1ldGhvZAotIFsgXSBTdGVwIDI6IEZpbmQgb3IgY3JlYXRlIHF1YW50aXplZCBtb2RlbAotIFsgXSBTdGVwIDM6IExhdW5jaCB3aXRoIHF1YW50aXphdGlvbiBmbGFnCi0gWyBdIFN0ZXAgNDogVmVyaWZ5IGFjY3VyYWN5CmBgYAoKKipTdGVwIDE6IENob29zZSBxdWFudGl6YXRpb24gbWV0aG9kKioKCi0gKipBV1EqKjogQmVzdCBmb3IgNzBCIG1vZGVscywgbWluaW1hbCBhY2N1cmFjeSBsb3NzCi0gKipHUFRRKio6IFdpZGUgbW9kZWwgc3VwcG9ydCwgZ29vZCBjb21wcmVzc2lvbgotICoqRlA4Kio6IEZhc3Rlc3Qgb24gSDEwMCBHUFVzCgoqKlN0ZXAgMjogRmluZCBvciBjcmVhdGUgcXVhbnRpemVkIG1vZGVsKioKClVzZSBwcmUtcXVhbnRpemVkIG1vZGVscyBmcm9tIEh1Z2dpbmdGYWNlOgoKYGBgYmFzaAojIFNlYXJjaCBmb3IgQVdRIG1vZGVscwojIEV4YW1wbGU6IFRoZUJsb2tlL0xsYW1hLTItNzBCLUFXUQpgYGAKCioqU3RlcCAzOiBMYXVuY2ggd2l0aCBxdWFudGl6YXRpb24gZmxhZyoqCgpgYGBiYXNoCiMgVXNpbmcgcHJlLXF1YW50aXplZCBtb2RlbAp2bGxtIHNlcnZlIFRoZUJsb2tlL0xsYW1hLTItNzBCLUFXUSBcCiAgLS1xdWFudGl6YXRpb24gYXdxIFwKICAtLXRlbnNvci1wYXJhbGxlbC1zaXplIDEgXAogIC0tZ3B1LW1lbW9yeS11dGlsaXphdGlvbiAwLjk1CgojIFJlc3VsdHM6IDcwQiBtb2RlbCBpbiB+NDBHQiBWUkFNCmBgYAoKKipTdGVwIDQ6IFZlcmlmeSBhY2N1cmFjeSoqCgpUZXN0IG91dHB1dHMgbWF0Y2ggZXhwZWN0ZWQgcXVhbGl0eToKCmBgYHB5dGhvbgojIENvbXBhcmUgcXVhbnRpemVkIHZzIG5vbi1xdWFudGl6ZWQgcmVzcG9uc2VzCiMgVmVyaWZ5IHRhc2stc3BlY2lmaWMgcGVyZm9ybWFuY2UgdW5jaGFuZ2VkCmBgYAoKIyMgV2hlbiB0byB1c2UgdnMgYWx0ZXJuYXRpdmVzCgoqKlVzZSB2TExNIHdoZW46KioKLSBEZXBsb3lpbmcgcHJvZHVjdGlvbiBMTE0gQVBJcyAoMTAwKyByZXEvc2VjKQotIFNlcnZpbmcgT3BlbkFJLWNvbXBhdGlibGUgZW5kcG9pbnRzCi0gTGltaXRlZCBHUFUgbWVtb3J5IGJ1dCBuZWVkIGxhcmdlIG1vZGVscwotIE11bHRpLXVzZXIgYXBwbGljYXRpb25zIChjaGF0Ym90cywgYXNzaXN0YW50cykKLSBOZWVkIGxvdyBsYXRlbmN5IHdpdGggaGlnaCB0aHJvdWdocHV0CgoqKlVzZSBhbHRlcm5hdGl2ZXMgaW5zdGVhZDoqKgotICoqbGxhbWEuY3BwKio6IENQVS9lZGdlIGluZmVyZW5jZSwgc2luZ2xlLXVzZXIKLSAqKkh1Z2dpbmdGYWNlIHRyYW5zZm9ybWVycyoqOiBSZXNlYXJjaCwgcHJvdG90eXBpbmcsIG9uZS1vZmYgZ2VuZXJhdGlvbgotICoqVGVuc29yUlQtTExNKio6IE5WSURJQS1vbmx5LCBuZWVkIGFic29sdXRlIG1heGltdW0gcGVyZm9ybWFuY2UKLSAqKlRleHQtR2VuZXJhdGlvbi1JbmZlcmVuY2UqKjogQWxyZWFkeSBpbiBIdWdnaW5nRmFjZSBlY29zeXN0ZW0KCiMjIENvbW1vbiBpc3N1ZXMKCioqSXNzdWU6IE91dCBvZiBtZW1vcnkgZHVyaW5nIG1vZGVsIGxvYWRpbmcqKgoKUmVkdWNlIG1lbW9yeSB1c2FnZToKYGBgYmFzaAp2bGxtIHNlcnZlIE1PREVMIFwKICAtLWdwdS1tZW1vcnktdXRpbGl6YXRpb24gMC43IFwKICAtLW1heC1tb2RlbC1sZW4gNDA5NgpgYGAKCk9yIHVzZSBxdWFudGl6YXRpb246CmBgYGJhc2gKdmxsbSBzZXJ2ZSBNT0RFTCAtLXF1YW50aXphdGlvbiBhd3EKYGBgCgoqKklzc3VlOiBTbG93IGZpcnN0IHRva2VuIChUVEZUID4gMSBzZWNvbmQpKioKCkVuYWJsZSBwcmVmaXggY2FjaGluZyBmb3IgcmVwZWF0ZWQgcHJvbXB0czoKYGBgYmFzaAp2bGxtIHNlcnZlIE1PREVMIC0tZW5hYmxlLXByZWZpeC1jYWNoaW5nCmBgYAoKRm9yIGxvbmcgcHJvbXB0cywgZW5hYmxlIGNodW5rZWQgcHJlZmlsbDoKYGBgYmFzaAp2bGxtIHNlcnZlIE1PREVMIC0tZW5hYmxlLWNodW5rZWQtcHJlZmlsbApgYGAKCioqSXNzdWU6IE1vZGVsIG5vdCBmb3VuZCBlcnJvcioqCgpVc2UgYC0tdHJ1c3QtcmVtb3RlLWNvZGVgIGZvciBjdXN0b20gbW9kZWxzOgpgYGBiYXNoCnZsbG0gc2VydmUgTU9ERUwgLS10cnVzdC1yZW1vdGUtY29kZQpgYGAKCioqSXNzdWU6IExvdyB0aHJvdWdocHV0ICg8NTAgcmVxL3NlYykqKgoKSW5jcmVhc2UgY29uY3VycmVudCBzZXF1ZW5jZXM6CmBgYGJhc2gKdmxsbSBzZXJ2ZSBNT0RFTCAtLW1heC1udW0tc2VxcyA1MTIKYGBgCgpDaGVjayBHUFUgdXRpbGl6YXRpb24gd2l0aCBgbnZpZGlhLXNtaWAgLSBzaG91bGQgYmUgPjgwJS4KCioqSXNzdWU6IEluZmVyZW5jZSBzbG93ZXIgdGhhbiBleHBlY3RlZCoqCgpWZXJpZnkgdGVuc29yIHBhcmFsbGVsaXNtIHVzZXMgcG93ZXIgb2YgMiBHUFVzOgpgYGBiYXNoCnZsbG0gc2VydmUgTU9ERUwgLS10ZW5zb3ItcGFyYWxsZWwtc2l6ZSA0ICAjIE5vdCAzCmBgYAoKRW5hYmxlIHNwZWN1bGF0aXZlIGRlY29kaW5nIGZvciBmYXN0ZXIgZ2VuZXJhdGlvbjoKYGBgYmFzaAp2bGxtIHNlcnZlIE1PREVMIC0tc3BlY3VsYXRpdmUtbW9kZWwgRFJBRlRfTU9ERUwKYGBgCgojIyBBZHZhbmNlZCB0b3BpY3MKCioqU2VydmVyIGRlcGxveW1lbnQgcGF0dGVybnMqKjogU2VlIFtyZWZlcmVuY2VzL3NlcnZlci1kZXBsb3ltZW50Lm1kXShyZWZlcmVuY2VzL3NlcnZlci1kZXBsb3ltZW50Lm1kKSBmb3IgRG9ja2VyLCBLdWJlcm5ldGVzLCBhbmQgbG9hZCBiYWxhbmNpbmcgY29uZmlndXJhdGlvbnMuCgoqKlBlcmZvcm1hbmNlIG9wdGltaXphdGlvbioqOiBTZWUgW3JlZmVyZW5jZXMvb3B0aW1pemF0aW9uLm1kXShyZWZlcmVuY2VzL29wdGltaXphdGlvbi5tZCkgZm9yIFBhZ2VkQXR0ZW50aW9uIHR1bmluZywgY29udGludW91cyBiYXRjaGluZyBkZXRhaWxzLCBhbmQgYmVuY2htYXJrIHJlc3VsdHMuCgoqKlF1YW50aXphdGlvbiBndWlkZSoqOiBTZWUgW3JlZmVyZW5jZXMvcXVhbnRpemF0aW9uLm1kXShyZWZlcmVuY2VzL3F1YW50aXphdGlvbi5tZCkgZm9yIEFXUS9HUFRRL0ZQOCBzZXR1cCwgbW9kZWwgcHJlcGFyYXRpb24sIGFuZCBhY2N1cmFjeSBjb21wYXJpc29ucy4KCioqVHJvdWJsZXNob290aW5nKio6IFNlZSBbcmVmZXJlbmNlcy90cm91Ymxlc2hvb3RpbmcubWRdKHJlZmVyZW5jZXMvdHJvdWJsZXNob290aW5nLm1kKSBmb3IgZGV0YWlsZWQgZXJyb3IgbWVzc2FnZXMsIGRlYnVnZ2luZyBzdGVwcywgYW5kIHBlcmZvcm1hbmNlIGRpYWdub3N0aWNzLgoKIyMgSGFyZHdhcmUgcmVxdWlyZW1lbnRzCgotICoqU21hbGwgbW9kZWxzICg3Qi0xM0IpKio6IDF4IEExMCAoMjRHQikgb3IgQTEwMCAoNDBHQikKLSAqKk1lZGl1bSBtb2RlbHMgKDMwQi00MEIpKio6IDJ4IEExMDAgKDQwR0IpIHdpdGggdGVuc29yIHBhcmFsbGVsaXNtCi0gKipMYXJnZSBtb2RlbHMgKDcwQispKio6IDR4IEExMDAgKDQwR0IpIG9yIDJ4IEExMDAgKDgwR0IpLCB1c2UgQVdRL0dQVFEKClN1cHBvcnRlZCBwbGF0Zm9ybXM6IE5WSURJQSAocHJpbWFyeSksIEFNRCBST0NtLCBJbnRlbCBHUFVzLCBUUFVzCgojIyBSZXNvdXJjZXMKCi0gT2ZmaWNpYWwgZG9jczogaHR0cHM6Ly9kb2NzLnZsbG0uYWkKLSBHaXRIdWI6IGh0dHBzOi8vZ2l0aHViLmNvbS92bGxtLXByb2plY3QvdmxsbQotIFBhcGVyOiAiRWZmaWNpZW50IE1lbW9yeSBNYW5hZ2VtZW50IGZvciBMYXJnZSBMYW5ndWFnZSBNb2RlbCBTZXJ2aW5nIHdpdGggUGFnZWRBdHRlbnRpb24iIChTT1NQIDIwMjMpCi0gQ29tbXVuaXR5OiBodHRwczovL2Rpc2N1c3MudmxsbS5haQoKCgo=
+---
+name: serving-llms-vllm
+description: "vLLM: high-throughput LLM serving, OpenAI API, quantization."
+version: 1.0.0
+author: Orchestra Research
+license: MIT
+dependencies: [vllm, torch, transformers]
+platforms: [linux, macos]
+metadata:
+  hermes:
+    tags: [vLLM, Inference Serving, PagedAttention, Continuous Batching, High Throughput, Production, OpenAI API, Quantization, Tensor Parallelism]
+
+---
+
+# vLLM - High-Performance LLM Serving
+
+## When to use
+
+Use when deploying production LLM APIs, optimizing inference latency/throughput, or serving models with limited GPU memory. Supports OpenAI-compatible endpoints, quantization (GPTQ/AWQ/FP8), and tensor parallelism.
+
+## Quick start
+
+vLLM achieves 24x higher throughput than standard transformers through PagedAttention (block-based KV cache) and continuous batching (mixing prefill/decode requests).
+
+**Installation**:
+```bash
+pip install vllm
+```
+
+**Basic offline inference**:
+```python
+from vllm import LLM, SamplingParams
+
+llm = LLM(model="meta-llama/Llama-3-8B-Instruct")
+sampling = SamplingParams(temperature=0.7, max_tokens=256)
+
+outputs = llm.generate(["Explain quantum computing"], sampling)
+print(outputs[0].outputs[0].text)
+```
+
+**OpenAI-compatible server**:
+```bash
+vllm serve meta-llama/Llama-3-8B-Instruct
+
+# Query with OpenAI SDK
+python -c "
+from openai import OpenAI
+client = OpenAI(base_url='http://localhost:8000/v1', api_key='EMPTY')
+print(client.chat.completions.create(
+    model='meta-llama/Llama-3-8B-Instruct',
+    messages=[{'role': 'user', 'content': 'Hello!'}]
+).choices[0].message.content)
+"
+```
+
+## Common workflows
+
+### Workflow 1: Production API deployment
+
+Copy this checklist and track progress:
+
+```
+Deployment Progress:
+- [ ] Step 1: Configure server settings
+- [ ] Step 2: Test with limited traffic
+- [ ] Step 3: Enable monitoring
+- [ ] Step 4: Deploy to production
+- [ ] Step 5: Verify performance metrics
+```
+
+**Step 1: Configure server settings**
+
+Choose configuration based on your model size:
+
+```bash
+# For 7B-13B models on single GPU
+vllm serve meta-llama/Llama-3-8B-Instruct \
+  --gpu-memory-utilization 0.9 \
+  --max-model-len 8192 \
+  --port 8000
+
+# For 30B-70B models with tensor parallelism
+vllm serve meta-llama/Llama-2-70b-hf \
+  --tensor-parallel-size 4 \
+  --gpu-memory-utilization 0.9 \
+  --quantization awq \
+  --port 8000
+
+# For production with caching and metrics
+vllm serve meta-llama/Llama-3-8B-Instruct \
+  --gpu-memory-utilization 0.9 \
+  --enable-prefix-caching \
+  --enable-metrics \
+  --metrics-port 9090 \
+  --port 8000 \
+  --host 0.0.0.0
+```
+
+**Step 2: Test with limited traffic**
+
+Run load test before production:
+
+```bash
+# Install load testing tool
+pip install locust
+
+# Create test_load.py with sample requests
+# Run: locust -f test_load.py --host http://localhost:8000
+```
+
+Verify TTFT (time to first token) < 500ms and throughput > 100 req/sec.
+
+**Step 3: Enable monitoring**
+
+vLLM exposes Prometheus metrics on port 9090:
+
+```bash
+curl http://localhost:9090/metrics | grep vllm
+```
+
+Key metrics to monitor:
+- `vllm:time_to_first_token_seconds` - Latency
+- `vllm:num_requests_running` - Active requests
+- `vllm:gpu_cache_usage_perc` - KV cache utilization
+
+**Step 4: Deploy to production**
+
+Use Docker for consistent deployment:
+
+```bash
+# Run vLLM in Docker
+docker run --gpus all -p 8000:8000 \
+  vllm/vllm-openai:latest \
+  --model meta-llama/Llama-3-8B-Instruct \
+  --gpu-memory-utilization 0.9 \
+  --enable-prefix-caching
+```
+
+**Step 5: Verify performance metrics**
+
+Check that deployment meets targets:
+- TTFT < 500ms (for short prompts)
+- Throughput > target req/sec
+- GPU utilization > 80%
+- No OOM errors in logs
+
+### Workflow 2: Offline batch inference
+
+For processing large datasets without server overhead.
+
+Copy this checklist:
+
+```
+Batch Processing:
+- [ ] Step 1: Prepare input data
+- [ ] Step 2: Configure LLM engine
+- [ ] Step 3: Run batch inference
+- [ ] Step 4: Process results
+```
+
+**Step 1: Prepare input data**
+
+```python
+# Load prompts from file
+prompts = []
+with open("prompts.txt") as f:
+    prompts = [line.strip() for line in f]
+
+print(f"Loaded {len(prompts)} prompts")
+```
+
+**Step 2: Configure LLM engine**
+
+```python
+from vllm import LLM, SamplingParams
+
+llm = LLM(
+    model="meta-llama/Llama-3-8B-Instruct",
+    tensor_parallel_size=2,  # Use 2 GPUs
+    gpu_memory_utilization=0.9,
+    max_model_len=4096
+)
+
+sampling = SamplingParams(
+    temperature=0.7,
+    top_p=0.95,
+    max_tokens=512,
+    stop=["</s>", "\n\n"]
+)
+```
+
+**Step 3: Run batch inference**
+
+vLLM automatically batches requests for efficiency:
+
+```python
+# Process all prompts in one call
+outputs = llm.generate(prompts, sampling)
+
+# vLLM handles batching internally
+# No need to manually chunk prompts
+```
+
+**Step 4: Process results**
+
+```python
+# Extract generated text
+results = []
+for output in outputs:
+    prompt = output.prompt
+    generated = output.outputs[0].text
+    results.append({
+        "prompt": prompt,
+        "generated": generated,
+        "tokens": len(output.outputs[0].token_ids)
+    })
+
+# Save to file
+import json
+with open("results.jsonl", "w") as f:
+    for result in results:
+        f.write(json.dumps(result) + "\n")
+
+print(f"Processed {len(results)} prompts")
+```
+
+### Workflow 3: Quantized model serving
+
+Fit large models in limited GPU memory.
+
+```
+Quantization Setup:
+- [ ] Step 1: Choose quantization method
+- [ ] Step 2: Find or create quantized model
+- [ ] Step 3: Launch with quantization flag
+- [ ] Step 4: Verify accuracy
+```
+
+**Step 1: Choose quantization method**
+
+- **AWQ**: Best for 70B models, minimal accuracy loss
+- **GPTQ**: Wide model support, good compression
+- **FP8**: Fastest on H100 GPUs
+
+**Step 2: Find or create quantized model**
+
+Use pre-quantized models from HuggingFace:
+
+```bash
+# Search for AWQ models
+# Example: TheBloke/Llama-2-70B-AWQ
+```
+
+**Step 3: Launch with quantization flag**
+
+```bash
+# Using pre-quantized model
+vllm serve TheBloke/Llama-2-70B-AWQ \
+  --quantization awq \
+  --tensor-parallel-size 1 \
+  --gpu-memory-utilization 0.95
+
+# Results: 70B model in ~40GB VRAM
+```
+
+**Step 4: Verify accuracy**
+
+Test outputs match expected quality:
+
+```python
+# Compare quantized vs non-quantized responses
+# Verify task-specific performance unchanged
+```
+
+## When to use vs alternatives
+
+**Use vLLM when:**
+- Deploying production LLM APIs (100+ req/sec)
+- Serving OpenAI-compatible endpoints
+- Limited GPU memory but need large models
+- Multi-user applications (chatbots, assistants)
+- Need low latency with high throughput
+
+**Use alternatives instead:**
+- **llama.cpp**: CPU/edge inference, single-user
+- **HuggingFace transformers**: Research, prototyping, one-off generation
+- **TensorRT-LLM**: NVIDIA-only, need absolute maximum performance
+- **Text-Generation-Inference**: Already in HuggingFace ecosystem
+
+## Common issues
+
+**Issue: Out of memory during model loading**
+
+Reduce memory usage:
+```bash
+vllm serve MODEL \
+  --gpu-memory-utilization 0.7 \
+  --max-model-len 4096
+```
+
+Or use quantization:
+```bash
+vllm serve MODEL --quantization awq
+```
+
+**Issue: Slow first token (TTFT > 1 second)**
+
+Enable prefix caching for repeated prompts:
+```bash
+vllm serve MODEL --enable-prefix-caching
+```
+
+For long prompts, enable chunked prefill:
+```bash
+vllm serve MODEL --enable-chunked-prefill
+```
+
+**Issue: Model not found error**
+
+Use `--trust-remote-code` for custom models:
+```bash
+vllm serve MODEL --trust-remote-code
+```
+
+**Issue: Low throughput (<50 req/sec)**
+
+Increase concurrent sequences:
+```bash
+vllm serve MODEL --max-num-seqs 512
+```
+
+Check GPU utilization with `nvidia-smi` - should be >80%.
+
+**Issue: Inference slower than expected**
+
+Verify tensor parallelism uses power of 2 GPUs:
+```bash
+vllm serve MODEL --tensor-parallel-size 4  # Not 3
+```
+
+Enable speculative decoding for faster generation:
+```bash
+vllm serve MODEL --speculative-model DRAFT_MODEL
+```
+
+## Advanced topics
+
+**Server deployment patterns**: See [references/server-deployment.md](references/server-deployment.md) for Docker, Kubernetes, and load balancing configurations.
+
+**Performance optimization**: See [references/optimization.md](references/optimization.md) for PagedAttention tuning, continuous batching details, and benchmark results.
+
+**Quantization guide**: See [references/quantization.md](references/quantization.md) for AWQ/GPTQ/FP8 setup, model preparation, and accuracy comparisons.
+
+**Troubleshooting**: See [references/troubleshooting.md](references/troubleshooting.md) for detailed error messages, debugging steps, and performance diagnostics.
+
+## Hardware requirements
+
+- **Small models (7B-13B)**: 1x A10 (24GB) or A100 (40GB)
+- **Medium models (30B-40B)**: 2x A100 (40GB) with tensor parallelism
+- **Large models (70B+)**: 4x A100 (40GB) or 2x A100 (80GB), use AWQ/GPTQ
+
+Supported platforms: NVIDIA (primary), AMD ROCm, Intel GPUs, TPUs
+
+## Resources
+
+- Official docs: https://docs.vllm.ai
+- GitHub: https://github.com/vllm-project/vllm
+- Paper: "Efficient Memory Management for Large Language Model Serving with PagedAttention" (SOSP 2023)
+- Community: https://discuss.vllm.ai
+
+
+

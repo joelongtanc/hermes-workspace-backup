@@ -1,1 +1,115 @@
-IyEvdXNyL2Jpbi9lbnYgYmFzaAojIHNldHVwLnNoIOKAlCBBdXRvbWF0ZWQgc2V0dXAgZm9yIHR3b3plcm8gTUNQIHBsdWdpbiBmb3IgVG91Y2hEZXNpZ25lcgojIElkZW1wb3RlbnQ6IHNhZmUgdG8gcnVuIG11bHRpcGxlIHRpbWVzLgpzZXQgLWV1byBwaXBlZmFpbAoKR1JFRU49J1wwMzNbMDszMm0nOyBSRUQ9J1wwMzNbMDszMW0nOyBZRUxMT1c9J1wwMzNbMTszM20nOyBDWUFOPSdcMDMzWzA7MzZtJzsgTkM9J1wwMzNbMG0nCk9LPSIke0dSRUVOfeKclCR7TkN9IjsgRkFJTD0iJHtSRUR94pyYJHtOQ30iOyBXQVJOPSIke1lFTExPV33imqAke05DfSIKClRXT1pFUk9fVVJMPSJodHRwczovL3d3dy40MDR6ZXJvLmNvbS9waXNhbmcvdHdvemVyby50b3giClRPWF9QQVRIPSIkSE9NRS9Eb3dubG9hZHMvdHdvemVyby50b3giCkhFUk1FU19IT01FX0RJUj0iJHtIRVJNRVNfSE9NRTotJEhPTUUvLmhlcm1lc30iCkhFUk1FU19DRkc9IiR7SEVSTUVTX0hPTUVfRElSfS9jb25maWcueWFtbCIKTUNQX1BPUlQ9NDA0MDQKTUNQX0VORFBPSU5UPSJodHRwOi8vbG9jYWxob3N0OiR7TUNQX1BPUlR9L21jcCIKCm1hbnVhbF9zdGVwcz0oKQoKZWNobyAtZSAiXG4ke0NZQU594pWQ4pWQ4pWQIHR3b3plcm8gTUNQIGZvciBUb3VjaERlc2lnbmVyIOKAlCBTZXR1cCDilZDilZDilZAke05DfVxuIgoKIyDilIDilIAgMS4gQ2hlY2sgaWYgVG91Y2hEZXNpZ25lciBpcyBydW5uaW5nIOKUgOKUgAojIE1hdGNoIG9uIHByb2Nlc3MgKm5hbWUqIChub3QgZnVsbCBjbWRsaW5lKSB0byBhdm9pZCBzZWxmLW1hdGNoaW5nIHNoZWxscwojIHRoYXQgaGFwcGVuIHRvIGhhdmUgIlRvdWNoRGVzaWduZXIiIGluIHRoZWlyIGFyZ3MuIG1hY09TIGFuZCBMaW51eCBwZ3JlcAojIGJvdGggc3VwcG9ydCAteCBmb3IgZXhhY3QgbmFtZSBtYXRjaC4KaWYgcGdyZXAgLXggVG91Y2hEZXNpZ25lciA+L2Rldi9udWxsIDI+JjEgfHwgcGdyZXAgLXggVG91Y2hEZXNpZ25lckZURSA+L2Rldi9udWxsIDI+JjE7IHRoZW4KICAgIGVjaG8gLWUgIiAke09LfSBUb3VjaERlc2lnbmVyIGlzIHJ1bm5pbmciCiAgICB0ZF9ydW5uaW5nPXRydWUKZWxzZQogICAgZWNobyAtZSAiICR7V0FSTn0gVG91Y2hEZXNpZ25lciBpcyBub3QgcnVubmluZyIKICAgIHRkX3J1bm5pbmc9ZmFsc2UKZmkKCiMg4pSA4pSAIDIuIEVuc3VyZSB0d296ZXJvLnRveCBleGlzdHMg4pSA4pSACmlmIFtbIC1mICIkVE9YX1BBVEgiIF1dOyB0aGVuCiAgICBlY2hvIC1lICIgJHtPS30gdHdvemVyby50b3ggYWxyZWFkeSBleGlzdHMgYXQgJHtUT1hfUEFUSH0iCmVsc2UKICAgIGVjaG8gLWUgIiAke1dBUk59IHR3b3plcm8udG94IG5vdCBmb3VuZCDigJQgZG93bmxvYWRpbmcuLi4iCiAgICBpZiBjdXJsIC1mU0wgLW8gIiRUT1hfUEFUSCIgIiRUV09aRVJPX1VSTCIgMj4vZGV2L251bGw7IHRoZW4KICAgICAgICBlY2hvIC1lICIgJHtPS30gRG93bmxvYWRlZCB0d296ZXJvLnRveCB0byAke1RPWF9QQVRIfSIKICAgIGVsc2UKICAgICAgICBlY2hvIC1lICIgJHtGQUlMfSBGYWlsZWQgdG8gZG93bmxvYWQgdHdvemVyby50b3ggZnJvbSAke1RXT1pFUk9fVVJMfSIKICAgICAgICBlY2hvICIgICAgICAgUGxlYXNlIGRvd25sb2FkIG1hbnVhbGx5IGFuZCBwbGFjZSBhdCAke1RPWF9QQVRIfSIKICAgICAgICBtYW51YWxfc3RlcHMrPSgiRG93bmxvYWQgdHdvemVyby50b3ggZnJvbSAke1RXT1pFUk9fVVJMfSB0byAke1RPWF9QQVRIfSIpCiAgICBmaQpmaQoKIyDilIDilIAgMy4gRW5zdXJlIEhlcm1lcyBjb25maWcgaGFzIHR3b3plcm9fdGQgTUNQIGVudHJ5IOKUgOKUgAppZiBbWyAhIC1mICIkSEVSTUVTX0NGRyIgXV07IHRoZW4KICAgIGVjaG8gLWUgIiAke0ZBSUx9IEhlcm1lcyBjb25maWcgbm90IGZvdW5kIGF0ICR7SEVSTUVTX0NGR30iCiAgICBtYW51YWxfc3RlcHMrPSgiQ3JlYXRlICR7SEVSTUVTX0NGR30gd2l0aCB0d296ZXJvX3RkIE1DUCBzZXJ2ZXIgZW50cnkiKQplbGlmIGdyZXAgLXEgJ3R3b3plcm9fdGQnICIkSEVSTUVTX0NGRyIgMj4vZGV2L251bGw7IHRoZW4KICAgIGVjaG8gLWUgIiAke09LfSB0d296ZXJvX3RkIE1DUCBlbnRyeSBleGlzdHMgaW4gSGVybWVzIGNvbmZpZyIKZWxzZQogICAgZWNobyAtZSAiICR7V0FSTn0gQWRkaW5nIHR3b3plcm9fdGQgTUNQIGVudHJ5IHRvIEhlcm1lcyBjb25maWcuLi4iCiAgICBweXRob24zIC1jICIKaW1wb3J0IHlhbWwsIHN5cywgY29weQoKY2ZnX3BhdGggPSAnJEhFUk1FU19DRkcnCndpdGggb3BlbihjZmdfcGF0aCwgJ3InKSBhcyBmOgogICAgY2ZnID0geWFtbC5zYWZlX2xvYWQoZikgb3Ige30KCmlmICdtY3Bfc2VydmVycycgbm90IGluIGNmZzoKICAgIGNmZ1snbWNwX3NlcnZlcnMnXSA9IHt9CgppZiAndHdvemVyb190ZCcgbm90IGluIGNmZ1snbWNwX3NlcnZlcnMnXToKICAgIGNmZ1snbWNwX3NlcnZlcnMnXVsndHdvemVyb190ZCddID0gewogICAgICAgICd1cmwnOiAnJHtNQ1BfRU5EUE9JTlR9JywKICAgICAgICAndGltZW91dCc6IDEyMCwKICAgICAgICAnY29ubmVjdF90aW1lb3V0JzogNjAKICAgIH0KICAgIHdpdGggb3BlbihjZmdfcGF0aCwgJ3cnKSBhcyBmOgogICAgICAgIHlhbWwuZHVtcChjZmcsIGYsIGRlZmF1bHRfZmxvd19zdHlsZT1GYWxzZSwgc29ydF9rZXlzPUZhbHNlKQoiIDI+L2Rldi9udWxsICYmIGVjaG8gLWUgIiAke09LfSB0d296ZXJvX3RkIE1DUCBlbnRyeSBhZGRlZCB0byBjb25maWciIFwKICAgICAgICAgICAgICB8fCB7IGVjaG8gLWUgIiAke0ZBSUx9IENvdWxkIG5vdCB1cGRhdGUgY29uZmlnIChpcyBQeVlBTUwgaW5zdGFsbGVkPykiOyBcCiAgICAgICAgICAgICAgICAgICBtYW51YWxfc3RlcHMrPSgiQWRkIHR3b3plcm9fdGQgTUNQIGVudHJ5IHRvICR7SEVSTUVTX0NGR30gbWFudWFsbHkiKTsgfQogICAgbWFudWFsX3N0ZXBzKz0oIlJlc3RhcnQgSGVybWVzIHNlc3Npb24gdG8gcGljayB1cCBjb25maWcgY2hhbmdlIikKZmkKCiMg4pSA4pSAIDQuIFRlc3QgaWYgTUNQIHBvcnQgaXMgcmVzcG9uZGluZyDilIDilIAKaWYgbmMgLXogMTI3LjAuMC4xICIkTUNQX1BPUlQiIDI+L2Rldi9udWxsOyB0aGVuCiAgICBlY2hvIC1lICIgJHtPS30gUG9ydCAke01DUF9QT1JUfSBpcyBvcGVuIgoKICAgICMg4pSA4pSAIDUuIFZlcmlmeSBNQ1AgZW5kcG9pbnQgcmVzcG9uZHMg4pSA4pSACiAgICByZXNwPSQoY3VybCAtcyAtLW1heC10aW1lIDMgIiRNQ1BfRU5EUE9JTlQiIDI+L2Rldi9udWxsIHx8IHRydWUpCiAgICBpZiBbWyAtbiAiJHJlc3AiIF1dOyB0aGVuCiAgICAgICAgZWNobyAtZSAiICR7T0t9IE1DUCBlbmRwb2ludCByZXNwb25kZWQgYXQgJHtNQ1BfRU5EUE9JTlR9IgogICAgZWxzZQogICAgICAgIGVjaG8gLWUgIiAke1dBUk59IFBvcnQgb3BlbiBidXQgTUNQIGVuZHBvaW50IHJldHVybmVkIGVtcHR5IHJlc3BvbnNlIgogICAgICAgIG1hbnVhbF9zdGVwcys9KCJWZXJpZnkgTUNQIGlzIGVuYWJsZWQgaW4gdHdvemVybyBzZXR0aW5ncyIpCiAgICBmaQplbHNlCiAgICBlY2hvIC1lICIgJHtXQVJOfSBQb3J0ICR7TUNQX1BPUlR9IGlzIG5vdCBvcGVuIgogICAgaWYgW1sgIiR0ZF9ydW5uaW5nIiA9PSB0cnVlIF1dOyB0aGVuCiAgICAgICAgbWFudWFsX3N0ZXBzKz0oIkluIFREOiBkcmFnIHR3b3plcm8udG94IGludG8gbmV0d29yayBlZGl0b3Ig4oaSIGNsaWNrIEluc3RhbGwiKQogICAgICAgIG1hbnVhbF9zdGVwcys9KCJFbmFibGUgTUNQOiB0d296ZXJvIGljb24g4oaSIFNldHRpbmdzIOKGkiBtY3Ag4oaSICdhdXRvIHN0YXJ0IE1DUCcg4oaSIFllcyIpCiAgICBlbHNlCiAgICAgICAgbWFudWFsX3N0ZXBzKz0oIkxhdW5jaCBUb3VjaERlc2lnbmVyIikKICAgICAgICBtYW51YWxfc3RlcHMrPSgiRHJhZyB0d296ZXJvLnRveCBpbnRvIHRoZSBURCBuZXR3b3JrIGVkaXRvciBhbmQgY2xpY2sgSW5zdGFsbCIpCiAgICAgICAgbWFudWFsX3N0ZXBzKz0oIkVuYWJsZSBNQ1A6IHR3b3plcm8gaWNvbiDihpIgU2V0dGluZ3Mg4oaSIG1jcCDihpIgJ2F1dG8gc3RhcnQgTUNQJyDihpIgWWVzIikKICAgIGZpCmZpCgojIOKUgOKUgCBTdGF0dXMgUmVwb3J0IOKUgOKUgAplY2hvIC1lICJcbiR7Q1lBTn3ilZDilZDilZAgU3RhdHVzIFJlcG9ydCDilZDilZDilZAke05DfVxuIgoKaWYgW1sgJHsjbWFudWFsX3N0ZXBzW0BdfSAtZXEgMCBdXTsgdGhlbgogICAgZWNobyAtZSAiICR7T0t9ICR7R1JFRU59RnVsbHkgY29uZmlndXJlZCEgdHdvemVybyBNQ1AgaXMgcmVhZHkgdG8gdXNlLiR7TkN9XG4iCiAgICBleGl0IDAKZWxzZQogICAgZWNobyAtZSAiICR7V0FSTn0gJHtZRUxMT1d9TWFudWFsIHN0ZXBzIHJlbWFpbmluZzoke05DfVxuIgogICAgZm9yIGkgaW4gIiR7IW1hbnVhbF9zdGVwc1tAXX0iOyBkbwogICAgICAgIGVjaG8gLWUgIiAgICQoKGkrMSkpLiAke21hbnVhbF9zdGVwc1skaV19IgogICAgZG9uZQogICAgZWNobyAiIgogICAgZXhpdCAxCmZpCg==
+#!/usr/bin/env bash
+# setup.sh — Automated setup for twozero MCP plugin for TouchDesigner
+# Idempotent: safe to run multiple times.
+set -euo pipefail
+
+GREEN='\033[0;32m'; RED='\033[0;31m'; YELLOW='\033[1;33m'; CYAN='\033[0;36m'; NC='\033[0m'
+OK="${GREEN}✔${NC}"; FAIL="${RED}✘${NC}"; WARN="${YELLOW}⚠${NC}"
+
+TWOZERO_URL="https://www.404zero.com/pisang/twozero.tox"
+TOX_PATH="$HOME/Downloads/twozero.tox"
+HERMES_HOME_DIR="${HERMES_HOME:-$HOME/.hermes}"
+HERMES_CFG="${HERMES_HOME_DIR}/config.yaml"
+MCP_PORT=40404
+MCP_ENDPOINT="http://localhost:${MCP_PORT}/mcp"
+
+manual_steps=()
+
+echo -e "\n${CYAN}═══ twozero MCP for TouchDesigner — Setup ═══${NC}\n"
+
+# ── 1. Check if TouchDesigner is running ──
+# Match on process *name* (not full cmdline) to avoid self-matching shells
+# that happen to have "TouchDesigner" in their args. macOS and Linux pgrep
+# both support -x for exact name match.
+if pgrep -x TouchDesigner >/dev/null 2>&1 || pgrep -x TouchDesignerFTE >/dev/null 2>&1; then
+    echo -e " ${OK} TouchDesigner is running"
+    td_running=true
+else
+    echo -e " ${WARN} TouchDesigner is not running"
+    td_running=false
+fi
+
+# ── 2. Ensure twozero.tox exists ──
+if [[ -f "$TOX_PATH" ]]; then
+    echo -e " ${OK} twozero.tox already exists at ${TOX_PATH}"
+else
+    echo -e " ${WARN} twozero.tox not found — downloading..."
+    if curl -fSL -o "$TOX_PATH" "$TWOZERO_URL" 2>/dev/null; then
+        echo -e " ${OK} Downloaded twozero.tox to ${TOX_PATH}"
+    else
+        echo -e " ${FAIL} Failed to download twozero.tox from ${TWOZERO_URL}"
+        echo "       Please download manually and place at ${TOX_PATH}"
+        manual_steps+=("Download twozero.tox from ${TWOZERO_URL} to ${TOX_PATH}")
+    fi
+fi
+
+# ── 3. Ensure Hermes config has twozero_td MCP entry ──
+if [[ ! -f "$HERMES_CFG" ]]; then
+    echo -e " ${FAIL} Hermes config not found at ${HERMES_CFG}"
+    manual_steps+=("Create ${HERMES_CFG} with twozero_td MCP server entry")
+elif grep -q 'twozero_td' "$HERMES_CFG" 2>/dev/null; then
+    echo -e " ${OK} twozero_td MCP entry exists in Hermes config"
+else
+    echo -e " ${WARN} Adding twozero_td MCP entry to Hermes config..."
+    python3 -c "
+import yaml, sys, copy
+
+cfg_path = '$HERMES_CFG'
+with open(cfg_path, 'r') as f:
+    cfg = yaml.safe_load(f) or {}
+
+if 'mcp_servers' not in cfg:
+    cfg['mcp_servers'] = {}
+
+if 'twozero_td' not in cfg['mcp_servers']:
+    cfg['mcp_servers']['twozero_td'] = {
+        'url': '${MCP_ENDPOINT}',
+        'timeout': 120,
+        'connect_timeout': 60
+    }
+    with open(cfg_path, 'w') as f:
+        yaml.dump(cfg, f, default_flow_style=False, sort_keys=False)
+" 2>/dev/null && echo -e " ${OK} twozero_td MCP entry added to config" \
+              || { echo -e " ${FAIL} Could not update config (is PyYAML installed?)"; \
+                   manual_steps+=("Add twozero_td MCP entry to ${HERMES_CFG} manually"); }
+    manual_steps+=("Restart Hermes session to pick up config change")
+fi
+
+# ── 4. Test if MCP port is responding ──
+if nc -z 127.0.0.1 "$MCP_PORT" 2>/dev/null; then
+    echo -e " ${OK} Port ${MCP_PORT} is open"
+
+    # ── 5. Verify MCP endpoint responds ──
+    resp=$(curl -s --max-time 3 "$MCP_ENDPOINT" 2>/dev/null || true)
+    if [[ -n "$resp" ]]; then
+        echo -e " ${OK} MCP endpoint responded at ${MCP_ENDPOINT}"
+    else
+        echo -e " ${WARN} Port open but MCP endpoint returned empty response"
+        manual_steps+=("Verify MCP is enabled in twozero settings")
+    fi
+else
+    echo -e " ${WARN} Port ${MCP_PORT} is not open"
+    if [[ "$td_running" == true ]]; then
+        manual_steps+=("In TD: drag twozero.tox into network editor → click Install")
+        manual_steps+=("Enable MCP: twozero icon → Settings → mcp → 'auto start MCP' → Yes")
+    else
+        manual_steps+=("Launch TouchDesigner")
+        manual_steps+=("Drag twozero.tox into the TD network editor and click Install")
+        manual_steps+=("Enable MCP: twozero icon → Settings → mcp → 'auto start MCP' → Yes")
+    fi
+fi
+
+# ── Status Report ──
+echo -e "\n${CYAN}═══ Status Report ═══${NC}\n"
+
+if [[ ${#manual_steps[@]} -eq 0 ]]; then
+    echo -e " ${OK} ${GREEN}Fully configured! twozero MCP is ready to use.${NC}\n"
+    exit 0
+else
+    echo -e " ${WARN} ${YELLOW}Manual steps remaining:${NC}\n"
+    for i in "${!manual_steps[@]}"; do
+        echo -e "   $((i+1)). ${manual_steps[$i]}"
+    done
+    echo ""
+    exit 1
+fi

@@ -1,1 +1,199 @@
-LS0tCm5hbWU6IGRlc2lnbi1tZApkZXNjcmlwdGlvbjogQXV0aG9yL3ZhbGlkYXRlL2V4cG9ydCBHb29nbGUncyBERVNJR04ubWQgdG9rZW4gc3BlYyBmaWxlcy4KdmVyc2lvbjogMS4wLjAKYXV0aG9yOiBIZXJtZXMgQWdlbnQKbGljZW5zZTogTUlUCnBsYXRmb3JtczogW2xpbnV4LCBtYWNvcywgd2luZG93c10KbWV0YWRhdGE6CiAgaGVybWVzOgogICAgdGFnczogW2Rlc2lnbiwgZGVzaWduLXN5c3RlbSwgdG9rZW5zLCB1aSwgYWNjZXNzaWJpbGl0eSwgd2NhZywgdGFpbHdpbmQsIGR0Y2csIGdvb2dsZV0KICAgIHJlbGF0ZWRfc2tpbGxzOiBbcG9wdWxhci13ZWItZGVzaWducywgY2xhdWRlLWRlc2lnbiwgZXhjYWxpZHJhdywgYXJjaGl0ZWN0dXJlLWRpYWdyYW1dCi0tLQoKIyBERVNJR04ubWQgU2tpbGwKCkRFU0lHTi5tZCBpcyBHb29nbGUncyBvcGVuIHNwZWMgKEFwYWNoZS0yLjAsIGBnb29nbGUtbGFicy1jb2RlL2Rlc2lnbi5tZGApIGZvcgpkZXNjcmliaW5nIGEgdmlzdWFsIGlkZW50aXR5IHRvIGNvZGluZyBhZ2VudHMuIE9uZSBmaWxlIGNvbWJpbmVzOgoKLSAqKllBTUwgZnJvbnQgbWF0dGVyKiog4oCUIG1hY2hpbmUtcmVhZGFibGUgZGVzaWduIHRva2VucyAobm9ybWF0aXZlIHZhbHVlcykKLSAqKk1hcmtkb3duIGJvZHkqKiDigJQgaHVtYW4tcmVhZGFibGUgcmF0aW9uYWxlLCBvcmdhbml6ZWQgaW50byBjYW5vbmljYWwgc2VjdGlvbnMKClRva2VucyBnaXZlIGV4YWN0IHZhbHVlcy4gUHJvc2UgdGVsbHMgYWdlbnRzICp3aHkqIHRob3NlIHZhbHVlcyBleGlzdCBhbmQgaG93IHRvCmFwcGx5IHRoZW0uIFRoZSBDTEkgKGBucHggQGdvb2dsZS9kZXNpZ24ubWRgKSBsaW50cyBzdHJ1Y3R1cmUgKyBXQ0FHIGNvbnRyYXN0LApkaWZmcyB2ZXJzaW9ucyBmb3IgcmVncmVzc2lvbnMsIGFuZCBleHBvcnRzIHRvIFRhaWx3aW5kIG9yIFczQyBEVENHIEpTT04uCgojIyBXaGVuIHRvIHVzZSB0aGlzIHNraWxsCgotIFVzZXIgYXNrcyBmb3IgYSBERVNJR04ubWQgZmlsZSwgZGVzaWduIHRva2Vucywgb3IgYSBkZXNpZ24gc3lzdGVtIHNwZWMKLSBVc2VyIHdhbnRzIGNvbnNpc3RlbnQgVUkvYnJhbmQgYWNyb3NzIG11bHRpcGxlIHByb2plY3RzIG9yIHRvb2xzCi0gVXNlciBwYXN0ZXMgYW4gZXhpc3RpbmcgREVTSUdOLm1kIGFuZCBhc2tzIHRvIGxpbnQsIGRpZmYsIGV4cG9ydCwgb3IgZXh0ZW5kIGl0Ci0gVXNlciBhc2tzIHRvIHBvcnQgYSBzdHlsZSBndWlkZSBpbnRvIGEgZm9ybWF0IGFnZW50cyBjYW4gY29uc3VtZQotIFVzZXIgd2FudHMgY29udHJhc3QgLyBXQ0FHIGFjY2Vzc2liaWxpdHkgdmFsaWRhdGlvbiBvbiB0aGVpciBjb2xvciBwYWxldHRlCgpGb3IgcHVyZWx5IHZpc3VhbCBpbnNwaXJhdGlvbiBvciBsYXlvdXQgZXhhbXBsZXMsIHVzZSBgcG9wdWxhci13ZWItZGVzaWduc2AKaW5zdGVhZC4gRm9yICpwcm9jZXNzIGFuZCB0YXN0ZSogd2hlbiBkZXNpZ25pbmcgYSBvbmUtb2ZmIEhUTUwgYXJ0aWZhY3QKZnJvbSBzY3JhdGNoIChwcm90b3R5cGUsIGRlY2ssIGxhbmRpbmcgcGFnZSwgY29tcG9uZW50IGxhYiksIHVzZQpgY2xhdWRlLWRlc2lnbmAuIFRoaXMgc2tpbGwgaXMgZm9yIHRoZSAqZm9ybWFsIHNwZWMgZmlsZSogaXRzZWxmLgoKIyMgRmlsZSBhbmF0b215CgpgYGBtZAotLS0KdmVyc2lvbjogYWxwaGEKbmFtZTogSGVyaXRhZ2UKZGVzY3JpcHRpb246IEFyY2hpdGVjdHVyYWwgbWluaW1hbGlzbSBtZWV0cyBqb3VybmFsaXN0aWMgZ3Jhdml0YXMuCmNvbG9yczoKICBwcmltYXJ5OiAiIzFBMUMxRSIKICBzZWNvbmRhcnk6ICIjNkM3Mjc4IgogIHRlcnRpYXJ5OiAiI0I4NDIyRSIKICBuZXV0cmFsOiAiI0Y3RjVGMiIKdHlwb2dyYXBoeToKICBoMToKICAgIGZvbnRGYW1pbHk6IFB1YmxpYyBTYW5zCiAgICBmb250U2l6ZTogM3JlbQogICAgZm9udFdlaWdodDogNzAwCiAgICBsaW5lSGVpZ2h0OiAxLjEKICAgIGxldHRlclNwYWNpbmc6ICItMC4wMmVtIgogIGJvZHktbWQ6CiAgICBmb250RmFtaWx5OiBQdWJsaWMgU2FucwogICAgZm9udFNpemU6IDFyZW0Kcm91bmRlZDoKICBzbTogNHB4CiAgbWQ6IDhweAogIGxnOiAxNnB4CnNwYWNpbmc6CiAgc206IDhweAogIG1kOiAxNnB4CiAgbGc6IDI0cHgKY29tcG9uZW50czoKICBidXR0b24tcHJpbWFyeToKICAgIGJhY2tncm91bmRDb2xvcjogIntjb2xvcnMudGVydGlhcnl9IgogICAgdGV4dENvbG9yOiAiI0ZGRkZGRiIKICAgIHJvdW5kZWQ6ICJ7cm91bmRlZC5zbX0iCiAgICBwYWRkaW5nOiAxMnB4CiAgYnV0dG9uLXByaW1hcnktaG92ZXI6CiAgICBiYWNrZ3JvdW5kQ29sb3I6ICJ7Y29sb3JzLnByaW1hcnl9IgotLS0KCiMjIE92ZXJ2aWV3CgpBcmNoaXRlY3R1cmFsIE1pbmltYWxpc20gbWVldHMgSm91cm5hbGlzdGljIEdyYXZpdGFzLi4uCgojIyBDb2xvcnMKCi0gKipQcmltYXJ5ICgjMUExQzFFKToqKiBEZWVwIGluayBmb3IgaGVhZGxpbmVzIGFuZCBjb3JlIHRleHQuCi0gKipUZXJ0aWFyeSAoI0I4NDIyRSk6KiogIkJvc3RvbiBDbGF5IiDigJQgdGhlIHNvbGUgZHJpdmVyIGZvciBpbnRlcmFjdGlvbi4KCiMjIFR5cG9ncmFwaHkKClB1YmxpYyBTYW5zIGZvciBldmVyeXRoaW5nIGV4Y2VwdCBzbWFsbCBhbGwtY2FwcyBsYWJlbHMuLi4KCiMjIENvbXBvbmVudHMKCmBidXR0b24tcHJpbWFyeWAgaXMgdGhlIG9ubHkgaGlnaC1lbXBoYXNpcyBhY3Rpb24gb24gYSBwYWdlLi4uCmBgYAoKIyMgVG9rZW4gdHlwZXMKCnwgVHlwZSB8IEZvcm1hdCB8IEV4YW1wbGUgfAp8LS0tLS0tfC0tLS0tLS0tfC0tLS0tLS0tLXwKfCBDb2xvciB8IGAjYCArIGhleCAoc1JHQikgfCBgIiMxQTFDMUUiYCB8CnwgRGltZW5zaW9uIHwgbnVtYmVyICsgdW5pdCAoYHB4YCwgYGVtYCwgYHJlbWApIHwgYDQ4cHhgLCBgLTAuMDJlbWAgfAp8IFRva2VuIHJlZmVyZW5jZSB8IGB7cGF0aC50by50b2tlbn1gIHwgYHtjb2xvcnMucHJpbWFyeX1gIHwKfCBUeXBvZ3JhcGh5IHwgb2JqZWN0IHdpdGggYGZvbnRGYW1pbHlgLCBgZm9udFNpemVgLCBgZm9udFdlaWdodGAsIGBsaW5lSGVpZ2h0YCwgYGxldHRlclNwYWNpbmdgLCBgZm9udEZlYXR1cmVgLCBgZm9udFZhcmlhdGlvbmAgfCBzZWUgYWJvdmUgfAoKQ29tcG9uZW50IHByb3BlcnR5IHdoaXRlbGlzdDogYGJhY2tncm91bmRDb2xvcmAsIGB0ZXh0Q29sb3JgLCBgdHlwb2dyYXBoeWAsCmByb3VuZGVkYCwgYHBhZGRpbmdgLCBgc2l6ZWAsIGBoZWlnaHRgLCBgd2lkdGhgLiBWYXJpYW50cyAoaG92ZXIsIGFjdGl2ZSwKcHJlc3NlZCkgYXJlICoqc2VwYXJhdGUgY29tcG9uZW50IGVudHJpZXMqKiB3aXRoIHJlbGF0ZWQga2V5IG5hbWVzCihgYnV0dG9uLXByaW1hcnktaG92ZXJgKSwgbm90IG5lc3RlZC4KCiMjIENhbm9uaWNhbCBzZWN0aW9uIG9yZGVyCgpTZWN0aW9ucyBhcmUgb3B0aW9uYWwsIGJ1dCBwcmVzZW50IG9uZXMgTVVTVCBhcHBlYXIgaW4gdGhpcyBvcmRlci4gRHVwbGljYXRlCmhlYWRpbmdzIHJlamVjdCB0aGUgZmlsZS4KCjEuIE92ZXJ2aWV3IChhbGlhczogQnJhbmQgJiBTdHlsZSkKMi4gQ29sb3JzCjMuIFR5cG9ncmFwaHkKNC4gTGF5b3V0IChhbGlhczogTGF5b3V0ICYgU3BhY2luZykKNS4gRWxldmF0aW9uICYgRGVwdGggKGFsaWFzOiBFbGV2YXRpb24pCjYuIFNoYXBlcwo3LiBDb21wb25lbnRzCjguIERvJ3MgYW5kIERvbid0cwoKVW5rbm93biBzZWN0aW9ucyBhcmUgcHJlc2VydmVkLCBub3QgZXJyb3JlZC4gVW5rbm93biB0b2tlbiBuYW1lcyBhcmUgYWNjZXB0ZWQKaWYgdGhlIHZhbHVlIHR5cGUgaXMgdmFsaWQuIFVua25vd24gY29tcG9uZW50IHByb3BlcnRpZXMgcHJvZHVjZSBhIHdhcm5pbmcuCgojIyBXb3JrZmxvdzogYXV0aG9yaW5nIGEgbmV3IERFU0lHTi5tZAoKMS4gKipBc2sgdGhlIHVzZXIqKiAob3IgaW5mZXIpIHRoZSBicmFuZCB0b25lLCBhY2NlbnQgY29sb3IsIGFuZCB0eXBvZ3JhcGh5CiAgIGRpcmVjdGlvbi4gSWYgdGhleSBwcm92aWRlZCBhIHNpdGUsIGltYWdlLCBvciB2aWJlLCB0cmFuc2xhdGUgaXQgdG8gdGhlCiAgIHRva2VuIHNoYXBlIGFib3ZlLgoyLiAqKldyaXRlIGBERVNJR04ubWRgKiogaW4gdGhlaXIgcHJvamVjdCByb290IHVzaW5nIGB3cml0ZV9maWxlYC4gQWx3YXlzCiAgIGluY2x1ZGUgYG5hbWU6YCBhbmQgYGNvbG9yczpgOyBvdGhlciBzZWN0aW9ucyBvcHRpb25hbCBidXQgZW5jb3VyYWdlZC4KMy4gKipVc2UgdG9rZW4gcmVmZXJlbmNlcyoqIChge2NvbG9ycy5wcmltYXJ5fWApIGluIHRoZSBgY29tcG9uZW50czpgIHNlY3Rpb24KICAgaW5zdGVhZCBvZiByZS10eXBpbmcgaGV4IHZhbHVlcy4gS2VlcHMgdGhlIHBhbGV0dGUgc2luZ2xlLXNvdXJjZS4KNC4gKipMaW50IGl0KiogKHNlZSBiZWxvdykuIEZpeCBhbnkgYnJva2VuIHJlZmVyZW5jZXMgb3IgV0NBRyBmYWlsdXJlcwogICBiZWZvcmUgcmV0dXJuaW5nLgo1LiAqKklmIHRoZSB1c2VyIGhhcyBhbiBleGlzdGluZyBwcm9qZWN0KiosIGFsc28gd3JpdGUgVGFpbHdpbmQgb3IgRFRDRwogICBleHBvcnRzIG5leHQgdG8gdGhlIGZpbGUgKGB0YWlsd2luZC50aGVtZS5qc29uYCwgYHRva2Vucy5qc29uYCkuCgojIyBXb3JrZmxvdzogbGludCAvIGRpZmYgLyBleHBvcnQKClRoZSBDTEkgaXMgYEBnb29nbGUvZGVzaWduLm1kYCAoTm9kZSkuIFVzZSBgbnB4YCDigJQgbm8gZ2xvYmFsIGluc3RhbGwgbmVlZGVkLgoKYGBgYmFzaAojIFZhbGlkYXRlIHN0cnVjdHVyZSArIHRva2VuIHJlZmVyZW5jZXMgKyBXQ0FHIGNvbnRyYXN0Cm5weCAteSBAZ29vZ2xlL2Rlc2lnbi5tZCBsaW50IERFU0lHTi5tZAoKIyBDb21wYXJlIHR3byB2ZXJzaW9ucywgZmFpbCBvbiByZWdyZXNzaW9uIChleGl0IDEgPSByZWdyZXNzaW9uKQpucHggLXkgQGdvb2dsZS9kZXNpZ24ubWQgZGlmZiBERVNJR04ubWQgREVTSUdOLXYyLm1kCgojIEV4cG9ydCB0byBUYWlsd2luZCB0aGVtZSBKU09OCm5weCAteSBAZ29vZ2xlL2Rlc2lnbi5tZCBleHBvcnQgLS1mb3JtYXQgdGFpbHdpbmQgREVTSUdOLm1kID4gdGFpbHdpbmQudGhlbWUuanNvbgoKIyBFeHBvcnQgdG8gVzNDIERUQ0cgKERlc2lnbiBUb2tlbnMgRm9ybWF0IE1vZHVsZSkgSlNPTgpucHggLXkgQGdvb2dsZS9kZXNpZ24ubWQgZXhwb3J0IC0tZm9ybWF0IGR0Y2cgREVTSUdOLm1kID4gdG9rZW5zLmpzb24KCiMgUHJpbnQgdGhlIHNwZWMgaXRzZWxmIOKAlCB1c2VmdWwgd2hlbiBpbmplY3RpbmcgaW50byBhbiBhZ2VudCBwcm9tcHQKbnB4IC15IEBnb29nbGUvZGVzaWduLm1kIHNwZWMgLS1ydWxlcy1vbmx5IC0tZm9ybWF0IGpzb24KYGBgCgpBbGwgY29tbWFuZHMgYWNjZXB0IGAtYCBmb3Igc3RkaW4uIGBsaW50YCByZXR1cm5zIGV4aXQgMSBvbiBlcnJvcnMuIFVzZSB0aGUKYC0tZm9ybWF0IGpzb25gIGZsYWcgYW5kIHBhcnNlIHRoZSBvdXRwdXQgaWYgeW91IG5lZWQgdG8gcmVwb3J0IGZpbmRpbmdzCnN0cnVjdHVyYWxseS4KCiMjIyBMaW50IHJ1bGUgcmVmZXJlbmNlICh3aGF0IHRoZSA3IHJ1bGVzIGNhdGNoKQoKLSBgYnJva2VuLXJlZmAgKGVycm9yKSDigJQgYHtjb2xvcnMubWlzc2luZ31gIHBvaW50cyBhdCBhIG5vbi1leGlzdGVudCB0b2tlbgotIGBkdXBsaWNhdGUtc2VjdGlvbmAgKGVycm9yKSDigJQgc2FtZSBgIyMgSGVhZGluZ2AgYXBwZWFycyB0d2ljZQotIGBpbnZhbGlkLWNvbG9yYCwgYGludmFsaWQtZGltZW5zaW9uYCwgYGludmFsaWQtdHlwb2dyYXBoeWAgKGVycm9yKQotIGB3Y2FnLWNvbnRyYXN0YCAod2FybmluZy9pbmZvKSDigJQgY29tcG9uZW50IGB0ZXh0Q29sb3JgIHZzIGBiYWNrZ3JvdW5kQ29sb3JgCiAgcmF0aW8gYWdhaW5zdCBXQ0FHIEFBICg0LjU6MSkgYW5kIEFBQSAoNzoxKQotIGB1bmtub3duLWNvbXBvbmVudC1wcm9wZXJ0eWAgKHdhcm5pbmcpIOKAlCBvdXRzaWRlIHRoZSB3aGl0ZWxpc3QgYWJvdmUKCldoZW4gdGhlIHVzZXIgY2FyZXMgYWJvdXQgYWNjZXNzaWJpbGl0eSwgY2FsbCB0aGlzIG91dCBleHBsaWNpdGx5IGluIHlvdXIKc3VtbWFyeSDigJQgV0NBRyBmaW5kaW5ncyBhcmUgdGhlIG1vc3QgbG9hZC1iZWFyaW5nIHJlYXNvbiB0byB1c2UgdGhlIENMSS4KCiMjIFBpdGZhbGxzCgotICoqRG9uJ3QgbmVzdCBjb21wb25lbnQgdmFyaWFudHMuKiogYGJ1dHRvbi1wcmltYXJ5LmhvdmVyYCBpcyB3cm9uZzsKICBgYnV0dG9uLXByaW1hcnktaG92ZXJgIGFzIGEgc2libGluZyBrZXkgaXMgcmlnaHQuCi0gKipIZXggY29sb3JzIG11c3QgYmUgcXVvdGVkIHN0cmluZ3MuKiogWUFNTCB3aWxsIG90aGVyd2lzZSBjaG9rZSBvbiBgI2Agb3IKICB0cnVuY2F0ZSB2YWx1ZXMgbGlrZSBgIzFBMUMxRWAgb2RkbHkuCi0gKipOZWdhdGl2ZSBkaW1lbnNpb25zIG5lZWQgcXVvdGVzIHRvby4qKiBgbGV0dGVyU3BhY2luZzogLTAuMDJlbWAgcGFyc2VzIGFzCiAgYSBZQU1MIGZsb3cg4oCUIHdyaXRlIGBsZXR0ZXJTcGFjaW5nOiAiLTAuMDJlbSJgLgotICoqU2VjdGlvbiBvcmRlciBpcyBlbmZvcmNlZC4qKiBJZiB0aGUgdXNlciBnaXZlcyB5b3UgcHJvc2UgaW4gYSByYW5kb20gb3JkZXIsCiAgcmVvcmRlciBpdCB0byBtYXRjaCB0aGUgY2Fub25pY2FsIGxpc3QgYmVmb3JlIHNhdmluZy4KLSAqKmB2ZXJzaW9uOiBhbHBoYWAgaXMgdGhlIGN1cnJlbnQgc3BlYyB2ZXJzaW9uKiogKGFzIG9mIEFwciAyMDI2KS4gVGhlIHNwZWMKICBpcyBtYXJrZWQgYWxwaGEg4oCUIHdhdGNoIGZvciBicmVha2luZyBjaGFuZ2VzLgotICoqVG9rZW4gcmVmZXJlbmNlcyByZXNvbHZlIGJ5IGRvdHRlZCBwYXRoLioqIGB7Y29sb3JzLnByaW1hcnl9YCB3b3JrczsKICBge3ByaW1hcnl9YCBkb2VzIG5vdC4KCiMjIFNwZWMgc291cmNlIG9mIHRydXRoCgotIFJlcG86IGh0dHBzOi8vZ2l0aHViLmNvbS9nb29nbGUtbGFicy1jb2RlL2Rlc2lnbi5tZCAoQXBhY2hlLTIuMCkKLSBDTEk6IGBAZ29vZ2xlL2Rlc2lnbi5tZGAgb24gbnBtCi0gTGljZW5zZSBvZiBnZW5lcmF0ZWQgREVTSUdOLm1kIGZpbGVzOiB3aGF0ZXZlciB0aGUgdXNlcidzIHByb2plY3QgdXNlczsKICB0aGUgc3BlYyBpdHNlbGYgaXMgQXBhY2hlLTIuMC4K
+---
+name: design-md
+description: Author/validate/export Google's DESIGN.md token spec files.
+version: 1.0.0
+author: Hermes Agent
+license: MIT
+platforms: [linux, macos, windows]
+metadata:
+  hermes:
+    tags: [design, design-system, tokens, ui, accessibility, wcag, tailwind, dtcg, google]
+    related_skills: [popular-web-designs, claude-design, excalidraw, architecture-diagram]
+---
+
+# DESIGN.md Skill
+
+DESIGN.md is Google's open spec (Apache-2.0, `google-labs-code/design.md`) for
+describing a visual identity to coding agents. One file combines:
+
+- **YAML front matter** — machine-readable design tokens (normative values)
+- **Markdown body** — human-readable rationale, organized into canonical sections
+
+Tokens give exact values. Prose tells agents *why* those values exist and how to
+apply them. The CLI (`npx @google/design.md`) lints structure + WCAG contrast,
+diffs versions for regressions, and exports to Tailwind or W3C DTCG JSON.
+
+## When to use this skill
+
+- User asks for a DESIGN.md file, design tokens, or a design system spec
+- User wants consistent UI/brand across multiple projects or tools
+- User pastes an existing DESIGN.md and asks to lint, diff, export, or extend it
+- User asks to port a style guide into a format agents can consume
+- User wants contrast / WCAG accessibility validation on their color palette
+
+For purely visual inspiration or layout examples, use `popular-web-designs`
+instead. For *process and taste* when designing a one-off HTML artifact
+from scratch (prototype, deck, landing page, component lab), use
+`claude-design`. This skill is for the *formal spec file* itself.
+
+## File anatomy
+
+```md
+---
+version: alpha
+name: Heritage
+description: Architectural minimalism meets journalistic gravitas.
+colors:
+  primary: "#1A1C1E"
+  secondary: "#6C7278"
+  tertiary: "#B8422E"
+  neutral: "#F7F5F2"
+typography:
+  h1:
+    fontFamily: Public Sans
+    fontSize: 3rem
+    fontWeight: 700
+    lineHeight: 1.1
+    letterSpacing: "-0.02em"
+  body-md:
+    fontFamily: Public Sans
+    fontSize: 1rem
+rounded:
+  sm: 4px
+  md: 8px
+  lg: 16px
+spacing:
+  sm: 8px
+  md: 16px
+  lg: 24px
+components:
+  button-primary:
+    backgroundColor: "{colors.tertiary}"
+    textColor: "#FFFFFF"
+    rounded: "{rounded.sm}"
+    padding: 12px
+  button-primary-hover:
+    backgroundColor: "{colors.primary}"
+---
+
+## Overview
+
+Architectural Minimalism meets Journalistic Gravitas...
+
+## Colors
+
+- **Primary (#1A1C1E):** Deep ink for headlines and core text.
+- **Tertiary (#B8422E):** "Boston Clay" — the sole driver for interaction.
+
+## Typography
+
+Public Sans for everything except small all-caps labels...
+
+## Components
+
+`button-primary` is the only high-emphasis action on a page...
+```
+
+## Token types
+
+| Type | Format | Example |
+|------|--------|---------|
+| Color | `#` + hex (sRGB) | `"#1A1C1E"` |
+| Dimension | number + unit (`px`, `em`, `rem`) | `48px`, `-0.02em` |
+| Token reference | `{path.to.token}` | `{colors.primary}` |
+| Typography | object with `fontFamily`, `fontSize`, `fontWeight`, `lineHeight`, `letterSpacing`, `fontFeature`, `fontVariation` | see above |
+
+Component property whitelist: `backgroundColor`, `textColor`, `typography`,
+`rounded`, `padding`, `size`, `height`, `width`. Variants (hover, active,
+pressed) are **separate component entries** with related key names
+(`button-primary-hover`), not nested.
+
+## Canonical section order
+
+Sections are optional, but present ones MUST appear in this order. Duplicate
+headings reject the file.
+
+1. Overview (alias: Brand & Style)
+2. Colors
+3. Typography
+4. Layout (alias: Layout & Spacing)
+5. Elevation & Depth (alias: Elevation)
+6. Shapes
+7. Components
+8. Do's and Don'ts
+
+Unknown sections are preserved, not errored. Unknown token names are accepted
+if the value type is valid. Unknown component properties produce a warning.
+
+## Workflow: authoring a new DESIGN.md
+
+1. **Ask the user** (or infer) the brand tone, accent color, and typography
+   direction. If they provided a site, image, or vibe, translate it to the
+   token shape above.
+2. **Write `DESIGN.md`** in their project root using `write_file`. Always
+   include `name:` and `colors:`; other sections optional but encouraged.
+3. **Use token references** (`{colors.primary}`) in the `components:` section
+   instead of re-typing hex values. Keeps the palette single-source.
+4. **Lint it** (see below). Fix any broken references or WCAG failures
+   before returning.
+5. **If the user has an existing project**, also write Tailwind or DTCG
+   exports next to the file (`tailwind.theme.json`, `tokens.json`).
+
+## Workflow: lint / diff / export
+
+The CLI is `@google/design.md` (Node). Use `npx` — no global install needed.
+
+```bash
+# Validate structure + token references + WCAG contrast
+npx -y @google/design.md lint DESIGN.md
+
+# Compare two versions, fail on regression (exit 1 = regression)
+npx -y @google/design.md diff DESIGN.md DESIGN-v2.md
+
+# Export to Tailwind theme JSON
+npx -y @google/design.md export --format tailwind DESIGN.md > tailwind.theme.json
+
+# Export to W3C DTCG (Design Tokens Format Module) JSON
+npx -y @google/design.md export --format dtcg DESIGN.md > tokens.json
+
+# Print the spec itself — useful when injecting into an agent prompt
+npx -y @google/design.md spec --rules-only --format json
+```
+
+All commands accept `-` for stdin. `lint` returns exit 1 on errors. Use the
+`--format json` flag and parse the output if you need to report findings
+structurally.
+
+### Lint rule reference (what the 7 rules catch)
+
+- `broken-ref` (error) — `{colors.missing}` points at a non-existent token
+- `duplicate-section` (error) — same `## Heading` appears twice
+- `invalid-color`, `invalid-dimension`, `invalid-typography` (error)
+- `wcag-contrast` (warning/info) — component `textColor` vs `backgroundColor`
+  ratio against WCAG AA (4.5:1) and AAA (7:1)
+- `unknown-component-property` (warning) — outside the whitelist above
+
+When the user cares about accessibility, call this out explicitly in your
+summary — WCAG findings are the most load-bearing reason to use the CLI.
+
+## Pitfalls
+
+- **Don't nest component variants.** `button-primary.hover` is wrong;
+  `button-primary-hover` as a sibling key is right.
+- **Hex colors must be quoted strings.** YAML will otherwise choke on `#` or
+  truncate values like `#1A1C1E` oddly.
+- **Negative dimensions need quotes too.** `letterSpacing: -0.02em` parses as
+  a YAML flow — write `letterSpacing: "-0.02em"`.
+- **Section order is enforced.** If the user gives you prose in a random order,
+  reorder it to match the canonical list before saving.
+- **`version: alpha` is the current spec version** (as of Apr 2026). The spec
+  is marked alpha — watch for breaking changes.
+- **Token references resolve by dotted path.** `{colors.primary}` works;
+  `{primary}` does not.
+
+## Spec source of truth
+
+- Repo: https://github.com/google-labs-code/design.md (Apache-2.0)
+- CLI: `@google/design.md` on npm
+- License of generated DESIGN.md files: whatever the user's project uses;
+  the spec itself is Apache-2.0.

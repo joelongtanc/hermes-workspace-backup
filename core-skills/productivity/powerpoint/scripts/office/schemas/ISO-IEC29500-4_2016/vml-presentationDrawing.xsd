@@ -1,1 +1,12 @@
-PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPHhzZDpzY2hlbWEgeG1sbnM6eHNkPSJodHRwOi8vd3d3LnczLm9yZy8yMDAxL1hNTFNjaGVtYSIKICB4bWxucz0idXJuOnNjaGVtYXMtbWljcm9zb2Z0LWNvbTpvZmZpY2U6cG93ZXJwb2ludCIKICB0YXJnZXROYW1lc3BhY2U9InVybjpzY2hlbWFzLW1pY3Jvc29mdC1jb206b2ZmaWNlOnBvd2VycG9pbnQiIGVsZW1lbnRGb3JtRGVmYXVsdD0icXVhbGlmaWVkIgogIGF0dHJpYnV0ZUZvcm1EZWZhdWx0PSJ1bnF1YWxpZmllZCI+CiAgPHhzZDplbGVtZW50IG5hbWU9ImlzY29tbWVudCIgdHlwZT0iQ1RfRW1wdHkiLz4KICA8eHNkOmVsZW1lbnQgbmFtZT0idGV4dGRhdGEiIHR5cGU9IkNUX1JlbCIvPgogIDx4c2Q6Y29tcGxleFR5cGUgbmFtZT0iQ1RfRW1wdHkiLz4KICA8eHNkOmNvbXBsZXhUeXBlIG5hbWU9IkNUX1JlbCI+CiAgICA8eHNkOmF0dHJpYnV0ZSBuYW1lPSJpZCIgdHlwZT0ieHNkOnN0cmluZyIvPgogIDwveHNkOmNvbXBsZXhUeXBlPgo8L3hzZDpzY2hlbWE+Cg==
+<?xml version="1.0" encoding="utf-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+  xmlns="urn:schemas-microsoft-com:office:powerpoint"
+  targetNamespace="urn:schemas-microsoft-com:office:powerpoint" elementFormDefault="qualified"
+  attributeFormDefault="unqualified">
+  <xsd:element name="iscomment" type="CT_Empty"/>
+  <xsd:element name="textdata" type="CT_Rel"/>
+  <xsd:complexType name="CT_Empty"/>
+  <xsd:complexType name="CT_Rel">
+    <xsd:attribute name="id" type="xsd:string"/>
+  </xsd:complexType>
+</xsd:schema>

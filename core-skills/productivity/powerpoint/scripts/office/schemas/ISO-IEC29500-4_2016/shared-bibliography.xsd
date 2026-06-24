@@ -1,1 +1,144 @@
-PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPHhzZDpzY2hlbWEgeG1sbnM6eHNkPSJodHRwOi8vd3d3LnczLm9yZy8yMDAxL1hNTFNjaGVtYSIKICB4bWxucz0iaHR0cDovL3NjaGVtYXMub3BlbnhtbGZvcm1hdHMub3JnL29mZmljZURvY3VtZW50LzIwMDYvYmlibGlvZ3JhcGh5IgogIHhtbG5zOnM9Imh0dHA6Ly9zY2hlbWFzLm9wZW54bWxmb3JtYXRzLm9yZy9vZmZpY2VEb2N1bWVudC8yMDA2L3NoYXJlZFR5cGVzIgogIHRhcmdldE5hbWVzcGFjZT0iaHR0cDovL3NjaGVtYXMub3BlbnhtbGZvcm1hdHMub3JnL29mZmljZURvY3VtZW50LzIwMDYvYmlibGlvZ3JhcGh5IgogIGVsZW1lbnRGb3JtRGVmYXVsdD0icXVhbGlmaWVkIj4KICA8eHNkOmltcG9ydCBuYW1lc3BhY2U9Imh0dHA6Ly9zY2hlbWFzLm9wZW54bWxmb3JtYXRzLm9yZy9vZmZpY2VEb2N1bWVudC8yMDA2L3NoYXJlZFR5cGVzIgogICAgc2NoZW1hTG9jYXRpb249InNoYXJlZC1jb21tb25TaW1wbGVUeXBlcy54c2QiLz4KICA8eHNkOnNpbXBsZVR5cGUgbmFtZT0iU1RfU291cmNlVHlwZSI+CiAgICA8eHNkOnJlc3RyaWN0aW9uIGJhc2U9InM6U1RfU3RyaW5nIj4KICAgICAgPHhzZDplbnVtZXJhdGlvbiB2YWx1ZT0iQXJ0aWNsZUluQVBlcmlvZGljYWwiLz4KICAgICAgPHhzZDplbnVtZXJhdGlvbiB2YWx1ZT0iQm9vayIvPgogICAgICA8eHNkOmVudW1lcmF0aW9uIHZhbHVlPSJCb29rU2VjdGlvbiIvPgogICAgICA8eHNkOmVudW1lcmF0aW9uIHZhbHVlPSJKb3VybmFsQXJ0aWNsZSIvPgogICAgICA8eHNkOmVudW1lcmF0aW9uIHZhbHVlPSJDb25mZXJlbmNlUHJvY2VlZGluZ3MiLz4KICAgICAgPHhzZDplbnVtZXJhdGlvbiB2YWx1ZT0iUmVwb3J0Ii8+CiAgICAgIDx4c2Q6ZW51bWVyYXRpb24gdmFsdWU9IlNvdW5kUmVjb3JkaW5nIi8+CiAgICAgIDx4c2Q6ZW51bWVyYXRpb24gdmFsdWU9IlBlcmZvcm1hbmNlIi8+CiAgICAgIDx4c2Q6ZW51bWVyYXRpb24gdmFsdWU9IkFydCIvPgogICAgICA8eHNkOmVudW1lcmF0aW9uIHZhbHVlPSJEb2N1bWVudEZyb21JbnRlcm5ldFNpdGUiLz4KICAgICAgPHhzZDplbnVtZXJhdGlvbiB2YWx1ZT0iSW50ZXJuZXRTaXRlIi8+CiAgICAgIDx4c2Q6ZW51bWVyYXRpb24gdmFsdWU9IkZpbG0iLz4KICAgICAgPHhzZDplbnVtZXJhdGlvbiB2YWx1ZT0iSW50ZXJ2aWV3Ii8+CiAgICAgIDx4c2Q6ZW51bWVyYXRpb24gdmFsdWU9IlBhdGVudCIvPgogICAgICA8eHNkOmVudW1lcmF0aW9uIHZhbHVlPSJFbGVjdHJvbmljU291cmNlIi8+CiAgICAgIDx4c2Q6ZW51bWVyYXRpb24gdmFsdWU9IkNhc2UiLz4KICAgICAgPHhzZDplbnVtZXJhdGlvbiB2YWx1ZT0iTWlzYyIvPgogICAgPC94c2Q6cmVzdHJpY3Rpb24+CiAgPC94c2Q6c2ltcGxlVHlwZT4KICA8eHNkOmNvbXBsZXhUeXBlIG5hbWU9IkNUX05hbWVMaXN0VHlwZSI+CiAgICA8eHNkOnNlcXVlbmNlPgogICAgICA8eHNkOmVsZW1lbnQgbmFtZT0iUGVyc29uIiB0eXBlPSJDVF9QZXJzb25UeXBlIiBtaW5PY2N1cnM9IjEiIG1heE9jY3Vycz0idW5ib3VuZGVkIi8+CiAgICA8L3hzZDpzZXF1ZW5jZT4KICA8L3hzZDpjb21wbGV4VHlwZT4KICA8eHNkOmNvbXBsZXhUeXBlIG5hbWU9IkNUX1BlcnNvblR5cGUiPgogICAgPHhzZDpzZXF1ZW5jZT4KICAgICAgPHhzZDplbGVtZW50IG5hbWU9Ikxhc3QiIHR5cGU9InM6U1RfU3RyaW5nIiBtaW5PY2N1cnM9IjAiIG1heE9jY3Vycz0idW5ib3VuZGVkIi8+CiAgICAgIDx4c2Q6ZWxlbWVudCBuYW1lPSJGaXJzdCIgdHlwZT0iczpTVF9TdHJpbmciIG1pbk9jY3Vycz0iMCIgbWF4T2NjdXJzPSJ1bmJvdW5kZWQiLz4KICAgICAgPHhzZDplbGVtZW50IG5hbWU9Ik1pZGRsZSIgdHlwZT0iczpTVF9TdHJpbmciIG1pbk9jY3Vycz0iMCIgbWF4T2NjdXJzPSJ1bmJvdW5kZWQiLz4KICAgIDwveHNkOnNlcXVlbmNlPgogIDwveHNkOmNvbXBsZXhUeXBlPgogIDx4c2Q6Y29tcGxleFR5cGUgbmFtZT0iQ1RfTmFtZVR5cGUiPgogICAgPHhzZDpzZXF1ZW5jZT4KICAgICAgPHhzZDplbGVtZW50IG5hbWU9Ik5hbWVMaXN0IiB0eXBlPSJDVF9OYW1lTGlzdFR5cGUiIG1pbk9jY3Vycz0iMSIgbWF4T2NjdXJzPSIxIi8+CiAgICA8L3hzZDpzZXF1ZW5jZT4KICA8L3hzZDpjb21wbGV4VHlwZT4KICA8eHNkOmNvbXBsZXhUeXBlIG5hbWU9IkNUX05hbWVPckNvcnBvcmF0ZVR5cGUiPgogICAgPHhzZDpzZXF1ZW5jZT4KICAgICAgPHhzZDpjaG9pY2UgbWluT2NjdXJzPSIwIiBtYXhPY2N1cnM9IjEiPgogICAgICAgIDx4c2Q6ZWxlbWVudCBuYW1lPSJOYW1lTGlzdCIgdHlwZT0iQ1RfTmFtZUxpc3RUeXBlIiBtaW5PY2N1cnM9IjEiIG1heE9jY3Vycz0iMSIvPgogICAgICAgIDx4c2Q6ZWxlbWVudCBuYW1lPSJDb3Jwb3JhdGUiIG1pbk9jY3Vycz0iMSIgbWF4T2NjdXJzPSIxIiB0eXBlPSJzOlNUX1N0cmluZyIvPgogICAgICA8L3hzZDpjaG9pY2U+CiAgICA8L3hzZDpzZXF1ZW5jZT4KICA8L3hzZDpjb21wbGV4VHlwZT4KICA8eHNkOmNvbXBsZXhUeXBlIG5hbWU9IkNUX0F1dGhvclR5cGUiPgogICAgPHhzZDpzZXF1ZW5jZT4KICAgICAgPHhzZDpjaG9pY2UgbWluT2NjdXJzPSIwIiBtYXhPY2N1cnM9InVuYm91bmRlZCI+CiAgICAgICAgPHhzZDplbGVtZW50IG5hbWU9IkFydGlzdCIgdHlwZT0iQ1RfTmFtZVR5cGUiLz4KICAgICAgICA8eHNkOmVsZW1lbnQgbmFtZT0iQXV0aG9yIiB0eXBlPSJDVF9OYW1lT3JDb3Jwb3JhdGVUeXBlIi8+CiAgICAgICAgPHhzZDplbGVtZW50IG5hbWU9IkJvb2tBdXRob3IiIHR5cGU9IkNUX05hbWVUeXBlIi8+CiAgICAgICAgPHhzZDplbGVtZW50IG5hbWU9IkNvbXBpbGVyIiB0eXBlPSJDVF9OYW1lVHlwZSIvPgogICAgICAgIDx4c2Q6ZWxlbWVudCBuYW1lPSJDb21wb3NlciIgdHlwZT0iQ1RfTmFtZVR5cGUiLz4KICAgICAgICA8eHNkOmVsZW1lbnQgbmFtZT0iQ29uZHVjdG9yIiB0eXBlPSJDVF9OYW1lVHlwZSIvPgogICAgICAgIDx4c2Q6ZWxlbWVudCBuYW1lPSJDb3Vuc2VsIiB0eXBlPSJDVF9OYW1lVHlwZSIvPgogICAgICAgIDx4c2Q6ZWxlbWVudCBuYW1lPSJEaXJlY3RvciIgdHlwZT0iQ1RfTmFtZVR5cGUiLz4KICAgICAgICA8eHNkOmVsZW1lbnQgbmFtZT0iRWRpdG9yIiB0eXBlPSJDVF9OYW1lVHlwZSIvPgogICAgICAgIDx4c2Q6ZWxlbWVudCBuYW1lPSJJbnRlcnZpZXdlZSIgdHlwZT0iQ1RfTmFtZVR5cGUiLz4KICAgICAgICA8eHNkOmVsZW1lbnQgbmFtZT0iSW50ZXJ2aWV3ZXIiIHR5cGU9IkNUX05hbWVUeXBlIi8+CiAgICAgICAgPHhzZDplbGVtZW50IG5hbWU9IkludmVudG9yIiB0eXBlPSJDVF9OYW1lVHlwZSIvPgogICAgICAgIDx4c2Q6ZWxlbWVudCBuYW1lPSJQZXJmb3JtZXIiIHR5cGU9IkNUX05hbWVPckNvcnBvcmF0ZVR5cGUiLz4KICAgICAgICA8eHNkOmVsZW1lbnQgbmFtZT0iUHJvZHVjZXJOYW1lIiB0eXBlPSJDVF9OYW1lVHlwZSIvPgogICAgICAgIDx4c2Q6ZWxlbWVudCBuYW1lPSJUcmFuc2xhdG9yIiB0eXBlPSJDVF9OYW1lVHlwZSIvPgogICAgICAgIDx4c2Q6ZWxlbWVudCBuYW1lPSJXcml0ZXIiIHR5cGU9IkNUX05hbWVUeXBlIi8+CiAgICAgIDwveHNkOmNob2ljZT4KICAgIDwveHNkOnNlcXVlbmNlPgogIDwveHNkOmNvbXBsZXhUeXBlPgogIDx4c2Q6Y29tcGxleFR5cGUgbmFtZT0iQ1RfU291cmNlVHlwZSI+CiAgICA8eHNkOnNlcXVlbmNlPgogICAgICA8eHNkOmNob2ljZSBtaW5PY2N1cnM9IjAiIG1heE9jY3Vycz0idW5ib3VuZGVkIj4KICAgICAgICA8eHNkOmVsZW1lbnQgbmFtZT0iQWJicmV2aWF0ZWRDYXNlTnVtYmVyIiB0eXBlPSJzOlNUX1N0cmluZyIvPgogICAgICAgIDx4c2Q6ZWxlbWVudCBuYW1lPSJBbGJ1bVRpdGxlIiB0eXBlPSJzOlNUX1N0cmluZyIvPgogICAgICAgIDx4c2Q6ZWxlbWVudCBuYW1lPSJBdXRob3IiIHR5cGU9IkNUX0F1dGhvclR5cGUiLz4KICAgICAgICA8eHNkOmVsZW1lbnQgbmFtZT0iQm9va1RpdGxlIiB0eXBlPSJzOlNUX1N0cmluZyIvPgogICAgICAgIDx4c2Q6ZWxlbWVudCBuYW1lPSJCcm9hZGNhc3RlciIgdHlwZT0iczpTVF9TdHJpbmciLz4KICAgICAgICA8eHNkOmVsZW1lbnQgbmFtZT0iQnJvYWRjYXN0VGl0bGUiIHR5cGU9InM6U1RfU3RyaW5nIi8+CiAgICAgICAgPHhzZDplbGVtZW50IG5hbWU9IkNhc2VOdW1iZXIiIHR5cGU9InM6U1RfU3RyaW5nIi8+CiAgICAgICAgPHhzZDplbGVtZW50IG5hbWU9IkNoYXB0ZXJOdW1iZXIiIHR5cGU9InM6U1RfU3RyaW5nIi8+CiAgICAgICAgPHhzZDplbGVtZW50IG5hbWU9IkNpdHkiIHR5cGU9InM6U1RfU3RyaW5nIi8+CiAgICAgICAgPHhzZDplbGVtZW50IG5hbWU9IkNvbW1lbnRzIiB0eXBlPSJzOlNUX1N0cmluZyIvPgogICAgICAgIDx4c2Q6ZWxlbWVudCBuYW1lPSJDb25mZXJlbmNlTmFtZSIgdHlwZT0iczpTVF9TdHJpbmciLz4KICAgICAgICA8eHNkOmVsZW1lbnQgbmFtZT0iQ291bnRyeVJlZ2lvbiIgdHlwZT0iczpTVF9TdHJpbmciLz4KICAgICAgICA8eHNkOmVsZW1lbnQgbmFtZT0iQ291cnQiIHR5cGU9InM6U1RfU3RyaW5nIi8+CiAgICAgICAgPHhzZDplbGVtZW50IG5hbWU9IkRheSIgdHlwZT0iczpTVF9TdHJpbmciLz4KICAgICAgICA8eHNkOmVsZW1lbnQgbmFtZT0iRGF5QWNjZXNzZWQiIHR5cGU9InM6U1RfU3RyaW5nIi8+CiAgICAgICAgPHhzZDplbGVtZW50IG5hbWU9IkRlcGFydG1lbnQiIHR5cGU9InM6U1RfU3RyaW5nIi8+CiAgICAgICAgPHhzZDplbGVtZW50IG5hbWU9IkRpc3RyaWJ1dG9yIiB0eXBlPSJzOlNUX1N0cmluZyIvPgogICAgICAgIDx4c2Q6ZWxlbWVudCBuYW1lPSJFZGl0aW9uIiB0eXBlPSJzOlNUX1N0cmluZyIvPgogICAgICAgIDx4c2Q6ZWxlbWVudCBuYW1lPSJHdWlkIiB0eXBlPSJzOlNUX1N0cmluZyIvPgogICAgICAgIDx4c2Q6ZWxlbWVudCBuYW1lPSJJbnN0aXR1dGlvbiIgdHlwZT0iczpTVF9TdHJpbmciLz4KICAgICAgICA8eHNkOmVsZW1lbnQgbmFtZT0iSW50ZXJuZXRTaXRlVGl0bGUiIHR5cGU9InM6U1RfU3RyaW5nIi8+CiAgICAgICAgPHhzZDplbGVtZW50IG5hbWU9Iklzc3VlIiB0eXBlPSJzOlNUX1N0cmluZyIvPgogICAgICAgIDx4c2Q6ZWxlbWVudCBuYW1lPSJKb3VybmFsTmFtZSIgdHlwZT0iczpTVF9TdHJpbmciLz4KICAgICAgICA8eHNkOmVsZW1lbnQgbmFtZT0iTENJRCIgdHlwZT0iczpTVF9MYW5nIi8+CiAgICAgICAgPHhzZDplbGVtZW50IG5hbWU9Ik1lZGl1bSIgdHlwZT0iczpTVF9TdHJpbmciLz4KICAgICAgICA8eHNkOmVsZW1lbnQgbmFtZT0iTW9udGgiIHR5cGU9InM6U1RfU3RyaW5nIi8+CiAgICAgICAgPHhzZDplbGVtZW50IG5hbWU9Ik1vbnRoQWNjZXNzZWQiIHR5cGU9InM6U1RfU3RyaW5nIi8+CiAgICAgICAgPHhzZDplbGVtZW50IG5hbWU9Ik51bWJlclZvbHVtZXMiIHR5cGU9InM6U1RfU3RyaW5nIi8+CiAgICAgICAgPHhzZDplbGVtZW50IG5hbWU9IlBhZ2VzIiB0eXBlPSJzOlNUX1N0cmluZyIvPgogICAgICAgIDx4c2Q6ZWxlbWVudCBuYW1lPSJQYXRlbnROdW1iZXIiIHR5cGU9InM6U1RfU3RyaW5nIi8+CiAgICAgICAgPHhzZDplbGVtZW50IG5hbWU9IlBlcmlvZGljYWxUaXRsZSIgdHlwZT0iczpTVF9TdHJpbmciLz4KICAgICAgICA8eHNkOmVsZW1lbnQgbmFtZT0iUHJvZHVjdGlvbkNvbXBhbnkiIHR5cGU9InM6U1RfU3RyaW5nIi8+CiAgICAgICAgPHhzZDplbGVtZW50IG5hbWU9IlB1YmxpY2F0aW9uVGl0bGUiIHR5cGU9InM6U1RfU3RyaW5nIi8+CiAgICAgICAgPHhzZDplbGVtZW50IG5hbWU9IlB1Ymxpc2hlciIgdHlwZT0iczpTVF9TdHJpbmciLz4KICAgICAgICA8eHNkOmVsZW1lbnQgbmFtZT0iUmVjb3JkaW5nTnVtYmVyIiB0eXBlPSJzOlNUX1N0cmluZyIvPgogICAgICAgIDx4c2Q6ZWxlbWVudCBuYW1lPSJSZWZPcmRlciIgdHlwZT0iczpTVF9TdHJpbmciLz4KICAgICAgICA8eHNkOmVsZW1lbnQgbmFtZT0iUmVwb3J0ZXIiIHR5cGU9InM6U1RfU3RyaW5nIi8+CiAgICAgICAgPHhzZDplbGVtZW50IG5hbWU9IlNvdXJjZVR5cGUiIHR5cGU9IlNUX1NvdXJjZVR5cGUiLz4KICAgICAgICA8eHNkOmVsZW1lbnQgbmFtZT0iU2hvcnRUaXRsZSIgdHlwZT0iczpTVF9TdHJpbmciLz4KICAgICAgICA8eHNkOmVsZW1lbnQgbmFtZT0iU3RhbmRhcmROdW1iZXIiIHR5cGU9InM6U1RfU3RyaW5nIi8+CiAgICAgICAgPHhzZDplbGVtZW50IG5hbWU9IlN0YXRlUHJvdmluY2UiIHR5cGU9InM6U1RfU3RyaW5nIi8+CiAgICAgICAgPHhzZDplbGVtZW50IG5hbWU9IlN0YXRpb24iIHR5cGU9InM6U1RfU3RyaW5nIi8+CiAgICAgICAgPHhzZDplbGVtZW50IG5hbWU9IlRhZyIgdHlwZT0iczpTVF9TdHJpbmciLz4KICAgICAgICA8eHNkOmVsZW1lbnQgbmFtZT0iVGhlYXRlciIgdHlwZT0iczpTVF9TdHJpbmciLz4KICAgICAgICA8eHNkOmVsZW1lbnQgbmFtZT0iVGhlc2lzVHlwZSIgdHlwZT0iczpTVF9TdHJpbmciLz4KICAgICAgICA8eHNkOmVsZW1lbnQgbmFtZT0iVGl0bGUiIHR5cGU9InM6U1RfU3RyaW5nIi8+CiAgICAgICAgPHhzZDplbGVtZW50IG5hbWU9IlR5cGUiIHR5cGU9InM6U1RfU3RyaW5nIi8+CiAgICAgICAgPHhzZDplbGVtZW50IG5hbWU9IlVSTCIgdHlwZT0iczpTVF9TdHJpbmciLz4KICAgICAgICA8eHNkOmVsZW1lbnQgbmFtZT0iVmVyc2lvbiIgdHlwZT0iczpTVF9TdHJpbmciLz4KICAgICAgICA8eHNkOmVsZW1lbnQgbmFtZT0iVm9sdW1lIiB0eXBlPSJzOlNUX1N0cmluZyIvPgogICAgICAgIDx4c2Q6ZWxlbWVudCBuYW1lPSJZZWFyIiB0eXBlPSJzOlNUX1N0cmluZyIvPgogICAgICAgIDx4c2Q6ZWxlbWVudCBuYW1lPSJZZWFyQWNjZXNzZWQiIHR5cGU9InM6U1RfU3RyaW5nIi8+CiAgICAgIDwveHNkOmNob2ljZT4KICAgIDwveHNkOnNlcXVlbmNlPgogIDwveHNkOmNvbXBsZXhUeXBlPgogIDx4c2Q6ZWxlbWVudCBuYW1lPSJTb3VyY2VzIiB0eXBlPSJDVF9Tb3VyY2VzIi8+CiAgPHhzZDpjb21wbGV4VHlwZSBuYW1lPSJDVF9Tb3VyY2VzIj4KICAgIDx4c2Q6c2VxdWVuY2U+CiAgICAgIDx4c2Q6ZWxlbWVudCBuYW1lPSJTb3VyY2UiIHR5cGU9IkNUX1NvdXJjZVR5cGUiIG1pbk9jY3Vycz0iMCIgbWF4T2NjdXJzPSJ1bmJvdW5kZWQiLz4KICAgIDwveHNkOnNlcXVlbmNlPgogICAgPHhzZDphdHRyaWJ1dGUgbmFtZT0iU2VsZWN0ZWRTdHlsZSIgdHlwZT0iczpTVF9TdHJpbmciLz4KICAgIDx4c2Q6YXR0cmlidXRlIG5hbWU9IlN0eWxlTmFtZSIgdHlwZT0iczpTVF9TdHJpbmciLz4KICAgIDx4c2Q6YXR0cmlidXRlIG5hbWU9IlVSSSIgdHlwZT0iczpTVF9TdHJpbmciLz4KICA8L3hzZDpjb21wbGV4VHlwZT4KPC94c2Q6c2NoZW1hPgo=
+<?xml version="1.0" encoding="utf-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+  xmlns="http://schemas.openxmlformats.org/officeDocument/2006/bibliography"
+  xmlns:s="http://schemas.openxmlformats.org/officeDocument/2006/sharedTypes"
+  targetNamespace="http://schemas.openxmlformats.org/officeDocument/2006/bibliography"
+  elementFormDefault="qualified">
+  <xsd:import namespace="http://schemas.openxmlformats.org/officeDocument/2006/sharedTypes"
+    schemaLocation="shared-commonSimpleTypes.xsd"/>
+  <xsd:simpleType name="ST_SourceType">
+    <xsd:restriction base="s:ST_String">
+      <xsd:enumeration value="ArticleInAPeriodical"/>
+      <xsd:enumeration value="Book"/>
+      <xsd:enumeration value="BookSection"/>
+      <xsd:enumeration value="JournalArticle"/>
+      <xsd:enumeration value="ConferenceProceedings"/>
+      <xsd:enumeration value="Report"/>
+      <xsd:enumeration value="SoundRecording"/>
+      <xsd:enumeration value="Performance"/>
+      <xsd:enumeration value="Art"/>
+      <xsd:enumeration value="DocumentFromInternetSite"/>
+      <xsd:enumeration value="InternetSite"/>
+      <xsd:enumeration value="Film"/>
+      <xsd:enumeration value="Interview"/>
+      <xsd:enumeration value="Patent"/>
+      <xsd:enumeration value="ElectronicSource"/>
+      <xsd:enumeration value="Case"/>
+      <xsd:enumeration value="Misc"/>
+    </xsd:restriction>
+  </xsd:simpleType>
+  <xsd:complexType name="CT_NameListType">
+    <xsd:sequence>
+      <xsd:element name="Person" type="CT_PersonType" minOccurs="1" maxOccurs="unbounded"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="CT_PersonType">
+    <xsd:sequence>
+      <xsd:element name="Last" type="s:ST_String" minOccurs="0" maxOccurs="unbounded"/>
+      <xsd:element name="First" type="s:ST_String" minOccurs="0" maxOccurs="unbounded"/>
+      <xsd:element name="Middle" type="s:ST_String" minOccurs="0" maxOccurs="unbounded"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="CT_NameType">
+    <xsd:sequence>
+      <xsd:element name="NameList" type="CT_NameListType" minOccurs="1" maxOccurs="1"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="CT_NameOrCorporateType">
+    <xsd:sequence>
+      <xsd:choice minOccurs="0" maxOccurs="1">
+        <xsd:element name="NameList" type="CT_NameListType" minOccurs="1" maxOccurs="1"/>
+        <xsd:element name="Corporate" minOccurs="1" maxOccurs="1" type="s:ST_String"/>
+      </xsd:choice>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="CT_AuthorType">
+    <xsd:sequence>
+      <xsd:choice minOccurs="0" maxOccurs="unbounded">
+        <xsd:element name="Artist" type="CT_NameType"/>
+        <xsd:element name="Author" type="CT_NameOrCorporateType"/>
+        <xsd:element name="BookAuthor" type="CT_NameType"/>
+        <xsd:element name="Compiler" type="CT_NameType"/>
+        <xsd:element name="Composer" type="CT_NameType"/>
+        <xsd:element name="Conductor" type="CT_NameType"/>
+        <xsd:element name="Counsel" type="CT_NameType"/>
+        <xsd:element name="Director" type="CT_NameType"/>
+        <xsd:element name="Editor" type="CT_NameType"/>
+        <xsd:element name="Interviewee" type="CT_NameType"/>
+        <xsd:element name="Interviewer" type="CT_NameType"/>
+        <xsd:element name="Inventor" type="CT_NameType"/>
+        <xsd:element name="Performer" type="CT_NameOrCorporateType"/>
+        <xsd:element name="ProducerName" type="CT_NameType"/>
+        <xsd:element name="Translator" type="CT_NameType"/>
+        <xsd:element name="Writer" type="CT_NameType"/>
+      </xsd:choice>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="CT_SourceType">
+    <xsd:sequence>
+      <xsd:choice minOccurs="0" maxOccurs="unbounded">
+        <xsd:element name="AbbreviatedCaseNumber" type="s:ST_String"/>
+        <xsd:element name="AlbumTitle" type="s:ST_String"/>
+        <xsd:element name="Author" type="CT_AuthorType"/>
+        <xsd:element name="BookTitle" type="s:ST_String"/>
+        <xsd:element name="Broadcaster" type="s:ST_String"/>
+        <xsd:element name="BroadcastTitle" type="s:ST_String"/>
+        <xsd:element name="CaseNumber" type="s:ST_String"/>
+        <xsd:element name="ChapterNumber" type="s:ST_String"/>
+        <xsd:element name="City" type="s:ST_String"/>
+        <xsd:element name="Comments" type="s:ST_String"/>
+        <xsd:element name="ConferenceName" type="s:ST_String"/>
+        <xsd:element name="CountryRegion" type="s:ST_String"/>
+        <xsd:element name="Court" type="s:ST_String"/>
+        <xsd:element name="Day" type="s:ST_String"/>
+        <xsd:element name="DayAccessed" type="s:ST_String"/>
+        <xsd:element name="Department" type="s:ST_String"/>
+        <xsd:element name="Distributor" type="s:ST_String"/>
+        <xsd:element name="Edition" type="s:ST_String"/>
+        <xsd:element name="Guid" type="s:ST_String"/>
+        <xsd:element name="Institution" type="s:ST_String"/>
+        <xsd:element name="InternetSiteTitle" type="s:ST_String"/>
+        <xsd:element name="Issue" type="s:ST_String"/>
+        <xsd:element name="JournalName" type="s:ST_String"/>
+        <xsd:element name="LCID" type="s:ST_Lang"/>
+        <xsd:element name="Medium" type="s:ST_String"/>
+        <xsd:element name="Month" type="s:ST_String"/>
+        <xsd:element name="MonthAccessed" type="s:ST_String"/>
+        <xsd:element name="NumberVolumes" type="s:ST_String"/>
+        <xsd:element name="Pages" type="s:ST_String"/>
+        <xsd:element name="PatentNumber" type="s:ST_String"/>
+        <xsd:element name="PeriodicalTitle" type="s:ST_String"/>
+        <xsd:element name="ProductionCompany" type="s:ST_String"/>
+        <xsd:element name="PublicationTitle" type="s:ST_String"/>
+        <xsd:element name="Publisher" type="s:ST_String"/>
+        <xsd:element name="RecordingNumber" type="s:ST_String"/>
+        <xsd:element name="RefOrder" type="s:ST_String"/>
+        <xsd:element name="Reporter" type="s:ST_String"/>
+        <xsd:element name="SourceType" type="ST_SourceType"/>
+        <xsd:element name="ShortTitle" type="s:ST_String"/>
+        <xsd:element name="StandardNumber" type="s:ST_String"/>
+        <xsd:element name="StateProvince" type="s:ST_String"/>
+        <xsd:element name="Station" type="s:ST_String"/>
+        <xsd:element name="Tag" type="s:ST_String"/>
+        <xsd:element name="Theater" type="s:ST_String"/>
+        <xsd:element name="ThesisType" type="s:ST_String"/>
+        <xsd:element name="Title" type="s:ST_String"/>
+        <xsd:element name="Type" type="s:ST_String"/>
+        <xsd:element name="URL" type="s:ST_String"/>
+        <xsd:element name="Version" type="s:ST_String"/>
+        <xsd:element name="Volume" type="s:ST_String"/>
+        <xsd:element name="Year" type="s:ST_String"/>
+        <xsd:element name="YearAccessed" type="s:ST_String"/>
+      </xsd:choice>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:element name="Sources" type="CT_Sources"/>
+  <xsd:complexType name="CT_Sources">
+    <xsd:sequence>
+      <xsd:element name="Source" type="CT_SourceType" minOccurs="0" maxOccurs="unbounded"/>
+    </xsd:sequence>
+    <xsd:attribute name="SelectedStyle" type="s:ST_String"/>
+    <xsd:attribute name="StyleName" type="s:ST_String"/>
+    <xsd:attribute name="URI" type="s:ST_String"/>
+  </xsd:complexType>
+</xsd:schema>

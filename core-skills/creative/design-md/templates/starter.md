@@ -1,1 +1,99 @@
-LS0tCnZlcnNpb246IGFscGhhCm5hbWU6IE15QnJhbmQKZGVzY3JpcHRpb246IE9uZS1zZW50ZW5jZSBkZXNjcmlwdGlvbiBvZiB0aGUgdmlzdWFsIGlkZW50aXR5Lgpjb2xvcnM6CiAgcHJpbWFyeTogIiMwRjE3MkEiCiAgc2Vjb25kYXJ5OiAiIzY0NzQ4QiIKICB0ZXJ0aWFyeTogIiMyNTYzRUIiCiAgbmV1dHJhbDogIiNGOEZBRkMiCiAgb24tcHJpbWFyeTogIiNGRkZGRkYiCiAgb24tdGVydGlhcnk6ICIjRkZGRkZGIgp0eXBvZ3JhcGh5OgogIGgxOgogICAgZm9udEZhbWlseTogSW50ZXIKICAgIGZvbnRTaXplOiAzcmVtCiAgICBmb250V2VpZ2h0OiA3MDAKICAgIGxpbmVIZWlnaHQ6IDEuMQogICAgbGV0dGVyU3BhY2luZzogIi0wLjAyZW0iCiAgaDI6CiAgICBmb250RmFtaWx5OiBJbnRlcgogICAgZm9udFNpemU6IDJyZW0KICAgIGZvbnRXZWlnaHQ6IDYwMAogICAgbGluZUhlaWdodDogMS4yCiAgYm9keS1tZDoKICAgIGZvbnRGYW1pbHk6IEludGVyCiAgICBmb250U2l6ZTogMXJlbQogICAgbGluZUhlaWdodDogMS41CiAgbGFiZWwtY2FwczoKICAgIGZvbnRGYW1pbHk6IEludGVyCiAgICBmb250U2l6ZTogMC43NXJlbQogICAgZm9udFdlaWdodDogNjAwCiAgICBsZXR0ZXJTcGFjaW5nOiAiMC4wOGVtIgpyb3VuZGVkOgogIHNtOiA0cHgKICBtZDogOHB4CiAgbGc6IDE2cHgKICBmdWxsOiA5OTk5cHgKc3BhY2luZzoKICB4czogNHB4CiAgc206IDhweAogIG1kOiAxNnB4CiAgbGc6IDI0cHgKICB4bDogNDhweApjb21wb25lbnRzOgogIGJ1dHRvbi1wcmltYXJ5OgogICAgYmFja2dyb3VuZENvbG9yOiAie2NvbG9ycy50ZXJ0aWFyeX0iCiAgICB0ZXh0Q29sb3I6ICJ7Y29sb3JzLm9uLXRlcnRpYXJ5fSIKICAgIHJvdW5kZWQ6ICJ7cm91bmRlZC5zbX0iCiAgICBwYWRkaW5nOiAxMnB4CiAgYnV0dG9uLXByaW1hcnktaG92ZXI6CiAgICBiYWNrZ3JvdW5kQ29sb3I6ICJ7Y29sb3JzLnByaW1hcnl9IgogICAgdGV4dENvbG9yOiAie2NvbG9ycy5vbi1wcmltYXJ5fSIKICBjYXJkOgogICAgYmFja2dyb3VuZENvbG9yOiAie2NvbG9ycy5uZXV0cmFsfSIKICAgIHRleHRDb2xvcjogIntjb2xvcnMucHJpbWFyeX0iCiAgICByb3VuZGVkOiAie3JvdW5kZWQubWR9IgogICAgcGFkZGluZzogMjRweAotLS0KCiMjIE92ZXJ2aWV3CgpEZXNjcmliZSB0aGUgdm9pY2UgYW5kIGZlZWwgb2YgdGhlIGJyYW5kIGluIG9uZSBvciB0d28gcGFyYWdyYXBocy4gV2hhdCBtb29kCmRvZXMgaXQgZXZva2U/IFdoYXQgZW1vdGlvbmFsIHJlc3BvbnNlIHNob3VsZCBhIHVzZXIgaGF2ZSBvbiBmaXJzdCBpbXByZXNzaW9uPwoKIyMgQ29sb3JzCgotICoqUHJpbWFyeSAoe2NvbG9ycy5wcmltYXJ5fSk6KiogQ29yZSB0ZXh0LCBoZWFkbGluZXMsIGhpZ2gtZW1waGFzaXMgc3VyZmFjZXMuCi0gKipTZWNvbmRhcnkgKHtjb2xvcnMuc2Vjb25kYXJ5fSk6KiogU3VwcG9ydGluZyB0ZXh0LCBib3JkZXJzLCBtZXRhZGF0YS4KLSAqKlRlcnRpYXJ5ICh7Y29sb3JzLnRlcnRpYXJ5fSk6KiogSW50ZXJhY3Rpb24gZHJpdmVyIOKAlCBidXR0b25zLCBsaW5rcywKICBzZWxlY3RlZCBzdGF0ZXMuIFVzZSBzcGFyaW5nbHkgdG8gcHJlc2VydmUgaXRzIHNpZ25hbC4KLSAqKk5ldXRyYWwgKHtjb2xvcnMubmV1dHJhbH0pOioqIFBhZ2UgYmFja2dyb3VuZCBhbmQgc3VyZmFjZSBmaWxscy4KCiMjIFR5cG9ncmFwaHkKCkludGVyIGZvciBldmVyeXRoaW5nLiBXZWlnaHQgYW5kIHNpemUgY2FycnkgaGllcmFyY2h5LCBub3QgZm9udCBmYW1pbHkuIFRpZ2h0CmxldHRlci1zcGFjaW5nIG9uIGRpc3BsYXkgc2l6ZXM7IGRlZmF1bHQgdHJhY2tpbmcgb24gYm9keS4KCiMjIExheW91dAoKU3BhY2luZyBzY2FsZSBpcyBhIDRweCBiYXNlbGluZS4gVXNlIGBtZGAgKDE2cHgpIGZvciBpbnRyYS1jb21wb25lbnQgZ2FwcywKYGxnYCAoMjRweCkgZm9yIGludGVyLWNvbXBvbmVudCBnYXBzLCBgeGxgICg0OHB4KSBmb3Igc2VjdGlvbiBicmVha3MuCgojIyBTaGFwZXMKClJvdW5kZWQgY29ybmVycyBhcmUgbW9kZXN0IOKAlCBgc21gIG9uIGludGVyYWN0aXZlIGVsZW1lbnRzLCBgbWRgIG9uIGNhcmRzLgpgZnVsbGAgaXMgcmVzZXJ2ZWQgZm9yIGF2YXRhcnMgYW5kIHBpbGwgYmFkZ2VzLgoKIyMgQ29tcG9uZW50cwoKLSBgYnV0dG9uLXByaW1hcnlgIGlzIHRoZSBvbmx5IGhpZ2gtZW1waGFzaXMgYWN0aW9uIHBlciBzY3JlZW4uCi0gYGNhcmRgIGlzIHRoZSBkZWZhdWx0IHN1cmZhY2UgZm9yIGdyb3VwZWQgY29udGVudC4gTm8gc2hhZG93IGJ5IGRlZmF1bHQuCgojIyBEbydzIGFuZCBEb24ndHMKCi0gKipEbyoqIHVzZSB0b2tlbiByZWZlcmVuY2VzIChge2NvbG9ycy5wcmltYXJ5fWApIGluc3RlYWQgb2YgbGl0ZXJhbCBoZXggaW4KICBjb21wb25lbnQgZGVmaW5pdGlvbnMuCi0gKipEb24ndCoqIGludHJvZHVjZSBjb2xvcnMgb3V0c2lkZSB0aGUgcGFsZXR0ZSDigJQgZXh0ZW5kIHRoZSBwYWxldHRlIGZpcnN0LgotICoqRG9uJ3QqKiBuZXN0IGNvbXBvbmVudCB2YXJpYW50cy4gYGJ1dHRvbi1wcmltYXJ5LWhvdmVyYCBpcyBhIHNpYmxpbmcsCiAgbm90IGEgY2hpbGQuCg==
+---
+version: alpha
+name: MyBrand
+description: One-sentence description of the visual identity.
+colors:
+  primary: "#0F172A"
+  secondary: "#64748B"
+  tertiary: "#2563EB"
+  neutral: "#F8FAFC"
+  on-primary: "#FFFFFF"
+  on-tertiary: "#FFFFFF"
+typography:
+  h1:
+    fontFamily: Inter
+    fontSize: 3rem
+    fontWeight: 700
+    lineHeight: 1.1
+    letterSpacing: "-0.02em"
+  h2:
+    fontFamily: Inter
+    fontSize: 2rem
+    fontWeight: 600
+    lineHeight: 1.2
+  body-md:
+    fontFamily: Inter
+    fontSize: 1rem
+    lineHeight: 1.5
+  label-caps:
+    fontFamily: Inter
+    fontSize: 0.75rem
+    fontWeight: 600
+    letterSpacing: "0.08em"
+rounded:
+  sm: 4px
+  md: 8px
+  lg: 16px
+  full: 9999px
+spacing:
+  xs: 4px
+  sm: 8px
+  md: 16px
+  lg: 24px
+  xl: 48px
+components:
+  button-primary:
+    backgroundColor: "{colors.tertiary}"
+    textColor: "{colors.on-tertiary}"
+    rounded: "{rounded.sm}"
+    padding: 12px
+  button-primary-hover:
+    backgroundColor: "{colors.primary}"
+    textColor: "{colors.on-primary}"
+  card:
+    backgroundColor: "{colors.neutral}"
+    textColor: "{colors.primary}"
+    rounded: "{rounded.md}"
+    padding: 24px
+---
+
+## Overview
+
+Describe the voice and feel of the brand in one or two paragraphs. What mood
+does it evoke? What emotional response should a user have on first impression?
+
+## Colors
+
+- **Primary ({colors.primary}):** Core text, headlines, high-emphasis surfaces.
+- **Secondary ({colors.secondary}):** Supporting text, borders, metadata.
+- **Tertiary ({colors.tertiary}):** Interaction driver — buttons, links,
+  selected states. Use sparingly to preserve its signal.
+- **Neutral ({colors.neutral}):** Page background and surface fills.
+
+## Typography
+
+Inter for everything. Weight and size carry hierarchy, not font family. Tight
+letter-spacing on display sizes; default tracking on body.
+
+## Layout
+
+Spacing scale is a 4px baseline. Use `md` (16px) for intra-component gaps,
+`lg` (24px) for inter-component gaps, `xl` (48px) for section breaks.
+
+## Shapes
+
+Rounded corners are modest — `sm` on interactive elements, `md` on cards.
+`full` is reserved for avatars and pill badges.
+
+## Components
+
+- `button-primary` is the only high-emphasis action per screen.
+- `card` is the default surface for grouped content. No shadow by default.
+
+## Do's and Don'ts
+
+- **Do** use token references (`{colors.primary}`) instead of literal hex in
+  component definitions.
+- **Don't** introduce colors outside the palette — extend the palette first.
+- **Don't** nest component variants. `button-primary-hover` is a sibling,
+  not a child.

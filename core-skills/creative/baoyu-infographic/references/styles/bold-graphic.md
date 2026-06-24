@@ -1,1 +1,36 @@
-IyBib2xkLWdyYXBoaWMKCkhpZ2gtY29udHJhc3QgY29taWMgc3R5bGUgd2l0aCBib2xkIG91dGxpbmVzIGFuZCBkcmFtYXRpYyB2aXN1YWxzLgoKIyMgQ29sb3IgUGFsZXR0ZQoKLSBQcmltYXJ5OiBCb2xkIHByaW1hcmllcyAtIHJlZCwgeWVsbG93LCBibHVlLCBibGFjawotIEJhY2tncm91bmQ6IFdoaXRlLCBoYWxmdG9uZSBwYXR0ZXJucywgZHJhbWF0aWMgc2hhZG93cwotIEFjY2VudHM6IFNwb3QgY29sb3JzLCBuZW9uIGhpZ2hsaWdodHMKCiMjIFZhcmlhbnRzCgp8IFZhcmlhbnQgfCBGb2N1cyB8IFZpc3VhbCBFbXBoYXNpcyB8CnwtLS0tLS0tLS18LS0tLS0tLXwtLS0tLS0tLS0tLS0tLS0tLXwKfCAqKkdyYXBoaWMtbm92ZWwqKiB8IERyYW1hdGljIG5hcnJhdGl2ZXMgfCBBY3Rpb24gbGluZXMsIGhhdGNoaW5nLCBwYW5lbHMgfAp8ICoqUG9wLWFydCoqIHwgSGlnaC1lbmVyZ3kgaW1wYWN0IHwgSGFsZnRvbmUgZG90cywgV2FyaG9sIHJlcGV0aXRpb24gfAoKIyMgVmlzdWFsIEVsZW1lbnRzCgotIEJvbGQgYmxhY2sgb3V0bGluZXMKLSBIaWdoIGNvbnRyYXN0IGNvbXBvc2l0aW9ucwotIEhhbGZ0b25lIGRvdCBwYXR0ZXJucwotIENvbWljIHBhbmVsIGJvcmRlcnMgb3B0aW9uYWwKLSBBY3Rpb24gbGluZXMgYW5kIG1vdGlvbgotIFNwZWVjaCBidWJibGVzIGFuZCBzb3VuZCBlZmZlY3RzCgojIyBUeXBvZ3JhcGh5CgotIENvbWljIGJvb2sgbGV0dGVyaW5nCi0gSW1wYWN0IGZvbnRzIGZvciBlbXBoYXNpcwotIFBPVy9CQU5HIGVmZmVjdHMgZm9yIHBvcC1hcnQKLSBDYXB0aW9uIGJveGVzIGZvciBuYXJyYXRpdmUKCiMjIEJlc3QgRm9yCgpBdHRlbnRpb24tZ3JhYmJpbmcgY29udGVudCwgZHJhbWF0aWMgbmFycmF0aXZlcywgcG9wIGN1bHR1cmUsIG1hcmtldGluZywgaGlnaC1lbmVyZ3kgcHJlc2VudGF0aW9ucwo=
+# bold-graphic
+
+High-contrast comic style with bold outlines and dramatic visuals.
+
+## Color Palette
+
+- Primary: Bold primaries - red, yellow, blue, black
+- Background: White, halftone patterns, dramatic shadows
+- Accents: Spot colors, neon highlights
+
+## Variants
+
+| Variant | Focus | Visual Emphasis |
+|---------|-------|-----------------|
+| **Graphic-novel** | Dramatic narratives | Action lines, hatching, panels |
+| **Pop-art** | High-energy impact | Halftone dots, Warhol repetition |
+
+## Visual Elements
+
+- Bold black outlines
+- High contrast compositions
+- Halftone dot patterns
+- Comic panel borders optional
+- Action lines and motion
+- Speech bubbles and sound effects
+
+## Typography
+
+- Comic book lettering
+- Impact fonts for emphasis
+- POW/BANG effects for pop-art
+- Caption boxes for narrative
+
+## Best For
+
+Attention-grabbing content, dramatic narratives, pop culture, marketing, high-energy presentations
