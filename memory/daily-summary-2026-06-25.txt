@@ -1,0 +1,4 @@
+Backup completed on 2026-06-25
+Files: ~/.hermes/, ~/.agents/
+Local path: /opt/data/home/backup-2026-06-25.tar.gz
+Upload status: failed
