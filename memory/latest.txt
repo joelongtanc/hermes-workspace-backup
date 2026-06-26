@@ -1,3 +1,6 @@
 Last backup: 2026-06-26
-Status: Success
-Files: hermes config, .env (masked)
+Status: SUCCESS
+Files: hermes config directory with masked API keys
+Backup SHA: 14bc0e6dfa4be1e32bec3cb43088fad9c955a689
+Local path: /opt/data/home/backup-2026-06-26.tar.gz
+Memory updated: memory/latest.txt
