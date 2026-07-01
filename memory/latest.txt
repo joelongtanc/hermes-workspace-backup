@@ -1,3 +1,4 @@
-Last backup: 2026-06-27
+Last backup: 2026-07-01
 Status: SUCCESS
-Backup size: 7752 bytes
+Files: hermes config, agents, .env
+Size: 8KB
